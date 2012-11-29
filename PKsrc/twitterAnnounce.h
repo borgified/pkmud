@@ -17,6 +17,7 @@ class twitterAnnounce
     int outprio;
     int last_time;
     int delay;
+    int initialized;
 };
 
 

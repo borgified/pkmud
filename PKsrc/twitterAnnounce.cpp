@@ -11,7 +11,7 @@
 
 
 twitterAnnounce::twitterAnnounce( void )
-  : outprio(0), last_time(0)
+  : outprio(0), last_time(0), initialized(0)
 {
 }
 
@@ -27,39 +27,83 @@ void twitterAnnounce::init( int _lastTime, int _delay )
   last_time = _lastTime;
   delay = _delay;
 
-  std::string pkuser( "PKMudAnnounce" );
-  std::string pkpwd( "NPcywfWAXf8LYQuq" );
+  std::string pkUser("");
+  std::string pkPassword("");
+  std::string pkConsumerKey("");
+  std::string pkConsumerSecret("");
+  std::string pkOAuthToken("");
+  std::string pkOAuthTokenSecret("");
+  std::ifstream fileStream;
+  char tmpBuf[1024];
 
-  twitterObj.setTwitterUsername( pkuser );
-  twitterObj.setTwitterPassword( pkpwd );
+  fileStream.open( "../PKauth/pk_user.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkUser = tmpBuf;
+  fileStream.close( );
+
+  fileStream.open( "../PKauth/pk_password.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkPassword = tmpBuf;
+  fileStream.close( );
+
+  fileStream.open( "../PKauth/pk_consumer_key.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkConsumerKey = tmpBuf;
+  fileStream.close( );
+
+  fileStream.open( "../PKauth/pk_consumer_secret.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkConsumerSecret = tmpBuf;
+  fileStream.close( );
+
+  fileStream.open( "../PKauth/pk_oauth_token.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkOAuthToken = tmpBuf;
+  fileStream.close( );
+
+  fileStream.open( "../PKauth/pk_oauth_token_secret.txt" );
+  memset( tmpBuf, 0, 1024 );
+  fileStream >> tmpBuf;
+  pkOAuthTokenSecret = tmpBuf;
+  fileStream.close( );
+
+
+  twitterObj.setTwitterUsername( pkUser );
+  twitterObj.setTwitterPassword( pkPassword );
 
   /* oauth */
-  twitterObj.getOAuth().setConsumerKey( std::string( "KpUnplr0r1Tk8IYmqMmOQ" ) );
-  twitterObj.getOAuth().setConsumerSecret( std::string( "wLEu6y65xS8HYYns4yRm0jtd8FKg4xJ2M6MeKKOiGk" ) );
+  twitterObj.getOAuth().setConsumerKey( pkConsumerKey );
+  twitterObj.getOAuth().setConsumerSecret( pkConsumerSecret );
 
-  std::string authtokkey( "963439207-tOsVy0sHVWkP3sdrDz4plpZZFHmXex3h9P5jBCbp" );
-  std::string authtoksec( "FBRduEfWdeVaYYn1NMJbgLjx5oB21jk35g5X0aEs" );
-
-  twitterObj.getOAuth().setOAuthTokenKey( authtokkey );
-  twitterObj.getOAuth().setOAuthTokenSecret( authtoksec );
+  twitterObj.getOAuth().setOAuthTokenKey( pkOAuthToken );
+  twitterObj.getOAuth().setOAuthTokenSecret( pkOAuthTokenSecret );
 
   if( twitterObj.accountVerifyCredGet() )
   {
     sprintf( logbuf, "Successfully verified Twitter account.\n\r" );
     log_string( logbuf );
+    initialized = 1;
   }
   else
   {
     sprintf( logbuf, "ERROR: Failed to verify Twitter account.\n\r" );
     log_string( logbuf );
-    exit( 1 );
   }
 }
+
 
 
 void twitterAnnounce::push( char *buf, int priority )
 {
   char logbuf[1024];
+
+  if ( initialized == 0 )
+    return;
 
   /* Calculate time since last message */
   int delta = current_time - last_time;
