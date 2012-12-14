@@ -32,9 +32,15 @@ while(defined(my $line = <INPUT>)){
 # there can be multiple stats affected, so we 
 # push everything into an array
 		if(exists($db{$vnum}{'affects'})){
-			push($db{$vnum}{'affects'},"$1:$2");
+			my $a = $1;
+			my $b = $2;
+			$a =~ s/ /_/g;
+			push($db{$vnum}{'affects'},"$a:$b");
 		}else{
-			$db{$vnum}{'affects'}=["$1:$2"];
+			my $a = $1;
+			my $b = $2;
+			$a =~ s/ /_/g;
+			$db{$vnum}{'affects'}=["$a:$b"];
 		}
   }
 
@@ -47,10 +53,16 @@ while(defined(my $line = <INPUT>)){
 	}
 
   elsif($line =~ /Level (\d+) spells of:(.*)\.$/){
+		my $a=$1;
+		my $b=$2;
+		$b =~ s/' '/\//g;
+		$b =~ s/'//g;
+		$b =~ s/^ //;
+		$b =~ s/ /_/g;
 		if(exists($db{$vnum}{'spells'})){
-			push($db{$vnum}{'spells'},"$1:$2");
+			push($db{$vnum}{'spells'},"$a:$b");
 		}else{
-			$db{$vnum}{'spells'}=["$1:$2"];
+			$db{$vnum}{'spells'}=["$a:$b"];
 		}
   }
 
@@ -172,5 +184,45 @@ sub countColumns{
 	print "@a";
 }
 
+#&countColumns;
 
+#forming insert query
 
+sub storeDB{
+
+	foreach my $vnum (sort {$a<=>$b} keys %db){
+		print "vnum: $vnum\n";
+		my $cols = "vnum";
+		my $vals = "$vnum";
+		foreach my $category (sort keys $db{$vnum}){
+			if($category eq 'affects'){
+				foreach my $item (@{$db{$vnum}{'affects'}}){
+					my @a = split(/:/,$item);
+					$cols = $cols.",".$a[0];
+					$vals = $vals.",".$a[1];
+					print "affects: $item\n";
+				}
+			}elsif($category eq 'spells'){
+				foreach my $item ($db{$vnum}{'spells'}){
+					print "spells: @$item\n";
+				}
+			}elsif($category eq 'charges'){
+				foreach my $item ($db{$vnum}{'charges'}){
+					print "charges: @$item\n";
+				}
+			}else{
+				print "$category : $db{$vnum}{$category}\n";
+				$cols = $cols.",".$category;
+				$vals = $vals.",".$db{$vnum}{$category};
+			}
+
+		}
+		$vals =~ s/,/','/g;
+		$vals = "'".$vals."'";
+		print "insert into pkmud ($cols) values ($vals)\n";
+		print "========================\n";
+	}
+
+}
+
+&storeDB;
