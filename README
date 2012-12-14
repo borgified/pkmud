@@ -4,6 +4,8 @@ parser.pl goes through "input" and extracts all vostat data and puts it into a h
 
 allobj_db is the all the stuff inside the hash to verify that the vostat data was parsed correctly.
 
+allisf is same as input. had to concatenate two diff runs that yielded two diff input files.
+
 allobj_db
 getdb.pl
 junk
