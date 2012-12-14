@@ -123,15 +123,54 @@ sub printHashContents{
 	}
 }
 
+#&printHashContents;
+my $my_cnf = '/secret/my_cnf.cnf';
+
 my $dbh = DBI->connect("DBI:mysql:"
                         . ";mysql_read_default_file=$my_cnf"
-                        .';mysql_read_default_group=playerbase_predictor',
+                        .';mysql_read_default_group=pkmud',
                         undef,
                         undef
                         ) or die "something went wrong ($DBI::errstr)";
 
-my $sql ="SELECT * from currentplayers where timestamp > date_sub(current_date, interval 7 day) AND timestamp < current_date";
-my $sth=$dbh->prepare($sql);
-$sth->execute();
+#my $sql ="SELECT * from currentplayers where timestamp > date_sub(current_date, interval 7 day) AND timestamp < current_date";
+#my $sth=$dbh->prepare($sql);
+
+sub countColumns{
+
+#count how many columns there should be for the table
+	my %columns; #columns in database
+
+
+		foreach my $vnum (sort {$a<=>$b} keys %db){
+#	print "vnum: $vnum\n";
+			foreach my $category (sort keys $db{$vnum}){
+				if(!exists($columns{$category})){
+					$columns{$category}=1;
+				}
+				if($category eq 'affects'){
+					foreach my $item ($db{$vnum}{'affects'}){
+#				print "affects: @$item\n";
+					}
+				}elsif($category eq 'spells'){
+					foreach my $item ($db{$vnum}{'spells'}){
+#				print "spells: @$item\n";
+					}
+				}elsif($category eq 'charges'){
+					foreach my $item ($db{$vnum}{'charges'}){
+#				print "charges: @$item\n";
+					}
+				}else{
+#			print "$category : $db{$vnum}{$category}\n";
+				}
+			}
+#				print "========================\n";
+		}
+
+#this shows what columns are used
+	my @a = keys %columns;
+	print "@a";
+}
+
 
 

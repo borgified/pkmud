@@ -1,4 +1,4 @@
-getdb.pl telnets into pkmud, vostats every item in the game. has 2 output files: input and output. loo at input for a log of what went on in the telnet session. this "input" file is for parser.pl.
+getdb.pl telnets into pkmud, vostats every item in the game. has 2 output files: input and output. look at input for a log of what went on in the telnet session. this "input" file is for parser.pl.
 
 parser.pl goes through "input" and extracts all vostat data and puts it into a hash. contents of the hash can be printed back out or can be stored into a database for later retrieval.
 
