@@ -140,7 +140,7 @@ sub printHashContents{
 	}
 }
 
-&printHashContents;
+#&printHashContents;
 
 
 my $my_cnf = '/secret/my_cnf.cnf';
@@ -189,12 +189,31 @@ sub countColumns{
 #				print "========================\n";
 		}
 
+#dont need affects since each affect already gets a column of its own
+	delete($columns{'affects'});
+
 #this shows what columns are used
-	my @a = keys %columns;
-	print "@a";
+	my @a = sort keys %columns;
+	foreach my $item (@a){
+		if($item =~ /spells|charges|namelist|special|type|wearfun/){
+			print "`$item` text NOT NULL,\n";
+		}else{
+			print "`$item` int(4) NOT NULL,\n";
+		}
+	}
+	
+
+my $createtable=<<END;
+CREATE TABLE IF NOT EXISTS `testa` ( `id` int(3) NOT NULL AUTO_INCREMENT, 
+`a` text NOT NULL, 
+`b` int(3) NOT NULL, 
+
+PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;";
+END
+
 }
 
-#&countColumns;
+&countColumns;
 
 #forming insert query
 
