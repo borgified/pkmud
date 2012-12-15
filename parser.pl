@@ -67,10 +67,15 @@ while(defined(my $line = <INPUT>)){
   }
 
   elsif($line =~ /Has (\d+)\((\d+)\) charges of level (\d+) '(.*)'\./){
+		my $a=$1;
+		my $b=$2;
+		my $c=$3;
+		my $d=$4;
+		$d =~ s/ /_/g;
 		if(exists($db{$vnum}{'charges'})){
-			push($db{$vnum}{'charges'},"$1:$2:$3:$4");
+			push($db{$vnum}{'charges'},"$a:$b:$c:$d");
 		}else{
-			$db{$vnum}{'charges'}=["$1:$2:$3:$4"];
+			$db{$vnum}{'charges'}=["$a:$b:$c:$d"];
 		}
 	}
 
@@ -135,7 +140,9 @@ sub printHashContents{
 	}
 }
 
-#&printHashContents;
+&printHashContents;
+
+
 my $my_cnf = '/secret/my_cnf.cnf';
 
 my $dbh = DBI->connect("DBI:mysql:"
@@ -161,8 +168,11 @@ sub countColumns{
 					$columns{$category}=1;
 				}
 				if($category eq 'affects'){
-					foreach my $item ($db{$vnum}{'affects'}){
-#				print "affects: @$item\n";
+					foreach my $item (@{$db{$vnum}{'affects'}}){
+						my @a = split(/:/,$item);
+						if(!exists($columns{$a[0]})){
+							$columns{$a[0]}=1;
+						}
 					}
 				}elsif($category eq 'spells'){
 					foreach my $item ($db{$vnum}{'spells'}){
