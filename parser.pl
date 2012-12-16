@@ -152,14 +152,11 @@ my $dbh = DBI->connect("DBI:mysql:"
                         undef
                         ) or die "something went wrong ($DBI::errstr)";
 
-#my $sql ="SELECT * from currentplayers where timestamp > date_sub(current_date, interval 7 day) AND timestamp < current_date";
-#my $sth=$dbh->prepare($sql);
-
 sub countColumns{
 
 #count how many columns there should be for the table
 	my %columns; #columns in database
-
+	$columns{"vnum"}=1;
 
 		foreach my $vnum (sort {$a<=>$b} keys %db){
 #	print "vnum: $vnum\n";
@@ -193,24 +190,31 @@ sub countColumns{
 	delete($columns{'affects'});
 
 #this shows what columns are used
+	my $allcolumns = "";
 	my @a = sort keys %columns;
 	foreach my $item (@a){
 		if($item =~ /spells|charges|namelist|special|type|wearfun/){
-			print "`$item` text NOT NULL,\n";
+			#print "`$item` text NOT NULL,\n";
+			$allcolumns=$allcolumns."`$item` tinytext NOT NULL,";
+		}elsif($item =~ /damage/){
+			$allcolumns=$allcolumns."`$item` varchar(5) NOT NULL,";
 		}else{
-			print "`$item` int(4) NOT NULL,\n";
+			#print "`$item` int(4) NOT NULL,\n";
+			$allcolumns=$allcolumns."`$item` int(11) NOT NULL,";
 		}
 	}
 	
 
 my $createtable=<<END;
-CREATE TABLE IF NOT EXISTS `testa` ( `id` int(3) NOT NULL AUTO_INCREMENT, 
-`a` text NOT NULL, 
-`b` int(3) NOT NULL, 
-
-PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;";
+CREATE TABLE IF NOT EXISTS `pkmud` ( `id` int(11) NOT NULL AUTO_INCREMENT, 
+$allcolumns
+PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 END
 
+print $createtable;
+
+my $sth=$dbh->prepare($createtable) or die ("Cannot prepare: ".$dbh->errstr());
+$sth->execute();
 }
 
 &countColumns;
@@ -235,10 +239,14 @@ sub storeDB{
 				foreach my $item ($db{$vnum}{'spells'}){
 					print "spells: @$item\n";
 				}
+				$cols = $cols.",".$category;
+				$vals = $vals.","."@{$db{$vnum}{$category}}";
 			}elsif($category eq 'charges'){
 				foreach my $item ($db{$vnum}{'charges'}){
 					print "charges: @$item\n";
 				}
+				$cols = $cols.",".$category;
+				$vals = $vals.","."@{$db{$vnum}{$category}}";
 			}else{
 				print "$category : $db{$vnum}{$category}\n";
 				$cols = $cols.",".$category;
@@ -249,9 +257,14 @@ sub storeDB{
 		$vals =~ s/,/','/g;
 		$vals = "'".$vals."'";
 		print "insert into pkmud ($cols) values ($vals)\n";
+
+		my $sql="insert into pkmud ($cols) values ($vals)";
+		my $sth=$dbh->prepare($sql) or die ("Cannot prepare: ".$dbh->errstr());
+		$sth->execute();
+
 		print "========================\n";
 	}
 
 }
 
-#&storeDB;
+&storeDB;
