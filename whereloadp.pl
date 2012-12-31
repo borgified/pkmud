@@ -65,4 +65,42 @@ sub printHashContents{
 	}
 }
 
-&printHashContents;
+#&printHashContents;
+
+
+my $my_cnf = '/secret/my_cnf.cnf';
+
+my $dbh = DBI->connect("DBI:mysql:"
+		. ";mysql_read_default_file=$my_cnf"
+		.';mysql_read_default_group=pkmud',
+		undef,
+		undef
+		) or die "something went wrong ($DBI::errstr)";
+
+
+#forming update query
+
+sub storeDB{
+	
+	my $sql="update pkmud set whereload = ? where vnum = ?";
+	my $sth=$dbh->prepare($sql) or die ("cannot prepare: ".$dbh->errstr());
+
+
+	foreach my $vnum (sort {$a<=>$b} keys %db){
+		print "vnum: $vnum\n";
+		foreach my $category (sort keys $db{$vnum}){
+			if($category eq 'whereload'){
+				foreach my $item ($db{$vnum}{'whereload'}){
+					print "whereload: @$item\n";
+					$sth->execute("@$item","$vnum");
+				}
+			}else{
+				print "oops\n";
+				exit;
+			}
+		}
+		print "========================\n";
+	}
+}
+
+&storeDB;
