@@ -1,42 +1,3 @@
-
-
-
-			   PKmud
-
-          Text based deathmatch server - no levelling.
-
-    Diku Mud was created by Hans Henrik St{rfeldt, Katja Nyboe,
-	Tom Madsen, Michael Seifert, and Sebastian Hammer.
-
-
-By what name do you wish to be known? Password: 
-
-
-                Welcome to PKmud at PKmud.net
-
-    Diku Mud was created by Hans Henrik St{rfeldt, Katja Nyboe,
-	Tom Madsen, Michael Seifert, and Sebastian Hammer.
-
-
-Newbie?  type HELP NEWPLAYER and HELP STARTING inside the game.
-
-Last change file update: Oct 10, 2002  (type 'help changes')
-
-Nov 23, 2012: Working on porting the game to build in a C++ compiler,
-  which will enable writing messages to Twitter when players log on.
-  This will be useful for finding players.  You can pre-emptively
-  follow @PKMudAnnounce
-
-Now would be a good time to press the ENTER key: 
-Welcome to PK Mud.  May your visit here be ... Deadly.
-[0;32mThe Ys Map Room[0m
-[0;33m[Exits: down][0m
-     Type HELP MAILING LIST for how to get on our game scheduling list.
-     Type LOOK for a map of PKmud.
-[0m[0;32mPedestal of the Orb![0m
-[0;33m[Exits: none][0m
-The orb glows with a pure white light.
-[0mYou will not play in the next war.
 You say '1'[0m
 [0mLoads on mob: An elven hunter
 Loads on mob: Kevin Costner
