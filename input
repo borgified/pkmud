@@ -1,0 +1,3237 @@
+
+
+
+			   PKmud
+
+          Text based deathmatch server - no levelling.
+
+    Diku Mud was created by Hans Henrik St{rfeldt, Katja Nyboe,
+	Tom Madsen, Michael Seifert, and Sebastian Hammer.
+
+
+By what name do you wish to be known? Password: 
+
+
+                Welcome to PKmud at PKmud.net
+
+    Diku Mud was created by Hans Henrik St{rfeldt, Katja Nyboe,
+	Tom Madsen, Michael Seifert, and Sebastian Hammer.
+
+
+Newbie?  type HELP NEWPLAYER and HELP STARTING inside the game.
+
+Last change file update: Oct 10, 2002  (type 'help changes')
+
+Nov 23, 2012: Working on porting the game to build in a C++ compiler,
+  which will enable writing messages to Twitter when players log on.
+  This will be useful for finding players.  You can pre-emptively
+  follow @PKMudAnnounce
+
+Now would be a good time to press the ENTER key: 
+Welcome to PK Mud.  May your visit here be ... Deadly.
+[0;32mThe Ys Map Room[0m
+[0;33m[Exits: down][0m
+     Type HELP MAILING LIST for how to get on our game scheduling list.
+     Type LOOK for a map of PKmud.
+[0m[0;32mPedestal of the Orb![0m
+[0;33m[Exits: none][0m
+The orb glows with a pure white light.
+[0mYou will not play in the next war.
+You say '1'[0m
+[0mLoads on mob: An elven hunter
+Loads on mob: Kevin Costner
+You say '2'[0m
+[0mThat object doesn't seem to load.
+You say '3'[0m
+[0mThat object doesn't seem to load.
+You say '4'[0m
+[0mLoads on mob: An elven hunter
+Loads on mob: Kevin Costner
+You say '5'[0m
+[0mLoads on mob: the tracker
+You say '6'[0m
+[0mLoads on mob: the weaponsmith
+You say '7'[0m
+[0mLoads on mob: the wizard
+You say '10'[0m
+[0mThat object doesn't seem to load.
+You say '11'[0m
+[0mThat object doesn't seem to load.
+You say '12'[0m
+[0mThat object doesn't seem to load.
+You say '13'[0m
+[0mThat object doesn't seem to load.
+You say '14'[0m
+[0mThat object doesn't seem to load.
+You say '15'[0m
+[0mThat object doesn't seem to load.
+You say '16'[0m
+[0mThat object doesn't seem to load.
+You say '20'[0m
+[0mThat object doesn't seem to load.
+You say '21'[0m
+[0mThat object doesn't seem to load.
+You say '22'[0m
+[0mThat object doesn't seem to load.
+You say '23'[0m
+[0mThat object doesn't seem to load.
+You say '24'[0m
+[0mThat object doesn't seem to load.
+You say '25'[0m
+[0mLoads on mob: Rambo
+You say '26'[0m
+[0mLoads on mob: The Crystal Dragon
+You say '27'[0m
+[0mLoads on mob: Lorena Bobbit
+You say '28'[0m
+[0mThat object doesn't seem to load.
+You say '30'[0m
+[0mThat object doesn't seem to load.
+You say '41'[0m
+[0mThat object doesn't seem to load.
+You say '43'[0m
+[0mLoads on mob: the Bookstore Owner
+You say '44'[0m
+[0mThat object doesn't seem to load.
+You say '50'[0m
+[0mThat object doesn't seem to load.
+You say '300'[0m
+[0mLoads in room: The foothills
+You say '301'[0m
+[0mLoads in room: Grassy plains
+You say '302'[0m
+[0mLoads on mob: Aruncus the Druid
+You say '303'[0m
+[0mLoads on mob: Sorbus the Hermit
+You say '304'[0m
+[0mLoads in room: Grassy plains
+Loads in room: The steep foothills
+Loads in room: Grassy plains
+You say '307'[0m
+[0mLoads on mob: Aruncus the Druid
+You say '309'[0m
+[0mLoads in room: Hermit's hut
+You say '310'[0m
+[0mLoads on mob: Shudde-M'ell
+You say '311'[0m
+[0mLoads on mob: Shudde-M'ell
+You say '312'[0m
+[0mLoads on mob: Aruncus the Druid
+You say '600'[0m
+[0mLoads on mob: Jim the Blacksmith
+You say '601'[0m
+[0mLoads on mob: Jim the Blacksmith
+Loads on mob: Jack
+You say '602'[0m
+[0mLoads on mob: Marty
+You say '603'[0m
+[0mLoads on mob: Marty
+You say '604'[0m
+[0mLoads on mob: Marty
+You say '605'[0m
+[0mLoads on mob: Marty
+You say '606'[0m
+[0mLoads on mob: Madam Tracy
+You say '607'[0m
+[0mLoads on mob: Madam Tracy
+You say '608'[0m
+[0mLoads on mob: Madam Tracy
+You say '609'[0m
+[0mLoads on mob: Farmer Elizabeth
+You say '610'[0m
+[0mLoads on mob: Farmer Elizabeth
+You say '611'[0m
+[0mLoads on mob: Farmer Elizabeth
+Loads in room: Barn
+You say '612'[0m
+[0mLoads on mob: Farmer Elizabeth
+You say '613'[0m
+[0mLoads on mob: Farmer Elizabeth
+You say '614'[0m
+[0mLoads in room: Barn
+You say '615'[0m
+[0mLoads on mob: Jim the Blacksmith
+Loads on mob: Farmer Sara
+You say '616'[0m
+[0mLoads on mob: Sam
+You say '617'[0m
+[0mLoads on mob: Sam
+You say '618'[0m
+[0mLoads on mob: Sam
+You say '619'[0m
+[0mLoads on mob: Sam
+You say '620'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Marshall Diana
+Loads on mob: Captain Derrick
+Loads on mob: Captain Jacklyn
+Loads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+Loads on mob: the Priestess of Ofcol
+Loads on mob: a Dragonlord
+Loads on mob: The Ancient Gold Dragon
+Loads on mob: an attendant of the dragon
+Loads on mob: a Dragonknight
+You say '621'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+You say '622'[0m
+[0mLoads on mob: the Ofcol cityguard
+You say '623'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Jacklyn
+You say '624'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Jacklyn
+You say '625'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Jacklyn
+You say '626'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Derrick
+You say '627'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Derrick
+Loads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+You say '628'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: Captain Derrick
+You say '629'[0m
+[0mLoads on mob: the Ofcol cityguard
+You say '630'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+You say '631'[0m
+[0mLoads on mob: Captain Derrick
+Loads on mob: Captain Jacklyn
+You say '632'[0m
+[0mLoads on mob: Captain Derrick
+Loads on mob: Captain Jacklyn
+You say '633'[0m
+[0mLoads on mob: Captain Derrick
+You say '634'[0m
+[0mLoads on mob: Captain Derrick
+You say '635'[0m
+[0mLoads on mob: Captain Derrick
+You say '636'[0m
+[0mLoads on mob: Captain Jacklyn
+You say '637'[0m
+[0mLoads on mob: Captain Jacklyn
+You say '638'[0m
+[0mLoads on mob: Captain Jacklyn
+You say '639'[0m
+[0mLoads on mob: Marshall Diana
+You say '640'[0m
+[0mLoads on mob: Marshall Diana
+You say '641'[0m
+[0mLoads on mob: Marshall Diana
+You say '642'[0m
+[0mLoads on mob: Marshall Diana
+You say '643'[0m
+[0mLoads on mob: Marshall Diana
+You say '644'[0m
+[0mLoads on mob: Marshall Diana
+You say '645'[0m
+[0mLoads on mob: Marshall Diana
+You say '646'[0m
+[0mLoads on mob: Marshall Diana
+You say '647'[0m
+[0mLoads on mob: Marshall Diana
+You say '648'[0m
+[0mLoads on mob: Nyles the Bartender
+You say '649'[0m
+[0mLoads on mob: Nyles the Bartender
+You say '650'[0m
+[0mLoads on mob: Nyles the Bartender
+You say '651'[0m
+[0mLoads on mob: the Ofcol cityguard
+Loads on mob: the Ofcol cityguard
+You say '652'[0m
+[0mLoads on mob: the Priestess of Ofcol
+You say '653'[0m
+[0mLoads on mob: Captain Derrick
+Loads on mob: Captain Jacklyn
+You say '654'[0m
+[0mLoads on mob: a Dragonlord
+Loads on mob: a Dragonknight
+You say '655'[0m
+[0mThat object doesn't seem to load.
+You say '656'[0m
+[0mLoads on mob: a Dragonlord
+You say '657'[0m
+[0mLoads on mob: a Dragonlord
+You say '658'[0m
+[0mLoads on mob: a Dragonlord
+You say '659'[0m
+[0mLoads on mob: a Dragonlord
+You say '660'[0m
+[0mLoads on mob: a Dragonlord
+Loads on mob: a Dragonknight
+You say '661'[0m
+[0mLoads on mob: a Dragonlord
+You say '662'[0m
+[0mLoads on mob: a Dragonlord
+Loads on mob: The Ancient Gold Dragon
+Loads on mob: a Dragonknight
+You say '663'[0m
+[0mLoads on mob: The Ancient Gold Dragon
+You say '664'[0m
+[0mLoads on mob: the Priestess of Ofcol
+Loads on mob: Chaplain Jerrold
+Loads on mob: an attendant of the dragon
+You say '665'[0m
+[0mLoads on mob: the maid
+You say '666'[0m
+[0mLoads on mob: the maid
+You say '667'[0m
+[0mLoads on mob: Jim the Blacksmith
+You say '668'[0m
+[0mThat object doesn't seem to load.
+You say '669'[0m
+[0mLoads on mob: Sam
+You say '1001'[0m
+[0mLoads on mob: a village soldier
+You say '1002'[0m
+[0mLoads on mob: a male villager
+Loads on mob: a female villager
+You say '1003'[0m
+[0mLoads on mob: a female villager
+Loads on mob: a village child
+You say '1004'[0m
+[0mLoads on mob: the undead first mate
+You say '1005'[0m
+[0mLoads on mob: the undead ship's captain
+You say '1006'[0m
+[0mLoads on mob: an undead sailor
+You say '1007'[0m
+[0mLoads on mob: the undead first mate
+You say '1008'[0m
+[0mLoads on mob: a stranded mariner
+You say '1009'[0m
+[0mLoads on mob: a stranded mariner
+You say '1010'[0m
+[0mLoads on mob: a stranded mariner
+You say '1011'[0m
+[0mLoads on mob: a stranded mariner
+You say '1012'[0m
+[0mLoads in room: The Wizard's Workshop
+You say '1013'[0m
+[0mLoads on mob: an aged wizard
+You say '1014'[0m
+[0mLoads on mob: an aged wizard
+You say '1015'[0m
+[0mLoads on mob: a huge stone statue
+You say '1016'[0m
+[0mLoads in object: a crate
+You say '1017'[0m
+[0mLoads on mob: the undead ship's captain
+You say '1018'[0m
+[0mLoads on mob: a vulture
+You say '1019'[0m
+[0mLoads in object: a chest
+You say '1020'[0m
+[0mLoads in room: The Cargo Hold
+You say '1021'[0m
+[0mLoads on mob: the undead ship's captain
+You say '1022'[0m
+[0mLoads in object: a chest
+You say '1023'[0m
+[0mLoads in object: a crate
+Loads on mob: the village shaman
+You say '1024'[0m
+[0mLoads on mob: the village shaman
+You say '1100'[0m
+[0mLoads on mob: the Elven Wizard
+You say '1101'[0m
+[0mLoads on mob: the Keeper of the Ring
+You say '1102'[0m
+[0mLoads in room: Entrance to the Shire
+You say '1103'[0m
+[0mLoads on mob: a country bumpkin
+Loads on mob: the grocer
+You say '1104'[0m
+[0mLoads on mob: the Elven Wizard
+You say '1105'[0m
+[0mLoads on mob: the Keeper of the Ring
+You say '1106'[0m
+[0mLoads on mob: the blacksmith
+Loads on mob: the elven warrior
+You say '1107'[0m
+[0mLoads on mob: the dwarven prince
+You say '1108'[0m
+[0mLoads on mob: the Thain
+You say '1109'[0m
+[0mLoads on mob: Kevin Costner
+Loads on mob: the blacksmith
+Loads on mob: the elven warrior
+You say '1110'[0m
+[0mLoads on mob: the Innkeeper
+Loads on mob: a chicken
+Loads on mob: the Innkeeper
+You say '1111'[0m
+[0mLoads on mob: the shopkeeper
+You say '1112'[0m
+[0mLoads on mob: the shopkeeper
+You say '1113'[0m
+[0mLoads on mob: the Thain
+Loads on mob: the battle master
+Loads on mob: a trainee
+You say '1197'[0m
+[0mThat object doesn't seem to load.
+You say '1198'[0m
+[0mThat object doesn't seem to load.
+You say '1199'[0m
+[0mThat object doesn't seem to load.
+You say '1301'[0m
+[0mLoads in room: the kitchen
+You say '1302'[0m
+[0mLoads in room: the kitchen
+You say '1304'[0m
+[0mLoads in object: an oven
+You say '1305'[0m
+[0mLoads in object: a meat locker
+You say '1306'[0m
+[0mLoads in object: a meat locker
+You say '1308'[0m
+[0mThat object doesn't seem to load.
+You say '1309'[0m
+[0mThat object doesn't seem to load.
+You say '1310'[0m
+[0mLoads in room: A store room
+You say '1311'[0m
+[0mLoads in room: A store room
+You say '1312'[0m
+[0mLoads in room: A store room
+You say '1313'[0m
+[0mLoads in room: A store room
+You say '1314'[0m
+[0mLoads in room: A very hot room
+You say '1315'[0m
+[0mLoads in room: The master Enchanter's chamber
+You say '1316'[0m
+[0mLoads on mob: the Enchanter
+You say '1321'[0m
+[0mLoads in room: The spellbinder's cache
+You say '1322'[0m
+[0mLoads in room: The spellbinder's cache
+You say '1323'[0m
+[0mLoads on mob: the Jailor
+You say '1324'[0m
+[0mThat object doesn't seem to load.
+You say '1325'[0m
+[0mLoads on mob: the master spell binder
+You say '1326'[0m
+[0mLoads in object: a silver chased cabinet
+You say '1327'[0m
+[0mLoads in object: a silver chased cabinet
+You say '1328'[0m
+[0mLoads in object: a silver chased cabinet
+You say '1329'[0m
+[0mLoads in object: a silver chased cabinet
+You say '1330'[0m
+[0mLoads in object: a silver chased cabinet
+You say '1331'[0m
+[0mLoads in room: The scrying chamber
+You say '1334'[0m
+[0mLoads in room: The reading room
+You say '1336'[0m
+[0mLoads in room: The altar
+You say '1338'[0m
+[0mLoads in room: The treasury
+You say '1339'[0m
+[0mLoads on mob: The Grand Mistress
+You say '1340'[0m
+[0mLoads in object: a large chest
+You say '1341'[0m
+[0mLoads in room: A passage
+You say '1342'[0m
+[0mLoads in room: A passage
+You say '1343'[0m
+[0mLoads in room: A passage
+You say '1344'[0m
+[0mLoads in object: a leather backpack
+You say '1345'[0m
+[0mLoads in room: A passage
+You say '1351'[0m
+[0mLoads on mob: Strick the bartender
+You say '1352'[0m
+[0mLoads on mob: Strick the bartender
+You say '1355'[0m
+[0mLoads on mob: Ezmerelda
+You say '1359'[0m
+[0mLoads on mob: the master scribe
+You say '1360'[0m
+[0mLoads on mob: the master scribe
+You say '1361'[0m
+[0mLoads on mob: the master scribe
+You say '1362'[0m
+[0mLoads on mob: the scribe's assistant
+You say '1363'[0m
+[0mLoads on mob: the Enchanter
+You say '1364'[0m
+[0mLoads on mob: the Mad Alchemist
+You say '1366'[0m
+[0mThat object doesn't seem to load.
+You say '1367'[0m
+[0mLoads in object: a leather pouch
+You say '1368'[0m
+[0mLoads in object: a leather pouch
+You say '1369'[0m
+[0mLoads in object: a leather pouch
+You say '1370'[0m
+[0mLoads in object: a leather pouch
+You say '1371'[0m
+[0mLoads on mob: the master summoner
+You say '1372'[0m
+[0mLoads on mob: the master charmer
+You say '1373'[0m
+[0mLoads on mob: the master charmer
+You say '1374'[0m
+[0mLoads on mob: the master spell binder
+You say '1375'[0m
+[0mLoads in object: a holstered belt
+You say '1376'[0m
+[0mLoads on mob: the golem maker
+You say '1377'[0m
+[0mLoads on mob: the master of illusions
+You say '1378'[0m
+[0mLoads in object: a beltpouch
+You say '1379'[0m
+[0mLoads on mob: the Necromancer
+You say '1380'[0m
+[0mLoads on mob: the Necromancer
+You say '1381'[0m
+[0mLoads on mob: an undead giant
+You say '1382'[0m
+[0mLoads on mob: the master's apprentice
+You say '1383'[0m
+[0mLoads on mob: the master of Neutrality
+You say '1384'[0m
+[0mLoads on mob: the master's apprentice
+You say '1385'[0m
+[0mLoads on mob: the master of Neutrality
+You say '1386'[0m
+[0mLoads on mob: the master of Neutrality
+Loads on mob: the master of the black robes
+Loads on mob: The master of goodness
+You say '1387'[0m
+[0mLoads on mob: a black robed apprentice
+You say '1388'[0m
+[0mLoads on mob: a black robed apprentice
+You say '1389'[0m
+[0mLoads on mob: the master of the black robes
+You say '1390'[0m
+[0mLoads on mob: the master of the black robes
+You say '1391'[0m
+[0mLoads on mob: a white robed apprentice
+You say '1392'[0m
+[0mLoads on mob: a white robed apprentice
+You say '1393'[0m
+[0mLoads on mob: The master of goodness
+You say '1394'[0m
+[0mLoads on mob: The master of goodness
+You say '1395'[0m
+[0mLoads on mob: A calico cat
+You say '1396'[0m
+[0mThat object doesn't seem to load.
+You say '1397'[0m
+[0mLoads on mob: The Grand Mistress
+You say '1398'[0m
+[0mLoads on mob: The Grand Mistress
+You say '1399'[0m
+[0mLoads on mob: The Grand Mistress
+You say '1400'[0m
+[0mLoads on mob: The Grand Mistress
+You say '1401'[0m
+[0mLoads on mob: The Grand Mistress
+Loads in room: Skylar's Hideout
+You say '1402'[0m
+[0mLoads in room: Skylar's Hideout
+You say '1403'[0m
+[0mLoads in object: a fridge
+You say '1404'[0m
+[0mLoads in object: a fridge
+You say '1407'[0m
+[0mLoads on mob: Strick the bartender
+You say '1500'[0m
+[0mLoads on mob: An Undead Thief
+You say '1501'[0m
+[0mLoads on mob: An Undead Thief
+You say '1502'[0m
+[0mLoads on mob: An Undead Thief
+You say '1503'[0m
+[0mLoads on mob: An Undead Warrior
+You say '1504'[0m
+[0mLoads on mob: An Undead Warrior
+You say '1505'[0m
+[0mLoads on mob: An Undead Warrior
+You say '1506'[0m
+[0mLoads on mob: An Undead Cleric
+You say '1507'[0m
+[0mLoads on mob: An Undead Cleric
+You say '1508'[0m
+[0mLoads on mob: An Undead Cleric
+You say '1509'[0m
+[0mLoads on mob: An Undead Mage
+You say '1510'[0m
+[0mLoads on mob: An Undead Mage
+You say '1511'[0m
+[0mLoads on mob: An Undead Mage
+You say '1512'[0m
+[0mLoads on mob: A Bone Golem
+You say '1513'[0m
+[0mLoads on mob: A Bone Golem
+You say '1514'[0m
+[0mLoads on mob: A Bone Golem
+You say '1515'[0m
+[0mLoads on mob: A Bone Golem
+You say '1516'[0m
+[0mLoads on mob: A Bone Golem
+You say '1517'[0m
+[0mLoads on mob: A Bone Golem
+You say '1518'[0m
+[0mLoads on mob: An Invisible Stalker
+You say '1519'[0m
+[0mLoads on mob: An Invisible Stalker
+You say '1520'[0m
+[0mLoads on mob: The Shining Paladin
+You say '1521'[0m
+[0mLoads on mob: The Shining Paladin
+You say '1522'[0m
+[0mLoads on mob: The Shining Paladin
+You say '1523'[0m
+[0mLoads on mob: Evil Necromancer
+You say '1524'[0m
+[0mLoads on mob: Evil Necromancer
+You say '1525'[0m
+[0mLoads on mob: Evil Necromancer
+You say '1526'[0m
+[0mLoads on mob: Evil Necromancer
+You say '1527'[0m
+[0mLoads on mob: A Dracolich
+You say '1601'[0m
+[0mLoads on mob: Magmadar
+You say '1602'[0m
+[0mLoads on mob: Gehennas
+You say '1603'[0m
+[0mLoads on mob: Sulfuron Harbinger
+You say '1604'[0m
+[0mLoads on mob: Golemagg the Incinerator
+You say '1605'[0m
+[0mLoads on mob: Lucifron
+You say '1606'[0m
+[0mLoads on mob: Garr
+You say '1607'[0m
+[0mLoads on mob: Ragnaros
+You say '1608'[0m
+[0mLoads on mob: Baron Geddon
+You say '1609'[0m
+[0mLoads on mob: Ragnaros
+You say '1610'[0m
+[0mLoads on mob: Ragnaros
+You say '1801'[0m
+[0mLoads on mob: The wraith knight
+You say '1802'[0m
+[0mLoads on mob: The Necromancer
+You say '1803'[0m
+[0mLoads in room: Private Chambers
+You say '1804'[0m
+[0mLoads in object: the copper coffer
+You say '1805'[0m
+[0mLoads in object: the copper coffer
+You say '1806'[0m
+[0mLoads on mob: The Necromancer
+You say '1807'[0m
+[0mLoads on mob: Lazarus
+You say '1808'[0m
+[0mLoads in room: Operating Room
+You say '1809'[0m
+[0mLoads on mob: The Crypt Keeper
+You say '1810'[0m
+[0mLoads on mob: Morticia
+You say '1811'[0m
+[0mLoads on mob: Morticia
+You say '1812'[0m
+[0mLoads on mob: The Crypt Keeper
+You say '1813'[0m
+[0mLoads on mob: The green crystal spider
+You say '1814'[0m
+[0mLoads in object: an arsenal buckler
+You say '1815'[0m
+[0mLoads in room: Acid Forest
+You say '1816'[0m
+[0mLoads on mob: The Petrified Warden
+You say '1817'[0m
+[0mLoads on mob: The green crystal spider
+You say '1818'[0m
+[0mLoads on mob: An Ochre Jello
+You say '1819'[0m
+[0mLoads on mob: The Petrified Warden
+You say '1820'[0m
+[0mLoads on mob: The Necromancer
+You say '1899'[0m
+[0mLoads on mob: The Necromancer
+You say '2202'[0m
+[0mLoads on mob: the dragon master
+You say '2203'[0m
+[0mLoads on mob: the Draconian Queen
+You say '2204'[0m
+[0mLoads on mob: the Draconian Queen
+You say '2210'[0m
+[0mLoads on mob: the holy Draconian
+You say '2211'[0m
+[0mLoads on mob: the holy Draconian
+You say '2220'[0m
+[0mLoads on mob: the holy Draconian
+You say '2221'[0m
+[0mThat object doesn't seem to load.
+You say '2222'[0m
+[0mLoads on mob: the Draconian King
+You say '2223'[0m
+[0mLoads on mob: a large hydra
+Loads on mob: a powerful mage
+You say '2224'[0m
+[0mLoads on mob: Tiamat
+You say '2230'[0m
+[0mThat object doesn't seem to load.
+You say '2231'[0m
+[0mLoads on mob: the dragon hatchling
+You say '2232'[0m
+[0mLoads on mob: the Draconian King
+You say '2233'[0m
+[0mLoads on mob: a concubine
+You say '2234'[0m
+[0mLoads on mob: a large hydra
+You say '2237'[0m
+[0mThat object doesn't seem to load.
+You say '2240'[0m
+[0mLoads on mob: a concubine
+You say '2241'[0m
+[0mLoads on mob: the Ancient Green Dragon
+You say '2242'[0m
+[0mLoads on mob: the Draconian King
+You say '2243'[0m
+[0mLoads on mob: a large hydra
+You say '2244'[0m
+[0mLoads on mob: a large hydra
+You say '2245'[0m
+[0mLoads on mob: the Great Red Dragon
+You say '2246'[0m
+[0mLoads on mob: the Great White Dragon
+You say '2250'[0m
+[0mLoads on mob: a powerful mage
+You say '2251'[0m
+[0mLoads on mob: a powerful mage
+You say '2252'[0m
+[0mLoads on mob: the holy Draconian
+You say '2254'[0m
+[0mLoads on mob: the Draconian King
+You say '2260'[0m
+[0mLoads on mob: A bodyguard
+You say '2261'[0m
+[0mLoads on mob: a powerful mage
+Loads on mob: the Ancient Green Dragon
+You say '2270'[0m
+[0mLoads on mob: the holy Draconian
+You say '2271'[0m
+[0mLoads on mob: the dragon master
+You say '2275'[0m
+[0mLoads on mob: the Great Red Dragon
+You say '2276'[0m
+[0mLoads on mob: the Draconian King
+You say '2280'[0m
+[0mLoads on mob: the Great Black Dragon
+You say '2281'[0m
+[0mLoads on mob: the dragon master
+You say '2285'[0m
+[0mLoads on mob: the Ancient Green Dragon
+You say '2286'[0m
+[0mLoads on mob: A bodyguard
+You say '2287'[0m
+[0mLoads on mob: a large hydra
+Loads on mob: the dragon master
+You say '2288'[0m
+[0mThat object doesn't seem to load.
+You say '2289'[0m
+[0mLoads on mob: a concubine
+You say '2290'[0m
+[0mLoads on mob: the Draconian Queen
+Loads on mob: the Great White Dragon
+Loads on mob: the Great Black Dragon
+You say '2299'[0m
+[0mLoads on mob: the Great Red Dragon
+You say '2300'[0m
+[0mLoads on mob: Gorak
+You say '2301'[0m
+[0mLoads on mob: Gorak
+You say '2302'[0m
+[0mLoads on mob: Gorak
+You say '2303'[0m
+[0mLoads on mob: Gorak
+You say '2304'[0m
+[0mLoads on mob: Gorak
+You say '2305'[0m
+[0mLoads on mob: Darkoth
+You say '2306'[0m
+[0mLoads on mob: Darkoth
+You say '2307'[0m
+[0mLoads on mob: Darkoth
+You say '2308'[0m
+[0mLoads on mob: Darkoth
+You say '2309'[0m
+[0mLoads on mob: Darkoth
+You say '2310'[0m
+[0mLoads on mob: Tyrgoth
+You say '2311'[0m
+[0mLoads on mob: Tyrgoth
+You say '2312'[0m
+[0mLoads on mob: Tyrgoth
+You say '2313'[0m
+[0mLoads on mob: Tyrgoth
+You say '2314'[0m
+[0mLoads on mob: Tyrgoth
+You say '2316'[0m
+[0mLoads on mob: Amyrok
+You say '2317'[0m
+[0mLoads on mob: Amyrok
+You say '2318'[0m
+[0mLoads on mob: Amyrok
+You say '2319'[0m
+[0mLoads on mob: Amyrok
+You say '2320'[0m
+[0mLoads on mob: Sumaron
+You say '2321'[0m
+[0mLoads on mob: Sumaron
+You say '2322'[0m
+[0mLoads on mob: Sumaron
+You say '2323'[0m
+[0mLoads on mob: Sumaron
+You say '2324'[0m
+[0mLoads on mob: Sumaron
+You say '2325'[0m
+[0mLoads on mob: Nasturn
+You say '2326'[0m
+[0mLoads on mob: Nasturn
+You say '2327'[0m
+[0mLoads on mob: Nasturn
+You say '2328'[0m
+[0mLoads on mob: Nasturn
+You say '2329'[0m
+[0mLoads on mob: Nasturn
+You say '2330'[0m
+[0mLoads on mob: Belrak
+You say '2331'[0m
+[0mLoads on mob: Belrak
+You say '2332'[0m
+[0mLoads on mob: Belrak
+You say '2333'[0m
+[0mLoads on mob: Belrak
+You say '2334'[0m
+[0mLoads on mob: Belrak
+You say '2335'[0m
+[0mLoads on mob: Dorgar
+You say '2336'[0m
+[0mLoads on mob: Dorgar
+You say '2337'[0m
+[0mLoads on mob: Dorgar
+You say '2338'[0m
+[0mLoads on mob: Dorgar
+You say '2339'[0m
+[0mLoads on mob: Dorgar
+You say '2340'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2341'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2342'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2343'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2344'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2345'[0m
+[0mLoads on mob: Mahn-Tor
+You say '2346'[0m
+[0mLoads on mob: the Dark Ethereal Knight
+You say '2347'[0m
+[0mLoads on mob: the Dark Ethereal Knight
+You say '2348'[0m
+[0mLoads on mob: the Dark Ethereal Knight
+You say '2349'[0m
+[0mLoads on mob: the Weeping Willow
+You say '2350'[0m
+[0mLoads on mob: the Minotaur Gatekeeper
+You say '2351'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2352'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2353'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2354'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2355'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2356'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2357'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2358'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2359'[0m
+[0mLoads on mob: the Elite Minotaur Guard
+You say '2360'[0m
+[0mLoads on mob: the Plains Barbarian
+You say '2361'[0m
+[0mLoads on mob: the White Yeti
+You say '2362'[0m
+[0mLoads on mob: the Minotaur Citizen
+You say '2365'[0m
+[0mLoads on mob: the Minotaur Guard
+You say '2368'[0m
+[0mLoads on mob: the Minotaur Warrior
+You say '2369'[0m
+[0mLoads on mob: the High Minotaur Guard
+You say '2370'[0m
+[0mLoads on mob: the High Minotaur Guard
+You say '2371'[0m
+[0mLoads on mob: the High Minotaur Guard
+You say '2372'[0m
+[0mLoads on mob: the High Minotaur Guard
+You say '2373'[0m
+[0mLoads on mob: the Royal Minotaur Guard
+You say '2374'[0m
+[0mLoads on mob: the Royal Minotaur Guard
+You say '2375'[0m
+[0mLoads on mob: the Royal Minotaur Guard
+You say '2376'[0m
+[0mLoads on mob: the Royal Minotaur Guard
+You say '2377'[0m
+[0mLoads on mob: the Elite Minotaur Guard
+You say '2378'[0m
+[0mLoads on mob: the Elite Minotaur Guard
+You say '2379'[0m
+[0mLoads on mob: the Elite Minotaur Guard
+You say '2380'[0m
+[0mLoads on mob: the Elite Minotaur Guard
+You say '2381'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2382'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2383'[0m
+[0mLoads on mob: the Minotaur Ring-Keeper
+You say '2384'[0m
+[0mLoads on mob: the Swamp Wraith
+You say '2385'[0m
+[0mLoads on mob: the Ogre Villager
+You say '2386'[0m
+[0mLoads on mob: the Ogre Warrior
+You say '2387'[0m
+[0mLoads on mob: the Ogre Guard
+You say '2388'[0m
+[0mLoads on mob: The Ogre Shaman
+You say '2389'[0m
+[0mLoads on mob: The Ogre Shaman
+You say '2390'[0m
+[0mLoads on mob: the Ogre Chieftain
+You say '2391'[0m
+[0mLoads on mob: the Ogre Chieftain
+You say '2395'[0m
+[0mLoads on mob: the Minotaur Gatekeeper
+Loads on mob: the Royal Minotaur Guard
+Loads on mob: the Elite Minotaur Guard
+Loads on mob: the Harem Girl
+Loads on mob: Gorak
+You say '2400'[0m
+[0mLoads on mob: MouseRider
+You say '2401'[0m
+[0mLoads on mob: the Orb
+You say '2402'[0m
+[0mLoads on mob: the Bookstore Owner
+You say '2403'[0m
+[0mLoads on mob: the Liche
+You say '2404'[0m
+[0mLoads on mob: the Captain
+You say '2405'[0m
+[0mLoads on mob: the Farmer
+You say '2406'[0m
+[0mLoads on mob: Kervin
+You say '2407'[0m
+[0mLoads on mob: the Farmer
+You say '2408'[0m
+[0mLoads on mob: the Bookstore Owner
+You say '2409'[0m
+[0mLoads on mob: the Bookstore Owner
+You say '2410'[0m
+[0mLoads on mob: Jenk
+You say '2411'[0m
+[0mLoads on mob: Jenk
+You say '2412'[0m
+[0mLoads on mob: Jenk
+You say '2413'[0m
+[0mLoads on mob: Jenk
+You say '2414'[0m
+[0mLoads on mob: the Shopkeeper
+You say '2415'[0m
+[0mLoads in room: Void
+You say '2416'[0m
+[0mLoads in room: Void
+You say '2417'[0m
+[0mLoads on mob: the Shopkeeper
+You say '2418'[0m
+[0mLoads on mob: the Apothecary
+You say '2419'[0m
+[0mLoads on mob: the Apothecary
+You say '2420'[0m
+[0mLoads on mob: the Apothecary
+You say '2421'[0m
+[0mLoads on mob: the Apothecary
+You say '2422'[0m
+[0mLoads on mob: the Apothecary
+You say '2423'[0m
+[0mLoads on mob: Leonna
+You say '2424'[0m
+[0mLoads on mob: the Beggar
+You say '2425'[0m
+[0mLoads in object: a chest
+You say '2427'[0m
+[0mLoads on mob: Leonna
+You say '2428'[0m
+[0mLoads in room: Mages' Guild Storeroom
+You say '2429'[0m
+[0mLoads in room: Mages' Guild Storeroom
+You say '2430'[0m
+[0mLoads on mob: Leonna
+You say '2431'[0m
+[0mLoads on mob: the Black Marketeer
+You say '2432'[0m
+[0mLoads on mob: Talbot
+Loads on mob: Korino
+You say '2433'[0m
+[0mLoads on mob: Celia
+You say '2434'[0m
+[0mLoads on mob: Celia
+You say '2435'[0m
+[0mLoads on mob: Tiersten
+You say '2436'[0m
+[0mLoads in room: Bedroom
+You say '2437'[0m
+[0mLoads on mob: Ben
+You say '2438'[0m
+[0mLoads on mob: Sosivia
+You say '2439'[0m
+[0mLoads on mob: Kervin
+You say '2440'[0m
+[0mLoads on mob: the Farmer
+You say '2441'[0m
+[0mLoads on mob: the Farmer
+You say '2442'[0m
+[0mLoads on mob: the Farmer
+You say '2443'[0m
+[0mLoads on mob: the Shopkeeper
+You say '2444'[0m
+[0mLoads on mob: the Shopkeeper
+You say '2445'[0m
+[0mLoads on mob: the Shopkeeper
+You say '2446'[0m
+[0mLoads in room: MouseRider's Temple
+You say '2447'[0m
+[0mLoads in room: Intersection
+You say '2448'[0m
+[0mLoads on mob: the Bartender
+Loads on mob: the Bartender
+You say '2449'[0m
+[0mLoads on mob: the Bartender
+Loads on mob: the Bartender
+You say '2450'[0m
+[0mLoads on mob: the Bartender
+Loads on mob: the Bartender
+You say '3000'[0m
+[0mLoads on mob: the baker
+Loads on mob: the bartender
+You say '3001'[0m
+[0mLoads on mob: the bartender
+You say '3002'[0m
+[0mLoads on mob: the waiter
+Loads on mob: the waiter
+Loads on mob: the waiter
+You say '3003'[0m
+[0mLoads on mob: the baker
+Loads on mob: the waiter
+Loads on mob: the waiter
+Loads on mob: the waiter
+Loads on mob: Filthy
+You say '3004'[0m
+[0mLoads on mob: the waiter
+Loads on mob: the waiter
+Loads on mob: the waiter
+Loads on mob: Filthy
+You say '3005'[0m
+[0mLoads on mob: the executioner
+You say '3009'[0m
+[0mLoads on mob: the baker
+Loads on mob: the baker
+You say '3010'[0m
+[0mLoads in room: By the Temple Altar
+You say '3020'[0m
+[0mLoads on mob: the weaponsmith
+You say '3021'[0m
+[0mLoads on mob: the weaponsmith
+You say '3022'[0m
+[0mLoads on mob: the weaponsmith
+You say '3030'[0m
+[0mLoads on mob: the grocer
+You say '3031'[0m
+[0mLoads on mob: the baker
+Loads on mob: the grocer
+You say '3032'[0m
+[0mLoads on mob: the grocer
+You say '3033'[0m
+[0mThat object doesn't seem to load.
+You say '3039'[0m
+[0mLoads on mob: the wizard
+You say '3040'[0m
+[0mLoads on mob: the wizard
+You say '3041'[0m
+[0mLoads on mob: the wizard
+You say '3042'[0m
+[0mLoads on mob: the wizard
+You say '3046'[0m
+[0mThat object doesn't seem to load.
+You say '3050'[0m
+[0mLoads on mob: the captain
+You say '3051'[0m
+[0mLoads on mob: the captain
+You say '3066'[0m
+[0mLoads on mob: the leather worker
+You say '3067'[0m
+[0mLoads on mob: the leather worker
+You say '3068'[0m
+[0mLoads on mob: the leather worker
+You say '3069'[0m
+[0mLoads on mob: the leather worker
+You say '3070'[0m
+[0mLoads on mob: the leather worker
+You say '3071'[0m
+[0mLoads on mob: the leather worker
+You say '3097'[0m
+[0mLoads on mob: the armourer
+You say '3098'[0m
+[0mLoads on mob: the wizard
+You say '3100'[0m
+[0mLoads on mob: the maid
+You say '3101'[0m
+[0mLoads on mob: the maid
+You say '3102'[0m
+[0mLoads on mob: the maid
+You say '3105'[0m
+[0mThat object doesn't seem to load.
+You say '3106'[0m
+[0mThat object doesn't seem to load.
+You say '3120'[0m
+[0mLoads on mob: the cityguard
+You say '3122'[0m
+[0mLoads on mob: the captain
+You say '3123'[0m
+[0mLoads in object: the desk
+You say '3124'[0m
+[0mLoads on mob: the gate-locker from hell
+You say '3130'[0m
+[0mLoads in room: Captain's Office
+You say '3131'[0m
+[0mLoads in room: Captain's Office
+You say '3132'[0m
+[0mLoads in object: the safe
+You say '3133'[0m
+[0mThat object doesn't seem to load.
+You say '3135'[0m
+[0mLoads in room: The Chat Room
+Loads in room: The Temple Square
+Loads in room: End of Penny Lane
+You say '3136'[0m
+[0mLoads in room: End of Penny Lane
+You say '3137'[0m
+[0mLoads on mob: the captain
+You say '3138'[0m
+[0mLoads on mob: the grocer
+You say '3353'[0m
+[0mThat object doesn't seem to load.
+You say '3354'[0m
+[0mThat object doesn't seem to load.
+You say '3355'[0m
+[0mLoads on mob: the cityguard
+You say '3356'[0m
+[0mThat object doesn't seem to load.
+You say '3357'[0m
+[0mThat object doesn't seem to load.
+You say '3358'[0m
+[0mThat object doesn't seem to load.
+You say '3359'[0m
+[0mThat object doesn't seem to load.
+You say '3360'[0m
+[0mThat object doesn't seem to load.
+You say '3361'[0m
+[0mLoads on mob: the cityguard
+You say '3362'[0m
+[0mThat object doesn't seem to load.
+You say '3363'[0m
+[0mLoads on mob: the cityguard
+You say '3364'[0m
+[0mLoads on mob: the cityguard
+Loads on mob: the cityguard
+Loads on mob: the cityguard
+Loads on mob: the cityguard
+You say '3365'[0m
+[0mLoads on mob: the cityguard
+Loads on mob: the cityguard
+Loads on mob: the cityguard
+Loads on mob: the cityguard
+You say '3373'[0m
+[0mLoads on mob: the maid
+You say '3374'[0m
+[0mLoads on mob: the maid
+You say '3375'[0m
+[0mLoads on mob: the maid
+You say '3376'[0m
+[0mLoads on mob: the maid
+You say '3377'[0m
+[0mThat object doesn't seem to load.
+You say '3600'[0m
+[0mLoads on mob: the taxcollector
+You say '3601'[0m
+[0mLoads on mob: the mayor
+You say '3602'[0m
+[0mLoads in room: The Center of Market Square
+You say '3603'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3604'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3605'[0m
+[0mThat object doesn't seem to load.
+You say '3606'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3607'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3608'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3609'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3610'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3611'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3612'[0m
+[0mLoads on mob: Caramon
+Loads on mob: Igor the weaponsmith
+You say '3613'[0m
+[0mLoads on mob: the sultans guard
+Loads on mob: the sultans guard
+Loads on mob: Igor the weaponsmith
+You say '3614'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3615'[0m
+[0mLoads on mob: Caramon
+Loads on mob: Abdul the armorer
+You say '3616'[0m
+[0mLoads on mob: Abdul the armorer
+You say '3617'[0m
+[0mLoads on mob: the sultans guard
+Loads on mob: the sultans guard
+Loads on mob: Abdul the armorer
+You say '3618'[0m
+[0mLoads on mob: Abdul the armorer
+You say '3619'[0m
+[0mLoads on mob: Abdul the armorer
+You say '3620'[0m
+[0mLoads on mob: Abdul the armorer
+You say '3621'[0m
+[0mLoads on mob: the sultans guard
+Loads on mob: the sultans guard
+Loads on mob: Abdul the armorer
+You say '3622'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3623'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3624'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3625'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3626'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3627'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3628'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3629'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3630'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3631'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3632'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3633'[0m
+[0mLoads on mob: Stitch, the leather dude.
+You say '3634'[0m
+[0mLoads on mob: the shopkeeper
+You say '3635'[0m
+[0mLoads on mob: the shopkeeper
+You say '3636'[0m
+[0mLoads on mob: the shopkeeper
+You say '3637'[0m
+[0mLoads on mob: the shopkeeper
+You say '3638'[0m
+[0mLoads on mob: the shopkeeper
+You say '3639'[0m
+[0mLoads on mob: the shopkeeper
+You say '3640'[0m
+[0mLoads on mob: the baker
+You say '3641'[0m
+[0mLoads on mob: the baker
+You say '3642'[0m
+[0mLoads on mob: the baker
+You say '3643'[0m
+[0mLoads on mob: the baker
+You say '3645'[0m
+[0mLoads on mob: the baker
+You say '3646'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3647'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3648'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3649'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3650'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3651'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3652'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3653'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3654'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3655'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3656'[0m
+[0mLoads on mob: Vera the veggie lady
+You say '3657'[0m
+[0mLoads on mob: Vera the veggie lady
+You say '3658'[0m
+[0mLoads on mob: Vera the veggie lady
+You say '3659'[0m
+[0mLoads on mob: Vera the veggie lady
+You say '3660'[0m
+[0mLoads on mob: Vera the veggie lady
+You say '3661'[0m
+[0mLoads on mob: Butch the meatcutter
+You say '3662'[0m
+[0mLoads on mob: Butch the meatcutter
+You say '3663'[0m
+[0mLoads on mob: Butch the meatcutter
+You say '3664'[0m
+[0mLoads on mob: Cassandra
+You say '3665'[0m
+[0mLoads on mob: Cassandra
+You say '3667'[0m
+[0mLoads on mob: the old witherd mage/bartender
+You say '3668'[0m
+[0mLoads on mob: the old witherd mage/bartender
+You say '3669'[0m
+[0mLoads on mob: the old witherd mage/bartender
+You say '3670'[0m
+[0mLoads on mob: Elvria
+You say '3671'[0m
+[0mLoads on mob: Elvria
+You say '3672'[0m
+[0mLoads on mob: Elvria
+You say '3673'[0m
+[0mLoads on mob: Elvria
+You say '3674'[0m
+[0mLoads on mob: Elvria
+You say '3675'[0m
+[0mLoads on mob: Patch the bartender
+You say '3676'[0m
+[0mLoads on mob: Patch the bartender
+You say '3677'[0m
+[0mLoads on mob: Patch the bartender
+You say '3678'[0m
+[0mLoads on mob: Braheem
+You say '3679'[0m
+[0mLoads on mob: Braheem
+You say '3680'[0m
+[0mLoads on mob: Braheem
+You say '3681'[0m
+[0mLoads on mob: Braheem
+You say '3682'[0m
+[0mLoads on mob: Braheem
+You say '3683'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3684'[0m
+[0mLoads on mob: Butch the meatcutter
+You say '3685'[0m
+[0mLoads on mob: the foreman
+You say '3686'[0m
+[0mLoads on mob: a construction worker
+You say '3687'[0m
+[0mLoads on mob: the blacksmith
+You say '3688'[0m
+[0mLoads on mob: the blacksmith
+You say '3689'[0m
+[0mLoads on mob: the blacksmith
+You say '3690'[0m
+[0mLoads on mob: the old man
+You say '3691'[0m
+[0mLoads on mob: Igor the weaponsmith
+You say '3692'[0m
+[0mThat object doesn't seem to load.
+You say '3693'[0m
+[0mLoads on mob: the jailer
+You say '3694'[0m
+[0mThat object doesn't seem to load.
+You say '3695'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3696'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3697'[0m
+[0mLoads on mob: Ahkeem the tailor
+You say '3698'[0m
+[0mLoads in room: Igor's Secret Chamber
+You say '3699'[0m
+[0mLoads on mob: the wolverine
+You say '4000'[0m
+[0mLoads on mob: the orc
+You say '4001'[0m
+[0mLoads on mob: the snake
+You say '4002'[0m
+[0mLoads in object: a corpse
+You say '4050'[0m
+[0mLoads on mob: the hobgoblin
+You say '4051'[0m
+[0mLoads on mob: the warrior
+You say '4052'[0m
+[0mLoads in room: The large cave
+Loads in room: The large cave
+Loads in room: The large cave
+Loads in room: The large cave
+You say '4053'[0m
+[0mLoads on mob: the Thief
+You say '4100'[0m
+[0mLoads on mob: the troll
+You say '4101'[0m
+[0mLoads on mob: the Warrior
+You say '4102'[0m
+[0mLoads on mob: the Mage
+You say '4103'[0m
+[0mLoads on mob: the snake
+You say '4104'[0m
+[0mLoads on mob: the snake
+Loads on mob: the kobold
+You say '4700'[0m
+[0mLoads on mob: Juargan the Dwarven King
+You say '4701'[0m
+[0mLoads on mob: the small dwarf
+You say '4702'[0m
+[0mLoads on mob: the dwarf guard
+You say '4703'[0m
+[0mLoads on mob: the dwarf guard
+You say '4704'[0m
+[0mLoads in room: Ancients Vault
+You say '4705'[0m
+[0mLoads in room: Ancients Vault
+You say '4706'[0m
+[0mLoads on mob: Grimdale the ancient king
+You say '4707'[0m
+[0mLoads in room: Ancients Tomb
+You say '4708'[0m
+[0mLoads in object: a large stone sarcophagus
+You say '5001'[0m
+[0mLoads on mob: The dracolich
+You say '5002'[0m
+[0mLoads on mob: The dracolich
+You say '5003'[0m
+[0mLoads on mob: The myconoid shaman
+You say '5006'[0m
+[0mLoads in room: The Great Eastern Desert
+Loads in room: The Great Eastern Desert
+Loads in room: The Great Eastern Desert
+You say '5007'[0m
+[0mLoads in room: The main tent
+You say '5015'[0m
+[0mLoads in room: A small shaft
+You say '5017'[0m
+[0mLoads on mob: The nomad commander
+You say '5019'[0m
+[0mLoads on mob: The giant, purple sand worm
+You say '5020'[0m
+[0mLoads on mob: The giant, purple sand worm
+You say '5021'[0m
+[0mLoads on mob: The giant, purple sand worm
+You say '5022'[0m
+[0mLoads on mob: The brass dragon
+You say '5023'[0m
+[0mLoads in room: A small shaft
+You say '5024'[0m
+[0mLoads on mob: The brass dragon
+You say '5025'[0m
+[0mLoads in object: an iron bound chest
+You say '5026'[0m
+[0mLoads in object: an iron bound chest
+You say '5027'[0m
+[0mLoads in object: an iron bound chest
+You say '5028'[0m
+[0mLoads in object: an iron bound chest
+You say '5029'[0m
+[0mLoads in object: an iron bound chest
+You say '5030'[0m
+[0mLoads in object: an iron bound chest
+You say '5031'[0m
+[0mLoads in object: an iron bound chest
+You say '5032'[0m
+[0mLoads in object: an iron bound chest
+You say '5100'[0m
+[0mLoads on mob: the drow commoner
+You say '5101'[0m
+[0mLoads on mob: the drow warrior noble
+You say '5102'[0m
+[0mLoads on mob: the drow mage noble
+You say '5103'[0m
+[0mLoads on mob: the drow priestess
+You say '5104'[0m
+[0mLoads on mob: The drow master
+Loads on mob: the matron mother
+Loads on mob: the matron mother
+You say '5105'[0m
+[0mLoads on mob: Arachnos
+Loads on mob: The weapons master
+Loads on mob: the screaming harpy leader
+You say '5106'[0m
+[0mThat object doesn't seem to load.
+You say '5107'[0m
+[0mThat object doesn't seem to load.
+You say '5108'[0m
+[0mLoads on mob: the matron mother
+You say '5109'[0m
+[0mLoads on mob: The weapons master
+You say '5110'[0m
+[0mLoads on mob: The drow master
+You say '5111'[0m
+[0mLoads on mob: the matron mother
+You say '5112'[0m
+[0mLoads on mob: the matron mother
+You say '5113'[0m
+[0mLoads on mob: the yochlol
+You say '5114'[0m
+[0mLoads on mob: the matron mother
+You say '5200'[0m
+[0mLoads on mob: The stone golem
+You say '5201'[0m
+[0mLoads in object: the glass cabinet
+You say '5202'[0m
+[0mLoads in object: the glass cabinet
+You say '5203'[0m
+[0mLoads in object: the glass cabinet
+You say '5204'[0m
+[0mLoads in object: the glass cabinet
+You say '5205'[0m
+[0mLoads in object: the glass cabinet
+You say '5206'[0m
+[0mLoads in object: the glass cabinet
+You say '5207'[0m
+[0mLoads in room: An abandoned shop
+You say '5208'[0m
+[0mLoads on mob: The mighty beholder
+You say '5209'[0m
+[0mLoads on mob: The stone golem
+You say '5210'[0m
+[0mLoads in room: A small shack
+You say '5211'[0m
+[0mLoads in room: A small shack
+You say '5213'[0m
+[0mLoads in room: A small shack
+You say '5214'[0m
+[0mLoads on mob: The mimic
+Loads on mob: The mimic
+You say '5215'[0m
+[0mLoads on mob: The mimic
+Loads in object: the desk
+You say '5216'[0m
+[0mLoads in object: the desk
+You say '5217'[0m
+[0mLoads in room: The Tavern of the Sun
+You say '5218'[0m
+[0mLoads on mob: The mimic
+You say '5219'[0m
+[0mLoads in room: The meat stand
+You say '5220'[0m
+[0mLoads in room: The private gardens and courtyard of Thalos
+You say '5221'[0m
+[0mLoads on mob: The stone golem
+You say '5222'[0m
+[0mLoads on mob: The mimic
+You say '5223'[0m
+[0mLoads on mob: The mighty beholder
+You say '5224'[0m
+[0mLoads on mob: The stone golem
+You say '5225'[0m
+[0mLoads in room: South wing of the city hall
+You say '5226'[0m
+[0mLoads on mob: The stone golem
+You say '5227'[0m
+[0mLoads in room: East wing of the city hall
+You say '5228'[0m
+[0mLoads in room: A bath house
+You say '5230'[0m
+[0mLoads in room: Main Street
+You say '5231'[0m
+[0mLoads in room: A garden path
+You say '5232'[0m
+[0mLoads in room: The market place
+You say '5233'[0m
+[0mLoads in room: A side street
+You say '5234'[0m
+[0mLoads in room: A side street
+You say '5235'[0m
+[0mLoads in room: The meat stand
+You say '5236'[0m
+[0mLoads in room: The produce stand
+You say '5237'[0m
+[0mLoads in room: Under the watchtower
+You say '5238'[0m
+[0mLoads in room: A collapsed stone dwelling
+You say '5239'[0m
+[0mLoads in room: The Tavern of the Sun
+You say '5240'[0m
+[0mLoads in room: The private gardens and courtyard of Thalos
+You say '5241'[0m
+[0mLoads in room: A small shack
+You say '5242'[0m
+[0mLoads in room: Under a watchtower
+You say '5243'[0m
+[0mLoads in room: The north-west watchtower
+You say '5244'[0m
+[0mLoads in room: The Temple of Thalos
+You say '5250'[0m
+[0mLoads in room: The Tavern of the Sun
+You say '5251'[0m
+[0mLoads in room: The Tavern of the Sun
+You say '5600'[0m
+[0mThat object doesn't seem to load.
+You say '5601'[0m
+[0mLoads on mob: the pilferer
+You say '5602'[0m
+[0mLoads on mob: the sneak
+You say '5603'[0m
+[0mLoads on mob: the rogue
+You say '5604'[0m
+[0mLoads on mob: the shady character
+You say '5605'[0m
+[0mLoads on mob: the merc
+You say '5606'[0m
+[0mLoads on mob: a knifer
+You say '5607'[0m
+[0mLoads on mob: a killer
+You say '5608'[0m
+[0mLoads on mob: the assassin
+You say '5609'[0m
+[0mLoads on mob: the assassin
+You say '5610'[0m
+[0mLoads on mob: the DarkFriends bodyguard
+You say '5611'[0m
+[0mLoads on mob: the DarkFriends bodyguard
+You say '5612'[0m
+[0mLoads on mob: the DarkFriends bodyguard
+You say '5613'[0m
+[0mLoads on mob: the DarkFriends bodyguard
+You say '5614'[0m
+[0mLoads in object: a sturdy cabinet
+You say '5615'[0m
+[0mLoads on mob: the DarkFriends assassin
+You say '5616'[0m
+[0mLoads on mob: the DarkFriends assassin
+You say '5617'[0m
+[0mLoads on mob: the DarkFriends assassin
+You say '5618'[0m
+[0mLoads on mob: the DarkFriends assassin
+You say '5619'[0m
+[0mLoads on mob: the huge snarling panther
+You say '5620'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5621'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5622'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5623'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5624'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5625'[0m
+[0mLoads on mob: the Grandmaster of DarkFriends
+You say '5626'[0m
+[0mLoads in room: Training Arena
+You say '5627'[0m
+[0mLoads in object: a sturdy cabinet
+You say '5628'[0m
+[0mLoads in room: Supply room
+You say '5629'[0m
+[0mLoads in room: Supply room
+You say '5630'[0m
+[0mLoads in room: Supply room
+You say '5631'[0m
+[0mLoads on mob: the clerk
+You say '5632'[0m
+[0mLoads in object: a belt pouch
+You say '5633'[0m
+[0mLoads on mob: the shady character
+Loads on mob: the Guild fence
+You say '5634'[0m
+[0mLoads on mob: the assassin
+You say '5635'[0m
+[0mLoads in room: Grandmaster's Bedchamber
+You say '5636'[0m
+[0mLoads on mob: the juggler
+You say '5637'[0m
+[0mLoads on mob: the legbreaker
+You say '5638'[0m
+[0mLoads in object: the teensy little door
+You say '5639'[0m
+[0mLoads in object: the teensy little door
+You say '5640'[0m
+[0mLoads in object: the teensy little door
+You say '5641'[0m
+[0mLoads in room: Behind the Altar
+You say '5642'[0m
+[0mLoads on mob: the merc
+You say '5643'[0m
+[0mThat object doesn't seem to load.
+You say '5644'[0m
+[0mLoads on mob: the merc
+You say '5645'[0m
+[0mLoads on mob: the burglar
+You say '5646'[0m
+[0mLoads on mob: the burglar
+You say '5647'[0m
+[0mLoads on mob: the smuggler
+You say '5648'[0m
+[0mLoads on mob: a buxom wench
+You say '6000'[0m
+[0mLoads on mob: John the Lumberjack
+You say '6001'[0m
+[0mLoads on mob: John the Lumberjack
+You say '6002'[0m
+[0mLoads on mob: John the Lumberjack
+You say '6003'[0m
+[0mLoads in room: Inside the cabin
+You say '6005'[0m
+[0mLoads in room: Inside the cabin
+You say '6006'[0m
+[0mLoads in object: a fireplace
+You say '6007'[0m
+[0mLoads in object: a wooden chest
+You say '6010'[0m
+[0mLoads in room: On a small, grassy field
+You say '6011'[0m
+[0mLoads in room: A small path in the dense forest
+Loads in room: A small path in the dense forest
+Loads in room: A small path in the dense forest
+You say '6013'[0m
+[0mThat object doesn't seem to load.
+You say '6102'[0m
+[0mLoads in room: A narrow trail through the deep, dark forest
+You say '6103'[0m
+[0mLoads in room: A small path in the deep, dark forest
+You say '6106'[0m
+[0mLoads in room: A small path in the deep, dark forest
+Loads in room: A narrow trail through the deep, dark forest
+Loads in room: A small path in the deep, dark forest
+You say '6107'[0m
+[0mLoads in room: A small path in the deep, dark forest
+You say '6110'[0m
+[0mLoads on mob: the huge, green dragon
+You say '6111'[0m
+[0mLoads on mob: the huge, green dragon
+You say '6112'[0m
+[0mLoads on mob: the huge, green dragon
+You say '6114'[0m
+[0mLoads on mob: Shargugh
+You say '6151'[0m
+[0mLoads on mob: the Insane Druid
+You say '6152'[0m
+[0mLoads in room: The druid's room
+You say '6153'[0m
+[0mLoads in object: an Alcove
+You say '6154'[0m
+[0mLoads in object: an Alcove
+You say '6155'[0m
+[0mLoads in object: an Alcove
+You say '6300'[0m
+[0mLoads on mob: the Hermit
+You say '6308'[0m
+[0mLoads on mob: the Queen Spider
+You say '6309'[0m
+[0mLoads on mob: the Queen Spider
+Loads on mob: the huge, poisonous spider
+Loads on mob: the Ki-Rin
+Loads on mob: the Donjonkeeper
+You say '6502'[0m
+[0mLoads on mob: the dwarven guard
+Loads on mob: the wraith
+You say '6504'[0m
+[0mLoads on mob: the dwarven guard
+Loads on mob: the storekeeper
+Loads on mob: the baker
+Loads on mob: the dwarf
+You say '6505'[0m
+[0mLoads on mob: the dwarven guard
+Loads on mob: the storekeeper
+You say '6506'[0m
+[0mLoads in room: Hospital
+Loads on mob: the dwarven doctor
+You say '6507'[0m
+[0mLoads in room: Inside the entrance
+Loads in room: Entrance to Mountain
+Loads in room: Top of mountain
+Loads in room: Dark path
+You say '6509'[0m
+[0mLoads on mob: the dwarven guard
+Loads on mob: the barracks guard
+You say '6510'[0m
+[0mLoads on mob: the storekeeper
+Loads on mob: the dwarven guard
+You say '6511'[0m
+[0mLoads on mob: the storekeeper
+Loads on mob: the dwarven guard
+You say '6512'[0m
+[0mLoads on mob: the storekeeper
+Loads on mob: the dwarven guard
+Loads on mob: the dwarven mine leader
+You say '6514'[0m
+[0mLoads on mob: the dwarf
+You say '6516'[0m
+[0mLoads in room: Bedroom
+You say '6519'[0m
+[0mLoads on mob: the dwarven doctor
+Loads on mob: the mazekeeper
+You say '6521'[0m
+[0mLoads on mob: the mazekeeper
+You say '7190'[0m
+[0mLoads on mob: the great sewer rat
+You say '7200'[0m
+[0mLoads on mob: the master mindflayer
+You say '7201'[0m
+[0mLoads on mob: the senior mindflayer
+You say '7203'[0m
+[0mLoads on mob: the master mindflayer
+You say '7204'[0m
+[0mLoads in room: The Treasury
+You say '7205'[0m
+[0mLoads on mob: the master mindflayer
+You say '7206'[0m
+[0mLoads in room: The lair.
+You say '7208'[0m
+[0mLoads on mob: the ugly wererat
+You say '7209'[0m
+[0mLoads on mob: the ugly wererat
+You say '7210'[0m
+[0mThat object doesn't seem to load.
+You say '7212'[0m
+[0mLoads on mob: the lemure blob
+You say '7216'[0m
+[0mLoads on mob: the red dragon
+You say '7303'[0m
+[0mLoads on mob: the red dragon
+You say '7304'[0m
+[0mLoads on mob: the red dragon
+You say '7305'[0m
+[0mLoads on mob: the red dragon
+You say '7306'[0m
+[0mLoads on mob: the red dragon
+You say '7307'[0m
+[0mLoads on mob: the red dragon
+You say '7308'[0m
+[0mLoads on mob: the red dragon
+You say '7309'[0m
+[0mLoads on mob: the red dragon
+You say '7310'[0m
+[0mLoads on mob: the red dragon
+You say '8301'[0m
+[0mLoads on mob: a marsh giant
+You say '8302'[0m
+[0mLoads on mob: a Death Slaad
+Loads on mob: a marsh giant
+You say '8303'[0m
+[0mLoads on mob: a gnoll
+You say '8306'[0m
+[0mLoads on mob: a Death Slaad
+You say '8307'[0m
+[0mLoads on mob: a green troll
+Loads on mob: a shambling mound
+You say '8308'[0m
+[0mLoads on mob: the Swamp Thing
+Loads on mob: the Will-O-Wisp
+Loads on mob: the Marsh Hag
+Loads on mob: a Death Slaad
+Loads on mob: a shambling mound
+Loads on mob: a gargoyle
+Loads on mob: a marsh giant
+You say '8309'[0m
+[0mLoads on mob: a swamp troll
+Loads on mob: a green troll
+You say '9001'[0m
+[0mLoads on mob: The sorceress
+You say '9002'[0m
+[0mLoads on mob: The skeletal warrior
+You say '9003'[0m
+[0mLoads on mob: The death knight
+You say '9004'[0m
+[0mLoads on mob: Miko
+You say '9005'[0m
+[0mLoads on mob: Charon
+You say '9006'[0m
+[0mLoads on mob: The spectre lord
+You say '9007'[0m
+[0mLoads on mob: The sorceress
+You say '9008'[0m
+[0mLoads on mob: The shade
+You say '9009'[0m
+[0mLoads in object: an oak rack
+You say '9010'[0m
+[0mLoads in object: an oak rack
+You say '9011'[0m
+[0mLoads in object: an oak rack
+You say '9012'[0m
+[0mLoads on mob: The enchantress
+You say '9013'[0m
+[0mLoads on mob: The evil patriarch
+You say '9014'[0m
+[0mLoads in object: an oak rack
+You say '9015'[0m
+[0mLoads on mob: The enchantress
+You say '9016'[0m
+[0mLoads in room: The store room
+You say '9017'[0m
+[0mLoads in room: The store room
+You say '9018'[0m
+[0mThat object doesn't seem to load.
+You say '9019'[0m
+[0mLoads on mob: The enchantress
+You say '9020'[0m
+[0mLoads on mob: Miko
+You say '9021'[0m
+[0mLoads on mob: Dispater
+You say '9022'[0m
+[0mLoads in room: The store room
+You say '9023'[0m
+[0mLoads in room: Treasure Vault
+You say '9024'[0m
+[0mLoads on mob: The shining blue dragon
+You say '9025'[0m
+[0mLoads in room: The Unholy Altar
+You say '9026'[0m
+[0mLoads in room: The Unholy Altar
+You say '9027'[0m
+[0mLoads on mob: The enchantress
+You say '9028'[0m
+[0mLoads on mob: Miko
+You say '9029'[0m
+[0mLoads in room: Treasure Vault
+You say '9030'[0m
+[0mLoads on mob: Miko
+You say '9031'[0m
+[0mLoads in room: The torture room
+You say '9032'[0m
+[0mLoads on mob: The enchantress
+You say '9033'[0m
+[0mLoads in room: Treasure Vault
+You say '9034'[0m
+[0mLoads on mob: The evil patriarch
+You say '9035'[0m
+[0mLoads on mob: The evil patriarch
+You say '9036'[0m
+[0mLoads in room: Treasure Vault
+You say '9037'[0m
+[0mLoads on mob: The death knight
+You say '9038'[0m
+[0mLoads on mob: The death knight
+You say '9039'[0m
+[0mLoads on mob: The death knight
+You say '9040'[0m
+[0mLoads on mob: The death knight
+You say '9041'[0m
+[0mLoads on mob: The death knight
+You say '9042'[0m
+[0mLoads on mob: The death knight
+You say '9043'[0m
+[0mLoads on mob: The death knight
+You say '9044'[0m
+[0mLoads on mob: The death knight
+You say '9045'[0m
+[0mLoads in room: Treasure Vault
+You say '9046'[0m
+[0mLoads on mob: Bael
+You say '9047'[0m
+[0mLoads on mob: The sorceress
+You say '9048'[0m
+[0mLoads in room: Treasure Vault
+You say '9049'[0m
+[0mLoads in room: Treasure Vault
+You say '9050'[0m
+[0mLoads on mob: The death knight
+You say '9051'[0m
+[0mLoads on mob: Moloch
+You say '9052'[0m
+[0mLoads on mob: The evil patriarch
+You say '9053'[0m
+[0mLoads on mob: The enchantress
+You say '9054'[0m
+[0mLoads on mob: Miko
+You say '9055'[0m
+[0mLoads on mob: The ice devil
+You say '9056'[0m
+[0mLoads on mob: The skeletal warrior
+You say '9057'[0m
+[0mLoads on mob: Charon
+You say '9058'[0m
+[0mLoads on mob: Moloch
+You say '9059'[0m
+[0mLoads on mob: Baalzebul
+You say '9060'[0m
+[0mLoads on mob: Dispater
+You say '9061'[0m
+[0mLoads on mob: Bael
+You say '9062'[0m
+[0mThat object doesn't seem to load.
+You say '9063'[0m
+[0mThat object doesn't seem to load.
+You say '9064'[0m
+[0mThat object doesn't seem to load.
+You say '9065'[0m
+[0mThat object doesn't seem to load.
+You say '9066'[0m
+[0mThat object doesn't seem to load.
+You say '9067'[0m
+[0mLoads on mob: Baalzebul
+You say '9068'[0m
+[0mLoads on mob: The enchantress
+You say '9069'[0m
+[0mLoads in room: Evil Sanctum
+You say '9070'[0m
+[0mThat object doesn't seem to load.
+You say '9071'[0m
+[0mThat object doesn't seem to load.
+You say '9101'[0m
+[0mLoads on mob: the ugly, wicked witch
+You say '9102'[0m
+[0mLoads on mob: the mysterious effreeti
+You say '9103'[0m
+[0mLoads on mob: the mysterious effreeti
+You say '9104'[0m
+[0mLoads on mob: the screaming harpy leader
+You say '9105'[0m
+[0mLoads on mob: the screaming harpy leader
+You say '9201'[0m
+[0mLoads on mob: the Earth Ruler
+You say '9202'[0m
+[0mLoads on mob: the Earth Ruler
+You say '9203'[0m
+[0mLoads on mob: the Fire Ruler
+You say '9204'[0m
+[0mLoads on mob: the Fire Ruler
+You say '9205'[0m
+[0mLoads on mob: The Air Ruler
+You say '9206'[0m
+[0mLoads on mob: The Air Ruler
+You say '9207'[0m
+[0mLoads on mob: The Lightning Ruler
+You say '9208'[0m
+[0mLoads on mob: The Lightning Ruler
+You say '9209'[0m
+[0mLoads on mob: The Water Ruler
+You say '9210'[0m
+[0mLoads on mob: The Water Ruler
+You say '9211'[0m
+[0mLoads on mob: the elemental guardian
+You say '9212'[0m
+[0mLoads on mob: the elemental guardian
+You say '9213'[0m
+[0mLoads on mob: the cyclops
+You say '9214'[0m
+[0mLoads on mob: the cyclops
+You say '9215'[0m
+[0mLoads on mob: an elemental magician
+Loads on mob: a flame
+You say '9216'[0m
+[0mLoads on mob: a baby rainbow dragon
+Loads on mob: a puddle
+You say '9217'[0m
+[0mLoads on mob: an alchemist
+Loads on mob: a small rock
+You say '9218'[0m
+[0mLoads on mob: an alchemist
+Loads on mob: a small spark
+Loads on mob: an eddie
+You say '9219'[0m
+[0mLoads on mob: a medium elemental
+Loads on mob: a small spark
+You say '9221'[0m
+[0mLoads on mob: a medium elemental
+Loads on mob: a particle
+You say '9222'[0m
+[0mLoads on mob: a lava beast
+You say '9223'[0m
+[0mLoads on mob: a large elemental
+You say '9224'[0m
+[0mLoads on mob: a small elemental
+Loads on mob: a puddle
+You say '9225'[0m
+[0mLoads on mob: the elemental guardian
+You say '9226'[0m
+[0mLoads on mob: the Blue Flame
+You say '9227'[0m
+[0mLoads on mob: the Ice Bandit
+You say '9228'[0m
+[0mLoads on mob: the Rock Monster
+You say '9229'[0m
+[0mLoads on mob: the Hurricane
+You say '9230'[0m
+[0mLoads on mob: the Magneto
+You say '9231'[0m
+[0mLoads on mob: the elixir vendor
+You say '9232'[0m
+[0mLoads on mob: the elixir vendor
+You say '9500'[0m
+[0mThat object doesn't seem to load.
+You say '9501'[0m
+[0mThat object doesn't seem to load.
+You say '9502'[0m
+[0mThat object doesn't seem to load.
+You say '9503'[0m
+[0mThat object doesn't seem to load.
+You say '9505'[0m
+[0mThat object doesn't seem to load.
+You say '9506'[0m
+[0mThat object doesn't seem to load.
+You say '9510'[0m
+[0mThat object doesn't seem to load.
+You say '9511'[0m
+[0mThat object doesn't seem to load.
+You say '9512'[0m
+[0mThat object doesn't seem to load.
+You say '9515'[0m
+[0mThat object doesn't seem to load.
+You say '9520'[0m
+[0mThat object doesn't seem to load.
+You say '9521'[0m
+[0mThat object doesn't seem to load.
+You say '9522'[0m
+[0mThat object doesn't seem to load.
+You say '9524'[0m
+[0mThat object doesn't seem to load.
+You say '9525'[0m
+[0mThat object doesn't seem to load.
+You say '9530'[0m
+[0mThat object doesn't seem to load.
+You say '9531'[0m
+[0mThat object doesn't seem to load.
+You say '9532'[0m
+[0mThat object doesn't seem to load.
+You say '9534'[0m
+[0mThat object doesn't seem to load.
+You say '9535'[0m
+[0mThat object doesn't seem to load.
+You say '9536'[0m
+[0mThat object doesn't seem to load.
+You say '9540'[0m
+[0mThat object doesn't seem to load.
+You say '9541'[0m
+[0mThat object doesn't seem to load.
+You say '9542'[0m
+[0mThat object doesn't seem to load.
+You say '9546'[0m
+[0mThat object doesn't seem to load.
+You say '9550'[0m
+[0mThat object doesn't seem to load.
+You say '9551'[0m
+[0mThat object doesn't seem to load.
+You say '9552'[0m
+[0mThat object doesn't seem to load.
+You say '9553'[0m
+[0mThat object doesn't seem to load.
+You say '9554'[0m
+[0mThat object doesn't seem to load.
+You say '9555'[0m
+[0mThat object doesn't seem to load.
+You say '9560'[0m
+[0mThat object doesn't seem to load.
+You say '9561'[0m
+[0mThat object doesn't seem to load.
+You say '9562'[0m
+[0mThat object doesn't seem to load.
+You say '9563'[0m
+[0mThat object doesn't seem to load.
+You say '9564'[0m
+[0mThat object doesn't seem to load.
+You say '9565'[0m
+[0mThat object doesn't seem to load.
+You say '9570'[0m
+[0mThat object doesn't seem to load.
+You say '9571'[0m
+[0mThat object doesn't seem to load.
+You say '9572'[0m
+[0mThat object doesn't seem to load.
+You say '9573'[0m
+[0mThat object doesn't seem to load.
+You say '9574'[0m
+[0mThat object doesn't seem to load.
+You say '9575'[0m
+[0mThat object doesn't seem to load.
+You say '9597'[0m
+[0mThat object doesn't seem to load.
+You say '9598'[0m
+[0mThat object doesn't seem to load.
+You say '9599'[0m
+[0mThat object doesn't seem to load.
+You say '9600'[0m
+[0mThat object doesn't seem to load.
+You say '9601'[0m
+[0mThat object doesn't seem to load.
+You say '9602'[0m
+[0mThat object doesn't seem to load.
+You say '9603'[0m
+[0mThat object doesn't seem to load.
+You say '9604'[0m
+[0mThat object doesn't seem to load.
+You say '9605'[0m
+[0mThat object doesn't seem to load.
+You say '9606'[0m
+[0mThat object doesn't seem to load.
+You say '9607'[0m
+[0mThat object doesn't seem to load.
+You say '9608'[0m
+[0mThat object doesn't seem to load.
+You say '9609'[0m
+[0mThat object doesn't seem to load.
+You say '9610'[0m
+[0mThat object doesn't seem to load.
+You say '9611'[0m
+[0mThat object doesn't seem to load.
+You say '9612'[0m
+[0mThat object doesn't seem to load.
+You say '9613'[0m
+[0mThat object doesn't seem to load.
+You say '9614'[0m
+[0mThat object doesn't seem to load.
+You say '9650'[0m
+[0mThat object doesn't seem to load.
+You say '9651'[0m
+[0mThat object doesn't seem to load.
+You say '9652'[0m
+[0mThat object doesn't seem to load.
+You say '9653'[0m
+[0mThat object doesn't seem to load.
+You say '9654'[0m
+[0mThat object doesn't seem to load.
+You say '9655'[0m
+[0mThat object doesn't seem to load.
+You say '9656'[0m
+[0mThat object doesn't seem to load.
+You say '9657'[0m
+[0mThat object doesn't seem to load.
+You say '9658'[0m
+[0mThat object doesn't seem to load.
+You say '9659'[0m
+[0mThat object doesn't seem to load.
+You say '9660'[0m
+[0mThat object doesn't seem to load.
+You say '9661'[0m
+[0mThat object doesn't seem to load.
+You say '9662'[0m
+[0mThat object doesn't seem to load.
+You say '9663'[0m
+[0mThat object doesn't seem to load.
+You say '9664'[0m
+[0mThat object doesn't seem to load.
+You say '9665'[0m
+[0mThat object doesn't seem to load.
+You say '9666'[0m
+[0mThat object doesn't seem to load.
+You say '9667'[0m
+[0mThat object doesn't seem to load.
+You say '9668'[0m
+[0mThat object doesn't seem to load.
+You say '9669'[0m
+[0mThat object doesn't seem to load.
+You say '9670'[0m
+[0mThat object doesn't seem to load.
+You say '9699'[0m
+[0mThat object doesn't seem to load.
+You say '9700'[0m
+[0mThat object doesn't seem to load.
+You say '9701'[0m
+[0mThat object doesn't seem to load.
+You say '9702'[0m
+[0mThat object doesn't seem to load.
+You say '9703'[0m
+[0mThat object doesn't seem to load.
+You say '9704'[0m
+[0mThat object doesn't seem to load.
+You say '9705'[0m
+[0mThat object doesn't seem to load.
+You say '9706'[0m
+[0mThat object doesn't seem to load.
+You say '9707'[0m
+[0mThat object doesn't seem to load.
+You say '9708'[0m
+[0mThat object doesn't seem to load.
+You say '9709'[0m
+[0mThat object doesn't seem to load.
+You say '9710'[0m
+[0mThat object doesn't seem to load.
+You say '9711'[0m
+[0mThat object doesn't seem to load.
+You say '9712'[0m
+[0mThat object doesn't seem to load.
+You say '9713'[0m
+[0mThat object doesn't seem to load.
+You say '9714'[0m
+[0mThat object doesn't seem to load.
+You say '9715'[0m
+[0mThat object doesn't seem to load.
+You say '9716'[0m
+[0mThat object doesn't seem to load.
+You say '9717'[0m
+[0mThat object doesn't seem to load.
+You say '9718'[0m
+[0mThat object doesn't seem to load.
+You say '9719'[0m
+[0mThat object doesn't seem to load.
+You say '9790'[0m
+[0mThat object doesn't seem to load.
+You say '9791'[0m
+[0mThat object doesn't seem to load.
+You say '9792'[0m
+[0mThat object doesn't seem to load.
+You say '9793'[0m
+[0mThat object doesn't seem to load.
+You say '9794'[0m
+[0mThat object doesn't seem to load.
+You say '9795'[0m
+[0mThat object doesn't seem to load.
+You say '9796'[0m
+[0mThat object doesn't seem to load.
+You say '9797'[0m
+[0mThat object doesn't seem to load.
+You say '9798'[0m
+[0mThat object doesn't seem to load.
+You say '9799'[0m
+[0mThat object doesn't seem to load.
+You say '9800'[0m
+[0mThat object doesn't seem to load.
+You say '9801'[0m
+[0mThat object doesn't seem to load.
+You say '9802'[0m
+[0mThat object doesn't seem to load.
+You say '9803'[0m
+[0mThat object doesn't seem to load.
+You say '9804'[0m
+[0mThat object doesn't seem to load.
+You say '9805'[0m
+[0mThat object doesn't seem to load.
+You say '9806'[0m
+[0mThat object doesn't seem to load.
+You say '9807'[0m
+[0mThat object doesn't seem to load.
+You say '9808'[0m
+[0mThat object doesn't seem to load.
+You say '9809'[0m
+[0mThat object doesn't seem to load.
+You say '9810'[0m
+[0mThat object doesn't seem to load.
+You say '9811'[0m
+[0mThat object doesn't seem to load.
+You say '9812'[0m
+[0mThat object doesn't seem to load.
+You say '9813'[0m
+[0mThat object doesn't seem to load.
+You say '9814'[0m
+[0mThat object doesn't seem to load.
+You say '9815'[0m
+[0mThat object doesn't seem to load.
+You say '9816'[0m
+[0mThat object doesn't seem to load.
+You say '9817'[0m
+[0mThat object doesn't seem to load.
+You say '9818'[0m
+[0mThat object doesn't seem to load.
+You say '9819'[0m
+[0mThat object doesn't seem to load.
+You say '9820'[0m
+[0mThat object doesn't seem to load.
+You say '9821'[0m
+[0mThat object doesn't seem to load.
+You say '9822'[0m
+[0mThat object doesn't seem to load.
+You say '9823'[0m
+[0mThat object doesn't seem to load.
+You say '9824'[0m
+[0mThat object doesn't seem to load.
+You say '9825'[0m
+[0mThat object doesn't seem to load.
+You say '9826'[0m
+[0mThat object doesn't seem to load.
+You say '9827'[0m
+[0mThat object doesn't seem to load.
+You say '9828'[0m
+[0mThat object doesn't seem to load.
+You say '9829'[0m
+[0mThat object doesn't seem to load.
+You say '9830'[0m
+[0mThat object doesn't seem to load.
+You say '9831'[0m
+[0mThat object doesn't seem to load.
+You say '9832'[0m
+[0mThat object doesn't seem to load.
+You say '9833'[0m
+[0mThat object doesn't seem to load.
+You say '9834'[0m
+[0mThat object doesn't seem to load.
+You say '9835'[0m
+[0mThat object doesn't seem to load.
+You say '9836'[0m
+[0mThat object doesn't seem to load.
+You say '9837'[0m
+[0mThat object doesn't seem to load.
+You say '9838'[0m
+[0mThat object doesn't seem to load.
+You say '9839'[0m
+[0mThat object doesn't seem to load.
+You say '9840'[0m
+[0mThat object doesn't seem to load.
+You say '9841'[0m
+[0mThat object doesn't seem to load.
+You say '9842'[0m
+[0mThat object doesn't seem to load.
+You say '9843'[0m
+[0mThat object doesn't seem to load.
+You say '9844'[0m
+[0mThat object doesn't seem to load.
+You say '9845'[0m
+[0mThat object doesn't seem to load.
+You say '9846'[0m
+[0mThat object doesn't seem to load.
+You say '9847'[0m
+[0mThat object doesn't seem to load.
+You say '9848'[0m
+[0mThat object doesn't seem to load.
+You say '9900'[0m
+[0mLoads on mob: the herbalist
+You say '9901'[0m
+[0mLoads on mob: the herbalist
+You say '9902'[0m
+[0mLoads on mob: the herbalist
+You say '9903'[0m
+[0mLoads on mob: the herbalist
+You say '9904'[0m
+[0mLoads in object: a large chest
+You say '9905'[0m
+[0mLoads in object: a huge oaken desk
+You say '9906'[0m
+[0mLoads in room: The guilds keep.
+You say '9907'[0m
+[0mLoads on mob: the guild fence
+Loads on mob: the nasty rogue
+You say '9908'[0m
+[0mLoads on mob: the master rogue
+You say '9909'[0m
+[0mLoads on mob: the master rogue
+You say '9910'[0m
+[0mLoads on mob: the bartender
+You say '9911'[0m
+[0mLoads on mob: the bartender
+You say '9912'[0m
+[0mLoads on mob: the bartender
+You say '9913'[0m
+[0mLoads on mob: the bartender
+You say '9914'[0m
+[0mLoads on mob: the herbalist
+You say '9915'[0m
+[0mLoads on mob: the guard captain
+You say '9916'[0m
+[0mLoads on mob: the guild guard
+You say '9917'[0m
+[0mLoads on mob: the guard captain
+Loads on mob: the nasty rogue
+Loads on mob: the assassin
+You say '9918'[0m
+[0mLoads on mob: the assassin
+You say '9919'[0m
+[0mLoads on mob: the master rogue
+Loads on mob: the guard captain
+Loads on mob: the masters counselor
+Loads on mob: the assassin
+You say '9920'[0m
+[0mLoads on mob: the guard captain
+You say '9921'[0m
+[0mLoads on mob: the guild accountant
+You say '9922'[0m
+[0mLoads on mob: the masters counselor
+You say '9923'[0m
+[0mLoads on mob: the masters counselor
+You say '9924'[0m
+[0mLoads on mob: the guild doctor
+You say '9925'[0m
+[0mLoads on mob: the master rogue
+Loads on mob: a guild guard
+You say '9926'[0m
+[0mLoads on mob: a guild guard
+Loads on mob: the masters counselor
+You say '9927'[0m
+[0mLoads on mob: the masters counselor
+You say '9928'[0m
+[0mLoads in room: Grath's office.
+Loads in room: The pit of anguish.
+You say '9929'[0m
+[0mThat object doesn't seem to load.
+You say '9930'[0m
+[0mLoads on mob: the dirty grocer
+You say '9931'[0m
+[0mLoads on mob: the dirty grocer
+You say '9932'[0m
+[0mLoads on mob: the dirty grocer
+You say '9933'[0m
+[0mLoads on mob: the dirty grocer
+You say '9934'[0m
+[0mLoads in room: The pit of anguish.
+You say '9935'[0m
+[0mLoads in object: a huge oaken desk
+You say '9936'[0m
+[0mLoads in object: a crack in the wall
+You say '9937'[0m
+[0mLoads in room: A damp hallway.
+You say '11002'[0m
+[0mLoads on mob: The harpy Queen
+Loads in room: The Hideaway
+You say '11003'[0m
+[0mLoads in room: The Hideaway
+You say '11004'[0m
+[0mLoads on mob: Redbeard the pirate
+You say '11005'[0m
+[0mLoads on mob: A mangy pirate
+You say '11006'[0m
+[0mLoads on mob: Redbeard the pirate
+You say '11007'[0m
+[0mLoads on mob: The toothless pirate
+You say '11008'[0m
+[0mLoads on mob: The ragpicker
+You say '11009'[0m
+[0mLoads on mob: The lover
+You say '11010'[0m
+[0mLoads in object: the fermenting corpse
+You say '11020'[0m
+[0mLoads in room: The little well.
+You say '11021'[0m
+[0mLoads on mob: Megaera
+You say '11023'[0m
+[0mLoads on mob: A fire giant
+You say '11024'[0m
+[0mLoads on mob: A fire giant
+You say '11025'[0m
+[0mLoads on mob: The efreeti
+You say '11026'[0m
+[0mLoads on mob: Redbeard the pirate
+You say '11030'[0m
+[0mLoads on mob: A fire salamader
+Loads on mob: The efreeti
+You say '11031'[0m
+[0mLoads in object: a bucket
+Loads on mob: The swarthy fisherman
+You say '11032'[0m
+[0mLoads on mob: The swarthy fisherman
+You say '11033'[0m
+[0mLoads on mob: The swarthy fisherman
+You say '11034'[0m
+[0mLoads on mob: The phantom
+You say '11035'[0m
+[0mLoads on mob: The phantom
+You say '11036'[0m
+[0mLoads on mob: The black beast
+You say '11037'[0m
+[0mLoads on mob: The murderer
+You say '11039'[0m
+[0mLoads on mob: The giantess
+You say '11040'[0m
+[0mLoads on mob: The giantess
+You say '12500'[0m
+[0mLoads on mob: Biff Stud
+You say '12502'[0m
+[0mLoads on mob: Biff Stud
+You say '12503'[0m
+[0mLoads on mob: Biff Stud
+You say '12520'[0m
+[0mLoads on mob: Pollyanna
+You say '12530'[0m
+[0mLoads on mob: the affable waiter
+You say '12531'[0m
+[0mLoads on mob: the affable waiter
+You say '12532'[0m
+[0mLoads on mob: the affable waiter
+You say '12535'[0m
+[0mLoads on mob: the tailor
+You say '12536'[0m
+[0mLoads on mob: the tailor
+You say '12537'[0m
+[0mLoads on mob: the tailor
+You say '12538'[0m
+[0mLoads on mob: the tailor
+You say '12539'[0m
+[0mLoads on mob: the tailor
+You say '12540'[0m
+[0mLoads on mob: the tailor
+You say '12541'[0m
+[0mLoads on mob: the tailor
+You say '12542'[0m
+[0mLoads on mob: the tailor
+You say '12543'[0m
+[0mLoads on mob: the tailor
+You say '12550'[0m
+[0mLoads on mob: the furrier
+You say '12551'[0m
+[0mLoads on mob: the furrier
+You say '12552'[0m
+[0mLoads on mob: the furrier
+You say '12553'[0m
+[0mLoads on mob: the furrier
+You say '12554'[0m
+[0mLoads on mob: the furrier
+You say '12555'[0m
+[0mLoads on mob: the furrier
+You say '12560'[0m
+[0mLoads on mob: Dud
+You say '12561'[0m
+[0mLoads on mob: Dud
+You say '12562'[0m
+[0mLoads on mob: Dud
+You say '12563'[0m
+[0mLoads on mob: Dud
+You say '12564'[0m
+[0mLoads on mob: The Bar Maid
+Loads on mob: Cookie
+Loads in room: Meat Locker
+You say '12565'[0m
+[0mLoads on mob: The Bar Maid
+Loads in room: Meat Locker
+You say '12566'[0m
+[0mLoads on mob: The Bar Maid
+Loads in room: Meat Locker
+You say '12568'[0m
+[0mLoads on mob: Cookie
+You say '12570'[0m
+[0mLoads on mob: The soldier
+Loads on mob: The rookie soldier
+Loads on mob: The lieutenant of the guard
+You say '12571'[0m
+[0mLoads on mob: The lieutenant of the guard
+You say '12572'[0m
+[0mLoads on mob: The captain of the guard
+You say '12573'[0m
+[0mLoads on mob: The armaments officer
+You say '12580'[0m
+[0mLoads on mob: The Bookseller
+You say '12581'[0m
+[0mLoads on mob: The Chemist
+You say '12582'[0m
+[0mThat object doesn't seem to load.
+You say '12585'[0m
+[0mLoads on mob: the jailkeeper
+You say '12586'[0m
+[0mLoads in room: Police Station
+Loads in room: Lockup
+You say '12590'[0m
+[0mLoads on mob: The captain of the guard
+You say '12591'[0m
+[0mThat object doesn't seem to load.
+You say '12595'[0m
+[0mLoads on mob: The Lapidarist
+You say '12596'[0m
+[0mLoads on mob: The Lapidarist
+You say '12600'[0m
+[0mLoads on mob: Albert DuBois
+You say '12601'[0m
+[0mLoads in room: Albert's Bedroom
+You say '12602'[0m
+[0mLoads on mob: Albert DuBois
+You say '12603'[0m
+[0mLoads in object: a battered chest
+You say '12604'[0m
+[0mLoads in object: a teddy bear
+You say '13001'[0m
+[0mLoads on mob: The Chamberlain
+You say '13002'[0m
+[0mLoads on mob: The Captain of the Watch
+Loads on mob: A Watchman
+You say '13003'[0m
+[0mLoads on mob: The mellow bartenter
+Loads on mob: The innkeeper
+You say '13004'[0m
+[0mLoads on mob: The patron
+Loads on mob: The greasy bartender
+Loads on mob: The innkeeper
+You say '13005'[0m
+[0mLoads on mob: The mellow bartenter
+Loads on mob: Ms. McGregor
+Loads on mob: The greasy bartender
+Loads on mob: The drunken smuggler
+Loads on mob: The innkeeper
+You say '13006'[0m
+[0mLoads on mob: The mellow bartenter
+You say '13007'[0m
+[0mLoads on mob: The greasy bartender
+Loads on mob: The drunken smuggler
+You say '13010'[0m
+[0mLoads on mob: The Archpriest of Taranis
+Loads on mob: Ms. McGregor
+Loads on mob: The barefoot prostitute
+Loads on mob: The drab scullion
+You say '13011'[0m
+[0mLoads on mob: A Watchman
+Loads on mob: The impressee
+Loads on mob: The fruit vendor
+Loads on mob: The aristocrat
+You say '13012'[0m
+[0mLoads on mob: Ms. McGregor
+Loads on mob: The sailor
+Loads on mob: The obese banker
+Loads on mob: A Watchman
+You say '13013'[0m
+[0mLoads on mob: Ms. McGregor
+Loads on mob: The bully
+Loads on mob: The acolyte
+You say '13014'[0m
+[0mLoads on mob: The fruit vendor
+Loads on mob: The acolyte
+You say '13015'[0m
+[0mLoads on mob: Ms. McGregor
+Loads on mob: The sailor
+Loads on mob: The fruit vendor
+You say '13020'[0m
+[0mLoads on mob: The greying healer
+Loads on mob: The jaded arms merchant
+Loads on mob: The leatherworker
+Loads on mob: The poet bard
+Loads on mob: The impassive man
+Loads on mob: The one-eyed guildmaster
+Loads on mob: The lean, surly man
+Loads on mob: The Racketeer
+Loads on mob: The street hawker
+You say '13021'[0m
+[0mLoads on mob: Sir Douglass
+Loads on mob: The nobleman
+Loads on mob: The Underlord
+Loads on mob: The thug
+You say '13022'[0m
+[0mLoads on mob: A Watchman
+Loads on mob: The jaded arms merchant
+Loads on mob: A Watchman
+Loads on mob: The Captain of the Watch
+Loads on mob: The lean, mean mercenary
+You say '13023'[0m
+[0mLoads on mob: The jaded arms merchant
+Loads on mob: The apocrathy
+Loads on mob: The dockmaster
+Loads on mob: The impressee
+Loads on mob: The sailor
+Loads on mob: The bodyguard
+Loads on mob: The bully
+Loads on mob: The thug
+Loads on mob: The lean, surly man
+You say '13024'[0m
+[0mLoads on mob: The metalworker
+Loads on mob: The jaded arms merchant
+You say '13025'[0m
+[0mLoads on mob: The sleek catburglar
+You say '13026'[0m
+[0mLoads on mob: The old tutor
+You say '13027'[0m
+[0mLoads on mob: The swarthy advisor
+You say '13028'[0m
+[0mLoads on mob: The ugly beastmaster
+You say '13030'[0m
+[0mLoads on mob: The street hawker
+Loads on mob: The barefoot prostitute
+You say '13031'[0m
+[0mLoads on mob: The metalworker
+You say '13032'[0m
+[0mLoads on mob: The Hanse
+Loads on mob: The bully
+Loads on mob: The street hawker
+You say '13033'[0m
+[0mLoads on mob: The Hanse
+Loads in room: Barracks
+You say '13034'[0m
+[0mLoads in room: First Bank of Ys
+You say '13035'[0m
+[0mLoads in room: The Bazaar
+You say '13041'[0m
+[0mLoads on mob: The Underlord
+Loads on mob: The Captain of the Watch
+Loads on mob: The thug
+You say '13042'[0m
+[0mLoads on mob: A Watchman
+Loads on mob: The jaded arms merchant
+Loads on mob: The Hanse
+Loads on mob: The lean, mean mercenary
+You say '13043'[0m
+[0mLoads on mob: The Hanse
+Loads on mob: The leatherworker
+Loads on mob: The apocrathy
+Loads on mob: The dock worker
+Loads on mob: The bully
+Loads on mob: The lean, mean mercenary
+You say '13044'[0m
+[0mLoads on mob: The jaded arms merchant
+Loads on mob: The leatherworker
+Loads on mob: The dockmaster
+Loads on mob: The impassive man
+Loads on mob: The Racketeer
+You say '13045'[0m
+[0mLoads on mob: The metalworker
+Loads on mob: A Watchman
+Loads on mob: A Watchman
+You say '13046'[0m
+[0mThat object doesn't seem to load.
+You say '13051'[0m
+[0mLoads on mob: The apocrathy
+You say '13052'[0m
+[0mLoads on mob: The apocrathy
+You say '13055'[0m
+[0mLoads on mob: The patron
+Loads on mob: The sleek catburglar
+Loads on mob: The lean, surly man
+Loads on mob: The street hawker
+Loads on mob: The bearded holyman
+Loads on mob: The prophet of doom
+You say '13056'[0m
+[0mLoads on mob: The hedonistic priest
+Loads on mob: M'lady
+Loads on mob: The Racketeer
+Loads on mob: The lovely courtisan
+You say '13057'[0m
+[0mLoads on mob: Lady Margot Sithe
+You say '13060'[0m
+[0mLoads in room: Entrance to The Harbor of Ys
+You say '13061'[0m
+[0mLoads in room: Entrance to The Harbor of Ys
+You say '13063'[0m
+[0mLoads on mob: The poet bard
+Loads in room: The Lair
+You say '13064'[0m
+[0mLoads on mob: Lady Margot Sithe
+You say '13065'[0m
+[0mLoads on mob: The Hanse
+Loads on mob: The young, pampered boy
+Loads on mob: The bookmaker
+Loads on mob: The street hawker
+You say '13066'[0m
+[0mLoads on mob: The metalworker
+Loads on mob: The obese banker
+Loads on mob: M'lady
+Loads on mob: Sir Douglass
+Loads on mob: Lady Margot Sithe
+You say '13067'[0m
+[0mLoads on mob: The Archpriest of Taranis
+Loads on mob: The aristocrat
+Loads on mob: The lovely courtisan
+You say '13068'[0m
+[0mLoads on mob: The shaven philosopher
+You say '13069'[0m
+[0mLoads on mob: M'lady
+Loads on mob: The lovely courtisan
+You say '13070'[0m
+[0mLoads on mob: The metalworker
+Loads on mob: The Racketeer
+You say '13071'[0m
+[0mLoads on mob: The ugly beastmaster
+Loads on mob: The jaded arms merchant
+Loads on mob: The leatherworker
+Loads on mob: The dockmaster
+Loads on mob: The impassive man
+Loads on mob: The laborer
+You say '13075'[0m
+[0mLoads on mob: The metalworker
+Loads on mob: The one-eyed guildmaster
+You say '13076'[0m
+[0mLoads on mob: The Archpriest of Taranis
+Loads on mob: The leatherworker
+Loads on mob: A petty official
+Loads on mob: The bodyguard
+You say '13077'[0m
+[0mLoads in room: The Ys Map Room
+You say '13078'[0m
+[0mLoads in room: The Ys Map Room
+You say '13080'[0m
+[0mLoads on mob: The impassive man
+Loads on mob: The Captain of the Watch
+You say '13081'[0m
+[0mLoads on mob: The jaded arms merchant
+Loads on mob: The leatherworker
+Loads on mob: The bodyguard
+Loads on mob: The bully
+Loads on mob: The lean, mean mercenary
+You say '13082'[0m
+[0mLoads on mob: The young waif
+Loads on mob: The street hawker
+Loads on mob: The barefoot prostitute
+Loads on mob: The drab scullion
+Loads on mob: The true believer
+You say '13083'[0m
+[0mLoads on mob: The laborer
+Loads on mob: The metalworker
+Loads on mob: The sailor
+Loads on mob: The dock worker
+Loads on mob: The poet bard
+Loads on mob: The swarthy advisor
+Loads on mob: The bodyguard
+Loads on mob: The street hawker
+Loads on mob: The thug
+Loads on mob: The mad cleric
+You say '13084'[0m
+[0mLoads on mob: The Hanse
+Loads on mob: Sir Douglass
+Loads on mob: The nobleman
+Loads on mob: A petty official
+Loads on mob: The Chamberlain
+Loads on mob: The Underlord
+Loads on mob: The bookmaker
+You say '13085'[0m
+[0mLoads on mob: The ugly beastmaster
+Loads on mob: The jaded arms merchant
+Loads on mob: The dockmaster
+Loads on mob: The impassive man
+Loads on mob: The one-eyed guildmaster
+You say '13086'[0m
+[0mLoads on mob: The Hanse
+Loads on mob: The bodyguard
+Loads on mob: The shaven philosopher
+You say '13087'[0m
+[0mLoads on mob: The mellow bartenter
+Loads on mob: The wainwright
+Loads on mob: The swarthy advisor
+Loads on mob: The true believer
+You say '13088'[0m
+[0mLoads on mob: The Chamberlain
+You say '13089'[0m
+[0mLoads on mob: The old tutor
+You say '13090'[0m
+[0mLoads on mob: The nobleman
+Loads on mob: The swarthy advisor
+You say '13091'[0m
+[0mLoads on mob: The acolyte
+Loads on mob: The Hanse
+Loads on mob: The drab scullion
+You say '13092'[0m
+[0mLoads on mob: The apocrathy
+You say '13093'[0m
+[0mLoads on mob: The apocrathy
+You say '13094'[0m
+[0mLoads on mob: The apocrathy
+You say '13095'[0m
+[0mLoads on mob: The apocrathy
+You say '13096'[0m
+[0mLoads in room: The Bar
+You say '13097'[0m
+[0mThat object doesn't seem to load.
+You say '13098'[0m
+[0mThat object doesn't seem to load.
+You say '13099'[0m
+[0mLoads in room: Stagger Inn
+You say '15001'[0m
+[0mLoads on mob: The golden warrior
+You say '15003'[0m
+[0mLoads on mob: The Archmage of the Tower
+You say '15005'[0m
+[0mLoads on mob: The Archmage of the Tower
+Loads on mob: The black mage
+You say '15006'[0m
+[0mLoads on mob: The Archmage of the Tower
+You say '15007'[0m
+[0mLoads on mob: The fiendish looking spectre
+You say '15008'[0m
+[0mLoads on mob: The fiendish looking spectre
+You say '15009'[0m
+[0mLoads on mob: The large warrior
+Loads on mob: The Tower Guardian
+You say '15012'[0m
+[0mLoads on mob: The black mage
+You say '15013'[0m
+[0mLoads on mob: The black mage
+Loads on mob: The cleric
+You say '15014'[0m
+[0mLoads on mob: The black mage
+Loads on mob: The cleric
+You say '15015'[0m
+[0mLoads on mob: The cleric
+You say '15017'[0m
+[0mLoads on mob: The cleric
+You say '15018'[0m
+[0mLoads on mob: The black mage
+Loads on mob: The cleric
+You say '15019'[0m
+[0mLoads on mob: The cleric
+You say '15022'[0m
+[0mLoads on mob: The barrack guard
+Loads on mob: The Chief Guard
+You say '15023'[0m
+[0mLoads on mob: The Chief Guard
+You say '15024'[0m
+[0mLoads on mob: The Chief Guard
+You say '15025'[0m
+[0mLoads in room: A small closet
+You say '15026'[0m
+[0mLoads on mob: An iron golem
+You say '15027'[0m
+[0mLoads on mob: A flesh golem
+You say '15029'[0m
+[0mLoads on mob: A silver dragon
+You say '15030'[0m
+[0mLoads on mob: A silver dragon
+You say '15031'[0m
+[0mLoads on mob: An Archdemon
+You say '15032'[0m
+[0mLoads on mob: A sentry
+You say '15033'[0m
+[0mLoads on mob: An apprentice mage
+You say '15034'[0m
+[0mLoads on mob: The golden warrior
+You say '15035'[0m
+[0mLoads on mob: The golden warrior
+You say '15036'[0m
+[0mThat object doesn't seem to load.
+You say '15037'[0m
+[0mThat object doesn't seem to load.
+You say '15038'[0m
+[0mThat object doesn't seem to load.
+You say '15039'[0m
+[0mThat object doesn't seem to load.
+You say '15040'[0m
+[0mLoads in room: A small, dark storage closet
+You say '15041'[0m
+[0mLoads in room: A meat locker
+You say '15042'[0m
+[0mLoads in room: A slaughter house
+You say '15043'[0m
+[0mLoads in room: A refrigerated room
+You say '21001'[0m
+[0mLoads on mob: the yellow enfan
+You say '21002'[0m
+[0mLoads on mob: the gargoyle
+You say '21003'[0m
+[0mLoads on mob: the black enfan
+You say '21004'[0m
+[0mLoads on mob: the black enfan
+You say '21005'[0m
+[0mLoads on mob: the black enfan
+You say '21006'[0m
+[0mLoads in object: display case
+You say '21007'[0m
+[0mLoads in object: display case
+You say '21008'[0m
+[0mLoads on mob: the guard dog
+You say '21009'[0m
+[0mLoads in object: display case
+You say '21010'[0m
+[0mLoads in room: Armoury
+Loads in room: Weaponry
+Loads in room: Jewellery
+You say '21011'[0m
+[0mLoads on mob: the yellow enfan
+You say '21012'[0m
+[0mLoads on mob: the guard dog
+You say '21014'[0m
+[0mLoads on mob: the yellow enfan
+You say '25000'[0m
+[0mLoads on mob: the Death knight
+You say '25001'[0m
+[0mLoads on mob: the Death knight
+Loads on mob: a Storm Giant
+You say '25002'[0m
+[0mLoads on mob: A Crimson Death
+You say '25003'[0m
+[0mLoads on mob: A Mist Daemon
+You say '25004'[0m
+[0mLoads on mob: the Death knight
+Loads on mob: Kalas
+You say '25005'[0m
+[0mLoads on mob: the Death knight
+Loads on mob: Kalas
+You say '25006'[0m
+[0mLoads on mob: a Storm Giant
+Loads on mob: Kalas
+You say '25007'[0m
+[0mLoads on mob: the kraken
+You say '25008'[0m
+[0mLoads on mob: an Efreet
+Loads on mob: A Crimson Death
+Loads on mob: a Black Slayer
+You say '25009'[0m
+[0mLoads on mob: a Storm Giant
+You say '25010'[0m
+[0mLoads on mob: Kalas
+You say '25011'[0m
+[0mLoads on mob: The Demi-Lich
+You say '25012'[0m
+[0mLoads on mob: The Demi-Lich
+Loads on mob: A Crimson Death
+You say '25013'[0m
+[0mLoads on mob: The Demi-Lich
+Loads on mob: Kalas
+You say '25014'[0m
+[0mLoads on mob: a Black Slayer
+You say '25015'[0m
+[0mLoads on mob: Kalas
+You say '25016'[0m
+[0mLoads on mob: the Death knight
+You say '25017'[0m
+[0mLoads on mob: the Gatekeeper
+You say '25018'[0m
+[0mLoads on mob: the Death knight
+Loads on mob: a White Gold Manticore
+You say '25019'[0m
+[0mLoads on mob: a Storm Giant
+You say '25020'[0m
+[0mLoads on mob: a Storm Giant
+You say '25021'[0m
+[0mLoads on mob: the Treant
+You say '25022'[0m
+[0mLoads on mob: an Efreet
+You say '25023'[0m
+[0mLoads on mob: an Efreet
+You say '25024'[0m
+[0mLoads on mob: a Black Slayer
+You say '25025'[0m
+[0mLoads on mob: the Neo-Otyugh
+You say '25026'[0m
+[0mLoads on mob: Kalas
+You say '25027'[0m
+[0mThat object doesn't seem to load.
+You say '25050'[0m
+[0mThat object doesn't seem to load.
+You say '25051'[0m
+[0mThat object doesn't seem to load.
+You say '25052'[0m
+[0mThat object doesn't seem to load.
+You say '25053'[0m
+[0mThat object doesn't seem to load.
+You say '25054'[0m
+[0mThat object doesn't seem to load.
+You say '25056'[0m
+[0mLoads on mob: an Efreet
+You say '25057'[0m
+[0mThat object doesn't seem to load.
+You say '25058'[0m
+[0mThat object doesn't seem to load.
+You say '25059'[0m
+[0mThat object doesn't seem to load.
+You say '30000'[0m
+[0mLoads on mob: A castle guard
+You say '30001'[0m
+[0mLoads on mob: Kilsa
+You say '30002'[0m
+[0mLoads on mob: The Head Cook
+You say '30003'[0m
+[0mLoads on mob: A cook
+Loads on mob: The Head Cook
+You say '30004'[0m
+[0mLoads on mob: Bor
+You say '30005'[0m
+[0mLoads on mob: Lak
+You say '30006'[0m
+[0mLoads on mob: An archer
+You say '30007'[0m
+[0mLoads on mob: Khor
+You say '30008'[0m
+[0mLoads on mob: Stance
+You say '30009'[0m
+[0mLoads on mob: King Dredd
+You say '30010'[0m
+[0mLoads on mob: A castle guard
+You say '30011'[0m
+[0mLoads on mob: Andrade
+You say '30012'[0m
+[0mLoads on mob: Vraal
+You say '30013'[0m
+[0mLoads on mob: Josiah
+You say '30014'[0m
+[0mLoads on mob: Dantes
+You say '30015'[0m
+[0mLoads on mob: Gellig
+You say '30016'[0m
+[0mLoads on mob: A lesser daemon
+You say '30017'[0m
+[0mLoads on mob: A disciple
+You say '30018'[0m
+[0mLoads on mob: Stance
+You say '30019'[0m
+[0mLoads on mob: A castle guard
+You say '30020'[0m
+[0mLoads on mob: Stance
+You say '30021'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Khor
+You say '30022'[0m
+[0mLoads on mob: A castle guard
+You say '30023'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Vraal
+You say '30024'[0m
+[0mLoads on mob: A castle guard
+You say '30025'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: The Head Cook
+You say '30026'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Vraal
+Loads on mob: A cook
+You say '30027'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Khor
+Loads on mob: The Head Cook
+You say '30028'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Khor
+Loads on mob: Josiah
+You say '30029'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: Andrade
+Loads on mob: Josiah
+You say '30030'[0m
+[0mLoads on mob: A castle guard
+Loads on mob: The Head Cook
+You say '30031'[0m
+[0mLoads on mob: Stance
+You say '30032'[0m
+[0mLoads on mob: Dantes
+You say '30033'[0m
+[0mLoads on mob: Gellig
+You say '30034'[0m
+[0mLoads on mob: Gellig
+You say '30035'[0m
+[0mLoads on mob: Bor
+Loads on mob: Khor
+You say '30036'[0m
+[0mLoads on mob: Khor
+You say '30037'[0m
+[0mLoads on mob: King Dredd
+You say '30038'[0m
+[0mLoads on mob: Bor
+You say '30039'[0m
+[0mLoads on mob: Lak
+You say '30040'[0m
+[0mLoads on mob: the Guardian
+You say '30041'[0m
+[0mLoads on mob: Pendil
+You say '30042'[0m
+[0mLoads on mob: Jackie Chan
+You say '30043'[0m
+[0mLoads on mob: a changeling
