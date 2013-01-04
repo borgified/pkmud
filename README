@@ -6,6 +6,14 @@ allobj_db is the all the stuff inside the hash to verify that the vostat data wa
 
 allisf is same as input. had to concatenate two diff runs that yielded two diff input files.
 
+whereload.pl is similar to getdb.pl in that it telnets into pkmuds and does a whereload on every valid vnum (since getdb.pl helps us determine which of these are valid)
+
+whereloadp.pl uses the output of whereload.pl and updates the whereload column in the pkmud table with whereload data.
+
+whicharea.pl goes one step further and parsers through *.are files which define where each mob, object, etc. is spawned in the mud and updates the "area" column of the pkmud table to indicate the area in the mud where that item can be found (not just who/where it is loaded).
+
+
+
 allobj_db
 getdb.pl
 junk
