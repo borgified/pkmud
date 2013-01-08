@@ -1,0 +1,25 @@
+select average,damage_roll,hit_roll,load_percent,namelist,area,whereload from pkmud where average >= 15 and whereload != '' and type = 'weapon' and load_percent >= 15 order by average desc, area,load_percent;
+
++---------+-------------+----------+--------------+------------------------------+----------+---------------------------------------+
+| average | damage_roll | hit_roll | load_percent | namelist                     | area     | whereload                             |
++---------+-------------+----------+--------------+------------------------------+----------+---------------------------------------+
+|      18 |             |       -4 |           20 | steel broadsword broad sword | necro    | mob:An Undead Warrior                 |
+|      17 |             |       -6 |           35 | arbalest                     | kerofk   | mob:Jenk                              |
+|      17 |             |        0 |           20 | axe blade                    | midgaard | mob:the executioner                   |
+|      16 |             |        2 |           15 | flame lance                  | canyon   | mob:the Blue Flame                    |
+|      15 |             |       -1 |           15 | avalanche                    | canyon   | mob:the Rock Monster                  |
+|      15 | 3           |        5 |           25 | Morgul-knife Morgul knife    | df       | mob:the Grandmaster of DarkFriends    |
+|      15 | 2           |        1 |           15 | broadsword flaming           | jawan    | mob:A fire giant                      |
+|      15 |             |        0 |           40 | bobbit knife                 | limbo    | mob:Lorena Bobbit                     |
+|      15 |             |        2 |          100 | a long bow                   | limbo    | mob:An elven hunter mob:Kevin Costner |
+|      15 | 3           |        3 |           15 | rod weaponry                 | mahntor  | mob:Gorak                             |
+|      15 |             |        0 |           55 | maul huge wooden             | mahntor  | mob:the Minotaur Ring-Keeper          |
+|      15 | 3           |        3 |           20 | scythe                       | marsh    | mob:a Death Slaad                     |
+|      15 |             |        0 |           25 | holy sword holiness          | necro    | mob:The Shining Paladin               |
+|      15 |             |        0 |           20 | chessboard                   | newthal  | mob:the old man                       |
+|      15 |             |        0 |           25 | coral sword                  | ocean    | mob:a village soldier                 |
+|      15 | 1           |        1 |           30 | rusty steel dagger           | ocean    | mob:the undead first mate             |
+|      15 |             |        0 |           50 | big stick                    | ocean    | mob:a stranded mariner                |
++---------+-------------+----------+--------------+------------------------------+----------+---------------------------------------+
+17 rows in set (0.00 sec)
+
