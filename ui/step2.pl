@@ -55,10 +55,10 @@ foreach my $param (@params){
 			$min=0;
 		}
 
-		$string=$string."<tr><td>$param</td><td><select name='$param.logic'><option value='1'>=</option><option value='2'>&lt;</option><option value='3'>&gt;</option></td><td><input type='text' name='$param'></td><td>range: ($min,$max)</td></tr>";
+		$string=$string."<tr><td>&uarr;<input type='radio' name=$param.sort value=0>&darr;<input type='radio' name=$param.sort value=1></td><td>$param</td><td><select name='$param.logic'><option value='1'>=</option><option value='2'>&ne;</option><option value='3'>&lt;</option><option value='4'>&le;</option><option value='5'>&gt;</option><option value='6'>&ge;</option></td><td><input type='text' name='$param'></td><td>range: ($min,$max)</td></tr>";
 
 	}elsif($format{$param} eq 'text'){
-		$string=$string."<tr><td>$param</td><td>eq</td><td><input type='text' name='$param'></td><td>string match</td></tr>";
+		$string=$string."<tr><td>&uarr;<input type='radio' name=$param.sort value=0>&darr;    <input type='radio' name=$param.sort value=1></td><td>$param</td><td>eq</td><td><input type='text' name='$param'></td><td>string match</td></tr>";
 	}elsif($format{$param} eq 'type'){
 #select distinct(type) from pkmud
 		$types->execute();
@@ -68,7 +68,7 @@ foreach my $param (@params){
 		}
 		@types=sort(@types);
 		my $dropdown = $cgi->popup_menu(-name=>$param, -values=>\@types);
-		$string=$string."<tr><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
+		$string=$string."<tr><td></td><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
 	}elsif($format{$param} eq 'area'){
 #select distinct(area) from pkmud
 		$areas->execute();
@@ -78,7 +78,7 @@ foreach my $param (@params){
 		}
 		@areas=sort(@areas);
 		my $dropdown = $cgi->popup_menu(-name=>$param, -values=>\@areas);
-		$string=$string."<tr><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
+		$string=$string."<tr><td></td><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
 	}else{
 		die "i shouldnt be here";
 	}
@@ -89,8 +89,8 @@ my $submit = submit();
 print header;
 
 print <<END;
-<form action="step3.pl" name="myform" method="post">
-determine how you would like to filter your results
+<form action="lu.pl" name="myform" method="post">
+determine how you would like to filter and sort your results
 <br>
 $submit
 <br>
