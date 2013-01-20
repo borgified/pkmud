@@ -58,7 +58,7 @@ foreach my $param (@params){
 		$string=$string."<tr><td>&uarr;<input type='radio' name=$param.sort value=0>&darr;<input type='radio' name=$param.sort value=1></td><td>$param</td><td><select name='$param.logic'><option value='1'>=</option><option value='2'>&ne;</option><option value='3'>&lt;</option><option value='4'>&le;</option><option value='5'>&gt;</option><option value='6'>&ge;</option></td><td><input type='text' name='$param'></td><td>range: ($min,$max)</td></tr>";
 
 	}elsif($format{$param} eq 'text'){
-		$string=$string."<tr><td>&uarr;<input type='radio' name=$param.sort value=0>&darr;    <input type='radio' name=$param.sort value=1></td><td>$param</td><td>eq</td><td><input type='text' name='$param'></td><td>string match</td></tr>";
+		$string=$string."<tr><td>&uarr;<input type='radio' name=$param.sort value=0>&darr;<input type='radio' name=$param.sort value=1></td><td>$param</td><td>eq</td><td><input type='text' name='$param'></td><td>string match</td></tr>";
 	}elsif($format{$param} eq 'type'){
 #select distinct(type) from pkmud
 		$types->execute();
@@ -67,6 +67,7 @@ foreach my $param (@params){
 			push(@types,$type);
 		}
 		@types=sort(@types);
+		unshift(@types,'');
 		my $dropdown = $cgi->popup_menu(-name=>$param, -values=>\@types);
 		$string=$string."<tr><td></td><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
 	}elsif($format{$param} eq 'area'){
@@ -77,6 +78,7 @@ foreach my $param (@params){
 			push(@areas,$area);
 		}
 		@areas=sort(@areas);
+		unshift(@areas,'');
 		my $dropdown = $cgi->popup_menu(-name=>$param, -values=>\@areas);
 		$string=$string."<tr><td></td><td>$param</td><td></td><td>$dropdown</td><td></td></tr>";
 	}else{
