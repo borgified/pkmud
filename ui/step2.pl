@@ -38,7 +38,7 @@ my %format = (
 	type			=> 'type',
 	);
 
-my $string;
+my $string="";
 
 my $types=$dbh->prepare("select distinct(type) from pkmud");
 my $areas=$dbh->prepare("select distinct(area) from pkmud");
