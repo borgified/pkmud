@@ -22,7 +22,7 @@ while(my($col) = $sth->fetchrow_array){
 
 my $cgi = new CGI;
 
-my $checkbox = $cgi->checkbox_group( -name => 'categories', -values=>\@columns, -linebreak => 'true');
+my $checkbox = $cgi->checkbox_group( -name => 'categories', -values=>\@columns, -default=>['load_percent','namelist','vnum','whereload','area'], -linebreak=>'true' );
 
 my $submit = submit();
 
