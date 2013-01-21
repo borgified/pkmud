@@ -14,19 +14,14 @@ my $sql = "describe pkmud";
 my $sth=$dbh->prepare($sql) or die ("Cannot prepare: ".$dbh->errstr());
 $sth->execute();
 
-#my %columns;
-my $i=0;
 my @columns;
 
 while(my($col) = $sth->fetchrow_array){
-	#$columns{$i++}=$col;
 	push(@columns,$col) unless($col eq 'id');
 }
 
 my $cgi = new CGI;
 
-#my $dropdown = $cgi->popup_menu(-name=>'column' , -values=>\%columns );
-#my $dropdown = $cgi->popup_menu(-name=>'column' , -values=>\@columns );
 my $checkbox = $cgi->checkbox_group( -name => 'categories', -values=>\@columns, -linebreak => 'true');
 
 my $submit = submit();

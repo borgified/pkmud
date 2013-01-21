@@ -24,6 +24,34 @@ my %format = (
 	type			=> 'type',
 	);
 
+#sanitizing inputs
+
+my $out = "";
+
+foreach my $param (sort @params){
+	if(!exists($format{$param})){
+#the value of this param should be numeric
+		my $val = param($param);
+		if($val ne '' && $val!~/^-?\d+$/){
+			print header;
+			print "bad value for $param (illegal)";
+			exit;
+		}
+	}else{
+		my $val = param($param);
+		if($val =~ /[\;\(\)\%\#\@\!\,\.+\=\\\/\^\?\`\:\&\<\>]/){
+			print header;
+			print "bad value for $param (illegal)";
+			exit;
+		}
+	}
+	$out=$out.$param.":".param($param)."<br>";
+}
+
+#end sanitizing inputs
+
+
+
 my $string;
 
 my $types=$dbh->prepare("select distinct(type) from pkmud");
@@ -140,7 +168,7 @@ if($num_sort > 0){
 my $output = $dbh->prepare($sql_str);
 $output->execute();
 
-my $output_table="<table><tr>";
+my $output_table="<tr>";
 foreach my $item (@origcat){
 	$output_table=$output_table."<th>$item</th>";
 }
@@ -157,25 +185,23 @@ while(my(@output)=$output->fetchrow_array){
 $output_table=$output_table."</table>";
 
 
+#sort:@sort
+#<br>
+#logic:@logic
+#<br>
+#cat:@cat
+#<hr>
+#$out
+#<hr>
+#$sql_str
+#<hr>
 
 
 print header;
 
 print <<END;
-sort:@sort
-<br>
-logic:@logic
-<br>
-cat:@cat
-<hr>
-$sql_str
-<hr>
+<table border='1'>
 $output_table
-
+</table>
 END
-
-	
-
-
-
 
