@@ -29,19 +29,27 @@ foreach my $area_file (@areas){
 		my(@item_dependent_values);
 		if($objects[$i]=~/^#(\d+)/){
 			$vnum=$1;
-			$keywords=$objects[$i+1];
-			$short_description=$objects[$i+2];
-			$object_description=$objects[$i+3];
-			print "$vnum $keywords $short_description $object_description\n";
-			$action_description=$objects[$i+4];
-			($item_type,$extra_bits,$wear_flags)=split(/ /,$objects[$i+5]);
-			@item_dependent_values=split(/ /,$objects[$i+6]);
+			my $tildes_found=0;
+			my $ksoa = "";
+			my $x=1;
+			while($tildes_found < 4){
+				if($objects[$i+$x] =~ /~/){
+					$tildes_found++;
+				}
+				$ksoa=$ksoa.$objects[$i+$x];
+				$x++;
+			}
+			($keywords,$short_description,$object_description,$action_description)=split(/~/,$ksoa);
+			print "$vnum $keywords $short_description $object_description $action_description\n";
+
+			($item_type,$extra_bits,$wear_flags)=split(/ /,$objects[$i+$x++]);
+			@item_dependent_values=split(/ /,$objects[$i+$x++]);
 			if(!defined($extra_bits)){
 				print "$vnum $keywords $short_description $object_description\n";
 				exit;
 			}
 
-			print "$action_description $item_type $extra_bits $wear_flags @item_dependent_values\n";
+			print "$item_type $extra_bits $wear_flags @item_dependent_values\n";
 		}
 	}
 }
