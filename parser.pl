@@ -77,8 +77,9 @@ foreach my $area_file (@areas){
 				my($a,$b)=split(/ /,$objects[$i+ ++$x]);
 				push(@affects,$b);
 				push(@affects,$a);
+			}elsif($objects[$i+$x] =~ /^#\d+\s*$/){
 			}else{
-				#print "why am i here?: $objects[$i+$x] a\n";exit;
+				print "why am i here?: $objects[$i+$x] a\n";exit;
 			}
 			if($ekeyword_edescription ne ''){
 				print "ekdk: $ekeyword_edescription\n";
