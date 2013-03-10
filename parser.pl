@@ -27,6 +27,10 @@ foreach my $area_file (@areas){
 		my($vnum,$keywords,$short_description,$object_description);
 		my($action_description,$item_type,$extra_bits,$wear_flags);
 		my(@item_dependent_values);
+		my($weight,$value,$load_percentage);
+		my $ekeyword_edescription="";
+		my @affects;
+
 		if($objects[$i]=~/^#(\d+)/){
 			$vnum=$1;
 			my $tildes_found=0;
@@ -46,12 +50,44 @@ foreach my $area_file (@areas){
 			@item_dependent_values=split(/ /,$objects[$i+$x++]);
 			if(!defined($extra_bits)){
 				print "$vnum $keywords $short_description $object_description\n";
+				print "error with extra_bits\n";
 				exit;
 			}
+			print "iewi: $item_type $extra_bits $wear_flags @item_dependent_values\n";
 
-			print "$item_type $extra_bits $wear_flags @item_dependent_values\n";
-		}
-	}
+			($weight,$value,$load_percentage)=split(/ /,$objects[$i+$x++]);
+			print "wvl: $weight $value $load_percentage\n";
+
+			#if(!defined($objects[$i+$x])){
+			if(!defined($objects[$i+$x])){
+				print "i: $i, x: $x $#objects\n";
+				next;
+			}
+
+			$tildes_found=0;
+			if($objects[$i+$x] =~ /^E\s*$/){
+				while($tildes_found < 2){
+					$x++;
+					if($objects[$i+$x] =~ /~/){
+						$tildes_found++;
+					}
+					$ekeyword_edescription=$ekeyword_edescription.$objects[$i+$x];
+				}
+			}elsif($objects[$i+$x] =~ /^A\s*$/){
+				my($a,$b)=split(/ /,$objects[$i+ ++$x]);
+				push(@affects,$b);
+				push(@affects,$a);
+			}else{
+				#print "why am i here?: $objects[$i+$x] a\n";exit;
+			}
+			if($ekeyword_edescription ne ''){
+				print "ekdk: $ekeyword_edescription\n";
+			}
+			if($#affects>0){
+				print "a: @affects\n";
+			}
+		} #ends if($objects[$i]=~/^#(\d+)/){
+	} #ends outer for
 }
 
 __END__
@@ -69,6 +105,3 @@ weight, unsigned smallint
 value, unsigned mediumint
 load_percentage, char(2)
 affect, enum
-
-
-
