@@ -15,6 +15,9 @@
  *  around, comes around.                                                  *
  ***************************************************************************/
 
+#ifndef __MERC_H_
+#define __MERC_H_
+
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -153,6 +156,7 @@ typedef bool OBJECT_FUN args( ( OBJ_DATA *obj, CHAR_DATA *ch, char *command, cha
 #define PULSE_AREA		  (60 * PULSE_PER_SECOND)
 
 
+
 /*
  * war definitions
  */
@@ -168,7 +172,7 @@ typedef bool OBJECT_FUN args( ( OBJ_DATA *obj, CHAR_DATA *ch, char *command, cha
 #define WAR_FLAG_BLOODS		1
 #define WAR_FLAG_CONTINUOUS	2
 #define WAR_FLAG_LOADALL	4
-#define WAR_FLAG_DOOM		8
+#define WAR_FLAG_UNUSED		8
 #define WAR_FLAG_NOREGEN       16
 #define WAR_FLAG_SUMMON	       32
 #define WAR_FLAG_FOUNTAINS     64
@@ -176,6 +180,7 @@ typedef bool OBJECT_FUN args( ( OBJ_DATA *obj, CHAR_DATA *ch, char *command, cha
 #define WAR_FLAG_TELEALL      256
 #define WAR_FLAG_NOQUAFF      512
 #define WAR_FLAG_HEALTHLAG   1024
+#define WAR_FLAG_NOEXTEND    2048
 
 /*
  * War numbers.
@@ -184,6 +189,8 @@ typedef bool OBJECT_FUN args( ( OBJ_DATA *obj, CHAR_DATA *ch, char *command, cha
 #define WAR_NUM_MAIN            1
 #define WAR_NUM_FFA             2
 #define WAR_NUM_PRIVATE         3
+
+#define NUM_PHASES              4
 
 
 /* wear proc defs */
@@ -469,7 +476,7 @@ struct	affect_data
 #define ACT_SCAVENGER		      4		/* Picks up objects	*/
 #define ACT_AGGRESSIVE		     32		/* Attacks PC's		*/
 #define ACT_STAY_AREA		     64		/* Won't leave area	*/
-#define ACT_WIMPY		    128		/* Flees when hurt	*/
+#define ACT_UNUSED		    128		/* Used to be wimpy	*/
 #define ACT_TERMINATOR		    256		/* gets multiple updates */
 #define ACT_TRAIN		    512		/* Can train PC's	*/
 #define ACT_PRACTICE		   1024		/* Can practice PC's	*/
@@ -586,6 +593,7 @@ struct	affect_data
 #define ITEM_WAND		      3
 #define ITEM_STAFF		      4
 #define ITEM_WEAPON		      5
+#define ITEM_GRENADE                  6
 #define ITEM_TREASURE		      8
 #define ITEM_ARMOR		      9
 #define ITEM_POTION		     10
@@ -741,9 +749,9 @@ struct	affect_data
 #define ROOM_DARK		      1
 #define ROOM_NO_MOB		      4
 #define ROOM_INDOORS		      8
-#define ROOM_PRIVATE		    512
+#define ROOM_UNUSED1		    512
 #define ROOM_SAFE		   1024
-#define ROOM_SOLITARY		   2048
+#define ROOM_UNUSED2		   2048
 
 #define ROOM_NO_RECALL		   8192
 #define ROOM_NO_START		  16384
@@ -956,42 +964,44 @@ struct	char_data
     ROOM_INDEX_DATA *	in_room;
     ROOM_INDEX_DATA *	was_in_room;
     PC_DATA *		pcdata;
+    RESET_DATA         *pReset;
     char *		name;
     char *		short_descr;
     char *		long_descr;
     char *		description;
-    sh_int		sex;
-    sh_int		char_class;
-    sh_int		race;
-    sh_int		level;
-    sh_int		trust;
+    unsigned int        phase;
+    int                 sex;
+    int                 char_class;
+    int                 race;
+    int                 level;
+    int                 trust;
     int			played;
     time_t		logon;
     time_t		save_time;
-    sh_int		timer;
-    sh_int		wait;
-    sh_int		hit;
-    sh_int		max_hit;
-    sh_int		hit_regen_bonus;
-    sh_int		mana;
-    sh_int		max_mana;
-    sh_int		mana_regen_bonus;
+    int                 timer;
+    int                 wait;
+    int                 hit;
+    int                 max_hit;
+    int                 hit_regen_bonus;
+    int                 mana;
+    int                 max_mana;
+    int                 mana_regen_bonus;
     int			move_lag;
     int			gold;
     int			exp;
     int			act;
     int			affected_by;
-    sh_int		position;
-    sh_int		practice;
-    sh_int		carry_weight;
-    sh_int		carry_number;
-    sh_int		saving_throw;
-    sh_int		alignment;
-    sh_int		hitroll;
-    sh_int		damroll;
-    sh_int		nojoin;
-    sh_int		armor;
-    sh_int		deaf;
+    int                 position;
+    int                 practice;
+    int                 carry_weight;
+    int                 carry_number;
+    int                 saving_throw;
+    int                 alignment;
+    int                 hitroll;
+    int                 damroll;
+    int                 nojoin;
+    int                 armor;
+    int                 deaf;
     int			data[4];   /* used by spec procs */
     int			resist_fire;
     int			resist_cold;
@@ -1190,17 +1200,19 @@ struct	obj_data
     OBJECT_FUN *	special;
     OBJ_INDEX_DATA *	pIndexData;
     ROOM_INDEX_DATA *	in_room;
+    RESET_DATA         *pReset;
     char *		name;
     char *		short_descr;
     char *		description;
-    sh_int		item_type;
+    int                 item_type;
     int			extra_flags;
-    sh_int		wear_flags;
-    sh_int		wear_loc;
-    sh_int		weight;
+    int                 wear_flags;
+    int                 wear_loc;
+    int                 weight;
     int			cost;
-    sh_int		timer;
+    int                 timer;
     int			value	[4];
+    unsigned int        phase;
 };
 
 
@@ -1211,9 +1223,9 @@ struct	obj_data
 struct	exit_data
 {
     ROOM_INDEX_DATA *	to_room;
-    sh_int		vnum;
-    sh_int		exit_info;
-    sh_int		key;
+    int                 vnum;
+    int                 exit_info[NUM_PHASES];
+    int                 key;
     char *		keyword;
     char *		description;
 };
@@ -1238,11 +1250,12 @@ struct	exit_data
  */
 struct	reset_data
 {
-    RESET_DATA *	next;
-    char		command;
-    sh_int		arg1;
-    sh_int		arg2;
-    sh_int		arg3;
+  RESET_DATA   *next;
+  char          command;
+  int           arg1;
+  int           arg2;
+  int           arg3;
+  void         *instance[NUM_PHASES];
 };
 
 
@@ -1257,8 +1270,8 @@ struct	area_data
     RESET_DATA *	reset_last;
     char *		name;
     char *		author;
-    sh_int		age;
-    sh_int		nplayer;
+    int                 lifespan[NUM_PHASES];
+    int                 nplayer;
     int			area_flags;
     int			access_percent;
     int			mark;
@@ -1405,6 +1418,7 @@ extern  sh_int  gsn_enchant_weapon;
 extern  sh_int  gsn_energy_drain;
 extern  sh_int  gsn_enhanced_damage;
 extern  sh_int  gsn_entangle;
+extern  sh_int  gsn_explosion;
 extern  sh_int  gsn_faerie_fire;
 extern  sh_int  gsn_faerie_fog;
 extern  sh_int  gsn_farsee;
@@ -1759,11 +1773,13 @@ DECLARE_DO_FUN(	do_oset		);
 DECLARE_DO_FUN(	do_ostat	);
 DECLARE_DO_FUN(	do_password	);
 DECLARE_DO_FUN(	do_peace	);
+DECLARE_DO_FUN(	do_phase	);
 DECLARE_DO_FUN(	do_pick		);
 DECLARE_DO_FUN(	do_practice	);
 DECLARE_DO_FUN(	do_purge	);
 DECLARE_DO_FUN(	do_put		);
 DECLARE_DO_FUN( do_potion	);
+DECLARE_DO_FUN( do_pull		);
 DECLARE_DO_FUN(	do_quaff	);
 DECLARE_DO_FUN( do_quietmode	);
 DECLARE_DO_FUN(	do_question	);
@@ -2125,6 +2141,14 @@ void	move_char	args( ( CHAR_DATA *ch, int door, bool fForce ) );
 void	teleport_char	args( ( CHAR_DATA *ch, bool fWar ) );
 bool can_traverse_water( CHAR_DATA *ch );
 bool can_fly( CHAR_DATA *ch );
+bool    is_door_closed( EXIT_DATA *pexit, CHAR_DATA *ch );
+bool    is_door_locked( EXIT_DATA *pexit, CHAR_DATA *ch );
+bool    is_door( EXIT_DATA *pexit, CHAR_DATA *ch );
+void    open_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch );
+void    close_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch );
+void    lock_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch );
+void    unlock_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch );
+
 
 /* act_obj.c */
 void	attempt_steal_object args( ( CHAR_DATA *ch, CHAR_DATA *victim,
@@ -2137,7 +2161,11 @@ void	use_wand	args( ( CHAR_DATA *ch, OBJ_DATA *device,
 /* act_wiz.c */
 void	remove_snoop	args( ( DESCRIPTOR_DATA *d, struct snoop_data *snoop ));
 void restore_character( CHAR_DATA *ch );
+void    execute_echo( const char *argument );
 
+
+/* archer.c */
+void get_new_target_room( CHAR_DATA *ch );
 
 /* cmod.c */
 int	class_lookup	args( ( char *argument ) );
@@ -2165,8 +2193,8 @@ void	area_update	args( ( void ) );
 void	boot_db		args( ( void ) );
 void	bug		args( ( const char *str, int param ) );
 char *	capitalize	args( ( const char *str ) );
-CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex ) );
-OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex ) );
+CD *	create_mobile	args( ( MOB_INDEX_DATA *pMobIndex, unsigned int phase ) );
+OD *	create_object	args( ( OBJ_INDEX_DATA *pObjIndex, unsigned int phase ) );
 void	clear_char	args( ( CHAR_DATA *ch ) );
 int	dice		args( ( int number, int size ) );
 char	fread_letter	args( ( FILE *fp ) );
@@ -2211,6 +2239,9 @@ void	stop_fighting	args( ( CHAR_DATA *ch, bool fBoth ) );
 void	update_pos	args( ( CHAR_DATA *victim ) );
 void	violence_update	args( ( void ) );
 
+/* grenade.c */
+void	explode_grenade	args( ( OBJ_DATA *obj ) );
+
 /* handler.c */
 int	get_trust	args( ( CHAR_DATA *ch ) );
 int	get_age		args( ( CHAR_DATA *ch ) );
@@ -2232,34 +2263,32 @@ AFFECT_DATA *is_affected	args( ( CHAR_DATA *ch, int sn ) );
 void	affect_join	args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
 void	char_from_room	args( ( CHAR_DATA *ch ) );
 void	char_to_room	args( ( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex ) );
+void	char_to_war	args( ( CHAR_DATA *ch ) );
 void	obj_to_char	args( ( OBJ_DATA *obj, CHAR_DATA *ch ) );
 void	obj_from_char	args( ( OBJ_DATA *obj ) );
 int	apply_ac	args( ( OBJ_DATA *obj, int iWear ) );
 OD *	get_eq_char	args( ( CHAR_DATA *ch, int iWear ) );
 void	equip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj, int iWear ) );
 void	unequip_char	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
-int	count_obj_list	args( ( OBJ_INDEX_DATA *obj, OBJ_DATA *list ) );
 void	obj_from_room	args( ( OBJ_DATA *obj, char *caller ) );
 void	obj_to_room	args( ( OBJ_DATA *obj, ROOM_INDEX_DATA *pRoomIndex ) );
 void	obj_to_obj	args( ( OBJ_DATA *obj, OBJ_DATA *obj_to ) );
 void	obj_from_obj	args( ( OBJ_DATA *obj ) );
-OD *	create_money	args( ( int amount ) );
+OD *	create_money	args( ( int amount, unsigned int phase ) );
 void	extract_char	args( ( CHAR_DATA *ch, bool fPull ) );
 void	extract_obj	args( ( OBJ_DATA *obj, char *caller ) );
 CD *	get_char_room	args( ( CHAR_DATA *ch, char *argument ) );
 CD *	get_char_world	args( ( CHAR_DATA *ch, char *argument ) );
+CD *	get_char_phase	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_carry	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_here	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_list	args( ( CHAR_DATA *ch, char *argument,
 			    OBJ_DATA *list ) );
-OD *	get_obj_type	args( ( OBJ_INDEX_DATA *pObjIndexData ) );
 OD *	get_obj_wear	args( ( CHAR_DATA *ch, char *argument ) );
 OD *	get_obj_world	args( ( CHAR_DATA *ch, char *argument ) );
-int	get_obj_number	args( ( OBJ_DATA *obj ) );
 int	get_obj_weight	args( ( OBJ_DATA *obj ) );
 void	heal_character	args( ( CHAR_DATA *ch, int amount ) );
 bool	room_is_dark	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
-bool	room_is_private	args( ( ROOM_INDEX_DATA *pRoomIndex ) );
 bool	can_see		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool	can_see_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
 bool	can_drop_obj	args( ( CHAR_DATA *ch, OBJ_DATA *obj ) );
@@ -2267,6 +2296,7 @@ char *	item_type_name	args( ( int item_type, int vnum ) );
 char *	affect_loc_name	args( ( int location ) );
 char *	affect_bit_name	args( ( int vector ) );
 char *	extra_bit_name	args( ( int extra_flags ) );
+void	phase_char	args( ( CHAR_DATA *ch, unsigned int phase ) );
 
 /* high.c */
 void	adjust_high_entry args( ( struct high_score_element **h,
@@ -2291,7 +2321,7 @@ void	obj_cast_spell	args( ( int sn, int level, CHAR_DATA *ch,
 				    CHAR_DATA *victim, OBJ_DATA *obj ) );
 
 /* pkmud.c */
-bool	can_interact_main  args( ( CHAR_DATA *ch ) );
+bool	can_interact    args( ( CHAR_DATA *ch ) );
 bool	in_a_war	args( ( CHAR_DATA *ch ) );
 bool	in_main_war	args( ( CHAR_DATA *ch ) );
 bool	in_ffa_war	args( ( CHAR_DATA *ch ) );
@@ -2306,6 +2336,7 @@ void	check_random_equip args( ( CHAR_DATA *ch ) );
 void	make_random_quiver args( ( OBJ_DATA *obj ) );
 void	make_random_trap	args( ( OBJ_DATA *obj ) );
 void	rename_object_random args( ( OBJ_DATA *obj , int table ) );
+OBJ_DATA *create_random_potion( unsigned int phase );
 
 /* save.c */
 void	save_char_obj	args( ( CHAR_DATA *ch ) );
@@ -2334,7 +2365,7 @@ OBJECT_FUN * object_fun_lookup	args( ( const char *name ) );
 void	advance_level	args( ( CHAR_DATA *ch ) );
 void	end_war		args( ( void ) );
 void	remove_from_war	args( ( CHAR_DATA *ch ) );
-void	reset_mud	args( ( void ) );
+void	reset_mud	args( ( unsigned int phase ) );
 void	set_war_status	args( ( int status ) );
 void	update_handler	args( ( void ) );
 
@@ -2344,3 +2375,5 @@ void	update_handler	args( ( void ) );
 #undef	OID
 #undef	RID
 #undef	SF
+
+#endif /* __MERC_H_ */

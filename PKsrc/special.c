@@ -26,6 +26,9 @@
 #include <time.h>
 #include "merc.h"
 #include "bfs.h"
+#include "global.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -44,17 +47,21 @@ DECLARE_SPEC_FUN(	spec_cast_cleric	);
 DECLARE_SPEC_FUN(	spec_cast_judge		);
 DECLARE_SPEC_FUN(	spec_cast_mage		);
 DECLARE_SPEC_FUN(	spec_cast_undead	);
+DECLARE_SPEC_FUN(	spec_distributor        );
 DECLARE_SPEC_FUN(	spec_fido		);
 DECLARE_SPEC_FUN(	spec_guard		);
 DECLARE_SPEC_FUN(	spec_janitor		);
+DECLARE_SPEC_FUN(	spec_logan              );
 DECLARE_SPEC_FUN(	spec_mayor		);
 DECLARE_SPEC_FUN(	spec_poison		);
 DECLARE_SPEC_FUN(	spec_thief		);
 DECLARE_SPEC_FUN(	spec_hunter_killer	);
 DECLARE_SPEC_FUN(	spec_thief_hunter	);
 DECLARE_SPEC_FUN(	spec_assassin_hunter	);
-DECLARE_SPEC_FUN(	spec_scout		);
 DECLARE_SPEC_FUN(	spec_dog_of_war		);
+DECLARE_SPEC_FUN(	spec_scout		);
+DECLARE_SPEC_FUN(	spec_super_wimpy	);
+DECLARE_SPEC_FUN(	spec_waldo              );
 DECLARE_SPEC_FUN(	spec_watchdog_force_quit);
 DECLARE_SPEC_FUN(	spec_zombie             );
 DECLARE_INTERACTIVE(	spec_invis_blocker	);
@@ -79,9 +86,11 @@ SPEC_FUN *spec_lookup( const char *name )
     if ( !str_cmp( name, "spec_cast_judge"	  ) ) return spec_cast_judge;
     if ( !str_cmp( name, "spec_cast_mage"	  ) ) return spec_cast_mage;
     if ( !str_cmp( name, "spec_cast_undead"	  ) ) return spec_cast_undead;
+    if ( !str_cmp( name, "spec_distributor"	  ) ) return spec_distributor;
     if ( !str_cmp( name, "spec_fido"		  ) ) return spec_fido;
     if ( !str_cmp( name, "spec_guard"		  ) ) return spec_guard;
     if ( !str_cmp( name, "spec_janitor"		  ) ) return spec_janitor;
+    if ( !str_cmp( name, "spec_logan"		  ) ) return spec_logan;
     if ( !str_cmp( name, "spec_mayor"		  ) ) return spec_mayor;
     if ( !str_cmp( name, "spec_poison"		  ) ) return spec_poison;
     if ( !str_cmp( name, "spec_thief"		  ) ) return spec_thief;
@@ -89,7 +98,9 @@ SPEC_FUN *spec_lookup( const char *name )
     if ( !str_cmp( name, "spec_thief_hunter"      ) ) return spec_thief_hunter;
     if ( !str_cmp( name, "spec_assassin_hunter"   ) ) return spec_assassin_hunter;
     if ( !str_cmp( name, "spec_scout"             ) ) return spec_scout;
+    if ( !str_cmp( name, "spec_super_wimpy"       ) ) return spec_super_wimpy;
     if ( !str_cmp( name, "spec_dog_of_war"        ) ) return spec_dog_of_war;
+    if ( !str_cmp( name, "spec_waldo"             ) ) return spec_waldo;
     if ( !str_cmp( name, "spec_watchdog_force_quit" ) ) return spec_watchdog_force_quit;
     if ( !str_cmp( name, "spec_zombie"            ) ) return spec_zombie;
     return 0;
@@ -139,11 +150,11 @@ bool spec_invis_blocker( CHAR_DATA *mob, CHAR_DATA *ch, char *command, char *arg
 bool spec_watchdog_force_quit( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
+    CharIterator citer;
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim != ch && number_bits( 1 ) == 0 )
 	    break;
     }
@@ -156,7 +167,7 @@ bool spec_watchdog_force_quit( CHAR_DATA *ch )
 
     if (victim->level > 30 && victim->level < 39)
     {
-	do_say( ch, "Get the fuck out of my room!" );
+	do_say( ch, "Get out of my room!" );
 	do_quit( victim, victim->name );
 	return TRUE;
     }
@@ -172,8 +183,8 @@ bool spec_watchdog_force_quit( CHAR_DATA *ch )
 bool dragon( CHAR_DATA *ch, char *spell_name )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     int sn;
+    CharIterator citer;
 
 /*
     if ( ch->position != POS_FIGHTING )
@@ -185,13 +196,14 @@ bool dragon( CHAR_DATA *ch, char *spell_name )
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
+
     {
-	v_next = victim->next_in_room;
 	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
 	    break;
     }
@@ -271,7 +283,7 @@ bool spec_breath_gas( CHAR_DATA *ch )
     if ( ch->position != POS_STANDING )
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
@@ -292,9 +304,9 @@ bool spec_breath_lightning( CHAR_DATA *ch )
 bool spec_cast_adept( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     extern int war_status;
     extern int war_timer;
+    CharIterator citer;
 
     if ( !IS_AWAKE(ch) )
 	return FALSE;
@@ -302,9 +314,9 @@ bool spec_cast_adept( CHAR_DATA *ch )
     if ( war_status != WAR_ON || war_timer > 10 )
 	return FALSE;
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0 )
 	    break;
     }
@@ -369,27 +381,23 @@ bool spec_cast_adept( CHAR_DATA *ch )
 bool spec_cast_cleric( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     char *spell;
     int sn;
+    CharIterator citer;
 
-/*
-    if ( ch->position != POS_FIGHTING )
-	return FALSE;
-*/
     if (ch->fighting == NULL)
 	return FALSE;
 
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
 	    break;
     }
@@ -432,27 +440,23 @@ bool spec_cast_cleric( CHAR_DATA *ch )
 bool spec_cast_judge( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     char *spell;
     int sn;
+    CharIterator citer;
 
-/*
-    if ( ch->position != POS_FIGHTING )
-	return FALSE;
-*/
     if (ch->fighting == NULL)
 	return FALSE;
 
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand(ch, "" );
+		do_stand(ch, str_empty );
 	return TRUE;
     }
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
 	    break;
     }
@@ -472,27 +476,23 @@ bool spec_cast_judge( CHAR_DATA *ch )
 bool spec_cast_mage( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     char *spell;
     int sn;
+    CharIterator citer;
 
-/*
-    if ( ch->position != POS_FIGHTING )
-	return FALSE;
-*/
     if (ch->fighting == NULL)
 	return FALSE;
 
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
 	    break;
     }
@@ -534,27 +534,23 @@ bool spec_cast_mage( CHAR_DATA *ch )
 bool spec_cast_undead( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     char *spell;
     int sn;
+    CharIterator citer;
 
-/*
-    if ( ch->position != POS_FIGHTING )
-	return FALSE;
-*/
     if (ch->fighting == NULL)
 	return FALSE;
 
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
 	if ( victim->fighting == ch && number_bits( 2 ) == 0 )
 	    break;
     }
@@ -597,17 +593,21 @@ bool spec_fido( CHAR_DATA *ch )
     OBJ_DATA *c_next;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
+    ObjIterator oiter;
 
     if ( !IS_AWAKE(ch) )
 	return FALSE;
 
-    for ( corpse = ch->in_room->contents; corpse != NULL; corpse = c_next )
+    for ( corpse = oiter.StartList( ch, ch->in_room->contents );
+          corpse != NULL; corpse = oiter.Next( ) )
     {
-	c_next = corpse->next_content;
 	if ( corpse->item_type != ITEM_CORPSE_NPC )
 	    continue;
 
 	act( "$n savagely devours a corpse.", ch, NULL, NULL, TO_ROOM, TRUE );
+
+        /* Using full un-phased list to allow incorrectly phased
+         * items to drop from the corpse. */
 	for ( obj = corpse->contains; obj; obj = obj_next )
 	{
 	    obj_next = obj->next_content;
@@ -627,10 +627,10 @@ bool spec_guard( CHAR_DATA *ch )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     CHAR_DATA *ech;
     char *crime;
     int max_evil;
+    CharIterator citer;
 
     if ( !IS_AWAKE(ch) || ch->fighting != NULL )
 	return FALSE;
@@ -639,10 +639,9 @@ bool spec_guard( CHAR_DATA *ch )
     ech      = NULL;
     crime    = "";
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
-
 	if ( victim->fighting != NULL
 	&&   victim->fighting != ch )
 	{
@@ -682,13 +681,14 @@ bool spec_janitor( CHAR_DATA *ch )
 {
     OBJ_DATA *trash;
     OBJ_DATA *trash_next;
+    ObjIterator oiter;
 
     if ( !IS_AWAKE(ch) )
 	return FALSE;
 
-    for ( trash = ch->in_room->contents; trash != NULL; trash = trash_next )
+    for ( trash = oiter.StartList( ch, ch->in_room->contents );
+          trash != NULL; trash = oiter.Next( ) )
     {
-	trash_next = trash->next_content;
 	if ( !IS_SET( trash->wear_flags, ITEM_TAKE ) )
 	    continue;
 	if ( trash->item_type == ITEM_DRINK_CON
@@ -825,7 +825,7 @@ bool spec_poison( CHAR_DATA *ch )
     if (ch->position != POS_STANDING)
     {
 	if (number_bits(1))
-		do_stand( ch, "" );
+		do_stand( ch, str_empty );
 	return TRUE;
     }
 
@@ -841,16 +841,15 @@ bool spec_poison( CHAR_DATA *ch )
 bool spec_thief( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     int gold;
+    CharIterator citer;
 
     if ( ch->position != POS_STANDING )
 	return FALSE;
 
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
+    for ( victim = citer.Start( ch, CharIterator::ROOM );
+          victim != NULL; victim = citer.Next() )
     {
-	v_next = victim->next_in_room;
-
 	if ( IS_NPC(victim)
 	||   victim->level >= LEVEL_IMMORTAL
 	||   number_bits( 2 ) != 0
@@ -897,7 +896,7 @@ bool spec_hunter_killer( CHAR_DATA *mob )
   if (mob->position != POS_STANDING)
   {
     if (!number_bits(2))
-      do_stand( mob, "" );
+      do_stand( mob, str_empty );
     return FALSE;
   }
 
@@ -964,7 +963,7 @@ bool spec_hunter_killer( CHAR_DATA *mob )
     act("$n points at you.", mob, NULL, mob->fighting, TO_VICT, TRUE );
     act("$n makes some strange gesture and combat ceases.",
         mob, NULL, NULL, TO_ROOM, TRUE );
-    do_peace( mob, "");
+    do_peace( mob, str_empty);
     return FALSE;
   }
 
@@ -1033,7 +1032,7 @@ bool spec_hunter_killer( CHAR_DATA *mob )
 	switch (number_bits(3))
 	{
 	    case 1:  case 2:  case 3:
-		do_bash( mob, "" );
+		do_bash( mob, str_empty );
 		break;
 	    case 4:
 		spell_high_explosive( skill_lookup( "high explosive" ), mob->level, mob, mob->fighting );
@@ -1083,7 +1082,7 @@ bool spec_dog_of_war( CHAR_DATA *mob )
     if (mob->position != POS_STANDING)
     {
 	if (!number_bits(2))
-	    do_stand( mob, "" );
+	    do_stand( mob, str_empty );
 	return FALSE;
     }
 
@@ -1135,7 +1134,7 @@ bool spec_dog_of_war( CHAR_DATA *mob )
 	act("$n snaps at $N.", mob, NULL, mob->fighting, TO_NOTVICT, TRUE );
 	act("$n snaps at you.", mob, NULL, mob->fighting, TO_VICT, TRUE );
 	act("$n emits a howl such that everyone covers their ears and stops fighting.", mob, NULL, NULL, TO_ROOM, TRUE );
-	do_peace( mob, "");
+	do_peace( mob, str_empty );
 	return FALSE;
     }
 
@@ -1250,6 +1249,7 @@ bool spec_thief_hunter( CHAR_DATA *mob )
     OBJ_DATA *wield;
     char buf[MAX_STRING_LENGTH];
     int direction;
+    ObjIterator oiter;
 
     if (mob->wait != 0)
 	return FALSE;
@@ -1263,7 +1263,7 @@ bool spec_thief_hunter( CHAR_DATA *mob )
     if (mob->position != POS_STANDING)
     {
 	if (!number_bits(2))
-	    do_stand( mob, "" );
+	    do_stand( mob, str_empty );
 	return FALSE;
     }
 
@@ -1273,7 +1273,7 @@ bool spec_thief_hunter( CHAR_DATA *mob )
 	{
 	    do_say( mob, "Damn.  Lost my weapon.  Good thing I've got another." );
 	    act("$n draws a Thieves Dirk from his boot.", mob, NULL, NULL, TO_ROOM, TRUE );
-            wield = create_object( get_obj_index(4053) );  /* thieve's dirk */
+            wield = create_object( get_obj_index(4053), mob->phase );  /* thieve's dirk */
             obj_to_char( wield, mob );
 	}
 	else
@@ -1332,7 +1332,7 @@ bool spec_thief_hunter( CHAR_DATA *mob )
 	act("$n points at $N.", mob, NULL, mob->fighting, TO_NOTVICT, TRUE );
 	act("$n points at you.", mob, NULL, mob->fighting, TO_VICT, TRUE );
 	act("$n gestures and fighting ceases.", mob, NULL, NULL, TO_ROOM, TRUE );
-	do_peace( mob, "");
+	do_peace( mob, str_empty );
 	return FALSE;
     }
 
@@ -1354,7 +1354,8 @@ bool spec_thief_hunter( CHAR_DATA *mob )
 		switch(number_bits(4))
 		{
 		    case 1:  case 2:
-			for ( osteal = mob->hunting->carrying; osteal != NULL; osteal = osteal->next_content )
+                        for ( osteal = oiter.StartList( mob, mob->hunting->carrying );
+			      osteal != NULL; osteal = oiter.Next( ) )
 			{
 			    if ( osteal->item_type == ITEM_DRINK_CON
 			    || osteal->item_type == ITEM_CONTAINER
@@ -1391,10 +1392,10 @@ bool spec_thief_hunter( CHAR_DATA *mob )
 	switch (number_bits(3))
 	{
 	    case 1:
-		do_disarm( mob, "" );
+		do_disarm( mob, str_empty );
 		break;
 	    case 2: case 3: case 4: case 5: case 6: case 7:
-		do_flee( mob, "" );
+		do_flee( mob, str_empty );
 		break;
 	    default:
 		break;
@@ -1438,7 +1439,7 @@ bool spec_assassin_hunter( CHAR_DATA *mob )
     if (mob->position != POS_STANDING)
     {
 	if (!number_bits(2))
-	    do_stand( mob, "" );
+	    do_stand( mob, str_empty );
 	return FALSE;
     }
 
@@ -1447,7 +1448,7 @@ bool spec_assassin_hunter( CHAR_DATA *mob )
 	if ( (wield = get_obj_carry( mob, "shadow" )) == NULL )
 	{
 	    act("$n draws a shadow knife from his boot.", mob, NULL, NULL, TO_ROOM, TRUE );
-            wield = create_object( get_obj_index(9008) );  /* thieve's dirk */
+            wield = create_object( get_obj_index(9008), mob->phase );  /* thieve's dirk */
             obj_to_char( wield, mob );
 	}
 	else
@@ -1506,7 +1507,7 @@ bool spec_assassin_hunter( CHAR_DATA *mob )
 	act("$n points at $N.", mob, NULL, mob->fighting, TO_NOTVICT, TRUE );
 	act("$n points at you.", mob, NULL, mob->fighting, TO_VICT, TRUE );
 	act("$n gestures and fighting ceases.", mob, NULL, NULL, TO_ROOM, TRUE );
-	do_peace( mob, "");
+	do_peace( mob, str_empty);
 	return FALSE;
     }
 
@@ -1553,7 +1554,7 @@ bool spec_assassin_hunter( CHAR_DATA *mob )
 	switch (number_bits(3))
 	{
 	    case 1: case 2: case 3: case 4: case 5: case 6: case 7:
-		do_flee( mob, "" );
+		do_flee( mob, str_empty );
 		break;
 	    default:
 		break;
@@ -1583,6 +1584,7 @@ bool spec_scout( CHAR_DATA *mob )
 {
     char buf[MAX_STRING_LENGTH];
     int direction;
+    static char str_what_the_hell[36] = "What the hell are you trying to do?";
 
     if (mob->wait != 0)
 	return FALSE;
@@ -1596,7 +1598,7 @@ bool spec_scout( CHAR_DATA *mob )
     if (mob->position != POS_STANDING)
     {
 	if (!number_bits(2))
-	    do_stand( mob, "" );
+	    do_stand( mob, str_empty );
 	return FALSE;
     }
 
@@ -1644,11 +1646,11 @@ bool spec_scout( CHAR_DATA *mob )
     if (mob->fighting != NULL
     && mob->fighting != mob->hunting )
     {
-	do_say( mob, "What the hell are you trying to do?" );
+	do_say( mob, str_what_the_hell );
 	act("$n points at $N.", mob, NULL, mob->fighting, TO_NOTVICT, TRUE );
 	act("$n points at you.", mob, NULL, mob->fighting, TO_VICT, TRUE );
 	act("$n gestures and fighting ceases.", mob, NULL, NULL, TO_ROOM, TRUE );
-	do_peace( mob, "");
+	do_peace( mob, str_empty );
 	return FALSE;
     }
 
@@ -1681,6 +1683,8 @@ bool spec_scout( CHAR_DATA *mob )
 bool spec_zombie( CHAR_DATA *mob )
 {
   char buf[MAX_STRING_LENGTH];
+  static char str_brains[8] = "Brains!";
+  static char str_no_brains[13] = "No brains...";
   int direction;
 
   if (mob->wait != 0)
@@ -1695,15 +1699,15 @@ bool spec_zombie( CHAR_DATA *mob )
   if (mob->position != POS_STANDING)
   {
     if (!number_bits(2))
-      do_stand( mob, "" );
+      do_stand( mob, str_empty );
     return FALSE;
   }
 
   if (mob->fighting != NULL
   && mob->fighting != mob->hunting )
   {
-    do_say( mob, "No brains..." );
-    do_peace( mob, "");
+    do_say( mob, str_no_brains );
+    do_peace( mob, str_empty );
     return FALSE;
   }
 
@@ -1715,7 +1719,7 @@ bool spec_zombie( CHAR_DATA *mob )
   {
     if (mob->fighting == NULL)
     {
-      do_say( mob, "Brains!" );
+      do_say( mob, str_brains );
       multi_hit( mob, mob->hunting, TYPE_UNDEFINED );
       return FALSE;
     }
@@ -1750,7 +1754,7 @@ bool spec_dancing_sword( CHAR_DATA *mob )
     if (mob->position != POS_STANDING)
     {
 	if (!number_bits(2))
-	    do_stand( mob, "" );
+	    do_stand( mob, str_empty );
 	return FALSE;
     }
 
@@ -1792,3 +1796,133 @@ bool spec_dancing_sword( CHAR_DATA *mob )
     mob->wait = 1 + ( number_bits( 2 ) ? 0 : 1 );
     return FALSE;
 }
+
+
+
+bool spec_distributor( CHAR_DATA *ch )
+{
+  CHAR_DATA *victim;
+  CharIterator citer;
+  static char str_tobattle[11] = "To Battle!";
+
+  for ( victim = citer.Start( ch, CharIterator::ROOM );
+        victim != NULL; victim = citer.Next() )
+  {
+    if ( victim != ch && IS_NPC( victim ) )
+      break;
+  }
+
+  if ( victim == NULL )
+    return FALSE;
+
+  do_say( ch, str_tobattle );
+
+  spell_teleport( 63, 50, victim, victim );
+
+  return FALSE;
+}
+
+
+bool spec_waldo( CHAR_DATA *ch )
+{
+  CHAR_DATA *victim;
+  OBJ_DATA *obj;
+  CharIterator citer;
+  char str_foundme[31] = "You found me! I'm out of here!";
+  char str_herespotion[32] = "Here's a potion for finding me!";
+
+  for ( victim = citer.Start( ch, CharIterator::ROOM );
+        victim != NULL; victim = citer.Next() )
+  {
+    if ( !IS_NPC( victim ) && number_bits( 1 ) == 0 )
+      break;
+  }
+
+  if ( victim == NULL )
+    return FALSE;
+
+  do_say( ch, str_foundme );
+
+  if ( mortal_in_main_war( victim ) )
+  {
+    do_say( ch, str_herespotion );
+    obj = create_random_potion( ch->phase );
+    act( "$n gives you $p.", ch, obj, victim, TO_VICT, TRUE );
+    obj_to_char( obj, victim );
+  }
+
+  spell_teleport( 63, 50, ch, ch );
+
+  return FALSE;
+}
+
+
+bool spec_logan( CHAR_DATA *ch )
+{
+  int direction;
+  int delay;
+
+  if (ch->wait != 0)
+    return FALSE;
+
+  /* 2 second delay at max health, 0.5 second delay below 20% */
+  delay = ch->hit * 100 / ch->max_hit;
+  delay -= 20;
+  if ( delay < 0 ) delay = 0;
+  if ( delay > 80 ) delay = 80;
+  delay /= 16;
+
+  ch->data[1]++;
+  if ( ch->data[1] < ( 2 + delay ) )
+    return FALSE;
+  ch->data[1] = 0;
+
+  if ( ch->position != POS_STANDING )
+  {
+    do_stand( ch, str_empty );
+    return FALSE;
+  }
+
+  /* Objective 1 - get out of combat */
+  if ( ch->fighting != NULL )
+  {
+    do_flee( ch, str_empty );
+    return FALSE;
+  }
+
+  /* No need to run if we're healthy. */
+  if ( ch->hit >= ch->max_hit )
+    return FALSE;
+
+  if ( ch->in_room->vnum == ch->data[0] )
+  {
+    get_new_target_room( ch );
+    return FALSE;
+  }
+
+  direction = bfs_find_room( ch, ch->in_room, get_room_index( ch->data[0] ), 1000 );
+
+  if (direction < 0 || direction > 5)
+  {
+    get_new_target_room( ch );
+    return FALSE;
+  }
+
+  move_char( ch, direction, TRUE );
+ 
+  return FALSE; 
+}
+
+
+bool spec_super_wimpy( CHAR_DATA *ch )
+{
+  if ( ch->fighting == NULL )
+    return FALSE;
+
+  do_flee( ch, str_empty );
+
+  return FALSE;
+}
+
+
+

@@ -26,6 +26,9 @@
 #include <time.h>
 #include "merc.h"
 #include "cmod.h"
+#include "global.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 BAN_DATA *		ban_free;
@@ -100,13 +103,15 @@ void do_warflags( CHAR_DATA *ch, char *argument )
 {
   extern int war_flags;
   char arg[MAX_STRING_LENGTH];
+  ObjIterator oiter;
+  static char str_do_warflags[12] = "do_warflags";
 
   one_argument( argument, arg );
 
   if( arg[0] == '\0' )
   {
     send_to_char( "Warflags: bloods continuous loadall doom noregen\n\r", ch );
-    send_to_char( "  fountains teleall noquaff \n\r", ch);
+    send_to_char( "  fountains teleall noquaff noextend\n\r", ch);
     return;
   }
 
@@ -161,49 +166,51 @@ void do_warflags( CHAR_DATA *ch, char *argument )
     return;
   }
 
-	if( !str_cmp( arg, "randomclass" ) )
-	{
-		if( !IS_SET( war_flags, WAR_FLAG_RANDOMCLASS ) )
-		{
-			SET_BIT(war_flags, WAR_FLAG_RANDOMCLASS );
-			do_warmessage(NULL,"Your profession will be chosen by the gods." );
-			return;
-		}
-		else
-		{
-			REMOVE_BIT(war_flags, WAR_FLAG_RANDOMCLASS );
-			do_warmessage(NULL,"Your profession is now your choice." );
-			return;
-		}
-		return;
-	}
+  if( !str_cmp( arg, "randomclass" ) )
+  {
+    if( !IS_SET( war_flags, WAR_FLAG_RANDOMCLASS ) )
+    {
+      SET_BIT(war_flags, WAR_FLAG_RANDOMCLASS );
+      do_warmessage(NULL,"Your profession will be chosen by the gods." );
+      return;
+    }
+    else
+    {
+      REMOVE_BIT(war_flags, WAR_FLAG_RANDOMCLASS );
+      do_warmessage(NULL,"Your profession is now your choice." );
+      return;
+    }
+    return;
+  }
 
-	if( !str_cmp( arg, "fountains" ) )
-	{
-		if( !IS_SET( war_flags, WAR_FLAG_FOUNTAINS ) )
-		{
-			SET_BIT(war_flags, WAR_FLAG_FOUNTAINS );
-			do_warmessage(NULL,"Fountains have loaded!");
-			return;
-		}
-		else
-		{
-			OBJ_DATA *obj;
+  if( !str_cmp( arg, "fountains" ) )
+  {
+    if( !IS_SET( war_flags, WAR_FLAG_FOUNTAINS ) )
+    {
+      SET_BIT(war_flags, WAR_FLAG_FOUNTAINS );
+      do_warmessage(NULL,"Fountains have loaded!");
+      return;
+    }
+    else
+    {
+      OBJ_DATA *obj;
 
-			REMOVE_BIT(war_flags, WAR_FLAG_FOUNTAINS );
-			do_warmessage(NULL,"The gods have stolen the fountains for their greedy selves!" );
-			for(obj = object_list; obj != NULL; obj = obj->next )
-			{
-				if(obj->item_type != ITEM_FOUNTAIN)
-					continue;
+      REMOVE_BIT(war_flags, WAR_FLAG_FOUNTAINS );
+      do_warmessage(NULL,"The gods have stolen the fountains for their greedy selves!" );
 
-				obj_from_room( obj, "do_warflags" );
-				extract_obj( obj, "do_warflags" );
-			}
-			return;
-		}
-		return;
-	}
+      for ( obj = oiter.Start( ch, ObjIterator::WORLD );
+            obj != NULL; obj = oiter.Next( ) )
+      {
+        if(obj->item_type != ITEM_FOUNTAIN)
+          continue;
+
+        obj_from_room( obj, str_do_warflags );
+        extract_obj( obj, str_do_warflags );
+      }
+      return;
+    }
+    return;
+  }
 
 	if( !str_cmp( arg, "noregen" ) )
 	{
@@ -256,21 +263,6 @@ void do_warflags( CHAR_DATA *ch, char *argument )
 		return;
 	}
 
-	if( !str_cmp( arg, "doom" ) )
-	{
-		if( !IS_SET( war_flags, WAR_FLAG_DOOM ) )
-		{
-			SET_BIT( war_flags, WAR_FLAG_DOOM );
-			do_warmessage(NULL, "The gods are now paying attention to the wars!" );
-		}
-		else
-		{
-			REMOVE_BIT( war_flags, WAR_FLAG_DOOM );
-			do_warmessage(NULL, "The gods are now ignoring the wars." );
-		}
-		return;
-	}
-
 	if( !str_cmp( arg, "bloods" ) ) {
 
 		if ( !IS_SET( war_flags, WAR_FLAG_BLOODS ) )
@@ -297,8 +289,23 @@ void do_warflags( CHAR_DATA *ch, char *argument )
 		else
 		{
 			REMOVE_BIT( war_flags, WAR_FLAG_CONTINUOUS );
-			set_join_status(char_list);
+			set_join_status(ch);
 			do_warmessage(NULL, "Continous war disabled." );
+		}
+		return;
+	}
+
+	if( !str_cmp( arg, "noextend" ) ) {
+
+		if( !IS_SET( war_flags, WAR_FLAG_NOEXTEND ) ) 
+		{
+			SET_BIT( war_flags, WAR_FLAG_NOEXTEND );
+			do_warmessage(NULL, "War extensions disabled." );
+		}
+		else
+		{
+			REMOVE_BIT( war_flags, WAR_FLAG_NOEXTEND );
+			do_warmessage(NULL, "War extensions enabled." );
 		}
 		return;
 	}
@@ -341,7 +348,7 @@ void do_deny( CHAR_DATA *ch, char *argument )
     SET_BIT(victim->act, PLR_DENY);
     send_to_char( "You are denied access!\n\r", victim );
     send_to_char( "OK.\n\r", ch );
-    do_quit( victim, "" );
+    do_quit( victim, str_empty );
 
     return;
 }
@@ -442,27 +449,29 @@ void do_specho(CHAR_DATA *ch, char *argument )
 
 void do_echo( CHAR_DATA *ch, char *argument )
 {
-    DESCRIPTOR_DATA *d;
-/*    char buf[MAX_STRING_LENGTH]; */
-    
-    if ( argument[0] == '\0' )
-    {
-	send_to_char( "Echo what?\n\r", ch );
-	return;
-    }
-
-    for ( d = descriptor_list; d; d = d->next )
-    {
-	if ( d->connected == CON_PLAYING )
-	{
-		{
-			send_to_char( argument, d->character );
-			send_to_char( "\n\r",   d->character );
-		}
-	}
-    }
-
+  if ( argument[0] == '\0' )
+  {
+    send_to_char( "Echo what?\n\r", ch );
     return;
+  }
+
+  execute_echo( argument );
+
+  return;
+}
+
+void execute_echo( const char *argument )
+{
+  DESCRIPTOR_DATA *d;
+
+  for ( d = descriptor_list; d; d = d->next )
+  {
+    if ( d->connected == CON_PLAYING )
+    {
+      send_to_char( argument, d->character );
+      send_to_char( "\n\r",   d->character );
+    }
+  }
 }
 
 
@@ -504,72 +513,58 @@ void do_delay( CHAR_DATA *ch , char *argument )
     return;
 }
 
-void do_wartime( CHAR_DATA *ch, char *argument ) {
+void do_wartime( CHAR_DATA *ch, char *argument )
+{
+  extern int war_timer;
+  extern int war_status;
+  extern int war_flags;
+  char arg1[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH];
 
-	extern int war_timer;
-	extern int war_status;
-	extern int war_flags;
-	extern int war_death;
-	int war_before;
-	char arg1[MAX_STRING_LENGTH];
-	char arg2[MAX_STRING_LENGTH];
-	char buf[MAX_STRING_LENGTH];
+  argument = one_argument( argument, arg1 );
 
-	argument = one_argument( argument, arg1 );
-	argument = one_argument( argument, arg2 );
+  if( arg1[0] == '\0' || !is_number(arg1) )
+  {
+    send_to_char( "wartime <time>\n\r", ch );
+    return;
+  }
 
-	if( !is_number(arg2) || arg1[0] == '\0' || arg2[0] == '\0' )
-	{
-		send_to_char( "wartime <war or death> <time>\n\r", ch );
-		return;
-	}
+  if( war_status == NO_WAR )
+  {
+    send_to_char( "War is off, can only set at post, pre, and during war.\n\r", ch );
+    return;
+  }
 
-	if( !str_cmp( arg1, "death" ) )
-	{
-		war_before = war_death;
-		war_death = atoi(arg2);
-		sprintf( buf,"The gods are %s and choose to give you %d tick%s to kill, or face their wrath!", war_death > war_before ? "happy" : "annoyed",war_death, war_death == 1 ? "" : "s" );
-		do_warmessage( NULL, buf );
-		return;
-	}
-	else if ( !str_cmp( arg1, "war" ) )
-	{
+  war_timer = atoi(arg1);
 
-	if( war_status == NO_WAR ) {
+  switch( war_status )
+  {
 
-		send_to_char( "War is off, can only set at post, pre, and during war.\n\r", ch );
-		return;
-	}
+    case PRE_WAR:
+      sprintf( buf, "%d tick%s until war starts.",
+               war_timer, war_timer == 1 ? "" : "s" );
+      do_warmessage( NULL, buf );
+      break;
 
-	war_timer = atoi(arg2);
+    case POST_WAR:
+      sprintf( buf, "%d tick%s until reset.",
+               war_timer, war_timer == 1 ? "" : "s" );
+      do_warmessage( NULL, buf );
+      break;
 
-	switch( war_status ) {
+    case WAR_ON:
+      if( !IS_SET( war_flags, WAR_FLAG_CONTINUOUS ) )
+        sprintf( buf, "Doomsday device is now set at %d tick%s.",
+                 war_timer, war_timer == 1 ? "" : "s" );
+      else
+        sprintf( buf, "World rebirth is now set at %d tick%s.",
+                 war_timer, war_timer == 1 ? "" : "s" );
 
-		case PRE_WAR:
-			sprintf( buf, "%d tick%s until war starts.", war_timer, war_timer == 1 ? "" : "s" );
-			do_warmessage( NULL, buf );
-			break;
-		case POST_WAR:
-			sprintf( buf, "%d tick%s until reset.", war_timer, war_timer == 1 ? "" : "s" );
-			do_warmessage( NULL, buf );
-			break;
-		case WAR_ON:
-			if( !IS_SET( war_flags, WAR_FLAG_CONTINUOUS ) )
-				sprintf( buf, "Doomsday device is now set at %d tick%s.", war_timer, war_timer == 1 ? "" : "s" );
-			else
-				sprintf( buf, "World rebirth is now set at %d tick%s.", war_timer, war_timer == 1 ? "" : "s" );
+      do_warmessage( NULL, buf );
+      break;
+  }
 
-			do_warmessage( NULL, buf );
-			break;
-	}
-	}
-	else
-	{
-		send_to_char("Syntax: wartime <death/war> <time>\n\r", ch );
-		return;
-	}
-
-	return;
+  return;
 }
 
 void do_warstart( CHAR_DATA *ch , char *argument )
@@ -629,7 +624,7 @@ ROOM_INDEX_DATA *find_location( CHAR_DATA *ch, char *arg )
     if ( is_number(arg) )
 	return get_room_index( atoi( arg ) );
 
-    if ( ( victim = get_char_world( ch, arg ) ) != NULL )
+    if ( ( victim = get_char_phase( ch, arg ) ) != NULL )
     {
 	if (IS_NPC(victim) || get_trust(ch) > 30)
 	    return victim->in_room;
@@ -718,17 +713,11 @@ void do_transfer( CHAR_DATA *ch, char *argument )
 	    send_to_char( "No such location.\n\r", ch );
 	    return;
 	}
-
-	if ( room_is_private( location ) )
-	{
-	    send_to_char( "That room is private right now.\n\r", ch );
-	    return;
-	}
     }
 
-    if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
+    if ( ( victim = get_char_phase( ch, arg1 ) ) == NULL )
     {
-	send_to_char( "They aren't here.\n\r", ch );
+	send_to_char( "They aren't here - try a different phase.\n\r", ch );
 	return;
     }
 
@@ -792,12 +781,6 @@ void do_at( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( room_is_private( location ) )
-    {
-	send_to_char( "That room is private right now.\n\r", ch );
-	return;
-    }
-
     original = ch->in_room;
     char_from_room( ch );
     char_to_room( ch, location );
@@ -853,12 +836,6 @@ void do_goto( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( room_is_private( location ) )
-    {
-	send_to_char( "That room is private right now.\n\r", ch );
-	return;
-    }
-
     if ( ch->fighting != NULL )
 	stop_fighting( ch, TRUE );
     if ( !IS_SET(ch->act, PLR_WIZINVIS) )
@@ -903,6 +880,9 @@ void do_rstat( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     CHAR_DATA *rch;
     int door;
+    int phase;
+    CharIterator citer;
+    ObjIterator oiter;
 
     one_argument( argument, arg );
     location = ( arg[0] == '\0' ) ? ch->in_room : find_location( ch, arg );
@@ -912,19 +892,14 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ch->in_room != location && room_is_private( location ) )
-    {
-	send_to_char( "That room is private right now.\n\r", ch );
-	return;
-    }
-
     sprintf( buf, "Name: '%s.'\n\rArea: '%s' (%s).\n\r",
 	location->name,
 	location->area->name, location->area->author );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Area flags: %d.  Area access percent: %d.\n\r",
-	location->area->area_flags, location->area->access_percent );
+    sprintf( buf, "Area flags: %d.  Area access percent: %d.   Lifespan: %d.\n\r",
+	location->area->area_flags, location->area->access_percent,
+	location->area->lifespan[ch->phase] );
     send_to_char( buf, ch );
 
     sprintf( buf,
@@ -954,25 +929,37 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 	send_to_char( "'.\n\r", ch );
     }
 
-    send_to_char( "Characters:", ch );
-    for ( rch = location->people; rch; rch = rch->next_in_room )
+    for ( phase = 0; phase < NUM_PHASES; phase++ )
     {
-      if (can_see( ch, rch ) )
+      sprintf( buf, "Characters (%d):", phase );
+      send_to_char( buf, ch );
+      for ( rch = citer.StartPhase( phase, location, CharIterator::ROOM );
+            rch; rch = citer.Next() )
       {
-	send_to_char( " ", ch );
-	one_argument( rch->name, buf );
-	send_to_char( buf, ch );
+        if (can_see( ch, rch ) )
+         {
+          send_to_char( " ", ch );
+          one_argument( rch->name, buf );
+          send_to_char( buf, ch );
+        }
       }
+      send_to_char( ".\n\r", ch );
     }
 
-    send_to_char( ".\n\rObjects:   ", ch );
-    for ( obj = location->contents; obj; obj = obj->next_content )
+
+    for ( phase = 0; phase < NUM_PHASES; phase++ )
     {
-	send_to_char( " ", ch );
-	one_argument( obj->name, buf );
-	send_to_char( buf, ch );
+      sprintf( buf, "Objects   (%d):", phase );
+      send_to_char( buf, ch );
+      for ( obj = oiter.StartPhase( phase, location->contents, ObjIterator::ROOM );
+            obj; obj = oiter.Next( ) )
+      {
+        send_to_char( " ", ch );
+        one_argument( obj->name, buf );
+        send_to_char( buf, ch );
+      }
+      send_to_char( ".\n\r", ch );
     }
-    send_to_char( ".\n\r", ch );
 
     for ( door = 0; door <= 5; door++ )
     {
@@ -986,7 +973,7 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 		door,
 		pexit->to_room != NULL ? pexit->to_room->vnum : 0,
 	    	pexit->key,
-	    	pexit->exit_info,
+	    	pexit->exit_info[ch->phase],
 	    	pexit->keyword,
 	    	pexit->description[0] != '\0'
 		    ? pexit->description : "(none).\n\r" );
@@ -1031,8 +1018,9 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	obj->name );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Vnum: %d.  Type: %s.\n\r",
-	obj->pIndexData->vnum, 
+    sprintf( buf, "Vnum: %d.  Phase: %d.  Type: %s.\n\r",
+	obj->pIndexData->vnum,
+        obj->phase,
 	item_type_name( obj->item_type, obj->pIndexData->vnum ) );
     send_to_char( buf, ch );
 
@@ -1044,13 +1032,16 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	obj->wear_flags, extra_bit_name( obj->extra_flags ) );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Number: %d/%d.  Weight: %d/%d.\n\r",
-	1,           get_obj_number( obj ),
+    sprintf( buf, "Weight: %d/%d.\n\r",
 	obj->weight, get_obj_weight( obj ) );
     send_to_char( buf, ch );
 
     sprintf( buf, "Cost: %d.  Timer: %d.\n\r",
 	obj->cost, obj->timer );
+    send_to_char( buf, ch );
+
+    sprintf( buf, "Actor: %s\n\r",
+        obj->killer == NULL ? "(none)" : obj->killer->name );
     send_to_char( buf, ch );
 
     sprintf( buf,
@@ -1126,7 +1117,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    if ( ( victim = get_char_phase( ch, arg ) ) == NULL )
     {
 	send_to_char( "They aren't here.\n\r", ch );
 	return;
@@ -1150,11 +1141,12 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	IS_NPC(victim) ? victim->hunting == NULL ? "Noone." : victim->hunting->name : "PC." );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Vnum: %d.  Sex: %s.  Room: %d.\n\r",
+    sprintf( buf, "Vnum: %d.  Sex: %s.  Room: %d.  Phase: %d.\n\r",
 	IS_NPC(victim) ? victim->pIndexData->vnum : 0,
 	victim->sex == SEX_MALE    ? "male"   :
 	victim->sex == SEX_FEMALE  ? "female" : "neutral",
-	victim->in_room == NULL    ?        0 : victim->in_room->vnum
+	victim->in_room == NULL    ?        0 : victim->in_room->vnum,
+        victim->phase
 	);
     send_to_char( buf, ch );
 
@@ -1483,10 +1475,11 @@ void do_reset( CHAR_DATA *ch, char *argument )
   char buf[MAX_STRING_LENGTH];
   char arg[MAX_STRING_LENGTH];
   CHAR_DATA *victim;
-  CHAR_DATA *victim_next;
   int mob_num;
   OBJ_DATA *obj;
-  OBJ_DATA *obj_next;
+  CharIterator citer;
+  ObjIterator oiter;
+  static char str_reset[9] = "do_reset";
 
   one_argument( argument, arg );
 
@@ -1499,10 +1492,9 @@ void do_reset( CHAR_DATA *ch, char *argument )
   if( !str_cmp( arg, "mobs" ) ) 
   {
     mob_num = 0;
-    for ( victim = char_list; victim != NULL; victim = victim_next )
+    for ( victim = citer.Start( ch, CharIterator::WORLD );
+         victim != NULL; victim = citer.Next() )
     {
-      victim_next = victim->next;
-
       if ( IS_NPC(victim) && (victim->pIndexData->pShop == NULL) )
       {
 	mob_num += 1;
@@ -1516,12 +1508,11 @@ void do_reset( CHAR_DATA *ch, char *argument )
 
   if( !str_cmp( arg, "mud" ) )
   {
-    reset_mud( );
+    reset_mud( ch->phase );
 
-    for( victim = char_list; victim != NULL; victim = victim_next )
+    for ( victim = citer.Start( ch, CharIterator::WORLD );
+         victim != NULL; victim = citer.Next() )
     {
-      victim_next = victim->next;
-
       if( IS_NPC(victim) ) 
 	continue;
 
@@ -1542,14 +1533,13 @@ void do_reset( CHAR_DATA *ch, char *argument )
 
   if( !str_cmp( arg, "corpses" ) )
   {
-    for( obj = object_list; obj != NULL; obj = obj_next ) 
+    for ( obj = oiter.Start( ch, ObjIterator::WORLD );
+          obj != NULL; obj = oiter.Next( ) )
     {
-      obj_next = obj->next;
-
       if( obj->item_type == ITEM_CORPSE_PC )
       {
-	obj_from_room( obj, "do_reset" );
-	extract_obj( obj, "do_reset" );
+	obj_from_room( obj, str_reset );
+	extract_obj( obj, str_reset );
       }
     }
     send_to_char( "Poof, pc corpses gone.\n\r", ch );
@@ -1565,6 +1555,7 @@ void do_mwhere( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     bool found;
+    CharIterator citer;
 
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
@@ -1574,15 +1565,17 @@ void do_mwhere( CHAR_DATA *ch, char *argument )
     }
 
     found = FALSE;
-    for ( victim = char_list; victim != NULL; victim = victim->next )
+    for ( victim = citer.Start( ch, CharIterator::ALL );
+          victim != NULL; victim = citer.Next() )
     {
 	if ( IS_NPC(victim)
 	&&   victim->in_room != NULL
 	&&   is_name( arg, victim->name ) )
 	{
 	    found = TRUE;
-	    sprintf( buf, "[%5d] %-28s [%5d] %s\n\r",
+	    sprintf( buf, "[%5d][%d] %-28s [%5d] %s\n\r",
 		victim->pIndexData->vnum,
+		victim->phase,
 		victim->short_descr,
 		victim->in_room->vnum,
 		victim->in_room->name );
@@ -1823,7 +1816,7 @@ void do_switch( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    if ( ( victim = get_char_phase( ch, arg ) ) == NULL )
     {
 	send_to_char( "They aren't here.\n\r", ch );
 	return;
@@ -1892,7 +1885,7 @@ void do_mload( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    victim = create_mobile( pMobIndex );
+    victim = create_mobile( pMobIndex, ch->phase );
     char_to_room( victim, ch->in_room );
     act( "$n has created $N!", ch, NULL, victim, TO_ROOM, TRUE );
     send_to_char( "Ok.\n\r", ch );
@@ -1964,7 +1957,7 @@ void do_oload( CHAR_DATA *ch, char *argument )
       WAIT_STATE( ch, 120 );
     }
 
-    obj = create_object( pObjIndex );
+    obj = create_object( pObjIndex, ch->phase );
     if ( CAN_WEAR(obj, ITEM_TAKE) )
     {
 	obj_to_char( obj, ch );
@@ -1979,31 +1972,85 @@ void do_oload( CHAR_DATA *ch, char *argument )
 }
 
 
+void do_phase( CHAR_DATA *ch, char *argument )
+{
+  char arg1[MAX_INPUT_LENGTH];
+  char arg2[MAX_INPUT_LENGTH];
+  CHAR_DATA *victim;
+  char buf[MAX_STRING_LENGTH];
+  unsigned int phase = WAR_NUM_DEAD;
+
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
+
+  if ( arg1[0] == '\0' || arg2[0] == '\0' )
+  {
+    send_to_char( "Syntax: phase <character> <phase id>\n\r", ch );
+    return;
+  }
+
+  if ( ( victim = get_char_phase( ch, arg1 ) ) == NULL )
+  {
+    send_to_char( "They aren't here.\n\r", ch );
+    return;
+  }
+
+  if ( is_number( arg2 ) )
+    phase = atoi( arg2 );
+  else if ( !str_cmp( arg2, "dead" ) )
+    phase = WAR_NUM_DEAD;
+  else if ( !str_cmp( arg2, "main" ) )
+    phase = WAR_NUM_MAIN;
+  else
+  {
+    send_to_char( "Phase must be either a number or one of the following:\n\r"
+                  "   dead, main\n\r", ch );
+    return;
+  }
+
+  if ( phase > NUM_PHASES )
+  {
+    send_to_char( "Invalid phase.  Must be less than 4.\n\r", ch );
+    return;
+  }
+
+  sprintf( buf, "Your phase has been set to %d.\n\r", phase );
+  send_to_char( buf, victim );
+
+  sprintf( buf, "%s's phase has been set to %d.\n\r", victim->name, phase );
+  send_to_char( buf, ch );
+
+  phase_char( victim, phase );
+
+  return;
+}
+
 
 void do_purge( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     OBJ_DATA *obj;
+    CharIterator citer;
+    ObjIterator oiter;
 
     one_argument( argument, arg );
 
     if ( arg[0] == '\0' )
     {
 	/* 'purge' */
-	CHAR_DATA *vnext;
 	OBJ_DATA  *obj_next;
 
-	for ( victim = ch->in_room->people; victim != NULL; victim = vnext )
+	for ( victim = citer.Start( ch, CharIterator::ROOM );
+              victim != NULL; victim = citer.Next() )
 	{
-	    vnext = victim->next_in_room;
 	    if ( IS_NPC(victim) && victim != ch )
 		extract_char( victim, TRUE );
 	}
 
-	for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+        for ( obj = oiter.StartList( ch, ch->in_room->contents );
+	      obj != NULL; obj = oiter.Next( ) )
 	{
-	    obj_next = obj->next_content;
 	    extract_obj( obj, "do_purge" );
 	}
 
@@ -2012,7 +2059,7 @@ void do_purge( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    if ( ( victim = get_char_phase( ch, arg ) ) == NULL )
     {
 	send_to_char( "They aren't here.\n\r", ch );
 	return;
@@ -2165,18 +2212,17 @@ void do_trust( CHAR_DATA *ch, char *argument )
 void do_warstop( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *rch;
-    CHAR_DATA *ch_next;
     extern int war_status;
+    CharIterator citer;
 
     if ( war_status < WAR_ON )
     {
 	send_to_char( "War hasn't started yet, no need to stop!\n\r", ch );
 	return;
     }
-    for ( rch = char_list; rch != NULL; rch = ch_next )
+    for ( rch = citer.Start( ch, CharIterator::ALL );
+          rch != NULL; rch = citer.Next() )
     {
-	ch_next = rch->next;
-
 	if( IS_NPC(rch) )
 		continue;
 
@@ -2187,10 +2233,10 @@ void do_warstop( CHAR_DATA *ch, char *argument )
 	    remove_from_war( rch );
 
 	    if( rch->fighting != NULL )
-		do_peace( rch, "" );
+		do_peace( rch, str_empty );
 
 	    if ( rch->desc == NULL )
-		do_quit( rch, "" );
+		do_quit( rch, str_empty );
 	}
     }
     set_war_status( NO_WAR );
@@ -2232,7 +2278,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL ) 
+    if ( ( victim = get_char_phase( ch, arg ) ) == NULL ) 
     {
        send_to_char( "They aren't here.\n\r", ch );
        return;
@@ -2541,16 +2587,18 @@ void do_silence( CHAR_DATA *ch, char *argument )
 
 void do_peace( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
+  CHAR_DATA *rch;
+  CharIterator citer;
 
-    for ( rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room )
-    {
-	if ( rch->fighting != NULL )
-	    stop_fighting( rch, TRUE );
-    }
+  for ( rch = citer.Start( ch, CharIterator::ROOM );
+        rch != NULL; rch = citer.Next() )
+  {
+    if ( rch->fighting != NULL )
+      stop_fighting( rch, TRUE );
+  }
 
-    send_to_char( "Ok.\n\r", ch );
-    return;
+  send_to_char( "Ok.\n\r", ch );
+  return;
 }
 
 
@@ -2830,14 +2878,14 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char( "  str int wis dex con sex class level\n\r",	ch );
 	send_to_char( "  gold hp mana move practice\n\r",		ch );
 	send_to_char( "  wins kills losses nojoin inwar hunting",	ch );
-	send_to_char( "  mlag",		ch );
+	send_to_char( "  mlag phase",		ch );
 	send_to_char( "\n\r",						ch );
 	send_to_char( "String being one of:\n\r",			ch );
 	send_to_char( "  name short long description title spec\n\r",	ch );
 	return;
     }
 
-    if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
+    if ( ( victim = get_char_phase( ch, arg1 ) ) == NULL )
     {
 	send_to_char( "They aren't here.\n\r", ch );
 	return;
@@ -2863,7 +2911,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 		return;
 	}
 
-	if( (tohunt = get_char_world(ch, arg3)) == NULL )
+	if( (tohunt = get_char_phase(ch, arg3)) == NULL )
 	{
 		send_to_char("They aren't on to hunt.\n\r", ch );
 		return;
@@ -2998,6 +3046,18 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	}
 
 	victim->move_lag = value;
+	return;
+    }
+
+    if ( !str_cmp( arg2, "phase" ) )
+    {
+	if ( value < 0 || value >= NUM_PHASES )
+	{
+	    send_to_char( "phase must be less than NUM_PHASES.\n\r", ch );
+	    return;
+	}
+
+	victim->phase = value;
 	return;
     }
 
@@ -3229,7 +3289,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
     /*
      * Generate usage message.
      */
-    do_mset( ch, "" );
+    do_mset( ch, str_empty );
     return;
 }
 
@@ -3393,7 +3453,7 @@ void do_oset( CHAR_DATA *ch, char *argument )
     /*
      * Generate usage message.
      */
-    do_oset( ch, "" );
+    do_oset( ch, str_empty );
     return;
 }
 
@@ -3417,7 +3477,7 @@ void do_rset( CHAR_DATA *ch, char *argument )
 	send_to_char( "Syntax: rset <location> <field> value\n\r",	ch );
 	send_to_char( "\n\r",						ch );
 	send_to_char( "Field being one of:\n\r",			ch );
-	send_to_char( "  flags sector\n\r",				ch );
+	send_to_char( "  flags sector age\n\r",				ch );
 	return;
     }
 
@@ -3452,10 +3512,16 @@ void do_rset( CHAR_DATA *ch, char *argument )
 	return;
     }
 
+    if ( !str_cmp( arg2, "age" ) )
+    {
+	location->area->lifespan[ch->phase] = value;
+	return;
+    }
+
     /*
      * Generate usage message.
      */
-    do_rset( ch, "" );
+    do_rset( ch, str_empty );
     return;
 }
 
@@ -3565,12 +3631,11 @@ void do_force( CHAR_DATA *ch, char *argument )
     if ( !str_cmp( arg, "all" ) )
     {
 	CHAR_DATA *vch;
-	CHAR_DATA *vch_next;
+        CharIterator citer;
 
-	for ( vch = char_list; vch != NULL; vch = vch_next )
+	for ( vch = citer.Start( ch, CharIterator::ALL );
+              vch != NULL; vch = citer.Next() )
 	{
-	    vch_next = vch->next;
-
 	    if ( !IS_NPC(vch) && get_trust( vch ) < get_trust( ch ) )
 	    {
 		act( "$n forces you to '$t'.", ch, argument, vch, TO_VICT, TRUE );
@@ -3582,7 +3647,7 @@ void do_force( CHAR_DATA *ch, char *argument )
     {
 	CHAR_DATA *victim;
 
-	if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+	if ( ( victim = get_char_phase( ch, arg ) ) == NULL )
 	{
 	    send_to_char( "They aren't here.\n\r", ch );
 	    return;

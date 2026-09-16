@@ -5,6 +5,24 @@
 #include "merc.h"
 
 
+bool can_interact( CHAR_DATA *ch )
+{
+  if ( IS_NPC( ch ) )
+    return TRUE;
+
+  if ( ch->phase != WAR_NUM_MAIN )
+    return TRUE;
+
+  if ( ch->pcdata->war_num == WAR_NUM_MAIN )
+    return TRUE;
+
+  if ( get_trust( ch ) >= LEVEL_IMMORTAL )
+    return TRUE;
+
+  return FALSE;
+}
+
+
 bool in_main_war( CHAR_DATA *ch )
 {
   if ( IS_NPC( ch ) )
@@ -71,24 +89,16 @@ bool in_static_war( CHAR_DATA *ch )
 }
 
 
-bool can_interact_one( CHAR_DATA *ch )
-{
-  if ( IS_NPC( ch ) )
-    return TRUE;
-
-  if ( in_main_war( ch ) )
-    return TRUE;
-
-  return FALSE;
-}
-
-
 bool in_same_war( CHAR_DATA *ch, CHAR_DATA *victim )
 {
   if ( get_trust( ch ) >= LEVEL_IMMORTAL
   || get_trust( victim ) >= LEVEL_IMMORTAL )
     return TRUE;
 
+  if ( ch->phase == victim->phase )
+    return TRUE;
+
+#if 0
   if ( IS_NPC( ch ) )
   {
     if ( in_main_war( victim ) )
@@ -114,8 +124,9 @@ bool in_same_war( CHAR_DATA *ch, CHAR_DATA *victim )
     if ( ch->private_war != victim )
       return FALSE;
   }
+#endif
 
-  return TRUE;
+  return FALSE;
 }
 
 
@@ -152,7 +163,9 @@ int count_waiting_players( void )
     if ( IS_SET( desc->character->act, PLR_NOPLAY ) )
       continue;
 
-    if ( !mortal_in_main_war( desc->character ) )
+//    if ( !mortal_in_main_war( desc->character ) )
+    if ( desc->character->phase != WAR_NUM_MAIN
+    && !IS_SET( desc->character->act, PLR_NOPLAY ) )
       count++;
   }
 

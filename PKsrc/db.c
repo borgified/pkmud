@@ -116,6 +116,7 @@ sh_int		gsn_enchant_weapon;
 sh_int		gsn_energy_drain;
 sh_int		gsn_enhanced_damage;
 sh_int		gsn_entangle;
+sh_int		gsn_explosion;
 sh_int		gsn_faerie_fire;
 sh_int		gsn_faerie_fog;
 sh_int		gsn_farsee;
@@ -272,7 +273,7 @@ void	load_notes	args( ( void ) );
 
 void	fix_exits	args( ( void ) );
 
-void	reset_area	args( ( AREA_DATA * pArea ) );
+void	reset_area	args( ( AREA_DATA * pArea , unsigned int phase ) );
 
 
 
@@ -525,7 +526,10 @@ void load_area( FILE *fp )
     pArea->reset_last	= NULL;
     pArea->author	= fread_string( fp );
     pArea->name		= fread_string( fp );
-    pArea->age		= 45;
+    pArea->lifespan[WAR_NUM_DEAD] = 45;
+    pArea->lifespan[WAR_NUM_MAIN] = 45;
+    pArea->lifespan[WAR_NUM_FFA] = 45;
+    pArea->lifespan[WAR_NUM_PRIVATE] = 45;
     pArea->nplayer	= 0;
     pArea->area_flags	= fread_number( fp );
     pArea->access_percent = fread_number( fp );
@@ -857,77 +861,14 @@ void load_resets( FILE *fp )
 	pReset->arg3	= (letter == 'G' || letter == 'R')
 			    ? 0 : fread_number( fp );
 			  fread_to_eol( fp );
-
-#if 0
-/* commented out 'cause it disallows using eq/rooms in other zones. */
-	/*
-	 * Validate parameters.
-	 * We're calling the index functions for the side effect.
-	 */
-	switch ( letter )
-	{
-	default:
-	    bug( "Load_resets: bad command '%c'.", letter );
-	    exit( 1 );
-	    break;
-
-	case 'M':
-	    get_mob_index  ( pReset->arg1 );
-	    get_room_index ( pReset->arg3 );
-	    break;
-
-	case 'O':
-	    get_obj_index  ( pReset->arg1 );
-	    get_room_index ( pReset->arg3 );
-	    break;
-
-	case 'P':
-	    get_obj_index  ( pReset->arg1 );
-	    get_obj_index  ( pReset->arg3 );
-	    break;
-
-	case 'G':
-	case 'E':
-	    get_obj_index  ( pReset->arg1 );
-	    break;
-
-	case 'D':
-	    pRoomIndex = get_room_index( pReset->arg1 );
-
-	    if ( pReset->arg2 < 0
-	    ||   pReset->arg2 > 5
-	    || ( pexit = pRoomIndex->exit[pReset->arg2] ) == NULL
-	    || !IS_SET( pexit->exit_info, EX_ISDOOR ) )
-	    {
-		bug( "Load_resets: 'D': exit %d not door.", pReset->arg2 );
-		exit( 1 );
-	    }
-
-	    if ( pReset->arg3 < 0 || pReset->arg3 > 2 )
-	    {
-		bug( "Load_resets: 'D': bad 'locks': %d.", pReset->arg3 );
-		exit( 1 );
-	    }
-
-	    break;
-
-	case 'R':
-	    pRoomIndex		= get_room_index( pReset->arg1 );
-
-	    if ( pReset->arg2 < 0 || pReset->arg2 > 6 )
-	    {
-		bug( "Load_resets: 'R': bad exit %d.", pReset->arg2 );
-		exit( 1 );
-	    }
-
-	    break;
-	}
-#endif
+        memset( pReset->instance, 0, sizeof( pReset->instance ) );
 
 	if ( area_last->reset_first == NULL )
 	    area_last->reset_first	= pReset;
 	if ( area_last->reset_last  != NULL )
 	    area_last->reset_last->next	= pReset;
+
+        memset( pReset->instance, 0, sizeof( pReset->instance ) );
 	    
 	area_last->reset_last	= pReset;
 	pReset->next		= NULL;
@@ -945,6 +886,7 @@ void load_resets( FILE *fp )
 void load_rooms( FILE *fp )
 {
     ROOM_INDEX_DATA *pRoomIndex;
+    unsigned int instance;
 
     if ( area_last == NULL )
     {
@@ -1021,16 +963,20 @@ void load_rooms( FILE *fp )
 		pexit			= (EXIT_DATA *) alloc_perm( sizeof(*pexit) );
 		pexit->description	= fread_string( fp );
 		pexit->keyword		= fread_string( fp );
-		pexit->exit_info	= 0;
+		memset( pexit->exit_info, 0, sizeof( pexit->exit_info ) );
 		locks			= fread_number( fp );
 		pexit->key		= fread_number( fp );
 		pexit->vnum		= fread_number( fp );
 
-		switch ( locks )
-		{
-		case 1: pexit->exit_info = EX_ISDOOR;                break;
-		case 2: pexit->exit_info = EX_ISDOOR | EX_PICKPROOF; break;
-		}
+
+                for ( instance = 0; instance < NUM_PHASES; instance++ )
+                {
+                  switch ( locks )
+                  {
+                    case 1: pexit->exit_info[instance] = EX_ISDOOR;                break;
+                    case 2: pexit->exit_info[instance] = EX_ISDOOR | EX_PICKPROOF; break;
+                  }
+                }
 
 		pRoomIndex->exit[door]	= pexit;
 		top_exit++;
@@ -1332,19 +1278,28 @@ void fix_exits( void )
  */
 void area_update( void )
 {
-    AREA_DATA *pArea;
+  AREA_DATA *pArea;
 
-    for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
+  for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
+  {
+    /* Currently only resetting phase 0.  Eventually update
+     * other zones as well. */
+    pArea->lifespan[WAR_NUM_DEAD]++;
+    pArea->lifespan[WAR_NUM_MAIN]++;
+
+    if (pArea->lifespan[WAR_NUM_DEAD] >= 3 )
     {
-	if ( ++pArea->age < 3 )
-	    continue;
-	if (pArea->age >= 45)
-	{
-	    reset_area( pArea );
-	    pArea->age = number_range( 0, 3 );
-	}
+      reset_area( pArea, WAR_NUM_DEAD );
+      pArea->lifespan[WAR_NUM_DEAD] = number_range( 0, 3 );
     }
-    return;
+
+    if (pArea->lifespan[WAR_NUM_MAIN] >= 20 )
+    {
+      reset_area( pArea, WAR_NUM_MAIN );
+      pArea->lifespan[WAR_NUM_MAIN] = number_range( 0, 3 );
+    }
+  }
+  return;
 }
 
 
@@ -1352,15 +1307,22 @@ void area_update( void )
 /*
  * Reset one area.
  */
-void reset_area( AREA_DATA *pArea )
+void reset_area( AREA_DATA *pArea, unsigned int phase )
 {
   RESET_DATA *pReset;
   CHAR_DATA *mob;
+  OBJ_DATA *last_obj = NULL;
   bool last;
   extern int war_flags;
 
   mob 	= NULL;
   last	= TRUE;
+
+  if ( phase >= NUM_PHASES )
+  {
+    bug( "Reset_area: bad phase %d.", phase );
+    return;
+  }
 
   for ( pReset = pArea->reset_first; pReset != NULL; pReset = pReset->next )
   {
@@ -1370,8 +1332,7 @@ void reset_area( AREA_DATA *pArea )
     OBJ_INDEX_DATA *pObjToIndex;
     EXIT_DATA *pexit;
     OBJ_DATA *obj;
-    OBJ_DATA *obj_to;
-    int nopop = FALSE;
+    int load_chance = 0;
 
     switch ( pReset->command )
     {
@@ -1392,13 +1353,16 @@ void reset_area( AREA_DATA *pArea )
 	  continue;
 	}
 
-	if ( pMobIndex->count >= pReset->arg2 )
-	{
+        if ( pReset->instance[phase] != NULL )
+        {
 	  last = FALSE;
+          mob = NULL;
 	  break;
-	}
+        }
 
-	mob = create_mobile( pMobIndex );
+	mob = create_mobile( pMobIndex, phase );
+        mob->pReset = pReset;
+        pReset->instance[phase] = mob;
 
         check_random_equip( mob );
 
@@ -1419,92 +1383,96 @@ void reset_area( AREA_DATA *pArea )
 	  continue;
 	}
 
+        /* This makes items placed in containers can load if
+         * previously taken. */
+        if ( pReset->instance[phase] != NULL )
+        {
+	  last = TRUE;
+          last_obj = (OBJ_DATA *) pReset->instance[phase];
+	  continue;
+        }
+
         if ( pObjIndex->item_type == ITEM_FOUNTAIN
 	&& !IS_SET(war_flags, WAR_FLAG_FOUNTAINS ) )
 	{
 	  last = FALSE;
-	  break;
+	  continue;
         }
 
         if( pObjIndex->item_type == ITEM_KEY )
 	  pObjIndex->load_percent = 100;
 
-        if (number_percent() > pObjIndex->load_percent
-        && pRoomIndex->vnum != 1 
-        && ( !IS_SET( war_flags, WAR_FLAG_LOADALL )
-             || pObjIndex->item_type == ITEM_DRINK_CON ) )
+        load_chance = pObjIndex->load_percent;
+
+        if ( IS_SET( war_flags, WAR_FLAG_LOADALL )
+          && pObjIndex->item_type != ITEM_DRINK_CON )
+          load_chance = 100;
+
+        if ( pRoomIndex->vnum == 1 )
+          load_chance = 100;
+
+        if (number_percent() > load_chance )
         {
 	  last = FALSE;
-	  break;
+          last_obj = NULL;
+	  continue;
         }
 
-        if ( count_obj_list(pObjIndex, pRoomIndex->contents) > 0 )
-        {
-	  last = FALSE;
-	  break;
-        }
+	obj       = create_object( pObjIndex, phase );
+	obj_to_room( obj, pRoomIndex );
 
-	if (!nopop)
-	{
-	 obj       = create_object( pObjIndex );
-	 obj_to_room( obj, pRoomIndex );
-	}
+        obj->pReset = pReset;
+        pReset->instance[phase] = obj;
+
 	last = TRUE;
+        last_obj = obj;
 	break;
 
       case 'P':
+        if ( pReset->instance[phase] != NULL )
+        {
+	  continue;
+        }
+
 	if ( ( pObjIndex = get_obj_index( pReset->arg1 ) ) == NULL )
 	{
 	  bug( "Reset_area: 'P': bad vnum %d.", pReset->arg1 );
 	  continue;
 	}
 
-	if ( ( pObjToIndex = get_obj_index( pReset->arg3 ) ) == NULL )
+        /* Can't put an item if previous item doesn't exist. */
+        if ( last == FALSE || last_obj == NULL
+          || last_obj->pIndexData->vnum != pReset->arg3 )
+        {
+          continue;
+        }
+
+        if ( pObjIndex->item_type == ITEM_FOUNTAIN
+          && !IS_SET(war_flags, WAR_FLAG_FOUNTAINS ) )
 	{
-	  bug( "Reset_area: 'P': bad vnum %d.", pReset->arg3 );
 	  continue;
-	}
+        }
 
         if( pObjIndex->item_type == ITEM_KEY )
 	  pObjIndex->load_percent = 100;
 
-        if (number_percent() > pObjIndex->load_percent 
-	&& !IS_SET( war_flags, WAR_FLAG_LOADALL ) )
+        load_chance = pObjIndex->load_percent;
+
+        if ( IS_SET( war_flags, WAR_FLAG_LOADALL ) )
+          load_chance = 100;
+
+        if (number_percent() > load_chance )
         {
-	  if( ( pObjIndex->item_type == ITEM_FOUNTAIN
-                && IS_SET(war_flags,WAR_FLAG_FOUNTAINS) )
-	  || ( pObjIndex->item_type == ITEM_KEY
-               && IS_SET(war_flags,WAR_FLAG_CONTINUOUS ) ) )
-	  {
-	    last = FALSE;
-	    nopop = FALSE;
-	  }
-	  else
-	  {
-	    last = TRUE;
-	    nopop = TRUE;
-	  }
+          continue;
         }
 
-/*
-	    if ( pArea->nplayer > 0
-*/
-            if ( 0
-	    || ( obj_to = get_obj_type( pObjToIndex ) ) == NULL
-	    ||   obj_to->in_room == NULL
-	    ||   count_obj_list( pObjIndex, obj_to->contains ) > 0 )
-	    {
-		last = FALSE;
-		break;
-	    }
+        obj = create_object( pObjIndex, phase );
+        obj_to_obj( obj, last_obj );
 
-	if (!nopop)
-	{	    
-	    obj = create_object( pObjIndex );
-	    obj_to_obj( obj, obj_to );
-	}
-	    last = TRUE;
-	    break;
+        obj->pReset = pReset;
+        pReset->instance[phase] = obj;
+
+        break;
 
 	case 'G':
 	case 'E':
@@ -1515,19 +1483,19 @@ void reset_area( AREA_DATA *pArea )
 	    }
 
 	    if ( !last )
-		break;
+		continue;
 
 	    if ( mob == NULL )
 	    {
 		bug( "Reset_area: 'E' or 'G': null mob for vnum %d.",
 		    pReset->arg1 );
 		last = FALSE;
-		break;
+		continue;
 	    }
 
 	    if ( mob->pIndexData->pShop != NULL )
 	    {
-		obj = create_object( pObjIndex );
+		obj = create_object( pObjIndex, phase );
 		if(obj->item_type == ITEM_QUIVER)
 			make_random_quiver(obj);
 		if(obj->item_type == ITEM_TRAP)
@@ -1538,21 +1506,14 @@ void reset_area( AREA_DATA *pArea )
 	    {
 		if (number_percent() > pObjIndex->load_percent
 		&& ( !IS_SET(war_flags, WAR_FLAG_LOADALL )
-                     || pObjIndex->item_type == ITEM_DRINK_CON ) )
-		{
-			last = TRUE;
-			nopop = TRUE;
-		}
+                  || pObjIndex->item_type == ITEM_DRINK_CON ) )
+                  continue;
 
-		if ( !nopop )
-		obj = create_object( pObjIndex );
+		obj = create_object( pObjIndex, phase );
 	    }
-	    if (!nopop)
-	    {
 	    obj_to_char( obj, mob );
 	    if ( pReset->command == 'E' )
 		equip_char( mob, obj, pReset->arg3 );
-	    }
 	    last = TRUE;
 	    break;
 
@@ -1564,23 +1525,23 @@ void reset_area( AREA_DATA *pArea )
 	    }
 
 	    if ( ( pexit = pRoomIndex->exit[pReset->arg2] ) == NULL )
-		break;
+		continue;
 
 	    switch ( pReset->arg3 )
 	    {
 	    case 0:
-		REMOVE_BIT( pexit->exit_info, EX_CLOSED );
-		REMOVE_BIT( pexit->exit_info, EX_LOCKED );
+		REMOVE_BIT( pexit->exit_info[phase], EX_CLOSED );
+		REMOVE_BIT( pexit->exit_info[phase], EX_LOCKED );
 		break;
 
 	    case 1:
-		SET_BIT(    pexit->exit_info, EX_CLOSED );
-		REMOVE_BIT( pexit->exit_info, EX_LOCKED );
+		SET_BIT(    pexit->exit_info[phase], EX_CLOSED );
+		REMOVE_BIT( pexit->exit_info[phase], EX_LOCKED );
 		break;
 
 	    case 2:
-		SET_BIT(    pexit->exit_info, EX_CLOSED );
-		SET_BIT(    pexit->exit_info, EX_LOCKED );
+		SET_BIT(    pexit->exit_info[phase], EX_CLOSED );
+		SET_BIT(    pexit->exit_info[phase], EX_LOCKED );
 		break;
 	    }
 
@@ -1618,7 +1579,7 @@ void reset_area( AREA_DATA *pArea )
 /*
  * Create an instance of a mobile.
  */
-CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
+CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex, unsigned int phase )
 {
     CHAR_DATA *mob;
 
@@ -1640,6 +1601,8 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 
     clear_char( mob );
     mob->pIndexData	= pMobIndex;
+    mob->pReset         = NULL;
+    mob->phase          = phase;
 
     mob->name		= pMobIndex->player_name;
     mob->short_descr	= pMobIndex->short_descr;
@@ -1681,7 +1644,7 @@ CHAR_DATA *create_mobile( MOB_INDEX_DATA *pMobIndex )
 /*
  * Create an instance of an object.
  */
-OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex )
+OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, unsigned int phase )
 {
     static OBJ_DATA obj_zero;
     OBJ_DATA *obj;
@@ -1704,6 +1667,7 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex )
 
     *obj		= obj_zero;
     obj->pIndexData	= pObjIndex;
+    obj->pReset         = NULL;
     obj->in_room	= NULL;
     obj->killer		= NULL;
     obj->wear_loc	= -1;
@@ -1724,6 +1688,8 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex )
 /* and the wear function */
     obj->wear_fun	= pObjIndex->wear_fun;
     obj->special	= pObjIndex->special;
+
+    obj->phase          = phase;
 
     /*
      * Mess with object properties.
@@ -1764,6 +1730,9 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex )
 	break;
 
     case ITEM_WEAPON:
+	break;
+
+    case ITEM_GRENADE:
 	break;
 
     case ITEM_ARMOR:

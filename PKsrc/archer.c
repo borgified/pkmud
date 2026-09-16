@@ -5,6 +5,7 @@
 #include <time.h>
 #include "merc.h"
 #include "bfs.h"
+#include "global.h"
 
 extern sh_int *quiver_colors[28];
 
@@ -115,7 +116,7 @@ bool spec_archer_hunter( CHAR_DATA *mob )
     {
       do_say( mob, "Damn.  Lost my weapon.  Good thing I've got another." );
       act("$n draws a long bow from his pack.", mob, NULL, NULL, TO_ROOM, TRUE );
-      wield = create_object( get_obj_index(1) );  /* long bow */
+      wield = create_object( get_obj_index(1), mob->phase );  /* long bow */
       obj_to_char( wield, mob );
     }
     else
@@ -131,7 +132,7 @@ bool spec_archer_hunter( CHAR_DATA *mob )
   {
     do_say( mob, "Out of arrows, again?" );
     act( "$n quickly makes some arrows.", mob, NULL, NULL, TO_ROOM, TRUE );
-    quiver = create_object( get_obj_index( 4 ) );  /* basic quiver */
+    quiver = create_object( get_obj_index( 4 ), mob->phase );  /* basic quiver */
     obj_to_char( quiver, mob );
     equip_char( mob, quiver, WEAR_WAIST );
     WAIT_STATE( mob, 4 );
@@ -189,9 +190,9 @@ bool spec_archer_hunter( CHAR_DATA *mob )
   && number_bits(2) == 0 )
   {
     do_say( mob, "Shit!  I can't melee!  I'm outta here!" );
-    do_flee( mob, "" );
+    do_flee( mob, str_empty );
     if ( mob->fighting != NULL )
-      do_flee( mob, "" );
+      do_flee( mob, str_empty );
     return FALSE;
   }
 

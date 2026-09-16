@@ -26,6 +26,7 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
+#include "ObjIterator.h"
 
 
 
@@ -163,6 +164,7 @@ const   struct  cmd_type        cmd_table       [] =
     { "lock",           do_lock,        POS_STANDING,    0,  LOG_NORMAL },
     { "open",           do_open,        POS_STANDING,    0,  LOG_NORMAL },
     { "pick",           do_pick,        POS_RESTING,     0,  LOG_NORMAL },
+    { "pull",           do_pull,        POS_RESTING,     0,  LOG_NORMAL },
     { "put",            do_put,         POS_RESTING,     0,  LOG_NORMAL },
     { "quaff",          do_quaff,       POS_RESTING,     0,  LOG_NORMAL },
     { "recite",         do_recite,      POS_RESTING,     0,  LOG_NORMAL },
@@ -229,6 +231,7 @@ const   struct  cmd_type        cmd_table       [] =
     { "ofind",          do_ofind,       POS_DEAD,       30,  LOG_NORMAL },
     { "osearch",        do_osearch,     POS_DEAD,       30,  LOG_NORMAL },
     { "vostat",         do_vostat,      POS_DEAD,       30,  LOG_NORMAL },
+    { "whichway",       do_whichway,    POS_DEAD,       30,  LOG_NORMAL },
 
     /* class stuff */
     { "cdisable",       do_cdisable,	POS_DEAD,       40,  LOG_ALWAYS },
@@ -245,7 +248,6 @@ const   struct  cmd_type        cmd_table       [] =
      */
     { "advance",        do_advance,     POS_DEAD,       40,  LOG_ALWAYS },
     { "trust",          do_trust,       POS_DEAD,       40,  LOG_ALWAYS },
-    { "whichway",       do_whichway,    POS_DEAD,       40,  LOG_ALWAYS },
     { "sicem",          do_sic_mob,     POS_DEAD,       40,  LOG_ALWAYS },
     { "reset",          do_reset,       POS_DEAD,       40,  LOG_NORMAL },
     { "armor",          do_armor,       POS_DEAD,       40,  LOG_NORMAL },
@@ -278,6 +280,7 @@ const   struct  cmd_type        cmd_table       [] =
     { "notell",         do_notell,      POS_DEAD,       38,  LOG_NORMAL },
     { "oload",          do_oload,       POS_DEAD,       30,  LOG_NORMAL },
     { "oset",           do_oset,        POS_DEAD,       39,  LOG_ALWAYS },
+    { "phase",          do_phase,       POS_DEAD,       40,  LOG_NORMAL },
     { "purge",          do_purge,       POS_DEAD,       38,  LOG_NORMAL },
     { "restore",        do_restore,     POS_DEAD,       37,  LOG_ALWAYS },
     { "rset",           do_rset,        POS_DEAD,       38,  LOG_ALWAYS },
@@ -2445,8 +2448,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     bool social;
     bool docommand;
     OBJ_DATA *obj_check;
-    OBJ_DATA *obj_next;
-
+    ObjIterator oiter;
 
     if ( !IS_NPC( ch ) )
       REMOVE_BIT( ch->act, PLR_CMD_SUCCESS );
@@ -2594,10 +2596,9 @@ void interpret( CHAR_DATA *ch, char *argument )
 /* adding object checks, will check obj, then mob, then room */
   if (str_prefix( command, "quit" ) )
   {
-    for ( obj_check = ch->carrying ; obj_check != NULL ; obj_check = obj_next )
+    for ( obj_check = oiter.StartList( ch, ch->carrying );
+          obj_check != NULL; obj_check = oiter.Next( ) )
     {
-	obj_next = obj_check->next_content;
-
 	if (obj_check->special != 0)
 		docommand = (*obj_check->special) ( obj_check, ch, command, argument );
 

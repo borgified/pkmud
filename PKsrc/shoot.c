@@ -297,7 +297,7 @@ CHAR_DATA *search_dir_name( CHAR_DATA *ch, char *argument, int direction, int ra
 	if ( ( search_room = pexit->to_room ) == NULL )
 	    break;
 
-	if ( IS_SET( pexit->exit_info, EX_CLOSED ) )
+	if ( is_door_closed( pexit, ch ) )
 	    break;
 
 	char_from_room( ch );

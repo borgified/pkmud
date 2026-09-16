@@ -26,6 +26,8 @@
 #include <time.h>
 #include "merc.h"
 #include "global.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -562,6 +564,16 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 
 
 
+void char_to_war( CHAR_DATA *ch )
+{
+  phase_char( ch, WAR_NUM_MAIN );
+
+  if ( !IS_NPC( ch ) )
+    ch->pcdata->war_num = WAR_NUM_MAIN;
+}
+
+
+
 /*
  * Give an obj to a char.
  */
@@ -573,7 +585,7 @@ void obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch )
     obj->carried_by	 = ch;
     obj->in_room	 = NULL;
     obj->in_obj		 = NULL;
-    ch->carry_number	+= get_obj_number( obj );
+    ch->carry_number	+= 1;
     ch->carry_weight	+= get_obj_weight( obj );
 }
 
@@ -620,7 +632,7 @@ void obj_from_char( OBJ_DATA *obj )
 
     obj->carried_by	 = NULL;
     obj->next_content	 = NULL;
-    ch->carry_number	-= get_obj_number( obj );
+    ch->carry_number	-= 1;
     ch->carry_weight	-= get_obj_weight( obj );
     return;
 }
@@ -767,26 +779,6 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 
 
 /*
- * Count occurrences of an obj in a list.
- */
-int count_obj_list( OBJ_INDEX_DATA *pObjIndex, OBJ_DATA *list )
-{
-    OBJ_DATA *obj;
-    int nMatch;
-
-    nMatch = 0;
-    for ( obj = list; obj != NULL; obj = obj->next_content )
-    {
-	if ( obj->pIndexData == pObjIndex )
-	    nMatch++;
-    }
-
-    return nMatch;
-}
-
-
-
-/*
  * Move an obj out of a room.
  */
 void obj_from_room( OBJ_DATA *obj, char *caller )
@@ -826,6 +818,12 @@ void obj_from_room( OBJ_DATA *obj, char *caller )
 	}
     }
 
+    if ( obj->pReset != NULL && obj->phase < NUM_PHASES )
+    {
+      obj->pReset->instance[obj->phase] = NULL;
+      obj->pReset = NULL;
+    }
+
     obj->in_room      = NULL;
     obj->next_content = NULL;
     return;
@@ -863,9 +861,6 @@ void obj_to_obj( OBJ_DATA *obj, OBJ_DATA *obj_to )
     {
 	if ( obj_to->carried_by != NULL )
 	{
-/*
-	    obj_to->carried_by->carry_number += get_obj_number( obj );
-*/
 	    obj_to->carried_by->carry_weight += get_obj_weight( obj );
 	}
     }
@@ -912,6 +907,12 @@ void obj_from_obj( OBJ_DATA *obj )
 	}
     }
 
+    if ( obj->pReset != NULL && obj->phase < NUM_PHASES )
+    {
+      obj->pReset->instance[obj->phase] = NULL;
+      obj->pReset = NULL;
+    }
+
     obj->next_content = NULL;
     obj->in_obj       = NULL;
 
@@ -919,9 +920,6 @@ void obj_from_obj( OBJ_DATA *obj )
     {
 	if ( obj_from->carried_by != NULL )
 	{
-/*
-	    obj_from->carried_by->carry_number -= get_obj_number( obj );
-*/
 	    obj_from->carried_by->carry_weight -= get_obj_weight( obj );
 	}
     }
@@ -957,6 +955,8 @@ void extract_obj( OBJ_DATA *obj, char *caller )
     while ( obj->contains )
       extract_obj( obj->contains, "extract obj recurse" );
 
+    if ( obj->pReset != NULL && obj->phase < NUM_PHASES )
+      obj->pReset->instance[obj->phase] = NULL;
 
     if ( object_list == obj )
     {
@@ -1028,6 +1028,8 @@ void extract_char( CHAR_DATA *ch, bool fPull )
     CHAR_DATA *wch;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
+    CharIterator citer;
+    ObjIterator oiter;
 
     if ( ch->in_room == NULL )
     {
@@ -1050,12 +1052,18 @@ void extract_char( CHAR_DATA *ch, bool fPull )
       char_from_room( ch );
 
     if ( IS_NPC(ch) )
+    {
+        if ( ch->pReset != NULL && ch->phase < NUM_PHASES )
+           ch->pReset->instance[ch->phase] = NULL;
+
 	--ch->pIndexData->count;
+    }
 
     if ( ch->desc != NULL && ch->desc->original != NULL )
 	do_return( ch, "" );
 
-    for ( wch = char_list; wch != NULL; wch = wch->next )
+    for ( wch = citer.Start( ch, CharIterator::ALL );
+          wch != NULL; wch = citer.Next() )
     {
 	if ( wch->reply == ch )
 	    wch->reply = NULL;
@@ -1073,7 +1081,8 @@ void extract_char( CHAR_DATA *ch, bool fPull )
 	}
     }
 
-    for ( obj = object_list; obj != NULL; obj = obj->next )
+    for ( obj = oiter.Start( ch, ObjIterator::ALL );
+          obj != NULL; obj = oiter.Next() )
     {
 	if ( obj->killer == ch )
 	    obj->killer = NULL;
@@ -1118,14 +1127,17 @@ CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *rch;
+    CHAR_DATA *npch = NULL;
     int number;
     int count;
+    CharIterator citer;
 
     number = number_argument( argument, arg );
     count  = 0;
     if ( !str_cmp( arg, "self" ) )
 	return ch;
-    for ( rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room )
+    for ( rch = citer.Start( ch, CharIterator::ROOM );
+          rch != NULL; rch = citer.Next() )
     {
 	if ( !can_see( ch, rch ) )
 	    continue;
@@ -1142,18 +1154,30 @@ CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )
 	}
 	else if ( str_prefix( arg, rch->name ) )
 	    continue;
-	if ( ++count == number )
+
+        /* Always match players. */
+        if ( number == 1 && !IS_NPC( rch ) )
+          return rch;
+
+        /* Check all characters before matching NPC */
+	if ( ++count == number ) {
+            if ( IS_NPC( rch ) )
+            {
+              npch = rch;
+              continue;
+            }
 	    return rch;
+        }
     }
 
-    return NULL;
+    return npch;
 }
 
 
 
 
 /*
- * Find a char in the world.
+ * Find a char in the world.  This sees all phases.
  */
 CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )
 {
@@ -1161,13 +1185,44 @@ CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )
     CHAR_DATA *wch;
     int number;
     int count;
+    CharIterator citer;
 
     if ( ( wch = get_char_room( ch, argument ) ) != NULL )
 	return wch;
 
     number = number_argument( argument, arg );
     count  = 0;
-    for ( wch = char_list; wch != NULL ; wch = wch->next )
+    for ( wch = citer.Start( ch, CharIterator::ALL );
+          wch != NULL ; wch = citer.Next() )
+    {
+	if ( !can_see( ch, wch ) || !is_name( arg, wch->name ) )
+	    continue;
+	if ( ++count == number )
+	    return wch;
+    }
+
+    return NULL;
+}
+
+
+/*
+ * Find a char in the player's phase.
+ */
+CHAR_DATA *get_char_phase( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *wch;
+    int number;
+    int count;
+    CharIterator citer;
+
+    if ( ( wch = get_char_room( ch, argument ) ) != NULL )
+	return wch;
+
+    number = number_argument( argument, arg );
+    count  = 0;
+    for ( wch = citer.Start( ch, CharIterator::WORLD );
+          wch != NULL ; wch = citer.Next() )
     {
 	if ( !can_see( ch, wch ) || !is_name( arg, wch->name ) )
 	    continue;
@@ -1181,24 +1236,6 @@ CHAR_DATA *get_char_world( CHAR_DATA *ch, char *argument )
 
 
 /*
- * Find some object with a given index data.
- * Used by area-reset 'P' command.
- */
-OBJ_DATA *get_obj_type( OBJ_INDEX_DATA *pObjIndex )
-{
-    OBJ_DATA *obj;
-
-    for ( obj = object_list; obj != NULL; obj = obj->next )
-    {
-	if ( obj->pIndexData == pObjIndex )
-	    return obj;
-    }
-
-    return NULL;
-}
-
-
-/*
  * Find an obj in a list.
  */
 OBJ_DATA *get_obj_list( CHAR_DATA *ch, char *argument, OBJ_DATA *list )
@@ -1207,10 +1244,12 @@ OBJ_DATA *get_obj_list( CHAR_DATA *ch, char *argument, OBJ_DATA *list )
     OBJ_DATA *obj;
     int number;
     int count;
+    ObjIterator oiter;
 
     number = number_argument( argument, arg );
     count  = 0;
-    for ( obj = list; obj != NULL; obj = obj->next_content )
+    for ( obj = oiter.StartList( ch, list );
+          obj != NULL; obj = oiter.Next( ) )
     {
 	if ( can_see_obj( ch, obj ) && is_name( arg, obj->name ) )
 	{
@@ -1311,13 +1350,15 @@ OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int number;
     int count;
+    ObjIterator oiter;
 
     if ( ( obj = get_obj_here( ch, argument ) ) != NULL )
 	return obj;
 
     number = number_argument( argument, arg );
     count  = 0;
-    for ( obj = object_list; obj != NULL; obj = obj->next )
+    for ( obj = oiter.Start( ch, ObjIterator::WORLD );
+          obj != NULL; obj = obj->next )
     {
 	if ( can_see_obj( ch, obj ) && is_name( arg, obj->name ) )
 	{
@@ -1334,7 +1375,7 @@ OBJ_DATA *get_obj_world( CHAR_DATA *ch, char *argument )
 /*
  * Create a 'money' obj.
  */
-OBJ_DATA *create_money( int amount )
+OBJ_DATA *create_money( int amount, unsigned int phase )
 {
     char buf[MAX_STRING_LENGTH];
     OBJ_DATA *obj;
@@ -1350,11 +1391,11 @@ OBJ_DATA *create_money( int amount )
 
     if ( amount == 1 )
     {
-	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_ONE ) );
+	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_ONE ), phase );
     }
     else
     {
-	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_SOME ) );
+	obj = create_object( get_obj_index( OBJ_VNUM_MONEY_SOME ), phase );
 	sprintf( buf, obj->short_descr, amount );
 	free_string( obj->short_descr );
 	obj->short_descr	= str_dup( buf );
@@ -1362,31 +1403,6 @@ OBJ_DATA *create_money( int amount )
     }
 
     return obj;
-}
-
-
-
-/*
- * Return # of objects which an object counts as.
- * Thanks to Tony Chamberlain for the correct recursive code here.
- */
-int get_obj_number( OBJ_DATA *obj )
-{
-    int number;
-
-/*
-    if ( obj->item_type == ITEM_CONTAINER )
-	number = 0;
-    else
-*/
-	number = 1;
-
-/*
-    for ( obj = obj->contains; obj != NULL; obj = obj->next_content )
-	number += get_obj_number( obj );
-*/
-
-    return number;
 }
 
 
@@ -1428,30 +1444,6 @@ bool room_is_dark( ROOM_INDEX_DATA *pRoomIndex )
 
     return FALSE;
 }
-
-
-
-/*
- * True if room is private.
- */
-bool room_is_private( ROOM_INDEX_DATA *pRoomIndex )
-{
-    CHAR_DATA *rch;
-    int count;
-
-    count = 0;
-    for ( rch = pRoomIndex->people; rch != NULL; rch = rch->next_in_room )
-	count++;
-
-    if ( IS_SET(pRoomIndex->room_flags, ROOM_PRIVATE)  && count >= 2 )
-	return TRUE;
-
-    if ( IS_SET(pRoomIndex->room_flags, ROOM_SOLITARY) && count >= 1 )
-	return TRUE;
-
-    return FALSE;
-}
-
 
 
 /*
@@ -1586,6 +1578,7 @@ char *item_type_name( int item_type, int vnum )
     case ITEM_WAND:		return "wand";
     case ITEM_STAFF:		return "staff";
     case ITEM_WEAPON:		return "weapon";
+    case ITEM_GRENADE:		return "grenade";
     case ITEM_TREASURE:		return "treasure";
     case ITEM_ARMOR:		return "armor";
     case ITEM_POTION:		return "potion";
@@ -1619,6 +1612,8 @@ char *item_type_name( int item_type, int vnum )
  */
 char *affect_loc_name( int location )
 {
+  static char str_unknown[10] = "(unknown)";
+
     switch ( location )
     {
     case APPLY_NONE:		return str_none;
@@ -1660,7 +1655,7 @@ char *affect_loc_name( int location )
     }
 
     bug( "Affect_location_name: unknown location %d.", location );
-    return "(unknown)";
+    return str_unknown;
 }
 
 
@@ -1846,3 +1841,75 @@ int get_equip_points( OBJ_DATA *obj )
 
   return points;
 }
+
+
+/* phase_obj is recursive to avoid complicated logic in contents */
+void phase_obj( OBJ_DATA *obj, unsigned int phase )
+{
+  OBJ_DATA *in_obj;
+
+  if ( phase > NUM_PHASES )
+  {
+    phase = 0;
+  }
+
+  for ( in_obj = obj->contains; in_obj != NULL; in_obj = in_obj->next_content )
+    phase_obj( in_obj, phase );
+
+  obj->phase = phase;
+}
+
+
+void phase_char( CHAR_DATA *ch, unsigned int phase )
+{
+  CHAR_DATA *wch;
+  OBJ_DATA *obj;
+  ObjIterator oiter;
+  CharIterator citer;
+
+  if ( phase > NUM_PHASES )
+  {
+    phase = 0;
+  }
+
+  for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+    phase_obj( obj, phase ); 
+
+  ch->phase = phase;
+
+  /* Do most of extract_char */
+  die_follower( ch );
+
+  stop_fighting( ch, TRUE );
+
+
+  for ( wch = citer.Start( ch, CharIterator::ALL );
+        wch != NULL; wch = citer.Next() )
+  {
+    if ( wch->hunting == ch )
+      wch->hunting = NULL;
+
+    if ( wch->private_war == ch )
+    {
+       send_to_char(
+         "Your private war opponent has left the phase.\n\r", wch );
+       if ( in_private_war( wch ) )
+         remove_from_war( wch );
+       wch->private_war = NULL;
+    }
+  }
+
+  for ( obj = oiter.Start( ch, ObjIterator::ALL );
+        obj != NULL; obj = oiter.Next() )
+  {
+    if ( obj->killer == ch )
+      obj->killer = NULL;
+  }
+
+  ch->phase = phase;
+}
+
+
+
+
+

@@ -27,6 +27,7 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
+#include "CharIterator.h"
 
 
 
@@ -107,6 +108,7 @@ bool spec_scouts_guild( CHAR_DATA *ch, char *command, char *argument )
   CHAR_DATA *victim;
   CHAR_DATA *hch;
   int scout_cost = 200;
+  CharIterator citer;
 
   if ( str_cmp( command, "send" ) )
     return TRUE;
@@ -117,7 +119,7 @@ bool spec_scouts_guild( CHAR_DATA *ch, char *command, char *argument )
     return FALSE;
   }
 
-  victim = get_char_world(  ch, argument );
+  victim = get_char_phase(  ch, argument );
 
   if ( victim == NULL )
   {
@@ -137,7 +139,8 @@ bool spec_scouts_guild( CHAR_DATA *ch, char *command, char *argument )
     return FALSE;
   }
 
-  for ( hch = char_list; hch != NULL; hch = hch->next )
+  for ( hch = citer.Start( victim, CharIterator::ALL );
+        hch != NULL; hch = citer.Next() )
   {
     if ( hch->hunting && hch->hunting == victim )
     {
@@ -154,7 +157,7 @@ bool spec_scouts_guild( CHAR_DATA *ch, char *command, char *argument )
 
   ch->gold -= scout_cost;
 
-  hch = create_mobile( get_mob_index( 15 ) );
+  hch = create_mobile( get_mob_index( 15 ), victim->phase );
 
   hch->hunting = victim;
   hch->max_hit = 300;

@@ -52,6 +52,7 @@
 #include "global.h"
 
 #include "twitterAnnounce.h"
+#include "CharIterator.h"
 
 
 /*
@@ -306,8 +307,6 @@ int		    war_death = 0;
 int		    war_max = 0;   /* max number of players this/last war */
 char		    last_winner[MAX_NAME_LENGTH+1] = "(reboot)";
 bool		    reboot_on = FALSE;
-int		    pulse_point2;
-int		    pulse_area2;
 int		    shutdown_time = -1;
 int		    last_boot_reason = BOOT_CRASH;
 
@@ -437,6 +436,12 @@ int main( int argc, char **argv )
 
 #if defined(unix)
     control = init_socket( port );
+
+    if ( port != 5000 || TWITTER_DISABLE )
+    {
+      log_string( "Port is not 5000, disabling twitter." );
+      twitter.disable();
+    }
 
     boot_db( );
     permanent_bans( );
@@ -627,21 +632,6 @@ void game_loop_unix( int control )
 		if ( !IS_NPC( d->character )
 		&& !IS_SET( d->character->act, PLR_CMD_SUCCESS ) )
 		  continue;
-	    }
-
-	    /* This is a lame place to put the archer stuff, but we
-	     * want to avoid an extra loop every pulse, and we come
-	     * through here once per pulse.
-	     */
-	    if ( d->character != NULL
-		&& (wield = get_eq_char( d->character, WEAR_WIELD ) ) != NULL
-		&& wield->item_type == ITEM_WEAPON
-		&& IS_SET( wield->extra_flags, ITEM_RANGED_WEAPON )
-		&& wield->timer > 0 )
-	    {
-		wield->timer--;
-		if ( wield->timer == 0 )
-		    send_to_char("Your weapon is ready to fire.\n\r", d->character );
 	    }
 
 	    read_from_buffer( d );
@@ -963,7 +953,7 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 	   ch->desc = NULL;
            /* ok, now we want to boot people who are not in the war */
 	   if ( !in_main_war( ch ) )
-		do_quit( ch, "" );
+		do_quit( ch, str_empty );
 	}
 	else
 	{
@@ -1346,6 +1336,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
     int iClass;
 */
     bool fOld;
+ struct tm *time_struct;
+    char timebuf[1024];
     extern void set_class_profile( CHAR_DATA *ch );
     extern void update_last( CHAR_DATA *ch );
 
@@ -1630,8 +1622,10 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	do_help( ch, str_motd );
 	d->connected = CON_READ_MOTD;
 
-        sprintf( log_buf, "New Player %s created at %s.",ch->name,
-                 (char *) ctime( &current_time ));
+        time_struct = localtime( (time_t *) &current_time );
+        strftime( timebuf, 1023, "%c %Z", time_struct );
+
+        sprintf( log_buf, "New Player %s created at %s.",ch->name, timebuf );
         twitter.push( log_buf, 1 );
 	break;
 
@@ -1673,8 +1667,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	    ch->level	= 30;
 	    ch->exp	= 0;
-            ch->hit	= 1;
-            ch->mana	= 1;
+            ch->hit	= ch->max_hit;
+            ch->mana	= ch->max_mana;
 /* to stop multiple plays */
             ch->pcdata->last_war = 1;
 /* everybody starts with one no kills, no deaths and no wins */
@@ -1713,12 +1707,16 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM, FALSE );
 	sprintf( log_buf, "%s@%s has entered the game.",ch->name,ch->desc->host);
+        get_start_eq( ch );
+
 	mudlog(log_buf, ch->level );
 
         if ( ch->level == 30 )
         {
-	  sprintf( log_buf, "%s logged on at %s.",ch->name,
-                   (char *) ctime( &current_time ));
+          time_struct = localtime( (time_t *) &current_time );
+          strftime( timebuf, 1023, "%c %Z", time_struct );
+
+	  sprintf( log_buf, "%s logged on at %s.",ch->name, timebuf );
           twitter.push( log_buf, 0 );
         }
 
@@ -1908,10 +1906,10 @@ void send_to_char( const char *txt, CHAR_DATA *ch )
 void act( const char *format, CHAR_DATA *ch, const void *arg1,
   const void *arg2, int type, bool fAlways )
 {
-    static char * const he_she	[] = { "it",  "he",  "she" };
-    static char * const him_her	[] = { "it",  "him", "her" };
-    static char * const his_her	[] = { "its", "his", "her" };
-    static char * const boy_girl [] = { "thing", "boy", "girl" };
+    static char const he_she  [3][4] = { "it",  "he",  "she" };
+    static char const him_her [3][4] = { "it",  "him", "her" };
+    static char const his_her [3][4] = { "its", "his", "her" };
+    static char const boy_girl[3][6] = { "thing", "boy", "girl" };
 
     char buf[MAX_STRING_LENGTH];
     char fname[MAX_INPUT_LENGTH];
@@ -1922,11 +1920,11 @@ void act( const char *format, CHAR_DATA *ch, const void *arg1,
     const char *str;
     const char *i;
     char *point;
+    CharIterator citer;
 
     if ( format == NULL || format[0] == '\0' )
 	return;
 
-    to = ch->in_room->people;
     if ( type == TO_VICT )
     {
 	if ( vch == NULL )
@@ -1934,10 +1932,14 @@ void act( const char *format, CHAR_DATA *ch, const void *arg1,
 	    bug( "Act: null vch with TO_VICT.", 0 );
 	    return;
 	}
-	to = vch->in_room->people;
     }
-    
-    for ( ; to != NULL; to = to->next_in_room )
+
+    if ( type == TO_VICT )
+      to = citer.Start( vch, CharIterator::ROOM );
+    else    
+      to = citer.Start( ch, CharIterator::ROOM );
+
+    for ( ; to != NULL; to = citer.Next() )
     {
 	if ( to->desc == NULL || !IS_AWAKE(to) )
 	    continue;
@@ -2107,52 +2109,52 @@ void get_start_eq( CHAR_DATA *ch )
   making_corpse = FALSE;
 
 
-  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_HELMET) );
+  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_HELMET), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_BREAST) );
+  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_BREAST), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_LEGGINGS) );
+  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_LEGGINGS), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_BOOTS) );
+  obj = create_object( get_obj_index(OBJ_VNUM_BRONZE_BOOTS), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_GLINTING_RING) );
+  obj = create_object( get_obj_index(OBJ_VNUM_GLINTING_RING), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_GLINTING_RING) );
+  obj = create_object( get_obj_index(OBJ_VNUM_GLINTING_RING), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_PURPLE_CLOAK) );
+  obj = create_object( get_obj_index(OBJ_VNUM_PURPLE_CLOAK), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_PURPLE_CLOAK) );
+  obj = create_object( get_obj_index(OBJ_VNUM_PURPLE_CLOAK), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_SWORDSMANS_GLOVES) );
+  obj = create_object( get_obj_index(OBJ_VNUM_SWORDSMANS_GLOVES), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
 
-  obj = create_object( get_obj_index(OBJ_VNUM_WEAK_LANTERN) );
+  obj = create_object( get_obj_index(OBJ_VNUM_WEAK_LANTERN), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(3051) );
+  obj = create_object( get_obj_index(3051), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 
-  obj = create_object( get_obj_index(OBJ_VNUM_BLACK_DEMON_BLADE) );
+  obj = create_object( get_obj_index(OBJ_VNUM_BLACK_DEMON_BLADE), ch->phase );
   obj->cost = 0;
   obj_to_char( obj, ch );
 

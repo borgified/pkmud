@@ -10,11 +10,11 @@ OUT_FILE = PKexecutable
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o archer.o \
 	  bfs.o cmod.o color.o comm.o const.o db.o \
-	  fight.o handler.o high.o interp.o last.o magic.o \
+	  fight.o grenade.o handler.o high.o interp.o last.o magic.o \
 	  obj_fun.o pkmud.o \
 	  random.o room_fun.o save.o shoot.o skills.o social.o  \
 	  special.o strconst.o update.o wear_fun.o \
-          twitterAnnounce.o
+          twitterAnnounce.o CharIterator.o ObjIterator.o
 
 #	  special.o strconst.o update.o wear_fun.o twitterPort.o
 

@@ -72,6 +72,7 @@ const struct item_type_info  item_type_table   [] =
   { "wand", ITEM_WAND },
   { "staff", ITEM_STAFF },
   { "weapon", ITEM_WEAPON },
+  { "grenade", ITEM_GRENADE },
   { "treasure", ITEM_TREASURE },
   { "armor", ITEM_ARMOR },
   { "potion", ITEM_POTION },
@@ -933,6 +934,23 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
 	"",			"The roots around your feet loosen.",
 	"dull brown",	"dull brown",
 	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
+    },
+
+    {
+	"explosion",
+	spell_null,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
+	&gsn_explosion,		SLOT(0),	15,	12,
+	"ball of flames",		"!Explosion!",
+	"golden",	"golden",
+	"The explosion strikes $N with full force, causing an immediate death!",
+	"The explosion tears through your body resulting in an immediate death!",
+	"The explosion perforates $N's body, causing an immediate death!",
+	"Fragments from the explosion strike $N!",
+	"Fragments from the explosion strike you!!",
+	"Fragments from the explosion strike $N!",
+	"$N jumps out of the way of the explosion.",
+	"You jump out of the way of the explosion.",
+	"$N jumps out of the way of the explosion."
     },
 
     {

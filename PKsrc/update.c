@@ -28,6 +28,8 @@
 #include "global.h"
 
 #include "twitterAnnounce.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 /*
  * Global restore variables.
@@ -174,6 +176,7 @@ void mobile_update( void )
     CHAR_DATA *ch_next;
     EXIT_DATA *pexit;
     int door;
+    ObjIterator oiter;
 
     /* Examine all mobs. */
     for ( ch = char_list; ch != NULL; ch = ch_next )
@@ -205,7 +208,8 @@ void mobile_update( void )
 
 	    max         = 1;
 	    obj_best    = 0;
-	    for ( obj = ch->in_room->contents; obj; obj = obj->next_content )
+            for ( obj = oiter.StartList( ch, ch->in_room->contents );
+                  obj != NULL; obj = oiter.Next() )
 	    {
 		if ( CAN_WEAR(obj, ITEM_TAKE) && obj->cost > max )
 		{
@@ -231,43 +235,12 @@ void mobile_update( void )
 	&& ( door = number_bits( 5 ) ) <= 5
 	&& ( pexit = ch->in_room->exit[door] ) != NULL
 	&&   pexit->to_room != NULL
-	&&   !IS_SET(pexit->exit_info, EX_CLOSED)
+	&&   !is_door_closed( pexit, ch )
 	&&   !IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB)
 	&& ( !IS_SET(ch->act, ACT_STAY_AREA)
 	||   pexit->to_room->area == ch->in_room->area ) )
 	{
 	    move_char( ch, door, FALSE );
-	}
-
-	/* Flee */
-/* this is crap, only wimps should wimp */
-
-	if ( ch->hit < ch->max_hit / 2
-	&& IS_SET(ch->act, ACT_WIMPY)
-/* fix for not leaving combat */
-	&&  ch->fighting == NULL
-	&& ( door = number_bits( 3 ) ) <= 5
-	&& ( pexit = ch->in_room->exit[door] ) != NULL
-	&&   pexit->to_room != NULL
-	&&   !IS_SET(pexit->exit_info, EX_CLOSED)
-	&&   !IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB) )
-	{
-	    CHAR_DATA *rch;
-	    bool found;
-
-	    found = FALSE;
-	    for ( rch  = pexit->to_room->people;
-		  rch != NULL;
-		  rch  = rch->next_in_room )
-	    {
-		if ( !IS_NPC(rch) )
-		{
-		    found = TRUE;
-		    break;
-		}
-	    }
-	    if ( !found )
-		move_char( ch, door, FALSE );
 	}
 
     }
@@ -284,7 +257,8 @@ void terminator_update( void )
   {
     ch_next = ch->next;
 
-    if (!IS_NPC(ch) || !IS_SET( ch->act, ACT_TERMINATOR )
+    if (!IS_NPC(ch)
+    || !IS_SET( ch->act, ACT_TERMINATOR )
     || ch->desc != NULL )
       continue;
 
@@ -293,7 +267,8 @@ void terminator_update( void )
     if ( ch->spec_fun == NULL )
       REMOVE_BIT( ch->act, ACT_TERMINATOR );
 
-    if ( ch->hunting == NULL )
+    /* Disable this for now - we want some mobs to choose */
+    if ( ch->hunting == NULL && 0 )
       continue;
 
     if ( (*ch->spec_fun) ( ch ) )
@@ -456,6 +431,7 @@ void char_update( void )
     CHAR_DATA *ch_save;
     CHAR_DATA *ch_quit;
     time_t save_time;
+    ObjIterator oiter;
 
     save_time	= current_time;
     ch_save	= NULL;
@@ -494,7 +470,6 @@ void char_update( void )
 	{
 	    OBJ_DATA *obj;
 	    OBJ_DATA *obj_check;
-	    OBJ_DATA *obj_next;
 
 	    if ( ( obj = get_eq_char( ch, WEAR_LIGHT ) ) != NULL
 	    &&   obj->item_type == ITEM_LIGHT
@@ -548,11 +523,9 @@ void char_update( void )
 		ch_quit = ch;
 
             /* for regenerating items, or others that activate on ticks */
-	    for (obj_check = ch->carrying;
-            obj_check != NULL; obj_check = obj_next)
+            for ( obj_check = oiter.StartList( ch, ch->carrying );
+                  obj_check != NULL; obj_check = oiter.Next() )
 	    {
-		obj_next = obj_check->next_content;
-
 		if (obj_check->special != NULL)
 		{
 		    (*obj_check->special)
@@ -622,7 +595,7 @@ void char_update( void )
 	    if ( ch == ch_save )
 		save_char_obj( ch );
 	    if ( ch == ch_quit )
-		do_quit( ch, "" );
+		do_quit( ch, str_empty );
 	}
     }
 
@@ -637,22 +610,41 @@ void char_update( void )
  */
 void obj_update( void )
 {   
-    OBJ_DATA *obj;
-    OBJ_DATA *obj_next;
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+  CharIterator citer;
 
-    for ( obj = object_list; obj != NULL; obj = obj_next )
+  for ( obj = object_list; obj != NULL; obj = obj_next )
+  {
+    CHAR_DATA *rch;
+    char *message;
+
+    obj_next = obj->next;
+
+    if ( obj->timer <= 0 )
+      continue;
+
+    /* Handle archery reload only if bow is wielded. */
+    if ( obj->item_type == ITEM_WEAPON
+      && IS_SET( obj->extra_flags, ITEM_RANGED_WEAPON ) )
     {
-	CHAR_DATA *rch;
-	char *message;
+      if ( obj->wear_loc == WEAR_WIELD )
+        obj->timer--;
 
-	obj_next = obj->next;
+      if ( obj->timer == 0 && obj->carried_by != NULL )
+        send_to_char("Your weapon is ready to fire.\n\r", obj->carried_by );
 
-	if ( obj->timer <= 0 || --obj->timer > 0 )
-	    continue;
+      continue;
+    }
 
-	if ( obj->item_type == ITEM_WEAPON
-	    && IS_SET( obj->extra_flags, ITEM_RANGED_WEAPON ) )
-	    continue;
+    if ( --obj->timer > 0 )
+      continue;
+       
+        if ( obj->item_type == ITEM_GRENADE )
+        {
+          explode_grenade( obj );
+          continue;
+        }
 
 	switch ( obj->item_type )
 	{
@@ -667,11 +659,15 @@ void obj_update( void )
 	{
 	    act( message, obj->carried_by, obj, NULL, TO_CHAR, TRUE );
 	}
-	else if ( obj->in_room != NULL
-	&&      ( rch = obj->in_room->people ) != NULL )
+	else if ( obj->in_room != NULL )
 	{
-	    act( message, rch, obj, NULL, TO_ROOM, TRUE );
-	    act( message, rch, obj, NULL, TO_CHAR, TRUE );
+            rch = citer.StartPhase( obj->phase, obj->in_room,
+                  CharIterator::ROOM );
+            if ( rch != NULL )
+            {
+	      act( message, rch, obj, NULL, TO_ROOM, TRUE );
+	      act( message, rch, obj, NULL, TO_CHAR, TRUE );
+            }
 	}
 
 	extract_obj( obj, "obj_update" );
@@ -692,7 +688,7 @@ void obj_update( void )
  * This function takes 25% to 35% of ALL Merc cpu time.
  * Unfortunately, checking on each PC move is too tricky,
  *   because we don't the mob to just attack the first PC
- *   who leads the party into the room.
+ *    who leads the party into the room.
  *
  * -- Furey
  */
@@ -701,29 +697,33 @@ void aggr_update( void )
     CHAR_DATA *wch;
     CHAR_DATA *wch_next;
     CHAR_DATA *ch;
-    CHAR_DATA *ch_next;
     CHAR_DATA *vch;
-    CHAR_DATA *vch_next;
     CHAR_DATA *victim;
     extern int war_status;
+    CharIterator citer;
+    CharIterator viter;
 
 /* however, if the war is not on... */
 
-    if (war_status != WAR_ON)
+    if (war_status != WAR_ON && 0 )
 	return;
 
     for ( wch = char_list; wch != NULL; wch = wch_next )
     {
 	wch_next = wch->next;
+/*
 	if ( !mortal_in_main_war( wch )
 	||   wch->in_room == NULL )
+*/
+        if ( !can_interact( wch )
+           || IS_NPC( wch )
+           || wch->in_room == NULL )
 	    continue;
 
-	for ( ch = wch->in_room->people; ch != NULL; ch = ch_next )
+        for ( ch = citer.Start( wch, CharIterator::ROOM );
+	      ch != NULL; ch = citer.Next() )
 	{
 	    int count;
-
-	    ch_next	= ch->next_in_room;
 
             /* mob has a small chance to attack, but not always... */
             if ( number_bits( 3 ) )
@@ -733,8 +733,6 @@ void aggr_update( void )
 	    ||   !IS_SET(ch->act, ACT_AGGRESSIVE)
 	    ||   ch->fighting != NULL
 	    ||   IS_AFFECTED(ch, AFF_CHARM)
-	    ||   !IS_AWAKE(ch)
-	    ||   ( IS_SET(ch->act, ACT_WIMPY) && IS_AWAKE(wch) )
 	    ||   !can_see( ch, wch ) )
 		continue;
 
@@ -745,12 +743,14 @@ void aggr_update( void )
 	     */
 	    count	= 0;
 	    victim	= NULL;
-	    for ( vch = wch->in_room->people; vch != NULL; vch = vch_next )
+	    for ( vch = viter.Start( wch, CharIterator::ROOM );
+                  vch != NULL; vch = viter.Next() )
 	    {
-		vch_next = vch->next_in_room;
+                if ( IS_NPC( vch ) )
+                  continue;
 
-		if ( mortal_in_main_war( vch )
-		&&   ( !IS_SET(ch->act, ACT_WIMPY) || !IS_AWAKE(vch) )
+		if ( can_interact( vch )
+// ( ch->phase != WAR_NUM_MAIN || mortal_in_main_war( vch ) )
 		&&   can_see( ch, vch ) )
 		{
 		    if ( number_range( 0, count ) == 0 )
@@ -775,49 +775,51 @@ void aggr_update( void )
 
 void echo_update( void )
 {
+  return;
+
     switch( number_bits( 12 ) )
     {
 	case 1:
-	    do_echo( char_list, "That really did HURT!" );
+	    execute_echo( "That really did HURT!" );
 	    break;
 	case 2:
-	    do_echo( char_list, "You sure are BLEEDING!" );
+	    execute_echo( "You sure are BLEEDING!" );
 	    break;
 	case 3:
-	    do_echo( char_list, "Suddenly, Knife stabs you in the back!" );
+	    execute_echo( "Suddenly, Knife stabs you in the back!" );
 	    break;
 	case 4:
-	    do_echo( char_list, "*Click.*" );
+	    execute_echo( "*Click.*" );
 	    break;
 	case 5:
-	    do_echo( char_list, "Self has arrived." );
+	    execute_echo( "Self has arrived." );
 	    break;
 	case 6:
-	    do_echo( char_list, "Reboot by Rip." );
+	    execute_echo( "Reboot by Rip." );
 	    break;
         case 7:
-	    do_echo( char_list, "##SESSION 'pk' DIED." );
+	    execute_echo( "##SESSION 'pk' DIED." );
 	    break;
 	case 8:
-	    do_echo( char_list, "Connection closed by foreign host." );
+	    execute_echo( "Connection closed by foreign host." );
 	    break;
 	case 9:
-	    do_echo( char_list, "Alas, you cannot lift an arm..." );
+	    execute_echo( "Alas, you cannot lift an arm..." );
 	    break;
 	case 10:
-	    do_echo( char_list, "You are dead! R.I.P." );
+	    execute_echo( "You are dead! R.I.P." );
 	    break;
 	case 11:
-	    do_echo( char_list, "You are either not alive or the war hasn't started." );
+	    execute_echo( "You are either not alive or the war hasn't started." );
 	    break;
 	case 12:
-	    do_echo( char_list, "**** The Terminator shall hunt you down! ****" );
+	    execute_echo( "**** The Terminator shall hunt you down! ****" );
 	    break;
 	case 13:
-	    do_echo( char_list, "#GWyrd gossips 'Lag!'#0" );
+	    execute_echo( "#GWyrd gossips 'Lag!'#0" );
             break;
         case 14:
-            do_echo( char_list, "Rizbolin sends you sprawling with a powerful bash." );
+            execute_echo( "Rizbolin sends you sprawling with a powerful bash." );
             break;
         default:
 	    break;
@@ -839,11 +841,6 @@ void update_handler( void )
     static  int     pulse_violence;
     static  int     pulse_point;
 
-    extern  int     pulse_point2;
-    extern  int     pulse_area2;
-
-    pulse_point2 = pulse_point;
-    pulse_area2 = pulse_area;
 
     if ( --pulse_area     <= 0 )
     {
@@ -877,9 +874,10 @@ void update_handler( void )
 	pulse_point	= PULSE_TICK;
 	weather_update	( );
 	char_update	( );
-	obj_update	( );
 	echo_update	( );
     }
+
+    obj_update( );
 
     aggr_update( );
     tail_chain( );
@@ -904,8 +902,10 @@ void war_update( void )
   CHAR_DATA *ch, *ch_next;
   AREA_DATA *pArea;
   extern AREA_DATA *area_first;
-  extern void reset_area( AREA_DATA *pArea );
+  extern void reset_area( AREA_DATA *pArea, unsigned int phase );
   extern void set_class_profile( CHAR_DATA *ch );
+
+  static char str_autoboot[27] = "Automatic post-war reboot.";
 
   if( shutdown_time >= 0 )
   {
@@ -964,13 +964,13 @@ void war_update( void )
     REMOVE_BIT(war_flags, WAR_FLAG_CONTINUOUS	);
     REMOVE_BIT(war_flags, WAR_FLAG_LOADALL		);
     REMOVE_BIT(war_flags, WAR_FLAG_BLOODS		);
-    REMOVE_BIT(war_flags, WAR_FLAG_DOOM		);
     REMOVE_BIT(war_flags, WAR_FLAG_SUMMON		);
     REMOVE_BIT(war_flags, WAR_FLAG_NOREGEN		);
     REMOVE_BIT(war_flags, WAR_FLAG_FOUNTAINS	);
     REMOVE_BIT(war_flags, WAR_FLAG_RANDOMCLASS	);
     REMOVE_BIT(war_flags, WAR_FLAG_NOQUAFF	);
     REMOVE_BIT(war_flags, WAR_FLAG_HEALTHLAG	);
+    REMOVE_BIT(war_flags, WAR_FLAG_NOEXTEND	);
 
 /*
     if(number_percent() < 51)
@@ -1008,7 +1008,7 @@ void war_update( void )
         SET_BIT( pArea->area_flags, AREA_DISABLED );
     }
 
-    reset_mud();
+    reset_mud( WAR_NUM_MAIN );
     set_war_status( WAR_ON );
 
     for (d = descriptor_list ; d != NULL ; d = d->next )
@@ -1036,13 +1036,6 @@ void war_update( void )
       }
     }
 
-    if ( get_room_index( 1 ) != NULL )
-      for (vch = (get_room_index( 1 ))->people;
-        vch != NULL ; vch = vch_next )
-      {
-        vch_next = vch->next_in_room;
-        spell_teleport( 63, 50, vch, vch );
-      }
 
     if( !IS_SET( war_flags, WAR_FLAG_CONTINUOUS ) && war_timer > 20 ) 
       war_timer = 25;
@@ -1065,73 +1058,24 @@ void war_update( void )
       return;
     }
 
-    if( IS_SET( war_flags, WAR_FLAG_DOOM ) )
-      war_death--;
-
     war_total++;
-
-    if( war_death <= 3 && IS_SET(war_flags, WAR_FLAG_DOOM) )
-    {
-      if( war_death == 0 )
-      {
-	do_warmessage( NULL, "Foolish mortals!  Meet the wrath of the gods!" );
-
-        for( vch = char_list; vch != NULL; vch = vch_next)
-	{
-	  vch_next = vch->next;
-
-	  if( IS_NPC(vch) )
-	    continue;
-
-	  if( vch->level > 30 )
-	    break;
-	}
-
-	for( ch = char_list; ch != NULL; ch = ch_next )
-	{
-	  ch_next = ch->next;
-
-	  if( IS_NPC(ch) )
-	    continue;
-
-	  if( ch->level > 30  )
-	  {
-	    send_to_char("You cackle gleefully as you throw down doom bolts!\n\r", ch );
-	    continue;
-	  }
-
-	  if( !mortal_in_main_war( ch ) )
-	  {
-	    send_to_char("You are not in the war and the gods spare you!\n\r", ch );
-	    continue;
-	  }
-
-	  damage( vch, ch, ch->hit/2, 0, 0 );
-	  ch->mana -= ch->mana/2;
-	  if( ch->mana <= 0 )
-	    ch->mana = 1;
-	  send_to_char("A giant doom bolt leaps from the heavens and strikes you down!\n\r", ch );
-
-	}
-	war_death = 10;
-      }
-      else
-      {
-	sprintf(buf,"%d tick%s until the gods wrath is released!",
-	  war_death, war_death == 1 ? "" : "s" );
-	do_warmessage( NULL, buf );
-      }
-    }
 
     if( !IS_SET( war_flags, WAR_FLAG_CONTINUOUS ) ) 
     {
       if( war_timer == 0 ) 
       {
-        if ( count_waiting_players( ) == 0 )
+        if ( count_waiting_players( ) == 0
+        && !IS_SET( war_flags, WAR_FLAG_NOEXTEND ) )
 	{
 	  do_warmessage( NULL,
 	    "No waiting players.  Timer extended 5 minutes." );
 	  war_timer = 5;
+
+          if ( number_percent() < 20 && !IS_SET( war_flags, WAR_FLAG_NOEXTEND ) )
+          {
+	    SET_BIT( war_flags, WAR_FLAG_NOEXTEND );
+	    do_warmessage( NULL, "War extensions have been disabled." );
+          }
 
           if(number_percent() < 35 && !IS_SET( war_flags, WAR_FLAG_NOREGEN ) )
 	  {
@@ -1174,6 +1118,9 @@ void war_update( void )
 
 	  if( IS_NPC(ch) ) 
 	    continue;
+
+          if ( !mortal_in_main_war( ch ) )
+            continue;
 
 	  ch->gold = 0;
 
@@ -1220,7 +1167,7 @@ void war_update( void )
 	  }
 	}
 
-	reset_mud();
+	reset_mud( 0 );
 	do_warmessage( NULL, "Rebirth is completed!" );
 
 	for (vch = char_list ; vch != NULL ; vch = vch_next )
@@ -1264,8 +1211,8 @@ void war_update( void )
     {
 	if( reboot_on == TRUE )
 	{
-	  do_warmessage(NULL, "Auto-rebooting after war..." );
-          append_file( char_list, REBOOT_FILE, "Automatic post-war reboot." );
+	  do_warmessage(NULL, str_autoboot );
+          append_file( char_list, REBOOT_FILE, str_autoboot );
 	  merc_down = TRUE;
 	  return;
 	}
@@ -1274,16 +1221,18 @@ void war_update( void )
   return;
 }
 
-void reset_mud( void )
+void reset_mud( unsigned int phase )
 {
   CHAR_DATA *ch;
-  CHAR_DATA *ch_next;
   extern AREA_DATA *area_first;
   AREA_DATA *pArea;
   OBJ_DATA *obj;
   OBJ_DATA *obj_next;
-  extern void reset_area( AREA_DATA *pArea );
+  static char str_reset_contains[19] = "reset_mud contains";
+  static char str_reset_mud[10] = "reset_mud";
+  extern void reset_area( AREA_DATA *pArea, unsigned int phase );
   extern int making_corpse;
+  CharIterator citer;
 
   making_corpse = TRUE;
   for( obj = object_list; obj != NULL; obj = obj_next )
@@ -1294,17 +1243,17 @@ void reset_mud( void )
     || IS_NPC( obj->carried_by ) )
     {
       while ( obj->contains )
-        extract_obj( obj->contains, "reset_mud contains" );
+        extract_obj( obj->contains, str_reset_contains );
 
       obj_next = obj->next;
-      extract_obj( obj, "reset_mud" );
+      extract_obj( obj, str_reset_mud );
     }
   }
   making_corpse = FALSE;
 
-  for ( ch = char_list; ch != NULL; ch = ch_next )
+  for ( ch = citer.StartPhase( phase, NULL, CharIterator::WORLD );
+        ch != NULL; ch = citer.Next() )
   {
-    ch_next = ch->next;
 
     if ( IS_NPC( ch ) )
       extract_char( ch, TRUE );
@@ -1314,8 +1263,8 @@ void reset_mud( void )
 
   for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
   {
-    reset_area( pArea );
-    pArea->age = 0;
+    reset_area( pArea, phase );
+    pArea->lifespan[phase] = 0;
   }
   return;
 }
@@ -1324,12 +1273,15 @@ void end_war( void )
 {
   extern int war_timer;
   extern int war_status;
+  extern int war_max, war_total;
   char buf[MAX_STRING_LENGTH];
   DESCRIPTOR_DATA *d;
   CHAR_DATA *wch;
-  CHAR_DATA *ch, *ch_next;
   int pc_count = 0;
   int i;
+  static char str_reset_one_tick[17] = "Reset in 1 tick.";
+  static char str_no_one_won[24] = "Strange, no one won....";
+  static char str_doom[45] = "No one stopped the doomsday device!!  BOOM!!";
   int has_blood( CHAR_DATA *ch );
 
   if ( war_status != WAR_ON )
@@ -1366,8 +1318,8 @@ void end_war( void )
       }
     }
 
-    do_warmessage( NULL, "No one stopped the doomsday device!!  BOOM!!" );
-    do_warmessage( NULL, "Reset in 1 tick." );
+    do_warmessage( NULL, str_doom );
+    do_warmessage( NULL, str_reset_one_tick );
     set_war_status( POST_WAR );
     war_timer = 1;
     return;
@@ -1414,10 +1366,14 @@ void end_war( void )
       sprintf( buf, "%s won the war!!!", winner->name );
     sprintf( last_winner, "%s", winner->name );
     do_warmessage( NULL , buf );
-    do_warmessage( NULL , "Reset in 1 tick." );
+    do_warmessage( NULL, str_reset_one_tick );
 
-    sprintf( buf, "%s won the war with %d hps left!",
-             winner->name, winner->hit );
+    sprintf( buf, "%s (%s%s) won the %d plr war in %d ticks! %d hps. %d eqp.",
+             winner->name,
+             IS_SET( winner->act, PLR_RANDOM_CLASS ) ? "r-" : "",
+             class_table[winner->char_class].who_name,
+             war_max, war_total,
+             winner->hit, winner->eq_points );
     twitter.push( buf, 2 );
 
     set_war_status( POST_WAR );
@@ -1427,20 +1383,12 @@ void end_war( void )
 
     if (pc_count == 0)
     {
-	do_warmessage( NULL, "Strange, no one won...." );
-	do_warmessage( NULL, "Reset in 1 tick." );
+	do_warmessage( NULL, str_no_one_won );
+        do_warmessage( NULL, str_reset_one_tick );
 	set_war_status( POST_WAR );
 	war_timer = 1;
 
 	return;
-    }
-
-    for ( ch = char_list; ch != NULL; ch = ch_next )
-    {
-	ch_next = ch->next;
-
-	if ( ch->desc == NULL && get_trust( ch ) < 39 )
-	    do_quit( ch, "" );
     }
 
     return;
@@ -1508,16 +1456,19 @@ int playing_pcs( )
 
 void remove_from_war( CHAR_DATA *ch )
 {
-    if ( IS_NPC( ch ) )
-	return;
+  if ( IS_NPC( ch ) )
+    return;
 
-    ch->pcdata->war_num = WAR_NUM_DEAD;
+  if ( ch->desc == NULL )
+    return;
 
-    if ( ch->desc == NULL )
-	return;
+  while (  ch->desc->snoop_by != NULL )
+    remove_snoop( ch->desc, ch->desc->snoop_by );
 
-    while (  ch->desc->snoop_by != NULL )
-	remove_snoop( ch->desc, ch->desc->snoop_by );
+  phase_char( ch, WAR_NUM_DEAD );
+  ch->pcdata->war_num = WAR_NUM_DEAD;
+
+  REMOVE_BIT( ch->act, PLR_NOPLAY );
 }
 
 void set_war_status( int status )

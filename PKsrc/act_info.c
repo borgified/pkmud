@@ -31,6 +31,8 @@
 #include "merc.h"
 #include "global.h"
 #include "cmod.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -96,7 +98,7 @@ void	show_list_to_char	args( ( OBJ_DATA *list, CHAR_DATA *ch,
 				    bool fShort, bool fShowNothing ) );
 void	show_char_to_char_0	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );
 void	show_char_to_char_1	args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );
-void	show_char_to_char	args( ( CHAR_DATA *list, CHAR_DATA *ch ) );
+void	show_char_to_char	args( ( CHAR_DATA *ch ) );
 bool	check_blind		args( ( CHAR_DATA *ch ) );
 bool	stringsearch		args( ( char *p, char *a ) );
 
@@ -173,6 +175,7 @@ void show_list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNo
     int iShow;
     int count;
     bool fCombine;
+    ObjIterator oiter;
 
     if ( ch->desc == NULL )
 	return;
@@ -181,7 +184,8 @@ void show_list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNo
      * Alloc space for output lines.
      */
     count = 0;
-    for ( obj = list; obj != NULL; obj = obj->next_content )
+    for ( obj = oiter.StartList( ch, list );
+          obj != NULL; obj = oiter.Next( ) )
 	count++;
     prgpstrShow	= (char **) alloc_mem( count * sizeof(char *) );
     prgnShow    = (int *) alloc_mem( count * sizeof(int)    );
@@ -190,7 +194,8 @@ void show_list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNo
     /*
      * Format the list of objects.
      */
-    for ( obj = list; obj != NULL; obj = obj->next_content )
+    for ( obj = oiter.StartList( ch, list );
+          obj != NULL; obj = oiter.Next( ) )
     { 
 	if ( obj->wear_loc == WEAR_NONE && can_see_obj( ch, obj ) )
 	{
@@ -446,7 +451,7 @@ void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch )
     buf[0] = UPPER(buf[0]);
     send_to_char( buf, ch );
 
-  if ( in_main_war( ch ) )
+  if ( can_interact( ch ) )
   {
     found = FALSE;
     for ( iWear = 0; iWear < MAX_WEAR; iWear++ )
@@ -480,30 +485,31 @@ void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch )
 
 
 
-void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )
+void show_char_to_char( CHAR_DATA *ch )
 {
-    CHAR_DATA *rch;
+  CHAR_DATA *rch;
+  CharIterator citer;
 
-    for ( rch = list; rch != NULL; rch = rch->next_in_room )
+  for ( rch = citer.Start( ch, CharIterator::ROOM );
+        rch != NULL; rch = citer.Next() )
+  {
+    if ( rch == ch )
+      continue;
+
+    if ( !IS_NPC(rch)
+    &&   IS_SET(rch->act, PLR_WIZINVIS)
+    &&   get_trust( ch ) < get_trust( rch ) )
+      continue;
+
+    if ( IS_NPC(ch)
+      || can_see( ch, rch )
+      || !mortal_in_main_war( ch ) )
     {
-	if ( rch == ch )
-	    continue;
-
-	if ( !IS_NPC(rch)
-	&&   IS_SET(rch->act, PLR_WIZINVIS)
-	&&   get_trust( ch ) < get_trust( rch ) )
-	    continue;
-
-	if ( IS_NPC(ch)
-	|| can_see( ch, rch )
-	|| !mortal_in_main_war( ch ) )
-	{
-	    show_char_to_char_0( rch, ch );
-	}
-	
+      show_char_to_char_0( rch, ch );
     }
+  }
 
-    return;
+  return;
 } 
 
 
@@ -621,6 +627,8 @@ void do_look( CHAR_DATA *ch, char *argument )
   int door;
   ROOM_INDEX_DATA *was_in_room;
   ROOM_INDEX_DATA *look_far_room;
+  CharIterator citer;
+  ObjIterator oiter;
 
   was_in_room = ch->in_room;
 
@@ -644,18 +652,18 @@ void do_look( CHAR_DATA *ch, char *argument )
 
   if ( !IS_NPC(ch)
   &&   !IS_SET(ch->act, PLR_HOLYLIGHT)
-  &&   mortal_in_main_war( ch )
+  &&   can_interact( ch )
   &&   ch->char_class != CLASS_MONK
   &&   room_is_dark( ch->in_room ) )
   {
     send_to_char( "It is pitch black ...\n\r", ch );
-    show_char_to_char( ch->in_room->people, ch );
+    show_char_to_char( ch );
     return;
   }
 
   if ( ch->in_room->smoke > 0
   && ch->char_class != CLASS_NINJA
-  && mortal_in_main_war( ch )
+  && can_interact( ch )
   && !IS_SET( ch->act, PLR_HOLYLIGHT ) )
   {
     send_to_char( "The room is covered in smoke!\n\r", ch );
@@ -679,7 +687,7 @@ void do_look( CHAR_DATA *ch, char *argument )
       send_to_char( ch->in_room->description, ch );
 
     show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
-    show_char_to_char( ch->in_room->people,   ch );
+    show_char_to_char( ch );
 
     /* track */
     if (IS_NPC(ch) || ch->pcdata->learned[gsn_track] > 5)
@@ -772,7 +780,8 @@ void do_look( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+    for ( obj = oiter.StartList( ch, ch->carrying );
+          obj != NULL; obj = oiter.Next( ) )
     {
 	if ( can_see_obj( ch, obj ) )
 	{
@@ -798,10 +807,11 @@ void do_look( CHAR_DATA *ch, char *argument )
 	}
     }
 
-    for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+    for ( obj = oiter.StartList( ch, ch->in_room->contents );
+          obj != NULL; obj = oiter.Next( ) )
     {
 	if ( can_see_obj( ch, obj )
-	|| !mortal_in_main_war( ch ) )
+	|| !can_interact( ch ) )
 	{
 	    pdesc = get_extra_descr( arg1, obj->extra_descr );
 	    if ( pdesc != NULL )
@@ -854,7 +864,7 @@ void do_look( CHAR_DATA *ch, char *argument )
 	send_to_char("You don't see much off in that direction.\n\r", ch );
 	return;
     }
-	if ( IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( is_door_closed( pexit, ch ) )
 	{
 	    act( "You can't seem to see through the $d.", ch, NULL, pexit->keyword, TO_CHAR, TRUE );
 	    return;
@@ -903,11 +913,11 @@ void do_look( CHAR_DATA *ch, char *argument )
     &&   pexit->keyword[0] != '\0'
     &&   pexit->keyword[0] != ' ' )
     {
-	if ( IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( is_door_closed( pexit, ch ) )
 	{
 	    act( "The $d is closed.", ch, NULL, pexit->keyword, TO_CHAR, TRUE );
 	}
-	else if ( IS_SET(pexit->exit_info, EX_ISDOOR) )
+	else if ( is_door( pexit, ch ) )
 	{
 	    act( "The $d is open.",   ch, NULL, pexit->keyword, TO_CHAR, TRUE );
 	}
@@ -980,7 +990,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
     {
 	if ( ( pexit = ch->in_room->exit[door] ) != NULL
 	&&   pexit->to_room != NULL
-	&&   !IS_SET(pexit->exit_info, EX_CLOSED) )
+	&&   !is_door_closed( pexit, ch ) )
 	{
 	    found = TRUE;
 	    if ( fAuto )
@@ -1039,6 +1049,10 @@ void do_score( CHAR_DATA *ch, char *argument )
 
 	ch->hit,  ch->max_hit,
 	ch->mana, ch->max_mana);
+    send_to_char( buf, ch );
+
+    sprintf( buf, "You are a %s.\n\r",
+         class_table[ch->char_class].class_name );
     send_to_char( buf, ch );
 
  if (!IS_NPC(ch))
@@ -1337,7 +1351,6 @@ void do_who( CHAR_DATA *ch, char *argument )
   extern int war_flags;
   extern int max_restore_hits;
   extern int max_restore_mana;
-  extern int war_death;
 
   extern char *get_host( CHAR_DATA *ch, char *host );
 
@@ -1359,11 +1372,7 @@ void do_who( CHAR_DATA *ch, char *argument )
         war_timer, war_timer == 1 ? "" : "s" );
 
       send_to_char( buf, ch );
-      if ( IS_SET(war_flags,WAR_FLAG_DOOM) )
-      {
-        sprintf( buf, "[Wrath in: %d] ", war_death );
-        send_to_char( buf, ch );
-      }
+
       sprintf(buf,"[Join status: HP:%d%% MANA:%d%%] [War length: %d]\n\r",
         max_restore_hits <= 1           ? 0 : max_restore_hits,
         max_restore_hits <= 1           ? 0 : max_restore_mana,
@@ -1379,13 +1388,13 @@ void do_who( CHAR_DATA *ch, char *argument )
 	IS_SET(war_flags,WAR_FLAG_CONTINUOUS) ? " [Continuous]" : "",
 	IS_SET(war_flags,WAR_FLAG_BLOODS)     ? " [Bloods]" : "",
 	IS_SET(war_flags,WAR_FLAG_LOADALL)    ? " [Loadall]" : "",
-	IS_SET(war_flags,WAR_FLAG_DOOM)       ? " [Wrath]" : "",
 	IS_SET(war_flags,WAR_FLAG_NOREGEN)    ? " [Noregen]" : "",
 	IS_SET(war_flags,WAR_FLAG_SUMMON)     ? " [Summon]" : "",
 	IS_SET(war_flags,WAR_FLAG_FOUNTAINS)  ? " [Fountains]" : "",
 	IS_SET(war_flags,WAR_FLAG_RANDOMCLASS)? " [Randomclass]" : "",
 	IS_SET(war_flags,WAR_FLAG_NOQUAFF)    ? " [Noquaff]" : "",
-	IS_SET(war_flags,WAR_FLAG_HEALTHLAG)  ? " [Healthlag]" : ""
+	IS_SET(war_flags,WAR_FLAG_HEALTHLAG)  ? " [Healthlag]" : "",
+	IS_SET(war_flags,WAR_FLAG_NOEXTEND)   ? " [Noextend]" : ""
 	);
     send_to_char(buf, ch );
 
@@ -1580,6 +1589,7 @@ void do_compare( CHAR_DATA *ch, char *argument )
       = "$p looks better than $P.";
     static char str_worse[24]
       = "$p looks worse than $P.";
+    ObjIterator oiter;
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
@@ -1597,11 +1607,11 @@ void do_compare( CHAR_DATA *ch, char *argument )
 
     if ( arg2[0] == '\0' )
     {
-	for ( obj2 = ch->carrying; obj2 != NULL; obj2 = obj2->next_content )
+        for ( obj2 = oiter.StartList( ch, ch->carrying );
+	      obj2 != NULL; obj2 = oiter.Next( ) )
 	{
 	    if ( obj2->wear_loc != WEAR_NONE
 	    &&   can_see_obj( ch, obj2 )
-            &&   mortal_in_main_war( ch )
 	    &&   obj1->item_type == obj2->item_type
 	    && ( obj1->wear_flags & obj2->wear_flags & ~ITEM_TAKE) != 0 )
 		break;
@@ -1703,6 +1713,7 @@ void do_where( CHAR_DATA *ch, char *argument )
   CHAR_DATA *victim;
   int fFree = FALSE;
   bool found;
+  CharIterator citer;
 
   one_argument( argument, arg );
 
@@ -1724,11 +1735,18 @@ void do_where( CHAR_DATA *ch, char *argument )
     return;
   }
 
-  if ( !in_main_war( ch ) )
+  if ( !in_main_war( ch )
+  && str_cmp( arg, "waldo" )
+  && 0 )
+  {
+    send_to_char( "You must be in a war for character info.\n\r", ch );
     return;
+  }
 
   if ( IS_NPC( ch )
-  || number_percent( ) < ch->pcdata->learned[gsn_free_wheres] )
+  || ch->phase != 1
+  || number_percent( ) < ch->pcdata->learned[gsn_free_wheres]
+  || !str_cmp( arg, "waldo" ) )
     fFree = TRUE;
 
   if ( !IS_NPC(ch) && ch->level < 40
@@ -1748,7 +1766,9 @@ void do_where( CHAR_DATA *ch, char *argument )
     sprintf( buf, "Players in zone %s:\n\r", ch->in_room->area->name );
     send_to_char( buf, ch );
     found = FALSE;
-    for ( victim = char_list; victim; victim = victim->next )
+
+    for ( victim = citer.Start( ch, CharIterator::WORLD );
+          victim != NULL; victim = citer.Next() )
     {
       if ( IS_NPC( victim ) )
       {
@@ -1796,7 +1816,8 @@ void do_where( CHAR_DATA *ch, char *argument )
     }
 
     found = FALSE;
-    for ( victim = char_list; victim != NULL; victim = victim->next )
+    for ( victim = citer.Start(ch, CharIterator::WORLD);
+          victim != NULL; victim = citer.Next() )
     {
       if ( victim->in_room != NULL
       &&   is_name( arg, victim->name )
@@ -2141,6 +2162,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
     {
 	CHAR_DATA *mob;
 	int adept;
+        CharIterator citer;
 
 	if ( !IS_AWAKE(ch) )
 	{
@@ -2148,7 +2170,8 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-	for ( mob = ch->in_room->people; mob != NULL; mob = mob->next_in_room )
+	for ( mob = citer.Start( ch, CharIterator::ROOM );
+              mob != NULL; mob = citer.Next() )
 	{
 	    if ( IS_NPC(mob) && IS_SET(mob->act, ACT_PRACTICE) )
 		break;
@@ -2712,12 +2735,18 @@ void do_noplay( CHAR_DATA *ch, char *argument )
 
   if ( !IS_SET( ch->act, PLR_NOPLAY ) )
   {
-    send_to_char("You will not play in the next war.\n\r", ch );
+    if ( mortal_in_main_war( ch ) )
+      send_to_char("You do not want the current war to be extended.\n\r", ch );
+    else
+      send_to_char("You will not play in the next war.\n\r", ch );
     SET_BIT( ch->act, PLR_NOPLAY );
     return;
   }
 
-  send_to_char("You will play in the next war.\n\r", ch );
+  if ( mortal_in_main_war( ch ) )
+    send_to_char("You want the current war to be extended.\n\r", ch );
+  else
+    send_to_char("You will play in the next war.\n\r", ch );
   REMOVE_BIT( ch->act, PLR_NOPLAY );
   return;
 }
@@ -2902,6 +2931,7 @@ void do_changeclass( CHAR_DATA *ch, char *argument )
 
   send_to_char("Removing your equipment.\n\r", ch );
 
+  /* Remove full list, don't check phase. */
   for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
   {
     if ( obj->wear_loc != WEAR_NONE )
@@ -2933,6 +2963,8 @@ void set_class_profile( CHAR_DATA *ch )
 
     ch->max_hit = class_table[iClass].hits;
     ch->max_mana = class_table[iClass].mana;
+    ch->hit = ch->max_hit;
+    ch->mana = ch->max_mana;
 
     ch->armor = class_table[iClass].base_armor;
 
@@ -3037,7 +3069,7 @@ void do_join_private( CHAR_DATA *ch, char *argument )
       if ( victim->private_war == ch )
       {
         send_to_char(
-	  "Your private war invitation has been rejected.\n\r", ch );
+	  "Your private war invitation has been rejected.\n\r", victim );
         victim->private_war = NULL;
       }
     }
@@ -3198,10 +3230,12 @@ void do_joinwar( CHAR_DATA *ch, char *argument )
 
 
     teleport_char( ch, TRUE );
-    ch->pcdata->war_num = WAR_NUM_MAIN;
+/*    ch->pcdata->war_num = WAR_NUM_MAIN; */
+    char_to_war( ch );
     ch->pcdata->potential_dr += ch->hit;
 
     SET_BIT( ch->act, PLR_CAN_TELEPORT );
+    REMOVE_BIT( ch->act, PLR_NOPLAY );
 
     if( ch->char_class != CLASS_MONK )
     {
@@ -3215,7 +3249,7 @@ void do_joinwar( CHAR_DATA *ch, char *argument )
 	while ( ch->carrying )
 	  extract_obj( ch->carrying, str_joinwar );
 	making_corpse = FALSE;
-	obj = create_object( get_obj_index(3051) );
+	obj = create_object( get_obj_index(3051), ch->phase );
 	obj_to_char( obj, ch );
     }
 

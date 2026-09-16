@@ -26,6 +26,8 @@
 #include "merc.h"
 #include "cmod.h"
 #include "global.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -56,21 +58,23 @@ const	sh_int	movement_loss	[SECT_MAX]	=
  */
 int	find_door	args( ( CHAR_DATA *ch, char *arg ) );
 bool	has_key		args( ( CHAR_DATA *ch, int key ) );
-
+bool    is_door_closed( EXIT_DATA *pexit, CHAR_DATA *ch );
+bool    is_door_locked( EXIT_DATA *pexit, CHAR_DATA *ch );
+bool    is_door( EXIT_DATA *pexit, CHAR_DATA *ch );
 
 
 void move_char( CHAR_DATA *ch, int door, bool fForce )
 {
   CHAR_DATA *fch;
-  CHAR_DATA *fch_next;
   ROOM_INDEX_DATA *in_room;
   ROOM_INDEX_DATA *to_room;
   EXIT_DATA *pexit;
   OBJ_DATA *obj;
-  OBJ_DATA *obj_next;
   AFFECT_DATA *paf;
   INTERACTIVE spec_invis_blocker;
   extern int war_flags;
+  CharIterator citer;
+  ObjIterator oiter;
 
   if ( door < 0 || door > 5 )
   {
@@ -139,7 +143,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
     return;
   }
 
-  if ( IS_SET(pexit->exit_info, EX_CLOSED)
+  if ( is_door_closed( pexit, ch )
   && !IS_AFFECTED(ch, AFF_PASS_DOOR) 
   && in_static_war( ch ) )
   {
@@ -153,12 +157,6 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   &&   fForce == FALSE )
   {
     send_to_char( "What?  And leave your beloved master?\n\r", ch );
-    return;
-  }
-
-  if ( room_is_private( to_room ) )
-  {
-    send_to_char( "That room is private right now.\n\r", ch );
     return;
   }
 
@@ -227,9 +225,9 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
     if ( to_room->smoke > 0 )
       reduce_smoke( ch, 1 );
 
-    for ( obj = to_room->contents; obj != NULL; obj = obj_next )
+    for ( obj = oiter.StartList( ch, to_room->contents );
+          obj != NULL; obj = oiter.Next( ) )
     {
-	obj_next = obj->next_content;
 	if ( obj->special == NULL )
 	    continue;
 
@@ -251,7 +249,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	&& number_percent() > ch->pcdata->learned[gsn_track] )
 		ch->in_room->last_exit_dir = -1;
    
-    do_look( ch, "auto" );
+    do_look( ch, str_auto );
 
     while ( number_percent() < ch->move_lag )
 	ch->wait++;
@@ -273,9 +271,10 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   }
 
   if (fForce == FALSE)
-    for ( fch = in_room->people; fch != NULL; fch = fch_next )
+  {
+    for ( fch = citer.StartPhase( ch->phase, in_room, CharIterator::ROOM );
+          fch != NULL; fch = citer.Next() )
     {
-	fch_next = fch->next_in_room;
 	if ( fch->master == ch && fch->position == POS_STANDING )
 	{
 	    int fFollow = FALSE;
@@ -296,11 +295,11 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	    }
 	}
     }
+  }
 
-  for ( fch = ch->in_room->people; fch != NULL; fch = fch_next )
+  for ( fch = citer.Start( ch, CharIterator::ROOM );
+        fch != NULL; fch = citer.Next() )
   {
-    fch_next = fch->next_in_room;
-
     if( IS_NPC(fch) && fch->interactive != NULL )
     {
       if( fch->interactive == spec_invis_blocker )
@@ -329,6 +328,7 @@ bool can_traverse_water( CHAR_DATA *ch )
 {
   OBJ_DATA *obj;
   bool found;
+  ObjIterator oiter;
 
   if ( IS_AFFECTED( ch, AFF_FLYING ) )
     return TRUE;
@@ -337,7 +337,8 @@ bool can_traverse_water( CHAR_DATA *ch )
    * Look for a boat.
    */
   found = FALSE;
-  for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+  for ( obj = oiter.StartList( ch, ch->carrying );
+        obj != NULL; obj = oiter.Next( ) )
   {
     if ( obj->item_type == ITEM_BOAT )
     {
@@ -459,7 +460,7 @@ int find_door( CHAR_DATA *ch, char *arg )
 	for ( door = 0; door <= 5; door++ )
 	{
 	    if ( ( pexit = ch->in_room->exit[door] ) != NULL
-	    &&   IS_SET(pexit->exit_info, EX_ISDOOR)
+	    &&   is_door( pexit, ch )
 	    &&   pexit->keyword != NULL
 	    &&   is_name( arg, pexit->keyword ) )
 		return door;
@@ -474,7 +475,7 @@ int find_door( CHAR_DATA *ch, char *arg )
 	return -1;
     }
 
-    if ( !IS_SET(pexit->exit_info, EX_ISDOOR) )
+    if ( !is_door( pexit, ch ) )
     {
 	send_to_char( "You can't do that.\n\r", ch );
 	return -1;
@@ -487,11 +488,12 @@ int find_door( CHAR_DATA *ch, char *arg )
 
 void do_open( CHAR_DATA *ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
-    int door;
+  char arg[MAX_INPUT_LENGTH];
+  OBJ_DATA *obj;
+  int door;
+  CharIterator citer;
 
-  if ( !in_main_war( ch )
+  if ( !can_interact( ch )
   && !IS_SET( ch->in_room->area->area_flags, AREA_DISABLED ) )
   {
     send_to_char( "If you are not in the main war, you may only affect doors in disabled zones.\n\r", ch );
@@ -534,12 +536,12 @@ void do_open( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( !is_door_closed( pexit, ch ) )
 	    { send_to_char( "It's already open.\n\r",      ch ); return; }
-	if (  IS_SET(pexit->exit_info, EX_LOCKED) )
+	if ( is_door_locked( pexit, ch ) )
 	    { send_to_char( "It's locked.\n\r",            ch ); return; }
 
-	REMOVE_BIT(pexit->exit_info, EX_CLOSED);
+        open_door( pexit, door, ch );
 	act( "$n opens the $d.", ch, NULL, pexit->keyword, TO_ROOM, TRUE );
 	send_to_char( "Ok.\n\r", ch );
 
@@ -550,9 +552,9 @@ void do_open( CHAR_DATA *ch, char *argument )
 	{
 	    CHAR_DATA *rch;
 
-	    REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
-	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR, TRUE );
+          for ( rch = citer.StartPhase( ch->phase, to_room, CharIterator::ROOM );
+	        rch != NULL; rch = citer.Next() )
+            act( "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR, TRUE );
 	}
     }
 
@@ -563,11 +565,12 @@ void do_open( CHAR_DATA *ch, char *argument )
 
 void do_close( CHAR_DATA *ch, char *argument )
 {
-    char arg[MAX_INPUT_LENGTH];
-    OBJ_DATA *obj;
-    int door;
+  char arg[MAX_INPUT_LENGTH];
+  OBJ_DATA *obj;
+  int door;
+  CharIterator citer;
 
-  if ( !in_main_war( ch )
+  if ( !can_interact( ch )
   && !IS_SET( ch->in_room->area->area_flags, AREA_DISABLED ) )
   {
     send_to_char( "If you are not in the main war, you may only affect doors in disabled zones.\n\r", ch );
@@ -606,7 +609,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 	EXIT_DATA *pexit_rev;
 
 	pexit	= ch->in_room->exit[door];
-	if ( IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( is_door_closed( pexit, ch ) )
 	{
 	    send_to_char( "It's already closed.\n\r",    ch );
 	    check_failed_combat( ch );
@@ -614,7 +617,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-	SET_BIT(pexit->exit_info, EX_CLOSED);
+        close_door( pexit, door, ch );
 	act( "$n closes the $d.", ch, NULL, pexit->keyword, TO_ROOM, TRUE );
 	send_to_char( "Ok.\n\r", ch );
 
@@ -625,9 +628,9 @@ void do_close( CHAR_DATA *ch, char *argument )
 	{
 	    CHAR_DATA *rch;
 
-	    SET_BIT( pexit_rev->exit_info, EX_CLOSED );
-	    for ( rch = to_room->people; rch != NULL; rch = rch->next_in_room )
-		act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR, TRUE );
+          for ( rch = citer.StartPhase( ch->phase, to_room, CharIterator::ROOM );
+	        rch != NULL; rch = citer.Next() )
+          act( "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR, TRUE );
 	}
     }
 
@@ -635,18 +638,113 @@ void do_close( CHAR_DATA *ch, char *argument )
 }
 
 
+bool is_door_closed( EXIT_DATA *pexit, CHAR_DATA *ch )
+{
+  if ( ch->phase >= NUM_PHASES )
+    return TRUE;
+
+  return IS_SET(pexit->exit_info[ch->phase], EX_CLOSED);
+}
+
+bool is_door( EXIT_DATA *pexit, CHAR_DATA *ch )
+{
+  if ( ch->phase >= NUM_PHASES )
+    return TRUE;
+
+  return IS_SET(pexit->exit_info[ch->phase], EX_ISDOOR);
+}
+
+bool is_door_locked( EXIT_DATA *pexit, CHAR_DATA *ch )
+{
+  if ( ch->phase >= NUM_PHASES )
+    return FALSE;
+
+  return IS_SET(pexit->exit_info[ch->phase], EX_LOCKED);
+}
+
+void close_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch )
+{
+  ROOM_INDEX_DATA *to_room;
+  EXIT_DATA *pexit_rev;
+
+  if ( ch->phase >= NUM_PHASES )
+    return;
+
+  SET_BIT(pexit->exit_info[ch->phase], EX_CLOSED);
+
+  /* open the other side */
+  if ( ( to_room   = pexit->to_room               ) != NULL
+  &&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+  &&   pexit_rev->to_room == ch->in_room )
+    SET_BIT( pexit_rev->exit_info[ch->phase], EX_CLOSED );
+}
+
+void open_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch )
+{
+  ROOM_INDEX_DATA *to_room;
+  EXIT_DATA *pexit_rev;
+
+  if ( ch->phase >= NUM_PHASES )
+    return;
+
+  REMOVE_BIT(pexit->exit_info[ch->phase], EX_CLOSED);
+
+  /* open the other side */
+  if ( ( to_room   = pexit->to_room               ) != NULL
+  &&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+  &&   pexit_rev->to_room == ch->in_room )
+    REMOVE_BIT( pexit_rev->exit_info[ch->phase], EX_CLOSED );
+}
+
+void lock_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch )
+{
+  ROOM_INDEX_DATA *to_room;
+  EXIT_DATA *pexit_rev;
+
+  if ( ch->phase >= NUM_PHASES )
+    return;
+
+  SET_BIT(pexit->exit_info[ch->phase], EX_LOCKED);
+
+  /* open the other side */
+  if ( ( to_room   = pexit->to_room               ) != NULL
+  &&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+  &&   pexit_rev->to_room == ch->in_room )
+    SET_BIT( pexit_rev->exit_info[ch->phase], EX_LOCKED );
+}
+
+void unlock_door( EXIT_DATA *pexit, unsigned int door, CHAR_DATA *ch )
+{
+  ROOM_INDEX_DATA *to_room;
+  EXIT_DATA *pexit_rev;
+
+  if ( ch->phase >= NUM_PHASES )
+    return;
+
+  REMOVE_BIT(pexit->exit_info[ch->phase], EX_LOCKED);
+
+  /* open the other side */
+  if ( ( to_room   = pexit->to_room               ) != NULL
+  &&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
+  &&   pexit_rev->to_room == ch->in_room )
+    REMOVE_BIT( pexit_rev->exit_info[ch->phase], EX_LOCKED );
+}
+
+
 
 bool has_key( CHAR_DATA *ch, int key )
 {
-    OBJ_DATA *obj;
+  OBJ_DATA *obj;
+  ObjIterator oiter;
 
-    for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
-    {
-	if ( obj->pIndexData->vnum == key )
-	    return TRUE;
-    }
+  for ( obj = oiter.StartList( ch, ch->carrying );
+        obj != NULL; obj = oiter.Next( ) )
+  {
+    if ( obj->pIndexData->vnum == key )
+      return TRUE;
+  }
 
-    return FALSE;
+  return FALSE;
 }
 
 
@@ -657,7 +755,7 @@ void do_lock( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int door;
 
-  if ( !in_main_war( ch )
+  if ( !can_interact( ch )
   && !IS_SET( ch->in_room->area->area_flags, AREA_DISABLED ) )
   {
     send_to_char( "If you are not in the main war, you may only affect doors in disabled zones.\n\r", ch );
@@ -693,37 +791,26 @@ void do_lock( CHAR_DATA *ch, char *argument )
 
     if ( ( door = find_door( ch, arg ) ) >= 0 )
     {
-	/* 'lock door' */
-	ROOM_INDEX_DATA *to_room;
 	EXIT_DATA *pexit;
-	EXIT_DATA *pexit_rev;
 
 	pexit	= ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( !is_door_closed( pexit, ch ) )
 	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
 	if ( pexit->key < 0 )
 	    { send_to_char( "It can't be locked.\n\r",     ch ); return; }
 	if ( !has_key( ch, pexit->key) )
 	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
-	if ( IS_SET(pexit->exit_info, EX_LOCKED) )
+	if ( is_door_locked( pexit, ch ) )
 	{
           send_to_char( "It's already locked.\n\r",    ch );
           check_failed_combat( ch );
-          WAIT_STATE( ch, 2 );
+          WAIT_STATE( ch, skill_table[gsn_pick_lock].beats + 8 );
           return;
         }
 
-	SET_BIT(pexit->exit_info, EX_LOCKED);
+        lock_door( pexit, door, ch );
 	send_to_char( "*Click*\n\r", ch );
 	act( "$n locks the $d.", ch, NULL, pexit->keyword, TO_ROOM, TRUE );
-
-	/* lock the other side */
-	if ( ( to_room   = pexit->to_room               ) != NULL
-	&&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != 0
-	&&   pexit_rev->to_room == ch->in_room )
-	{
-	    SET_BIT( pexit_rev->exit_info, EX_LOCKED );
-	}
     }
 
     return;
@@ -737,7 +824,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int door;
 
-  if ( !in_main_war( ch )
+  if ( !can_interact( ch )
   && !IS_SET( ch->in_room->area->area_flags, AREA_DISABLED ) )
   {
     send_to_char( "If you are not in the main war, you may only affect doors in disabled zones.\n\r", ch );
@@ -774,32 +861,21 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 
     if ( ( door = find_door( ch, arg ) ) >= 0 )
     {
-	/* 'unlock door' */
-	ROOM_INDEX_DATA *to_room;
 	EXIT_DATA *pexit;
-	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( !is_door_closed( pexit, ch ) )
 	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
 	if ( pexit->key < 0 )
 	    { send_to_char( "It can't be unlocked.\n\r",   ch ); return; }
 	if ( !has_key( ch, pexit->key) )
 	    { send_to_char( "You lack the key.\n\r",       ch ); return; }
-	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
+	if ( !is_door_locked( pexit, ch ) )
 	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
 
-	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
+        unlock_door( pexit, door, ch );
 	send_to_char( "*Click*\n\r", ch );
 	act( "$n unlocks the $d.", ch, NULL, pexit->keyword, TO_ROOM, TRUE );
-
-	/* unlock the other side */
-	if ( ( to_room   = pexit->to_room               ) != NULL
-	&&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
-	&&   pexit_rev->to_room == ch->in_room )
-	{
-	    REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
-	}
     }
 
     return;
@@ -812,8 +888,10 @@ void do_pick( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     int door;
+    int skill;
+    extern int war_total;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("You aren't in the war.\n\r", ch );
 	return;
@@ -829,7 +907,11 @@ void do_pick( CHAR_DATA *ch, char *argument )
 
     WAIT_STATE( ch, skill_table[gsn_pick_lock].beats );
 
-    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_pick_lock] )
+    skill = ch->pcdata->learned[gsn_pick_lock];
+    if ( !IS_NPC( ch ) && mortal_in_main_war( ch ) && war_total > 10 )
+      skill += war_total - 5;
+
+    if ( !IS_NPC(ch) && number_percent( ) > skill )
     {
 	send_to_char( "You failed.\n\r", ch);
 	return;
@@ -861,16 +943,14 @@ void do_pick( CHAR_DATA *ch, char *argument )
     if ( ( door = find_door( ch, arg ) ) >= 0 )
     {
 	/* 'pick door' */
-	ROOM_INDEX_DATA *to_room;
 	EXIT_DATA *pexit;
-	EXIT_DATA *pexit_rev;
 
 	pexit = ch->in_room->exit[door];
-	if ( !IS_SET(pexit->exit_info, EX_CLOSED) )
+	if ( !is_door_closed( pexit, ch ) )
 	    { send_to_char( "It's not closed.\n\r",        ch ); return; }
 	if ( pexit->key < 0 )
 	    { send_to_char( "It can't be picked.\n\r",     ch ); return; }
-	if ( !IS_SET(pexit->exit_info, EX_LOCKED) )
+	if ( !is_door_locked( pexit, ch ) )
 	    { send_to_char( "It's already unlocked.\n\r",  ch ); return; }
 /* removing pick proof */
 /*
@@ -878,17 +958,9 @@ void do_pick( CHAR_DATA *ch, char *argument )
 	    { send_to_char( "You failed.\n\r",             ch ); return; }
 */
 
-	REMOVE_BIT(pexit->exit_info, EX_LOCKED);
+        unlock_door( pexit, door, ch );
 	send_to_char( "*Click*\n\r", ch );
 	act( "$n picks the $d.", ch, NULL, pexit->keyword, TO_ROOM, TRUE );
-
-	/* pick the other side */
-	if ( ( to_room   = pexit->to_room               ) != NULL
-	&&   ( pexit_rev = to_room->exit[rev_dir[door]] ) != NULL
-	&&   pexit_rev->to_room == ch->in_room )
-	{
-	    REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
-	}
     }
 
     return;
@@ -1022,7 +1094,7 @@ void do_wake( CHAR_DATA *ch, char *argument )
     if ( IS_AFFECTED(victim, AFF_SLEEP) )
 	{ act( "You can't wake $M!",   ch, NULL, victim, TO_CHAR, TRUE );  return; }
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("You are't in the war.\n\r", ch );
 	return;
@@ -1043,7 +1115,7 @@ void do_snare( CHAR_DATA *ch, char *argument )
     if ( IS_NPC( ch ) )
 	return;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("You aren't in the war.\n\r", ch );
 	return;
@@ -1075,7 +1147,7 @@ void do_snare( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    obj = create_object( get_obj_index( 41 ) );
+    obj = create_object( get_obj_index( 41 ), ch->phase );
     obj_to_room( obj, ch->in_room );
 
     send_to_char("You set a snare.\n\r", ch );
@@ -1198,7 +1270,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
     char_from_room( ch );
     char_to_room( ch, location );
     act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM, TRUE );
-    do_look( ch, "auto" );
+    do_look( ch, str_auto );
 
     return;
 }
@@ -1251,12 +1323,6 @@ void teleport_char( CHAR_DATA *ch, bool fWar )
     if ( pRoomIndex == NULL )
       continue;
 
-    if ( IS_SET( pRoomIndex->room_flags, ROOM_PRIVATE ) )
-      continue;
-
-    if ( IS_SET( pRoomIndex->room_flags, ROOM_SOLITARY ) )
-      continue;
-
     if ( !fWar )
       break;
 
@@ -1279,7 +1345,7 @@ void teleport_char( CHAR_DATA *ch, bool fWar )
   {
     if( ( pexit = ch->in_room->exit[iRoom] ) != NULL 
     &&    pexit->to_room != NULL 
-    &&    !IS_SET(pexit->exit_info, EX_CLOSED) )
+    &&    !is_door_closed( pexit, ch ) )
       found = TRUE;
   }
 
@@ -1289,7 +1355,7 @@ void teleport_char( CHAR_DATA *ch, bool fWar )
     return;
   }
 
-  do_look( ch, "auto" );
+  do_look( ch, str_auto );
   return;
 }
 
@@ -1297,18 +1363,18 @@ void do_scatter( CHAR_DATA *ch, char *argument )
 {
     ROOM_INDEX_DATA *pRoomIndex;
     OBJ_DATA *obj;
-    OBJ_DATA *obj_next;
     char buf[MAX_STRING_LENGTH];
     char arg[MAX_STRING_LENGTH];
+    static char str_scatter[11] = "do_scatter";
+    ObjIterator oiter;
 
     argument = one_argument( argument, arg );
 
     if( arg[0] == '\0' )
     {
-	for( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+        for ( obj = oiter.StartList( ch, ch->in_room->contents );
+              obj != NULL; obj = oiter.Next( ) )
 	{
-	    obj_next = obj->next_content;
-	
 	    if( !CAN_WEAR(obj, ITEM_TAKE) )
 		continue;
 
@@ -1317,15 +1383,13 @@ void do_scatter( CHAR_DATA *ch, char *argument )
 		pRoomIndex = get_room_index( number_range( 0, 65535 ) );
 	
 		if ( pRoomIndex != NULL )
-		    if ( !IS_SET( pRoomIndex->room_flags, ROOM_PRIVATE )
-		    &&   !IS_SET( pRoomIndex->room_flags, ROOM_NO_START )
-		    &&   !IS_SET( pRoomIndex->room_flags, ROOM_SOLITARY ))
+		    if ( !IS_SET( pRoomIndex->room_flags, ROOM_NO_START ) )
 		    {
-			obj_from_room( obj, "do_scatter" );
+			obj_from_room( obj, str_scatter );
 			obj_to_room( obj, pRoomIndex );
 			sprintf(buf,"%s is now at %s.\n\r",obj->short_descr, pRoomIndex->name );
 			send_to_char(buf, ch );
-			act("$p falls down from the heavens.",ch,obj,NULL,TO_ROOM, TRUE );
+			act("$p falls down from the sky.",ch,obj,NULL,TO_ROOM, TRUE );
 			break;
 		    }
 	    }

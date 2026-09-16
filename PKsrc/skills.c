@@ -21,13 +21,19 @@ void do_whichway( CHAR_DATA *ch, char *argument )
 
   one_argument( argument, arg );
 
+  if ( mortal_in_main_war( ch ) )
+  {
+   send_to_char("You can only use whichway out of war.\n\r", ch );
+   return;
+  }
+
   if (arg[0] == '\0')
   {
    send_to_char("Which way to WHAT?\n\r", ch );
    return;
   }
 
-  if ( (victim = get_char_world( ch, arg ) ) == NULL )
+  if ( (victim = get_char_phase( ch, arg ) ) == NULL )
   {
     send_to_char("No such victim!\n\r", ch );
     return;
@@ -95,7 +101,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
 	if( !str_prefix(arg1, "terminator") )
 	{
-		mob = create_mobile( get_mob_index( 10 ) );
+		mob = create_mobile( get_mob_index( 10 ), victim->phase );
 
 		mob->hunting = victim;
 		mob->max_hit = 600;
@@ -104,11 +110,11 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 		mob->gold = 1000;
 		mob->char_class = CLASS_WARRIOR;
 	
-		obj = create_object( get_obj_index(50) );
+		obj = create_object( get_obj_index(50), mob->phase );
 		obj_to_char( obj, mob );
 		equip_char( mob, obj, WEAR_WIELD );
 	
-		obj = create_object( get_obj_index(3620) );
+		obj = create_object( get_obj_index(3620), mob->phase );
 		obj_to_char( obj, mob );
 		equip_char( mob, obj, WEAR_SHIELD );
 	
@@ -125,7 +131,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "droid" ) )
     {
-	mob = create_mobile( get_mob_index( 11 ) );
+	mob = create_mobile( get_mob_index( 11 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 300;
@@ -134,13 +140,13 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 	mob->gold = 100;
 	mob->char_class = CLASS_WARRIOR;
 	
-	obj = create_object( get_obj_index(50) );
+	obj = create_object( get_obj_index(50), mob->phase );
 	/* make it 4d8 for the baby, not 8d8 */
 	obj->value[1] = 4;
 	obj_to_char( obj, mob );
 	equip_char( mob, obj, WEAR_WIELD );
 	
-	obj = create_object( get_obj_index(3620) );
+	obj = create_object( get_obj_index(3620), mob->phase );
 	obj_to_char( obj, mob );
 	equip_char( mob, obj, WEAR_SHIELD );
 	
@@ -155,7 +161,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "thief" ) )
     {
-	mob = create_mobile( get_mob_index( 13 ) );
+	mob = create_mobile( get_mob_index( 13 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 280;
@@ -164,7 +170,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 	mob->gold = 100;
 	mob->char_class = CLASS_THIEF;
 	
-	obj = create_object( get_obj_index(4053) );  /* thieve's dirk */
+	obj = create_object( get_obj_index(4053), mob->phase );  /* thieve's dirk */
 	obj_to_char( obj, mob );
 	equip_char( mob, obj, WEAR_WIELD );
 	
@@ -179,7 +185,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "assassin" ) )
     {
-	mob = create_mobile( get_mob_index( 14 ) );
+	mob = create_mobile( get_mob_index( 14 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 150;
@@ -188,7 +194,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 	mob->gold = 100;
 	mob->char_class = CLASS_ASSASSIN;
 	
-	obj = create_object( get_obj_index(9008) );  /* thieve's dirk */
+	obj = create_object( get_obj_index(9008), mob->phase );  /* thieve's dirk */
 	obj_to_char( obj, mob );
 	equip_char( mob, obj, WEAR_WIELD );
 	
@@ -203,7 +209,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "archer" ) )
     {
-	mob = create_mobile( get_mob_index( 17 ) );
+	mob = create_mobile( get_mob_index( 17 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 200;
@@ -222,7 +228,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "dog" ) )
     {
-	mob = create_mobile( get_mob_index( 12 ) );
+	mob = create_mobile( get_mob_index( 12 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 300;
@@ -241,7 +247,7 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
     if ( !str_prefix( arg1, "scout" ) )
     {
-	mob = create_mobile( get_mob_index( 15 ) );
+	mob = create_mobile( get_mob_index( 15 ), victim->phase );
 
 	mob->hunting = victim;
 	mob->max_hit = 300;
@@ -263,17 +269,17 @@ void do_sic_mob( CHAR_DATA *ch, char *argument )
 
 	if( !str_prefix(arg1,"hunter") )
 	{
-		mob = create_mobile(get_mob_index(8));
+		mob = create_mobile(get_mob_index(8), victim->phase);
 
 		mob->max_hit	= 50;
 		mob->hit	= 50;
 		mob->level	= 15;
 
-		obj = create_object(get_obj_index(1));
+		obj = create_object(get_obj_index(1), mob->phase);
 		obj_to_char(obj,mob);
 		equip_char(mob,obj,WEAR_WIELD);
 
-		obj = create_object(get_obj_index(4));
+		obj = create_object(get_obj_index(4), mob->phase);
 		make_random_quiver(obj);
 		obj_to_char(obj,mob);
 		equip_char(mob,obj,WEAR_WAIST);
@@ -295,7 +301,7 @@ void assign_zombie( CHAR_DATA *victim )
 {
   CHAR_DATA *mob;
 
-  mob = create_mobile(get_mob_index(18));
+  mob = create_mobile(get_mob_index(18), victim->phase);
 
   mob->hunting = victim;
   mob->max_hit = 30;

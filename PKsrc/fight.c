@@ -28,6 +28,7 @@
 #include "merc.h"
 #include "cmod.h"
 #include "global.h"
+#include "ObjIterator.h"
 
 
 /*
@@ -477,15 +478,10 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int resist )
 	}
 	}
 
-	if (dt != 0)
-	dam_message( ch, victim, dam, dt );
     }
 
-    if( !IS_NPC(ch) && !IS_NPC(victim) )
-    {
-	if( IS_SET(war_flags, WAR_FLAG_DOOM ) )
-		war_death = 10;
-    }
+    if (dt != 0)
+      dam_message( ch, victim, dam, dt );
 
 
     /*
@@ -588,6 +584,8 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int resist )
    */
   if ( victim->position == POS_DEAD )
   {
+    victim->fighting = NULL;
+
     if ( in_main_war( victim )
     && ( !IS_NPC(victim)
        || ( victim->pIndexData != NULL
@@ -856,7 +854,7 @@ void make_corpse( CHAR_DATA *ch )
 
     making_corpse = TRUE;
 
-    if ( !in_main_war( ch ) )
+    if ( !in_main_war( ch ) && 0 )
     {
       while ( ch->carrying != NULL )
         extract_obj( ch->carrying, "make_corpse" );
@@ -868,21 +866,21 @@ void make_corpse( CHAR_DATA *ch )
     if ( IS_NPC(ch) )
     {
 	name		= ch->short_descr;
-	corpse		= create_object(get_obj_index(OBJ_VNUM_CORPSE_NPC) );
-	corpse->timer	= number_range( 2, 4 );
+	corpse		= create_object(get_obj_index(OBJ_VNUM_CORPSE_NPC), ch->phase );
+	corpse->timer	= number_range( 2, 4 ) * PULSE_TICK;
 	if ( ch->gold > 0 )
 	{
-	    obj_to_obj( create_money( ch->gold ), corpse );
+	    obj_to_obj( create_money( ch->gold, ch->phase ), corpse );
 	    ch->gold = 0;
 	}
     }
     else
     {
 	name		= ch->name;
-	corpse		= create_object(get_obj_index(OBJ_VNUM_CORPSE_PC) );
-	corpse->timer	= number_range( 25, 40 );
+	corpse		= create_object(get_obj_index(OBJ_VNUM_CORPSE_PC), ch->phase );
+	corpse->timer	= number_range( 25, 40 ) * PULSE_TICK;
 	if ( ch->gold > 0 )
-	    obj_to_obj( create_money( ch->gold ), corpse );
+	    obj_to_obj( create_money( ch->gold, ch->phase ), corpse );
         ch->gold = 0;
     }
 
@@ -894,6 +892,8 @@ void make_corpse( CHAR_DATA *ch )
     free_string( corpse->description );
     corpse->description = str_dup( buf );
 
+    /* Leaving this touching next_content in case some objects
+     * are in the wrong phase. */
     for ( obj = ch->carrying; obj != NULL; obj = obj_next )
     {
 	obj_next = obj->next_content;
@@ -957,9 +957,9 @@ void death_cry( CHAR_DATA *ch )
 	char *name;
 
 	name		= IS_NPC(ch) ? ch->short_descr : ch->name;
-	obj		= create_object( get_obj_index( vnum ) );
+	obj		= create_object( get_obj_index( vnum ), ch->phase );
         if (vnum != 23)
-		obj->timer	= number_range( 4, 7 );
+		obj->timer	= number_range( 4, 7 ) * PULSE_TICK;
 
 	sprintf( buf, obj->short_descr, name );
 	free_string( obj->short_descr );
@@ -1035,7 +1035,6 @@ void raw_kill( CHAR_DATA *victim )
     }
 
     remove_from_war( victim );
-    victim->pcdata->war_num = WAR_NUM_DEAD;
   }
 
 /* check to make sure there are players left to kill */
@@ -1507,7 +1506,8 @@ void do_kill( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
 
-    if ( !in_a_war( ch ) )
+//    if ( !in_a_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("Alas, you cannot lift an arm...\n\r", ch );
 	return;
@@ -1579,7 +1579,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int percent;
 
-    if ( !in_a_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("Alas, you cannot lift an arm...\n\r", ch );
 	return;
@@ -1651,7 +1651,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
     WAIT_STATE( ch, skill_table[gsn_backstab].beats );
 
     if ( IS_NPC( ch ) )
-	percent = UMIN( ch->level * 3 + 10, 90 );
+	percent = UMIN( ch->level * 3 + 10, 95 );
     else
 	percent = ch->pcdata->learned[gsn_backstab];
 
@@ -1690,7 +1690,7 @@ void do_flee( CHAR_DATA *ch, char *argument )
 	door = number_door( );
 	if ( ( pexit = was_in->exit[door] ) == 0
 	||   pexit->to_room == NULL
-	|| ( IS_SET(pexit->exit_info, EX_CLOSED)
+	|| ( is_door_closed( pexit, ch )
 	  && !IS_AFFECTED( ch, AFF_PASS_DOOR ) )
 	|| ( IS_NPC(ch)
 	&&   IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB) ) )
@@ -1721,7 +1721,7 @@ void do_rescue( CHAR_DATA *ch, char *argument )
     CHAR_DATA *fch;
 
 /* don't let em do it if not alive */
-    if ( !in_a_war( ch ) )
+    if ( !can_interact( ch ) )
     {
         send_to_char( "Either there is no war on or you are dead already!\n\r", ch);
         return;
@@ -1793,6 +1793,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
     OBJ_DATA *wear;
     int i = 0, iWear = 0;
+    static char str_kick[8] = "do_kick";
 
     if ( IS_AFFECTED( ch, AFF_CHARM ) )
     {
@@ -1823,7 +1824,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
 
 			act("$n crushes $p to useless scrap!", ch, wear, victim, TO_ROOM, TRUE );
 			act("You crush $p to useless scrap!", ch, wear, victim, TO_CHAR, TRUE );
-			extract_obj( wear, "do_kick" );
+			extract_obj( wear, str_kick );
 			break;
 		}
 		return;
@@ -1841,6 +1842,8 @@ void do_caltrops( CHAR_DATA *ch, char *argument )
   bool bFound = FALSE;
   OBJECT_FUN spec_caltrops;
   int iCaltrops;
+  static char str_caltrops[12] = "do_caltrops";
+  ObjIterator oiter;
 
   if( !IS_NPC(ch)
   && number_percent() > ch->pcdata->learned[gsn_caltrops] )
@@ -1849,8 +1852,11 @@ void do_caltrops( CHAR_DATA *ch, char *argument )
     return;
   }
 
+#if 0
   if( !in_main_war( ch )
   && !IS_SET( ch->in_room->area->area_flags, AREA_DISABLED ) )
+#endif
+  if ( !can_interact( ch ) )
   {
     send_to_char("You may not drop caltrops in an enabled zone unless you are in the main war.\n\r", ch );
     return;
@@ -1904,10 +1910,11 @@ void do_caltrops( CHAR_DATA *ch, char *argument )
   {
     send_to_char( "You have used the last of your caltrops.\n\r", ch );
     obj_from_char( obj );
-    extract_obj( obj, "do_caltrops" );
+    extract_obj( obj, str_caltrops );
   }
-		
-  for( obj = ch->in_room->contents; obj != NULL; obj =obj->next_content )
+
+  for ( obj = oiter.StartList( ch, ch->in_room->contents );
+        obj != NULL; obj = oiter.Next( ) )
   {
     if( obj->special == NULL )
       continue;
@@ -1920,7 +1927,7 @@ void do_caltrops( CHAR_DATA *ch, char *argument )
     }
   }
 
-  obj = create_object( get_obj_index( 44 ) );
+  obj = create_object( get_obj_index( 44 ), ch->phase );
   obj->killer   = ch;
   obj->value[0] = iCaltrops;
   obj->value[1] = TRUE;
@@ -1936,7 +1943,7 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int percent;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
       send_to_char( "You must be in the war to disarm.\n\r", ch );
       return;
@@ -1981,7 +1988,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
 
-    if ( !in_a_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("Alas, you cannot lift an arm...\n\r", ch );
 	return;

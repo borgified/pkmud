@@ -26,6 +26,8 @@
 #include <string.h>
 #include <time.h>
 #include "merc.h"
+#include "global.h"
+#include "CharIterator.h"
 
 
 /*
@@ -1062,20 +1064,6 @@ void do_death( CHAR_DATA *ch, char *argument )
 
 void do_info( CHAR_DATA *ch, char *argument )
 {
-  static char str_army[5] = "Army";
-
-  if( ch == NULL )
-  {
-    for( ch = char_list; ch != NULL; ch = ch->next )
-    {
-      if( is_name( ch->name, str_army ) )
-      {
-        break;
-      }
-    }
-  }
-#warning This has seg fault potential.
-
   if ( !IS_NPC( ch ) && get_trust( ch ) < 39 )
   {
     send_to_char("Mortals can't use info channel.\n\r", ch );
@@ -1293,7 +1281,7 @@ void do_emote( CHAR_DATA *ch, char *argument )
 void do_bug( CHAR_DATA *ch, char *argument )
 {
     append_file( ch, BUG_FILE, argument );
-    send_to_char( "Ok.  Thanks.\n\r", ch );
+    send_to_char( str_okthanks, ch );
     return;
 }
 
@@ -1302,7 +1290,7 @@ void do_bug( CHAR_DATA *ch, char *argument )
 void do_idea( CHAR_DATA *ch, char *argument )
 {
     append_file( ch, IDEA_FILE, argument );
-    send_to_char( "Ok.  Thanks.\n\r", ch );
+    send_to_char( str_okthanks, ch );
     return;
 }
 
@@ -1311,7 +1299,7 @@ void do_idea( CHAR_DATA *ch, char *argument )
 void do_typo( CHAR_DATA *ch, char *argument )
 {
     append_file( ch, TYPO_FILE, argument );
-    send_to_char( "Ok.  Thanks.\n\r", ch );
+    send_to_char( str_okthanks, ch );
     return;
 }
 
@@ -1541,10 +1529,10 @@ void do_order( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     CHAR_DATA *och;
-    CHAR_DATA *och_next;
     bool found;
     bool fAll;
     BAN_DATA *pban;
+    CharIterator citer;
 
     if ( !can_communicate( ch, TRUE ) )
 	return;
@@ -1606,10 +1594,9 @@ void do_order( CHAR_DATA *ch, char *argument )
     }
 
     found = FALSE;
-    for ( och = ch->in_room->people; och != NULL; och = och_next )
+    for ( och = citer.Start( ch, CharIterator::ROOM );
+          och != NULL; och = citer.Next() )
     {
-	och_next = och->next_in_room;
-
 	if ( IS_AFFECTED(och, AFF_CHARM)
 	&&   och->master == ch
 	&& ( fAll || och == victim ) )
@@ -1634,6 +1621,9 @@ bool can_communicate( CHAR_DATA *ch, bool fEcho )
 {
   extern int war_number;
 
+  /* Temporarily disabling snoop block. */
+  return TRUE;
+
   if ( IS_NPC( ch ) )
     return TRUE;
 
@@ -1646,3 +1636,4 @@ bool can_communicate( CHAR_DATA *ch, bool fEcho )
 
   return TRUE;
 }
+

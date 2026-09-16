@@ -26,6 +26,8 @@
 #include <time.h>
 #include "merc.h"
 #include "global.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -54,7 +56,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	return;
     }
 
-    if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
+    if ( ch->carry_number + 1 > can_carry_n( ch ) )
     {
 	act( "$d: you can't carry that many items.",
 	    ch, NULL, obj->name, TO_CHAR, TRUE );
@@ -100,6 +102,7 @@ void do_disarmtrap( CHAR_DATA *ch, char *argument )
 	bool bFound = FALSE;
 	OBJ_DATA *obj;
 	OBJECT_FUN spec_trap;
+        ObjIterator oiter;
 
 
 	if( IS_NPC(ch) )
@@ -111,18 +114,15 @@ void do_disarmtrap( CHAR_DATA *ch, char *argument )
 		return;
 	}
 
-	for( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
-	{
-		if( obj->special != spec_trap )
-		{
-			continue;
-		}
-		else
-		{
-			bFound = TRUE;
-			break;
-		}
-	}
+  for ( obj = oiter.StartList( ch, ch->in_room->contents );
+        obj != NULL; obj = oiter.Next( ) )
+  {
+    if( obj->special != spec_trap )
+      continue;
+
+    bFound = TRUE;
+    break;
+  }
 
 	if( !bFound )
 	{
@@ -156,6 +156,7 @@ void do_set( CHAR_DATA *ch, char *argument )
   bool bFound = FALSE;
   OBJ_DATA *obj;
   OBJECT_FUN spec_trap;
+  ObjIterator oiter;
 
   if( IS_NPC(ch) )
     return;
@@ -166,24 +167,21 @@ void do_set( CHAR_DATA *ch, char *argument )
     return;
   }
 
-  if( !in_main_war( ch ) )
+  if( !can_interact( ch ) )
   {
     send_to_char("Might want to be in a war first.\n\r", ch );
     return;
   }
 
-	for( obj = ch->carrying; obj != NULL; obj = obj->next_content )
-	{
-		if( obj->special != spec_trap )
-		{
-			continue;
-		}
-		else
-		{
-			bFound = TRUE;
-			break;
-		}
-	}
+  for ( obj = oiter.StartList( ch, ch->carrying );
+        obj != NULL; obj = oiter.Next( ) )
+  {
+    if( obj->special != spec_trap )
+      continue;
+
+    bFound = TRUE;
+    break;
+  }
 
 	if( !bFound )
 	{
@@ -223,13 +221,14 @@ void do_get( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj_next;
     OBJ_DATA *container;
     bool found;
+    ObjIterator oiter;
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
 /* make sure they are alive */
   if (!IS_NPC(ch))
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char( "You aren't in the war!!\n\r", ch );
 	return;
@@ -260,9 +259,9 @@ void do_get( CHAR_DATA *ch, char *argument )
 	{
 	    /* 'get all' or 'get all.obj' */
 	    found = FALSE;
-	    for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+            for ( obj = oiter.StartList( ch, ch->in_room->contents );
+	          obj != NULL; obj = oiter.Next( ) )
 	    {
-		obj_next = obj->next_content;
 		if ( ( arg1[3] == '\0' || is_name( &arg1[4], obj->name ) )
 		&&   can_see_obj( ch, obj ) )
 		{
@@ -332,9 +331,9 @@ void do_get( CHAR_DATA *ch, char *argument )
 	{
 	    /* 'get all container' or 'get all.obj container' */
 	    found = FALSE;
-	    for ( obj = container->contains; obj != NULL; obj = obj_next )
+            for ( obj = oiter.StartList( ch, container->contains );
+	          obj != NULL; obj = oiter.Next( ) )
 	    {
-		obj_next = obj->next_content;
 		if ( ( arg1[3] == '\0' || is_name( &arg1[4], obj->name ) )
 		&&   can_see_obj( ch, obj ) )
 		{
@@ -367,8 +366,9 @@ void do_put( CHAR_DATA *ch, char *argument )
     OBJ_DATA *container;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
+    ObjIterator oiter;
 
-  if ( !in_main_war( ch ) )
+  if ( !can_interact( ch ) )
   {
     send_to_char( "You aren't in the war.\n\r", ch );
     return;
@@ -443,10 +443,9 @@ void do_put( CHAR_DATA *ch, char *argument )
     else
     {
 	/* 'put all container' or 'put all.obj container' */
-	for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+        for ( obj = oiter.StartList( ch, ch->carrying );
+              obj != NULL; obj = oiter.Next( ) )
 	{
-	    obj_next = obj->next_content;
-
 	    if ( ( arg1[3] == '\0' || is_name( &arg1[4], obj->name ) )
 	    &&   can_see_obj( ch, obj )
 	    &&   obj->wear_loc == WEAR_NONE
@@ -472,12 +471,12 @@ void do_drop( CHAR_DATA *ch, char *argument )
 {
   char arg[MAX_INPUT_LENGTH];
   OBJ_DATA *obj;
-  OBJ_DATA *obj_next;
   bool found;
+  ObjIterator oiter;
 
   argument = one_argument( argument, arg );
 
-  if ( !in_main_war( ch ) )
+  if ( !can_interact( ch ) )
   {
     send_to_char( "You aren't in the war.\n\r", ch );
     return;
@@ -511,10 +510,9 @@ void do_drop( CHAR_DATA *ch, char *argument )
 
 	ch->gold -= amount;
 
-	for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
+        for ( obj = oiter.StartList( ch, ch->in_room->contents );
+              obj != NULL; obj = oiter.Next( ) )
 	{
-	    obj_next = obj->next_content;
-
 	    switch ( obj->pIndexData->vnum )
 	    {
 	    case OBJ_VNUM_MONEY_ONE:
@@ -529,7 +527,7 @@ void do_drop( CHAR_DATA *ch, char *argument )
 	    }
 	}
 
-	obj_to_room( create_money( amount ), ch->in_room );
+	obj_to_room( create_money( amount, ch->phase ), ch->in_room );
 	act( "$n drops some gold.", ch, NULL, NULL, TO_ROOM, TRUE );
 	send_to_char( "OK.\n\r", ch );
 	return;
@@ -559,10 +557,9 @@ void do_drop( CHAR_DATA *ch, char *argument )
     {
 	/* 'drop all' or 'drop all.obj' */
 	found = FALSE;
-	for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+        for ( obj = oiter.StartList( ch, ch->carrying );
+              obj != NULL; obj = oiter.Next( ) )
 	{
-	    obj_next = obj->next_content;
-
 	    if ( ( arg[3] == '\0' || is_name( &arg[4], obj->name ) )
 	    &&   can_see_obj( ch, obj )
 	    &&   obj->wear_loc == WEAR_NONE
@@ -599,7 +596,7 @@ void do_give( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
     OBJ_DATA  *obj;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char( "You can't do that.\n\r", ch );
 	return;
@@ -679,7 +676,7 @@ void do_give( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( victim->carry_number + get_obj_number( obj ) > can_carry_n( victim ) )
+    if ( victim->carry_number + 1 > can_carry_n( victim ) )
     {
 	act( "$N has $S hands full.", ch, NULL, victim, TO_CHAR, TRUE );
 	return;
@@ -714,6 +711,7 @@ void do_fill( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     OBJ_DATA *fountain;
     bool found;
+    ObjIterator oiter;
 
     one_argument( argument, arg );
 
@@ -730,8 +728,8 @@ void do_fill( CHAR_DATA *ch, char *argument )
     }
 
     found = FALSE;
-    for ( fountain = ch->in_room->contents; fountain != NULL;
-	fountain = fountain->next_content )
+    for ( fountain = oiter.StartList( ch, ch->in_room->contents );
+          fountain != NULL; fountain = oiter.Next( ) )
     {
 	if ( fountain->item_type == ITEM_FOUNTAIN )
 	{
@@ -778,8 +776,9 @@ void do_drink( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj;
     int amount;
     int liquid;
+    ObjIterator oiter;
 
-    if ( !in_a_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char( "You aren't in a war!!\n\r", ch );
 	return;
@@ -789,7 +788,8 @@ void do_drink( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-	for ( obj = ch->in_room->contents; obj; obj = obj->next_content )
+        for ( obj = oiter.StartList( ch, ch->in_room->contents );
+              obj != NULL; obj = oiter.Next( ) )
 	{
 	    if ( obj->item_type == ITEM_FOUNTAIN )
 		break;
@@ -1288,6 +1288,7 @@ void do_wear( CHAR_DATA *ch, char *argument )
 {
   char arg[MAX_INPUT_LENGTH];
   OBJ_DATA *obj;
+  ObjIterator oiter;
 
   if (ch->fighting != NULL)
   {
@@ -1305,11 +1306,9 @@ void do_wear( CHAR_DATA *ch, char *argument )
 
   if ( !str_cmp( arg, "all" ) )
   {
-    OBJ_DATA *obj_next;
-
-    for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+    for ( obj = oiter.StartList( ch, ch->carrying );
+          obj != NULL; obj = oiter.Next(  ) )
     {
-      obj_next = obj->next_content;
 
       /* barbarians can't use magic equipment */
       if( ch->char_class == CLASS_BARBARIAN && obj->pIndexData->affected )
@@ -1410,7 +1409,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     if (IS_NPC(ch))
 	return;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
 	return;
 
     if ( arg[0] == '\0' || !str_cmp( arg, ch->name ) )
@@ -1435,7 +1434,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
       if ( IS_SET( war_flags, WAR_FLAG_BLOODS ) )
       {
          OBJ_DATA *jar_blood;
-         jar_blood = create_object( get_obj_index( 2288 ) );
+         jar_blood = create_object( get_obj_index( 2288 ), ch->phase );
          obj_to_char( jar_blood , ch );
          send_to_char( "Rip gives you a nice tasty jar of blood for your sacrifice.\n\r", ch );
     act( "$n sacrifices $p to God.", ch, obj, NULL, TO_ROOM, TRUE );
@@ -1473,7 +1472,7 @@ void do_use( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
 	return;
 
     if ( arg1[0] == '\0' )
@@ -1745,11 +1744,11 @@ void use_staff( CHAR_DATA *ch, OBJ_DATA *device, char *argument )
     int chance;
     CHAR_DATA *victim = NULL;
     CHAR_DATA *vch = NULL;
-    CHAR_DATA *vch_next = NULL;
     OBJ_DATA *obj = NULL;
     OBJ_DATA *wielded = NULL;
     bool fRoom = FALSE;
     int sn;
+    CharIterator citer;
 
     if (ch->char_class == CLASS_BARBARIAN )
     {
@@ -1837,10 +1836,9 @@ void use_staff( CHAR_DATA *ch, OBJ_DATA *device, char *argument )
 	obj_cast_spell( device->value[3], device->value[0], ch, victim, obj );
     else
     {
-	for ( vch = ch->in_room->people; vch != NULL; vch = vch_next )
-	{
-	    vch_next	= vch->next_in_room;
-
+      for ( vch = citer.Start( ch, CharIterator::ROOM );
+            vch != NULL; vch = citer.Next() )
+      {
 	    switch ( skill_table[sn].target )
 	    {
 	    default:
@@ -1870,7 +1868,7 @@ void use_staff( CHAR_DATA *ch, OBJ_DATA *device, char *argument )
 	    }
 
 	    obj_cast_spell( device->value[3], device->value[0], ch, vch, NULL );
-	}
+      }
     }
 
     return;
@@ -1913,7 +1911,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !in_main_war( ch ) || !in_main_war( victim ) )
+    if ( !in_main_war( ch ) && in_main_war( victim ) )
     {
 	send_to_char( "Either you or they aren't in a war!\n\r", ch );
 	return;
@@ -1923,21 +1921,6 @@ void do_steal( CHAR_DATA *ch, char *argument )
     {
 	send_to_char( "That's pointless.\n\r", ch );
 	return;
-    }
-
-    obj = get_obj_carry( victim, arg1 );
-
-    if ( obj == NULL )
-    {
-	obj = get_obj_wear( victim, arg1 );
-
-	if ( ch->char_class != CLASS_THIEF
-	|| obj == NULL
-	|| obj->item_type != ITEM_CONTAINER )
-	{
-	    send_to_char("You can't find it.\n\r", ch );
-	    return;
-	}
     }
 
     if ( !str_cmp( arg1, "coin"  )
@@ -1958,6 +1941,21 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	sprintf( buf, "Bingo!  You got %d gold coins.\n\r", amount );
 	send_to_char( buf, ch );
 	return;
+    }
+
+    obj = get_obj_carry( victim, arg1 );
+
+    if ( obj == NULL )
+    {
+	obj = get_obj_wear( victim, arg1 );
+
+	if ( ch->char_class != CLASS_THIEF
+	|| obj == NULL
+	|| obj->item_type != ITEM_CONTAINER )
+	{
+	    send_to_char("You can't find it.\n\r", ch );
+	    return;
+	}
     }
 
     attempt_steal_object( ch, victim, obj );
@@ -2007,7 +2005,7 @@ void attempt_steal_object( CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj )
 	return;
     }
 
-    if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
+    if ( ch->carry_number + 1 > can_carry_n( ch ) )
     {
 	send_to_char( "You have your hands full.\n\r", ch );
 	return;
@@ -2036,9 +2034,11 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 {
     CHAR_DATA *keeper;
     SHOP_DATA *pShop;
+    CharIterator citer;
 
     pShop = NULL;
-    for ( keeper = ch->in_room->people; keeper; keeper = keeper->next_in_room )
+    for ( keeper = citer.Start( ch, CharIterator::ROOM );
+          keeper != NULL; keeper = citer.Next() )
     {
 	if ( IS_NPC(keeper) && (pShop = keeper->pIndexData->pShop) != NULL )
 	    break;
@@ -2158,7 +2158,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 	
-	if ( ch->carry_number + get_obj_number( obj ) > can_carry_n( ch ) )
+	if ( ch->carry_number + 1 > can_carry_n( ch ) )
 	{
 	    send_to_char( "You can't carry that many items.\n\r", ch );
 	    return;
@@ -2177,11 +2177,11 @@ void do_buy( CHAR_DATA *ch, char *argument )
 
 	if ( IS_SET( obj->extra_flags, ITEM_INVENTORY ) )
 	{
-	    new_obj = create_object( obj->pIndexData );
+	    new_obj = create_object( obj->pIndexData, keeper->phase );
             obj_to_char( new_obj, keeper );
             SET_BIT( new_obj->extra_flags, ITEM_INVENTORY );
 	}
-	    obj_from_char( obj );
+        obj_from_char( obj );
 
 	obj_to_char( obj, ch );
 	return;
@@ -2194,16 +2194,11 @@ void do_list( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
     extern int war_status;
+    ObjIterator oiter;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char("Like dead guys like you can use anything I got.\n\r", ch );
-	return;
-    }
-
-    if ( war_status < WAR_ON && get_trust( ch ) < 40 )
-    {
-	send_to_char("Quit scoutin for yer mortal wuss.\n\r", ch );
 	return;
     }
 
@@ -2220,7 +2215,8 @@ void do_list( CHAR_DATA *ch, char *argument )
 	    return;
 
 	found = FALSE;
-	for ( obj = keeper->carrying; obj; obj = obj->next_content )
+	for ( obj = oiter.StartList( ch, keeper->carrying );
+	      obj; obj = oiter.Next( ) )
 	{
 	    if ( obj->wear_loc == WEAR_NONE
 	    &&   can_see_obj( ch, obj )
@@ -2259,8 +2255,9 @@ void do_sell( CHAR_DATA *ch, char *argument )
     CHAR_DATA *keeper;
     OBJ_DATA *obj;
     int cost;
+    static char str_sell[8] = "do_sell";
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
 	send_to_char( "You can't do that.\n\r", ch );
 	return;
@@ -2315,7 +2312,7 @@ void do_sell( CHAR_DATA *ch, char *argument )
 
     if ( obj->item_type == ITEM_TRASH )
     {
-	extract_obj( obj, "do_sell" );
+	extract_obj( obj, str_sell );
     }
     else
     {
@@ -2379,6 +2376,7 @@ void do_value( CHAR_DATA *ch, char *argument )
 void do_junk( CHAR_DATA *ch, char *argument )
 {
   OBJ_DATA *obj;
+  static char str_junk[8] = "do_junk";
 
   if ( strlen( argument ) == 0 )
   {
@@ -2401,7 +2399,7 @@ void do_junk( CHAR_DATA *ch, char *argument )
 
   act("$n destroys $p.", ch, obj, NULL, TO_ROOM, TRUE );
   act("You destroy $p.", ch, obj, NULL, TO_CHAR, TRUE );
-  extract_obj( obj, "do_junk" );
+  extract_obj( obj, str_junk );
 
   return;
 }
@@ -2424,3 +2422,5 @@ void do_coinflip( CHAR_DATA *ch, char *arg )
 
   return;
 }
+
+

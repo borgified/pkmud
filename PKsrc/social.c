@@ -219,7 +219,7 @@ void do_soul( CHAR_DATA *ch, char *argument ) {
 			return;
 		}
 
-		if( ( victim = get_char_world( ch, arg2 ) ) == NULL ) {
+		if( ( victim = get_char_phase( ch, arg2 ) ) == NULL ) {
 
 			send_to_char( "They aren't here.\n\r", ch );
 			return;

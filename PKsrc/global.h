@@ -7,6 +7,7 @@ extern char str_imotd[6];
 extern char str_motd[5];
 extern char str_none[5];
 extern char str_null[5];
+extern char str_okthanks[14];
 
 
 

@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <time.h>
 #include "merc.h"
+#include "global.h"
 
 #define BASE_VNUM 9500
 #define POTION_VNUM 9600
@@ -200,7 +201,7 @@ static char * const scroll_table [] =
 /* 81 */
 };
 
-OBJ_DATA *create_random_armor( void )
+OBJ_DATA *create_random_armor( unsigned int phase )
 {
 	OBJ_INDEX_DATA *pObjIndex;
 	int vnum = BASE_VNUM;
@@ -228,7 +229,7 @@ OBJ_DATA *create_random_armor( void )
 	if ((pObjIndex = get_obj_index(vnum)) == NULL)
 		return NULL;
 
-	return create_object( pObjIndex );
+	return create_object( pObjIndex, phase );
 }
 
 
@@ -556,7 +557,7 @@ void make_random_quiver( OBJ_DATA *obj )
   return;
 }
 
-OBJ_DATA *create_random_potion( void )
+OBJ_DATA *create_random_potion( unsigned int phase )
 {
   OBJ_DATA *obj;
   int percent;
@@ -608,11 +609,11 @@ OBJ_DATA *create_random_potion( void )
     else
       vnum = 9669; /* azure */
 
-    obj = create_object( get_obj_index( vnum ) );
+    obj = create_object( get_obj_index( vnum ), phase );
   }
   else
   {
-    obj = create_object( get_obj_index( 9699 ) );
+    obj = create_object( get_obj_index( 9699 ), phase );
 
     obj->value[1] = select_potion_color();
     obj->value[2] = select_potion_color();
@@ -665,12 +666,12 @@ OBJ_DATA *create_random_potion( void )
 }
 
 
-OBJ_DATA *create_random_jewelry( void )
+OBJ_DATA *create_random_jewelry( unsigned int phase )
 {
   OBJ_DATA *obj;
 
 /* bracelets are 9597, amulets 9597, rings 9599 */
-  obj = create_object( get_obj_index( 9596+dice(1,3) ) );
+  obj = create_object( get_obj_index( 9596+dice(1,3) ), phase );
 
   do
   {
@@ -705,7 +706,7 @@ void rename_object_random( OBJ_DATA *obj , int table )
 			break;
 		case TABLE_SCROLL:
 			nbuf = scroll_table[number_range(0,MAX_SCROLL)];
-			abuf = "";
+			abuf = str_empty;
 			break;
 	}
 
@@ -730,7 +731,7 @@ void rename_object_random( OBJ_DATA *obj , int table )
 
 
 
-OBJ_DATA *create_random_magic( void )
+OBJ_DATA *create_random_magic( unsigned int phase )
 {
 	OBJ_DATA *obj;
 	int vnum;
@@ -767,19 +768,19 @@ int wand_spell_table [11] =
 	switch (number_bits(2))
 	{
 		case 0:
-			obj = create_object( get_obj_index( 9799 ) );
+			obj = create_object( get_obj_index( 9799 ), phase );
 			obj->value[3] = staff_spell_table[number_range(0,9)];
 			obj->value[1] = 5 + number_bits(2);
 			break;
 		case 1:
-			obj = create_object( get_obj_index( 9798 ) );
+			obj = create_object( get_obj_index( 9798 ), phase );
 			obj->value[3] = wand_spell_table[number_range(0,10)];
 			obj->value[1] = 10 + number_bits(3);
 			break;
 		default:
 			vnum = 9790;
 			vnum += number_bits(3);
-			obj = create_object( get_obj_index( vnum ) );
+			obj = create_object( get_obj_index( vnum ), phase );
 			break;
 	}
 
@@ -793,7 +794,7 @@ void do_trap( CHAR_DATA *ch, char *argument )
 {
 	OBJ_DATA *obj;
 
-	obj = create_object(get_obj_index(5));
+	obj = create_object(get_obj_index(5), ch->phase);
 
 	make_random_trap(obj);
 	obj_to_char(obj, ch );
@@ -806,7 +807,7 @@ void do_arrow( CHAR_DATA *ch, char *argument )
 {
 	OBJ_DATA *obj;
 
-	obj = create_object(get_obj_index(4));
+	obj = create_object(get_obj_index(4), ch->phase);
 	make_random_quiver(obj);
 
 	obj_to_char(obj, ch );
@@ -828,7 +829,7 @@ void do_potion( CHAR_DATA *ch, char *argument )
 
 	if( arg1[0] == '\0' )
 	{
-		obj = create_random_potion();
+		obj = create_random_potion( ch->phase );
 		obj_to_char( obj, ch );
 		send_to_char( "Ok.\n\r", ch );
 		return;
@@ -838,7 +839,7 @@ void do_potion( CHAR_DATA *ch, char *argument )
 		char buf[MAX_STRING_LENGTH];
 		int x;
 
-		obj = create_object( get_obj_index(9699));
+		obj = create_object( get_obj_index(9699), ch->phase);
 
                 free_string( obj->name );
                 free_string( obj->short_descr );
@@ -862,7 +863,7 @@ void do_potion( CHAR_DATA *ch, char *argument )
 	{
 		char buf[MAX_STRING_LENGTH];
 
-		obj = create_object( get_obj_index(9699) );
+		obj = create_object( get_obj_index(9699), ch->phase );
 
 		free_string( obj->name );
 		free_string( obj->short_descr );
@@ -934,7 +935,7 @@ void do_armor( CHAR_DATA *ch, char *arg )
 {
 	OBJ_DATA *obj;
 
-	obj = create_random_armor();
+	obj = create_random_armor( ch->phase );
 
 	if (obj != NULL)
 	{
@@ -968,20 +969,20 @@ void check_random_equip( CHAR_DATA *ch )
 		if (percent <= 2)
 /* various */
 		{
-			obj = create_random_armor();
+			obj = create_random_armor( ch->phase );
 		}
 		else if (percent <= 20)
 		{
-			obj = create_random_jewelry();
+			obj = create_random_jewelry( ch->phase );
 		}
 		else if (percent <= 40)
 /* weapon */
 		{
-			obj = create_random_armor();
+			obj = create_random_armor( ch->phase );
 		}
 		else if (percent <= 70)
 		{
-			obj = create_random_armor();
+			obj = create_random_armor( ch->phase );
 			if (obj != NULL)
 			{
 			while(!number_bits(1))
@@ -992,15 +993,15 @@ void check_random_equip( CHAR_DATA *ch )
 		else if (percent <= 80)
 		{
 /*
-			obj= create_random_armor();
+			obj= create_random_armor( ch->phase );
 */
-			obj = create_random_magic();
+			obj = create_random_magic( ch->phase );
 		}
 		else
 		{
-			obj = create_random_potion();
+			obj = create_random_potion( ch->phase );
 /*
-			obj = create_random_magic();
+			obj = create_random_magic( ch->phase );
 */
 			add_random_extra( obj );
 		}

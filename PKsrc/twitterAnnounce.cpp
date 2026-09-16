@@ -11,7 +11,7 @@
 
 
 twitterAnnounce::twitterAnnounce( void )
-  : outprio(0), last_time(0), initialized(0)
+  : outprio(0), last_time(0), initialized(0), enabled(1)
 {
 }
 
@@ -26,6 +26,10 @@ void twitterAnnounce::init( int _lastTime, int _delay )
   char logbuf[1024];
   last_time = _lastTime;
   delay = _delay;
+
+#if TWITTER_DISABLE
+  return;
+#endif
 
   std::string pkUser("");
   std::string pkPassword("");
@@ -105,6 +109,9 @@ void twitterAnnounce::push( char *buf, int priority )
   if ( initialized == 0 )
     return;
 
+  if ( enabled == 0 )
+    return;
+
   /* Calculate time since last message */
   int delta = current_time - last_time;
 
@@ -130,7 +137,7 @@ log_string( logbuf );
     buf[MAX_TWITTER_LENGTH] = '\0';
 
   std::string tmpstr = buf;
-  twitterObj.statusUpdate( tmpstr );
+  twitterObj.statusUpdate( tmpstr, "" );
 
   sprintf( logbuf, "Generated twitter message: '%s'", buf );
   log_string( logbuf );

@@ -26,6 +26,8 @@
 #include <time.h>
 #include "merc.h"
 #include "cmod.h"
+#include "CharIterator.h"
+#include "ObjIterator.h"
 
 
 
@@ -98,6 +100,7 @@ void say_spell( CHAR_DATA *ch, int sn )
     char *pName;
     int iSyl;
     int length;
+    CharIterator citer;
 
     struct syl_type
     {
@@ -158,7 +161,8 @@ void say_spell( CHAR_DATA *ch, int sn )
     sprintf( buf2, "$n utters the words, '%s'.", buf );
     sprintf( buf,  "$n utters the words, '%s'.", skill_table[sn].name );
 
-    for ( rch = ch->in_room->people; rch; rch = rch->next_in_room )
+    for ( rch = citer.Start( ch, CharIterator::ROOM );
+          rch; rch = citer.Next() )
     {
 	if ( rch != ch )
 	    act( ch->char_class==rch->char_class ? buf : buf2, ch, NULL, rch, TO_VICT, TRUE );
@@ -200,6 +204,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
   int mana;
   int sn;
   int temp;
+  CharIterator citer;
 
   if ( is_affected( ch, gsn_silence ) )
   {
@@ -225,7 +230,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
   }
 
 /* can't have dead people casting */
-  if ( !in_a_war( ch ) )
+  if ( !can_interact( ch ) )
   {
     send_to_char("You are either not alive or the war hasn't started.\n\r", ch);
     return;
@@ -440,11 +445,10 @@ void do_cast( CHAR_DATA *ch, char *argument )
     &&   victim->master != ch )
     {
 	CHAR_DATA *vch;
-	CHAR_DATA *vch_next;
 
-	for ( vch = ch->in_room->people; vch; vch = vch_next )
+        for ( vch = citer.Start( ch, CharIterator::ROOM );
+              vch; vch = citer.Next() )
 	{
-	    vch_next = vch->next_in_room;
 	    if ( victim == vch && victim->fighting == NULL )
 	    {
 		multi_hit( victim, ch, TYPE_UNDEFINED );
@@ -467,6 +471,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim,
   OBJ_DATA *obj )
 {
     void *vo = NULL;
+    CharIterator citer;
 
     if ( sn <= 0 )
 	return;
@@ -530,11 +535,10 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim,
     &&   victim->master != ch )
     {
 	CHAR_DATA *vch;
-	CHAR_DATA *vch_next;
 
-	for ( vch = ch->in_room->people; vch; vch = vch_next )
+        for ( vch = citer.Start( ch, CharIterator::ROOM );
+              vch; vch = citer.Next() )
 	{
-	    vch_next = vch->next_in_room;
 	    if ( victim == vch && victim->fighting == NULL )
 	    {
 		multi_hit( victim, ch, TYPE_UNDEFINED );
@@ -617,8 +621,8 @@ void spell_banish_item( int sn, int level, CHAR_DATA *ch, void *vo )
 {
   CHAR_DATA *victim = (CHAR_DATA *) vo;
   OBJ_DATA *obj;
-  OBJ_DATA *obj_next;
   char arg[MAX_INPUT_LENGTH];
+  ObjIterator oiter;
 
   target_name = one_argument( target_name, arg );  /* strip victim name */
   one_argument( target_name, arg );
@@ -629,10 +633,9 @@ void spell_banish_item( int sn, int level, CHAR_DATA *ch, void *vo )
   if ( arg[0] == '\0' )
     return;
 
-  for ( obj = victim->carrying; obj != NULL; obj = obj_next )
+  for ( obj = oiter.StartList( ch, victim->carrying );
+        obj != NULL; obj = oiter.Next( ) )
   {
-    obj_next = obj->next_content;
-
     if ( !is_name( arg, obj->name ) )
       continue;
 
@@ -810,6 +813,7 @@ void spell_call_lightning( int sn, int level, CHAR_DATA *ch, void *vo )
   CHAR_DATA *vch;
   CHAR_DATA *vch_next;
   int dam;
+  CharIterator citer;
 
   if ( !IS_OUTSIDE(ch) )
   {
@@ -829,10 +833,9 @@ void spell_call_lightning( int sn, int level, CHAR_DATA *ch, void *vo )
   act( "$n calls God's lightning to strike $s foes!",
     ch, NULL, NULL, TO_ROOM, TRUE );
 
-  for ( vch = char_list; vch != NULL; vch = vch_next )
+  for ( vch = citer.Start( ch, CharIterator::WORLD );
+        vch != NULL; vch = citer.Next() )
   {
-    vch_next	= vch->next;
-
     if ( !in_same_war( ch, vch ) )
       continue;
 
@@ -954,6 +957,7 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
   CHAR_DATA *fch;
   AFFECT_DATA af;
   int followers = 0;
+  CharIterator citer;
 
   if ( victim == ch )
   {
@@ -979,7 +983,7 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo )
   if ( victim->master )
     stop_follower( victim );
 
-  for ( fch = ch->in_room->people; fch != NULL; fch = fch->next_in_room )
+  for ( fch = citer.Start( ch, CharIterator::ROOM ); fch; fch = citer.Next() )
     if ( fch->master == ch )
       followers++;
 
@@ -1073,7 +1077,7 @@ void spell_continual_light( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     OBJ_DATA *light;
 
-    light = create_object( get_obj_index( OBJ_VNUM_LIGHT_BALL ) );
+    light = create_object( get_obj_index( OBJ_VNUM_LIGHT_BALL ), ch->phase );
     obj_to_room( light, ch->in_room );
     act( "$n twiddles $s thumbs and $p appears.",   ch, light, NULL, TO_ROOM, TRUE );
     act( "You twiddle your thumbs and $p appears.", ch, light, NULL, TO_CHAR, TRUE );
@@ -1107,7 +1111,7 @@ void spell_create_food( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     OBJ_DATA *mushroom;
 
-    mushroom = create_object( get_obj_index( OBJ_VNUM_MUSHROOM ) );
+    mushroom = create_object( get_obj_index( OBJ_VNUM_MUSHROOM ), ch->phase );
     mushroom->value[0] = 5 + level;
     obj_to_room( mushroom, ch->in_room );
     act( "$p suddenly appears.", ch, mushroom, NULL, TO_ROOM, TRUE );
@@ -1120,13 +1124,13 @@ void spell_create_illusory_blood( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     OBJ_DATA *blood;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
       send_to_char( "You cannot create blood if you are not in the main war.\n\r", ch );
       return;
     }
 
-    blood = create_object( get_obj_index( 2288 ) );
+    blood = create_object( get_obj_index( 2288 ), ch->phase );
     obj_to_room( blood, ch->in_room );
     blood->value[2] = LIQ_KOOL_AID;
     act( "$p suddenly appears.", ch, blood, NULL, TO_ROOM, TRUE );
@@ -1139,8 +1143,8 @@ void spell_create_spring( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     OBJ_DATA *spring;
 
-    spring = create_object( get_obj_index( OBJ_VNUM_SPRING ) );
-    spring->timer = level;
+    spring = create_object( get_obj_index( OBJ_VNUM_SPRING ), ch->phase );
+    spring->timer = level * PULSE_TICK;
     obj_to_room( spring, ch->in_room );
     act( "$p flows from the ground.", ch, spring, NULL, TO_ROOM, TRUE );
     act( "$p flows from the ground.", ch, spring, NULL, TO_CHAR, TRUE );
@@ -1327,6 +1331,7 @@ void spell_dancing_sword( int sn, int level, CHAR_DATA *ch, void *vo )
   CHAR_DATA *mob;
   char buf[MAX_STRING_LENGTH];
   extern bool spec_dancing_sword( CHAR_DATA *mob );
+  CharIterator citer;
 
   if ( obj->item_type != ITEM_WEAPON
   || obj->value[3] != 3 )
@@ -1335,7 +1340,8 @@ void spell_dancing_sword( int sn, int level, CHAR_DATA *ch, void *vo )
     return;
   }
 
-  for ( mob = char_list; mob != NULL; mob = mob->next )
+  for ( mob = citer.Start( ch, CharIterator::ALL );
+        mob != NULL; mob = citer.Next() )
   {
     if ( mob->hunting && mob->hunting == ch
     && mob->spec_fun == spec_dancing_sword )
@@ -1345,7 +1351,7 @@ void spell_dancing_sword( int sn, int level, CHAR_DATA *ch, void *vo )
     }
   }
 
-  mob = create_mobile( get_mob_index( 16 ) );
+  mob = create_mobile( get_mob_index( 16 ), ch->phase );
 
   mob->hunting = ch;
   mob->max_hit = UMAX( 5, obj->weight );
@@ -1383,15 +1389,16 @@ void spell_dancing_sword( int sn, int level, CHAR_DATA *ch, void *vo )
 
 void spell_death_spray( int sn, int level, CHAR_DATA *ch, void *vo )
 {
-/* essentially copied from earthquake */
     CHAR_DATA *vch;
     CHAR_DATA *vch_next;
     int dam;
+    CharIterator citer;
 
     send_to_char("Black rays shoot from your fingertips.\n\r", ch );
     act("Black rays shoot from $n's fingertips.\n\r", ch, NULL, NULL, TO_ROOM, TRUE );
 
-    for (vch = char_list; vch != NULL; vch = vch_next )
+    for ( vch = citer.Start( ch, CharIterator::ROOM );
+          vch != NULL; vch = citer.Next() )
     {
 	vch_next = vch->next;
 
@@ -1708,15 +1715,15 @@ void spell_dragon_power( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_earthquake( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *vch;
-    CHAR_DATA *vch_next;
+    CharIterator citer;
 
     send_to_char( "The earth trembles beneath your feet!\n\r", ch );
     act( "$n makes the earth tremble and shiver.", ch, NULL, NULL, TO_ROOM, TRUE );
 
-    for ( vch = char_list; vch != NULL; vch = vch_next )
-    {
-	vch_next	= vch->next;
 
+    for ( vch = citer.Start( ch, CharIterator::WORLD );
+          vch != NULL; vch = citer.Next() )
+    {
 	if ( !in_same_war( ch, vch ) )
 	    continue;
 
@@ -1747,14 +1754,14 @@ void spell_enchant_weapon( int sn, int level, CHAR_DATA *ch, void *vo )
     OBJ_DATA *obj = (OBJ_DATA *) vo;
     AFFECT_DATA *paf;
 
-    obj_from_char( obj );
-
 /* modified to enchant jewelry */
     if ( !(obj->item_type == ITEM_WEAPON || obj->item_type == ITEM_JEWELRY )
     ||   IS_OBJ_STAT(obj, ITEM_MAGIC)
     ||   obj->pIndexData->affected != NULL
     ||   obj->affected != NULL )
 	return;
+
+    obj_from_char( obj );
 
     if ( affect_free == NULL )
     {
@@ -2085,11 +2092,12 @@ void spell_faerie_fire( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *ich;
+    CharIterator citer;
 
     act( "$n conjures a cloud of purple smoke.", ch, NULL, NULL, TO_ROOM, TRUE );
     send_to_char( "You conjure a cloud of purple smoke.\n\r", ch );
 
-    for ( ich = ch->in_room->people; ich != NULL; ich = ich->next_in_room )
+    for ( ich = citer.Start( ch, CharIterator::ROOM ); ich; ich = citer.Next() )
     {
 	if ( !IS_NPC(ich) && IS_SET(ich->act, PLR_WIZINVIS) )
 	    continue;
@@ -2142,7 +2150,7 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim;
 
-    if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+    if ( ( victim = get_char_phase( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
     ||   IS_AFFECTED(victim, AFF_NO_SUMMON)
@@ -2721,8 +2729,9 @@ void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo )
     OBJ_DATA *in_obj;
     bool found;
     int counter;
+    ObjIterator oiter;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
       send_to_char( "You cannot locate object if you are not in the main war.\n\r", ch );
       return;
@@ -2730,11 +2739,11 @@ void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo )
 
     counter = 0;
 
-    obj = get_obj_world( ch, target_name );
     number_argument( target_name, targ2 );
 
     found = FALSE;
-    for ( ; obj != NULL ; obj = obj->next )
+    for ( obj = oiter.Start( ch, ObjIterator::WORLD );
+          obj != NULL; obj = oiter.Next( ) )
     {
 	if (counter > level)
 	{
@@ -2925,14 +2934,15 @@ void spell_mass_invis( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     AFFECT_DATA af;
     CHAR_DATA *gch;
+    CharIterator citer;
 
-  if ( !in_main_war( ch ) )
+  if ( !can_interact( ch ) )
   {
     send_to_char( "You cannot cast mass invis if you are not in the main war.\n\r", ch );
     return;
   }
 
-    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+    for ( gch = citer.Start( ch, CharIterator::ROOM ); gch; gch = citer.Next() )
     {
 	if ( IS_AFFECTED(gch, AFF_INVISIBLE) )
 	    continue;
@@ -3032,13 +3042,13 @@ void spell_personal_illusion( int sn, int level, CHAR_DATA *ch, void *vo )
   CHAR_DATA *mob;
   char buf[MAX_STRING_LENGTH];
 
-  if ( !in_main_war( ch ) )
+  if ( !can_interact( ch ) )
   {
     send_to_char( "You cannot create illusions if you are not in the main war.\n\r", ch );
     return;
   }
 
-  mob = create_mobile( get_mob_index( 30 ) );
+  mob = create_mobile( get_mob_index( 30 ), ch->phase );
 
   mob->max_hit = 50;
   mob->hit = mob->max_hit;
@@ -3160,10 +3170,10 @@ void spell_invulnerability( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_psionic_blast( int sn, int level, CHAR_DATA *ch, void *vo )
 {
   CHAR_DATA *vch;
-  CHAR_DATA *vch_next;
   int dam = 0;
   AFFECT_DATA af_1;
   AFFECT_DATA af_2;
+  CharIterator citer;
 
   act("$n sends a giant blast flaring about $s body!",
     ch, NULL, NULL, TO_ROOM, TRUE );
@@ -3182,9 +3192,9 @@ void spell_psionic_blast( int sn, int level, CHAR_DATA *ch, void *vo )
   af_2.modifier  = -1 * number_range( 2, 4 );
   af_2.bitvector = 0;
 
-  for (vch = char_list; vch != NULL; vch = vch_next )
+  for ( vch = citer.Start( ch, CharIterator::ROOM );
+        vch != NULL; vch = citer.Next() )
   {
-    vch_next = vch->next;
 
     if ( !in_same_war( ch, vch ) )
       continue;
@@ -3454,10 +3464,10 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )
     CHAR_DATA *victim;
     extern int war_flags;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
       return;
 
-    if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+    if ( ( victim = get_char_phase( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
     ||   IS_AFFECTED(victim, AFF_NO_SUMMON)
@@ -3486,7 +3496,7 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo )
 	{
 	   if((pexit = ch->in_room->exit[iRoom]) != NULL 
 	   && pexit->to_room != NULL
-	   && !IS_SET(pexit->exit_info, EX_CLOSED) )
+	   && !is_door_closed( pexit, ch ) )
 		found = TRUE; 
 
 	}
@@ -3546,9 +3556,7 @@ void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo )
 	if ( pRoomIndex == NULL )
 	    continue;
 
-	if ( !IS_SET(pRoomIndex->room_flags, ROOM_PRIVATE)
-	&&   !IS_SET(pRoomIndex->room_flags, ROOM_SOLITARY)
-	&&   !IS_SET(pRoomIndex->area->area_flags, AREA_DISABLED ) )
+	if ( !IS_SET(pRoomIndex->area->area_flags, AREA_DISABLED ) )
 	    break;
     }
 
@@ -3595,8 +3603,9 @@ void spell_ventriloquate( int sn, int level, CHAR_DATA *ch, void *vo )
     char buf2[MAX_STRING_LENGTH];
     char speaker[MAX_INPUT_LENGTH];
     CHAR_DATA *vch;
+    CharIterator citer;
 
-    if ( !in_main_war( ch ) )
+    if ( !can_interact( ch ) )
     {
       send_to_char( "You cannot ventriloquate if you are not in the main war.\n\r", ch );
       return;
@@ -3608,7 +3617,7 @@ void spell_ventriloquate( int sn, int level, CHAR_DATA *ch, void *vo )
     sprintf( buf2, "Someone makes %s say '%s'.\n\r", speaker, target_name );
     buf1[0] = UPPER(buf1[0]);
 
-    for ( vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room )
+    for ( vch = citer.Start( ch, CharIterator::ROOM ); vch; vch = citer.Next() )
     {
 	if ( !is_name( speaker, vch->name ) )
 /* um, taking out the save */
@@ -3727,7 +3736,7 @@ void spell_wizard_eye( int sn, int level, CHAR_DATA *ch, void *vo )
   CHAR_DATA *victim;
   void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch );
 
-  if ( ( victim = get_char_world( ch, target_name ) ) == NULL
+  if ( ( victim = get_char_phase( ch, target_name ) ) == NULL
   ||   victim == ch
   ||   victim->in_room == NULL
   ||   victim->level > level )
@@ -3794,17 +3803,16 @@ void spell_acid_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     OBJ_DATA *obj_lose;
-    OBJ_DATA *obj_next;
     int dam;
     int hpch;
+    ObjIterator oiter;
 
     if ( number_percent( ) < 20 * level && !saves_spell( level, victim ) )
     {
-	for ( obj_lose = ch->carrying; obj_lose != NULL; obj_lose = obj_next )
+        for ( obj_lose = oiter.StartList( ch, victim->carrying );
+              obj_lose != NULL; obj_lose = oiter.Next( ) )
 	{
 	    int iWear;
-
-	    obj_next = obj_lose->next_content;
 
 	    if ( number_bits( 2 ) != 0 )
 		continue;
@@ -3851,18 +3859,18 @@ void spell_fire_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     OBJ_DATA *obj_lose;
-    OBJ_DATA *obj_next;
     int dam;
     int hpch;
+    static char str_spell_fire_breath[18] = "spell_fire_breath";
+    ObjIterator oiter;
 
     if ( number_percent( ) < 20 * level && !saves_spell( level, victim ) )
     {
-	for ( obj_lose = victim->carrying; obj_lose != NULL;
-	obj_lose = obj_next )
+        for ( obj_lose = oiter.StartList( ch, victim->carrying );
+              obj_lose != NULL; obj_lose = oiter.Next( ) )
 	{
 	    char *msg;
 
-	    obj_next = obj_lose->next_content;
 	    if ( number_bits( 2 ) != 0 )
 		continue;
 
@@ -3880,7 +3888,7 @@ void spell_fire_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 	    }
 
 	    act( msg, victim, obj_lose, NULL, TO_CHAR, TRUE );
-	    extract_obj( obj_lose, "spell_fire_breath" );
+	    extract_obj( obj_lose, str_spell_fire_breath );
 	}
     }
 
@@ -3898,20 +3906,19 @@ void spell_frost_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     OBJ_DATA *obj_lose;
-    OBJ_DATA *obj_next;
     int dam;
     int hpch;
     char str_spell_frost_breath[19] = "spell_frost_breath";
     char str_freezes_and_shatters[25] = "$p freezes and shatters!";
+    ObjIterator oiter;
 
     if ( number_percent( ) < 40 * level && !saves_spell( level, victim ) )
     {
-	for ( obj_lose = victim->carrying; obj_lose != NULL;
-	obj_lose = obj_next )
+        for ( obj_lose = oiter.StartList( ch, victim->carrying );
+              obj_lose != NULL; obj_lose = oiter.Next( ) )
 	{
 	    char *msg;
 
-	    obj_next = obj_lose->next_content;
 	    if ( number_bits( 2 ) != 0 )
 		continue;
 
@@ -3941,13 +3948,12 @@ void spell_frost_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_gas_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *vch;
-    CHAR_DATA *vch_next;
     int dam;
     int hpch;
+    CharIterator citer;
 
-    for ( vch = ch->in_room->people; vch != NULL; vch = vch_next )
+    for ( vch = citer.Start( ch, CharIterator::ROOM ); vch; vch = citer.Next() )
     {
-	vch_next = vch->next_in_room;
 
 	if ( ch == vch )
 	    continue;

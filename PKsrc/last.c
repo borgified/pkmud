@@ -30,7 +30,7 @@ struct last_info *new_last_info( void )
   li->next = NULL;
   li->name[0] = '\0';
   li->time = 0;
-  li->duration = 0;
+  li->duration = -1;
 
   return li;
 }
@@ -55,7 +55,7 @@ void init_last_table( void )
   last_head->prev = li;
 
   last_head->time = current_time;
-  last_head->duration = 0;
+  last_head->duration = -1;
   sprintf( last_head->name, "Reboot" );
 
   return;
@@ -70,6 +70,7 @@ void update_last( CHAR_DATA *ch )
   last_head = last_head->prev;
   strncpy( last_head->name, ch->name, 14 );
   last_head->time = current_time;
+  last_head->duration = -1;
 
   return;
 }
@@ -94,10 +95,12 @@ void update_last_logoff( CHAR_DATA *ch )
 void do_last( CHAR_DATA *ch, char *argument )
 {
   char buf[MAX_STRING_LENGTH];
+  char timebuf[MAX_STRING_LENGTH];
   extern int war_max, war_total;
   extern time_t war_number;
   extern char last_winner[MAX_NAME_LENGTH+1];
   struct last_info *li;
+  struct tm *time_struct;
 
   sprintf( buf, "Last war: %s\r", ctime( &war_number ) );
   send_to_char( buf, ch );
@@ -115,9 +118,21 @@ void do_last( CHAR_DATA *ch, char *argument )
     if ( li->name[0] == '\0' )
       break;
 
-    sprintf( buf, "%16s %s (%d minutes)\r", li->name, ctime( &li->time ),
-      (int) ( li->duration / 60 ) );
-    send_to_char( buf, ch );
+    time_struct = localtime( &li->time );
+    strftime( timebuf, 1023, "%c %Z", time_struct );
+
+    if ( li->duration > 0 )
+    {
+      sprintf( buf, "%16s %s (online %dh %dm)\n\r", li->name, timebuf,
+        (int) ( li->duration / 3600 ),
+        (int) ( li->duration % 3600 ) / 60 );
+      send_to_char( buf, ch );
+    }
+    else
+    {
+      sprintf( buf, "%16s %s (still online)\n\r", li->name, timebuf );
+      send_to_char( buf, ch );
+    }
     li = li->next;
   }
   while( li != last_head );
