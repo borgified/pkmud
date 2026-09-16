@@ -74,9 +74,9 @@ void do_soulwrite( CHAR_DATA *ch, char *argument ) {
 
 	if( IS_NPC(ch) ) return;
 
-	if( ch->social.name == '\0' || ch->social.charnv == '\0' 
-	||  ch->social.vict == '\0' || ch->social.roomnv == '\0'
-	||  ch->social.room == '\0' || ch->social.charc  == '\0' ) {
+	if( ch->social.name == NULL || ch->social.charnv == NULL 
+	||  ch->social.vict == NULL || ch->social.roomnv == NULL
+	||  ch->social.room == NULL || ch->social.charc  == NULL ) {
 
 		send_to_char("One or more of your social slots is empty. Cannot continue.\n\r", ch );
  		send_to_char("Please type 'soul check' to find the emtpy slot.\n\r", ch );

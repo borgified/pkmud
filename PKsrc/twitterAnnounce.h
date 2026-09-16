@@ -1,7 +1,5 @@
 
 
-#include "../twitcurl/libtwitcurl/twitcurl.h"
-
 #define TWITTER_DISABLE TRUE
 
 class twitterAnnounce
@@ -18,7 +16,6 @@ class twitterAnnounce
     void disable( void ) { enabled = 0; }
 
   private:
-    twitCurl twitterObj;
     int outprio;
     int last_time;
     int delay;

@@ -3,8 +3,8 @@ CC      = g++
 PROF    =
 NOCRYPT =  
 #C_FLAGS =  -Wall $(PROF) $(NOCRYPT) -ggdb
-C_FLAGS =  -Wall $(PROF) $(NOCRYPT) -ggdb -DCPPBUILD
-L_FLAGS =  $(PROF) -lm -lcrypt -ltwitcurl
+C_FLAGS =  -Wall -Wno-narrowing -Wno-write-strings $(PROF) $(NOCRYPT) -ggdb -DCPPBUILD
+L_FLAGS =  $(PROF) -lm -lcrypt
 
 OUT_FILE = PKexecutable
 
@@ -20,7 +20,7 @@ O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o archer.o \
 
 merc: $(O_FILES)
 	rm -f $(OUT_FILE)
-	$(CC) $(L_FLAGS) -o $(OUT_FILE) $(O_FILES)
+	$(CC) -o $(OUT_FILE) $(O_FILES) $(L_FLAGS)
 	chmod 4755 $(OUT_FILE)
 
 .c.o: merc.h
