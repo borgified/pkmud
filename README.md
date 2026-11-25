@@ -1,6 +1,7 @@
 # PKMud Source (PKsrc)
 
 This directory contains the source code for the PKMud server, based on the Merc DikuMUD codebase with C++ extensions.
+The modifications was written by Rob Peckham <peckham@robpeckham.net>
 
 ## Prerequisites
 
