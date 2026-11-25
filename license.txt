@@ -1,0 +1,25 @@
+MERC LICENSE
+
+Merc Diku Mud is a derivative of the original Diku Mud, created by:
+   Hatchet    (hatchet@uclink.berkeley.edu)
+   Furey      (mec@shell.portal.com)
+   Kahn       (michael@uclink.berkeley.edu)
+
+In addition to the original DikuMud license (found in license.doc), which
+you MUST obey in full, the following terms apply to the Merc additions and
+modifications:
+
+1. You may use, modify, and distribute Merc Diku Mud in any way you wish,
+   provided that you obey the DikuMud license and keep all original DikuMud
+   and Merc copyright notices intact in the source files.
+
+2. You may not remove or alter the 'merc' help entry shipped with the area
+   files, nor remove credit to the Merc authors from your documentation or
+   startup screens.
+
+3. If you distribute modified versions of Merc Diku Mud, you must include
+   both this file (license.txt) and the DikuMud license (license.doc)
+   unmodified.
+
+4. Merc Diku Mud is provided "as is" without warranty of any kind. The Merc
+   authors accept no responsibility for any damages resulting from its use.

@@ -1,0 +1,42 @@
+DIKUMUD LICENSE
+
+    This document contains the rules by which you can use, alter or publish
+parts of DikuMud. DikuMud has been created by the following five people:
+
+   Katja Nyboe               (katz@freja.diku.dk)
+   Tom Madsen                (noop@freja.diku.dk)
+   Hans Henrik Staerfeldt    (bombman@freja.diku.dk)
+   Michael Seifert           (seifert@freja.diku.dk)
+   Sebastian Hammer          (quinn@freja.diku.dk)
+
+----------------------------------------------------------------------------
+    
+    DikuMud is a substantial portion of the development time of these five
+people during the last year, and is provided as such. We would like to see
+something in return. This is NOT money, since this product is meant to be
+free to everyone. We would like to see a lot of active, interesting, and
+creative games developed, and would like to know about them. We would also
+like to know that our work has been useful to you, and that you appreciate
+our efforts.
+
+Therefore, the rules are as follows:
+
+1. You may NOT use DikuMud to make money in ANY way. This includes charging
+   users to play, accepting donations for in-game benefits, or selling any
+   part of the code or documentation.
+
+2. You may alter the code in any way you wish, provided that you retain the
+   original copyright notices in all files, and that you do not remove the
+   names of the original authors from the login sequence or the 'credits'
+   command.
+
+3. If you distribute a modified version of DikuMud, you must include this
+   license document intact, and you must clearly state that your version is
+   derived from DikuMud.
+
+4. You must notify the DikuMud authors if you put up a publicly accessible
+   game based on DikuMud.
+
+5. DikuMud is provided "as is", without any warranty of any kind, either
+   expressed or implied. The authors are not liable for any damages arising
+   from the use of this software.
