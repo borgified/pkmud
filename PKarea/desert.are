@@ -1,0 +1,153 @@
+#AREA 	Chrome~
+Connectors~
+1|16 100
+
+#HELPS
+0 $~
+
+#MOBILES
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#13200
+The deserted mountain pass~
+You have just stepped onto what seems to be a pass that has been blocked off
+for ages by a simple avalanche.
+~
+0 0 5
+D1
+Mountain Pass.
+~
+~
+0 -1 2545	
+D3
+The not so deserted mountain pass
+~
+~
+0 -1 13201
+S
+#13201
+The not so deserted mountain pass~
+You see tracks of many vehicles that have passed here before cut deep into the
+ground as if heavily loaded with supplies...mayhaps someone or something has
+been trying to clear off the avalanche.
+~
+0 0 5
+D1
+The deserted mountain pass~
+~
+0 -1 13200
+D3
+The well travled road into the desert~
+~
+0 -1 13202
+S
+#13202
+The well travled road in the small desert~
+Just ahead is a small desert plain that has seem to have evolved from the
+erosion of the mountains east of here...The road heads on and you feel you must
+as well for the compelling urge of treasure and the excitement of adventure
+wells up in your soul.
+~
+0 0 5
+D1
+The not so deserted mountain pass~
+~
+0 -1 13201
+D0
+The town in the distance~
+~
+0 -1 13203
+S
+#13203
+The town in the distance~
+Just north of you is the south gates of a town, and you begin to wonder how a
+town could have prospered so close to Hell without even the eldest sages
+knowing of its existance...
+~
+0 0 5
+D2
+The well traveled road in the small desert~
+~
+0 -1 13202
+D0
+South of SouthGate~
+~
+0 -1 13109
+S
+#13300
+Climbing the Mountain~
+Your travels have been long and tedious but now you are at the fabled mountain
+of Anglere, now your only problem is getting to the top...
+~
+0 16384 5
+D5
+The end of the Path.
+~
+~
+0 -1 4002	
+D4
+Climbing the mountain
+~
+~
+0 -1 13301
+S
+#13301
+Climbing the Mountain~
+You see nothing but loose gravel and few handholds as you travail to the utmost
+point of Anglere...and you begin to lose heart until you see a harpy flying
+nearby.
+~
+0 16384 5
+D5
+Climbing the mountain~
+~
+0 -1 13300
+D3
+Further up on the mountain~
+~
+0 -1 13302
+S
+#13302
+Further up on the Mountain~
+Just an illusion is all you can think as the tip of Anglere is just up ahead,
+and the wind whistles around you so strongly you feel as though you are about
+to be thrown down to your doom.
+~
+0 16384 5
+D5
+Further up on the mountain~
+~
+0 -1 13301
+D0
+Hell of a jump~
+~
+0 -1 13303
+S
+#13303
+Hell of a Jump~
+You have finally reached the top most point of Anglere but to no avail the jump
+ahead of you is more than a human could stand...and to think just ahead is a
+cloud that seems strong enough to support your weight.
+~
+0 16384 9
+D5
+~
+~
+0 -1 13302
+D0
+A large, white, fairly solid looking cloud.
+~
+~
+0 -1 9101
+S
+#0
+#RESETS
+S
+#SPECIALS
+S
+
+#$

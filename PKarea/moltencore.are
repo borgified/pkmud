@@ -1,0 +1,992 @@
+#AREA Rip~
+Molten Fun~
+0 50
+
+#MOBILES
+#1600
+salamander brown lucifron~
+Lucifron~
+A brown salamander stands about waiting to die.
+~
+He makes hunters not entirely useless.
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1601
+salamander orange flamewalker protector~
+Flamewalker Protector~
+An orange salamander follows the brown one around.
+~
+ITS A SALAMANDER.
+~
+1|2|32 0 0 P
+3 1
+#1602
+dog two headed magmadar~
+Magmadar~
+A large two headed dog is here, looking like all the others.
+~
+Yep, exactly the same.
+~
+1|2|32 0 0 P
+3 1
+#1603
+salamander bright orange gehennas~
+Gehennas~
+A bright orange salamander is here looking dumb.
+~
+Yeah.. just like the other one.
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1604
+salamander dull orange flamewalker~
+Flamewalker~
+A dull orange salamander is here near the bright one.
+~
+I'm a salamander guard.  It's what I do.
+~
+1|2|32 0 0 P
+3 1
+#1605
+big black rock garr~
+Garr~
+A big black rock.  With mini rock friends.  Sits here.
+~
+A very large, black rock.  He doesn't drop Thunderfury normally.
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1606
+small black rock firesworn~
+Firesworn~
+A small black rock is here making it harder to kill the big one.
+~
+Ok, well, small is relative.  It's still larger than you.
+~
+1|2|32 0 0 P
+3 1
+#1607
+blue salamander shazzrah~
+Shazzrah~
+A large blue salamander is here casting lots of area spells.. on you.
+~
+This one is blue.  Very different.
+~
+1|2|32 8|64 0 P
+3 1
+#1608
+fire elemental baron geddon~
+Baron Geddon~
+A large, red, fire colored fire elemental is here burning.
+~
+See look description.  Really.  That just about says it.
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1609
+bright orange salamander sulfuron harbinger~
+Sulfuron Harbinger~
+Another bright orange salamander... kill it, please.
+~
+Blah blah blah.  Seriously, why is it still alive?
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1610
+dull orange salamander sulfuron guard~
+Sulfuron's Guard~
+A dull orange salamander playing tic-tac-toe with the bright one.
+~
+What, monsters can't play tic-tac-toe while waiting to die?
+~
+1|2|32 0 0 P
+3 1
+#1611
+giant magma golem golemagg incinerator~
+Golemagg the Incinerator~
+A giant magma golem is standing here preparing a can of whoop-nothing.
+~
+Black.  Red.  Orange.  All the colors of the magmabow.
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1612
+rager core dog~
+Core Rager~
+A two headed angry flaming doggy is here.
+~
+It's actually quite the fluffy puppy.
+~
+1|2|32 0 0 P
+3 1
+#1613
+grey large salamander majordomo domo executus~
+Majordomo Executus~
+A very large grey salamander is here wishing this was actually WoW.
+~
+See, in WoW, you wouldn't actually kill him.  But he doesn't know that
+Ragnaros is going to wtfpwn him in fast order like a kaboomsplat wtf am
+I talking about?
+~
+1|2|32 8|64|2048 0 P
+3 1
+#1614
+orange salamander flamewalker elite~
+Flamewalker Elite~
+An orange salamander is here pretending he isn't about to die is here.
+~
+Wipes noobs.   But he's level 2 here.
+~
+1|2|32 0 0 P
+1 1
+#1615
+yellow salamander flamewalker priest~
+Flamewalker Priest~
+A yellow salamander is here annoying you.
+~
+Turns noobs into sheep?
+~
+1|2|32 0 0 P
+1 1
+#1616
+elemental hammer fire flame red hammer ragnaros~
+Ragnaros~
+A red flaming fire elemental with a flaming hammer is here flaming.
+~ 
+He's totally on fire.
+~
+1|2|32 2048 0 P
+3 1
+#1617
+giant molten~
+Molten Giant~
+A red molten giant is here magmaing.  What's magmaing mean anyways?
+~
+LIQUID HOT MAGMA!
+~
+1|2|32 0 0 P
+2 1
+#1618
+fire elemental firelord lord~
+Firelord~
+A fire elemental is here pooping out smaller elementals.
+~
+It's fiery.
+~
+1|2|32 0 0 P
+2 1
+#1619
+lava spawn fire~
+Lava Spawn~
+A tiny fire elemental you'll probably never see this description for.
+~
+Tiny fiery.
+~
+1|2|32 0 0 P
+1 1
+#1620
+lava annihilator rock black~
+Lava Annihilator~
+A black rock preventing you from getting where you really want to go.
+~
+Stun stun!
+~
+1|2|32 0 0 P
+2 1
+#1621
+ancient core hound two dog headed~
+Ancient Core Hound~
+A two headed flaming dog is here attempting eating you whole?
+~
+Woof.
+~
+1|2|32 0 0 P
+3 1
+#1622
+lava surger rock black~
+Lava Surger~
+A black rock is here punting you into other rocks and firey things.
+~
+Even if you're not a gnome!
+~
+1|2|32 0 0 P
+3 1
+#1623
+flame imp~
+Flame Imp~
+A tiny little imp is here area affect bombing your group.. er.. well, you?
+~
+These would be far more dangerous if their ae worked.
+~
+1|2|32 0 0 P
+1 1
+#1624
+core hound dog two headed~
+Core Hound~
+A two headed dog is following another dog around.
+~
+DOTS!  MORE DOTS!
+~
+1|2|32 0 0 P
+1 1
+#1625
+flame guard flameguard~
+Flameguard~
+A flameguard is here waiting to make you take a lot of fire damage.
+~
+Only added for the debuff he may or may not apply, if he's been procced yet.
+~
+1|2|32 0 0 P
+3 1
+#0
+
+#OBJECTS
+#1601
+earthshaker mace~
+Earthshaker~
+A large mace sits here shakin the land.~
+~
+5 2|64 8193
+0 4 4 8
+17 100 25
+A
+19 1
+#1602
+heavy dark iron ring~
+Heavy Dark Iron Ring~
+A ring made of dark iron lies in the dust.~
+~
+9 4|64 3
+0 0 0 0
+1 100 25
+A
+13 20
+A
+17 -20
+A
+33 2
+#1603
+shadowstrike vendorstrike~
+Shadowstrike~
+A very expensive, but ineffective polearm is here, waiting to be sold.~
+~
+5 64 8193
+0 2 4 3
+12 3000 25
+#1604
+flamewalker legplates leg plates~
+Flamewalker Legplates~
+A fine pair of red legplates lies discarded here.~
+~
+9 64 33
+9 0 0 0
+15 100 25
+A
+1 2
+A
+13 20
+A
+30 10
+A
+35 10
+#1605
+quick strike ring~
+Quick Strike Ring~
+A finely crafted ring lies in the dust.~
+~
+9 64 3
+0 0 0 0
+1 100 25
+A
+1 5
+A
+13 8
+#1606
+drillborer disk shield~
+Drillborer Disk (plus physical reflect)~
+A glowing magma shield lies in the dust.~
+~
+9 64 513
+10 0 0 0
+10 100 25
+A
+13 20
+A
+33 3
+#1607
+sulfuras hand ragnaros hammer~
+Sulfuras, Hand of Ragnaros~
+A large flaming hammer sits here.~
+~
+5 64 8193
+0 4 6 7
+20 150 10
+#1608
+thunderfury blade windseeker blessed sword~
+Thunderfury, Blessed Blade of the Windseeker~
+A sparkly sword sits here.~
+~
+5 64 8193
+0 2 8 3
+17 150 5
+#1609
+essence pure flame bracelet~
+Essence of the Pure Flame (fireshield proc)~
+A shiny red bracelet is here in the dust.~
+~
+9 64 4097
+0 0 0 0
+1 100 5
+#1610
+accuria band ring purple~
+Band of Accuria~
+A tiny purple ring lies here in the dust.~
+~
+9 64 3
+0 0 0 0
+1 100 10
+A
+13 10
+A
+18 3
+A
+19 2
+#1611
+dragon blood dragon's cape red white~
+Dragon's Blood Cape~
+A red and white cape lies draped across the floor.~
+~
+9 64 32769
+0 0 0 0
+3 150 10
+A
+1 1
+A
+13 25
+A
+17 -15
+A
+30 5
+A
+34 5
+A
+35 5
+#1612
+rhok'delar rhok longbow bow ancient keepers leaf~
+Rhok'Delar, Longbow of the Ancient Keepers~
+A leaf covered bow sits propped up against a rock.~
+~
+5 64|1048576 8193
+64 6 6 4
+7 150 20
+#0
+
+#ROOMS
+#1600
+Entrance to the Molten Core~
+MOLTEN FUN.
+~
+16 1|4|8 0
+D0
+~
+~
+0 0 11111
+D1
+~
+~
+0 0 1601
+S
+#1601
+Warm Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1602
+D3
+~
+~
+0 0 1600
+S
+#1602
+Warm Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1603
+D3
+~
+~
+0 0 1601
+S
+#1603
+Warm Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1602
+D2
+~
+~
+0 0 1604
+S
+#1604
+Warm Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1603
+D1
+~
+~
+0 0 1605
+D2
+~
+~
+0 0 1613
+S
+#1605
+Warmer Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1606
+D3
+~
+~
+0 0 1604
+S
+#1606
+Warmer Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1607
+D3
+~
+~
+0 0 1605
+S
+#1607
+Entering a Volcanic Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1606
+D1
+~
+~
+0 0 1608
+S
+#1608
+A Scorched Volcanic Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1609
+D3
+~
+~
+0 0 1607
+S
+#1609
+Lucifron's Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1610
+D3
+~
+~
+0 0 1608
+S
+#1610
+Volcanic Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1611
+D2
+~
+~
+0 0 1609
+S
+#1611
+Flaming Doggie Doo Filled Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1612
+D2
+~
+~
+0 0 1610
+S
+#1612
+Magmadar's Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1611
+S
+#1613
+Warmer Volcanic Ridge~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1604
+D2
+~
+~
+0 0 1614
+S
+#1614
+Deeper into the Volcanic Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1613
+D1
+~
+~
+0 0 1633
+D3
+~
+~
+0 0 1615
+S
+#1615
+Gehennas Fire Rain Cave~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1614
+D2
+~
+~
+0 0 1616
+S
+#1616
+A Lava Duct~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1615
+D2
+~
+~
+0 0 1617
+S
+#1617
+A Lava Duct~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1616
+D2
+~
+~
+0 0 1618
+S
+#1618
+Garr's Colisseum of Stone~
+MOLTEN FUN.
+~
+16 1|8 1
+D0
+~
+~
+0 0 1617
+D1
+~
+~
+0 0 1619
+S
+#1619
+A Lava Duct~
+MOLTEN FUN.
+~
+16 1|8 1
+D1
+~
+~
+0 0 1620
+D3
+~
+~
+0 0 1618
+S
+#1620
+Shazzrah's Lava Island~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1621
+D3
+~
+~
+0 0 1619
+S
+#1621
+Ledge Above the Lava River~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1622
+D3
+~
+~
+0 0 1620
+S
+#1622
+The Barony of Fire~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1623
+D3
+~
+~
+0 0 1621
+S
+#1623
+A Fork in the Lava Paths~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1627
+D2
+~
+~
+0 0 1624
+D3
+~
+~
+0 0 1622
+S
+#1624
+Ledge Above the Lava River~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1623
+D1
+~
+~
+0 0 1625
+S
+#1625
+Ledge Above the Lava River~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1626
+D3
+~
+~
+0 0 1624
+S
+#1626
+Stadium of the Harbinger~
+MOLTEN FUN.
+~
+16 1|8 0
+D3
+~
+~
+0 0 1625
+S
+#1627
+Volcanic Rock Ramp~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1628
+D2
+~
+~
+0 0 1623
+S
+#1628
+Forked Volcanic Precipice~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1629
+D1
+~
+~
+0 0 1631
+D3
+~
+~
+0 0 1627
+S
+#1629
+Descending to a Volanic Pit~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1628
+D3
+~
+~
+0 0 1630
+S
+#1630
+Golemagg's Volcanic Mosh Pit~
+MOLTEN FUN.
+~
+16 1|8 0
+D1
+~
+~
+0 0 1629
+S
+#1631
+Volanic Precipice~
+MOLTEN FUN.
+~
+16 1|8 0
+D0 
+~
+~
+0 0 1632
+D3
+~
+~
+0 0 1628
+S
+#1632
+The Majordomo's Welcoming Room~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1631
+S
+#1633
+Lava Duct in the Core~
+MOLTEN FUN.
+~
+16 1|8 0
+D2
+~
+~
+0 0 1634
+D3
+~
+~
+0 0 1614
+S
+#1634
+Lava Duct in the Core~
+MOLTEN FUN.
+~
+16 1|8 0
+D0
+~
+~
+0 0 1633
+D1
+~
+~
+0 0 1635
+S
+#1635
+The Throne of Ragnaros~
+MOLTEN FUN.
+~
+16 1|8 0
+D3
+~
+~
+0 0 1634
+S
+#0
+
+
+#RESETS
+M 0 1600 1 1609      Lucifron
+G 1 1605 1                 Quick Strike Ring
+M 0 1601 2 1609      Flamewalker Protector
+M 0 1601 2 1609      Flamewalker Protector
+M 0 1602 1 1612      Magmadar
+G 1 1601 1                 Earthshaker
+M 0 1603 1 1615      Gehennas
+G 1 1602 1                 Heavy Dark Iron Ring
+M 0 1604 2 1615      Flamewalker
+M 0 1604 2 1615      Flamewalker
+M 0 1605 1 1618      Garr
+G 1 1606 1                 Drillborer Disk
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1606 8 1618      Firesworn
+M 0 1607 1 1620      Shazzrah
+M 0 1608 1 1622      Baron Geddon
+G 1 1608 1                 Thunderfury
+M 0 1609 1 1626      Sulfuron Harbinger
+G 1 1603 1                 Shadowstrike
+M 0 1610 4 1626      Sulfuron's Guard
+M 0 1610 4 1626      Sulfuron's Guard
+M 0 1610 4 1626      Sulfuron's Guard
+M 0 1610 4 1626      Sulfuron's Guard
+M 0 1611 1 1630      Golemagg
+G 1 1604 1                 Flamewalker Legplates
+M 0 1612 2 1630      Core Rager
+M 0 1612 2 1630      Core Rager
+M 0 1613 1 1632      Majordomo Executus
+G 1 1612 1                 Rhok'Delar
+M 0 1614 4 1632      Flamewalker Elite
+M 0 1614 4 1632      Flamewalker Elite
+M 0 1614 4 1632      Flamewalker Elite
+M 0 1614 4 1632      Flamewalker Elite
+M 0 1615 4 1632      Flamewalker Healer
+M 0 1615 4 1632      Flamewalker Healer
+M 0 1615 4 1632      Flamewalker Healer
+M 0 1615 4 1632      Flamewalker Healer
+M 0 1616 1 1635      Ragnaros
+G 1 1607 1                 Sulfuras
+G 1 1609 1                 Essence of the Pure Flame
+G 1 1610 1                 Band of Accuria
+G 1 1611 1                 Dragon's Blood Cape
+M 0 1617 6 1601      Molten Guard
+M 0 1617 6 1601      Molten Guard
+M 0 1617 6 1605      Molten Guard
+M 0 1617 6 1605      Molten Guard
+M 0 1617 6 1614      Molten Guard
+M 0 1617 6 1614      Molten Guard
+M 0 1618 5 1602      Firelord
+M 0 1619 50 1602      Lava Spawn
+M 0 1618 5 1604      Firelord
+M 0 1619 50 1604      Lava Spawn
+M 0 1618 5 1616      Firelord
+M 0 1619 50 1616      Lava Spawn
+M 0 1618 5 1623      Firelord
+M 0 1619 50 1623      Lava Spawn
+M 0 1618 5 1633      Firelord
+M 0 1619 50 1633      Lava Spawn
+M 0 1620 2 1613      Lava Annihilator
+M 0 1620 2 1631      Lava Annihilator
+M 0 1621 4 1603      Ancient Core Hound
+M 0 1621 4 1617      Ancient Core Hound
+M 0 1621 4 1619      Ancient Core Hound
+M 0 1621 4 1624      Ancient Core Hound
+M 0 1622 4 1606      Lava Surger
+M 0 1622 4 1607      Lava Surger
+M 0 1622 4 1628      Lava Surger
+M 0 1622 4 1634      Lava Surger
+M 0 1623 6 1608      Flame Imp
+M 0 1623 6 1608      Flame Imp
+M 0 1623 6 1608      Flame Imp
+M 0 1623 6 1608      Flame Imp
+M 0 1623 6 1608      Flame Imp
+M 0 1623 6 1608      Flame Imp
+M 0 1624 8 1610      Core Hound
+M 0 1624 8 1610      Core Hound
+M 0 1624 8 1610      Core Hound
+M 0 1624 8 1610      Core Hound
+M 0 1624 8 1611      Core Hound
+M 0 1624 8 1611      Core Hound
+M 0 1624 8 1611      Core Hound
+M 0 1624 8 1611      Core Hound
+M 0 1625 4 1621      Flameguard
+M 0 1625 4 1625      Flameguard
+M 0 1625 4 1627      Flameguard
+M 0 1625 4 1629      Flameguard
+S
+
+#SPECIALS
+O 1601 spec_stun_weapon
+O 1603 spec_vampiric_weapon
+O 1607 spec_fireball_weapon
+O 1608 spec_lightning_weapon
+S
+
+
+#$

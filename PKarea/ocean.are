@@ -1,0 +1,1672 @@
+#AREA Wyrd~
+Ocean~
+0 70
+
+#MOBILES
+#1001
+village soldier~
+a village soldier~
+A frail-looking soldier stands here.
+~
+He looks sickly and under-nourished, and smells like rotting
+seaweed.
+~
+2|32 8 0 P
+2 1
+#1002
+male villager~
+a male villager~
+A male villager wanders around.
+~
+He returns your gaze with fear in his eyes.
+~
+64 0 0 P
+2 1
+#1003
+female villager~
+a female villager~
+A female villager wanders around.
+~
+She returns your gaze with lust in her eyes.
+~
+64 0 0 P
+2 2
+#1004
+village child~
+a village child~
+A village child lies here, asleep.
+~
+ou notice the child's gentle snoring and laboured
+breathing.
+~
+2 8192 0 P
+1 0
+#1005
+village shaman man~
+the village shaman~
+A large, important-looking man stands here, glaring at you.
+~
+He is dressed from head to foot in clothing made from coral
+and seaweed.  He smells like fish.
+~
+2|4 2|8|64|128|2048 0 P
+3 1
+#1006
+undead sailor~
+an undead sailor~
+An undead sailor lurches at you!
+~
+His sailor suit is in pristine condition, but his body is
+ghastly white and slimy-looking.  He appears to glow in the
+dark.
+~
+2|4|32 8|128|1048576 -1000 P
+4 0 
+#1007
+undead captain~
+the undead ship's captain~
+The ship's captain floats towards you!
+~
+He stares at you with his one good eye.
+~
+2|4|32 8|128|1048576 -1000 P
+7 0
+#1008
+undead first mate~
+the undead first mate~
+The ghostly form of the ship's first mate hovers here.
+~
+He winks at you.
+~
+2|4 2|2048 0 P
+4 0
+#1009
+aged wizard~
+an aged wizard~
+An aged wizard sits here in deep study.
+~
+Better not disturb him... he looks busy.
+~
+2 16777216 0 P
+4 1
+#1010
+bird prey vulture~
+a vulture~
+A bird of prey circles above.
+~
+This guy looks hungry.  He must be looking for some poor
+fool's bones to pick clean.
+~
+64 524288 0 P
+2 0
+#1011
+huge stone statue~
+a huge stone statue~
+A huge statue occupies the centre of the cave.
+~
+It's carved in the likliness of Wyrd.
+~
+2 64|128 0 P
+4 0
+#1012
+old man stranded mariner~
+a stranded mariner~
+An old man appears to be stranded here.
+~
+He looks thin and hungry.
+~
+2|4 65536 0 P
+3 1
+#0
+
+#OBJECTS
+#1001
+coral sword~
+a coral sword~
+A sword made from coral is here.~
+~
+5 64|524288 8193
+0 5 5 3
+15 100 25
+A
+24 -1
+#1002
+seaweed shirt~
+a shirt made from seaweed~
+A shirt made out of seaweed is here.~
+~
+9 64 9
+10 0 0 0
+5 100 25
+A
+24 -1
+A
+2 2
+#1003
+bucket seawater~
+a bucket of seawater~
+A bucket of seawater lies here.~
+~
+17 0 1
+5 5 0 1
+10 100 5
+#1004
+rusty steel dagger~
+a rusty steel dagger~
+A rusty dagger lies here.~
+~
+5 1|2|64 8193
+0 6 4 11
+15 100 30
+A
+18 1
+A
+19 1
+#1005
+jagged knife~
+a jagged knife~
+A jagged knife lies here.~
+~
+5 0 8193
+0 12 1 2
+15 100 50
+A
+18 1
+A
+25 10
+#1006
+sailor hat~
+a sailor hat~
+A big white hat is here.~
+~
+9 64 17
+8 0 0 0
+5 100 30
+A
+5 1
+A
+25 5
+#1007
+eyepatch patch~
+an eyepatch~
+A big eyepatch is here.~
+~
+9 64 17
+3 0 0 0
+5 100 30
+A
+3 2
+#1008
+tattered pants~
+some tattered pants~
+Some tattered pants are here.~
+~
+9 64 33
+10 0 0 0
+5 100 30
+A
+25 5
+A
+26 5
+#1009
+tattered shirt~
+a tattered shirt~
+A tattered shirt is here.~
+~
+9 64 9
+10 0 0 0
+5 100 30
+A
+25 5
+A
+26 5
+#1010
+rope belt~
+a rope belt~
+A rope belt is here.~
+~
+9 64 2049
+10 0 0 0
+5 100 30
+A
+25 5
+A
+26 5
+#1011
+big stick~
+a big stick~
+A big stick is here.~
+~
+5 0 8193
+0 5 5 7
+16 100 50
+A
+1 1
+A
+13 10
+#1012
+chest~
+a chest~
+~
+~
+15 0 0
+200 0 0 0
+1000 0 100
+#1013
+ornate purple robe~
+an ornate purple robe~
+An ornate purple robe is here.~
+~
+15 64 1025
+150 0 0 0
+10 1000 30
+A
+3 2
+A
+26 15
+#1014
+fur boots~
+some fur boots~
+Some fur boots are here.~
+~
+9 64 65
+10 0 0 0
+10 100 30
+A
+5 1
+#1015
+big chunk stone~
+a big chunk of stone~
+A big chunk of stone is here.~
+~
+30 0 5
+20 0 0 0
+25 100 100
+A
+26 5
+A
+13 10
+#1016
+coins~
+a pile of gold coins~
+A pile of gold coins is here.~
+~
+20 0 1
+12 0 0 0
+15 100 75
+#1017
+shark tooth necklace~
+a shark-tooth necklace~
+A necklace made of shark's teeth is here.~
+~
+9 64 5
+10 0 0 0
+5 100 10
+A
+19 3
+#1018
+feather~
+a feather~
+A big black feather is here.~
+~
+13 0 16385
+0 0 0 0
+1 0 25
+A
+24 -2
+#1019
+silver bracelet~
+a silver bracelet~
+An expensive-looking silver bracelet is here.~
+~
+9 64|256 4097
+10 0 0 0
+10 100 15
+A
+12 20
+A
+13 20
+#1020
+crate~
+a crate~
+~
+~
+15 0 0
+200 0 0 0
+1000 0 100
+#1021
+rusted iron key~
+a rusted iron key~
+A rusted iron key is here.~
+~
+18 0 1
+0 0 0 0
+1 50 100
+#1022
+sapphire ring~
+a sapphire ring~
+A sapphire ring catches your eye.~
+~
+9 64 3
+10 0 0 0
+5 100 35
+A
+3 1
+A
+4 1
+#1023
+coral amulet~
+a coral amulet~
+A coral amulet is here.~
+~
+30 0 5
+10 0 0 0
+10 100 30
+A
+17 -5
+#1024
+huge seaweed robe~
+a huge seaweed robe~
+A huge robe made from seaweed is here.~
+~
+9 64 1025
+10 0 0 0
+20 100 30
+A
+2 2
+A
+26 5
+#0
+
+#ROOMS
+#1001
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 11105
+D1
+~
+~
+0 0 1002
+D2
+~
+~
+0 0 1011
+S
+#1002
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1003
+D2
+~
+~
+0 0 1012
+D3
+~
+~
+0 0 1001
+S
+#1003
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1004
+D2
+~
+~
+0 0 1013
+D3
+~
+~
+0 0 1002
+S
+#1004
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1005
+D2
+~
+~
+0 0 1014
+D3
+~
+~
+0 0 1003
+S
+#1005
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1006
+D2
+~
+~
+0 0 1015
+D3
+~
+~
+0 0 1004
+S
+#1006
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D2
+~
+~
+0 0 1016
+D3 
+~
+~
+0 0 1005
+
+S
+#1007
+A Communal Hut~
+Type CONFIG +BRIEF in now.
+~
+10 1|8 0
+
+D1
+a door~
+door~
+1 -1 1008
+S
+#1008
+A Worn Path~
+Type CONFIG +BRIEF in now.
+~
+10 0 1
+D2
+~
+~
+0 0 1018
+D3
+a door~
+door~
+1 -1 1007
+S
+#1009
+An Empty Space~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D2
+a door~
+door~
+1 -1 1019
+S
+#1010
+A Large, Two-Story Dwelling~
+Type CONFIG +BRIEF in now.
+~
+10 1|8 0
+D2
+a door~
+door~
+1 -1 1020
+D4
+~
+~
+0 0 1061
+S
+#1011
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1001
+D1
+~
+~
+0 0 1012
+D2
+~
+~
+0 0 1021
+S
+#1012
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1002
+D1
+~
+~
+0 0 1013
+D2
+~
+~
+0 0 1022
+D3
+~
+~
+0 0 1011
+S
+#1013
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1003
+D1
+~
+~
+0 0 1014
+D2
+~
+~
+0 0 1023
+D3
+~
+~
+0 0 1012
+S
+#1014
+A Coral Reef~
+Type CONFIG +BRIEF in now.
+~
+10 0 6
+D0
+~
+~
+0 0 1004
+D1
+~
+~
+0 0 1015
+D2
+~
+~
+0 0 1024
+D3
+~
+~
+0 0 1013
+S
+#1015
+A Coral Reef~
+Type CONFIG +BRIEF in now.
+~
+10 0 6
+D0
+~
+~
+0 0 1005
+D1
+~
+~
+0 0 1016
+D2
+~
+~
+0 0 1025
+D3
+~
+~
+0 0 1014
+S
+#1016
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1006
+D1
+a large rock~
+rock~
+1 -1 1017
+D2
+~
+~
+0 0 1026
+D3
+~
+~
+0 0 1015
+S
+#1017
+A Large, Dusty Cave~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D1
+a boulder~
+boulder~
+1 -1 1018
+D3
+a large rock~
+rock~
+1 -1 1016
+S
+#1018
+A Worn Path~
+Type CONFIG +BRIEF in now.
+~
+10 0 1
+D1
+~
+~
+0 0 1008
+D2
+~
+~
+0 0 1019
+D3
+door~
+~
+1 0 1017
+S
+#1019
+A Worn Path~
+Type CONFIG +BRIEF in now.
+~
+10 0 1
+D0
+a door~
+door~
+1 -1 1009
+D1
+~
+~
+0 0 1020
+D3
+~
+~
+0 0 1018
+S
+#1020
+A Worn Path~
+Type CONFIG +BRIEF in now.
+~
+10 0 1
+D0
+a door~
+door~
+1 -1 1010
+D3
+~
+~
+0 0 1019
+S
+#1021
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1011
+D1
+~
+~
+0 0 1022
+D2
+~
+~
+0 0 1031
+S
+#1022
+Rough Waters~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1012
+D1
+~
+~
+0 0 1023
+D2
+~
+~
+0 0 1032
+D3
+~
+~
+0 0 1021
+S
+#1023
+Caught in the Whirlpool~
+Type CONFIG +BRIEF in now.
+~
+10 4 7
+D0
+~
+~
+0 0 1013
+D1
+~
+~
+0 0 1024
+D2
+~
+~
+0 0 1033
+D3
+~
+~
+0 0 1022
+D5
+a whirlpool~
+whirlpool~
+1 -1 1062
+S
+#1024
+Rough Waters~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1014
+D1
+~
+~
+0 0 1025
+D2
+~
+~
+0 0 1034
+D3
+~
+~
+0 0 1023
+S
+#1025
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1015
+D1
+~
+~
+0 0 1026
+D2
+~
+~
+0 0 1035
+D3
+~
+~
+0 0 1024
+S
+#1026
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1016
+D1
+~
+~
+0 0 1027
+D2
+~
+~
+0 0 1036
+D3
+~
+~
+0 0 1025
+S
+#1027
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1028
+D2
+~
+~
+0 0 1037
+D3
+~
+~
+0 0 1026
+S
+#1028
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1029
+D2
+~
+~
+0 0 1038
+D3
+~
+~
+0 0 1027
+S
+#1029
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D1
+~
+~
+0 0 1030
+D2
+~
+~
+0 0 1039
+D3
+~
+~
+0 0 1028
+S
+#1030
+By the Cliffs~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D2
+~
+~
+0 0 1040
+D3
+~
+~
+0 0 1029
+S
+#1031
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1021
+D1
+~
+~
+0 0 1032
+D2
+~
+~
+0 0 1041
+S
+#1032
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1022
+D1
+~
+~
+0 0 1033
+D2
+~
+~
+0 0 1042
+D3
+~
+~
+0 0 1031
+S
+#1033
+Rough Waters~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0 
+~
+~
+0 0 1023
+D1
+~
+~
+0 0 1034
+D2
+~
+~
+0 0 1043
+D3
+~
+~
+0 0 1032
+S
+#1034
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1024
+D1
+~
+~
+0 0 1035
+D2
+~
+~
+0 0 1044
+D3
+~
+~
+0 0 1033
+S
+#1035
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1025
+D1
+~
+~
+0 0 1036
+D2
+~
+~
+0 0 1045
+D3
+~
+~
+0 0 1034
+S
+#1036
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0 
+~
+~
+0 0 1026
+D1
+~
+~
+0 0 1037
+D2
+~
+~
+0 0 1046
+D3
+~
+~
+0 0 1035
+S
+#1037
+In the Mist~
+Type CONFIG +BRIEF in now.
+~
+10 1 7
+D0
+~
+~
+0 0 1027
+D1
+~
+~
+0 0 1038
+D2
+~
+~
+0 0 1047
+D3
+~
+~
+0 0 1036
+S
+#1038
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1028
+D1
+~
+~
+0 0 1039
+D2
+~
+~
+0 0 1048
+D3
+~
+~
+0 0 1037
+S
+#1039
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1029
+D1
+~
+~
+0 0 1040
+D2
+~
+~
+0 0 1049
+D3
+~
+~
+0 0 1038
+S
+#1040
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1030
+D2
+~
+~
+0 0 1050
+D3
+~
+~
+0 0 1039
+S
+#1041
+An Island~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0
+~
+~
+0 0 1031
+D1
+~
+~
+0 0 1042
+D2
+~
+~
+0 0 1051
+S
+#1042
+An Island~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0
+~
+~
+0 0 1032
+D2
+~
+~
+0 0 1052
+D3
+~
+~
+0 0 1041
+S
+#1043
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1033
+D1
+~
+~
+0 0 1044
+D2
+~
+~
+0 0 1053
+S
+#1044
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1034
+D1
+~
+~
+0 0 1045
+D2
+~
+~
+0 0 1054
+D3
+~
+~
+0 0 1043
+S
+#1045
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1035
+D1
+~
+~
+0 0 1046
+D2
+~
+~
+0 0 1055
+D3
+~
+~
+0 0 1044
+S
+#1046
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1036
+D1
+~
+~
+0 0 1047
+D2
+~
+~
+0 0 1056
+D3
+~
+~
+0 0 1045
+S
+#1047
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1037
+D1
+~
+~
+0 0 1048
+D2
+~
+~
+0 0 1057
+D3
+~
+~
+0 0 1046
+S
+#1048
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1038
+D1
+~
+~
+0 0 1049
+D2
+~
+~
+0 0 1058
+D3
+~
+~
+0 0 1047
+S
+#1049
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1039
+D1
+~
+~
+0 0 1050
+D2
+~
+~
+0 0 1060
+D3
+~
+~
+0 0 1048
+S
+#1050
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1040
+D2
+~
+~
+0 0 1060
+D3
+~
+~
+0 0 1049
+S
+#1051
+An Island~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0
+~
+~
+0 0 1041
+D1
+~
+~
+0 0 1052
+D2
+~
+~
+0 0 1065
+S
+#1052
+An Island~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0
+~
+~
+0 0 1042
+D3
+~
+~
+0 0 1051
+S
+#1053
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1043
+D1
+~
+~
+0 0 1054
+D3
+~
+~
+0 0 1052
+S
+#1054
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1044
+D1
+~
+~
+0 0 1055
+D3
+~
+~
+0 0 1053
+S
+#1055
+On the Rocks~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0
+~
+~
+0 0 1045
+D1
+~
+~
+0 0 1056
+D3
+~
+~
+0 0 1054
+S
+#1056
+On the Rocks~
+Type CONFIG +BRIEF in now.
+~
+10 0 0
+D0 
+~
+~
+0 0 1046
+D1
+~
+~
+0 0 1057
+D3
+~
+~
+0 0 1055
+S
+#1057
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1047
+D1
+~
+~
+0 0 1058
+D3
+~
+~
+0 0 1056
+S
+#1058
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0 
+~
+~
+0 0 1048
+D1
+~
+~
+0 0 1059
+D3
+~
+~
+0 0 1057
+S
+#1059
+On the Sea~
+Type CONFIG +BRIEF in now.
+~
+10 0 7
+D0
+~
+~
+0 0 1049
+D1
+~
+~
+0 0 1060
+D3
+~
+~
+0 0 1058
+S
+#1060
+On the Shore~
+Type CONFIG +BRIEF in now.
+~
+10 4 6
+D0
+~
+~
+0 0 1038
+S
+#1061
+On the Second Floor~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D5
+~
+~
+0 0 1010
+S
+#1062
+A Sunken Ship~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D0
+a door~
+door~
+1 -1 1063
+D2
+a door~
+door~
+1 -1 1064
+D5
+a whirlpool~
+whirlpool~
+1 -1 1023
+S
+#1063
+The Cargo Hold~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D2
+a door~
+door~
+1 -1 1062
+S
+#1064
+Captain's Quarters~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D0
+a door~
+door~
+1 -1 1062
+S
+#1065
+Before a Huge Tower~
+Type CONFIG +BRIEF in now.
+~
+10 4|16384 2
+D0
+~
+~
+0 0 1051
+D4
+~
+~
+0 0 1066
+S
+#1066
+The Wizard's Workshop~
+Type CONFIG +BRIEF in now.
+~
+10 1|8|16384 0
+D5
+~
+~
+0 0 1065
+S
+#0
+
+
+#RESETS
+O 0 1012 1 1066
+P 1 1022 1 1012
+P 1 1019 1 1012
+O 0 1020 1 1063
+P 1 1023 1 1020
+P 1 1016 1 1020
+M 0 1001 4 1018
+E 1 1001 1 16
+M 0 1001 4 1018
+E 1 1001 1 16
+M 0 1001 4 1018
+E 1 1001 1 16
+M 0 1002 4 1008
+E 1 1002 1 5
+M 0 1002 4 1020
+E 1 1002 1 5
+M 0 1003 4 1019
+E 1 1002 1 5
+M 0 1003 4 1009
+G 1 1003 1
+M 0 1004 4 1007
+M 0 1004 4 1007
+M 0 1004 4 1007
+M 0 1004 4 1007
+G 1 1003 1
+M 0 1005 1 1061
+E 1 1023 1 3
+E 1 1024 1 12
+M 0 1006 3 1062
+E 1 1006 1 6
+M 0 1006 3 1062
+E 1 1006 1 6
+M 0 1006 3 1062
+E 1 1006 1 6
+M 0 1007 1 1064
+E 1 1017 1 3
+E 1 1005 1 16
+G 1 1021 1
+M 0 1008 1 1063
+E 1 1007 1 6
+E 1 1004 1 16
+M 0 1009 1 1066
+E 1 1014 1 8
+E 1 1013 1 12
+M 0 1010 5 1001
+G 1 1018 1
+M 0 1010 5 1030
+G 1 1018 1
+M 0 1010 5 1026
+G 1 1018 1
+M 0 1011 1 1017
+G 1 1015 1
+M 0 1012 1 1055
+E 1 1008 1 7
+E 1 1009 1 5
+E 1 1010 1 13
+G 1 1011 1
+D 0 1007 1 1
+D 0 1008 3 1
+D 0 1009 2 1
+D 0 1010 2 1
+D 0 1016 1 1
+D 0 1017 1 1
+D 0 1017 3 1
+D 0 1018 3 1
+D 0 1019 0 1
+D 0 1010 0 1
+D 0 1063 2 1
+D 0 1064 0 1
+D 0 1062 0 1
+D 0 1062 2 1
+D 0 1023 5 1
+D 0 1062 4 1
+S
+
+#SPECIALS
+M 1009 spec_cast_mage
+M 1005 spec_cast_adept
+I 1011 spec_invis_blocker
+O 1004 spec_poison_weapon
+W 1018 spec_fly
+S
+
+
+#$

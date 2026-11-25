@@ -1,0 +1,3256 @@
+#AREA  Copper~
+Anapest~
+2|4 0
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#12500
+Biff Stud importer adventurer~
+Biff Stud~
+Biff Stud, renowned for his wide travels, is here.
+~
+His hands are large, and the rest of his body is nearly as
+developed. He is scarred on most of his visible skin, surely
+caused by run-ins with entire hostile armies. His thick
+beard is probably there to hide even more scarring on his
+face. Despite his rough treatment, Biff appears to reamain
+a relatively jovial person.
+~
+2|64 8 600 P
+40
+1
+#12501
+Pollyanna Polly~
+Pollyanna~
+Pollyanna, master baker of Anapest, is nearby.
+~
+She has an aura of happiness from the joy of life and a
+slightly round body from the joy of cooking. Her skills
+in baking are clearly not to be challenged.
+~
+2|64 0 600 P
+40
+2
+#12502
+Waiter~
+the affable waiter~
+The affable waiter is ready to serve the dining public.
+~
+He's dressed in a sleek, yet still stuffy, black tuxedo, with
+bits of red and white sticking out here and there. His smile
+seems a little forced.
+~
+2|64 0 600 P
+40
+1
+#12503
+Clyde~
+Clyde~
+A short, strange man is here, with "Clyde" stitched on his shirt.
+~
+Clyde's eyes move rapidly all over the place. He seems to be leaning
+forward on the balls of his feet, ready to strike or flee, whichever
+has the best odds. He has an attitude of being in charge here.
+~
+2|64 0 -100 P
+3
+1
+#12504
+guildmaster master bum~
+the Guildmaster~
+The guildmaster, looking like a bum, is standing here.
+~
+His appearance is similar to that of a beggar, his hair unkempt
+and his beard unevenly grown. On the other hand, just knowing
+that he could steal any item without anybody's knowledge makes
+him appear competent.
+~
+2|1024 0 1000 P
+4
+1
+#12505
+guildmaster master~
+the Guildmaster~
+The guildmaster is standing here.
+~
+She is versed in every form of hand-to-hand combat and can kill
+with nearly every part of her body. Yet she is equally skilled
+with any weapon and can dispatch someone while armed just as
+easily.
+~
+2|1024 0 1000 P
+4
+2
+#12506
+guru guildmaster master~
+the Guru of Anapest~
+The Guru is floating here.
+~
+The first thing to notice are the eyes - they seem to be very
+big, almost ready to pop out, yet they are very calm and sedate,
+just observing that which is necessary. He is garbed minimally,
+and seems to prefer not to touch the ground, though he would be
+willing to do most anything for his students, given the proper
+reason.
+~
+5 0 1000 P
+15
+1
+#12507
+mage grandmage guildmaster master~
+the Grandmage~
+The Grandmage of Anapest is standing here.
+~
+There are few things in life that please this hard woman. The
+first is the discovery of a new spell. The others are not so
+kind. She is tall, and hides most of her body in the typical
+voluminous robe of mages in this region.
+~
+2 0 -700 P
+4
+2
+#12508
+supplier~
+the knowledgeable supplier~
+The knowledgeable supplier is prepared to help his cusomters.
+~
+His hands are tough and he strongly muscled from all the rough
+and heavy objects he has had to handle over the years.
+~
+66 0 600 P
+40
+1
+#12509
+Innkeeper~
+the Innkeeper~
+The Innkeeper is here, surveying the condition of his Inn.
+~
+He is dressed in a medium-grade suit, roughly in line with the
+quality of his services. He is growing old and bald, but is
+still spry enough to catch those who "forget" to pay.
+~
+66 0 700 P
+40
+1
+#12510
+Armorer~
+the armorer~
+The armorer is here, polishing his wares.
+~
+The armorer is fierce. There's a reason why he went into this
+business - he got in so many fights he actually received some
+good hits, which he decided he didn't like. Now he can equip
+himself with the profits from equipping others.
+~
+66 0 600 P
+40
+1
+#12511
+Tailor~
+the tailor~
+The tailor is here, brandishing a tape measure.
+~
+He's a short guy with long arms - the better to measure your
+height, girth, hat size, and inseam. He dresses in the same
+kind of clothes he sells - expensive and non-utilitarian.
+~
+66 0 600 P
+40
+1
+#12512
+Furrier~
+the furrier~
+The furrier is here, looking warm and comfortable.
+~
+He's a rather round individual, and looks even rounder with
+the very expensive looking fur that he's wearing. Obviously,
+he does well with his business.
+~
+66 0 400 P
+40
+1
+#12513
+Dud~
+Dud~
+Dud stands here, smiling, and ready to serve.
+~
+He's young and his complexion leaves much to be desired. It
+would be a good guess that he isn't making much money at this
+job.
+~
+2 0 355 P
+1
+1
+#12514
+Bar Maid~
+The Bar Maid~
+The Bar Maid is here, frowning at the prospect of customers.
+~
+She is still young, but has worked this job long enough to
+have grown weary of the passes, pinches, and rude propositions
+from her customers.
+~
+2 0 500 P
+2
+2
+#12515
+Cookie~
+Cookie~
+Cookie is working busily, preparing meals.
+~
+Cookie is a burly sort of man, with huge arms and a belly
+which suggests that he samples a fair amount of the food
+that he prepares.
+~
+2 0 0 P
+2 1
+#12516
+Lapidarist~
+The Lapidarist~
+The Lapidarist is here, arranging her stones to best reflect the light.
+~
+She must have excellent patience, to be able to cut stones in
+absolute precision, and judge the quality of both raw and uncut
+stones.
+~
+2 0 500 P
+40 2
+#12517
+Chemist~
+The Chemist~
+The Chemist is here, not quite sure what he's doing.
+~
+His creations have blown up in his face so often that it's quite
+impossible to tell what his original skin tone was. Aside from
+that, he is quite tall, and rather strangely formed - perhaps
+another result of his experiments.
+~
+2 0 -500 P
+40 1
+#12518
+Bookseller~
+The Bookseller~
+The Bookseller is arranging the shelves.
+~
+It's rather hard to pinpoint this bookworm, who seems intent on
+reading every little bit of print in existence. Nothing about
+this person suggests personality or gender. Very strange.
+~
+2 0 -500 P
+40 0
+#12519
+Farmer~
+The Farmer~
+A Farmer is standing here, minding his own business.
+~
+A man of the earth, with large rough hands that can really handle 
+farm implements.
+~
+2 0 500 P
+2 1
+#12520
+Farmer~
+The Farmer~
+A Farmer is standing here, minding her own business.
+~
+A woman of the earth, with large rough hands that can really handle 
+farm implements.
+~
+2 0 500 P
+2 2
+#12521
+Taxman~
+The Taxman~
+The penetrating eyes of the Taxman are searching for tax evasions here.
+~
+The Taxman is all-knowing, all-seeing, but doesn't bring gifts on
+Christmas.
+~
+2 0 1000 P
+3 1
+#12522
+Albert DuBois~
+Albert DuBois~
+The rich and famous Albert DuBois is here, beaming.
+~
+There are some people who have everything they could possibly need.
+Albert has more.
+~
+128 0 0 P
+5 1
+#12523
+Ran Dog Neophyte~
+Ran Dog the Neophyte~
+The Neophyte Ran Dog is here, serving unswervingly the cause of her master.
+~
+She seems to be striving for the simple life, yet her demeanor belies a
+great knowledge of what happens around her.
+~
+2 8|32 1000 P
+3 2
+#12524
+Gob weaponsmaster master~
+Gob the Weaponsmaster~
+The Weaponsmaster Gob is here, appraising his collection and others'.
+~
+Gob is thick about the middle, and the rest of his body too. In fact,
+he could rightly be called a giant.
+~
+2 8|32 300 P
+40 1
+#12525
+Polk innkeeper~
+Polk the Innkeeper~
+Polk the Innkeeper is inspecting the crud under his fingernails here.
+~
+Polk desperately needs a bath, but few people would dare tell him,
+since he has a terrible temper.
+~
+2 8|32 -300 P
+40 1
+#12526
+soldier~
+The soldier~
+A soldier is here, watching for misdeeds or some enemy to fight.
+~
+He looks tough and may have a streak of meanness.
+~
+64 0 1000 P
+3 1
+#12527
+rookie soldier~
+The rookie soldier~
+A Rookie Soldier is here, somewhat unsure of himself.
+~
+He needs a bit more experience.
+~
+64 0 1000 P
+2 1
+#12528
+lieutenant soldier~
+The lieutenant of the guard~
+The lieutenant of the guard stands here, prepared for stopping a fight.
+~
+He is a lean, mean, soldier machine. He can order his troops around with
+just a twitch in his little finger.
+~
+64 0 800 P
+4 1
+#12529
+captain soldier~
+The captain of the guard~
+The captain of the guard stands here, considering tactical matters.
+~
+He may be getting old but he has more experience keeping people in line
+than anybody, and he has kept up his muscle tone over the years as well.
+~
+2|64 0 800 P
+4 1
+#12530
+armaments officer soldier~
+The armaments officer~
+The armaments officer is here, calculating trajectories.
+~
+This guy is a physics wizard, knowing the right places to apply force,
+as well as when to fire into a strong headwind.
+~
+2|64 0 800 P
+3 1
+#12580
+jailkeeper~
+the jailkeeper~
+The jailkeeper stands here, hoping for trouble.
+~
+A mean old grouch, with a steady eye, and a long, pointy set of limbs.
+~
+2|64 32 1000 P
+5 1
+#12581
+policebot police bot~
+the policebot~
+A menacing policebot roams the area.
+~
+This golem is instructed to enforce the laws among all those who
+roam through Anapest.
+~
+64 32 1000 P
+4 0
+#12582
+watchman policeman police~
+the watchman~
+The police watchman is here, ensuring domestic tranquility.
+~
+The watchman is alert and ready to prevent mischief and arrest
+those who break the laws of the town.
+~
+64 32 1000 P
+4 1
+#0
+
+
+#OBJECTS
+#12500
+Bothwan Idol~
+a Mysterious Bothwan Idol~
+A most mysterious Bothwan Idol casts its malignant gaze around the area.~
+~
+12 0 49153
+0 0 0 0
+8 450 30
+#12501
+Rubik's Head~
+a Rubik's Head~
+A multi-colored head, it's pieces all capable of sliding around to new
+combinations, has been tossed aside here.~
+~
+12 0 49153
+0 0 0 0
+5 19 1
+E
+pieces~
+Two ears, a nose, a mouth, a couple eyes, several masses of hair...
+~
+#12502
+firestick~
+a firestick~
+An Ythroan firestick lies here.~
+~
+1 0 16385
+0 0 96 0
+2 32 2
+E
+stick firestick~
+It's covered with some strange, sticky substance which is flammable.
+~
+#12503
+staple gun~
+a staple gun~
+An industrial hand-powered staple gun has been left unattended.~
+thwack~
+5 0 8193
+0 4 6 0
+14 700 20
+E
+staple gun~
+Fortunately, it will only fit in a hand one way. Those staples look
+pretty dangerous.
+~
+#12520
+lemon cream puff~
+a lemon cream puff~
+A poor little cream puff has been tantalizingly left here.~
+~
+19 0 1
+4 0 0 0
+2 8 4
+E
+cream puff~
+A flaky pastry with a gooey middle - who could want more?
+~
+#12530
+spaghetti plate~
+a plate of spaghetti~
+There is a big plate of spaghetti here.~
+splat~
+19 0 1
+13 0 0 0
+9 15 5
+#12531
+glass wine spritzer~
+a glass of pink wine spritzer~
+A wine glass has been left here.~
+It's bubbly and it's pink.
+~
+17 0 1
+2 2 2 0
+1 1500 1
+#12532
+bread stick~
+a bread stick~
+A bread stick lies on the ground here.~
+The bread stick is crunchy and flavored by sesame seeds.
+~
+19 0 1
+2 0 0 0
+1 2 1
+#12535
+top hat~
+a top hat~
+A top hat is lying here.~
+~
+9 0 17
+0 0 0 0
+1 50 5
+#12536
+pair dress shoes~
+a pair of dress shoes~
+An unoccupied pair of dress shoes is here.~
+~
+9 0 65
+0 0 0 0
+2 70 7
+#12537
+tuxedo jacket~
+a tuxedo jacket~
+Someone has left behing a tuxedo jacket.~
+~
+9 0 9
+0 0 0 0
+2 150 15
+#12538
+trousers~
+some nice trousers~
+Someone has left behind a pair of deep black trousers.~
+~
+9 0 33
+0 0 0 0
+2 120 12
+#12539
+pink cumberbund~
+a pink cumberbund~
+There is a pink cumberbund here.~
+~
+9 0 2049
+0 0 0 0
+1 30 3
+#12540
+black cumberbund~
+a black cumberbund~
+There is a black cumberbund here.~
+~
+9 0 2049
+0 0 0 0
+1 30 3
+#12541
+short sexy skirt~
+a short, sexy skirt~
+Someone has left behind a short skirt.~
+~
+9 0 33
+0 0 0 0
+1 150 15
+#12542
+long slinky dress~
+a long, slinky dress~
+Someone has left a long, slinky, dress here.~
+~
+9 0 33
+0 0 0 0
+3 200 20
+#12543
+blouse~
+a blouse~
+Someone has left a blouse here.~
+~
+9 0 9
+0 0 0 0
+2 100 10
+#12550
+mink stole~
+a mink stole~
+A mink stole is lying here.~
+~
+9 0 5
+0 0 0 0
+3 2000 40
+#12551
+fur hat~
+a fur hat~
+A fur hat rests on the ground.~
+~
+9 0 17
+0 0 0 0
+3 10 1
+#12552
+ox fur coat~
+an ox fur coat~
+There is a fur coat made from an ox here.~
+~
+9 0 1025
+0 0 0 0
+12 600 15
+#12553
+bear fur coat~
+a bear fur coat~
+Here lies a fur coat made from the hide of a bear.~
+~
+9 0 1025
+0 0 0 0
+14 1000 20
+#12554
+fur leggings~
+a pair of fur leggings~
+A pair of fur leggings has been cast aside here.~
+~
+9 0 33
+0 0 0 0
+4 60 3
+#12555
+ermine gloves~
+a pair of ermine gloves~
+A pair of ermine gloves lies on the ground here.~
+~
+9 0 129
+0 0 0 0
+1 80 4
+#12560
+chewy chocolate chunk~
+a chewy chunk of chocolate~
+A scrumpious chunk of chocolate has been left here.~
+~
+19 0 1
+2 0 0 0
+1 6 1
+#12561
+golden delicious apple~
+a golden delicious apple~
+Here lies a golden delicious apple.~
+~
+19 0 1
+2 0 0 0
+1 4 1
+#12562
+hunk meat roll~
+a hunk of meat in a roll~
+There is a hunk of meat, wrapped up in a roll, just lying here.~
+~
+19 0 1
+5 0 0 0
+2 10 1
+#12563
+flagon~
+a flagon~
+A flagon has been left here.~
+~
+17 0 1
+8 8 8 0
+2 1040 1
+#12564
+mammoth belly~
+some mammoth belly~
+A hunk of mammoth belly lies here, getting dusty.~
+~
+19 0 1
+8 0 0 0
+6 22 3
+#12565
+yak liver~
+a yak liver~
+A small wiggly piece of yak liver is here.~
+~
+19 0 1
+4 0 0 0
+2 9 1
+#12566
+tripe~
+some undefinable tripe~
+An amount of undefinable tripe has been dropped here.~
+~
+19 0 1
+3 0 0 0
+2 5 1
+#12568
+meat cleaver~
+a shiny meat cleaver~
+A shiny meat cleaver is lying on the ground here.~
+~
+5 0 8193
+0 2 6 3
+3 25 3
+#12570
+pike~
+a sharp pike~
+A sharp pike has been left here.~
+~
+5 0 8193
+0 2 5 7
+5 370 10
+#12571
+quarterstaff staff~
+a quarterstaff~
+There's a staff on the ground here.~
+~
+5 0 8193
+0 3 3 3
+4 175 8
+#12572
+bludgeon~
+a bludgeon~
+A bludgeon lies here.~
+~
+5 64 8193
+0 3 4 4
+8 2300 15
+A
+18 2
+A
+17 -1
+#12573
+wavy blade~
+a wavy blade~
+A wavy blade is hiding in the dust here.~
+~
+5 64 8193
+0 2 5 5
+4 1800 12
+A
+18 2
+#12580
+scroll white~
+a white scroll~
+A white scroll lies here, ready to be blown away by some errant wind.~
+~
+2 64 1
+25 42 0 0
+2 500 20
+#12581
+clear potion~
+a clear potion~
+A clear potion rests on the ground here.~
+~
+10 64 16385
+16 -1 -1 -1
+5 1600 15
+#12582
+smoky potion~
+a smoky potion~
+A smoky potion rests on the ground here.~
+~
+10 64 16385
+20 -1 -1 -1
+4 3300 19
+#12585
+key~
+a key~
+A key, possibly important, has been discarded here.~
+~
+18 0 1
+12585 0 0 0
+30 50 200
+#12586
+tally sheet~
+a tally sheet~
+A tally sheet can be seen tacked to the wall, just outside the cell.~
+~
+12 0 0
+0 0 0 0
+99 0 0
+E
+tally sheet~
+It is clearly labeled is property of the Anapest jail, and includes
+a list of current prisoners.
+~
+#12590
+metal key~
+a metal key~
+A metal key is lying on the ground.~
+~
+18 0 1
+12590 0 0 0
+2 30 200
+#12591
+muddy key~
+a muddy key~
+A muddy key is lying here.~
+~
+18 0 1
+12591 0 0 0
+2 30 200
+#12595
+clear stone~
+a clear stone~
+A clear stone is here.~
+~
+13 0 49153
+0 0 0 0
+2 104 1
+#12596
+bracelet heart~
+a heart bracelet~
+A heart bracelet lies here, unused.~
+~
+30 0 4097
+0 0 10 0
+2 210 1
+#12600
+ring gold~
+a gold ring~
+A gold ring is lying here, abandoned.~
+~
+30 0 3
+12 259 -1 0
+3 175 10
+#12601
+chest~
+a battered chest~
+A battered chest lies against the wall in the corner.~
+~
+15 0 0
+50 15 12602 0
+300 0 200
+E
+chest battered~
+It is made from thick wood, and while it has many dents and abrasions, the
+strength of its construction is quite evident. There is a small lock on
+the chest, of an obviously complex nature.
+~
+#12602
+key tiny~
+a tiny key~
+A tiny key rests on ground here.~
+~
+18 4096 1
+12602 0 0 0
+1 1 200
+E
+key tiny~
+There are numerous bumps heading off in all sorts of strange locations
+along the shaft of the key.
+~
+#12603
+teddy bear~
+a teddy bear~
+A cuddly teddy bear, missing one eye, is here.~
+~
+15 0 16385
+10 5 -1 0
+4 350 7
+#12604
+gem gorgeous~
+a gorgeous gem~
+Covered with dust here is a gorgeous gem.~
+~
+13 0 16385
+0 0 0 0
+5 300 50
+E
+gem~
+The gem is the lightest of blues in color, having many facets in a
+pattern seeming to run around the gem in one direction, then another.
+~
+#0
+
+
+#ROOMS
+#12500
+Valley Overlook~
+   This is a point on the southeast edge of a valley in the mountains
+which seems perfectly positioned for viewing the whole of the valley.
+Most of it is taken up by a small town, with some terraced fields on
+the north side. There is a path downward to the north. The valley rim
+rises precariously on the west, but can be safely reached by a rugged
+path around to the south.
+~
+0 0 4
+D0
+~
+~
+0 -1 12515
+D2
+~
+~
+0 -1 12624
+S
+#12501
+Valley Rim~
+   This is the south end of a walkable path along the eastern rim of
+the valley. Stairs lead down to the west. A tower from the valley floor
+pokes up by the path to the north. To the east is a path that leads
+into an icy crevice.
+~
+0 0 4
+D0
+~
+~
+0 -1 12502
+D3
+~
+~
+0 -1 12514
+S
+#12502
+Valley Rim~
+   A large watchtower protrudes out of the valley directly west of
+here. The edge of the valley rim has been artificially extended to
+reach the tower where a door has been built to open on this level.
+The path continues north and south.
+~
+0 0 4
+D0
+~
+~
+0 -1 12503
+D2
+~
+~
+0 -1 12501
+D3
+~
+door~
+2 12590 12560
+S
+#12503
+Valley Rim~
+   This is part of a walkable path along the eastern rim of the valley.
+Below can be seen the spectacular roof, spires, and courtyards of a
+palace. The path continues north and south.
+~
+0 0 4
+D0
+~
+~
+0 -1 12504
+D2
+~
+~
+0 -1 12502
+S
+#12504
+Valley Rim~
+   This is part of a walkable path along the northeast rim of the valley.
+The path continues around the valley to the south and leads out to the
+north. It is possible to scamper down to a terraced field west of here.
+~
+0 0 4
+D0
+~
+~
+0 -1 12505
+D2
+~
+~
+0 -1 12503
+D3
+~
+~
+0 -1 12531
+S
+#12505
+Valley Entrance~
+   This is a common place for entering the valley of Anapest, to the
+south. Trails lead north into the mountains, and east to the quarry.
+~
+0 1 4
+D0
+~
+~
+0 -1 13628
+D2
+~
+~
+0 -1 12504
+S
+#12506
+Valley Entrance~
+   This way in and out of the valley of Anapest isn't too commonly used,
+but it does allow passage for those who bother. A single path leads
+north, away from the valley to the south.
+~
+0 1 4
+D2
+~
+~
+0 -1 12507
+S
+#12507
+Valley Rim~
+   This is part of a walkable path along the northwest rim of the valley.
+The path continues around the valley to the south and leads out to the
+north. It is possible to scamper down to a terraced field east of here.
+~
+0 0 4
+D0
+~
+~
+0 -1 12506
+D1
+~
+~
+0 -1 12532
+D2
+~
+~
+0 -1 12508
+S
+#12508
+Valley Rim~
+   This is part of a walkable path along the western rim of the valley.
+Below can be seen the roofs, streets, and general activity of the
+town. The path continues north and south.
+~
+0 0 4
+D0
+~
+~
+0 -1 12507
+D2
+~
+~
+0 -1 12509
+S
+#12509
+Valley Rim~
+   A large watchtower protrudes out of the valley directly east of
+here. The edge of the valley rim has been artificially extended to
+reach the tower where a door has been built to open on this level.
+The path continues north and south.
+~
+0 0 4
+D0
+~
+~
+0 -1 12508
+D2
+~
+~
+0 -1 12510
+D1
+~
+door~
+2 12590 12550
+S
+#12510
+Valley Rim~
+   This is the part of a walkable path along the western rim of the
+valley. Stairs lead down to the east. A tower from the valley floor
+pokes up by the path to the north.
+~
+0 0 4
+D0
+~
+~
+0 -1 12509
+D1
+~
+~
+0 -1 12511
+D2
+~
+~
+0 -1 12620
+S
+#12511
+Stairway~
+   The sides of this valley are steep enough to require a considerable
+effort to climb, and apparently the locals have built these stairs
+to make the going easier. The valley rim lies to the west and there
+is a landing east of here.
+~
+0 0 1
+D1
+~
+~
+0 -1 12512
+D3
+~
+~
+0 -1 12510
+S
+#12512
+Landing~
+   This large stone platform rests on a vaguely level part of the
+valley wall between two levels of stairs. From here it is possible
+to see several rickity roofs and an alley directly below, though
+too far down to jump. The stairs lead to the top of the valley to
+the west and to the valley floor to the east.
+~
+0 0 1
+D1
+~
+~
+0 -1 12513
+D3
+~
+~
+0 -1 12511
+S
+#12513
+Stairway~
+   The sides of this valley are steep enough to require a considerable
+effort to climb, and apparently the locals have built these stairs
+to make the going easier. The valley floor lies to the east and there
+is a landing west of here.
+~
+0 0 1
+D1
+~
+~
+0 -1 12545
+D3
+~
+~
+0 -1 12512
+S
+#12514
+Stairway~
+   The sides of this valley are steep enough to require a considerable
+effort to climb, and apparently the locals have built these stairs
+to make the going easier. The valley rim lies to the east and there
+is a landing west of here.
+~
+0 0 1
+D1
+~
+~
+0 -1 12501
+D3
+~
+~
+0 -1 12515
+S
+#12515
+Landing~
+   This large stone platform rests on a vaguely level part of the
+valley wall between two levels of stairs. From here it is possible
+to see several rickity roofs and an alley directly below, though
+too far down to jump. The stairs lead to the top of the valley to
+the east and to the valley floor to the west. A path leads south
+to a high point overlooking the entire valley.
+   A signpost has been roughly nailed onto a section of the
+handrail here.
+~
+0 0 1
+D1
+~
+~
+0 -1 12514
+D2
+~
+~
+0 -1 12500
+D3
+~
+~
+0 -1 12516
+E
+sign signpost~
+      West - Town of Anapest
+      East - Valley Rim, Crevices, Glacier
+     South - Wilderness, The Great Northern Road
+~
+S
+#12516
+Stairway~
+   The sides of this valley are steep enough to require a considerable
+effort to climb, and apparently the locals have built these stairs
+to make the going easier. The valley floor lies to the west and there
+is a landing east of here.
+~
+0 0 1
+D1
+~
+~
+0 -1 12515
+D3
+~
+~
+0 -1 12518
+S
+#12517
+Smychka Avenue~
+   This is the southern end of Smychka Avenue, which extends quite
+a ways to the north. Temple Hill is west of here and there is an
+importer's shop to the east.
+~
+0 0 1
+D0
+~
+~
+0 -1 12518
+D1
+~
+~
+0 -1 12573
+D3
+~
+~
+0 -1 12547
+S
+#12518
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. In this block, a stairway leads up to the
+eastern rim of the valley.
+~
+0 0 1
+D0
+~
+~
+0 -1 12519
+D1
+A flight of stairs~
+~
+0 -1 12516
+D2
+~
+~
+0 -1 12517
+S
+#12519
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. There is a shop on the west side of the
+street sporting a sign, "Pastry 'N Things".
+~
+0 0 1
+D0
+~
+~
+0 -1 12520
+D2
+~
+~
+0 -1 12518
+D3
+Pastry 'N Things~
+~
+0 -1 12574
+S
+#12520
+Intersection of Mrin and Smychka~
+   The differing brick layouts of these two roads evidently
+confused the person in charge of laying them out, for there
+is no consistent pattern here, and there are lots of spaces
+between the bricks where the edges just wouldn't line up.
+~
+0 0 1
+D0
+~
+~
+0 -1 12521
+D1
+~
+~
+0 -1 12556
+D2
+~
+~
+0 -1 12519
+D3
+~
+~
+0 -1 12555
+S
+#12521
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. To the west is the Fighter's Guild.
+~
+0 0 1
+D0
+~
+~
+0 -1 12522
+D2
+~
+~
+0 -1 12520
+D3
+The Fighter's Guild~
+~
+0 -1 12575
+S
+#12522
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. It seems that someone named Albert has taken
+over this block, there being an "Albert's Fine Restaurant" on
+the west side and "Albert's Clothier" on the east.
+~
+0 0 1
+D0
+~
+~
+0 -1 12523
+D1
+Albert's Clothier~
+~
+0 -1 12577
+D2
+~
+~
+0 -1 12521
+D3
+Albert's Fine Restaurant~
+~
+0 -1 12576
+S
+#12523
+Intersection of Sysphia and Smychka~
+   The differing brick layouts of these two roads evidently
+confused the person in charge of laying them out, for instead
+of just fitting the patterns together, the entire intersection
+has been covered with asphault.
+~
+0 0 1
+D0
+~
+~
+0 -1 12524
+D1
+~
+~
+0 -1 12569
+D2
+~
+~
+0 -1 12522
+D3
+~
+~
+0 -1 12570
+S
+#12524
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. A small store, with a deeply ornate sign
+proclaiming "Lapidary" and thick bars on the windows is west
+of here. To the east is the west wall of the palace ground,
+replete with ornamented spikes along the top.
+~
+0 0 1
+D0
+~
+~
+0 -1 12525
+D2
+~
+~
+0 -1 12523
+D3
+Lapidary~
+~
+0 -1 12578
+S
+#12525
+Smychka Avenue~
+   This wide bricked street extends north and south through the
+town of Anapest. There is a pond northeast of here and the
+naturally corresponding park is to the west. The Palace Gates
+are east of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 12526
+D1
+The Palace Gates~
+~
+0 -1 12579
+D2
+~
+~
+0 -1 12524
+D3
+Pond Park~
+~
+0 -1 12600
+S
+#12526
+Smychka Avenue~
+   The avenue bends here in deference to a pleasant medium sized
+pond spreading from the north to the west.
+~
+0 0 1
+D1
+~
+~
+0 -1 12527
+D2
+~
+~
+0 -1 12525
+S
+#12527
+Smychka Avenue~
+   The road ends here at the foot of a series of terraced fields to
+the north. The Farmer's Guild is east of here, and the road
+leads off west.
+~
+0 0 1
+D0
+The terraced fields~
+~
+0 -1 12529
+D1
+The Farmer's Guild~
+~
+0 -1 12528
+D3
+~
+~
+0 -1 12526
+S
+#12528
+Farmer's Guild~
+   Decorated in a neo-cow and colored in off-wheat, this place
+would seem to be the kind of place for down-to-earth people
+to hang out in. The exit is west.
+~
+0 8 0
+D3
+~
+~
+0 -1 12527
+S
+#12529
+Eastern Lower Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+west by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace just north of here and down to
+the street below.
+~
+0 0 2
+D0
+Another terrace~
+~
+0 -1 12530
+D2
+A paved road~
+~
+0 -1 12527
+S
+#12530
+Eastern Middle Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+west by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace just north of here and down to
+one below.
+~
+0 0 2
+D0
+Another terrace~
+~
+0 -1 12531
+D2
+Another terrace~
+~
+0 -1 12529
+S
+#12531
+Eastern Upper Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+west by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace down, just south of here. A
+little used path leads to the rim of the valley to the east.
+~
+0 0 2
+D1
+The valley rim~
+~
+0 -1 12504
+D2
+Another terrace~
+~
+0 -1 12530
+S
+#12532
+Western Upper Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+east by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace down, just south of here. A
+little used path leads to the rim of the valley to the west.
+~
+0 0 2
+D2
+Another terrace~
+~
+0 -1 12533
+D3
+The valley rim~
+~
+0 -1 12507
+S
+#12533
+Western Middle Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+east by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace just north of here and down to
+one below. A lonely hut stands at the western end of the terrace.
+~
+0 0 2
+D0
+Another terrace~
+~
+0 -1 12532
+D2
+Another terrace~
+~
+0 -1 12534
+D3
+A small hut~
+~
+0 -1 12535
+S
+#12534
+Western Lower Terrace~
+   This is a long, flat area formed out of the sloping side of the
+valley for agricultural purposes. The field is interrupted on the
+east by a waterfall which cuts a drastic gash in the north side of
+the valley. There are steps at intervals along the terrace which
+allow travel to the next terrace just north of here and down to
+the street below.
+~
+0 0 2
+D0
+Another terrace~
+~
+0 -1 12533
+D2
+A paved road~
+~
+0 -1 12536
+S
+#12535
+Hut~
+   This seems to be an undersized supply/equipment hut with its sole
+exit being east. There appears to be little organization or
+security here.
+~
+0 8 0
+D1
+A terraced field~
+~
+0 -1 12533
+S
+#12536
+Miranda Avenue~
+   The northern part of Miranda coms to a stop here, tucked
+up next to the first level of the terraced fields to the north.
+The avenue curves east before assuming its normally southern
+heading. The low profile of the Slop Joint rises on the south
+and a path leads around it to the west.
+~
+0 0 1
+D0
+A terraced field~
+~
+0 -1 12534
+D1
+~
+~
+0 -1 12537
+D2
+The Slop Joint~
+~
+0 -1 12604
+D3
+~
+~
+0 -1 12608
+S
+# 12537
+Miranda Avenue~
+   The bricks of the road curve here from the south off toward
+the west, impinged by the presence of a large pond occupying the
+northern part of the valley. The pond is filled by an impressive
+waterfall which cuts the north wall of the valley in two.
+~
+0 0 1
+D2
+~
+~
+0 -1 12538
+D3
+~
+~
+0 -1 12536
+S
+# 12538
+Miranda Avenue~
+   This part of town has an almost tangible feeling of strangeness
+to it. The bricks of the road appear darker, and fit together in
+a sharp and angular fashion. The streetlamps seem to loom overhead,
+ready to strike, rather than illuminate the area...but none of this
+is a truely objective impression, just a feeling.
+   The Chemist's is on the west side of the road and there is a park
+to the east.
+~
+0 0 1
+D0
+~
+~
+0 -1 12537
+D1
+Pond Park~
+~
+0 -1 12600
+D2
+~
+~
+0 -1 12539
+D3
+The Chemist's~
+~
+0 -1 12580
+S
+#12539
+Miranda Avenue~
+   This part of town has an almost tangible feeling of strangeness
+to it. The bricks of the road appear darker, and fit together in
+a sharp and angular fashion. The streetlamps seem to loom overhead,
+ready to strike, rather than illuminate the area...but none of this
+is a truely objective impression, just a feeling.
+   On the west side of the street is the imposing facade of the
+Mage's Guild. On the east is a tiny shop called The Book Nook.
+~
+0 0 1
+D0
+~
+~
+0 -1 12538
+D1
+The Book Nook~
+~
+0 -1 12582
+D2
+~
+~
+0 -1 12540
+D3
+The Mage's Guild~
+~
+0 -1 12581
+S
+# 12540
+Intersection of Sysphia and Miranda~
+   The street layout chief of Anapest pulled off a rather
+strange way of avoiding the problem of meshing together the
+different brick patterns of the streets here. Instead of trying
+to preserve a pattern north-south and one east-west, the pattern
+on Miranda to the south turns here and becomes the pattern of
+Sysphia to the east. There is a similar turn going from north
+to west. A diagonal between the two brick patterns is filled
+in with gravel.
+~
+0 0 1
+D0
+~
+~
+0 -1 12539
+D1
+~
+~
+0 -1 12570
+D2
+~
+~
+0 -1 12541
+D3
+~
+~
+0 -1 12571
+S
+#12541
+Miranda Avenue~
+  This wide, bricked street leads north and south through the
+town of Anapest. The impressive facade of the town courthouse
+dominates the west side of the street.
+~
+0 0 1
+D0
+~
+~
+0 -1 12540
+D2
+~
+~
+0 -1 12542
+D3
+~
+~
+0 -1 12601
+S
+#12542
+Miranda Avenue~
+  This wide, bricked street leads north and south through the
+town of Anapest. This is part of the administrative section
+of town, the tax office being on the east and an entrance to
+the police station on the west.
+~
+0 0 1
+D0
+~
+~
+0 -1 12541
+D1
+The Tax Office~
+~
+0 -1 12583
+D2
+~
+~
+0 -1 12543
+D3
+The Police Station~
+~
+0 -1 12584
+S
+#12543
+Intersection of Mrin and Miranda~
+   Apparently, the confused person in charge of laying out
+these roads decided to give up trying to mesh together the
+two different brick designs that meet here. Instead, he or
+she used square bricks to fill out the area, preventing any
+possible kind of confusion, though the resulting grid may
+be less aesthetic - it WOULD be good for some kind of large
+scale chess game, though.
+~
+0 0 1
+D0
+~
+~
+0 -1 12542
+D1
+~
+~
+0 -1 12555
+D2
+~
+~
+0 -1 12544
+D3
+~
+~
+0 -1 12554
+S
+#12544
+Miranda Avenue~
+  This wide, bricked street leads north and south through the
+town of Anapest. On the west side of the street is a gaudily
+adorned building with a large bloated sign reading "Lucky Hotel".
+~
+0 0 1
+D0
+~
+~
+0 -1 12543
+D2
+~
+~
+0 -1 12545
+D3
+The Lucky Hotel
+~
+~
+0 -1 12586
+S
+#12545
+Miranda Avenue~
+  This wide, bricked street leads north and south through the
+town of Anapest. A wide staircase leads up the steep side of the
+valley to the west. The end of the avenue can be seen to the
+south.
+~
+0 0 1
+D0
+~
+~
+0 -1 12544
+D2
+~
+~
+0 -1 12546
+D3
+A wide staircase
+~
+~
+0 -1 12513
+S
+#12546
+Miranda Avenue~
+   This is the southern end of Miranda Avenue, which extends
+quite some distance north from here. The religious part of
+town is hereabouts, the large polished structure of the Cleric's
+Guild is west of here, and Temple Hill is just to the east.
+~
+0 0 1
+D0
+~
+~
+0 -1 12545
+D1
+Temple Square
+~
+~
+0 -1 12547
+D3
+The Cleric's Guild
+~
+~
+0 -1 12587
+S
+#12547
+Temple Hill~
+   The center of religious life in Anapest is atop this little
+hill, not because of any particular structure here, but because
+of a particular isolation from the rest of Anapest and a feeling
+of closeness to the sun, moon, stars, clouds, and all of nature
+itself. The cheerfully imposing Temple of Anapest is a few steps
+north of here, while the Spiritual Garden is to the south. Paths
+lead down the hill to the west and east.
+~
+0 0 1
+D0
+The Temple of Anapest
+~
+~
+0 -1 12548
+D1
+Smychka Avenue
+~
+~
+0 -1 12517
+D2
+The Spiritual Garden
+~
+~
+0 -1 12591
+D3
+Miranda Avenue
+~
+~
+0 -1 12546
+S
+#12548
+Temple~
+   Rings of gold and silver encircle this large dome. The whole
+room resounds in symmetry from the round skylight at the top
+of the dome, to a line of round windows about midway up the dome,
+to the rows of pews surrounding the central dias. In fact, the
+only non-symmetric feature is the exit in the south wall.
+~
+0 136 0
+D2
+Temple Hill
+~
+~
+0 -1 12547
+S
+#12549
+West Tower Roof~
+   From this point on the western tower, it is possible to defend
+Anapest from attackers along the entire western rim, which is
+clearly visible not far below. Anapest itself, is much too far down,
+being inside the valley, for any but the vaguest detail to be
+discerned. A shaky flight of stairs leads down into the tower.
+~
+0 0 4
+D5
+~
+~
+0 -1 12550
+S
+#12550
+West Tower Bunk Room~
+   This is a place for the tower guards to sleep or just hang
+around when not on duty. The furnishings are sparse and not
+at all noteworthy, which may reflect on the average lifestyle
+of those in this profession.
+   There is a door in the west wall of the room, and a shaky
+set of stairs leads both farther up and down in the tower.
+~
+0 8 0
+D3
+~
+door~
+2 12590 12509
+D4
+~
+~
+0 -1 12549
+D5
+~
+~
+0 -1 12551
+S
+#12551
+West Tower Armoury~
+   There is no real furniture here, just lots of room to hang,
+horde, and stockpile weapons. The security of this room, apparently,
+has not always been very tight, and the probability of there being
+any significant selection is low.
+   A rickity staircase leads toward the top of the tower and there is
+a door in the south wall.
+~
+0 8 0
+D2
+~
+door~
+2 12590 12552
+D4
+~
+~
+0 -1 12550
+S
+#12552
+Mrin Street~
+   The west end of Mrin halts at the valley wall here. The bricks
+of the road extend east toward the other side of the valley. To
+the north is the door to the West Tower, which extends quite a
+distance above the rim of the valley.
+~
+0 0 1
+D0
+The West Tower
+~
+door~
+2 12590 12551
+D1
+~
+~
+0 -1 12553
+S
+#12553
+Mrin Street~
+   This wide bricked road extends east and west across the town
+of Anapest. A dark alley leads south from here, and a snack bar
+has been built against the side of the jail to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 12603
+D1
+~
+~
+0 -1 12554
+D2
+~
+~
+0 -1 12592
+D3
+~
+~
+0 -1 12552
+S
+#12554
+Mrin Street~
+   This wide bricked road extends east and west across the town
+of Anapest. An entrance to the police station lies north of here.
+~
+0 0 1
+D0
+~
+~
+0 -1 12584
+D1
+~
+~
+0 -1 12543
+D3
+~
+~
+0 -1 12553
+S
+#12555
+Mrin Street~
+   This wide bricked road extends east and west across the town
+of Anapest. This is a particularly bleak section between Smychka
+and Miranda avenues.
+~
+0 0 1
+D1
+~
+~
+0 -1 12520
+D3
+~
+~
+0 -1 12543
+S
+#12556
+Mrin Street~
+   This wide bricked road extends east and west across the town
+of Anapest. There is a supply store north of here.
+~
+0 0 1
+D0
+Supply Store
+~
+~
+0 -1 12593
+D1
+~
+~
+0 -1 12557
+D3
+~
+~
+0 -1 12520
+S
+#12557
+Mrin Street~
+   This wide bricked road extends east and west across the town
+of Anapest. There is a twisty alley north of here and a humble
+building to the south with a sign declaring, "Shaky Knees Inn".
+~
+0 0 1
+D0
+~
+~
+0 -1 12562
+D1
+~
+~
+0 -1 12558
+D2
+The Shaky Knees Inn
+~
+~
+0 -1 12594
+D3
+~
+~
+0 -1 12556
+S
+#12558
+Mrin Street~
+   This is the east end of Mrin Street, which continues well off
+to the west. The door to the impressive East Tower is to the 
+north, and an unassuming knife shop is buried in the valley wall
+to the east.
+~
+0 0 1
+D0
+~
+door~
+2 12590 12559
+D1
+The Knife Shop
+~
+~
+0 -1 12595
+D3
+~
+~
+0 -1 12557
+S
+#12559
+East Tower Armoury~
+   There is no real furniture here, just lots of room to hang,
+horde, and stockpile weapons. The security of this room, apparently,
+has not always been very tight, and the probability of there being
+any significant selection is low.
+   A rickity staircase leads toward the top of the tower and there is
+a door in the south wall.
+~
+0 8|16384 0
+D2
+~
+door~
+2 12590 12558
+D4
+~
+~
+0 -1 12560
+S
+#12560
+East Tower Bunk Room~
+   This is a place for the tower guards to sleep or just hang
+around when not on duty. The furnishings are sparse and not
+at all noteworthy, which may reflect on the average lifestyle
+of those in this profession.
+   There is a door in the east wall of the room, and a shaky
+set of stairs leads both farther up and down in the tower.
+~
+0 8|16384 0
+D1
+~
+door~
+2 12590 12502
+D4
+~
+~
+0 -1 12561
+D5
+~
+~
+0 -1 12559
+S
+#12561
+East Tower Roof~
+   From this point on the eastern tower, it is possible to defend
+Anapest from attackers along the entire eastern rim, which is
+clearly visible not far below. Anapest itself, is much too far down,
+being inside the valley, for any but the vaguest detail to be
+discerned. A shaky flight of stairs leads down into the tower.
+~
+0 16384 4
+D5
+~
+~
+0 -1 12560
+S
+#12562
+Alley~
+   For an alley, this is a rather wide one, at least here at its
+southern end, where it opens up on Mrin Street. It looks narrower,
+darker, and generally less safe to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 12563
+D2
+Mrin Street
+~
+~
+0 -1 12557
+S
+#12563
+Alley Corner~
+   The alley twists from the east to the south here, finding its
+way between buildings with no entrances on this side. The area has
+been littered with a passion.
+~
+0 0 1
+D1
+~
+~
+0 -1 12564
+D2
+~
+~
+0 -1 12562
+S
+#12564
+Alley~
+   This is a particularly dark part of the alley, probably so
+even on the brightest day of the year. The litter here has
+piled up so significantly it's only possible to get through in
+single file. The alley extends west and east here.
+~
+0 8193 1
+D1
+~
+~
+0 -1 12565
+D3
+~
+~
+0 -1 12563
+S
+#12565
+Alley Corner~
+   The alley twists from the west to the north here, finding its
+way between buildings with no entrances on this side. The area has
+been littered with a passion.
+~
+0 0 1
+D0
+~
+~
+0 -1 12566
+D3
+~
+~
+0 -1 12564
+S
+#12566
+Alley~
+   This end of the alley opens up on the end of Sysphia Street
+to the north. To the south, the alley becomes darker and narrower.
+~
+0 0 1
+D0
+Sysphia Street
+~
+~
+0 -1 12567
+D2
+~
+~
+0 -1 12565
+S
+#12567
+Sysphia Street~
+   The east end of Sysphia Street is here, where the palace wall
+meets the side of the valley. To the south is a dark alley.
+~
+0 0 1
+D2
+~
+~
+0 -1 12566
+D3
+~
+~
+0 -1 12568
+S
+#12568
+Sysphia Street~
+   This bricked road runs east to west through Anapest. In this
+eastern part of the city, it lies just south of the palace wall.
+To the south is an armoury.
+~
+0 0 1
+D1
+~
+~
+0 -1 12567
+D2
+The Armoury
+~
+~
+0 -1 12597
+D3
+~
+~
+0 -1 12569
+S
+#12569
+Sysphia Street~
+   This bricked road runs east to west through Anapest. In this
+eastern part of the city, it lies just south of the palace wall.
+To the north is the weaponry.
+~
+0 0 1
+D0
+~
+~
+0 -1 12609
+D1
+~
+~
+0 -1 12568
+D3
+~
+~
+0 -1 12523
+S
+#12570
+Sysphia Street~
+   This bricked road runs east to west through Anapest. To the
+north is a pet shop.
+~
+0 0 1
+D0
+The Pet Shop
+~
+~
+0 -1 12610
+D1
+~
+~
+0 -1 12523
+D3
+~
+~
+0 -1 12540
+S
+#12571
+Sysphia Street~
+   This bricked road runs east to west through Anapest. To the
+north is a furrier's.
+~
+0 0 1
+D0
+The Furrier
+~
+~
+0 -1 12599
+D1
+~
+~
+0 -1 12540
+D3
+~
+~
+0 -1 12572
+S
+#12572
+Sysphia Street~
+   This is the west end of Sysphia Street. This area could really
+use some development.
+~
+0 0 1
+D1
+~
+~
+0 -1 12571
+S
+#12573
+Far Places Importers~
+   True to its name, the walls, floor, and ceiling of this place
+are covered with items which clearly do not originate from this
+region, perhaps some not from this reality. The sole exit is
+west.
+~
+0 136 0
+D3
+~
+~
+0 -1 12517
+S
+#12574
+Pastry 'N' Things~
+   Warm wafts of aroma filter through this room, ready to send
+any visitor into calorific ecstasy. The doorway to leave this
+wonderful place is to the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12519
+S
+#12575
+Fighter's Guild~
+   This place smells of sweat and a boastful attitude - just the
+right atmosphere to practice the valiant and true profession of
+being violent. The air is clearer outside to the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12521
+S
+#12576
+Albert's Fine Restaurant~
+   The floor is deep-pile anti-stain carpeting. There are silk
+curtains over the windows, and masterpieces of art on the walls.
+The tables have been luxuriently covered by fine cloths with
+intricate patterns in violet and maroon. Whatever the food tastes
+like, there certainly has been an effort to please the customer's
+eyes. The highly decorative entrance is east. There is no sign
+of a kitchen.
+~
+0 136 0
+D1
+~
+~
+0 -1 12522
+S
+#12577
+Albert's Fine Clothiers~
+   When it is necessary to attend any formal occasion in Anapest,
+this is the place to come to be fitted with the best possible
+attire. The prices may be steep, but the results are impressive.
+~
+0 8 0
+D3
+~
+~
+0 -1 12522
+S
+#12578
+Lapidary~
+   The several glass cases in this room are filled with rows of
+gemstones, cut and uncut, some in settings, some not. There is
+a sign on the wall which looks important. The single exit is east.
+~
+0 136 0
+D1
+~
+~
+0 -1 12524
+E
+sign~
+The sign is framed by a lavender doily and reads: We are proud
+of the wide selection of fine jewelry and gemstones we can
+offer you. Ask us about our rings, necklaces, bracelets, cut
+and uncut stones.
+~
+E
+case cases glass~
+The glass cases look very, very secure.
+~
+S
+#12579
+Palace Gates~
+   Anapest has been ruled for centuries by royalty, and
+naturally, they need someplace to stay, so it might as
+well be opulent and walled off. The gates here are the
+only entrance and exit for the palace, at least the only
+public ones. This area amounts to a square cut in the
+perimeter of the palace grounds, making it easier to
+defend against hostile people. A party trying to force
+its way in, even if it defeated the guards, would have
+to fear forces at the top of the walls, ready to riddle
+a body with arrows.
+~
+0 0 1
+D3
+~
+~
+0 -1 12525
+S
+#12580
+The Chemist's~
+   This room is dark and smoky, in such a way as to nearly
+induce vomiting. There are desks covered with tubes, bottles,
+and little bags, and there's a chart of some sort hanging
+crooked on the wall. Relief can be found to the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12538
+E
+chart~
+It's incomprehensible.
+~
+S
+#12581
+Mage's Guild~
+   The walls of this room are covered by tapestries featuring
+intricate symbols which can only be understood through long
+hours of study and concentration. The main problem with that
+is the general darkness and murkiness of the room, which
+would make such study difficult on the eyes. The exit is to the
+east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12539
+E
+tapestry wall walls~
+The designs are a bit like the effects of a firm hand pressed
+into an eyeball, but a bit more structured, like a shattered
+piece of glass.
+~
+S
+#12582
+Book Store~
+   There are shelves on shelves and shelves beside shelves and
+shelves in front of shelves and shelves stuck whereever they
+would fit...almost a Shelf Store, in fact. There aren't, however,
+enough books to fit on all the shelves. The shelves let up to the
+west.
+~
+0 136 0
+D3
+~
+~
+0 -1 12539
+S
+#12583
+Tax Office~
+   This is a small little room with a desk, a painting of King
+Byron nailed to the wall, and a drop box strapped to the middle
+of the floor. It would seem an average room, but the fact that
+most townspeople have to fork over a hefty percentage of their
+money here each year rather makes this place depressing. The
+view is more uplifting to the west.
+~
+0 136 0
+E
+painting portrait byron king picture~
+It's quite flattering.
+~
+D3
+~
+~
+0 -1 12542
+S
+#12584
+Police Station~
+   There are two ways into this important building, one from
+Miranda Avenue to the east, the other from Mrin Street to the
+south. There is also a doorway into the courthouse to the
+north. The walls are covered with both fresh and yellowing
+posters of wanted criminals and a painting of King Byron,
+which seems almost to blend in with them, though he surely
+is not wanted himself. The bars of the lockup form the west
+wall of the room.
+~
+0 136 0
+E
+posters criminals wanted~
+There's a lot of them. What do you suppose the chances are
+that you're among them?
+~
+E
+painting portrait byron~
+It's quite flattering.
+~
+D0
+The Courthouse
+~
+~
+0 -1 12601
+D1
+~
+~
+0 -1 12542
+D2
+~
+~
+0 -1 12554
+D3
+Lockup
+~
+~
+2 12585 12585
+S
+#12585
+Lockup~
+   The cumulative years served by the convicted have resulted
+in quite a lot of timekeeping scratches on the walls. There
+are no furnishing with which prisoners could hurt themselves
+or others. The bars of the east wall make the sole entertainment
+the activity of those with freedom in the rest of the station.
+~
+0 140|16384 0
+D1
+Freedom...
+~
+door~
+2 12585 12584
+E
+scratches writing graffiti~
+The cumulative marks seems to add up to many years of wasted human
+time. There are occasional remarks about finding ways out of lockup,
+and several rudimentary, yet definitely obscene, drawings.
+~
+S
+#12586
+Lucky Hotel~
+   A dump, but cheap. The rooms are, however, quite cramped.
+Miranda Avenue lies east of here.
+~
+0 8 0
+D1
+~
+~
+0 -1 12544
+S
+#12587
+Anteroom~
+   This is a small reception-type room which the clerics like
+to call an "Anteroom". The confessional, to the south, is open
+to all. The rest of the building, to the west, is only for
+those who belong to the profession. The real world is to the
+east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12546
+D2
+~
+~
+0 -1 12588
+D3
+~
+~
+0 -1 12589
+S
+#12588
+Confessional~
+   The lights are dim here. There is a screen, behind which a
+kind, benevolent figure sits, ready to listen to any confession,
+at any time.
+~
+0 136 0
+D0
+~
+~
+0 -1 12587
+S
+#12589
+Hall~
+   This is a wide long space leading from the Anteroom, to the
+east, to the Meditation room west of here. The walls, for some
+reason, are painted peach.
+~
+0 8 0
+D1
+~
+~
+0 -1 12587
+D3
+~
+~
+0 -1 12590
+S
+#12590
+Meditation Room~
+   All sound and light are muffled in this room, to increase
+the reception of the mind to study and meditation on the
+aspects of being a priest. There is a slight smell of flowers
+and the air is a bit thinner. The world is more confusing to
+the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 12589
+S
+#12591
+Statuary~
+   In between various small shrubs and trees are scores of
+statues of people in different states of repose. There is
+a certain feeling of safety and unworldliness here. Temple
+Hill lies to the north.
+~
+0 8 1
+D0
+Temple Hill
+~
+~
+0 -1 12547
+S
+#12592
+Dead End Alley~
+   Just what every town or city needs is a useless bit of
+road that leads nowhere, and that's what this is. A street
+of greater utility lies north.
+~
+0 0 1
+D0
+~
+~
+0 -1 12553
+S
+#12593
+Supply Shop~
+   This place specializes in those things that might be 
+necessary for anything from a long journey to a guild
+picnic. If it's not here, it's probably nowhere.
+~
+0 8 0
+D2
+~
+~
+0 -1 12556
+S
+#12594
+Shaky Knees Inn~
+   This place is manages to keep its prices low by providing
+no amenities whatsoever. On the other hand, this allows them
+to rent out slightly larger rooms. The exit is to the north.
+~
+0 8|32768 0
+D0
+~
+~
+0 -1 12557
+S
+#12595
+Knife Shop~
+   The displays of rare and nasty knives here could be a bit
+more professional looking, and there really ought to be some
+prices on the items, but there aren't. This whole place just
+comes off as unprofessional. Perhaps the real business of the
+shop happens in the room to the south, which is partially
+hidden by a curtain.
+~
+0 8 0
+D2
+~
+~
+0 -1 12596
+D3
+~
+~
+0 -1 12558
+S
+#12596
+Thieves' Guild~
+   Extravagence was obviously not a goal in the decoration
+of the room, since anything worth something would be stolen.
+In fact, the only actually interesting thing about the room
+is the series of instructive drawings for the various thiefly
+functions - picking pockets or locks, hiding, backstabbing,
+and so on. The Knife Shop is behind a curtain north of here.
+There is a door reinforced with wrought iron in the east wall.
+~
+0 8 0
+D0
+The Knife Shop
+~
+~
+0 -1 12595
+S
+#12597
+The Armoury~
+   This is mostly an anonymously empty room. The major
+identifying characteristic are the various swatches of cloth
+and bits of shaved metal scattered about the floor.
+~
+0 8 0
+D0
+~
+~
+0 -1 12568
+S
+#12599
+Furrier~
+   In this part of the worlds, most people do not have
+enough body hair to get around comfortably in the cold.
+This shop has specialized entirely in recycling furs, so
+that people can benefit from the warm furs that animals
+had used.
+~
+0 8 0
+D2
+~
+~
+0 -1 12571
+S
+#12600
+Pond Park~
+   This is a place to relax and watch ripples radiate outward
+through the pond from the violent splashing of the waterfall
+coming down the middle of the north wall of the valley. More
+stressing scenery can be found to the east and west.
+~
+0 8 0
+D1
+~
+~
+0 -1 12525
+D3
+~
+~
+0 -1 12538
+S
+#12601
+Courthouse~
+   For some reason, architects get a little excited when
+designing buildings for housing the law. In this instance,
+there are three rows of columns on each side of the room,
+extending to the ceiling several stories above. The openings
+in the walls - outside to the east, south to the police station,
+and west to the courtroom - are all elaborate archways. There
+is also a statue of Hypsjonh, the Anapestian god of justice,
+which reaches halfway to the distant ceiling.
+~
+0 8 0
+D1
+~
+~
+0 -1 12541
+D2
+~
+~
+0 -1 12584
+D3
+~
+~
+0 -1 12602
+S
+#12602
+Courtroom~
+   The style of the courthouse extends into the courtroom
+itself. There is enough room here for a group of huge giants
+to conduct hearings, with space left over for court reporters.
+The judge's seat is particularly impressive, towering high
+enough to inspire fear into the most ruthless of criminals.
+~
+0 136 0
+D1
+~
+~
+0 -1 12601
+S
+#12603
+Snack Bar~
+   This is barely more than an alcove off of Mrin street with
+no more room than necessary to provide the basic snacks that
+people expect here.
+~
+0 8 0
+D2
+~
+~
+0 -1 12553
+S
+#12604
+The Slop Joint~
+   After a long day toiling the fields, or fighting gruesome
+creatures of any sort, and having an appetite just larger than
+a mammoth, most people wouldn't care about the decor of a
+restaurant. Simply put, the Slop Joint appeals to just this
+sort of crowd. The furniture is grossly mismatched, there is
+barely any lighting, and the ground has only been covered by
+loose planks. The exit is north and the kitchen, identified by
+the heat coming from it, is to the south.
+~
+0 8 0
+D0
+~
+~
+0 -1 12536
+D2
+~
+~
+0 -1 12605
+S
+#12605
+Kitchen~
+   Chances are, most people would not care to eat at this
+restaurant after seeing the condition of the kitchen. There are
+numerous bits of food on the floor, and all sorts of living
+black specks crawling over them. There is one large stove in the
+corner which is fed by a roaring fire. The dim light of the
+dining room is north, a doorway leads outside to the west, and
+there is a large iron door in the south wall.
+~
+0 8 0
+D0
+~
+~
+0 -1 12604
+D2
+~
+door~
+2 12606 12606
+D3
+~
+~
+0 -1 12607
+S
+#12606
+Meat Locker~
+   Quite plainly, this is where meat is kept so that doesn't
+spoil too much. There are hooks hanging from the ceiling and
+pegs on the walls for hanging the meat, most looking loose or
+grimy. The exit north is generally protected by a large barred
+door.
+~
+0 8 0
+D0
+~
+door~
+2 12606 12605
+S
+#12607
+Clearing~
+   This is a relatively undeveloped corner of Anapest, right
+between the west valley wall and the side of the Slop Joint,
+which has an opening here. To the south is the wall of some
+large stone building. North is a path through some trees.
+~
+0 0 2
+D0
+~
+~
+0 -1 12608
+D1
+~
+~
+0 -1 12605
+S
+#12608
+Littered Forest~
+   Once upon a time, this may have been a pleasant little corner
+for lovers to visit, but over the years the litter from such
+visitors, and the use of this area as a general dump by others,
+has made it rather unpleasant to the senses. The end of Miranda
+Avenue lies east of here, and there is a clearing to the south. A
+cave opens up in the valley slope west of here.
+~
+0 0 3
+D1
+~
+~
+0 -1 12536
+D2
+~
+~
+0 -1 12607
+D3
+~
+~
+0 -1 12612
+S
+#12609
+Weaponry~
+   This is a mostly bare room except for the displays of different
+weapons on the walls. The exit south leads out to Sysphia street.
+~
+0 8 0
+D2
+~
+~
+0 -1 12569
+S
+#12610
+Pet Shop~
+   The owner of this shop has a strange way of decorating this
+place. There are heads of all sorts of different animals on the
+walls, from a husky to a deer to a mountain lion. Whether the
+decorum would help or hinders sales is debateable.
+~
+0 8 0
+D2
+~
+~
+0 -1 12570
+S
+#12611
+Pet Shop Store~
+   The owner of this shop has a strange way of decorating this
+place. There are heads of all sorts of different animals on the
+walls, from a husky to a deer to a mountain lion. Whether the
+decorum would help or hinder sales is debateable.
+~
+0 16384|32776 0
+S
+#12612
+Lovers' Cave~
+   The walls here are tight and close, and the floor is smooth and rises
+at an angle quite conducive to snuggling. The mouth of the cave opens up
+into a tree-filled area to the east.
+~
+0 8201 0
+D1
+~
+~
+0 -1 12608
+S
+#12613
+Albert's Abode~
+   Dark, warm wood forms the interior walls of this richly furnished
+chamber. Several wooden posts stand at intervals near the perimeter of
+the room, not so much for support, but for dramatic effect. A small
+archway leads west, and a firepole leads down.
+~
+0 32776 0
+D3
+For an arch, it's a rather beautiful thing, guilded in gold and having
+etchings of some type of ivy, and an occasional small pair of beady eyes
+of an animal hiding from predators.
+~
+~
+0 -1 12614
+D5
+It seems to lead into a clothing store, but the air is a bit fuzzy there,
+like the connection isn't quite right.
+~
+~
+0 -1 12577
+E
+pole firepole~
+It's rather smooth, and smudged from regular use. The area where the pole
+leaves the room at the bottom is a bit fuzzy, particularly when not directly
+looked at.
+~
+S
+#12614
+Albert's Bedroom~
+   The walls of this small room are painted in pleasant pastels in many
+little swirls, almost flowerlike, but not quite. Broad, sweeping drapes of
+royal red, blue, and green dramatically offset the paint, creating a sense
+of far-reaching space where there is none. A delicate arch opens up to the
+east.
+~
+0 32776 0
+D1
+~
+~
+0 -1 12613
+S
+#12620
+Valley Rim~
+   This part of the curves from the north to the east, where it
+begins to rise somewhat. Below can be seen the town of Anapest.
+~
+0 0 4
+D0
+~
+~
+0 -1 12510
+D1
+~
+~
+0 -1 12621
+S
+#12621
+Valley Rim~
+   The rim of the valley rises from the west to the east here,
+making a peak of sorts at the middle of the southern end of the valley,
+just to the east of here. The end of a street can be seen below
+this section of the rim.
+~
+0 0 4
+D1
+~
+~
+0 -1 12622
+D3
+~
+~
+0 -1 12620
+S
+#12622
+Valley Rim~
+   This part of the valley rim makes a peak here, the highest point
+that can be considered part of it. The rim smoothly loses altitude
+to the west, but drops off suddenly to the east, which can only be
+followed by taking a makeshift path south which curves back around
+to it. Below can be seen a garden filled with statues and a large
+round building.
+~
+0 0 4
+D2
+~
+~
+0 -1 12623
+D3
+~
+~
+0 -1 12621
+S
+#12623
+Rugged Path~
+   Bare volcanic rock forms this barely passable trail which leads
+around a drop in the level of the valley rim, the higher portion of
+which lies north of here. The other end lies at the end of the path
+to the east.
+~
+0 0 5
+D0
+~
+~
+0 -1 12622
+D1
+~
+~
+0 -1 12624
+S
+#12624
+Rugged Path~
+   Bare volcanic rock forms this barely passable trail which leads
+around a drop in the level of the valley rim, the lower portion of
+which lies north of here. The other end lies at the end of the path
+to the west.
+   A more comfortable and beaten down trail leads south.
+~
+0 0 5
+D0
+~
+~
+0 -1 12500
+D3
+~
+~
+0 -1 12623
+S
+#12625
+Southern Part of Pond~
+   Hey, put this place in sometime!
+~
+0 0 7
+D0
+More pond lies northward.
+~
+~
+0 -1 12626
+D1
+There appears to be a road over there.
+~
+~
+0 -1 12526
+D2
+A park lies to the south.
+~
+~
+0 -1 12600
+D3
+There appears to be a road over there.
+~
+~
+0 -1 12577
+S
+#12626
+Pond~
+   Put this in sometime
+~
+0 0 7
+D2
+More pond that way.
+~
+~
+0 -1 12625
+S
+#0
+
+
+
+#RESETS
+* Doors - All locked...interesting.
+D 0 12509 1 2
+D 0 12550 3 2
+D 0 12552 0 2
+D 0 12558 0 2
+D 0 12559 2 2
+D 0 12560 1 2
+D 0 12502 3 2
+D 0 12605 2 2
+D 0 12606 0 2
+D 0 12584 3 2
+D 0 12585 1 2
+*
+* Guards and stuff
+M 0 12526 13 12537     Soldier
+E 1 12570 100 16
+M 0 12526 10 12547     Soldier
+E 1 12570 100 16
+M 0 12526 10 12557     Soldier
+E 1 12570 100 16
+M 0 12526 10 12518     Soldier
+E 1 12570 100 16
+M 0 12526 10 12553     Soldier
+E 1 12570 100 16
+M 0 12527 6 12545     Rookie Soldier
+E 1 12570 100 16
+M 0 12527 6 12526     Rookie Soldier
+E 1 12570 100 16
+M 0 12528 3 12579      Liuetenant Soldier
+E 1 12570 100 16
+M 0 12528 3 12551      Liuetenant Soldier
+E 1 12571 100 16
+M 0 12528 3 12559      Liuetenant Soldier
+E 1 12571 100 16
+M 0 12529 1 12604      Captain of the Guard
+E 1 12572 100 16          Bludgeon
+G 1 12590 1               Key to towers
+M 0 12530 2 12551      Armaments Officer
+G 1 12573 2               Wavy Blade
+M 0 12530 2 12559      Armaments Officer
+G 1 12573 2               Wavy Blade
+*
+M 0 12580 1 12584      Jailkeeper
+G 1 12585 1               Key
+O 0 12586 2 12584      Tally Sheet (outside cell)
+O 0 12586 2 12585      Tally Sheet (inside cell)
+*
+M 0 12581 14 12518     Policebots
+M 0 12581 14 12523
+M 0 12581 14 12537
+M 0 12581 14 12541
+M 0 12581 14 12553
+M 0 12581 14 12556
+M 0 12581 14 12568
+M 0 12581 15 12571
+*
+M 0 12582 3 12591      Watchman
+M 0 12582 3 12579
+M 0 12582 3 12515
+* Shops and stuff
+M 0 12500 1 12573              Biff Stud
+G 1 12500 300
+G 1 12501 300
+G 1 12502 300
+G 1 12503 300
+M 0 12501 1 12574              Pollyanna
+G 1 12520 300
+M 0 12502 1 12576               Waiter
+G 1 12530 300
+G 1 12531 300
+G 1 12532 300
+M 0 12503 1 12595               Clyde
+M 0 12504 1 12596               Thief Guildmaster
+M 0 12505 1 12575               Warrior Guildmaster
+M 0 12506 1 12590               Guru - Cleric Guildmaster
+M 0 12507 1 12581               Mage Guildmaster
+M 0 12508 1 12593               Supplier
+M 0 12524 1 12609               Gob, the weaponsmaster
+M 0 12509 1 12594               Innkeeper
+M 0 12525 1 12586               Innkeeper
+M 0 12510 1 12597               Armorer
+M 0 12511 1 12577               Tailor
+G 1 12535 300
+G 1 12536 300
+G 1 12537 300
+G 1 12538 300
+G 1 12539 300
+G 1 12540 300
+G 1 12541 300
+G 1 12542 300
+G 1 12543 300
+M 0 12512 1 12599               Furrier
+G 1 12550 200
+G 1 12551 200
+G 1 12552 200
+G 1 12553 200
+G 1 12554 200
+G 1 12555 200
+M 0 12513 1 12603               Dud at the Snack Bar
+G 1 12560 50
+G 1 12561 50
+G 1 12562 50
+G 1 12563 50
+M 0 12514 1 12604               Bar Maid at the Slop Joint
+G 1 12564 50
+G 1 12565 50
+G 1 12566 50
+* Need something to drink here...
+M 0 12515 1 12605               Cookie's in the Kitchen (with Dinah?)
+G 1 12564 50
+E 1 12568 100 16                       Wield a Cleaver
+M 0 12516 1 12578               Lapidarist
+G 1 12595 50                       clear stone
+G 1 12596 50                       heart bracelet
+M 0 12517 1 12580               Chemist
+G 1 12581 500                      potion of levitate
+M 0 12518 1 12582               Bookseller
+G 1 12580 50                       White Scroll
+M 0 12519 2 12534               Male Farmer (these guys should have weapons)
+M 0 12520 2 12526               Female Farmer
+M 0 12521 1 12583               The Taxman
+M 0 12522 1 12577               Albert DuBois
+E 1 12600 1 2                      gold ring on left finger
+G 1 12602 1                        tiny key
+O 0 12601 1 12614                  chest in Albert's bedroom
+P 1 12603 1 12601                  teddy bear in the chest
+P 1 12604 4 12603                  gem in teddy bear
+M 0 12523 1 12587               Ran Dog the Neophyte
+*
+O 0 12564 1 12606               Stuff in the Meat Locker
+O 0 12565 2 12606
+O 0 12566 1 12606
+*
+* Stuff for pet store
+*M 0 3094 2  12611               Wolf
+S
+
+
+#SHOPS
+  12500  0  0  0  0  0	 150 50	  0 23   ; biff
+  12501  0  0  0  0  0	 150 50	  0 23    ; pollyana
+  12502  17  0  0  0  0	 150 50	  0 23    ;waiter
+  12508  0  0  0  0  0	 150 50	  0 23    ;supplier
+  12509  0  0  0  0  0  150 50	  0 23    ; innkeeper
+  12510  9  0  0  0  0	 150 50	  0 23    ; armorer
+  12511  9  0  0  0  0	 150 50	  0 23    ; tailor
+  12512  9  0  0  0  0	 150 50	  0 23    ; furrier
+  12516  8  0  0  0  0	 150 50	  0 23    ; lapidarist
+  12517  0  0  0  0  0	 150 50	  0 23    ; chemist
+  12518  0  0  0  0  0	 150 50	  0 23    ;bookseller
+  12524  0  0  0  0  0	 150 50	  0 23    ; weapons
+  12525  17  0  0  0  0	 150 50	  0 23    ; innkeeper
+0
+
+#SPECIALS
+  W 12600 spec_albert_ring
+S
+
+#$

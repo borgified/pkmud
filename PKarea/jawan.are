@@ -1,0 +1,3203 @@
+#AREA  Jawan~
+Sea of Jawan~
+1 100
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#11000
+harpy vulture~
+The harpy~
+A harpy sings alluringly on her rocky perch.
+~
+The harpy is an evil looking creature with the torsoe of a woman and the body
+of a vulture.
+~
+2|4|32 0 -350 P
+2 2
+#11001
+queen harpy vulture~
+The harpy Queen~
+The wicked harpy Queen hisses at you contemptuously.
+~
+The queen has flowing red hair, and stands nearly a head taller than her
+sisters.
+~
+2|4|32 0 -1000 P
+3 2
+#11002
+dragon turtle~
+The Dragon Turtle~
+A huge dragon turtle floats here, steam pouring from his nostrils.
+~
+The Dragon Turtle is looks like the cross between a dragon and a gigantic
+turtle.
+~
+1|2 8 250 P
+5 1
+#11003
+giant weed eel~
+A giant weed eel~
+A hungry giant eel slithers from the murky water.
+~
+The giant weed eel is about 10 feet long and as big around as your head.  It
+snaps its razor-sharp teeth at anything which comes near it.
+~
+34 2 -25 P
+3 0
+#11004
+hammerhead shark~
+A hammerhead shark~
+A hammerhead is circling in for the kill.
+~
+The hammerhead glistens with each powerful lash of its body.
+~
+96 8 -55 P
+2 0
+#11005
+bottlenose dolphin~
+A dolphin~
+A sleek bottlenose dolphin swims playfully around.
+~
+The bottlenose reminds you of Flipper!
+~
+64|128 32768 775 P
+2 2
+#11006
+sea serpent~
+A sea serpent~
+A giant sea serpent skates across the waves with an evil gleam in its eye.
+~
+The giant sea serpent is covered with a thick coat of blue scales, it looks
+less like a snake than a small dragon without legs.
+~
+32|64 8 -666 P
+3 1
+#11007
+pirate mangy~
+A mangy pirate~
+A mangy pirate sits here, sharpening his cutlass.
+~
+The salt water has caked his hair to his head, and the scars on his face tell
+a tale of a man born to kill and steal!
+~
+2|4|32 0 -550 P
+2 1
+#11008
+Redbeard pirate~
+Redbeard the pirate~
+Redbeard the pirate is here, plotting evil deeds.
+~
+Redbeard looks like he would get a lot of pleasure out of skinning small
+children...ALIVE!
+~
+2|4|32 8 -750 P
+3 1
+#11009
+toothless pirate~
+The toothless pirate~
+A toothless pirate sits here, grinning stupidly.
+~
+This lad was led astray by the wicked Redbeard, and is only notable for his
+stupid cruelty.
+~
+2|4|32 0 -550 P
+2 1
+#11010
+albatross~
+The great albatross~
+The great albatross flies eastward with breathtaking grandeur.
+~
+The monarch of the clouds, this noble bird guides the lonely ship through the
+bitter sea.
+~
+64 0 1000 P
+1 1
+#11011
+swarthy fisherman~
+The swarthy fisherman~
+The swarthy fisherman whistles happily astern his boat, pulling his nets in.
+~
+He is a strong, handsome man, weathered and toughened by his lover and arch-
+enemy, the ageless sea.
+~
+64|128 0 400 P
+2 1
+#11012
+panther beast~
+The black beast~
+A strange, black, panther-like beast prowls this shore.
+~
+The pitch-black panther slavers with rabid venom.
+~
+2|32 0 -500 P
+4 2
+#11013
+executioner phantom venus~
+The phantom~
+The haughty executioner prowls back and forth among her underlings.
+~
+The fair Venus of love, she is not, but a fowl phantom searching for warriors
+to hang upon her gibbet pole.
+~
+2|32 8 -1000 P
+5 2
+#11014
+viper~
+A viper~
+A viper writhes among its fellows of the pit.
+~
+The viper's black scales glisten with the slime of the greasy soil.
+~
+2|32 0 0 P
+1 0
+#11015
+beauty~
+Beauty~
+Beauty flames here, dazzling the mayfly and fatally luring it nearer.
+~
+Her velvet eyes, her brightness, her perfume and harmony distract your heart
+from the world's deformity and time's leaden step.
+~
+2|128 10 -928 P
+5 2
+#11016
+megaera lich~
+Megaera~
+Megaera darkens the blackest marble here, in the grave of silent whores.
+~
+The enchantress of ebony high, born of dark midnight, the elixir of her lips
+sends you craving more than affection -- opium's dreams and night's darkling
+shade.
+~
+2|32 10 -928 P
+4 2
+#11017
+storm giantess~
+The giantess~
+The giantess awaits a troubled poet, to sleep in the shadow of her breasts.
+~
+Rainclouds darken her eyes and thunderbolts are gathered in her heart.
+~
+2|128 10 238 P
+4 2
+#11018
+fire giant~
+A fire giant~
+A fire giant is stomping angrily through a lava pit.
+~
+He seems to be having a very bad day.
+~
+2|4|32 0 -632 P
+3 1
+#11019
+fire salamander~
+A fire salamader~
+A wicked salamander waits here for his next victim.
+~
+The salamander is covered with thick red scales, which might make you mistake
+him for a young red dragon, if were not for his long slithering tail.
+~
+2|4|32 0 -800 P
+3 1
+#11020
+efreeti~
+The efreeti~
+A gigantic efreeti sneers at you from his gilded throne.
+~
+The efreeti is a gigantic spirit from the elemental plane of fire.  His 
+expression seems to alternate between contempt and disgust for your puny
+existence.  Usually efreeti are powerful magicians.
+~
+2|4|32 8 -500 P
+5 1
+#11021
+murderer~
+The murderer~
+The murderer sleeps beneath the arbor with a silly grin on his face.
+~
+He will sleep like a dog and never know or care when the skidding wheels of
+a wagon loaded down with rocks crushes his guilty head.
+~
+128 0 -345 P
+3 1
+#11022
+lover~
+The lover~
+The lover mounts the wine and sets of for a sky that is magic - divine.
+~
+He looks like he is fleeing, with his one true love, to the Paradise of his
+dreams.
+~
+128 0 800 P
+1 1
+#11023 
+lover~
+The lover~
+The lover is cradled gently on the wing of a conniving whirlwind.
+~
+She is rapt in parallel transport.
+~
+128 0 800 P
+1 2
+#11024
+ragpicker~
+The ragpicker~
+A ragpicker stumbles past, bumping into walls with a poet's grace.
+~
+He staggers under enormous sacks of junk, reeking of sour wine, whiskers
+drooping like surrendered flags.
+~
+128 0 400 P
+2 1
+#11025
+water rat~
+A large water rat~
+A large water rat swims past your boat.
+~
+The rat is a slimy creature about as big as a small dog.
+~
+64 0 0 P
+1 0
+#11026
+great white shark~
+The great white shark~
+The great white shark swims here, larger than your boat.
+~
+It looks like it could eat you and your boat, then go on to a real meal.
+~
+4|32|64 8 0 P
+4 1
+#0
+
+
+#OBJECTS
+#11002
+light green potion~
+a light green potion~
+A light green potion has been left here.~
+~
+10 96 1
+9 15 0 0
+2 800 25
+#11003
+bottle grimy~
+a grimy bottle~
+A grimy bottle lies here.~
+~
+17 0 16385
+7 7 5 0
+10 2500 5
+E
+bottle~
+It looks as if it has been rolling around in the bottom of a ship for
+about 20 years.
+~
+#11004
+leather belt studded~
+a studded leather belt~
+A thick, studded leatherbelt lies here.~
+~
+9 0 2049
+4 0 0 0
+6 50 80
+E
+belt~
+The belt is wide and thick, and has been studded with bronze.
+~
+#11005
+bronze bracelet~
+a bronze bracelet~
+A bronze bracelet has been dropped here.~
+~
+9 0 4097
+5 0 0 0
+7 75 85
+E
+bracelet~
+the bracelet looks like will protect your forearm if you wear it.
+~
+#11006
+boots ironbound~
+a pair of ironbound boots~
+Some ironbound boots lie on the ground.~
+~
+9 0 65
+6 0 0 0
+25 70 40
+E
+boots~
+These boots have iron reinforcements plated on the top and sides.
+~
+#11007
+dagger barbed~
+a barbed dagger~
+A wicked-looking barbed dagger lies here.~
+~
+5 0 8193
+0 4 4 11
+1 90 15
+E
+dagger~
+The dagger has five wicked barbs potruding from blade -- it looks like it will
+do a lot of damage.
+~
+A
+1 1
+A
+19 4
+#11008
+bottle wine~
+A wine bottle~
+A wine bottle has been dropped here.~
+~
+17 0 16385
+2 2 2 0
+15 8000 5
+E
+bottle~
+As you rub the dust off the bottle you read, "To mankind -- dear and 
+disinherited."
+~
+#11009
+engagement ring~
+An engagement ring~
+An engagement ring has been abandoned here.~
+~
+9 0 3
+0 0 0 0
+1 50 80
+E
+ring~
+the engagement ring has been fashioned out of silver and inlaid with a tiny
+black pearl.
+~
+#11010
+wedding ring~
+A wedding ring~
+A wedding ring has been thrown on the ground.~
+~
+9 0 3
+0 0 0 0
+1 125 50
+E
+ring~
+The wedding ring is a simple band of white gold.
+~
+A
+12 5
+A
+24 -1
+#11020
+corpse wife~
+The fermenting corpse~
+The fermenting corpse of the Murderer's wife has been cast here.~
+~
+13 128 16897
+0 0 0 0
+200 0 200
+E
+corpse~
+She looks as if she might have been crazy.  Women are crazy.  Men are too.
+~
+A
+2 -4
+A
+17 -8
+#11021
+murder~
+Murder~
+Murder lounges here, tempting you with her radiance, like a vain whore.~
+~
+5 193 8193
+0 5 3 11
+10 200 15
+E
+murder~
+She is like the desert and the desert sky, insensible to human suffering.
+~
+A
+1 3
+A
+19 3
+#11023
+broadsword flaming~
+a flaming broadsword~
+A gigantic broadsword lies here flaming.~
+~
+5 65 8193
+0 3 9 3
+17 150 15
+E
+broadsword~
+There are strange runes inscribed on the blade.
+~
+A
+18 1
+A
+19 2
+#11024
+scalemail red dragon scale~
+red dragon scalemail~
+Some red dragon scalemail lies on the ground.~
+~
+9 0 9
+8 0 0 0
+12 200 88
+E
+scalemail~
+It has been fashioned from the hide of an ancient red dragon. 
+~
+A
+23 -2
+#11025
+gauntlets efreeti~
+a pair of efreeti gauntlets~
+A pair of efreeti gauntlets lies on the ground.~
+~
+9 64 129
+5 0 0 0
+8 200 15
+E
+gauntlets~
+the have been worked from a magical red fabric and inlaid with brass.
+~
+A
+18 1 
+A
+19 1 
+#11026
+amulet skull~
+the skull amulet~
+The skull amulet has been dropped here by a Pirate.~
+~
+9 128 5
+5 0 0 0
+2 100 45
+E
+amulet skull~
+The skull amulet is made of gold and inlaid with an ebony skull emblem.
+~
+A
+2 1
+#11030
+fire bottle potion~
+a bottle of fire potion~
+A small bottle filled with liquid fire is here~
+~
+10 65 16385
+30 36 34 17
+10 800 10
+#11031
+fish~
+a small fish~
+A small, fresh-caught fish lies here.~
+~
+19 0 1
+24 0 0 0
+1 20 50
+#11032
+bucket~
+a bucket~
+A metal bucket sits here.~
+~
+15 0 16385
+75 5 -1 0
+5 120 200
+#11033
+net bundle~
+a fibrous bundle of netting~
+A bundle of woven fibers is here.~
+~
+9 0 16897
+3 0 0 0
+5 150 15
+E
+net~
+It smells like fish.
+~
+A
+1 1
+A
+2 -1
+#11034
+executioner hood black~
+a black executioner's hood~
+A sinister black hood lies upon the ground.~
+~
+9 192 17
+7 0 0 0
+2 200 20
+E
+hood~
+It is made from the finest silk.
+~
+A
+1 1
+A
+19 1
+#11035
+black axe~
+a black axe~
+A gigantic black axe lies here.~
+~
+5 322 8193
+0 1 19 3
+17 250 15
+E
+axe~
+There are glowing runes inscribed on the blade.
+~
+E
+runes~
+They seem to twist and change as you watch, making them unreadable.
+~
+A
+18 2
+A
+19 3
+#11036
+rod dark~
+a dark rod~
+A dark rod rests here.~
+~
+4 66 16385
+31 1 1 2
+2 100 25
+#11037
+dirty vial potion~
+a dirty potion~
+A small dirty vial, filled with liquid, is here.~
+~
+10 65 16385
+20 39 35 62
+10 500 10
+E
+liquid~
+It is thick and vile-smelling.
+~
+#11039
+chain iron~
+an iron chain~
+A length of chain is lying on the ground.~
+~
+5 256 10241
+0 5 1 2
+6 650 30
+E
+chain iron~ 
+The chain is made from thick iron links.
+~
+A
+17 -7
+#11040
+iron bracer~
+an iron bracer~
+A dark band of metal has been left here.~
+~
+9 16640 4097
+6 0 0 0
+6 650 30
+A
+21 -1
+A
+23 -1
+#11041
+chest pirate booty large~
+a large chest of pirate booty~
+A large grimy chest filled with pirate booty be sittin' in the room!~
+~
+15 0 0
+200 0 0 0
+0 0 200
+#0
+
+
+#ROOMS
+#11000
+11000~
+Empty
+~
+23 16384 0
+S
+#11001
+The dock.~
+    You are standing on a weather-beaten dock.  To the west of you there is a 
+long canal.  To the east is a door leading into the warehouse.
+~
+110 16384 1
+D3
+The rough-cut canal.
+~
+~
+0 -1 11002
+D1
+A large door opens into a warehouse.
+~
+door~
+1 1001 13052
+E
+dock~
+Moss trails off the end of the dock, and starfish crawl their way lazily
+around it.
+~
+S
+#11002
+The rough-cut canal~
+    You are floating slowly down a narrow canal.  The walls are supported by
+thick oak beams.  Just west of you there is a dock by a small warehouse.
+~
+110 16384 7
+D3
+The canal continues.
+~
+~
+0 -1 11003
+D1
+A weather-beaten dock.
+~
+~
+0 -1 11001
+E
+canal~
+It is narrow and deep, dug by an army of dwarven workers.
+~
+S
+#11003
+The rough-cut canal~
+    You are floating slowly down a narrow canal.  The walls are supported by
+thick oak beams.  The canal begins to widen here.
+~
+110 16384 7
+D3
+The canal continues.
+~
+~
+0 -1 11004
+D1
+The canal continues.
+~
+~
+0 -1 11002
+S
+#11004
+The canal~
+    The canal is wider here, and the sides slope less steeply into the water.
+You catch the salty wet smell of the sea wafting from the east.
+~
+110 16384 7
+D3
+The canal continues.
+~
+~
+0 -1 11005
+D1
+The canal continues.
+~
+~
+0 -1 11003
+S
+#11005
+The wide canal~
+    The canal widens here as it empties into a small inlet.  Good thing dwarven
+workers were used to cut this canal.  The canal into the inlet is cut into
+five meters of black basalt!
+~
+110 16384 7
+D3
+The inlet.
+~
+~
+0 -1 11006
+D1
+The wide canal.
+~
+~
+0 -1 11004
+S
+#11006
+The small inlet.~
+    The inlet is a notch in the great bay before you.  On each side, great
+basalt cliffs rise high above the pounding waves from the mighty ocean.  There
+is a beach with fine black sand to the north, and before you is a large bay
+cut out of a great basalt tuft.  Beyond that is the mighty sea.
+~
+110 16384 7
+D0
+The black beach.
+~
+~
+0 -1 11007
+D3
+The bay.
+~
+~
+0 -1 11013
+D1
+The wide canal.
+~
+~
+0 -1 11005
+E
+bay~
+Waves roll across the choppy bay.  There are a number of ominous dark spots
+there.
+~
+E
+beach~
+The sandy beach stops abruptly before a steep cliff.  There seems to be a shadow
+there...or is it a cave?
+~
+S
+#11007
+On the dark black sand.~
+    The hot sand burns beneath your feet.  Foul grey droppings, as if from some
+huge bird, litter the beach.  The tyrant sun mocks you with her heat and 
+uneasiness gnaws at your stomach.  Suddenly, a chorus of songbirds echos off 
+the cliffs.  You are filled with joy...the song seems to cascade from behind 
+a boulder to the north.
+~
+110 16384 2
+D0
+Around the boulder.
+~
+boulder~
+0 -1 11008
+D3
+The bay.
+~
+bay~
+0 -1 11013
+D2
+The small inlet.
+~
+~
+0 -1 11006
+E
+bay~
+Beneath the shallow water of the beach you see long and wavy tendrils of sea-
+weed.  Further to the north, the weeds become thick and the water murky.
+~
+E
+boulder~
+The boulder rests heavily in the sand, worn by the fearsome sea, crowned with
+the white droppings of sea birds.
+~
+S
+#11008
+By the cliff~
+    The song here is a joy to your ears.  Your heart begs you to sit down here
+and rest for a while, just listening to the beautiful music.  Above you, perched
+at the mouth of a cave, are some beautiful and mysterious birds.  They look like
+hmmmm...vultures with female torsoes.  They are singing like angels.
+~
+110 16384 3
+D3
+The murky waters.
+~
+~
+0 -1 11011
+D2
+Around the boulder.
+~
+boulder~
+0 -1 11007
+D4
+Up a cliff to a cave.
+~
+cliff~
+0 -1 11009
+E
+cliff~
+The cliff has eroded a bit, and there are enough holds to allow you to
+climb it.  That is...if you dare!
+~
+E
+boulder~
+The boulder rests heavily in the sand, worn by the fearsome sea, crowned with
+the white droppings of sea birds.
+~
+E
+waters murky~
+Dark shapes are weaving through the murky water.  It looks like seaweed, but
+you never can tell.
+~
+S
+#11009
+The mouth of a cave.~
+   Wow, a little climbing, and what a view.  Sheer cliffs rising haughtily above
+the sea, which smashes tireless against them, beating them to sand.  Out beyond
+the bay you can make out an archipelago which fades into the misty air.
+~
+110 16384 5
+D1
+Too dark to tell.
+~
+~
+0 -1 11010
+D5
+By the cliff.
+~
+~
+0 -1 11008
+S
+#11010
+The shallow cave~
+    This place sends nausea through your entrails.  The stench of offal and 
+death weighs like a lead cloak over this tiny cave.  Scraps of rotting flesh 
+and skeletons covered with bird droppings cover the floor.
+~
+110 1|16384 4
+D3
+The mouth of the cave opens seaward.
+~
+~
+0 -1 11009
+S
+#11011
+The murky waters~
+    Seaweed slithers against your feet.  Seaweed?  OUCH!  That didn't feel like
+seaweed!  Something is swimming under the murky water.
+~
+110 16384 6
+D3
+The waters get deeper to the east.
+~
+~
+0 -1 11016
+D2
+The bay.
+~
+bay~
+0 -1 11012
+S
+#11012
+The bay~
+    Out on the bay, the sea breezes whip your hair and exhilarate you.  You
+are embarking on another splendid adventure.  Dark shadows on the misty bay
+pique your curiousity, tantalizing you with the spice of the unknown.
+~
+110 16384 7
+D0
+You spot seaweed tendrils waving through shallow murky waters to the north.
+~
+murky~
+0 -1 11011
+D3
+The middle of the bay.
+~
+~
+0 -1 11015
+D2
+The bay.
+~
+~
+0 -1 11013
+D1
+The black beach.
+~
+beach~
+0 -1 11007
+E
+beach~
+The sandy beach stops abruptly before a steep cliff.  There seems to be a shadow
+there...or is it a cave?
+~
+S
+#11013
+The bay~
+    Out on the bay, the sea breezes whip your hair and exhilarate you.  You
+are embarking on another splendid adventure.  A warm mist envelops this part
+of the bay.  A small island lies eastward, cloaked mysteriously with a misty
+haze.
+~
+110 16384 7
+D0
+The bay.
+~
+~
+0 -1 11012
+D3
+The misty bay.
+~
+island~
+0 -1 11014
+D1
+The inlet.
+~
+~
+0 -1 11006
+E
+island~
+The island has a curious regularity, and it seems to be floating. 
+~
+S
+#11014
+The misty bay~
+    Sweat beads up on your skin as a thick cloud of warm mist surrounds
+you.  What you thought was an island was actually a giant floating beast.
+You can barely breath as the mist thickens and heats to a cloud of steam.
+The deep green water churns and eddies beneath you.  To the east some dark
+and fearful crags rise above the foamy spray of the waves, which SMASH
+against them with deafening roars.
+~
+110 16384 7
+D0
+The middle of the bay.
+~
+~
+0 -1 11015
+D3
+Up against the crags.
+~
+~
+0 -1 11029
+D1
+The bay.
+~
+~
+0 -1 11013
+E
+crags~
+They rise like demon's teeth from the depths, surrounded by froth as the waves,
+full of splinters, crash against them.
+~
+S
+#11015
+The middle of the bay~
+    From the middle of the bay you can see some tiny specks in the distance...
+...they look like an archipelago.  To the southeast, the waves crash against
+several sharp crags, sending splinters of shattered ships into the air.  The
+waters to the north are deep and murky.
+~
+110 16384 7
+D0
+The deep murky waters.
+~
+~
+0 -1 11016
+D3
+The mouth of the bay.
+~
+~
+0 -1 11028
+D2
+The misty bay.
+~
+~
+0 -1 11014
+D1
+The bay.
+~
+~
+0 -1 11012
+E
+crags~
+They rise like demon's teeth from the depths, surrounded by froth as the waves,
+full of splinters, crash against them.
+~
+E
+archipelago~
+They look like tiny volcanic islands just a ways from the coast.
+~
+S
+#11016
+The deep and murky waters~
+    The waters here are deep and murky.  Tendrils of seaweed wave beneath the
+surface.  Tiny fish scatter below you as your boat disturbs them.
+~
+110 16384 7
+D3
+The northern corner.
+~
+~
+0 -1 11017
+D2
+The middle of the bay.
+~
+~
+0 -1 11028
+D1
+The murky waters.
+~
+~
+0 -1 11011
+S
+#11017
+The northern corner~
+    The northern corner of the bay opens gently up into the sea.  To the 
+northeast, you can see a small fishing boat drifting along.  Further out,
+there is a small island.
+~
+110 16384 7
+D3
+The sea.
+~
+sea~
+0 -1 11018
+D2
+The mouth of the bay.
+~
+~
+0 -1 11015
+D1
+The deep and murky waters.
+~
+~
+0 -1 11016
+S
+#11018
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  A fishing boat drifts to the east
+and you can make small islands to the north and south.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11019
+D3
+The sea.
+~
+~
+0 -1 11020
+D2
+The sea.
+~
+~
+0 -1 11021
+D1
+The northern corner.
+~
+~
+0 -1 11017
+S
+#11019
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  The current here pulls your boat
+northward.  In the distance you can here a deep roar.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11022
+D3
+The sea.
+~
+~
+0 -1 11022
+D2
+The sea.
+~
+~
+0 -1 11026
+D1
+The sea.
+~
+~
+0 -1 11027
+S
+#11020
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  The current here pulls your boat
+northward.  In the distance you can here a deep roar.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11022
+D3
+The sea.
+~
+~
+0 -1 11022
+D2
+The sea.
+~
+~
+0 -1 11026
+D1
+The sea.
+~
+~
+0 -1 11027
+S
+#11021
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  The current here pulls your boat
+northward.  In the distance you can here a deep roar.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11022
+D3
+The sea.
+~
+~
+0 -1 11022
+D2
+The sea.
+~
+~
+0 -1 11026
+D1
+The sea.
+~
+~
+0 -1 11027
+S
+#11022
+The whorling current~
+    The gigantic sea takes you up - up - up - as if into the sky.
+Then, with a sweep, a slide, and a plunge that makes you feel dizzy, you go
+plummeting down the wave.  The Maelstrom is only a mile dead ahead.  
+    A huge blue whale, caught within the rushing current, thrashes and bellows
+as it enters the frothy rim of the Maelstrom.  Involuntarily, you close your
+eyes with horror.  The lids clench themselves together as if in a spasm.
+~
+110 4|16384 7
+D0
+Into the froth.
+~
+~
+0 -1 11023
+E
+whale~
+The whale looks pitifully fragile as it tossed about by the current.
+~
+E
+hole~
+The hole cascades like a waterfall into the black unknown.
+~
+E
+froth~
+The froth spits around a gaping hole in the ocean, tossing splinters into the
+air.
+~
+S
+#11023
+Above the gaping maelstrom~
+     Suddenly, you feel the waves subside as you are envoloped in foam.  The
+boat makes a sharp half turn starboard, then shoots off in a new direction like
+a thunderbolt.  At the same moment, the roaring noise of the water is drowned
+by a shrill shriek.  You are now in the belt of surf that always surrounds the
+whorl.  Another moment and you will go plunging into the abyss, down which you
+cannot see on account of the amazing velocity with which you are born along.
+~
+110 16384 7
+D5    
+The abyss.
+~
+~
+0 -1 11024
+S
+#11024
+The maelstrom~
+    You gaze about you with a sensation of awe, horror, and admiration.  The
+boat appears to be hanging, as if by magic, midway down, upon the interior
+surface of a funnel vast in circumference, prodigious in legnth, and whose
+perfectly smooth sides might have been mistaken for ebony, but for the 
+bewildering rapidity with which it spins around.  You watch with sickened
+horror as a fishing boat makes three or four wild gyrations then plunges
+headlong, once and forever, into the chaos of the foam below.
+~
+110 16384 7
+D5
+Into the foam.
+~
+~
+0 -1 11025
+E
+spray chaos foam~
+The spray, is no doubt, occasioned by the clashing of the great walls of the 
+funnel, as they meet at the bottom.  The yell that goes up to the Heavens
+out of the mist I dare not describe.     
+~
+S
+#11025
+The bottom of the maelstrom~
+The spray roars around you.  You try to breath but your lungs fill with water.
+You clutch at the boat...no help....
+
+		* CRRUUUNNNNCCCCCHHHH *                  
+
+
+THAT REALLY DID HURT!
+
+
+
+Neptune sworls in from the black depths, cackling insanely, as he claims his
+prize.
+~
+110 2|16384 1
+D5
+~
+~
+0 0 9152
+S
+#11026
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  A small island lies to the east, 
+and a larger one lies to the south.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11019
+D3
+The sea.
+~
+~
+0 -1 11041
+D2
+The sea.
+~
+~
+0 -1 11031
+D1
+The sea.
+~
+~
+0 -1 11019
+S
+#11027
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  A string of islands lie to the
+southeast.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11018
+D3
+The sea.
+~
+~
+0 -1 11026
+D2
+The sea.
+~
+~
+0 -1 11030
+D1
+The sea.
+~
+~
+0 -1 11028
+S
+#11028
+The mouth of the bay~
+   Before you is the vast and terrible ocean.  As your boat slips over the 
+gurgling waves, they seem to cackle in contempt.  Though the ocean may challenge
+you, may claim your puny life at any whim, you will never challenge the ocean.
+It stands before you like a thousand Leviathans, deep and bitter.  You shudder
+as you hear them howl with delight as they crash their mighty waves against
+the dangerous crags to the south.
+~
+110 16384 7
+D0
+The northern corner.
+~
+~
+0 -1 11017
+D3
+The sea.
+~
+~
+0 -1 11027
+D2
+Up against the crags.
+~
+~
+0 -1 11029
+D1
+The middle of the bay.
+~
+~
+0 -1 11015
+E
+crags~
+They rise like demon's teeth from the depths, surrounded by froth as the waves,
+full of splinters, crash against them.
+~
+S
+#11029
+The crags~
+    As you approach the rocky crags, the ocean seems to drop out from under 
+you, sending your palpitating heart into your mouth.  Then, suddlenly a huge
+wave brings you up upon its drooling crest.  You hang suspended, for a moment,
+before the crags, then with a wicked hurl the wave dashes you against the
+rocks with a sickening crunch.
+
+THAT REALLY DID HURT!
+
+Neptune is before you laughing insanely!
+
+You wake up smashed agains rocks, and realize you can only be lost...
+~
+110 2|4|16384 7
+D3
+~
+~
+0 0 5055
+S
+#11030
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the east stretches a marvelous
+archipelago.  To the south, the huge waves crash against rocky crags jutting
+from the depths like demon's teeth.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11027
+D3
+The sea.
+~
+~
+0 -1 11040
+D2
+The sea.
+~
+~
+0 -1 11033
+D1
+Up against the crags.
+~
+~
+0 -1 11029
+E
+crags~
+They rise like demon's teeth from the depths, surrounded by froth as the waves,
+full of splinters, crash against them.
+~
+S
+#11031
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11026
+D3
+The sea.
+~
+~
+0 -1 11040
+D2
+The sea.
+~
+~
+0 -1 11032
+D1
+The sea.
+~
+~
+0 -1 11030
+S
+#11032
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the northwest, a large bay
+cuts into the black basalt cliffs.  To the east, you can make out five little
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11031
+D3
+The sea.
+~
+~
+0 -1 11035
+D2
+The sea.
+~
+~
+0 -1 11034
+D1
+The sea.
+~
+~
+0 -1 11033
+S
+#11033
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west magnificant basalt
+cliffs rise above the sea.  You can make out an archipelago to the east.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11030
+D3
+The sea.
+~
+~
+0 -1 11032
+S
+#11034
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west large cliffs rise
+from the ocean.  To the east there is an archipelago.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11032
+D3
+The sea.
+~
+~
+0 -1 11035
+S
+#11035
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the northwest, a large bay
+cuts into the black basalt cliffs.  To the east, you can make out five little
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11039
+D3
+The sea.
+~
+~
+0 -1 11070
+D2
+The sea.
+~
+~
+0 -1 11036
+D1
+The sea.
+~
+~
+0 -1 11034
+S
+#11036
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a waterfall cascades
+from a high basalt cliff.  To the northeast there is an archipelago.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11035
+D3
+The sea.
+~
+~
+0 -1 11075
+D2
+The sea.
+~
+~
+0 -1 11079
+D1
+Underneath the waterfall.
+~
+~
+0 -1 11130
+E
+waterfall~
+The waterfall rushes out over the high cliff, surrounded by a glorious rainbow.
+~
+S
+#11039
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the northwest, a large bay
+cuts into the black basalt cliffs.  To the east, you can make out five little
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11040
+D3
+The sea.
+~
+~
+0 -1 11059
+D2
+The sea.
+~
+~
+0 -1 11065
+D1
+The sea.
+~
+~
+0 -1 11032
+S
+#11040
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay
+cuts into the black basalt cliffs.  To the east, you can make out five little
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11041
+D3
+The sea.
+~
+~
+0 -1 11059
+D2
+The sea.
+~
+~
+0 -1 11039
+D1
+The sea.
+~
+~
+0 -1 11031
+S
+#11041
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+cuts into the black basalt cliffs.  Directly to the east, there is a sad, dark
+isle.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11042
+D3
+The sad, dark isle.
+~
+~
+0 -1 11100
+D2
+The sea.
+~
+~
+0 -1 11040
+D1
+The sea.
+~
+~
+0 -1 11026
+S
+#11042
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  To the southeast, you can make out five little 
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11045
+D3
+The sea.
+~
+~
+0 -1 11045
+D2
+The sea.
+~
+~
+0 -1 11041
+D1
+The sea.
+~
+~
+0 -1 11019
+S
+#11045
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the northwest, a large bay
+cuts into the black basalt cliffs.  Directly to the south, there is a sad, dark
+isle.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11047
+D3
+The sea.
+~
+~
+0 -1 11047
+D2
+The sad, dark isle.
+~
+~
+0 -1 11100
+D1
+The sea.
+~
+~
+0 -1 11042
+S
+#11047
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, a large bay
+cuts into the black basalt cliffs.  To the west, you can make out some little
+islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The sea.
+~
+~
+0 -1 11049
+D2
+The sea.
+~
+~
+0 -1 11048
+D1
+The sea.
+~
+~
+0 -1 11042
+S
+#11048
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  Directly to the west, there is a 
+sad, dark isle.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11045
+D3
+The sea.
+~
+~
+0 -1 11047
+D2
+The sea.
+~
+~
+0 -1 11050
+D1
+A sad, dark isle.
+~
+~
+0 -1 11100
+S
+#11049
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11081
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11050
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, an island rises
+like an emerald from the sea.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The sea.
+~
+~
+0 -1 11051
+D2
+The sea.
+~
+~
+0 -1 11060
+D1
+The sea.
+~
+~
+0 -1 11048
+S
+#11051
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11059
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  To the north, there is a sad, dark isle, and to 
+the east, an emerald island filled, with rolling hills rises from the sea.
+~
+110 16384 7
+D0
+A sad, dark isle.
+~
+~
+0 -1 11100
+D3
+An emerald island.
+~
+~
+0 -1 11120
+D2
+The sea.
+~
+~
+0 -1 11065
+D1
+The sea.
+~
+~
+0 -1 11040
+S
+#11060
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  To the north, there is a small isle, and to 
+the west, an emerald island filled, with rolling hills rises from the sea.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11050
+D3
+The sea.
+~
+~
+0 -1 11061
+D2
+The sea.
+~
+~
+0 -1 11067
+D1
+An emerald island.
+~
+~
+0 -1 11120
+S
+#11061
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  To the south, you can see an island cloaked 
+in a mysterious mist.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11051
+D3
+The sea.
+~
+~
+0 -1 11062
+D2
+A mysterious island.
+~
+~
+0 -1 11200
+D1
+The sea.
+~
+~
+0 -1 11060
+S
+#11062
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11065
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  You can see three islands, all to the east.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11059
+D3
+The sea.
+~
+~
+0 -1 11066
+D2
+The sea.
+~
+~
+0 -1 11070
+D1
+The sea.
+~
+~
+0 -1 11039
+S
+#11066
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  To the north, an emerald island rises from the
+sea.  You drift by a barren, rocky isle to the south.
+~
+110 16384 7
+D0
+An emerald island.
+~
+~
+0 -1 11100
+D3
+The sea.
+~
+~
+0 -1 11067
+D2
+A barren, rocky isle.
+~
+~
+0 -1 11105
+D1
+The sea.
+~
+~
+0 -1 11065
+S
+#11067
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the east, there is a mysterious
+isle, cloaked in fog.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11060
+D3
+A mysterious island.
+~
+~
+0 -1 11200
+D2
+The sea.
+~
+~
+0 -1 11071
+D1
+The sea.
+~
+~
+0 -1 11066
+S
+#11068
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11070
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the east, a barren rocky isle 
+blocks your way.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11065
+D3
+A barren, rocky isle
+~
+~
+0 -1 11105
+D2
+The sea.
+~
+~
+0 -1 11075
+D1
+The sea.
+~
+~
+0 -1 11035
+S
+#11071
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a barren, rocky isle 
+rises from the sea.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11067
+D3
+The sea.
+~
+~
+0 -1 11072
+D2
+The sea.
+~
+~
+0 -1 11077
+D1
+A barren, rocky isle.
+~
+~
+0 -1 11105
+S
+#11072
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the north, a mysterious isle  
+lies shrouded in fog, and to the south, a small volcano rises from the sea
+spitting lava.
+~
+110 16384 7
+D0
+A mysterious isle.
+~
+~
+0 -1 11200
+D3
+The sea.
+~
+~
+0 -1 11073
+D2
+The volcano.
+~
+~
+0 -1 11110
+D1
+The sea.
+~
+~
+0 -1 11071
+S
+#11073
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11075
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the west, a large bay cuts
+into the black basalt cliffs.  You can see a small volcano rising from the
+sea to the east.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11070
+D3
+The sea.
+~
+~
+0 -1 11076
+D2
+The sea.
+~
+~
+0 -1 11076
+D1
+The sea.
+~
+~
+0 -1 11036
+S
+#11076
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the north, there is a rocky,
+barren island.  A small volcanoe rises from the sea to the east.
+~
+110 16384 7
+D0
+The rocky, barren isle.
+~
+~
+0 -1 11105
+D3
+The sea.
+~
+~
+0 -1 11077
+D2
+The sea.
+~
+~
+0 -1 11077
+D1
+The sea.
+~
+~
+0 -1 11076
+S
+#11077
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, a barren, rocky 
+isle blocks the way to the bay.  You can see a small volcano rising from the
+sea to the east.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11070
+D3
+The volcano.
+~
+~
+0 -1 11110
+D2
+The sea.
+~
+~
+0 -1 11076
+D1
+The sea.
+~
+~
+0 -1 11036
+S
+#11078
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11049
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11061
+D1
+The sea.
+~
+~
+0 -1 11050
+S
+#11079
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  In the distance to the north, a 
+waterfall cascades from a high basalt cliff.  To the southeast are more islands.
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11035
+D3
+The sea.
+~
+~
+0 -1 11075
+D2
+The sea.
+~
+~
+0 -1 11079
+E
+waterfall~
+The waterfall is just visible in the distance.
+~
+S
+#11080
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, a barren, rocky 
+isle blocks the way to the bay.  You can see a small volcano rising from the
+sea to the east.
+~
+110 16384 7
+D0
+The volcano.
+~
+~
+0 -1 11110
+D3
+The sea.
+~
+~
+0 -1 11080
+D2
+The sea.
+~
+~
+0 -1 11085
+D1
+The sea.
+~
+~
+0 -1 11080
+S
+#11081
+The sea~
+   You run before the wind at full sail, climbing the mountainous backs of the
+waves, plummeting down, eardrums throbbing fearful of a coming wreck.  In fair
+wind or foul, the sea is a raging storm.  Your heart yearns for some companion
+to chaperone you over these bitter fathoms.  To the southwest, you can make out
+some little islands.  With a terrifying shudder, you look to the east as the
+ocean seems to drop off into the oblivion of the space -- into the legendary
+Point of No Return!
+~
+110 16384 7
+D0
+The sea.
+~
+~
+0 -1 11081
+D3
+The point of no return.
+~
+~
+0 -1 11112
+D2
+The sea.
+~
+~
+0 -1 11049
+D1
+The sea.
+~
+~
+0 -1 11081
+S
+#11085
+A large island~
+	You have come across a large island in the southern end of the sea.
+You observe that much of the island is wooded and mountainous.  Snow covers
+many of the higher peaks, and you sense that the island is inhabited.
+~
+110 16384 7
+D0
+~
+~
+0 -1 11080
+D2
+~
+~
+0 -1 11086
+S
+#11086
+A bit inland~
+	You are closer to the woods, as the beach recedes.  It appears that
+there is a path to the south.
+~
+110 16384 7
+D0
+~
+~
+0 -1 11085
+D2
+~
+~
+0 -1 11087
+S
+#11087
+On the Island near a forest~
+  North: water, South: Trees.
+~
+110 16384 7
+D0
+~
+~
+0 -1 11086
+D2
+~
+~
+0 -1 2300
+S
+#11100
+The coast~
+    As you skirt the isle, your white sails raise the birds in flight, upon
+the isle you see a dark cypress.
+~
+111 16384 7
+D0
+Cythera.
+~
+~
+0 -1 11102
+D3
+The sea.
+~
+~
+0 -1 11041
+D2
+Around the isle.
+~
+~
+0 -1 11101
+D1
+The sea.
+~
+~
+0 -1 11048
+E
+isle cythera~
+A fair isle of green myrtles and blowing flowers it is not, but no more than
+a spare, barren waste, a stony desert distraught by shrill cries.
+~
+S
+#11101
+The coast~
+    As you skirt the isle, your white sails raise the birds in flight, upon
+the isle you see a dark cypress.
+~
+111 16384 7
+D0
+Around the island.
+~
+~
+0 -1 11100
+D3
+Cythera.
+~
+~
+0 -1 11102
+D2
+The sea.
+~
+~
+0 -1 11059
+D1
+The sea.
+~
+~
+0 -1 11048
+E
+isle cythera~
+A fair isle of green myrtles and blowing flowers it is not, but no more than
+a spare, barren waste, a stony desert distraught by shrill cries.
+~
+S
+#11102
+Cythera~
+     A cypress etches a three branched gibbet, wherefrom a rotten carcase
+hangs.  Strange birds perched there are greedily riddling their prey, thrusting
+their foul beaks, as awls, into the bloody crannies of their victim.
+~
+111 16384 5
+D0
+The coast.
+~
+~
+0 -1 11101
+D3
+The coast.
+~
+~
+0 -1 11100
+D2
+The coast.
+~
+~
+0 -1 11101
+D1
+The coast.
+~
+~
+0 -1 11100
+S
+#11105
+The barren and rocky island.~
+Just a great big pile of rocks in the middle of the ocean.
+~
+111 128|16384 5
+D0
+The sea.
+~
+~
+0 -1 11066
+D3
+The sea.
+~
+~
+0 -1 11071
+D2
+~
+~
+0 -1 1001
+D1
+The sea.
+~
+~
+0 -1 11070
+S
+#11110
+The small volcano.~
+A rugged slope of sharp igneous and metamorphic rock (pumice, obsidian
+granite and basalt) extruded from the sea.  The harsh terrain slopes up
+from the sea, then down into a small caldera.  You can feel the heat of 
+the lava even here through the soles of your boots.  A thoroughly unpleasant
+and unsafe place to visit.
+~
+111 16384 5
+D0
+The sea.
+~
+~
+0 -1 11072
+D3
+The sea.
+~
+~
+0 -1 11078
+D2
+The sea.
+~
+~
+0 -1 11080
+D1
+The sea.
+~
+~
+0 -1 11077
+D5
+Into the lava.
+~
+~
+0 -1 11111
+S
+#11111
+In the lava.~
+A wide pool of bubbling lava, dotted with small mounds of solid rock
+upon which you can (carefully) make your way around the lava pool.
+~
+111 132|16384 5 
+D2
+~
+~
+0 0 1600
+D4
+The volcano.
+~
+~
+0 -1 11110
+S
+#11112
+The Point of No Return~
+Arrrrgh! You fell into a rushing gnarly whirlpool!
+~
+110 2|16384 7
+D5
+~
+~
+0 -1 13697
+S
+#11550
+11550~
+Empty
+~
+111 16384 0
+S
+#11120
+Rounding the Island of Wine.~
+Rounding this fair crystal of lush greenery, a sweet music fills the air, 
+listening to it sends your ragged soul closer to knowing happiness.  To your
+joy, a mooring awaits your weary boat and steps lead up to a lovely arbor.
+~
+111 16384 7
+D0
+The sea.
+~
+~
+0 -1 11048
+D3
+The sea.
+~
+~
+0 -1 11060
+D2
+The sea.
+~
+~
+0 -1 11066
+D1
+The sea.
+~
+~
+0 -1 11059
+D4
+Up the winding steps.
+~
+~
+0 -1 11121
+E
+arbor~
+Thick vines, heavy with ripe graps, toil up the arbor walls.
+~
+S
+#11121
+Beneath the arbor.~
+The sky is magic, divine, as it drips its illumination through the arbor.
+~
+111 16384 1
+D3
+By a well.
+~
+~
+0 -1 11122
+D5
+Down to the boat mooring.
+~
+~
+0 -1 11120
+E
+arbor~
+Through the arbor the sky is a silken avalanche of clouds.
+~
+S
+#11122
+By a well.~
+How tragic it is.. some wicked soul has dumped all the flagstones into 
+the well.
+~
+111 16384 2
+D3
+Along a cobblestone path.
+~
+~
+0 -1 11124
+D1
+~
+~
+0 -1 11121
+D5
+Into the little well.
+~
+flagstones~
+3 -1 11123
+E
+flagstones~
+They were once piled around the edge, someone is up to no good!
+~
+S
+#11123
+The little well.~
+With the flagstones removed, it is dry, empty well.~
+111 16384 5
+D4
+By a well.
+~
+~
+3 -1 11122
+S
+#11124
+Along a cobblestone path.~
+A streetlamp flickers, unattended, on this little labrynth through the arbor.
+~
+111 16384 1
+D0
+Along a cobblestone path.
+~
+~
+0 -1 11125
+D3
+Along a cobblestone path.
+~
+~
+0 -1 11126
+D1
+~
+~
+0 -1 11122
+E
+streetlamp~
+It is rusted and rotten as your own dark soul.
+~
+S
+#11125
+Along a cobblestone path.~
+Some fool has posted a placard here.
+~
+111 16384 1
+D2
+Along a cobblestone path.
+~
+~
+0 -1 11126
+D1
+Along a cobblestone path.
+~
+~
+0 -1 11124
+E
+placard~
+PRAYER
+
+Satan be praised!  Glory to you on high
+where once you reigned in Heaven, and in the Pit
+where now you dream in taciturn defeat!
+Grant my soul, one day, beneath the Tree
+of Knowledge, meet you when above your brow
+its branches, like a second Temple, spread!
+
+	C. Baudelaire
+~
+S
+#11126
+Along a cobblestone path.~
+Empty~
+111 16384 1
+D3
+The cobblestone path.
+~
+~
+0 -1 11126
+D2
+The cobblestone path.
+~
+~
+0 -1 11125
+D1
+The cobblestone path.
+~
+~
+0 -1 11124
+S
+#11130
+Underneath the waterfall~
+    The water pounds heavily on you as you go underneath, holding your breath,
+on the other side though, the relentless beatings have hollowed out a small
+cave, just large enough for a ship to dock.  There are a number of footsteps
+in the sand.  A large stone covers the back wall of the cave, and scraps of 
+wood lie in the corner.  It seems as if this place is someone's hideaway.
+~
+110 8|16384 4
+D3
+The sea.
+~
+~
+0 -1 11036
+D1
+~
+stone~
+1 -1 11131
+E
+scraps~
+They are thrown carelessly in a corner.
+~
+E
+stone~
+It is a large black stone, rounded by the sea.
+~
+S
+#11131
+The Hideaway~
+    This tiny room has been hacked out of a cave.  The floor is dirty, and
+there are some grimy matresses there.  The air hangs thick with the smell of
+sweat and rum.
+~
+110 9|16384 2
+D3
+~
+stone~
+1 -1 11130
+E
+floor~
+It is scuffed with the boots of Pirates.
+~
+E
+stone~
+It is a large black stone, rounded by the sea.
+~
+S
+#11200
+In the fog.~
+The fog is thick around this mysterious isle.  You have landed on a thin, cold
+sandy beach.  Some black marble stairs lead upward.
+~
+112 1|16384 1
+D0
+The sea.
+~
+~
+0 -1 11061
+D2
+The sea.
+~
+~
+0 -1 11072
+D1
+~
+The sea.~
+0 0 11067
+D4
+Up the marble stairs.
+~
+~
+0 -1 11201
+E
+stairs~
+They are marked with strange and troubling runes.
+~
+S
+#11201
+The Temple of Blood.~
+    A fountain spills blood on the stones in sobs, so that they turn to islands
+as if if the city were a battleground, slaking the thirst of whores, and dyeing
+all the world of nature red.
+~
+112 1|16384 1
+D0
+On the forgotten knoll.
+~
+~
+0 -1 11204
+D3
+Into the broken heart.
+~
+heart fountain~
+1 -1 11202
+D5
+Down to the beach.
+~
+~
+0 -1 11200
+E
+fountain~
+It is a heart, crafted from marble.  A huge crack splits it to the floor.
+~
+S
+#11202
+The Tomb of Love.~
+     Conceived as a dream of stone, a monumentous pedestal awaits the lonely.
+In studious awe you brood, for it freezes the world in a perfect mirror.
+~
+112 1|16384 1
+D1
+The Temple of Blood.
+~
+~
+1 -1 11201
+D5
+Underneath the seal.
+~
+seal~
+3 -1 11203
+E
+seal~
+Beneath the pedestal a great seal has been carved into the floor.  Lines and
+strange symbols of brass gleam under the dust of the ages.
+~
+E
+symbols brass~
+Who could know the purpose of the ancient seal?  Its secrets have been lost to
+the depths of time.
+~
+S
+#11203
+By the River Lethe.~
+    A sepulcher floats upon the river Lethe running through this deep and
+unholy cavity.  It reflects the filth of all humanity, a nightmare crammed with
+unfathomable things:  witches roasting foetuses in a pan, crones at a mirror
+served by naked girls who straighten stockings to entice a Fiend.  
+Yet one beast stands out, uglier and fouler than the rest, and this is Boredom,
+dreaming of hangings while he puffs his pipe -- I think you know him well, 
+reader, my twin!
+~
+112 1|16384 1
+D3
+~
+bridge~
+1 -1 11205
+D4
+The Tomb of Love.
+~
+plug~
+3 -1 11202
+E
+river lethe~
+The ancient dark river flows silently past as it has for all time.  A small
+bridge spans the waters to the east.
+~
+E
+bridge~
+The bridge is made of human bones.
+~
+S
+#11204
+On the forgotten knoll.~
+    Primal nature lies naked and unadorned as grassy knoll where sweet
+simplicity can remove the ache of knowledge.
+~
+112 16384 1
+D2
+The Temple of Blood.
+~
+~
+0 -1 11201
+S
+#11205
+Entrance into Darkness~
+A dark and eerie cavern hollowd out over the ages by the sluggish waters
+of the river Lethe.  Odd fungi and lichen cover the walls and ceiling,
+and strange molds grow on the damp cavern floor.  A wide, low passage
+slopes away from the cavern to the east.  To the west an ancient, rickety
+bridge crosses the river Lethe.
+~ 
+112 9|16384 0
+D3
+~
+~
+0 -1 11205
+D1
+~
+bridge~
+1 -1 11203
+E
+bridge~
+The bridge is made of human bones.
+~
+S
+#0
+
+
+#RESETS
+*
+*Ocean of Jawan, corrected & modified by Whisper 10/93
+*
+D 0 11001 1 1          close door to warehouse
+*
+M 0 11025 5 11006       water rat
+M 0 11025 5 11011       water rat
+M 0 11025 5 11012       water rat
+M 0 11025 5 11011       water rat
+M 0 11025 5 11004       water rat
+*
+M 0 11000 10 11008      Harpy Vultures behind boulder
+M 0 11000 10 11008      Harpy Vulture
+M 0 11000 10 11008      Harpy Vulture
+*
+M 0 11000 10 11009      Harpy Vultures at cave entrance
+M 0 11000 10 11009      Harpy Vulture
+*
+M 0 11001 1 11010       Wicked Harpy Queen in cave
+G 1 11002 500             light green potion
+M 0 11000 10 11010      Harpy Vultures with queen
+M 0 11000 10 11010      Harpy Vulture
+M 0 11000 10 11010      Harpy Vulture
+M 0 11000 10 11010      Harpy Vulture
+*
+M 0 11011 2 11015      swarthy fisherman middle of bay
+E 0 11032 500 18         holds bucket of fish
+E 0 11033 500 11         wears fishing net
+P 0 11031 500 11032      put a fish in the bucket
+P 0 11031 500 11032      put another fish in
+G 0 11031 500            a fish he hasn't put in the bucket yet
+*
+M 0 11003 2 11011      giant weed eel (one)
+M 0 11003 2 11011      giant weed eel
+*
+M 0 11002 1 11049       sea turtle in sea by p.o.n.r.(DT)
+*
+M 0 11017 1 11024       storm giantess in maelstrom (above DT)
+E 1 11039 10 16           wield chain
+E 1 11040 20 14           wear bracer
+*
+M 0 11011 2 11020       fisherman near maelstrom
+E 0 11032 500 18         holds bucket of fish
+E 0 11033 500 11         wears fishing net
+P 0 11031 500 11032      put a fish in the bucket
+P 0 11031 500 11032      put another fish in
+G 0 11031 500            a fish he hasn't put in the bucket yet
+*
+M 0 11010 10 11076      albatross
+M 0 11010 10 11075      albatross
+M 0 11010 10 11071      albatross
+M 0 11010 10 11068      albatross
+M 0 11010 10 11065      albatross
+M 0 11010 10 11059      albatross
+M 0 11010 10 11050      albatross
+M 0 11010 10 11047      albatross
+M 0 11010 10 11039      albatross
+M 0 11010 10 11059      albatross      
+*
+M 0 11004 3 11031       hammerhead shark
+M 0 11004 3 11031       hammerhead shark
+M 0 11004 3 11031       hammerhead shark      
+*
+M 0 11005 3 11028       bottlenose dolphins
+M 0 11005 3 11028       bottlenose dolphins  
+M 0 11005 3 11028       bottlenose dolphins  
+*
+M 0 11026 2 11079       great white sharks near pirates (should wander)
+*
+M 0 11006 1 11077        sea serpent near volcano isle
+M 0 11006 1 11048        sea serpent in northern ocean
+*
+*
+*D 0 11130 3 1           close door to hideaway (its damp out)
+*
+M 0 11007 1 11131       mangy pirate in hideaway
+E 1 11005 90 10            bracelet
+M 0 11008 1 11131       redbeard                
+E 1 11004 90 13            wears studded belt
+E 1 11026 50 3             wears amulet
+E 1 11006 50 8             wears ironbound boots
+M 0 11009 1 11131       toothless pirate
+E 1 11007 85 16            wields barbed dagger
+O 0 11041 1 11131       pirate booty chest
+P 1 11003 50 11041       grimy bottle
+P 1 11003 50 11041       grimy bottle
+P 1 11003 50 11041       grimy bottle
+P 1 11003 50 11041       grimy bottle
+P 1 11003 50 11041       grimy bottle
+P 1 11002 1 11041       light green potion
+*
+M 0 11012 1 11102     panther beast at cythera
+E 1 11036 5 18         hold rod
+*
+M 0 11019 1 11105     fire salamander
+E 1 11030 15 18        give fire potion
+*
+M 0 11018 1 11110      fire giant in small volcano
+E 1 11023 25 16         wield broadsword
+E 1 11024 20 5          scalemail suit on fire giant
+M 0 11020 1 11111      efreeti in lava
+E 1 11025 15 9          efreeti gauntletss on efreeti 
+G 1 11030 15            give fire potion
+*
+*D 0 11122 5 1        close the well
+*
+M 0 11014 3 11123     viper in well
+M 0 11014 3 11123     viper in well
+M 0 11014 3 11123     viper in well
+O 0 11020 500 11123     corpse of wife in well
+P 1 11010 200 11020     put wedding ring in corpse
+*
+M 0 11021 1 11121     the murderer
+G 1 11037 100           give dirty potion
+M 0 11023 1 11126     the lover (female) along cobble path
+E 1 11009 300 2         engagement ring to lover
+M 0 11022 1 11126     the lover (male) along cobble path
+M 0 11024 1 11124     the ragpicker by streetlamp
+G 1 11008 300           give wine bottle
+*
+*
+*D 0 11205 3 1        close the gate on the bridge
+*D 0 11203 4 1        close the great seal
+*
+M 0 11013 1 11201     executioner phantom in blood temple
+E 1 11034 10 6         wears executioner's hood
+E 1 11035 10 16        the black axe (wield)
+M 0 11015 1 11202     beauty in tomb of love
+M 0 11016 1 11203     megaera lich by Lethe
+E 1 11021 5 16         murder to lich (wield)
+*
+S
+
+#SPECIALS
+S
+
+#$

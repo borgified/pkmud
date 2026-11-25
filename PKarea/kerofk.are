@@ -1,0 +1,4195 @@
+#AREA  CAW~
+Kerofk~
+1 100
+
+
+#MOBILES
+#2400
+MouseRider~
+MouseRider~
+MouseRider sits on his throne here, his head in his hands.
+~
+MouseRider is the greatest mortal sage ever.  He is also a most
+troubled man, knowing things you couldn't even guess at.  You wonder
+how he could have all that knowledge and not want power.
+~
+2 0 1000 P
+1 1
+#2401
+Sentinel Beast~
+the Sentinel Beast~
+The Sentinel Beast's eyes glow chaotically as it attacks!
+~
+The Sentinel Beast is somewhat reminiscent of a wolf if you ignore the
+multi-colored glowing eyes, the horns, the six inch long claws...
+~
+34 8 0 P
+3 0
+#2402
+Leonna~
+Leonna~
+Leonna, guildmaster of the Mages' Guild of Kerofk, greets you.
+~
+Leonna seems to be a nice, fun-loving woman.  Obviously she became
+guildmaster due more to her personality than her wizardly power.  Her
+powers are no small matter, however; she is still one of the best
+mages in the city.
+~
+2 1024 700 P
+5 2
+#2403
+Bookstore Owner~
+the Bookstore Owner~
+The Bookstore Owner looks up from a paperback as you come in.
+~
+The Bookstore Owner looks very bored in his job here.  From the way
+his fingers twitch and his eyes dart, you wonder if he really is what
+he appears...
+~
+2 0 -500 P
+40 1
+#2404
+Seobagn Thieves Thief Guildmaster~
+Seobagn~
+The Thieves' Guildmaster, Seobagn, watches you with narrowed eyes.
+~
+Seobagn snickers at you while he spins a coin around his fingers with
+practised ease.  You wonder if its your coin.
+~
+2 1024 -800 P
+5 1
+#2405
+Bartender~
+the Bartender~
+The Bartender pours drinks several at a time to keep up with the rush.
+~
+The Bartender looks harried as he tries to keep up with several
+different orders at the same time.  Maybe you should bother him
+later...
+~
+2 0 250 P
+40 1
+#2406
+Barmaid~
+the Barmaid~
+The barmaids rush about delivering drinks and taking orders.
+~
+The barmaid looks at you with a tired glance as she struggles to keep
+up with the thirsty populace.  
+'What do you want?' she asks while pulling out an order pad.
+~
+130 0 100 P
+2 2
+#2407
+drunk person~
+the Drunk~
+A drunk person is here, babbling about something incessantly.
+~
+The drunk person looks at you and slurs, 'Whatre you lookin' at,
+bozo?'
+~
+2 0 0 P
+1 1
+#2408
+lucky gambler~
+the Gambler~
+A lucky gambler is here, striking it rich!
+~
+The lucky gambler looks at you and snickers.  Poor Boy!
+~
+6 0 0 P
+4 1
+#2409
+dealer~
+the Dealer~
+The dealer sets out a new hand for all to play.
+~
+The dealer looks at you flatly and says, 'Are you in or out?'  He
+really doesn't seem to care one way or another.
+~
+2 0 200 P
+4 1
+#2410
+Ben Benzaldehyde~
+Ben~
+Ben counts his money, ignoring you completely.
+~
+Benzaldehyde is a big man, reminding you of some elephants you've
+seen.  His eyes light up while he counts his money--a man possessed by
+his greed.
+~
+130 0 -785 P
+5 1
+#2411
+Ginger shopkeeper~
+the Shopkeeper~
+The shopkeeper smiles at you as you enter her store.
+~
+The shopkeeper here is the legendary Bob's wife Ginger.  She welcomes
+you to her establishment and invites you to browse as long as you
+wish.
+~
+2 0 900 P
+40 2
+#2412
+unlucky gambler~
+the Gambler~
+An unlucky gambler struggles to hold back tears as his money disappears.
+~
+The unlucky gambler just doesn't say a word, he just keeps putting the
+money down, hoping to at least break even.  It doesn't even look like
+he's got a chance.
+~
+6 0 0 P
+4 1
+#2413
+citizen~
+the Citizen~
+A citizen is here, debating politics with anyone who will listen.
+~
+The citizen seems very upset about something.  You're not sure exactly
+what, but he seems anxious to tell you.  The more he talks, the more
+your attention wanders until you're ready to go.
+~
+130 0 350 P
+3 1
+#2414
+receptionist wife~
+the Receptionist~
+The receptionst smiles and offers you a room.
+~
+Myrama is all smiles as you look at her.  She is bright, witty, and
+the only reason why Kell is so successful.  Myrama is truly marvelous!
+~
+2 0 1000 P
+1 2
+#2415
+apothecary shopkeeper~
+the Apothecary~
+The apothecary is here, preparing to sell you various implements.
+~
+The apothecary is an ancient woman, but she still seems spry and
+sharp-minded when it comes to poisons.  You've no doubt this woman is
+an expert in her field.
+~
+2 0 500 P
+40 2
+#2416
+lawyer~
+the Lawyer~
+The lawyer is here, ready to lie his tongue out.
+~
+The lawyer looks at you, ready to spot anything he can sue you for.
+This has got to be one of the most loathesome mobs in the whole mud!
+~
+130 0 -1000 P
+5 1
+#2417
+secretary~
+the Secretary~
+The secretary pops his gum and asks you what you want.
+~
+The secretary is a bored, out-of-place looking man, until you spot the
+hidden daggers in his sleeve, boot, shirt, down his back, etc.  (not
+too good at hiding them, is he?).  Obviously, this man is here more to
+protect the mayor than to do office work.
+~
+2 0 0 P
+5 1
+#2418
+mayor kell~
+Kell~
+Mayor Kell greets you into his office with a welcoming hand.
+~
+The mayor seems happy to see you, even though you interrupted his
+putting practice.  He sits you down, offers you a drink, and asks what
+he can do for you.
+~
+2 0 1000 P
+1 1
+#2419
+council guard~
+the Council Guard~
+The Council Guards look ready to rip you apart if you disturb the meeting.
+~
+The Council Guards are impressive.  As you look upon their pikes and
+plate armor, a little part of your brain start screaming about how
+you'd be crazy to mess with them.
+~
+2 8 0 P
+4 1
+#2420
+council members~
+the Council Member~
+The council member looks quite upset as you interrupt them!
+~
+The council member is not just another politician...he can fight, too!
+~
+130 0 350 P
+5 1
+#2421
+jailer~
+the Jailer~
+The jailer reads his newspaper while sitting in his chair.
+~
+The jailer looks bored, as if he was in a Fortran class.  That
+bored...really!
+~
+2 0 100 P
+3 1
+#2422
+prisoner~
+the Prisoner~
+A prisoner here has given up all hopes of escape.
+~
+The prisoner looks up at you weakly and mumbles, 
+'I am not a number!'  He gasps and looks dejected again.
+~
+2 0 -500 P
+1 1
+#2423
+innguard guard~
+the Innguard~
+A innguard is here, ready to fight off some marauding hordes.
+~
+The innguard looks fearless and ready to defend the patrons of the
+Fortress at a moments notice.
+~
+2 0 600 P
+5 1
+#2424
+Jenk~
+Jenk~
+Jenk is here, ready to sell you anything!
+~
+Jenk is a lowdown no good shopkeeper who'll sell anything to make a
+gold!  He's corrupt, greedy, and you're kind of man!
+~
+2 0 -500 P
+40 1
+#2425
+black marketeer~
+the Black Marketeer~
+The black marketeer is here ready to sell you anything you want.
+~
+The black marketeer has set up shop in Jenk's place to sell just what
+you need...  Now what is it that you need?
+~
+2 0 -750 P
+5 1
+#2426
+priest~
+the Priest~
+A priest is here, performing his absolutions.
+~
+The priest looks like a kindly man who has seen too much suffering for
+one life.  He now devotes his life to XXXXX, hoping to one day ascend to
+immortality.
+~
+130 0 0 P
+3 1
+#2427
+high priest guildmaster~
+the High Priest~
+The High Priest is here, glowing with the benevolence of AO.
+~
+The High Priest will be ascending to XXXXX soon, and now his entire
+body glows with the same light as his soul.
+~
+2 128 1000 P
+5 1
+#2428
+sergeant recruiting~
+the Sergeant~
+The recruiting sergeant tries to make you sign his forms.
+~
+The recruiting sergeant has seen the world.  Now he's trying to make
+you do the same.  ARGH!!! Resist!  Resist!!
+~
+2 0 0 P
+4 1
+#2429
+captain guard~
+the Captain~
+The Captain of the Guard salutes you with his epee.
+~
+The Captain has a true love of civilized fighting.  He raises his
+eyebrow to you...shall we have a go at it?
+~
+2 0 200 P
+5 1
+#2430
+beggar~
+the Beggar~
+A beggar sits here, waiting for handouts.
+~
+The beggar looks up at you with sad eyes.  However, you notice
+something shiny clenched in his hand...  What is he hiding?
+~
+192 0 900 P
+1 1
+#2431
+citizen~
+the Citizen~
+A citizen is here, waiting in line.
+~
+The citizen looks at you with a flat stare.  You can see he's
+wondering if you'll butt in line.
+~
+2 0 100 P
+3 1
+#2432
+citizen~
+the Citizen~
+A citizen of Kerofk is here, going about his business.
+~
+This citizen really doesn't have time to fool around with adventurers;
+he has too much to do.
+~
+64 0 100 P
+3 1
+#2433
+militia guard~
+the Militia Man~
+A militia guard is here keeping the peace.
+~
+The militia guardsman looks very well trained, for a citizen.
+~
+64 0 500 P
+4 1
+#2434
+Kervin~
+Kervin~
+Kervin the wandering mage is well, ...wandering here.
+~
+Kervin is very odd looking....  He has a big unkempt shock of white
+hair that stick straight up and wears an electric blue robe to hide
+the rest of his features.
+~
+64 8 700 P
+5 1
+#2435
+gateguard~
+the Gateguard~
+The gateguard is here, guarding the gate.
+~
+The guard guard looks at you and enunciates very clearly,
+'Guard guard guard guard guard guard guard guard guard.'
+	(looks like he got the right job!)
+~
+2 0 400 P
+5 1
+#2436
+bright light~
+the Bright Light~
+A bright shining light here nearly blinds you!
+~
+You try to look closer at the light and nearly burn your retinas clear
+off.  That wasn't too bright now, was it?
+~
+34 8 0 P
+6 0
+#2437
+guardian wisp~
+the Guardian Wisp~
+Some guardian wisps here attack!
+~
+The wisp is made up of clammy, misty air, and a bad attitude.
+~
+34 1048576 0 P
+3 0
+#2438
+orb~
+the Orb~
+The orb glows with a pure white light.
+~
+The orb is pure crystal and shines with a bright aura.  This is surely
+the object of your quest!
+~
+2 8 1000 P
+6 0
+#2439
+liche mouserider~
+the Liche~
+The liche that was MouseRider curses you horribly!
+~
+This liche was once the troubled MouseRider.  Now he has finally
+lunged for power and achieved it, making him immortal.  Will you be
+able to stop him?
+~
+34 2|32 -1000 P
+7 1
+#2440
+storm demon~
+the Storm Demon~
+The storm demons attack on the Liche's order!
+~
+The demons are spindly with great bats wings and glowing blue eyes.
+They are twisted things not of nature.  They attack!
+~
+34 8 -900 P
+3 0
+#2441
+Tiersten vampire~
+Tiersten~
+Tiersten looks at you with angry eyes and bared fangs!
+~
+Tiersten, the patriarch of this odd, odd, family, turns out to be a
+vampire.  And a demonologist to boot!  He growls incoherently at you
+as he attacks!
+~
+34 2|32 -1000 P
+5 1
+#2442
+Edimmu~
+the Edimmu~
+A mist-like being stabs at you with a tendril!
+~
+There doesn't seem to be much to look at, besides the coiling mist
+attacking you!
+~
+34 2|8 0 P
+3 0
+#2443
+Sosivia~
+Sosivia~
+Sosivia stands here, lost in daydreams.
+~
+Sosivia struggles to hold onto her artist's soul, in spite of her
+family.  She is a beautiful woman that you wish you could take away
+from all this.
+~
+18 0 1000 P
+4 2
+#2444
+Celia~
+Celia~
+Celia sneers at you...Sneer!  Sneer!
+~
+Celia is Talbot and Korino's sister, and Sosivia's mother.  She is the
+head of the household as far as you can tell, and leeches onto the
+power with a death-grip.  What a horrible woman!
+~
+6 0 -600 P
+15 2
+#2445
+Talbot~
+Talbot~
+Talbot spars with his brother Korino here.
+~
+Talbot has a permanent sneer on his face.  He barely glances at you as
+he beats his brother's sword back to take a vicious swipe...
+~
+2 0 0 P
+5 1
+#2446
+Korino~
+Korino~
+Korino spars with his brother Talbot here.
+~
+Korino looks at you with barely disguised contempt as he parries
+Talbot's blow and ripostes around...
+~
+2 0 0 P
+5 1
+#2447
+Fleecem Bungle~
+Bungle Fleecem~
+Bungle Fleecem, esquire, looks at you expectantly.
+~
+He smiles, leans back, and tries to look bored to cover that vulturous
+attitude.  He doesn't quite succeed; he IS a lawyer, after all.
+~
+130 0 -600 P
+5 1
+#2448
+digger gravedigger~
+the gravedigger~
+A gravedigger works away the nightshift here.
+~
+He looks tired and dirty.  A glare out of the corner of his eye, and
+he dismisses you easily.  He doesn't seem to care one whit about you.
+~
+2 0 200 P
+3 1
+#2449
+citizen~
+the Citizen~
+A citizen of Kerofk is here, going about her business.
+~
+This citizen really doesn't have time to fool around with adventurers;
+she has far too much to do.
+~
+64 0 100 P
+3 2
+#2450
+hellhounds hounds hell hell-hounds~
+a hellhound~
+A hellhound looks at you with hunger.
+~
+It's hide is a deep brownish-red hue, but its eyes are the most
+noticeable about this magnificent beast.  Red within red eyes, with
+tiny pupils of black in the center.
+~
+34 40 -500 P
+3 0
+#2451
+goblin~
+a goblin~
+A goblin launches into a frenzied attack!
+~
+You see the bloodlust in its eyes, and know there's no reasoning with
+this creature...
+~
+34 40 -600 P
+1 1
+#2452
+Farmer~
+the Farmer~
+The farmer sells her lackluster with all the excitement it warrants.
+~
+She looks wearied, but keeps hanging in there!
+~
+2 0 200 P
+40 2
+#2453
+Receptionist~
+the Receptionist~
+A receptionist stands in front of you, waiting to help you.
+~
+She looks at you happily, and pushes a ledger at you.
+~
+2 0 0 P
+6 2
+#2454
+Bartender~
+the Bartender~
+The Bartender pours drinks several at a time to keep up with the rush.
+~
+The Bartender looks harried as he tries to keep up with several
+different orders at the same time.  Maybe you should bother him
+later...
+~
+2 0 250 P
+40 1
+#0
+
+
+#OBJECTS
+#2400
+white glove~
+a white glove~
+There is a small white glove on the ground here.~
+~
+3 64 16513
+15 1 1 1
+1 200 12
+E
+white glove~
+This white glove looks rather like its worth no protection
+what-so-ever.
+~
+#2401
+crystal shard~
+a crystal shard~
+There is a tiny piece of broken crystal on the ground.~
+~
+9 1 16385
+3 0 0 0
+2 750 30
+A
+12 35
+#2402
+book dragons~
+the book of dragons~
+There is a book here with a scaled cover.~
+~
+3 64 16385
+18 1 1 26
+10 10000 20
+E
+book dragons~
+This book has so much information about dragons it would take
+you weeks to decide what you wanted to read...
+~
+#2403
+robe liche~
+the robe of the Liche~
+A partly rotted robe lies in the corner.~
+~
+9 64 1025
+5 0 0 0
+5 150 20
+E
+robe liche~
+This robe looks like it once belonged to something dead.
+Maybe you shouldn't it keep it.
+~
+#2404
+epee~
+an epee~
+A nice looking epee lies here, begging to be picked up.~
+~
+5 0 8193
+0 12 1 11
+12 250 27
+A
+18 2
+#2405
+powwee~
+a powwee~
+There is a strange blue spiraled fruit on the ground here.~
+~
+19 0 1
+4 0 0 0
+3 12 2
+E
+powwee~
+This fruit tastes something like apples with peanut better spread on.
+~
+#2406
+war ribbon~
+a war ribbon~
+There is a coiled up piece of ribbon here.~
+~
+5 524288 8193
+0 8 2 2
+11 200 35
+E
+war ribbon~
+This weapon is certainly one of the more exotic you've seen: a coiled
+up piece of incredibly sharp metal used to coil around an opponent's 
+limb and rip off as much flesh as possible.
+~
+A
+18 -4
+A
+19 4
+#2407
+zucchini~
+a zucchini~
+A pale, light green zucchini.~
+~
+19 0 16385
+4 0 0 0
+2 6 2
+E
+zucchini~
+   It looks rather sickly, as if it didn't get enough sun.
+~
+#2408
+manual protection~
+a manual of protection~
+There is a thin manual with big red letters here.~
+~
+2 0 16385
+1 1 1 1
+5 30 35
+E
+manual protection~
+As you read the manual, you begin to realize that its better NOT
+to get hit during a fight...
+~
+#2409
+travel brochure~
+a travel brochure~
+There is a travel brochure here, inviting you to see the sights.~
+~
+2 0 16385
+8 1 1 2
+0 100 10
+E
+brochure~
+Hey you know, now that you think of it, there's a lot of places
+you haven't been...this is the perfect opportunity!
+~
+#2410
+bird perch plate~
+a plate bird perch~
+There is some sort of bird perch here, attached to something metal.~
+~
+9 128 257
+7 0 0 0
+12 180 30
+E
+bird perch plate~
+This is a bird perch made to affix to the shoulder plate of some
+armor.  You don't have a clue why.
+~
+#2411
+arbalest~
+an arbalest~
+There is an arbalest here, nearly as tall as you!~
+~
+5 0 8193
+0 5 6 11
+24 500 35
+A
+18 -6
+#2412
+target armor~
+a suit of target armor~
+There is a light set of armor here, with a big bulls-eye painted on 
+the front...~
+~
+9 66 9
+-30 0 0 0
+15 300 10
+A
+18 1
+A
+1 2
+#2413
+quick sheathe~
+a quick sheathe~
+There is a nice-looking break-away sheathe discarded here.~
+~
+9 0 2049
+0 0 0 0
+10 100 25
+A
+18 1
+A
+19 -2
+#2414
+tin can worms nightcrawlers~
+a tin of nightcrawlers~
+There is a tin can of worms lying here.~
+~
+19 0 1
+2 0 0 0
+5 4 1
+#2415
+amulet hell~
+an amulet of Hell~
+There is a valuble amulet inscribed with Hell's symbol here.~
+~
+9 97 5
+5 0 0 0
+5 300 40
+A
+13 20
+#2416
+pendant eagle~
+an eagle pendant~
+There is a pendant in the shape of an eagle here.~
+~
+9 97 5
+3 0 0 0
+7 250 45
+A
+2 3
+A
+12 10
+#2417
+fly lure~
+a fly lure~
+There is a small fishing lure here.~
+~
+13 0 16385
+0 0 0 0
+0 100 5
+#2418
+dusk basil~
+a dusk of basil~
+You see a small dusk of an herb here.~
+~
+3 0 16385
+9 1 1 3
+0 500 50
+#2419
+fern seed~
+a fern seed~
+You see a very tiny seed here.~
+~
+3 0 16385
+4 1 1 29
+0 3000 10
+#2420
+clump hemlock~
+a clump of hemlock~
+There is a clump of hemlock lying on the ground.~
+~
+3 1 16385
+5 1 1 4
+0 3000 30
+#2421
+betony leaf~
+a betony leaf~
+A small bright green leaf lies on the ground.~
+~
+3 0 16385
+7 1 1 38
+0 2500 70
+#2422
+crown elder berries~
+a crown of elder berries~
+A ring of red berries lies here.~
+~
+9 0 17
+0 0 0 0
+0 20 40
+A
+24 -5
+#2423
+guild key~
+a guild key~
+There is a small green key on the floor.~
+~
+18 0 16385
+2452 0 0 0
+0 0 50
+#2424
+blank key~
+a blank key~
+There is a blank key here.~
+~
+18 0 16385
+2448 0 0 0
+0 0 200
+#2425
+scroll odd~
+an odd scroll~
+There is an odd-looking scroll here.~
+~
+18 65 16385
+2403 0 0 0
+0 0 200
+#2426
+jailer's key~
+a jailer's key~
+There is a jailer's key here.~
+~
+18 0 16385
+2462 0 0 0
+0 0 200
+#2427
+flaming sword~
+a flaming sword.~
+There is a sword here with a blade of red.~
+~
+5 1|64 8193
+0 4 3 3
+12 180 80
+A
+17 -8
+#2428
+dreamblade blade~
+the dreamblade~
+A sword lies here with a shifting blade that hurts your eyes.~
+~
+5 64 8193|16384
+0 1 8 3
+0 500 10
+E
+dreamblade blade~
+The inscription on the pommel reads,
+'Strike True'
+~
+A
+18 2
+#2429
+chimaera cloak~
+a chimaera cloak~
+You spot a cloak out of the corner of your eye.~
+~
+9 0 1025
+2 0 0 0
+15 250 25
+A
+1 2
+#2430
+jerkin~
+a magic jerkin~
+There is a nice looking shirt here.~
+~
+9 64 9
+7 0 0 0
+3 160 80
+#2431
+space warp wand space-warp~
+the space-warp wand~
+A wand might be here.~
+~
+15 64 1
+200 0 0 0
+1 500 50
+#2432
+elite sword~
+an elite sword~
+A beautiful sword has been discarded here.~
+~
+5 0 8193
+0 2 8 3
+9 80 50
+#2433
+amulet protection~
+an amulet of protection~
+An amulet is here, not wanted by anybody.~
+~
+9 65 5
+15 0 0 0
+1 75 20
+#2434
+staff memory~
+the memory staff~
+A staff stands against the wall here.~
+~
+1 65 16385
+0 0 -1 0
+10 200 30
+#2435
+flail~
+a flail~
+A sharp-looking flail is here.~
+~
+5 65 8193
+0 1 8 6
+10 60 10
+A
+19 2
+#2436
+painting~
+a painting~
+A painting of the goddess of healing hangs here.~
+~
+3 64 16385
+10 1 1 15
+15 150 30
+E
+painting art arla~
+This is a painting of Arla, goddess of healing. 
+There seems to be no artist's signiture, however.
+~
+#2437
+axe~
+an axe~
+A big axe is here.~
+~
+5 65 8193
+0 1 6 3
+14 90 20
+A
+19 4
+#2438
+talisman hope~
+a talisman of hope~
+A talisman lies here, filleted in gold.~
+~
+9 65 5
+4 0 0 0
+1 100 10
+A
+12 10
+#2439
+armor living blob~
+a blob of living armor~
+A blob of something that pulses slightly is lumped here.~
+~
+9 64 6509
+5 0 0 0
+5 100 20
+E
+armor living blob~
+   It seems to be rather cohesive, and feels dry to the touch.
+It grips your finger firmly as you poke it.  You wonder WHO
+would want such a thing.
+~
+#2440
+apple~
+a pale apple~
+An extremely pale apple sits here.~
+~
+19 0 1
+2 0 0 0
+1 3 1
+E
+apple~
+   It looks like it didn't get enough sun.
+~
+#2441
+potato potatoe~
+a potato~
+A potato sits here, eyeing you.~
+~
+19 0 1
+4 0 0 0
+1 2 1
+E
+potato~
+   Looks like a potato.
+~
+#2442
+onion~
+an onion~
+You can smell that onion from here!~
+~
+19 0 1
+1 0 0 0
+1 1 1
+E
+onion~
+   That's a pretty strong onion!
+~
+#2443
+plate breast~
+a breast plate~
+A steel breast plate lies here.~
+~
+9 0 9
+6 0 0 0
+15 100 100
+#2444
+cap steel round~
+a round, steel cap~
+A round, steel cap lies here, discarded.~
+~
+9 0 17
+4 0 0 0
+5 100 30
+#2445
+leggings chain~
+a pair of chain leggings~
+A pair of chain leggings are piled here.~
+~
+9 0 33
+5 0 0 0
+20 100 75
+#2446
+chest~
+a chest~
+An ornate looking chest sits here.~
+~
+15 0 0
+200 5 -1 0
+50 500 50
+#2447
+well~
+a well~
+A well sits in the center of the intersection here.~
+~
+25 0 0
+5000 5000 0 0
+1000 1 0
+E
+well~
+It goes deep, deep, deep into the ground.  There's a grate overtop
+to keep people from throwing trash down inside it.
+~
+#2448
+bottle~
+a bottle~
+A bottle with a brightly colored label sits here.~
+~
+17 0 1
+4 4 1 0
+1 80 2
+#2449
+carafe~
+a carafe~
+A wooden carafe sits on a table here.~
+~
+17 0 1
+2 2 2 0
+1 15000 5
+#2450
+glass shot shotglass~
+a shotglass~
+A shotglass has been discarded here.~
+~
+17 0 1
+2 2 7 0
+1 4000 4
+#0
+
+
+#ROOMS
+#2400
+MouseRider's Temple~
+   The inside of this temple is austere yet majestic.  The pillars of
+marble sweep up to the ceiling, melting into the dome overhead without
+a seam.  A blazing red carpet leads from the entrance to the throne in
+the center of the room.  This is truly the home of a great sage!
+~
+24 12 0
+D0
+~
+~
+0 -1 2401
+D2
+~
+~
+0 -1 2402
+E
+throne~
+Its nice, for a chair, but drab, for a throne.
+~
+S
+#2401
+MouseRider's Bedroom~
+   This can hardly be a bedroom--this is a room so spartan surely no
+human could spend any time here at all!  There is a small pallet in
+one corner, with a chair and a paper-stand next to it.  A small lamp
+lights up that small area, leaving the rest of the room enshrouded in
+darkness.  In the gloom to the west, you can barely make out a large
+steel door.
+~
+24 8 0
+D2
+~
+~
+0 -1 2400
+E
+door west~
+This door seems welded shut.  You'll never open it!
+~
+S
+#2402
+Plaza of Kerofk~
+   This is the center of Kerofk, physically and culturally.  Many
+people are here, milling about and standing in line to enter the great
+white temple to your north.  To the south is a smaller blue temple,
+its doors locked by great bands of magic.  Several people glare at
+you, wondering if you're going to cut through the line.
+~
+24 8 1
+D0
+~
+~
+0 -1 2400
+D1
+~
+~
+0 -1 2404
+D2
+~
+gates~
+2 2425 2403
+D3
+~
+~
+0 -1 2425
+S
+#2403
+The Blue Temple~
+   You enter the temple, looking around with wonder at the dusty
+monument's interior.  From the carvings and inscriptions, you guess
+that it was built by elves and dwarves together during a peaceful age
+long ago.  Dust covers almost everything, especially the stairs
+leading down into the earth by the nave.
+~
+24 12 0
+D0
+~
+gates~
+1 2425 2402
+D5
+~
+~
+0 -1 2500
+S
+#2404
+Center Road, West~
+   This road is very busy with traffic.  It seems that all the
+citizens of Kerofk are here, bustling and jostling each other in an
+attempt to get all they have to do done as fast as possible.  Bump Oof
+Excuse Me!  There is a Mage's Guild to the north.
+~
+24 8 1
+D0
+~
+~
+0 -1 2449
+D1
+~
+~
+0 -1 2405
+D3
+~
+~
+0 -1 2402
+S
+#2405
+Intersection~
+   This is the intersection of Citizen Road and Center Road.  The
+pedestrians file past each other with practiced ease.  You have no
+clue how to get across...  Wait, there's an opening!  Sprint, Turn,
+Jab!  Run, Run, Run...  you're across! You look up at the never-ending
+twilight and wonder how so many people could bear to live here.
+~
+24 8 1
+D0
+~
+~
+0 -1 2418
+D1
+~
+~
+0 -1 2406
+D2
+~
+~
+0 -1 2413
+D3
+~
+~
+0 -1 2404
+S
+#2406
+Center Road, West~
+   The star's shine down on you blindly as you walk down Citizen's
+Road, and for a moment you forget what kind of strange place you're
+in.  A flowerbox filled with wilted flowers brings you back to
+reality; this city has seen the sun for decades...
+~
+24 8 1
+D1
+~
+~
+0 -1 2408
+D3
+~
+~
+0 -1 2405
+S
+#2407
+The Red Card~
+   This place is a dirty ugly scroungy disgusting gambling parlor for
+the lowest of classes.  The doors to the Red Card are perpetually
+open, to let the place air out.  Tired waitresses take orders in a
+bored fashion, and then hasten to fill them before the customers
+leave.  Something crunches under your step, and you're afraid to look
+down to see what it was....stay awhile?
+~
+24 8 0
+D0
+~
+~
+0 -1 2419
+S
+#2408
+Intersection at the Cliff's Edge~
+   This is the intersection of Cliffside Road, and Center Road.  
+   Cliffside?
+   About fifteen feet ahead of you there is a sheer precipice that
+drops down about a thousand feet into the dark ocean.  You don't think
+it would be a good idea to step off, but you've already guessed that,
+haven't you?
+   Cliffside Road runs north and south from here.
+~
+24 8 1
+D0
+~
+~
+0 -1 2414
+D1
+~
+~
+0 -1 2466
+D2
+~
+~
+0 -1 2409
+D3
+~
+~
+0 -1 2406
+S
+#2409
+Cliffside Road, South~
+   This looks like an interesting spot.
+   As you hug the buildings to keep away from the thousand foot drop
+to your east (that would surely KILL you), you notice a large casino
+establishment named 'The Edge of Luck' to the west.  Strangely enough,
+the citzenry of Kerofk walk up and down the street, almost oblivious to
+the incredible drop mere feet away.
+   Cliffside Road continues North and South.
+~
+24 8 1
+D0
+~
+~
+0 -1 2408
+D1
+~
+~
+0 -1 2467
+D2
+~
+~
+0 -1 2410
+D3
+~
+~
+0 -1 2441
+S
+#2410
+Intersection at the Cliff's Edge~
+   Here is where Cliffside Road and Moon Gate Road meet: at the edge
+of a cliff.  You feel distinctly uncomfortable as you look down at the
+thousand-foot drop and think it would not be very wise to go any
+further east.  Northwards is Cliffside Road, to the west is Moon Gate
+Road, and to the east a vast expanse of stars shine over the dark
+ocean below.
+~
+24 8 1
+D0
+~
+~
+0 -1 2409
+D1
+~
+~
+0 -1 2467
+D3
+~
+~
+0 -1 2411
+S
+#2411
+Moon Gate Road, East~
+   You near the end of Moon Gate Road, and ahead you spot a sharp
+dropoff aways to the east.  A large building to the south has a
+picture of a trout in full plate hanging out front.  'Bob's Armoury
+and Tackle' it proclaims.  Armoury? Tackle Shop?!?  How curious!
+   Moon Gate Road continues to the east and west.
+~
+24 8 1
+D1
+~
+~
+0 -1 2410
+D2
+~
+~
+0 -1 2443
+D3
+~
+~
+0 -1 2412
+S
+#2412
+Intersection~
+   Moon Gate Road and Citizen's Road intersect here.  Many citizens
+walk about under the starlight here, in a hurry to get to shops, their
+homes, to work, et cetera.  Citizen's Road is to the north, Moon Gate
+Road continues east and west.
+~
+24 8 1
+D0
+~
+~
+0 -1 2413
+D1
+~
+~
+0 -1 2411
+D3
+~
+~
+0 -1 2426
+S
+#2413
+Citizen's Road, South~
+   Many private houses line this road:  this is obviously the residential
+district. It suddenly strikes you how orderly this city is planned...
+done that way on purpose?  Well, it doesn't look like there's anything
+interesting here, but the road continues north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2405
+D2
+~
+~
+0 -1 2412
+S
+#2414
+Cliffside Road, North~
+   Say, there's a bustling tavern to the west called, 'The
+Cliffhanger'!  Aptly named, too, since its oh...about 5 feet away from
+the cliff's edge.  That cliff looks kind of dangerous actually.  The
+Cliffhanger looks good, though.
+   Cliff Side Road continues to the north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2415
+D1
+~
+~
+0 -1 2467
+D2
+~
+~
+0 -1 2408
+D3
+~
+~
+0 -1 2446
+S
+#2415
+Intersection at the Cliff's Edge~
+   This is an unearthly scene: the stars shining down pale light upon
+this intersection of Cliffside Road and Star Gate Road, the thousand
+foot drop off just to your east with the ocean below.  Hmm...something
+tells you not to go east...must be that brain thing, eh?
+   Cliffside road leads south, Star Gate Road leads west.
+~
+24 8 1
+D1
+~
+~
+0 -1 13610
+D2
+~
+~
+0 -1 2414
+D3
+~
+~
+0 -1 2416
+S
+#2416
+Star Gate Road~
+   This area is strangely quiet for such a bustling city.  The stars
+shine down as you look around for the source of the silence.  Ah,
+there's a bookstore/library to your north!  Moon Gate Road continues
+to the east and west as well.
+~
+24 8 1
+D0
+~
+~
+0 -1 2447
+D1
+~
+~
+0 -1 2415
+D3
+~
+~
+0 -1 2417
+S
+#2417
+Intersection~
+   Star Gate Road and Citizen's Road meet here where many people walk
+around and do their business.  Looks like there's some private homes
+on Citizen's Road to your south, and Star Gate Road continues to the
+east and west.
+~
+24 8 1
+D1
+~
+~
+0 -1 2416
+D2
+~
+~
+0 -1 2418
+D3
+~
+~
+0 -1 2419
+S
+#2418
+Citizen's Road, North~
+   Private homes line this street, but all seem to keep their distance
+from one mighty mansion to your west.  Its vine- encrusted walls and
+sagging demeanor seem to eminate an air of death and decay and
+cliche's.  Could anyone possibly live in there?
+   Citizen's Road continues north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2417
+D2
+~
+~
+0 -1 2405
+D3
+~
+~
+0 -1 2478
+S
+#2419
+Star Gate Road, East~
+   Star Gate Road continues on, towards a steep cliff to the east.
+Southwards is a rather dingy looking gambling parlor called 'The Red
+Card'.  The smell wafting out its doors is enough to make a dead man
+turn away in disgust...how about you?
+   Star Gate Road continues to the east and west
+~
+24 8 1
+D1
+~
+~
+0 -1 2417
+D2
+~
+~
+0 -1 2407
+D3
+~
+~
+0 -1 2420
+S
+#2420
+Star Gate Road~
+   The hustle and bustle of Star Gate Road dies down a little here,
+but not by much.  To the north is a large farmer's stand where a lot
+of the citizenry seem to be going in and out of.
+~
+24 8 1
+D0
+~
+~
+0 0 2552
+D1
+~
+~
+0 -1 2419
+D3
+~
+~
+0 -1 2421
+S
+#2421
+Star Gate Road, West~
+   The nighttime stars shine down on the establishment to your south,
+making all the glitter and metal attached to it shine spectacularly.
+The sign says, 'Kell's House'.  You hear many voices talking and
+laughing inside; it's obviously a tavern or an inn, and popular to
+boot.
+   Star Gate Road continues east and west
+~
+24 8 1
+D1
+~
+~
+0 -1 2420
+D2
+~
+~
+0 -1 2463
+D3
+~
+~
+0 -1 2422
+S
+#2422
+Intersection~
+   Business Road joins Star Gate Road here.  Small shops line the
+street to your south while Star Gate Road continues on its way east
+and west.
+
+   There is an odd feeling of power to your north.
+~
+24 8 1
+D0
+~
+~
+0 -1 2475
+D1
+~
+~
+0 -1 2421
+D2
+~
+~
+0 -1 2423
+D3
+~
+~
+0 -1 2437
+S
+#2423
+Business Road, North~
+   A lovely smell wafts across the street here, coming from the open
+doors of the herbalist's shop to your east.  A variety of plants are
+arrayed outside its doors under heavy lamplight, and a sign proclaims
+assorted types of herbs on special today.
+   Business Road continues north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2422
+D1
+~
+~
+0 -1 2454
+D2
+~
+~
+0 -1 2424
+S
+#2424
+Intersection~
+   There are just too many people here at the intersection of Center
+Road and Business Road!  Too many people, walking around hurriedly.
+You hustle to avoid getting bumped over only to nearly get pushed
+over.  Your reflexes save you, but you feel you better get out of this
+intersection soon.
+   Center Road is east-west, Business road is north-south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2423
+D1
+~
+~
+0 -1 2425
+D2
+~
+~
+0 -1 2430
+D3
+~
+~
+0 -1 2438
+S
+#2425
+Center Road, East~
+   Center Road is a madhouse of people bumping into other people,
+including you!  One of the main attractions here is the Town Hall to
+the north, which holds the city's jail, courtroom, and council
+chambers, not to mention Mayor Kell's office.  To the east you see a
+huge white temple with a line outside, and a smaller blue temple.
+   Center Road continues east and west.
+~
+24 8 1
+D0
+~
+~
+0 -1 2455
+D1
+~
+~
+0 -1 2402
+D3
+~
+~
+0 -1 2424
+S
+#2426
+Moon Gate Road, East~
+   This is Moon Gate Road, which runs from Moon Gate all the way to
+the cliff.  There is a tiny keep to your north, with an inn sign out
+front.  The keep looks like it was built to withstand flood,
+earthquake, and even acts of God!
+   Moon Gate Road continues east and west.
+~
+24 8 1
+D0
+~
+~
+0 -1 2444
+D1
+~
+~
+0 -1 2412
+D3
+~
+~
+0 -1 2427
+S
+#2427
+Moon Gate Road~
+   Here's something you weren't expecting in a city this size: a
+vacant lot to your south.  Also, Moon Gate Road continues east-west.
+The air seems to crackle with energy here, but you can find no source
+for such power.
+~
+24 8 1
+D1
+~
+~
+0 -1 2426
+D2
+~
+~
+0 -1 2473
+D3
+~
+~
+0 -1 2428
+S
+#2428
+Moon Gate Road, West~
+   The starlight gives this section of Moon Gate Road a strangely
+surreal aspect, as if something were missing you can't put your finger
+on.  There's a few shops along this road, but they don't look terribly
+interesting under this aspect.  Looking around, you notice the
+entrance to the city graveyard to the south.
+~
+24 8 1
+D1
+~
+~
+0 -1 2427
+D2
+~
+~
+0 0 2548
+D3
+~
+~
+0 -1 2429
+S
+#2429
+Intersection~
+   Moon Gate Road intersects Business Road here, making this a hectic
+area as people go about their business.  Along Business Road to the
+north you see many types of different shops lining the street, and
+Moon Gate Road continues east-west.
+~
+24 8 1
+D0
+~
+~
+0 -1 2430
+D1
+~
+~
+0 -1 2428
+D3
+~
+~
+0 -1 2431
+S
+#2430
+Business Road, South~
+   Shops line this road , some open and some closed.  Northwards you
+see the intersection of of Center Road and Business Road, and
+southwards is another intersection--Business Road and Moon Gate Road.
+   There is a shop to the west, a dirty sign proclaiming it 'OPEN'.
+~
+24 8 1
+D0
+~
+~
+0 -1 2424
+D2
+~
+~
+0 -1 2429
+D3
+~
+~
+0 0 2547
+S
+#2431
+Moon Gate Road, West~
+   An enterprising merchant has set up shop just to your south, the
+sign proclaiming, 'Jenk's Place' in a hundred point font.  It seems to
+be some sort of 'catch-all' general store.  Also, Moon Gate Road
+continues east towards the cliff, and west towards the actual Moon
+Gate.
+~
+24 8 1
+D1
+~
+~
+0 -1 2429
+D2
+~
+~
+0 -1 2439
+D3
+~
+~
+0 -1 2432
+S
+#2432
+Intersection~
+   You breathe the chill night air and look around at the passing
+citizenry just inside one of the city's gates here.  This city sure
+has some bustle to it...must be all that night life!  Feeling pleased
+at your prospects, you look around for something to do...
+   Wall Side Road leads north, Moon Gate Road leads east.
+~
+24 8 1
+D0
+~
+~
+0 -1 2433
+D1
+~
+~
+0 -1 2431
+D3
+~
+~
+0 -1 2477
+S
+#2433
+Wall Side Road, South~
+   All the buildings in this area are semi-destroyed, victims of a
+raid or war it seems.  There are some signs of construction about, but
+it seems that there is no great need for more buildings right now.
+   Wall Side Road continues north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2434
+D2
+~
+~
+0 -1 2432
+S
+#2434
+Intersection~
+   Center Road starts here, running deep into the heart of Kerofk.
+You see all sorts of large buildings down its length, including a big
+white temple structure along the north side far to the east, with a
+smaller blue temple across the street from it.  With all of the grand
+architecture, and the majesty of the starry skies above, you know this
+is a sight you'll never forget.
+   Center Road leads east, Wall Side Road continues north-south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2435
+D1
+~
+~
+0 -1 2438
+D2
+~
+~
+0 -1 2433
+S
+#2435
+Wall Side Road, North~
+   This is Wall Side Road, named such for its proximity to...the
+city's wall.  To your east is a recruiting office for the city militia
+of Kerofk.  Wall Side Road continues north and south.
+~
+24 8 1
+D0
+~
+~
+0 -1 2436
+D1
+~
+~
+0 -1 2471
+D2
+~
+~
+0 -1 2434
+S
+#2436
+Intersection~
+   You enter the city proper with the sounds of the bustling crowds
+surrounding you.  Some people seem to be doing their morning business,
+others seem to be getting ready for bed...it must be strange to live
+in a world of eternal twilight.  A street sign informs you that this
+is Wall Side Road running south from here, and Star Gate Road leads
+away to the east.
+~
+24 8 1
+D1
+~
+~
+0 -1 2437
+D2
+~
+~
+0 -1 2435
+D3
+~
+~
+0 -1 2476
+S
+#2437
+Star Gate Road, West~
+   Kerofk's citizenry walk around , barely noticing as you walk down
+this busy street between and through them.  It seems that they're used
+to adventurers, or just don't care. Star Gate Road continues east and
+west, intersecting Business Road and Wall Side Road respectively.
+~
+24 8 1
+D1
+~
+~
+0 -1 2422
+D3
+~
+~
+0 -1 2436
+S
+#2438
+Center Road, West~
+   Center Road is lined with grand buildings up and down its entire
+length; for instance, a huge temple of XXXXX lies to the south.  Even
+for a temple, this building is big!  Perhaps it would be worth a look
+around?
+   Center Road continues to the east and west.
+~
+24 8 1
+D1
+~
+~
+0 -1 2424
+D2
+~
+~
+0 -1 2469
+D3
+~
+~
+0 -1 2434
+S
+#2439
+Jenk's Place~
+   This store is such a crazy confusion of items for sale you can
+hardly figure out where to start looking.  You feel you could find
+EXACTLY what you've been looking for, if only you had enough time to
+look for it...
+   
+   As greediness lights your brain, you notice all of the concealed
+crossbows around the room.  Maybe it wouldn't be a hot idea to try
+tosteal something after all...
+~
+24 8 0 
+D0 
+~
+~
+0 -1 2431 
+D1 
+This is a big metal door with a sign hung on it saying, 'KEEP OUT!'  
+~
+door~
+1 2426 2440 
+S 
+#2440 
+The Back Room~
+   This room is small, close, and quiet.  There are no windows, only
+the one entrace you came through, and virtually nothing else but for a
+rickety table, a worn chair and a lantern hanging from the ceiling.
+~
+24 12 0 
+D3 
+~
+door~
+1 -1 2439 
+S 
+#2441 
+The Edge of Luck~
+   A blast of sound and music assault you as you enter this gambling
+parlor.  This is a high class place, where the rich and idle of Kerofk
+go to blow off steam and lose lots of money.  The whole place is
+decorated in shades of red, and most of the windows face the nearby
+cliff-- evidently to give the gamblers within that feeling of danger.
+The elegance is fabulous, and you feel as if you might want to join
+in.
+~
+24 8 0 
+D1 
+~
+~
+0 -1 2409 
+D3 
+~
+~
+0 -1 2442 
+S 
+#2442 
+Benzaldehyde's Office~
+   This office is quite opulent.  The huge ebony desk in front of you
+completely dominates the room.  The desk is cluttered as the mind is
+sharp; Benzaldehyde is no fool.  A few pictures on the wall of family
+members show that Ben might have a nice side, but you suspect that
+they are there just for show.  A few vicious exotic weapons are also
+hanging up, looking very sharp.
+~
+24 8 0 
+D1 
+~
+~
+0 -1 2441
+E 
+pictures~
+With a closer look, you realize the pictures are all of someone else's
+family.
+~
+E 
+weapons~
+A closer examinations reveal the weapons are all junk.
+~
+S 
+#2443 
+Bob's Armoury and Tackle~
+   This place has to be the WEIRDEST shop you've ever been in.
+Fishing poles and halberds decorate the walls.  Breast plates stacked
+with cups of nightcrawlers on top.  Bow strings and fishing line, etc,
+etc, etc.  The shopkeeper has made this nightmare somewhat homey,
+though, with doileys and pictures scattered about in a pleasing
+display.
+~
+24 8 0 
+D0 
+~
+~
+0 -1 2411 
+S 
+#2444 
+The Fortress~
+   Wow! This place is better defended that some castles you've seen.
+In case Kerofk ever falls, this place will surely be the last to go,
+for this inn lives up to its name: 15 foot high walls, crenellations,
+arrow slits...its a remarkable bit of engineering.  As you walk in,
+you notice that everyone here is carrying some sort of weapon, and
+carry themselves like they know how to use it.  Seems like a fairly
+safe place!
+~
+24 8 0 
+D2 
+~
+~
+0 -1 2426 
+D4 
+~
+~
+0 -1 2445 
+S 
+#2445 
+The Reception Area~
+   Here's where the private rooms of the Fortress are.  Steel doors
+leading to bedrooms line the halls, each with a lock bigger than your
+clenched fist.  A sign here proclaims the safeties of the fortress,
+including 'Barred Windows, and Guards You Can Really Count On!'  A
+small desk is here, a bored receptionist behind it.
+~
+24 8|32768 0 
+D5 
+~
+~
+0 -1 2444 
+S
+#2446 
+The CliffHanger~
+   This drinking establishment is placed a little too close to the
+edge of the cliff for your own comfort--about five feet close!  You
+briefly pray to XXXXX, asking for no earthquakes in the immediate
+future.  As you look around, you see lots of people passed out on the
+floor--this is obviously a lower class dive.  The room is dark, the
+people sweaty, the barmaids tired, and you want a drink.
+~
+24 8 0 
+D1 
+~
+~
+0 -1 2414 
+S 
+#2447
+The Bookstore~
+   Shelves fill this store with books to the brimming.  Tomes on cats,
+rats, plates, grates, mages, cages, stages, swords, hoards, dragons,
+goats, moats, croats, money, honey, spells, bells, Hell, smells, and
+on and on and on!  You think that you might be able to find something
+interesting here...
+~
+18 8 0
+D2 
+~
+~
+0 -1 2416 
+D3 
+~
+bookcase~
+1 2424 2448 
+S 
+#2448 
+Thieves Guild~
+   The open hidden panel behind you seems to shed no light in here,
+and you find yourself in complete darkness.  You feel the presence of
+someone in the room with you--was that a finger on your purse?!?
+Quick!  Make a light!
+~
+24 9 0 
+D1 
+~
+bookcase~
+1 2424 2447 
+S 
+#2449 
+Mages' Guild, Entrance~
+   This is a nice, spacious area, filled with bright lights to keep
+the eternal twilight outside at bay.  There are three doors leading
+deeper into the guild: the east marked, 'Library', the north marked,
+'Leonna's Office', and the west marked, 'Storeroom'.  You can't but help to
+feel that this is a SMALL guild for such a large city...
+~
+24 8 0 
+D0 
+~
+north door~
+1 -1 2451 
+D1 
+~
+east door~
+1 -1 2453 
+D2 
+~
+~
+0 -1 2404 
+D3 
+~
+west door~
+1 2423 2452 
+S 
+#2450
+The Kerofk MobChute~
+   This room delivers mobs randomly around the city, and should not be
+reachable to player characters.  Thanks to Locke of Cthulhu mud for
+use of this idea!
+~
+24 8 0
+D0
+~
+~
+0 0 2425
+D1
+~
+~
+0 0 2413
+D2
+~
+~
+0 0 2408
+D3
+~
+~
+0 0 2416
+D4
+~
+~
+0 0 2437
+D5
+~
+~
+0 0 2434
+S
+#2451
+Leonna's Office~
+   This is Guildmistress Leonna's office.  It is bright and cheery,
+with a roaring fire in a fireplace and several songbirds in cages
+providing color.  Her desk is spotless but for some work she was just
+at a moment ago.  Black satin-covered chairs are arranged for comfort
+of her guests, and you have a sudden urge to just sit and rest snd
+perhaps talk a bit.
+~
+24 8 0
+D2
+~
+~
+1 -1 2449
+S
+#2452
+Mages' Guild Storeroom~
+   The Mage's Guild of Kerofk store their supplies here.  There are
+neat stacks of blank scrolls, quills, ink, unenchanted wands and
+staves, empty vials, and everything else the professional mage could
+want.
+~
+24 8|16384 0
+D1
+~
+door~
+1 2423 2449
+S
+#2453
+The Mages' Library~
+   The first thing you notice about this room, (other than the
+countless number of books inside), is the fact that the inside of this
+room couldn't possible fit into the building.  Hmm, you never can tell
+with those mages.  The books seem very well organized by the 'Tewey
+Teleportation System', another one of those mage gimmicks.  You wonder
+what you'd like to read.
+~
+24 8 0
+D3
+~
+door~
+1 -1 2449
+S
+#2454
+The Apothcary's Shoppe~
+   A vision of death circulates around the shop.  As you walk into
+the dark room. You observe bubbling containers, and vile smelling
+liquids.  You feel as if this is the right place to come for all your
+assassination needs.
+~
+24 8 0
+D3
+~
+~
+0 -1 2423
+S
+#2455
+Town Hall--Entrance~
+   Organized Madness.  There are people going every which way here, up
+across, over, under, through!  Deliveries, messages, visits,
+appointments, WHEW!  You're suddenly glad you don't work here!
+
+	   There's a directory sign:
+		Up-Mayor Kell
+		Down-Jails
+		North-Courtroom
+		West-Council Chambers
+~
+24 8 0
+D0
+~
+~
+0 -1 2458
+D2
+~
+~
+0 -1 2425
+D3
+~
+~
+0 -1 2459
+D4
+~
+~
+0 -1 2456
+D5
+~
+~
+0 -1 2461
+S
+#2456
+Outer Office~
+   This is a nice-looking office, with a big receiving desk in the
+middle.  The secretary's desk is a mess of unfinished work, and the
+wastecan looks full to the brimming.
+~
+24 8 0
+D0
+~
+~
+0 -1 2457
+D5
+~
+~
+0 -1 2455
+S
+#2457
+Mayor Kell's Office~
+   Mayor Kell's office is very homey.  There are some plush chairs, a
+nice desk with a well-worn groove where someone puts their feet up
+undoubtedly, pictures of friends and family on the walls, and other
+touches of a well lived-in office.  There is also a well stocked bar
+here, probably stocked by Kell's own tavern in the northern part of
+town.
+~
+24 12 0
+D2
+~
+~
+0 -1 2456
+S
+#2458
+Courtroom~
+   Here's where the judges dispense the decisions of Kerofk upon the
+general populace. At the moment there is no court case going on, but
+it looks like they are setting up for one soon.
+~
+24 8 0
+D2
+~
+~
+0 -1 2455
+S
+#2459
+Outer Chamber~
+   This is a small anteroom outside the Council Chambers.  The
+paneling is wood grain, the guards are big.  Waiting might be a good
+idea...
+~
+24 12 0
+D1
+~
+~
+0 -1 2455
+D3
+~
+door~
+1 -1 2460
+S
+#2460
+Inner Chamber~
+   Now you've done it!  You've interrupted a Council Session!  You'll
+never work in this town again!  What?!?  You don't work here?  Guards,
+ATTACK!!!
+
+   There is a big round table here with 6 seats.  Otherwise, this room
+seems plain, to minimize the distractions upon the Council Members.
+~
+24 8 0
+D1
+~
+door~
+1 -1 2459
+E
+table~
+You notice a small engraving on one side:
+		'Amanda was here.'
+~
+S
+#2461
+Jailor's Room~
+   A small clean room.  There is a comfortable easy chair and a key
+hook on the wall.  In one corner near the chair, there is a pile of
+discarded newspapers.
+~
+24 8 0
+D1
+~
+door~
+1 2426 2462
+D4
+~
+~
+0 -1 2455
+E
+newspaper~
+Seems all it is is war news.  How boring!
+~
+E
+chair~
+There's a tag on it: 'Laz-E-Goblin'
+~
+S
+#2462
+Cells~
+    AT LAST!  A jail cell thats not damp, musty, smelly and
+cold... its only damp, musty and cold--they must air this place out
+every once in a while.  There is a bit of grime here, but most of its
+associated with the prisoner...
+~
+24 13|16384 0
+D3
+~
+door~
+1 2426 2461
+S
+#2463
+Kell's House~
+   This is Kell's House, the mayor of Kerofk.  To the east is the
+tavern he and his family run, and to the south is the reception area
+for the inn part of this establishment.  Somehow, this place manages
+to feel homey and efficient, as well as giving people a place to meet.
+~
+24 8 0
+D0
+~
+~
+0 -1 2421
+D1
+~
+~
+0 -1 2465
+D2
+~
+~
+0 -1 2464
+S
+#2464
+Reception~
+   Kell's wife, Myrama, greets you with a smile.  The rooms here are
+big and clean, and you'll never have a more comfortable stay than at
+Kell's House.
+~
+24 12|32768 0
+D0
+~
+~
+0 -1 2463
+S
+#2465
+Kell's Tavern~
+   Here is the tavern area of Kell's House.  Many people are here,
+talking about everything from politics to hunting.  Is seems as if
+this is more of a thinker's bar than a drinker's, however.  The
+barmaids seem efficient, though, and the bar is very well stocked.
+~
+24 8 0
+D3
+~
+~
+0 -1 2463
+S
+#2466
+Uh-Oh!~
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA(breathe)AAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHH!!!!
+			THUD! CRACK!  KerPLOOMP!
+
+   	   (that wasn't a good idea, but now you know that, eh?)
+
+			  YOU ARE DEAD!  R.I.P.
+
+~
+24 2 0
+D3
+~
+~
+0 -1 2408
+S
+#2467
+Whoops...~
+
+   Accelerating at 9.81 m/s2 is usually not a good idea unless you
+have a...  SSSSSSPPPPPPPLLLLLLAAAAAAAAATTTTTTTTT!!!!!
+
+(ewww!)  (you're dead, R.I.P.)
+
+~
+24 2 0
+D0
+~
+~
+0 -1 2410
+D3
+~
+~
+0 -1 2409
+S
+#2468
+The Kerofk MobChute~
+   This room delivers mobs randomly around the city, and should not be
+reachable to player characters.  Thanks to Locke of Cthulhu mud for
+use of this idea!
+~
+24 0 0
+D0
+~
+~
+0 0 2424
+D1
+~
+~
+0 0 2405
+D2
+~
+~
+0 0 2417
+D3
+~
+~
+0 0 2422
+D4
+~
+~
+0 0 2429
+D5
+~
+~
+0 0 2412
+S
+#2469
+Temple of XXXXX~
+   A familiar sight!  The altar of XXXXX is decorated with the usual
+array of eagles in flight, and other signs of the god's power.  The
+statue stands proud...an aura around one upheld hand, the other
+holding an open book.  To the west are the living areas of the Priests
+of XXXXX, but you think those are restricted to the devout.
+~
+24 8 0
+D0
+~
+~
+0 -1 2438
+D3
+~
+~
+0 -1 2470
+E
+statue~
+   Upon closer inspection, you notice the statue is sticking his
+tongue out at you...
+~
+S
+#2470
+Living Area~
+   Small pallets are laid about in an orderly fashion for the priests.
+a small stool and writing desk is in one corner, a old looking man
+working quietly behind it.  A window lets dim light in to supplement
+the lanterns hanging on the brick walls.
+~
+24 8 0
+D1
+~
+~
+0 -1 2469
+S
+#2471
+Recruiting Office~
+   This office is clean and spacious.  A big desk faces the door, with
+a grizzled sergeant behind it.  He turns the paperwork in front of him
+around for you... 'Name, Race, Sex, Age, Address...'.  Behind him you
+see the office of the Captain of the Guard.
+~
+24 8 0
+D1
+~
+~
+0 -1 2472
+D3
+~
+~
+0 -1 2435
+S
+#2472
+Captain's Office~
+   This man's office is a testimonial to battle.  Exotic weapons that
+you've never seen before line the walls, and you notice some
+bloodstains on the floor.  A large area in the center is bared,
+allowing sparring room.
+~
+24 8 0
+D3
+~
+~
+0 -1 2471
+S
+#2473
+Vacant Lot~
+There's a large flattened area in the middle of this lot.  You get the
+eerie feeling that something SHOULD be here, but isn't.  How Odd!
+Moon Gate Road is to the north.
+~
+24 8 0
+D0
+~
+~
+0 -1 2427
+S
+#2474
+History of Kerofk~
+   This is an 'accidental room', provided only for room continuity.
+   And so, the history of Kerofk...
+   The city of Kerofk originated in the mind of Builder_5, as a major
+city for use in a role-playing game he was running at the time (a
+heavily modified version of Powers & Perils--a very out-of-print
+Avalon Hill game).  Amanda Eterniale was a player in this game, and
+loved the city.
+   About this time, Amanda received an invitation to build on the
+now-defunct AlbertMUD.  She was taught how to build by an imp
+named MJPrime there, and her first creation was the city of Kerofk,
+in honor of Builder_5's game.
+   AlbertMUD died in a fairly nasty manner, and about half a year
+later, Amanda convinced one of the imps to email her her areas.  She
+gave them to Builder_5, smiled, and said,
+   "Edit these?  Please?"
+   Builder_5 took the better part of 3 months to edit, fix, and convert
+these files into a version more suitable for a public release.  This
+is what you have now.
+   Both of us hope you enjoy this area, over a year in the making...
+	Amanda Eterniale			Builder_5
+~
+24 8 1
+S
+#2475
+Shrine to the Emperor~
+   This is a very historical spot for the people of Kerofk, where the
+wizard Rand entered this realm through the 'dimension portal' he made,
+and later went on to found this city. A giant slab of earth lies
+toppled over here, a strange eye-shaped stone embedded in it pointing
+at the sky.  A strange thrum of power in the background raises your
+hackles...remnants and echoes of Rand's power, evidently.
+~
+24 12 0
+D2
+~
+~
+0 -1 2422
+E
+stone eye shaped eye-shaped~
+   Now that you examine it closer, it really does seem to be a carved
+stone eye, worn smooth by time and the elements.  It feels strangely
+warm to the touch, and you feel a tingling as you pass your hand above
+it...
+~
+S
+#2476
+Star Gate~
+   This small gate seems to be the main entrance for the farmers
+entering the city with their produce.  Guards wave everyone through
+without a second glance.  There is a big sign here that you might want
+to read.
+~
+24 12 0
+D1
+~
+~
+0 0 2436
+D3
+~
+~
+0 0 2540
+E
+sign~
+			  ADVENTURERS!!!!
+
+I need a party of brave souls to enter the blue temple and destroy the
+evil orb inside.  I shall pay well for the deed!!!  Please stop by my
+temple and get the magic scroll used for entering the foul area if you
+are powerful enough to withstand the trials!!!
+--MouseRider, sage of Kerofk.
+~
+S
+#2477
+Moon Gate~
+   This is Moon Gate, the main entrance to Kerofk and VERY well
+defended.  The guards look at you suspiciously, but let you by with
+little or no hassle. There is also a big sign here that you may want
+to read.
+~
+24 12 0
+D1
+~
+~
+0 0 2432
+D3
+~
+~
+0 0 2535
+E
+sign~
+			  ADVENTURERS!!!
+
+I need a party of brave souls to enter the blue temple and destroy the
+evil orb within.  I shall pay thee well for the deed!  Please stop by
+my temple and get the magic scroll used for entering the foul area, if
+you are powerful enough to withstand its trials!!!  
+--MouseRider, sage of Kerofk.
+~
+S
+#2478
+Front Yard~
+   This, the front yard of the terrible mansion, seems to be more like
+a jungle than your normal, cultured lawn.  It's obvious that this area
+has not been kept up in many years, decades even! The front door lies
+ever-so-slightly ajar, seemingly to beckon the wary to enter.  The
+strange feelings you're getting you can't seem to attribute to horror
+or evil, so why push your luck?
+~
+24 12 0
+D1
+~
+~
+0 -1 2418
+D3
+~
+~
+0 -1 2479
+S
+#2479
+Foyer~
+   Deep crevices rack the walls here, leaving holes big enough for
+something quite nasty to live in.  The front door creaks behind you,
+and you whirl about, expecting it to slam shut.  It doesn't and you
+feel kind of silly.  'No one lives here,' you say to yourself quietly,
+just as footsteps upstairs sound...
+~
+24 8 0
+D1
+~
+~
+0 -1 2478
+D3
+~
+~
+0 -1 2480
+S
+#2480
+Main Hall~
+   This is an old, dusty room.  The patterns of filth on the floor
+indicate that several people have inhabited this house still, fairly
+recently in fact.  A once-ornate grand stairway leads up to the second
+floor, and below it's peak is a set of cracked glass doors that open
+up into the backyard.  The hall of the house leads north-south,
+gaining access to some of the interior rooms.
+~
+24 8 0
+D0
+~
+~
+0 -1 2486
+D1
+~
+~
+0 -1 2479
+D2
+~
+~
+0 -1 2489
+D3
+~
+~
+0 -1 2481
+D4
+~
+~
+0 -1 2491
+S
+#2481
+Back Yard~
+   The backyard is even more overgrown than the front yard.  Here and
+there once-white benches poke up out of the tall grasses, testament to
+better times.  You feel a lot more comfortable here than you were
+inside the house, although there is a looming presence from the garden
+area opening up to your west.  A slight stench of decay passes over
+you, and you consider going back inside the house to your east.
+~
+24 8 0
+D1
+~
+~
+0 -1 2480
+D3
+~
+~
+0 -1 2482
+S
+#2482
+Entrance to the Garden~
+   Starlight gives this ill-seeming garden illumination, the dim
+twinkling giving the illusion of movement to the plantlife within.
+All around you vines crawl up decaying trellises and the other
+vegetation grows out of control, untended.  You hear a gentle swishing
+of water to a northernly direction, and you can go deeper into the
+garden to the east, but you definitely think going west might be the
+best idea...
+~
+24 8 0
+D0
+~
+~
+0 -1 2483
+D1
+~
+~
+0 -1 2481
+D3
+~
+~
+0 -1 2485
+S
+#2483
+Fountain Area~
+   Unpruned trees block out what little light there was outside the
+garden in this close area.  A small fountain/pool of tarnished marble
+sits in the center, with scum and algae covering its surface.  Small
+creatures flit deep in its depths, and you are not sure you want to
+know exactly what they are.
+   You can head south, to the garden's entrance, or west, to a more
+open area in the garden.
+~
+24 9 0
+D2
+~
+~
+0 -1 2482
+D3
+~
+~
+0 -1 2484
+S
+#2484
+In the Garden~
+   Here the garden looks dark and ominous, yet strangely beautiful.
+An easel has been set up here, and some art supplies lie on the
+ground, waiting to be used.  Faint light trickles down through the
+leaves like water on this scene, and you feel strangely at peace with
+the garden, recognizing it for the single growing entity it is.
+~
+24 8 0
+D1
+~
+~
+0 -1 2483
+D2
+~
+~
+0 -1 2485
+S
+#2485
+In the Garden~
+   Ugh! The garden is absolutely dead here!  Fumes from the decaying
+plant matter make you dizzy and nauseous.  What ever killed the plants
+you want no part of.  Perhaps leaving post-haste would be wise.
+~
+24 8 0
+D0
+~
+~
+0 -1 2484
+D1
+~
+~
+0 -1 2482
+S
+#2486
+Hallway~
+   This hallway was once tapestried in beautiful colors, and well-
+illuminated by the lamps on the walls.  Now the tapestries are
+thread-worn and moth-eaten and most the lamps have disappeared,
+leaving dark holes in the walls.  There is a door to your left and one
+to your right, both slightly ajar.  A window to your north looks out
+to an alley behind a gambling parlor, and to the south is the main
+room of the mansion.
+~
+24 8 0
+D1
+~
+~
+0 -1 2487
+D2
+~
+~
+0 -1 2480
+D3
+~
+~
+0 -1 2488
+S
+#2487
+Sitting Room~
+   Lots of extremely old, plush chairs sit about here.  A few tables
+covered with doilies are scattered about, and a large hutch filled
+with ancient cracked china stands against the north wall.  This looks
+like one of those rooms that are just for show and not for everyday
+use.  However, the thick layer of dust covering everything belies the
+neatness of the arrangement of furniture.
+~
+24 8 0
+D3
+~
+~
+0 -1 2486
+S
+#2488
+A Trashed Room~
+   This room looked to be a library once.  Now all the furniture has
+been moved out but for the bookshelves, which are now falling apart.
+It looks like a great deal of violence has occurred in this room, as
+if thousands of fights have occurred here over the years.  You wonder
+who could be capable of such wanton destruction.
+~
+24 8 0
+D1
+~
+~
+0 -1 2486
+S
+#2489
+Hallway~
+   This section off the interior hallway looks well trodden from the
+tracks in the dust on the floor.  There are doors to the east and
+west, and northwards is the main room of the mansion.  A window once
+graced the south end of this hallway, but it has since been boarded up
+from the outside.
+~
+24 8 0
+D0
+~
+~
+0 -1 2480
+D1
+~
+~
+0 -1 2490
+D3
+~
+~
+0 -1 2492
+S
+#2490
+Dining Room~
+   This was once a grand dining hall.  Now the great oak table has
+been completely broken and leaned up against one wall to make room for
+a small folding table and a few chairs taking its place.  Obviously
+the current owners of this mansion don't care much about this place to
+let it fall into ruin so.
+~
+24 8 0
+D3
+~
+~
+0 -1 2489
+S
+#2491
+Second Floor Hallway~
+   This is the hallway at the top of the stairs, that leads
+north-south.  Doors line the hallway in both directions, and you can
+go down to the main room.  A big, ten foot tall window on the west
+wall of the stairwell seemed to have been a stained-glass window once,
+but has been worn and cracked by time to just be shards of colored
+glass that doesn't even keep the wind out.
+~
+24 8 0
+D0
+~
+~
+0 -1 2495
+D2
+~
+~
+0 -1 2493
+D5
+~
+~
+0 -1 2480
+S
+#2492
+Kitchen~
+   As all the other rooms in this house, this kitchen has been mostly
+destroyed by time and inconsideration by the current owners.  There is
+still some fresh food lying about, but a rotten smell fills the air,
+and you see small insects scuttling about in the trash on the floor.
+The one thing that is sure is that you don't want to eat anything that
+was prepared here!
+~
+24 8 0
+D1
+~
+~
+0 -1 2489
+S
+#2493
+Hallway~
+   This hallway ends short to allow the fireplace in the kitchen to
+reach the roof.  A single door is set in the east wall, and the hall
+leads north to where the stairwell leads down.
+~
+24 8 0
+D0
+~
+~
+0 -1 2491
+D1
+~
+~
+0 -1 2494
+S
+#2494
+Bedroom~
+   This bedroom has been made up for two people.  There are bunk beds
+in the center of the room, and different sets of run-down furniture on
+each side.  On the right is a rather neat desk, chair, a chest of
+drawers, and on the left there is just a mess of clothes, papers,
+books, and half-eaten food.  There isn't much interesting here,
+though.
+~
+24 8 0
+D3
+~
+~
+0 -1 2493
+S
+#2495
+Hallway~
+   This hall leads to the northern part of the second floor, where two
+bedrooms lead off to the east and west.  There is nothing remotely
+interesting here, since the general decrepency of the house is now no
+longer 'new' to you.  Another window looks out over top a gambling
+parlor to the north, where you see several low-life types walking and
+staggering in and out.  The starlight filtering in through the window
+makes this hall a bit more illuminated than the rest of the house.
+~
+24 8 0
+D1
+~
+~
+0 -1 2496
+D2
+~
+~
+0 -1 2491
+D3
+~
+~
+0 -1 2497
+S
+#2496
+Guest Bedroom~
+   This is a tiny little room, about 6 feet square and containing only
+a small bed, a small night-table and a stepladder leaning against the
+wall in one corner.  A lot of disturbed dust on the floor makes you
+wonder what this room is being used for, since it is obvious no one
+has used the bed for a _long_ time.
+~
+24 8 0
+D3
+~
+~
+0 -1 2495
+D4
+~
+trapdoor~
+1 -1 2498
+S
+#2497
+Bedroom~
+   You would guess that a young woman lives in this room, from the
+quality and newness of the clothes that are stacked neatly in the open
+hope-chest, and the different cosmetics lined up on a shelf just below
+a mirror on the far wall.  A small sleeping pallet lies rolled-up on
+the floor neatly, and you notice that there is hardly any dust
+anywhere in this room, making it seem somewhat 'fresh' despite the
+run-down-ness of the rest of the household.
+~
+24 8 0
+D1
+~
+~
+0 -1 2495
+S
+#2498
+Attic~
+   This is the attic of the house.  There are shelves built into the
+sides of the roof all around with strange objects floating in jars
+stacked on them.  The smell of formaldehyde is very strong here and
+you begin to feel faint.  There's a door built into a partition to the
+south...maybe you can make it...
+~
+24 9 0
+D2
+~
+door~
+1 -1 2499
+D5
+~
+trapdoor~
+1 -1 2496
+E
+jar jars~
+   Um, the more you look at this jar, the more the thing floating
+inside begins to look at a piece of human anatomy.  *urp* You are
+beginning to feel _very_ ill.
+~
+S
+#2499
+Bedroom~
+   Something smells quite dead here.
+   There is a queen-sized bed taking up most of this small attic
+room. Some clothes are spread about in disorder and the bed isn't
+made.  A single chair is pulled up to a writing desk, where it looks
+like someone works frequently.  Up here it is very chill, much colder
+than it is outside.
+~
+24 8 0
+D0
+~
+door~
+1 -1 2498
+S
+#2500
+Entrance to the Blue Trials~
+   You enter the musty area beneath the blue temple and stop in awe.
+The stonework here is simply incredible--a combination of dwarven
+stonemanship and elven artistry.  On the wall there is an inscription:
+
+'Only those who brave the elder beasts may arrive safely at the orb.'
+
+   There is a door to the east.
+~
+24 9 0
+D1
+~
+door~
+1 -1 2501
+D4
+~
+~
+0 -1 2403
+S
+#2501
+Passageway~
+   It seems that door you just passed through disappeared behind you!
+The only way to go is forward, then, deeper into the passages.  You're
+not sure if you feel comfortable about this...
+
+   The passage continues south.
+~
+24 9 0
+D2
+~
+~
+0 -1 2502
+S
+#2502
+Passageway~
+   Blank passageway, with bricks set so close together that any mason
+spotting such work would keel over in disbelief.  The passage
+continues westwards, and back to the north.
+~
+24 9 0
+D0
+~
+~
+0 -1 2501
+D3
+~
+~
+0 -1 2503
+S
+#2503
+Passageway~
+   Another door is here, and you have a sneaking suspicion this one
+might disappear as well once you pass through.  The passageway leads
+east back the way you came, and the door is to your south.
+~
+24 9 0
+D1
+~
+~
+0 -1 2502
+D2
+~
+door~
+1 -1 2504
+S
+#2504
+Octagonal Room~
+   As you enter, you see a bright light spinning in the center of this
+octagonal room.  Also, there are many bones of prior adventurers
+strewn about.  Unfortunately, the door DID disappear behind you
+again...  the only way out is east.
+~
+24 8 0
+D1
+~
+door~
+1 -1 2505
+S
+#2505
+Passageway~
+   Back into passageway, and, once again, the door has disappeared
+behind you.  The only way to go is north.
+~
+24 9 0
+D0
+~
+~
+0 -1 2506
+S
+#2506
+Passageway~
+   Once again you find yourself up against a normal-seeming door in
+the north wall.  The passageway leads a little way south, and then
+runs up against a dead end.  One way to go, again.
+~
+24 9 0
+D0
+~
+door~
+1 -1 2507
+D2
+~
+~
+0 -1 2505
+S
+#2507
+Trial~
+   This is a large rectangular room with three exits, doors to the
+north, east and west.  The door you've come from has...disappeared!
+You are not surprised, however.  There are some strange scuff marks on
+the floor, and you'd swear that discoloration is an old bloodstain.
+~
+24 8 0
+D0
+~
+north~
+1 -1 2511
+D1
+~
+east~
+1 -1 2509
+D3
+~
+west~
+1 -1 2508
+S
+#2508
+Passageway~
+   The door behind you has disappeared, and you sigh.  This is getting
+old.  This is just a tiny room with a door to the south.  You feel you
+know that door already.
+~
+24 9 0
+D2
+~
+door~
+1 -1 2501
+S
+#2509
+Passageway~
+   The door behind you melds into the stone walls without a trace.
+Whomever wasted the magical energies to these doors certainly had
+flair, if not a sense of humor.
+   The passage continues southward.
+~
+24 9 0
+D2
+~
+~
+0 -1 2510
+S
+#2510
+Passageway~
+   You've come to the end of the passage here.  But, instead of a
+door, its a trapdoor!  The excitement is palpable; a change of pace,
+perhaps?
+~
+24 9 0
+D0
+~
+~
+0 -1 2509
+D5
+~
+trapdoor~
+1 -1 2502
+S
+#2511
+Passageway~
+  Here the passageway has two alcoves on the sides, each with a statue
+of some forgotten god.  The plaques have rusted away so you can't even
+read the names.  Probably these were devotions to Gods whose time was
+over and whose followers deserted.  There is a trapdoor in the floor
+beyond them: the only way to go.
+~
+24 9 0
+D5
+~
+trapdoor~
+1 -1 2512
+S
+#2512
+Passageway~
+   You drop from the now-vanishing trapdoor above to this new passage.
+It runs to the east.  You begin to wonder if you'll ever see Kerofk
+again...  this maze is awful!
+~
+24 9 0
+D1
+~
+~
+0 -1 2513
+S
+#2513
+Passageway~
+   The passage continues to the east and west out of your small circle
+of light in either direction.  There seems to be nothing interesting
+here, just stonework and you.
+~
+24 9 0
+D1
+~
+~
+0 -1 2514
+D3
+~
+~
+0 -1 2512
+S
+#2514
+End of the Passageway~
+   The passageway ends here, with a door in the northern wall.  The
+passage seems still and eerie.
+~
+24 9 0
+D0
+~
+door~
+1 -1 2515
+D3
+~
+~
+0 -1 2513
+S
+#2515
+Second Trial~
+   Here are two doors, north and east.  The door you came through is
+gone like chaff in the wind.  There's no clue as to which door is the
+correct one to exit by, and you wonder if this is merely a test of
+guess.
+~
+24 8 0
+D0
+~
+north~
+1 -1 2517
+D1
+~
+east~
+1 -1 2516
+S
+#2516
+Passageway~
+   You feel this was the wrong decision, somehow.  There are two
+'nests' here, for the lack of a better word, looking recently used.
+~
+24 9 0
+D2
+~
+door~
+1 -1 2501
+S
+#2517
+Passageway~
+   You feel you have made the right decision, somehow.  The door
+behind you has vanished, but the passageway leads away to the north.
+~
+24 9 0
+D0
+~
+~
+0 -1 2518
+S
+#2518
+Passageway~
+Here is a door to the north.  A plaque next to it reads, 'The Trial of
+Defense!'.  You get a BAD feeling about this room ahead.
+~
+24 9 0
+D0
+~
+door~
+1 -1 2519
+D2
+~
+~
+0 -1 2517
+S
+#2519
+Trial of Defense!~
+   This is a small close room, with a door exact opposite from where
+you entered.  The door behind you is conveniently gone.
+~
+24 8 0
+D0
+~
+door~
+1 -1 2520
+S
+#2520
+Passageway (Again!)~
+   You feel relief pass over you for a moment.  This place looks to be
+a nice, safe place to rest if you've ever seen one.
+~
+24 13 0
+D1
+~
+~
+0 -1 2521
+S
+#2521
+Passageway~
+   Now you are in a twisty set of passageways, and feel rather lost!
+~
+24 9 0
+D2
+~
+~
+0 -1 2522
+D3
+~
+~
+0 -1 2520
+S
+#2522
+Passageway~
+   Now you are in a twisty set of passageways, and feel rather lost!
+~
+24 9 0
+D0
+~
+~
+0 -1 2521
+D1
+~
+~
+0 -1 2523
+S
+#2523
+Passageway~
+   Now you are in a twisty set of passageways, and feel rather lost!
+~
+24 9 0
+D0
+~
+~
+0 -1 2524
+D3
+~
+~
+0 -1 2522
+S
+#2524
+Passageway's End~
+   You seem to have come to the end of the twisty passageways, with no
+discernable exit.  Could there be something hidden here?
+~
+24 9 0
+D2
+~
+~
+0 -1 2525
+S
+#2525
+Trial of Persistence~
+   In this plain, square room, there are four doors, each at a corner
+of the compass.  They all look exactly the same, and for a moment you
+feel confused.
+~
+24 8 0
+D0
+~
+north~
+1 -1 2527
+D1
+~
+east~
+1 -1 2526
+D2
+~
+south~
+1 -1 2526
+D3
+~
+west~
+1 -1 2526
+S
+#2526
+Passageway~
+   You feel you have chosen the wrong exit, but there seems to be a
+hole in the floor as the only exit.  Odd...
+~
+24 9 0
+D5
+~
+~
+0 -1 2520
+S
+#2527
+Passageway~
+   The passageway leads away to the north, and you feel you have
+chosen correctly again.  What luck!
+~
+24 9 0
+D0
+~
+~
+0 -1 2528
+S
+#2528
+Passageway~
+   There is a door to your north, with a plaque that says, 
+		   'The Trial of Death!'
+
+   Uh-oh.  You wonder if you've a scroll of recall...
+~
+24 9 0
+D0
+~
+door~
+1 -1 2529
+D2
+~
+~
+0 -1 2527
+S
+#2529
+Killed by Arrow Traps!~
+
+   Suddenly thousands of arrows pepper your body...turning you into a
+giant pincushion!!!!
+
+YOU ARE DEAD (R.I.P.!)
+
+
+
+
+
+
+Welcome to DikuMUD
+ 
+0) Exit from DikuMud.
+1) Enter the game.
+2) Enter description.
+3) Change password.
+ 
+   Make your choice: 
+
+
+
+
+
+(and then, the illusion and shock slowly fades away.)
+~
+24 8 0
+D0
+~
+~
+0 -1 2530
+S
+#2530
+Alcove~
+Up ahead, you see a bright light, much brighter than most mundane
+light sources you've seen.  It seems to be coming from a small globe
+in the next room, resting on a pedestal.
+~
+24 8 0
+D0
+~
+~
+0 -1 2531
+S
+#2531
+Pedestal of the Orb!~
+   This is a large square room.  All around on the walls there are
+friezes of dwarves and elves, pictured worshiping the very orb that
+hovers above the pedestal in the middle of this very room.  The
+pedestal is pure gold, and the orb hovers above it, humming and
+glowing with such radiance you can barely see its form.  This, then,
+is the object of your quest.
+~
+24 12 0
+D0
+~
+~
+1 -1 2532
+S
+#2532
+Temple of MouseRider~
+   Here you are again at the Temple of MouseRider, through a bizarre
+twist of space.  The main entrance seems to be gone, however...
+   MouseRider is clutching one of the shards of the destroyed orb.  He
+laughs evilly as he takes a vicious dagger and disembowls himself,
+spilling organs all over his feet and the floor.
+   'Fools!'  he cries, 'I am now an immortal, I am now a liche!!'  He
+laughs, and directs his minions to attack!
+~
+24 12 0
+D0
+~
+door~
+1 -1 2533
+S
+#2533
+Void~
+   Mouserider's bedroom is gone.  You float in space, and several
+objects wink into being around you.  A reward from the gods, perhaps?
+ 
+   A rift opens in space below you, and you spot the street outside
+the White Temple in Kerofk.  A voice booms around you:
+
+   "Take these toys, and remember this:  don't expect plot continuity
+from a mud!"  You feel relief.
+~
+24 12 0
+D5
+~
+~
+0 -1 2402
+S
+#2534
+View of a City~
+   Incredible! From this vantage point you see a huge city to your
+east, large enough to hold thousands of people.  Great walls encircle
+the city, no doubt to keep the marauding monsters at bay.  The city is
+in a VERY defensible spot in that over half its length is sprawled
+along the edge of a cliff.  Beyond the cliff you see a dark ocean,
+reflecting the starlight above very feebly.  The road continues west
+down the rise, and east, towards the city on the edge.
+~
+24 8 2
+D1
+~
+~
+0 -1 2535
+D3
+~
+~
+0 0 2541
+S
+#2535
+Near the City~
+   You are very near the city now.  There is a great gate to your
+east, with guards slowly letting people in and out.  The walls
+surrounding the city seem impassable, but several scorch marks along
+its length tells a different stories about war and raids.  To your
+west is a rise where you may get a better vantage point of the city.
+~
+24 8 2
+D1
+~
+~
+0 -1 2477
+D3
+~
+~
+0 -1 2534
+S
+#2536
+Dirt Road~
+   The road travels north-south here along the side of the mountains.
+To the north you see some cultivated fields, and to the south a fork
+in the road.  The sky above seems eerie, especially to the west where
+the glow of the normal sky brightens the horizon...
+~
+24 8 2
+D0
+~
+~
+0 -1 2537
+D2
+~
+~
+0 0 2541
+S
+#2537
+Turn in the Road~
+   The road turns here to the east.  Around you you see small cultivated 
+fields, tended by farmers who seem paranoid and quick.  The vegetables
+they are harvesting seem pale and lifeless by your standards, with a few 
+you've never seen the likes of before.  From several burned out shells of 
+houses you guess the farmers just try to grow what they can before the
+city is put under siege again.
+~
+24 8 2
+D0
+~
+~
+0 -1 30000
+D1
+~
+~
+0 -1 2538
+D2
+~
+~
+0 -1 2536
+S
+#2538
+A City on the Edge~
+   From here you see a great walled city from the side.  Only half is 
+walled, the other half sprawled directly on the edge of a great cliff 
+which drops down into a dark ocean below.  To the east you see a small 
+gate in the city, which farmers are going into and out of sporadically.
+~
+24 8 2
+D1
+~
+~
+0 -1 2539
+D3
+~
+~
+0 -1 2537
+S
+#2539
+Fields near a City~
+   There are some more small fields here, and more burned out houses.
+From the smell of charred wood and the sounds of fresh construction,
+you guess that the last raze didn't happen long ago...
+~
+24 8 2
+D1
+~
+~
+0 -1 2540
+D3
+~
+~
+0 -1 2538
+S
+#2540
+Near a City~
+   There is small gate to your east where guards let farmers into and
+out of the city with their produce.  The walls seem indestructible,
+but scorch marks along its length tell a different story...
+~
+24 8 2
+D1
+~
+~
+0 0 2476
+D3
+~
+~
+0 -1 2539
+S
+#2541
+Dirt Road~
+   The road you stand on forks several directions here, one leading to
+the north out of sight in the starlit sky, one leading up a hill to
+the east, and towards the mountains to the west.
+   It seems very quiet and peaceful here.  A breeze caresses your face.
+~
+24 8 2
+D0
+~
+~
+0 0 2536
+D1
+~
+~
+0 0 2534
+D3
+~
+~
+0 0 2542
+S
+#2542
+Dirt Road~
+   The road continues east and west from here.  To the west you see
+brightness seeping over and between the mountains.  Eastwards the
+strange, unnatural night sky spreads over anything, its permanent
+stars lighting the landscape with an eerie glow.
+~
+24 8 2
+D1
+~
+~
+0 0 2541
+D3
+~
+~
+0 0 2543
+S
+#2543
+Dirt Road~
+   You are standing in the foothills before the mountains.  A road
+leads away under the starry sky to the east, and a mountain pass
+heads up and through to the north.  The scenery on this side of the
+mountains seems bleak and lifeless, probably due to the lack of sun.
+~
+24 8 4
+D0
+~
+~
+0 0 2544
+D1
+~
+~
+0 0 2542
+S
+#2544
+Mountain Pass~
+   The mountain pass leads up to the west, and downwards to the south.
+There seems to be a strange half twilight farther to the west, casting
+an eerie glow over the stones and shrubberies around.  You can see a 
+large dark plain to the east that the sun never seems to have shone
+upon, making it appear to be otherworldly somehow...
+~
+24 8 4
+D2
+~
+~
+0 0 2543
+D3
+~
+~
+0 0 2545
+S
+#2545
+Mountain Pass~
+   You are standing at the apex of the mountain pass, the normal
+sky to your west, and the strange night sky to your east.  The edge
+of the night is clearly delineated above you...a sharp edge separating
+night from normal, as it were.  Very odd...you wonder what could be
+causing this unnatural darkness.
+~
+24 0 4
+D1
+~
+~
+0 0 2544
+D2
+~
+~
+0 0 2546
+D3
+~
+~
+0 0 13200
+S
+#2546
+Mountain Pass~
+   The mountains rise up here, the small pass you are on wending
+its way up to the north.  The sky seems dark above the mountains,
+as if the mountains were a dividing line keeping back the night.
+The pass also leads back down to the
+~
+24 0 4
+D0
+~
+~
+0 0 2545
+D2
+~
+~
+0 0 324
+S
+#2547
+Fleecem and Son~
+   This is a small, hole in the wall office, lined with boxes
+and crates of paper and files.  An old, beaten-up desk stands
+near the door, very much on its last legs.  The air is thick
+and humid, the decorations too garish, the space is too crowded.
+A name plaque on the desk says 'Bungle Fleecem, Esq.'
+~
+24 8 0
+D1
+~
+~
+0 0 2430
+S
+#2548
+Graveyard Entrance~
+   You stand on a path in an eerie graveyard.  An archway leads north
+to Moon Gate Road, and the path continues to the east and south.  In
+the gloom of night and the twinkling stars above, the tombstones seem
+to take a life of their own in a storybook way.  You don't think it
+would be the kind of storybook you would be interested in...
+~
+24 12 1
+D0
+~
+~
+0 0 2428
+D1
+~
+~
+0 0 2549
+D2
+~
+~
+0 0 2551
+S
+#2549
+Graveyard~
+   This path leads through the graveyard south and west.  You notice
+several graves have been disturbed here, and one grave has been entirely
+dug up.  The bones of a dead dwarf lie exposed at the bottom of the 
+grave, its hands seemingly to clutch at the sky.  The tombstone at
+the head of the grave is completely unreadable.
+~
+24 8 1
+D2
+~
+~
+0 0 2550
+D3
+~
+~
+0 0 2548
+S
+#2550
+Graveyard~
+   You stand in the south-east corner of the graveyard.  The tombstones
+here are old and weathered by age and elements.  Some are toppled over.
+Some grass grows sparsely around the rocks, paled by the lack of sun.
+In this area, you feel the peace of death, instead of the decay usually
+associated with graveyards.
+~
+24 8 1
+D0
+~
+~
+0 0 2549
+D3
+~
+~
+0 0 2551
+S
+#2551
+Graveyard~
+   The earth here has been freshly turned up, the graves recent.
+The headstones tell tale of faithful wives and brave husbands, 
+meeting their ends with dignity and aplomb.  Two pits are dug
+near the wall for a burial yet to take place.  You feel strangely
+chilled by the night air...
+~
+24 8 1
+D0
+~
+~
+0 0 2548
+D1
+~
+~
+0 0 2550
+S
+#2552
+Farmer's Stand~
+   A few wooden stands here are filled with fruits and vegetables
+grown under this endless night sky.  This place seems to get good
+business, but not enthusiastic customers.  You can understand why from
+the quality of the wares.
+~
+24 8 0
+D2
+~
+~
+0 0 2420
+S
+#0
+
+
+#RESETS
+O 0 2447 2 2434		/*well*/
+O 0 2447 2 2434		/*well*/
+M 0 2400 1 2400		/*Mouserider*/
+E 1 2400 10 9		/*white glove*/
+M 0 2401 1 2403		/*Sentinel Beast*/
+M 0 2402 1 2451		/*Leonna*/
+E 1 2430 20 5		/*magic jerkin*/
+E 1 2427 20 16		/*flaming sword*/
+E 1 2423 1 17		/*guild key*/
+O 1 2429 10 2452	/*chimaera cloak*/
+O 1 2428 3 2452		/*dreamblade*/
+M 0 2403 1 2447 	/*Bookstore Owner*/
+G 1 43 1000		/* caltrops! */
+G 1 2402 1000		/*Dragon Book*/
+G 1 2408 1000		/*manual of protection*/
+G 1 2409 1000		/*travel brochure*/
+M 0 2404 1 2448		/*Seobagn*/
+M 0 2405 1 2446		/*Bartender*/
+G 1 2448 1000		/*bottle*/
+G 1 2449 1000		/*carafe*/
+G 1 2450 1000		/*shotglass*/
+M 0 2454 1 2465		/*Bartender*/
+G 1 2448 1000		/*bottle*/
+G 1 2449 1000		/*carafe*/
+G 1 2450 1000		/*shotglass*/
+M 0 2406 5 2465		/*Barmaid*/
+M 0 2406 5 2465		/*Barmaid*/
+M 0 2406 5 2465		/*Barmaid*/
+M 0 2406 5 2446		/*Barmaid*/
+M 0 2406 5 2446		/*Barmaid*/
+M 0 2407 5 2446		/*Drunk*/
+M 0 2407 5 2446		/*Drunk*/
+M 0 2407 5 2446		/*Drunk*/
+M 0 2407 5 2465		/*Drunk*/
+M 0 2407 5 2465		/*Drunk*/
+M 0 2408 3 2407		/*lucky gambler*/
+M 0 2408 3 2441		/*lucky gambler*/
+M 0 2408 3 2441		/*lucky gambler*/
+M 0 2409 4 2407		/*dealer*/
+M 0 2409 4 2407		/*dealer*/
+M 0 2409 4 2441		/*dealer*/
+M 0 2409 4 2441		/*dealer*/
+M 0 2410 1 2442		/*Benzaldehyde*/
+E 1 2437 20 16		/*axe*/
+M 0 2411 1 2443		/*Ginger*/
+G 1 2414 100		/*nightcrawlers*/
+G 1 2417 100		/*fly lure*/
+G 1 2443 1000		/*breast plate*/
+G 1 2444 1000		/*round cap*/
+G 1 2445 1000		/*chain leggings*/
+M 0 2412 5 2407		/*unlucky gambler*/
+M 0 2412 5 2407		/*unlucky gambler*/
+M 0 2412 5 2441		/*unlucky gambler*/
+M 0 2412 5 2441		/*unlucky gambler*/
+M 0 2412 5 2441		/*unlucky gambler*/
+M 0 2413 2 2465		/*citizen*/
+M 0 2413 2 2465		/*citizen*/
+M 0 2414 1 2464		/*receptionist*/
+M 0 2415 1 2454		/*herbalist*/  /* changed to the apothcary */
+G 1 2418 1000		/*dusk of basil*/
+G 1 2419 1000		/*fern seed*/
+G 1 2420 1000		/*clump of hemlock*/
+G 1 2421 1000		/*betony leaf*/
+G 1 2422 1000		/*elder berry crown*/
+M 0 2416 2 2458		/*lawyer*/
+M 0 2416 2 2458		/*lawyer*/
+M 0 2417 1 2456		/*secretary*/
+M 0 2418 1 2457		/*mayor*/
+M 0 2419 2 2459		/*council guard*/
+M 0 2419 2 2459		/*council guard*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2420 7 2460		/*council members*/
+M 0 2421 1 2461		/*jailor*/
+G 1 2426 1		/*key*/
+M 0 2422 1 2462		/*prisoner*/
+M 0 2423 2 2444		/*innguard*/
+M 0 2423 2 2444		/*innguard*/
+M 0 2424 1 2439		/*Jenk*/
+G 1 2411 100		/*arbalest*/
+G 1 2412 100		/*target armor*/
+G 1 2413 100		/*quick sheathe*/
+G 1 2410 3 		/*bird perch*/
+M 0 2425 1 2440		/*Black Marketeer*/
+E 1 2431 10 17		/*spacewarp wand*/
+M 0 2426 2 2469		/*priest*/
+M 0 2426 2 2469		/*priest*/
+M 0 2427 1 2470		/*high priest*/
+M 0 2428 1 2471		/*sergeant*/
+M 0 2429 1 2472		/*captain*/
+E 1 2404 20 16		/*epee*/
+M 0 2430 1 2468		/*beggar (key) */
+G 1 2424 1		/*blank key*/
+M 0 2431 4 2402		/*citizen in line*/
+M 0 2431 4 2402		/*citizen in line*/
+M 0 2431 4 2402		/*citizen in line*/
+M 0 2431 4 2402		/*citizen in line*/
+M 0 2432 4 2450		/*citizens (male) */
+M 0 2432 4 2450		/*citizens (male) */
+M 0 2432 4 2450		/*citizens (male) */
+M 0 2432 4 2450		/*citizens (male) */
+M 0 2433 6 2468		/*militia guard*/
+M 0 2433 6 2468		/*militia guard*/
+M 0 2433 6 2468		/*militia guard*/
+M 0 2433 6 2468		/*militia guard*/
+M 0 2433 6 2468		/*militia guard*/
+M 0 2433 6 2468		/*militia guard*/
+M 0 2434 1 2468		/*Kervin*/
+E 1 2406 20 16		/*War Ribbon*/
+E 1 2439 10 5		/*living armor*/
+M 0 2435 4 2476		/*gate guard*/
+M 0 2435 4 2476		/*gate guard*/
+M 0 2435 4 2477		/*gate guard*/
+M 0 2435 4 2477		/*gate guard*/
+M 0 2436 1 2504		/*bright light*/
+M 0 2437 2 2507		/*guardian wisp*/
+M 0 2437 2 2507		/*guardian wisp*/
+M 0 2438 1 2531		/*orb*/
+E 1 2401 5 17		/*Crystal Shard*/
+O 0 2446 1 2400		/*chest*/
+M 0 2439 1 2532		/*liche*/
+E 1 2403 5 12		/*liche's robes*/
+P 1 2425 2 2446		/*odd scroll*/
+O 1 2415 5 2533		/*amulet*/
+O 1 2416 5 2533		/*eagle pendant*/
+M 0 2440 2 2532		/*storm demon*/
+M 0 2440 2 2532		/*storm demon*/
+M 0 2441 1 2499		/*Tiersten*/
+E 1 2435 20 16		/*flail*/
+O 1 2436 20 2499	/*painting*/
+M 0 2442 1 2499		/*edimmu*/
+M 0 2443 1 2484		/*Sosivia*/
+E 1 2438 20 3		/*talisman of hope*/
+M 0 2444 1 2491		/*Celia*/
+E 1 2433 15 3		/*amulet of protection*/
+E 1 2434 15 17		/*staff of memory*/
+M 0 2445 1 2488		/*Talbot*/
+E 1 2432 100 16		/*elite sword*/
+M 0 2446 1 2488		/*Korino*/
+E 1 2432 100 16		/*elite sword*/
+M 0 2447 1 2547		/*Fleecem*/
+M 0 2448 1 2550		/*gravedigger*/
+M 0 2449 4 2450		/*citizen (female)*/
+M 0 2449 4 2450		/*citizen (female)*/
+M 0 2449 4 2450		/*citizen (female)*/
+M 0 2449 4 2450		/*citizen (female)*/
+M 0 2450 2 2516		/*hellhounds*/
+M 0 2450 2 2516		/*hellhounds*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2451 10 2519	/*goblins*/
+M 0 2452 1 2552		/*farmer*/
+G 1 2405 1000		/*powwee*/
+G 1 2407 1000		/*zucchini*/
+G 1 2440 1000		/*apple*/
+G 1 2441 1000		/*potato*/
+G 1 2442 1000		/*onion*/
+M 0 2453 1 2445		/*receptionist*/
+D 0 2402 2 2
+D 0 2403 0 2
+D 0 2439 1 1
+D 0 2440 3 1
+D 0 2447 3 1
+D 0 2448 1 1
+D 0 2449 0 1
+D 0 2449 1 1
+D 0 2449 3 2
+D 0 2452 1 2
+D 0 2453 3 1
+D 0 2459 3 1
+D 0 2460 1 1
+D 0 2461 1 2
+D 0 2462 3 2
+D 0 2496 4 1
+D 0 2498 5 1
+D 0 2498 2 1
+D 0 2499 0 1
+D 0 2500 1 1
+D 0 2503 2 1
+D 0 2504 1 1
+D 0 2506 0 1
+D 0 2507 0 1
+D 0 2507 1 1
+D 0 2507 3 1
+D 0 2508 2 1
+D 0 2510 5 1
+D 0 2511 5 1
+D 0 2514 0 1
+D 0 2515 0 1
+D 0 2515 1 1
+D 0 2516 2 1
+D 0 2518 0 1
+D 0 2519 0 1
+D 0 2525 0 1
+D 0 2525 1 1
+D 0 2525 2 1
+D 0 2525 3 1
+D 0 2528 0 1
+D 0 2531 0 1
+D 0 2532 0 1
+S
+
+
+#SHOPS
+  2403	2  3  4 10  0	150 50	0 23   bookstore owner
+  2405	17 0  0  0  0	150 50	0 23   bartender
+  2454	17 0  0  0  0	150 50	0 23	bartender
+  2411	9 13 17  0  0	150 50	0 23   ginger
+  2415	3  9 19 26  0	150 50	0 23  herbalist   changed to apothecary
+  2424	5  9  0  0  0	150 50	0 23  jenk
+  2452	19 26 0  0  0	150 50	0 23  farmer
+0
+
+
+#SPECIALS
+S
+
+
+#$

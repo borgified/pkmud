@@ -1,0 +1,2103 @@
+#AREA  Diku~
+Moria~
+1 100
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#4000
+snake~
+the snake~
+A large dreadful snake.
+~
+It looks hungry.
+~
+34 8 -200 P
+4 0
+#4001
+snake~
+the green snake~
+A small green snake.
+~
+It looks harmless.
+~
+3 0 -100 P
+3 0
+#4002
+centipede~
+the centipede~
+A small centipede.
+~
+It looks complete harmless.
+~
+2 0 100 P
+1 0
+#4003
+kobold~
+the kobold~
+A ugly kobold.
+~
+It looks ugly.
+~
+68 0 -100 P
+1 0
+#4004
+orc~
+the orc~
+The orc walks around, looking for someone to kill.
+~
+You notice an evil look in his eyes
+~
+100 0 -400 P
+2 1
+#4005
+orc~
+the orc~
+A large orc, really mean.
+~
+He looks dreadful.
+~
+68 0 -500 P
+3 1
+#4050
+warrior~
+the warrior~
+A tall dangerous warrior. He has more scars than anyone you have
+seen before.
+~
+Well surely a strong, brainless fighter.
+~
+4|36|64 0 -300 P
+4 1
+#4051
+warrior~
+the warrior~
+A tall warrior.
+~
+He seems to know his way with weapons.
+~
+4|36|64 0 -400 P
+3 1
+#4052
+hobgoblin~
+the hobgoblin~
+A small hobgoblin stands here.
+~
+The hobgoblin looks quite lost.
+~
+68 0 -300 P
+2 1
+#4053
+snake~
+the snake~
+A brown snake watches you.
+~
+The snake looks quite mean.
+~
+35 0 -600 P
+3 0
+#4054
+centipede~
+the centipede~
+A white centipede is here.
+~
+The centipede doesn't really seem to notice you.
+~
+2 0 -100 P
+2 0
+#4055
+hobgoblin~
+the hobgoblin~
+A large hobgoblin is here.
+~
+The hobgoblin looks quite dangerous.
+~
+68 0 -500 P
+4 1
+#4056
+orc~
+the orc~
+An orc is here, looking for something (or perhaps someone ? ) to eat.
+~
+Well he doesn't seem to be friendly.
+~
+100 0 -800 P
+3 1
+#4057
+lion mountain~
+the mountain lion~
+A mountain lion is here growling at you.
+~
+The lion looks very nasty with huge claws and big teeth.
+~
+96 0 -100 P
+2 1
+#4058
+giant hill~
+the hill giant~
+A hill giant is here tossing some rocks around.
+~
+The hill giant looks like he's about 9 feet tall. By his actions you 
+come to the conclusion that he's not very intelligent.
+~
+64 0 0 P
+4 1
+#4100
+mage~
+the Mage~
+A small intelligent looking mage is standing here. It looks like he
+knows his way with the magic. 
+~
+His IQ makes almost any dikumud player look stupid..
+~
+32 8 -100 P
+4 1
+#4101
+troll~
+the troll~
+A large mean-looking troll is here.
+~
+Well looks dangerous.!
+~
+38 0 -800 P
+4 1
+#4102
+snake~
+the snake~
+A large green snake, looks like a guardian for an evil force.
+~
+You see a evil creature.
+~
+38 0 -700 P
+4 1
+#4103
+thief~
+the Thief~
+A thief, all dressed in black.
+~
+Well, COUNT your money..!
+~
+68 0 100 P
+3 1
+#4104
+orc~
+the orc~
+A ugly orc is standing here.
+~
+Yrch..
+~
+228 0 -200 P
+3 1
+#4105
+centipede~
+a centipede~
+A small harmless centipede is here.
+~
+Well it doesn't seem to pay any attention towards you.
+~
+2 0 300 P
+2 0
+#4106
+warrior~
+the Warrior~
+A human warrior is here. He has a evil grin in his face.
+~
+He doesn't look friendly at all...
+~
+44|32|64 0 -300 P
+3 1
+#4107
+kobold~
+the kobold~
+A green kobold is here.
+~
+It looks slimy..
+~
+100 0 -100 P
+3 1
+#0
+
+
+#OBJECTS
+#4000
+ring yellow green~
+a yellow and green ring~
+A ring, with yellow and green ornamentation. It looks very old.~
+~
+9 0 16387
+0 0 0 0
+1 50 30
+E
+ring~
+It feels heavy.
+~
+A
+1 -2
+#4001
+corpse~
+a corpse~
+A halfways decayed corpse of a goblin.~
+~
+15 0 1
+1 0 -1 0
+10 0 500
+#4002
+coins~
+some coins~
+A small pile of coins.~
+~
+20 0 1
+500 0 0 0
+0 0 100
+#4050
+potion purple~
+a purple potion~
+A purple potion is here.~
+~
+10 0 16385
+17 14 36 33
+1 500 15
+E
+potion purple~
+It looks rather strange!
+~
+#4051
+helmet metal~
+a metal helmet~
+A metal helmet in here.~
+~
+9 0 16401
+0 0 0 0
+4 100 20
+E
+helmet metal~
+It looks somehow magical!.
+~
+A
+24 -2
+A
+23 -2
+#4052
+mushroom~
+a mushroom~
+A small mushroom is here.~
+~
+19 0 16385
+2 0 0 1
+1 9 3
+E
+mushroom~
+Let's put it this way - I wouldn't eat it !
+~
+#4053
+dirk~
+a thieves dirk~
+A beautifully crafted dirk is lying here.~
+stab~
+5 0 8193|16384
+0 4 4 11
+2 850 10
+E
+dirk~
+Its a medium sized, beautifully crafted dirk made from some greyish
+alloy. Its blade is double-edged and very thin...this looks like a good
+thieves weapon.
+~
+A
+18 1
+A
+19 1
+#4100
+blade black demon~
+a black demon blade~
+A black demon blade is here, you sense the forces of evil
+controlling the weapon.~
+~
+5 0 8193
+0 3 4 11
+8 100 65
+E
+blade~
+You'll become as evil as the weapon, if you use it!
+~
+#4101
+swordmans gloves~
+a swordmans gloves~
+Some gloves is here. They look like the right kind of
+equipment to use when fighting.~
+~
+9 0 129
+0 0 0 0
+1 150 40
+E
+gloves~
+Looks very usefull in combat.
+~
+A
+19 1
+#4102
+scroll~
+a scroll which reads "ysafg"~
+A scroll which reads "ysafg", it looks very fragile and quite old.~
+~
+2 0 1
+1 -1 0 0
+1 150 20
+E
+scroll~
+It looks informative.
+~
+#4103
+slime mold~
+a green slime mold~
+A green slime mold is here. Stinks like sh**.~
+~
+19 0 1
+24 0 0 0
+1 20 8
+E
+smile mold~
+It wasn't mend to be food, - Certainly not for humans.
+~
+#4104
+slime mold~
+a green slime mold~
+A green slime mold is here. Stinks like sh**.~
+~
+19 0 1
+24 0 0 1
+1 20 8
+E
+smile mold~
+It wasn't mend to be food, - Certainly not for humans.
+~
+#0
+
+
+#ROOMS
+#3900
+West trail around Hell~
+   You are on a dusty trail following the outside wall of Hell.
+To the east the wall towers over you and to the west you see the
+forest of Haon-Dor. The trail leads north and south along the wall. 
+~
+30 0 2
+D0
+The dusty trail winds north closely to the wall.
+~
+~
+0 -1 3901
+D2
+The dusty trail leads to outside the west gate of Hell.
+~
+~
+0 -1 3052
+S
+#3901
+West trail around Hell~
+   You are on a dusty trail following the outside wall of Hell.
+To the east the wall towers over you and to the west you see the
+forest of Haon-Dor. The trail leads north and south along the wall. 
+~
+30 0 2
+D0
+To the north you notice the path makes a turn, following the City wall. 
+~
+~
+0 -1 3902
+D2
+The dusty trail continues towards the south.
+~
+~
+0 -1 3900
+S
+#3902
+Northwest corner of dusty trail.~
+   You are standing outside the northwestern corner of the city wall.
+The trail leads east following the north wall and south towards the gate.  
+~
+30 0 2
+D1
+The dusty trail winds close up to the north wall of Hell.
+~
+~
+0 -1 3903
+D2
+The dusty trail leads south towards the gate.
+~
+~
+0 -1 3901
+S
+#3903
+Dusty trail along north wall.~
+   You are walking on the trail following the outside of Hell's
+northern wall.  
+~
+30 0 2
+D1
+The dusty trail is winding along the north wall of Hell.
+~
+~
+0 -1 3904
+D3
+The dusty trail turns left around the corner of the wall, behind it Haon-Dor. 
+~
+~
+0 -1 3902
+S
+#3904
+The long dusty trail following the north wall.~
+You are walking along the north wall. This is the rear of the Temple.
+It is not as pompous and impressive from this side. To the north the plains
+extend towards the horizon.
+You notice some markings on the wall here.
+~
+30 0 2
+D0
+A small path extends into the plains.
+~
+~
+0 -1 300
+D1
+The dusty trail is winding along the north wall of Hell. 
+~
+~
+0 -1 3905
+D3
+The dusty trail is winding along the north wall of Hell.
+~
+~
+0 -1 3903
+E
+wall markings writing~
+The markings are made with the hand of a child.
+They read : Tear down the Wall   -Pink Floyd
+~
+S
+#3905
+Dusty trail along north wall.~
+   You are walking on the trail following the outside of Hell's
+northern wall.  
+~
+30 0 2
+D1
+The dusty trail turns right around the corner of the wall. 
+You notice some mountains in the distance.
+~
+~
+0 -1 3906
+D3
+The dusty trail is winding along the north wall of Hell.
+~
+~
+0 -1 3904
+S
+#3906
+Northeast corner of dusty trail.~
+   You are standing outside the northeastern corner of the city wall.
+The trail leads west following the north wall and south towards the gate.  
+~
+30 0 2
+D2
+The dusty trail leads south towards the gate.
+~
+~
+0 -1 3907
+D3
+The dusty trail winds close up to the north wall of Hell.
+~
+~
+0 -1 3905
+S
+#3907
+East trail around Hell~
+   You are on a dusty trail following the outside wall of Hell.
+To the west the wall towers over you and far to the east you see
+some mountains. The trail leads north and south along the wall. 
+~
+30 0 2
+D0
+To the north you notice the path makes a turn, following the City wall. 
+~
+~
+0 -1 3906
+D2
+The dusty trail continues towards the south.
+~
+~
+0 -1 3908
+S
+#3908
+East trail around Hell~
+   You are on a dusty trail following the outside wall of Hell.
+To the west the wall towers over you and far to the east you see
+some mountains. The trail leads north and south along the wall. 
+~
+30 0 2
+D0
+The dusty trail winds north closely to the wall.
+~
+~
+0 -1 3907
+D2
+The dusty trail leads to outside the east gate of Hell.
+~
+~
+0 -1 3053
+S
+
+
+#4000
+The hills~
+   You are on a path leading north, small hills surrounds you. You feel
+the forces of evil approach you from the north. 
+~
+40 4 4
+D0
+~
+~
+0 0 4001
+D2
+~
+~
+0 0 3500
+S
+#4001
+The hills~
+   You are on a small path leading north, dark threatening hills
+surrounds you to almost all sides.
+~
+40 4 4
+D0
+~
+~
+0 0 4002
+D2
+~
+~
+0 0 4000
+S
+#4002
+End of the path~
+   The path stops here, to the north is a single mountain and around you
+are some threatening hills. There is a dark cave to the north. You see a
+large sign on the mountain.
+~
+40 4 4
+D0
+~
+~
+0 0 4010
+D2
+~
+~
+0 0 4001
+D4
+~
+~
+0 0 13300
+E
+sign~
+The sign says:
+***********************************************************************
+*                                                                     *
+* ******************************************************************* *
+* *                                                                 * *
+* *                    The Mines of Moria                           * *
+* *                                                                 * *
+* *                  Enter at your own risk.                        * *
+* *                                                                 * *
+* *     Welcome to the mines of Moria.. At present there are only   * *
+* *           3 levels. Later the plan is to build 20...            * *
+* *                                                                 * *
+* *     Are you below level 3 Don't enter..                         * *
+* *     Are you below level 8 Don't enter alone..                   * *
+* *                                                                 * *
+* ******************************************************************* *
+*                                                                     *
+***********************************************************************
+~
+S
+#4010
+The cave~
+   You are in a cave, to the south you sense fresh air. To the north a
+small tunnel continues into the mountain.
+~
+40 9 2
+D0 
+~
+~
+0 0 4011
+D2
+~
+~
+0 0 4002
+S
+#4011
+The tunnel~
+   You force your way through a small tunnel, to you south you sense 
+a little fresh air, and to the north the tunnel continues.
+~
+40 9 3
+D0
+~
+~
+0 0 4014
+D2
+~
+~
+0 0 4010
+S
+#4012
+The tunnel~
+   You are in a small tunnel, to the north there is a cave. The tunnel
+continues to the east.
+~
+40 9 3
+D0
+~
+~
+0 0 4016
+D1
+~
+~
+0 0 4013
+S
+#4013
+The tunnel~
+   You are in a small tunnel leading east-west. The floor is covered by
+dust.
+~
+40 9 3
+D1
+~
+~
+0 0 4014
+D3
+~
+~
+0 0 4012
+S
+#4014
+The tunnel~
+   You are in a tunnel, the tunnel continues to the south and to the 
+west, to the north there is a cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4018
+D2
+~
+~
+0 0 4011
+D3
+~
+~
+0 0 4013
+S
+#4015
+The tunnel~
+   You are in a small tunnel, the tunnel continues west.
+~
+40 9 3
+D0
+~
+~
+0 0 4019
+D3
+~
+~
+0 0 4014
+S
+#4016
+The large cave~
+   You are in a large cave, the cave continues east and west, to the south
+you notice a small tunnel.
+~
+40 9 2
+D1
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4012
+D3
+~
+~
+0 0 4023
+S
+#4017
+The large cave~
+   You are in the east end of the large cave.
+~
+40 9 2
+D3
+~
+~
+0 0 4016
+S
+#4018
+The cave~
+   You are in the south end of a cave, to the south you see a tunnel. You
+notice a large pile of bones in the corner.
+~
+40 9 2
+D0
+~
+~
+0 0 4025
+D2
+~
+~
+0 0 4014
+E
+pile bones~
+Well you better watch out - some of the bones are human !
+~
+S
+#4019
+The tunnel~
+   You are in a north-south leading tunnel.
+~
+40 9 3
+D0
+~
+~
+0 0 4026
+D2
+~
+~
+0 0 4015
+S
+#4020
+The hole~
+   You are by a hole in the floor, you can leave down, or north.
+~
+40 13 3
+D0
+~
+~
+0 0 4027
+D5
+~
+~
+0 0 4064
+S
+#4021
+The hole~
+   You are by a hole in the floor, exits are down or east.
+~
+40 13 3
+D1
+~
+~
+0 0 4022
+D5
+~
+~
+0 0 4115
+S
+#4022
+The damp tunnel~
+   You are in a damp tunnel, your clothes feel wet. The tunnel continues
+to the north, to the west you see a hole in the floor and to the east
+there is a large cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4024
+D1
+~
+~
+0 0 4023
+D3
+~
+~
+0 0 4021
+S
+#4023
+The large cave~
+   You are in the western part of the large cave, to the west you see
+a damp tunnel.
+~
+40 9 2
+D1
+~
+~
+0 0 4016
+D3
+~
+~
+0 0 4022
+S
+#4024
+The damp tunnel~
+   You are in a damp tunnel, that leads west.
+~
+40 9 3
+D2
+~
+~
+0 0 4022
+D3
+~
+~
+0 0 4059
+S
+#4025
+The cave~
+   You are in the north end of a cave. To the east you see some tunnels
+which leads in many directions.
+~
+40 9 2
+D1
+~
+~
+0 0 4026
+D2
+~
+~
+0 0 4018
+S
+#4026
+The many tunnels~
+   You are in a tunnel, that leads of in all directions.
+~
+40 9 3
+D0
+~
+~
+0 0 4028
+D1
+~
+~
+0 0 4027
+D2
+~
+~
+0 0 4019
+D3
+~
+~
+0 0 4025
+S
+#4027
+The tunnel~
+   You are in a north-south leading tunnel, you also notice a tunnel to
+the west. From the north you sense the fresh air!
+~
+40 9 3
+D0
+~
+~
+0 0 4029
+D2
+~
+~
+0 0 4020
+D3
+~
+~
+0 0 4026
+S
+#4028
+The smelly tunnel~
+   You are in a north-south leading tunnel, you see a small light
+to the north. You notice a strange smell from the north..
+~
+40 9 3
+D0
+~
+~
+0 0 4030
+D2
+~
+~
+0 0 4026
+S
+#4029
+The cave~
+   You are in a cave that is filled with fresh air, you sense the
+wind blowing from the north. To the south you see a small tunnel
+continue into the mountain.
+~
+40 9 2
+D0
+~
+~
+0 0 4031
+D2
+~
+~
+0 0 4027
+S
+#4030
+The light cave~
+   You are in a light cave, through a hole large above you, you see 
+the sky. A small tunnel to the south is the only way out.
+You notice the source of the strange smell, all around you there is
+corpses from several monsters.
+~
+40 0 2
+D2
+~
+~
+0 0 4028
+E
+corpse corpses~
+IT STINKS!
+nnn~
+S
+#4031
+The valley~
+   You are in a small valley, surrounded by hills and a mountain to 
+the south. In the mountain there is a cave.  To the north you enter
+the hills.
+~
+40 0 2
+D2
+~
+~
+0 0 4029
+D0
+~
+~
+0 0 4032
+E
+cave~
+Well it doesn't look nice, but it's the only way out..
+~
+S
+#4032
+The foothills~
+   You are on a winding path that leads through the foothills on the
+other side of the mountain.  The path continues north.
+~
+40 0 2
+D0
+~
+~
+0 0 4033
+D2
+~
+~
+0 0 4031
+S
+#4033
+The intersection in the foothills~
+   The small path you are following splits here.  The path continues
+north and south or you can follow a trail east into the mountains.
+~
+40 0 2
+D0
+~
+~
+0 0 4034
+D1
+~
+~
+0 0 4037
+D2
+~
+~
+0 0 4032
+S
+#4034
+The grassy area of the foothills~
+  The grass here is unusually high.  You notice several areas where
+somone or something large has crush spots of the down.  Several very
+large rocks litter this area.  You can go north, west or south.
+~
+40 0 2
+D0
+~
+~
+0 0 4035
+D3
+~
+~
+0 0 4042
+D2
+~
+~
+0 0 4033
+S
+#4035
+The foothills end~
+  At this point you are leaving the foothills.  You see a plains area
+to the north of here.  You can spot a small city in the distance from
+here.
+~
+40 0 2
+D0
+~
+~
+0 0 4036
+D2
+~
+~
+0 0 4034
+S
+#4036
+The plains~
+   the plains.  To the north, you see a large gothic castle, but
+I would advise leaving south the way you came.
+~
+40 0 2
+D0
+~
+~
+0 0 2201
+D2
+~
+~
+0 0 4035
+S
+#4037
+The foothills path~
+  exits are east and west.
+~
+40 0 2
+D3
+~
+~
+0 0 4033
+D1
+~
+~
+0 0 4038
+S
+#4038
+Base of the mountain~
+  Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 0 4039
+D3
+~
+~
+0 0 4037
+S
+#4039
+A trail up the mountain~
+   Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 0 4040
+D3
+~
+~
+0 0 4038
+S
+#4040
+The mountain top.~
+   Exits are north, east, west.
+~
+40 0 2
+D0
+~
+~
+0 0 4041
+D1
+~
+~
+0 0 7114
+D3
+~
+~
+0 0 4039
+S
+#4041
+The lions den~
+   Exits are south.
+~
+40 0 2
+D2
+~
+~
+0 0 4040
+S
+#4042
+The level foothills~
+   Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 0 4034
+D3
+~
+~
+0 0 4043
+S
+#4043
+The cave entrance~
+   Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 0 4042
+D3
+~
+~
+0 0 4044
+S
+#4044
+The hill giant cave~
+   Exits are east.
+~
+40 0 2
+D1
+~
+~
+0 0 4043
+S
+#4050
+The tunnel~
+   You are in a tunnel, which turns here. The tunnel continues to the
+east and the south.
+~
+40 9 3
+D1
+~
+~
+0 0 4051
+D2
+~
+~
+0 0 4053
+S
+#4051
+The tunnel~
+   You are in an east-west leading tunnel. The tunnel is very narrow
+here.
+~
+40 9 3
+D1
+~
+~
+0 0 4052
+D3
+~
+~
+0 0 4050
+S
+#4052
+The tunnel~
+   You are in an east-west leading tunnel.
+~
+40 9 3
+D1
+~
+~
+0 0 4100
+D3
+~
+~
+0 0 4051
+S
+#4053
+The tunnel~
+   You are at a turn, the tunnel continues north and east.
+~
+40 9 3
+D0
+~
+~
+0 0 4050
+D1
+~
+~
+0 0 4054
+S
+#4054
+The light cave~
+   You are in a cave, to south from you there is a large fire that lights
+the entire cave, to the east and west tunnels leads off.
+~
+40 8 2
+D1
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4056
+D3
+~
+~
+0 0 4053
+S
+#4055
+The maze~
+   You are in a maze of small damp tunnels. Only exit is west to a 
+light cave.
+~
+40 9 3
+D3
+~
+~
+0 0 4054
+S
+#4056
+The light cave~
+   You are in a light cave, a large fire in front of you lights the room.
+The cave continues to the north and south.
+~
+40 8 2
+D0
+~
+~
+0 0 4054
+D2
+~
+~
+0 0 4061
+E
+fire~
+Well, errh - It looks somehow quite warm..!
+~
+S
+#4057
+The maze~
+   You are in a maze of small damp tunnels. Exits leads both north
+and south.
+~
+40 9 3
+D0
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4062
+S
+#4058
+The maze~
+   You are in a maze of small damp tunnels. Exits leads west and south.
+~
+40 9 3
+D2
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4057
+S
+#4059
+The tunnel~
+   You are in a tunnel, only exit is to the east. You sense that the
+tunnel leads slightly down.
+~
+40 13 3
+D1
+~
+~
+0 0 4060
+S
+#4060
+The tunnel~
+   You are in a small tunnel, to the west the tunnel continues and 
+to the east you see some light.
+~
+40 9 3
+D1
+~
+~
+0 0 4061
+D3
+~
+~
+0 0 4059
+S
+#4061
+The light cave~
+   You are in the south end of a light cave, tunnels leads of to the
+south and west.
+~
+40 8 2
+D0
+~
+~
+0 0 4056
+D2
+~
+~
+0 0 4065
+D3
+~
+~
+0 0 4060
+S
+#4062
+The maze~
+   You are in a maze of small damp tunnels. Exits leads east and west.
+~
+40 9 3
+D1
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4061
+S
+#4063
+The maze~
+   You are in a maze of small damp tunnels. Exits leads north and east.
+~
+40 9 3
+D0
+~
+~
+0 0 4054
+D1
+~
+~
+0 0 4064
+S
+#4064
+The tunnel~
+   You are in a tunnel, only exit is west - Only exit, well there is 
+also a hole in the ceiling.
+~
+40 9 3
+D3
+~
+~
+0 0 4063
+D4
+~
+~
+0 0 4020
+S
+#4065
+The maze~
+   You are in a maze of small damp tunnels. The tunnel continues east.
+To the north there is a light cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4061
+D1
+~
+~
+0 0 4066
+S
+#4066
+The maze~
+   You are in a maze of small damp tunnels. Exits leads east and
+north. To the south is a large cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4062
+D1
+~
+~
+0 0 4067
+D2
+~
+~
+0 0 4069
+S
+#4067
+The maze~
+   You are in a maze of small damp tunnels. Exits leads west and
+north.
+~
+40 9 3
+D0
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4066
+S
+#4068
+The large cave~
+   You are in the northwest end of a large cave.
+~
+40 9 2
+D1
+~
+~
+0 0 4069
+D2
+~
+~
+0 0 4070
+S
+#4069
+The large cave~
+   You are in the northeast end of a large cave. To the north the
+is a small damp tunnel.
+~
+40 9 2
+D0
+~
+~
+0 0 4066
+D2
+~
+~
+0 0 4071
+D3
+~
+~
+0 0 4068
+S
+#4070
+The large cave~
+   You are in the southwest end of a large cave.
+~
+40 9 2
+D0
+~
+~
+0 0 4068
+D1
+~
+~
+0 0 4071
+S
+#4071
+The large cave~
+   You are in the southeast end of a large cave. To the east you
+notice a small tunnel.
+~
+40 9 2
+D0
+~
+~
+0 0 4069
+D1
+~
+~
+0 0 4072
+D3
+~
+~
+0 0 4070
+S
+#4072
+The tunnel~
+   You are in a narrow tunnel, which leads both to the east and the
+south. There is also an exit towards the west, where you see a large
+cave.
+~
+40 9 3
+D1
+~
+~
+0 0 4073
+D2
+~
+~
+0 0 4074
+D3
+~
+~
+0 0 4071
+S
+#4073
+End of tunnel~
+   The tunnel stops here. There is no other exits than the one you
+came from.
+~
+40 9 3
+D3
+~
+~
+0 0 4072
+S
+#4074
+The hole~
+   You are at a small hole in the floor, you can either leave north
+or try your luck and leave down into the unknown!
+~
+40 9 3
+D0
+~
+~
+0 0 4072
+D5
+~
+~
+0 0 25004
+S
+#4100
+The tunnel~
+   Suddenly you feel that the tunnel leads slightly down.. The only 
+exit is to the west, and it leads down..
+~
+41 13 3
+D3
+~
+~
+0 0 4101
+S
+#4101
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel is quite
+wide at this point.
+~
+41 9 3
+D1
+~
+~
+0 0 4100
+D3
+~
+~
+0 0 4102
+S
+#4102
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel becomes
+narrow to the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4101
+D3
+~
+~
+0 0 4103
+S
+#4103
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel is quite
+narrow at this point. You notice a small hole leading south.
+~
+41 9 3
+D1
+~
+~
+0 0 4102
+D2
+~
+~
+0 0 4106
+D3
+~
+~
+0 0 4104
+S
+#4104
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel starts sloping
+down towards the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4103
+D3
+~
+~
+0 0 -1
+S
+#4105
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and west.
+~
+41 8 1
+D2
+~
+~
+0 0 4108
+D3
+~
+~
+0 0 4106
+E
+light gold golden~
+It looks good, but a closer look reveals that it has no value.
+~
+S
+#4106
+The golden cave~
+   This is a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and east, to the north i a narrow
+tunnel.
+~
+41 8 1
+D0
+~
+~
+0 0 4103
+D1
+~
+~
+0 0 4105
+D2
+~
+~
+0 0 4109
+E
+light gold golden~
+It looks good, but a closer look reveals that it has no value.
+~
+S
+#4107
+The passage~
+   This is a small passage, it leads south, to the east is a golden
+cave.
+~
+41 9 3
+D2
+~
+~
+0 0 4113
+D3
+~
+~
+0 0 4108
+S
+#4108
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north and west, east from you there is
+a small passage.
+~
+41 8 1
+D0
+~
+~
+0 0 4105
+D1
+~
+~
+0 0 4107
+D3
+~
+~
+0 0 4109
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+S
+#4109
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south, east and north.
+~
+41 8 1
+D0
+~
+~
+0 0 4106
+D1
+~
+~
+0 0 4108
+D2
+~
+~
+0 0 4114
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+S
+#4110
+The hole~
+   You are standing by a large hole in the floor, when you looks down
+into the darkness you feel frightened.
+~
+41 13 3
+D3
+~
+~
+0 0 4111
+S
+#4111
+The tunnel~
+   You are in a small tunnel, it leads from east to the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4110
+D3
+~
+~
+0 0 4112
+S
+#4112
+The tunnel~
+   You are in a larger tunnel, it leads from west to east.
+~
+41 9 3
+D1
+~
+~
+0 0 4111
+D3
+~
+~
+0 0 4113
+S
+#4113
+The passage~
+   You are in a passage that leads towards the south. To the east 
+You see a tunnel.
+~
+41 9 3
+D0
+~
+~
+0 0 4107
+D1
+~
+~
+0 0 4112
+D2
+~
+~
+0 0 4116
+S
+#4114
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north, to the west you see a dark 
+passsage.
+~
+41 8 1
+D0
+~
+~
+0 0 4109
+D3
+~
+~
+0 0 4115
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+S
+#4115
+The dark passage.~
+   You are in a dark passage, that leads east. In the ceiling you notice
+a small hole, just big enough to pass through.
+~
+41 9 3
+D1
+~
+~
+0 0 4114
+D4
+~
+~
+0 0 4021
+S
+#4116
+The passage~
+   You are in a passage that leads north-south. You notice a small
+light to the south.
+~
+41 9 3
+D0
+~
+~
+0 0 4113
+D2
+~
+~
+0 0 4120
+E
+light~
+Well you can't see where it comes from..
+~
+S
+#4117
+The secret tunnel~
+   You are in a secret tunnel that leads north, to the south you see
+a small chamber.
+~
+41 9 3
+D0
+~
+~
+0 0 4114
+D2
+~
+~
+0 0 4122
+S
+#4118
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the west and south.
+To the north a small hole leads to a tunnel.
+~
+41 8 1
+D0
+~
+~
+0 0 4111
+D2
+~
+~
+0 0 4123
+D3
+~
+~
+0 0 4119
+S
+#4119
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the east and south.
+~
+41 8 1
+D1
+~
+~
+0 0 4118
+D2
+~
+~
+0 0 4124
+D3
+~
+~
+0 0 4121
+S
+#4120
+The passage~
+   You are in a north-south leading passage. To the south you see
+light.
+~
+40 9 3
+D0
+~
+~
+0 0 4116
+D2
+~
+~
+0 0 4125
+E
+light~
+It nearly is enough to light the passage.
+~
+S
+#4121
+The secret tunnel~
+   You are in a secret tunnel that leads west, you feel evilness
+approaching you as you continue west.
+~
+40 9 3
+D3
+~
+~
+0 0 4122
+S
+#4122
+The secret chamber~
+   You are in a secret chamber, the room is filled with an evil
+feeling.
+~
+40 9 3
+D0
+~
+~
+0 0 4117
+S
+#4123
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the north and west.
+~
+41 8 1
+D0
+~
+~
+0 0 4118
+D3
+~
+~
+0 0 4124
+S
+#4124
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the east and north.
+To the west a passage leads north.
+~
+41 8 1
+D0
+~
+~
+0 0 4119
+D1
+~
+~
+0 0 4123
+D3
+~
+~
+0 0 4125
+S
+#4125
+The passage~
+   You are in a passage, to the east you see a cave. Light from the
+cave lights up the passage. To the north the passage leads into
+the darkness..
+~
+40 8 3
+D0
+~
+~
+0 0 4120
+D1
+~
+~
+0 0 4124
+S
+#0
+
+
+#RESETS
+*
+* Level 1
+*
+M 0 4000 1 4030     The large snake
+G 1 4001 1          Carry a goblin corpse
+P 1 4002 1 4001     Which contains 500 coins.
+*
+M 0 4001 2 4025     a green snake
+M 0 4001 2 4015     a green snake
+*
+M 0 4002 3 4023     a centipede
+M 0 4002 3 4017     a centipede
+M 0 4002 3 4020     a centipede
+*
+M 0 4003 6 4021     a kobolt
+M 0 4003 6 4021     a kobolt
+M 0 4003 6 4013     a kobolt
+M 0 4003 6 4013     a kobolt
+M 0 4003 6 4027     a kobolt
+M 0 4003 6 4027     a kobolt
+*
+M 0 4004 3 4015     an ork
+M 0 4004 3 4028     an ork
+M 0 4004 3 4028     an ork
+*
+M 0 4005 1 4022     a large ork
+E 1 4000 5 1        ring of weakness on left finger
+*
+M 0 4057 1 4038     a lion
+M 0 4057 1 4041     a lion
+M 0 4058 1 4044     a hill giant
+*
+* Moria level 2
+*
+M 0 4050 1 4062     a warrior
+G 1 4051 3          give him a helmet of savin' throw
+*
+M 0 4051 4 4070     a warrior
+M 0 4051 4 4050     a warrior
+M 0 4051 4 4073     a warrior
+M 0 4051 4 4055     a warrior
+*
+M 0 4052 3 4056     a hobgoblin
+M 0 4052 3 4065     a hobgoblin
+M 0 4052 3 4059     a hobgoblin
+*
+M 0 4053 2 4058     a snake
+M 0 4053 2 4068     a snake@
+*
+M 0 4054 3 4060     a centipede
+M 0 4054 3 4053     a centipede
+M 0 4054 3 4052     a centipede
+*
+M 0 4055 2 4064     a hobgoblin
+G 1 4050 100         give him a purple potion
+M 0 4055 2 4071     a hobgoblin
+G 1 4050 100         give him a purple potion
+*
+M 0 4056 2 4067     an orc
+M 0 4056 2 4057     an orc
+*
+O 0 4052 8 4068     plant a mushroom
+O 0 4052 8 4069     plant a mushroom
+O 0 4052 8 4070     plant a mushroom
+O 0 4052 8 4071     plant a mushroom
+*
+*
+* Level 1
+*
+M 0 4100 1 4114    The mage
+G 1 4102 2         Scroll of identify.
+*
+M 0 4101 1 4122    The troll
+G 1 4100 2         The blade
+*
+M 0 4102 3 4111    The snakes
+G 1 4103 10      Slime
+M 0 4102 3 4111    The snakes
+G 1 4104 3        Poisoned slime
+*
+M 0 4103 6 4103    A thief
+E 1 4053 50 16       epuip w/dirk
+*
+M 0 4103 6 4124    A thief
+E 1 4053 50 16       equipe with dirk
+*
+M 0 4105 3 4108    A centipede
+*
+M 0 4106 2 4113    A warrior
+G 1 4101 1         Some gloves
+*
+M 0 4107 1 4119    A kobold
+G 1 4104 10        Slime
+*
+S
+
+
+
+#SPECIALS
+S
+
+
+#$

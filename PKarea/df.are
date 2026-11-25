@@ -1,0 +1,2543 @@
+#AREA Kelvik~
+Darkfriends Guild~
+8 50
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#5600
+pilferer~
+the pilferer~
+A rattily dressed pilferer is here trying to fit in.
+~
+This little guy looks like he really needs a bath.
+Also looks like he could use some cash.  He looks away timidly.
+~
+212 524288 0 P
+1 1
+#5601
+chef~
+the Guild chef~
+A large man covered with a layer of flour is here sipping some soup.
+~
+The Guild chef looks back at you and yells, 'Get out of my
+kitchen before I throw you out, dammit!
+~
+66 0 0 P
+2 1
+#5602
+trainer ~
+the Guild trainer~
+An aggravated Guild trainer is here cursing the stupidity of his pupils.
+~
+The combat trainer looks quite peeved right now; maybe you should leave.
+~
+102 8 0 P
+1 0
+#5603
+sneak~
+the sneak~
+A sneak creeps along in shadow, honing his ability to move silently.
+~
+Looks like the kind of guy that gets kicks sneaking up behind people and
+scaring them out of their skin.
+~
+192 524288 0 P
+2 1
+#5604
+juggler~
+the juggler~
+A gaudily dressed juggler is here tossing sharp objects all about.
+~
+The juggler looks back at you nonchalantly as he deftly flips some very sharp
+looking knives from hand to hand.
+~
+192 0 0 P
+2 1
+#5606
+clerk~
+the clerk~
+A shrewd looking clerk with beady eyes and a monstrous nose stands here.
+~
+Looks harmless.  Picture Father Guido Sarducci.
+~
+102 0 0 P
+2 1
+#5607
+legbreaker breaker~
+the legbreaker~
+A legbreaker, the hired muscle of the Guild, stands here menacingly.
+~
+This mass of muscle moves toward you and flexes its arm under your nose.
+~
+102 0 0 P
+2 1
+#5610
+rogue~
+the rogue~
+A rogue flashes you a charming smile and continues his game of dice.
+~
+It seems as if this lad has had some luck with his gaming skills.  He is
+dressed in flashy clothing and appears to be free with his money.
+~
+192 524288 0 P
+3 1
+#5611
+Vastin~
+Vastin~
+Vastin the Rogue is standing here.
+~
+Vastin smiles at you and bows deeply, allowing you a good look at his
+fancy silk young nobleman's outfit.
+~
+194 524288 0 P
+3 1
+#5612
+character shady~
+the shady character~
+A shady character is lurking about here, definitely up to no good.
+~
+His face is a hideous bulging mess of scars, warts, and boils.
+No wonder he sticks to the shadows.
+~
+102 524288 0 P
+3 1
+#5613
+lieutenant guard~
+the Lieutenant Cityguard~
+A Lieutenant of the Cityguard blushes and tries not to be noticed here.
+~
+The Lieutenant Cityguard futilely tries to keep his face hidden.
+~
+208 0 0 P
+3 1
+#5614
+burglar~
+the burglar~
+A burglar sits fondly recalling some masterful second-story triumphs.
+~
+Wrapped in black, black, and black, he highly resembles
+a hunk of someone's shadow.
+~
+70 524288 0 P
+3 1
+#5615
+merc~
+the merc~
+A merc is hanging around here, looking for trouble.
+~
+Scarred and weather-worn, he looks like he has survived many
+battles for his life.  He looks back at you fiercely.
+~
+102 0 -340 P
+3 1
+#5616
+smuggler~
+the smuggler~
+A smuggler stuffs some glinting objects into his shirt and grins sheepishly.
+~
+'Move along, nutin ta see ere' he says, fidgeting with his sleeve.
+~
+196 524288 0 P
+3 1
+#5617
+fence~
+the Guild fence~
+A fence-of-all-goods is standing here rubbing his hands and grinning.
+~
+The fence scratches his chin and looks at you warily.
+~
+98 8 0 P
+3 1
+#5618
+beardog~
+the beardog~
+A beardog, part of Guild security, snarls, and leaps at you.
+~
+Half dog, half bear, this is obviously not a creature with which to tangle.
+Saliva flows freely from its masticating maw...you don't want to know what
+it's masticating...
+~
+96 8 0 P
+3 0
+#5619
+knifer~
+a knifer~
+A knifer stalks carefully along the trail of her prey.
+~
+Maybe it would be best if you didn't distract her from her business right now.
+~
+100 524296 0 P
+3 2
+#5620
+killer~
+a killer~
+A killer turns and looks at you with dangerous fire in his eyes.
+~
+He's obviously busy now.  Maybe you should return at a better time.
+~
+196 524288 0 P
+3 1
+#5621
+assassin~
+the assassin~
+An assassin leans against the wall and picks his teeth with a dagger.
+~
+He snarls and spits in your direction.
+Not a friendly looking fellow.
+~
+102 524296 0 P
+3 1
+#5622
+bodyguard~
+the DarkFriends bodyguard~
+A DarkFriends bodyguard stands here looking very intimidating.
+~
+You guess he was hired for his brawn, towering at 7 feet and half as thick.
+He looks back at you and smirks.
+'Shoo,' he says.
+~
+100 8 0 P
+3 1
+#5623
+DarkFriends assassin~
+the DarkFriends assassin~
+A DarkFriends assassin slips in and out of the shadows.
+~
+It's impossible to see through all the shadows cloaking him.
+~
+100 524296 0 P
+3 1
+#5624
+Grandmaster master~
+the Grandmaster of DarkFriends~
+The Grandmaster of DarkFriends taps you on the shoulder.  'Can I help you?'
+~
+The Grandmaster looks back at you amusedly.  A short light beard covers
+his young face, and dark beckoning eyes nearly capture you in their
+charismatic stare.
+~
+102 524296 0 P
+5 1
+#5625
+panther black~
+the huge snarling panther~
+An awesome illusionary black panther solidifies before you...
+~
+Standing a full four feet at the shoulder, this magnificent cat fades in
+and out of sight like a black cloud of fog.
+~
+98 524296 0 P
+3 2
+#5626
+snatcher crumb~
+the crumb-snatcher~
+A crumb-snatcher skulks about here snatching up crumbs and nibbling them.
+~
+Dressed in rags, this little person has probably had to live in the streets
+all of its miserable life.
+~
+68 524288 0 P
+1 1
+#5627
+rowdy~
+the rowdy~
+A rowdy swaggers about here staring people down.
+~
+Full of bluster and bravado, the rowdy glares at you and smirks.  Then he
+reaches out and tweaks your forehead.
+~
+192 0 0 P
+2 1
+#5628
+wench~
+a buxom wench~
+A curvaceous young wench flutters her eyelashes.
+~
+Young, beautiful, full of vigor and lust for life and its finer pleasures,
+she eyes you greedily up and down.
+~
+192 0 0 P
+1 1
+#0
+
+
+
+#OBJECTS
+#5600
+shiv~
+a Chaos Shiv~
+A long sharp shiv is lying on the ground here.~
+~
+5 64 8193
+0 3 8 11
+2 500 30
+E
+shiv~
+Forged long ago by the ancient craftsmiths of the Chaos Guild,
+this powerful weapon has doubtless put many wildly beating
+hearts to eternal rest, despite its flawless razor sharp edge
+and show-piece beauty.
+~
+A
+18 50
+#5601
+knife bone~
+a bone handle knife~
+A bone handle knife is lying here.~
+~
+5 0 8193|16384
+0 1 3 11
+1 15 20
+A
+19 1
+#5602
+dagger bone~
+a bone handled dagger~
+A bone handled dagger is lying here.~
+~
+5 0 8193
+0 2 3 11
+2 80 30
+A
+19 1
+#5603
+dagger jeweled~
+a jeweled dagger~
+A jeweled dagger lies here sparkling on the ground.~
+~
+5 0 8193
+0 3 2 11
+3 500 80
+A
+19 1
+#5604
+dagger ranseur~
+a ranseur dagger~
+A dagger shaped like a ranseur lies here.~
+~
+5 0 8193
+0 4 2 11
+3 200 80
+#5605
+cesti~
+two glinting cesti~
+A nasty looking pair of cesti lies here on the ground.~
+~
+9 32 129
+4 0 0 0
+5 250 15
+E
+cesti~
+These rough leather gloves are very comfortable and seem to
+be thick enough to protect your hand.  In addition, they have
+several nasty looking spikes and razor edges along their backs
+and across their knuckles.
+~
+A
+19 1
+#5606
+cloak fiery red~
+a fiery red cloak~
+A fiery red cloak is lying here on the ground.~
+~
+9 64 5
+0 0 0 0
+3 200 20
+E
+cloak fiery red~
+Examining this cloak carefully, you can see that it has been
+woven intricately with some very sturdy stuff.  It is quite
+supple, yet resistant to any damage you try to incur on it.
+~
+A
+17 -9
+A
+30 5
+#5607
+buskins soft~
+a pair of soft buskins~
+A pair of very soft looking buskins stands here.~
+~
+9 64 65
+6 0 0 0
+2 100 50
+E
+buskins~
+Sewn from some leather, these boots are so soft to the touch,
+you almost think they could be made of cloud-substance.
+Surely anyone wearing these would be more comfortable by far
+than someone in any other foot gear.
+~
+#5608
+gauntlets leather~
+a pair of black leather gauntlets~
+A pair of black leather gauntlets rests here.~
+~
+9 64 129
+2 0 0 0
+2 100 20
+E
+gauntlets~
+These look very sturdy, yet very comfortable.  That is, they
+would protect your hands, yet would not hinder your aim in
+battle.
+~
+A
+18 2
+#5609
+dagger spetum~
+a spetum dagger~
+A dagger shaped like a spetum lies here.~
+~
+5 0 8193
+0 2 6 11
+4 150 45
+A
+18 2
+A
+19 1
+#5610
+sash crimson~
+a crimson sash~
+A fabulous crimson silk sash has been dropped here.~
+~
+15 1600 2049
+999 0 -1 0
+1 500 15
+E
+sash~
+Six feet in length, soft as rose petals, this bright red
+sash has been made from materials your eyes have never yet
+beheld.  What wonderous properties does it hold?
+~
+A
+1 1
+A
+17 -9
+#5611
+gloves velvet~
+a pair of black velvet gloves~
+A pair of black velvet gloves is lying here.~
+~
+9 1600 129
+4 0 0 0
+3 400 15
+E
+gloves velvet~
+Dark as night, and soft as a breeze, no gloves you have held
+before felt so comfortable.  They seem to have been custom
+made for you; they look to fit you perfectly.  Silk inside,
+velvet outside, and most likely magic inbetween...try them on!
+~
+A
+18 1
+A
+19 1
+#5612
+cloak velvet~
+a black velvet cloak~
+A black velvet cloak is lying here.~
+~
+9 1600 5
+10 0 0 0
+3 300 15
+E
+cloak velvet~
+Like the fur of a panther, this cloak soothes you with its
+mere touch.  Full length in beauty, it is unexplainably light
+and supple for velvet yet quite sturdy.  Most likely magic was
+invoked in its creation.
+~
+A
+13 20
+#5613
+mace eog~
+a black Eog mace~
+A black Eog mace is lying here.~
+~
+5 1603 8193
+0 4 6 7
+30 200 13
+E
+mace eog~
+Glowing with the aura of its makers, humming in tune with creation,
+this beautiful mace was crafted eons ago by the ancient protectors
+of the balance.  Its Eog handle reaches nearly two and a half feet
+in length, ending in a spiked Eog "skull".  The eye sockets blaze
+with two large rubies.
+~
+A
+18 3
+A
+19 3
+#5614
+neckchain chain sapphire~
+a sapphire neckchain~
+A neckchain with two small sapphires in it is lying here.~
+~
+12 66 5
+0 0 0 0
+4 50 40
+E
+neckchain chain~
+This long neckchain seems to be made of some cheap imitation
+gold, but in each of its connecting ends is a very nice
+looking sapphire that emits a humming sound.
+~
+A
+17 -5
+#5615
+kris writhing~
+a writhing kris~
+A wicked looking kris lies here writhing on the ground.~
+~
+5 1600 8193
+0 3 4 11
+5 400 20
+E
+kris writhing~
+The kris has a handle that seems to be made of Onyx, but the
+blade appears woven of shadow.  The handle is substantial enough,
+yet attempts to touch the blade are futile.  Your hand passes
+right through it...
+~
+A
+18 3
+A
+19 3
+#5616
+boots Drowskin~
+a pair of Drow skin boots~
+A pair of grisly Drow skin boots is lying here.~
+~
+9 1600 65
+10 0 0 0
+3 200 30
+E
+boots Drowskin~
+Sewn from the skin of an unfortunate Drow Elf (not unlikely a
+rival of the artist), these bizarre but wonderous knee-high boots
+are in excellent condition.  The interior is lined with the short
+fur of some creature of the Underdark, the exterior Elf skin
+protected by a glistening layer of magic, and from around the top
+of the boots hang long strands of white Drow hair, to mid-calf.
+~
+A
+2 1
+#5617
+hood velvet black~
+a black velvet hood~
+A black velvet hood is lying here.~
+~
+9 1600 17
+5 0 0 0
+2 500 15
+E
+hood velvet~
+This hood is actually a large cowl that can be draped over
+your head and left to trail down in back under a cloak.  It
+is extremely soft to the touch, outside velvet, inside silk.
+~
+A
+17 -10
+#5618
+bracelet Eog~
+a bejeweled Eog bracelet~
+A black Eog bracelet is lying here glinting in the light.~
+~
+9 1600 4097
+2 0 0 0
+2 500 20
+E
+bracelet Eog~
+Pure black magical Eog, covered with hundreds of tiny sparkling
+jewels that reflect the light in wild patterns.  A simple design,
+but a beautiful...and expensive one.
+~
+A
+19 2
+#5619
+neckchain chain eog~
+a bejeweled Eog neckchain~
+A black Eog neckchain is lying here glinting in the light.~
+~
+9 1600 5
+5 0 0 0
+2 300 20
+E
+neckchain chain eog~
+Crafted from pure black magical Eog, this magnificent piece
+of art glints and sparkles from the thousands of tiny jewels
+it houses.
+~
+A
+1 2
+A
+19 1
+#5620
+Morgul-knife Morgul knife~
+a Morgul-knife~
+A dagger with a long, thin gleaming blade is lying here.~
+~
+5 64|128|4096 8193
+0 5 5 11
+5 500 25
+E
+knife Morgul Morgul-knife~
+Once wielded by the Ringwraiths, each of these nine daggers
+strike cold and deep.  Their long, thin enchanted blades gleam
+with a chill glint.  It is rumoured that they can inflict magical
+poison when wielded by those who know true Morgul (sorcery).
+~
+A
+18 5
+A
+19 3
+A
+25 -100
+A
+26 -100
+#5621
+cape blue~
+a bright blue cape~
+A bright blue cape is lying here rumpled up.~
+~
+9 1600 1025
+10 0 0 0
+2 400 10
+E
+cape blue~
+This is a full length cape of the deepest blue.  It reaches
+from neck to ankle and at the borders it is lined with black
+stitching that seems to swirl around by its own power.
+~
+A
+1 1
+A
+19 1
+#5622
+armor dragon skin~
+black dragon skin armor~
+A jacket of armor made from the skin of a black dragon is lying here.~
+~
+9 1600 9
+10 0 0 0
+40 500 10
+E
+armor dragon skin~
+This jacket fashioned from the skin of a black dragon looks as if
+it would fit you perfectly.  It is in great shape and glows with
+a magical aura.  Just the thought of putting it on makes you feel
+bigger, bolder, more adventurous.
+~
+A
+1 1
+A
+13 10
+#5623
+bracers eog~
+a pair of black eog bracers~
+A pair of black Eog bracers is lying here.~
+~
+9 1600 257
+1 0 0 0
+10 200 15
+E
+bracers eog~
+Fashioned from pure magical Eog, these bracers are sure to
+last to the end of time.  With luck, you will still be wearing
+them then!
+~
+A
+19 2
+#5624
+greaves eog~
+a pair of black eog greaves~
+A pair of black Eog greaves is lying here.~
+~
+9 1600 33
+5 0 0 0
+10 300 15
+E
+greaves eog~
+Made of pure sturdy Eog, these strap onto your shins and thighs
+to protect your legs in battle.  On the front there are intricate
+designs, possibly ancient runes no longer comprehensible by any
+tongue used in the world today.
+~
+A
+19 2
+#5625
+warshield eog~
+a huge Eog warshield~
+A huge warshield made of Eog stands here.~
+~
+9 1600 513
+10 0 0 0
+50 200 20
+A
+19 5
+#5626
+cabinet~
+a sturdy cabinet~
+~
+~
+15 0 0
+200 13 5633 0
+0 0 200
+E
+cabinet~
+This cabinet looks like it probably has a few things
+in it that are used to train or assist new recruits in
+training.
+~
+#5627
+epee~
+a silver epee~
+There is a silver epee lying here.~
+~
+5 256 8193
+0 4 1 11
+5 100 30
+#5628
+spikes~
+a wrap of climbing spikes~
+There are several climbing spikes lying here.~
+~
+8 0 1
+0 0 0 0
+5 750 30
+#5629
+grapplingiron iron~
+a grappling iron~
+There is a grappling iron lying here.~
+~
+8 0 1
+0 0 0 0
+10 750 20
+#5630
+housebreaker harness~
+a housebreaker harness~
+There is a housebreaker harness here.~
+~
+8 0 1
+0 0 0 0
+20 150 40
+#5631
+pouch~
+a belt pouch~
+A belt pouch is lying here getting dirty.~
+~
+15 32 18465
+100 0 -1 0
+1 75 75
+A
+17 -5
+#5632
+coins~
+a bunch of coins~
+A bunch of coins are here.~
+~
+20 0 1
+500 0 0 0
+5 0 30
+#5633
+key dark metal~
+a dark metal key~
+A dark metal key is lying here, barely noticable.~
+~
+18 0 16385
+1 0 0 0
+2 100 200
+#5634
+key onyx~
+an onyx key~
+An onyx key is lying here in the shadows.~
+~
+18 0 16385
+2 0 0 0
+5 150 200
+#5635
+hinge~
+the teensy little door~
+~
+~
+15 0 0
+900 5 -1 0
+0 0 200
+E
+bed~
+This huge canopy bed is almost 10 feet across, and easily 10
+feet long.  Silk drapes down from its top and fills its interior
+from headboard to foot as well.  Never have you seen a more
+welcoming bed!
+~
+E
+headboard~
+Rising nearly to the ceiling from the head of the bed, this
+large cedar wood headboard is covered totally by intricate
+designs carved painstakingly into the wood.
+~
+E
+designs~
+By searching the designs, you notice a pattern in them.  It's
+odd...the patterns all end at one point..and there seems to
+be a small hinge there!
+~
+#5636
+liripipe~
+a colorful liripipe~
+A many-colored liripipe is lying here.~
+~
+9 0 17
+7 0 0 0
+5 300 30
+E
+liripipe~
+Just looking at this fancifully colored headwear makes
+you chortle to yourself.  This is one of those hoods with
+a long peak about 4 feet in length that you saw the circus
+fools wearing as a child.
+~
+#5637
+club studded~
+a metal-studded club~
+There is a mean looking metal-studded club lying here.~
+~
+5 64 8193
+0 3 3 7
+18 40 50
+#5638
+band light~
+a band of light~
+There is what looks to be a small band of light lying here.~
+~
+9 1602 3
+10 0 0 0
+3 200 15
+E
+band light~
+This is simply a band of light that fits on your finger.
+If only it were that simple...
+There is an inscription in the interior.
+~
+E
+inscription~
+Etched into the strange material you can read:
+   Wear this when the forces of evil once
+   Again begin to prevail.
+~
+#5639
+band shadow~
+a band of shadow~
+There is what looks to be a small band of shadow lying here.~
+~
+9 1602 3
+10 0 0 0
+3 200 15
+E
+band shadow~
+This looks like a hunk of shadow that was molded...
+somehow...into the shape of a ring.
+There is an inscription in the interior.
+~
+E
+inscription~
+Ethched onto the bizarre surface you can read:
+   Wear this when the forces of good
+   Once again begin to prevail.
+~
+A
+19 1
+#5640
+figurine panther~
+a panther figurine~
+A panther figure is lying here, looking small but life-like.~
+~
+4 1632 16385
+15 1 1 36
+5 200 20
+E
+figurine panther~
+Beautiful and breathtaking in its exact faithfulness to
+nature, this small figurine fits in your hand about like
+the hilt of your favorite dagger.
+~
+A
+17 -10
+A
+102 5
+#5641
+coins~
+a whole helluva lot of gold coins~
+There is a humongous pile of gold coins here, spread across the room.~
+~
+20 0 1
+750 0 0 0
+50 0 50
+#5642
+ring brass ornate~
+an ornate brass ring~
+Someone has left a ring here.~
+~
+9 65 3
+0 0 0 0
+3 300 20
+E
+ring brass ornate~
+This ring is uniquely designed, curving out to form a 
+large 'fang' that juts out from the base of the ring.
+~
+A
+24 -2
+A
+23 -2
+A
+19 1
+#5643
+rope~
+a length of rope~
+A piece of rope is here.~
+~
+9 64 2049
+0 0 0 0
+2 150 15
+E
+rope~
+Appears to be an ordinary length of hemp rope.
+~
+#5644
+sleeves iron dented~
+dented iron sleeves~
+A pair of badly dented iron sleeves are here.~
+~
+9 576 257
+6 0 0 0
+8 30 80
+E
+sleeves iron dented~
+They look rudely used, but when worn, they seem to
+perform quite nicely.
+~
+#5645
+leggings leather supple~
+supple leather leggings~
+Some supple looking leather leggings are here collecting dust.~
+~
+9 64 33
+6 0 0 0
+8 30 80
+E
+leggings leather supple~
+These fine leggings look very comfortable and seem to
+be resistant to a lot of damage as well - a fine find!
+~
+#5646
+sleeves leather supple~
+supple leather sleeves~
+Some supple looking leather sleeves are here getting dirty.~
+~
+9 64 257
+6 0 0 0
+8 30 80
+E
+sleeves leather supple~
+These comfortable sleeves fit you very well, and you can't
+imagine wearing clumsy metal armor on your arms - these work fine!
+~
+#5647
+necklace twisted~
+a twisted gold necklace~
+Someone has left a twisted gold necklace here to decompose.~
+~
+9 577 5
+0 0 0 0
+5 90 40
+E
+necklace twisted~
+This ancient piece of jewelry is at least as old as the hills,
+maybe older.  The engraving is nearly totally worn smooth and
+the metal structure itself has begun to weaken.
+~
+#5648
+wristband leather~
+a leather wristband~
+A leather wristband is lying here.~
+~
+9 577 4097
+5 0 0 0
+3 100 50
+#0
+
+
+#ROOMS
+#5601
+Secret passage~
+You are in a small, dark passage lit by a single flickering torch that rests
+on the wall.  The walls look ancient but sturdy, made of large blocks of dark
+stone that seem to absorb the light in the room.
+~
+56 8 0
+D0
+Looking closely at the wall, you can just barely make out what seems to be
+the outline of a stone door.
+~
+stone~
+1 -1 13546
+D1
+You see a gate leading out to the Secret Yard.
+~
+gate~
+1 5633 13546
+D2
+~
+door~
+1 5633 5602
+S
+#5602
+Lounge~
+You are in a richly decorated lounge, surrounded by couches, tables, and plush
+cushions of all colors and sizes.  Expensive incense burns away in several
+golden bowls throughout the red-lit room.
+~
+56 8 0
+D0
+~
+door~
+1 5633 5601
+D1
+You see a dimly lit hallway.
+~
+~
+0 -1 5603
+S
+#5603
+Hallway~
+You are in the northern end of a long hallway that extends south into the
+building.  It is very quiet here, and a smoky haze fills the hall.
+There is a door to the east.
+~
+56 8 0
+D3
+You see a smoky, red-lit lounge.
+~
+~
+0 -1 5602
+D1
+A large oak door stands here.
+~
+door oak~
+1 5633 5604
+D2
+The hallway continues to the south.
+~
+~
+0 -1 5605
+S
+#5604
+Meeting room~
+This room is apparently used by guild members for meetings with outsiders.
+There is a large long table in the center of the room that is surrounded by
+high backed wooden chairs.  On the walls hang various instruments of war that
+glint in torchlight provided by sconces hanging above large black shields.
+~
+56 8 0
+D3
+~
+door~
+1 5633 5603
+E
+shield~
+Large, black shields, they are magickally fastened to the walls.  On their
+faces is engraved the symbol of the DarkFriends.
+~
+S
+#5605
+Hallway~
+The dimly lit hallway reaches south into the heart of the old building.  From
+the west comes the smell of cooking meat.
+~
+56 8 0
+D0
+You see the northern end of the hallway.
+~
+~
+0 -1 5603
+D2
+The hallway continues to the south.
+~
+~
+0 -1 5609
+D1
+You see into the slave shop.
+~
+~
+0 -1 5606
+D3
+You see into a large cafeteria.
+~
+~
+0 -1 5608
+S
+#5606
+Slave Shop~
+Here thrives the underground slave trade of Midgaard.  This is where you can
+purchase a slave of your own to abuse as you wish.
+~
+56 8 0
+D3
+You see a dimly lit hallway.
+~
+~
+0 -1 5605
+S
+#5607
+Nazgyl's Haunt~
+This is a dark room lit by orbs of faerie fire that float in its
+two corners.  There is a black wall to your west, north, and south.
+But to the east opens a vast shadowy cavern above a great abyss out
+of which emanates a feeling of blackest hatred and rage - pure evil.
+~
+56 524 0
+D2
+On this dark wall the faint light of fairie fire reveals an altar
+carved into the stone of the wall.  Above it is a statue of Shalpa,
+the Patron god of all thieves.
+~
+statue~
+2 5634 5630
+D1
+Standing at the edge of the abyss you cannot see to the other side,
+and you suspect that there IS no other side.  Nor can you see to
+the bottom.  What you CAN see is a flight of stairs chisled out of
+the stone, leading down into the blackness.  Although the stairs
+look safe enough, there rises from the pit a feeling that grabs hold
+of your soul and fairly hurls you away from the cavern.  You would
+do well to stay out of there.
+~
+~
+0 -1 5638
+S
+#5608
+Cafeteria~
+This is a large room filled with tables and chairs used for meals by members
+of the guild.  At the moment, there are only a few crumb-snatchers loitering
+around, hoping for a morsel.
+~
+56 8 0
+D1
+You see a dimly lit hallway.
+~
+~
+0 -1 5605
+D2
+You see the kitchen.
+~
+~
+0 -1 5611
+S
+#5609
+Hallway~
+Here the hallway branches to the north, south and east.  There are some
+disturbing sounds coming from the south.  Under your feet, the carpet is
+well-worn in a visible path leading east.
+~
+56 8 0
+D0
+The hallway continues north.
+~
+~
+0 -1 5605
+D1
+You see a lounge.
+~
+~
+0 -1 5610
+D2
+You see the southern end of the hallway.
+~
+~
+0 -1 5612
+S
+#5610
+Lounge~
+Breathing in the illegal smoke that fills the room from golden censers, your
+head begins to swim and you feel a tremendous urge to plop down among the bean
+bags and piles of pillows for a while.
+~
+56 8 0
+D3
+You see a dimly lit hallway.
+~
+~
+0 -1 5609
+D2
+There is a large door here, behind a tapestry.
+~
+door~
+1 -1 5614
+E
+tapestry~
+It is of a dozen naked women sprawled out in ecstatical pleasure-seeking.
+~
+S
+#5611
+Kitchen~
+This kitchen is in terrible disarray.  There are hunks of meat buzzing with
+flies sitting on counters and piles of dishes stacked to the ceiling.  Maybe
+if you are low on cash, they would pay you to clean the place up a bit.  
+Maybe.
+~
+56 8 0
+D0
+You see the cafeteria.
+~
+~
+0 -1 5608
+D2
+You see into the pantry.
+~
+~
+0 -1 5613
+S
+#5612
+Hallway~
+This is the southern end of a long hallway that extends north through the
+building.  There is a wide spiral staircase leading up.
+~
+56 8 0
+D0
+The hallway extends north.
+~
+~
+0 -1 5609
+D4
+You feel awkward peering up a flight of stairs like this.
+Why not just go on up?  You've come this far.
+~
+~
+0 -1 5615
+S
+#5613
+Pantry~
+Well, here you are in the pantry.  Shelves of food are all around you.  Not
+much happening here save decomposition.
+~
+56 8 0
+D0
+You see the kitchen.
+~
+~
+0 -1 5611
+D3
+Here you see a garbage chute.
+~
+chute~
+1 -1 3030
+E
+chute~
+The chute is a one-way tunnel for trash leading into the sewers.
+~
+S
+#5614
+Training Arena~
+This is where the young DarkFriend wannabes come to get tested and trained.
+Weapons, climbing aids and other tools of the trade line the walls.  Blood
+stains cover the floor.
+~
+56 8 0
+D3
+There is a large moveable stone on the western wall.
+~
+stone~
+1 -1 5612
+S
+#5615
+Dark hallway~
+Here there is a flight of stairs leading down and the hallway leads off to the
+east and to the west.  Worn, old floorboards creak under you as your weight
+shifts.
+~
+56 9 0
+D1
+~
+~
+0 -1 5616
+D3
+~
+~
+0 -1 5617
+D5
+Careful, that's a long way down!
+~
+~
+0 -1 5612
+S
+#5616
+Dark hallway~
+The floorboards here creak obnoxiously at the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D0
+The hallway continues north.
+~
+~
+0 -1 5618
+D3
+The hallway continues west.
+~
+~
+0 -1 5615
+S
+#5617
+Dark hallway~
+The floorboards here creak obnoxiously with the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D0
+The hallway continues north.
+~
+~
+0 -1 5619
+D1
+The hallway continues east.
+~
+~
+0 -1 5615
+S
+#5618
+Dark hallway~
+The floorboards here creak obnoxiously with the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D0
+The hallway continues north.
+~
+~
+0 -1 5622
+D2
+The hallway continues south.
+~
+~
+0 -1 5616
+S
+#5619
+Dark hallway~
+The floorboards here creak obnoxiously with the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D0
+The hallway continues north.
+~
+~
+0 -1 5623
+D2
+The hallway continues south.
+~
+~
+0 -1 5617
+S
+#5620
+Supply room~
+This is a large walk-in closet containing a large assortment of thiefly
+supplies.  Shelves line the walls crammed with things, but, naturally, most
+of them are nailed into place.
+~
+56 8 0
+D0
+You see into a dark hallway.
+~
+~
+0 -1 5621
+S
+#5621
+Dark Hallway~
+The floorboards here creak obnoxiously at the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.  At this point, the hall leads off in all
+directions.
+~
+56 9 0
+D0
+You see the bottom of a staircase leading up.
+~
+~
+0 -1 5624
+D1
+The hallway continues east.
+~
+~
+0 -1 5622
+D2
+You can see into the supply room.
+~
+~
+0 -1 5620
+D3
+The hallway continues west.
+~
+~
+0 -1 5623
+S
+#5622
+Dark hallway~
+The floorboards here creak obnoxiously at the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D2
+The hallway continues south.
+~
+~
+0 -1 5618
+D3
+The hallway continues west.
+~
+~
+0 -1 5621
+S
+#5623
+Dark hallway~
+The floorboards here creak obnoxiously at the slightest movement - you guess
+this hall is used by the guild members to practice moving silently, with an
+annoyingly persistent handicap.
+~
+56 9 0
+D0
+Big big iron door.
+~
+door~
+1 5633 5626
+D1
+The hallway continues east.
+~
+~
+0 -1 5621
+D2
+The hallway continues south.
+~
+~
+0 -1 5619
+S
+#5624
+Foot of the stairs~
+A spiral staircase leads up from here.  There is an iron door to the east.
+From the top of the stairs come the sounds of dice being rolled over and
+over, and mixed shouts of triumph and disappointment.
+~
+56 8 0
+D1
+~
+door~
+1 -1 5625
+D2
+You see a dark hallway.
+~
+~
+0 -1 5621
+D4
+You can't see much but the bottom of the stairs that wind
+up over your head.
+~
+~
+0 -1 5627
+S
+#5625
+Weight room~
+The room is filled with equipment aimed at pumping YOU up!  Yah, don't you be 
+a girly-man any more!  Benches, dumbells, and bars with huge wheels of lead on
+the ends are everywhere.
+~
+56 8 0
+D3
+~
+door~
+1 -1 5624
+S
+#5626
+Office~
+Whoops, maybe you should not be in here.  It looks like a very private room.
+A desk, a chair, cabinets, and a lot of paper are all you notice.
+Whoever works in here is all business.
+~
+56 8 0
+D2
+~
+door~
+1 5633 5623
+S
+#5627
+Top of the stairs~
+You are at the top of a spiral staircase that leads down to a dark hallway.
+From the east comes a pleasant red light and the sounds of laughter and dice
+games.  
+~
+56 12 0
+D1
+You see the end of a hallway.
+~
+~
+0 -1 5628
+D5
+Hey there is even a railing to slide down!
+~
+~
+0 -1 5624
+S
+#5628
+End of the hallway~
+This hallway is lined with pricely paintings and tapestries.  As you study the
+walls, your feet are sinking into 2 inch plush carpeting, and loving every
+centimeter of it.
+~
+56 8 0
+D2
+You see a den.
+~
+~
+0 -1 5631
+D3
+You see what looks like the top of a staircase.
+~
+~
+0 -1 5627
+S
+#5629
+Purple room~
+The walls, ceiling, and floor of this room have been painted a striking purple
+that nearly causes you to break out in hives.  There is a single chair and a 
+desk with some papers on it.
+~
+56 8 0
+D2
+You see a den.
+~
+~
+0 -1 5632
+E
+desk~
+It looks old, but nothing of value can be found in it.
+~
+E
+papers~
+Just business as usual.  A few names of 'contributors' and 'possibles'.
+~
+S
+#5630
+Den of Thieves~
+This is apparently a main hang-out for mid-level members of the guild.  There
+are comfortable sofas and cushions spread about the room, and the floor is
+covered with 2 inch plush red carpeting.
+~
+56 8 0
+D1
+~
+~
+0 -1 5631
+D3
+~
+~
+0 -1 5632
+S
+#5631
+Den of Thieves~
+This is apparently a main hang-out for mid-level members of the guild.  There
+are comfortable sofas and cushions spread about the room, and the floor is
+covered with 2 inch plush red carpeting.
+~
+56 8 0 
+D0
+You see the end of the hallway.
+~
+~
+0 -1 5628
+D3
+~
+~
+0 -1 5630
+S
+#5632
+Den of Thieves~
+This is apparently a main hang-out for mid-level members of the guild.  There
+are comfortable sofas and cushions spread about the room, and the floor is
+covered with 2 inch plush red carpeting.
+~
+56 8 0 
+D0
+You see a dangerously purple room.  Could it be...Prince?
+~
+~
+0 -1 5629
+D1
+~
+~
+0 -1 5630
+D2
+~
+~
+0 -1 5635
+S
+#5633
+Den of Thieves~
+This is apparently a main hang-out for mid-level members of the guild.  There
+are comfortable sofas and cushions spread about the room, and the floor is
+covered with 2 inch plush red carpeting.
+~
+56 8 0 
+D1
+~
+door~
+1 5633 5634
+D3
+~
+~
+0 -1 5635
+S
+#5634
+Red and blue hall~
+This hallway is lit with a strange red light that is nearly totally absorbed
+by the plush deep blue carpeting.
+~
+56 8 0
+D2
+The hall continues south.
+~
+~
+0 5633 5637
+D3
+~
+door~
+1 5633 5633
+S
+#5635
+Den of Thieves~
+This is apparently a main hang-out for mid-level members of the guild.  There
+are comfortable sofas and cushions spread about the room, and the floor is
+covered with 2 inch plush red carpeting.
+~
+56 8 0 
+D0
+~
+~
+0 -1 5632
+D1
+~
+~
+0 -1 5633
+S
+#5636
+Red and blue hall~
+This hallway is lit with a strange red light that is nearly totally absorbed
+by the plush deep blue carpeting.
+~
+56 8 0
+D1
+The hall continues east.
+~
+~
+0 -1 5637
+D3
+The hall continues west.
+~
+~
+0 -1 5639
+S
+#5637
+Red and blue hall~
+This hallway is lit with a strange red light that is nearly totally absorbed
+by the plush deep blue carpeting.
+~
+56 8 0
+D0
+The hall continues north.
+~
+~
+0 -1 5634
+D3
+The hall continues west.
+~
+~
+0 -1 5636
+S
+#5638
+The Abyss~
+   After having decended into the dark for about a mile, you reach
+a landing, the steps vanish behind you, and you find yourself in an
+enormous dark cavern...
+~
+56 525|16384 1
+S
+#5639
+The end of the red and blue hall~
+Here the hallway ends, as you might have guessed.  The hall stretches on to
+the east but there is also a portal in the ceiling here.
+~
+56 8 0
+D1
+The hall continues east.
+~
+~
+0 -1 5636
+D4
+Yep, up into the dark, just as you thought.
+~
+~
+0 -1 5640
+S
+#5640
+Skull room~
+It seems that this room serves to discourage people from snooping any higher
+in the guild-house.  Humanoid skulls have been nailed into the walls here,
+atop a full-room painting, forming a frightening collage dipicting a group
+of people being viciously flayed alive.
+~
+56 9 0
+D1
+By searching the wall carefully, you can see there is a door here.
+~
+door~
+1 -1 5641
+D0
+You see a dark room.
+~
+~
+0 -1 5643
+S
+#5641
+Beardog pen~
+What an assault to the senses!  Your nose burns from the odors, your feet are
+squishing on feces, and your eyes are attacked by humongous, well fed flies.
+~
+56 8 0
+D0
+You smell a pen.
+~
+~
+0 -1 5644
+D3
+Whew!  A door out of this mess!
+~
+door~
+1 -1 5640
+S
+#5642
+Torture Chamber~
+This place has the works.  The rack, the whipping posts, the sets of manacles,
+the fire and irons, all of it.  Even the remains of the unfortunate hanging
+on the walls, heaps of mangled flesh.
+~
+56 8 0
+D0
+You see a dark chamber.
+~
+~
+0 -1 5645
+D4
+Aha.  Trapdoor.
+~
+trapdoor~
+1 5634 5653
+S
+#5643
+Dark room~
+This room is very dark, only lit by a single torch that burns languidly on
+the far wall.  It is bare except for a small bed in one corner.
+~
+56 8 0
+D2
+You feel a slight breeze blowing from the south.
+~
+~
+0 -1 5640
+S
+#5644
+Beardog pen~
+What an assault to the senses!  Your nose burns from the odors, your feet are
+squishing on feces, and your eyes are attacked by humongous, well fed flies.
+~
+56 8 0
+D0
+You see a doorway that leads out of the pen.
+~
+door~
+1 5633 5647
+D2
+You smell a pen.
+~
+~
+0 -1 5641
+S
+#5645
+A dark chamber~
+Lit by two torches in opposing walls there is not a lot of light to see by
+here, thankfully.  For lying strewn about on the floor are pieces of those
+unfortunate people who have in some way crossed this ruthless guild and not
+been able to make up for it.
+~
+56 8 0
+D0
+You see some kind of a den through a portcullis.
+~
+portcullis~
+1 5633 5648
+D2
+You see some large, dark objects.
+~
+~
+0 -1 5642
+S
+#5646
+Smugglers' den~
+This is the place where most of the merchandise brought in by the guild
+changes hands.  There are counters and tables set up to accomodate buyers
+and sellers.
+~
+56 8 0
+D1
+~
+~
+0 -1 5647
+S
+#5647
+Smugglers' den~
+This is the place where most of the merchandise brought in by the guild
+changes hands.  There are counters and tables set up to accomodate buyers
+and sellers.
+~
+56 8 0
+D1
+~
+~
+0 -1 5648
+D2
+You see an odd looking door.
+~
+door~
+1 5633 5644
+D3
+~
+~
+0 -1 5646
+S
+#5648
+Smugglers' den~
+This is the place where most of the merchandise brought in by the guild
+changes hands.  There are counters and tables set up to accomodate buyers 
+and sellers.  There is a portcullis in the southern wall, and a beaded
+curtain to the north.
+~
+56 8 0
+D0
+You see a beaded curtain hanging in front of your nose.
+~
+~
+0 -1 5651
+D2
+Gee, looks kinda like a portcullis!
+~
+portcullis~
+1 5633 5645
+D3
+~
+~
+0 -1 5647
+S
+#5649
+Back Room~
+This room is used for the most lucrative of the guild's merchandising efforts.
+A large marble table is here with several comfortable-looking stuffed chairs
+around it.
+~
+56 8 0
+D1
+~
+door~
+1 -1 5650
+S
+#5650
+Swirling hall~
+The walls of this hall seem to undulate and change colors in a swirling
+pattern, making you quite dizzy.  You suddenly find yourself groping about
+for your small bag.
+~
+56 8 0
+D1
+The funky fluid hall continues east.
+~
+~
+0 -1 5651
+D3
+By examining the shifting wall (not fun), you find a hidden blue door.
+~
+blue~
+1 5633 5649
+S
+#5651
+Swirling hall~
+The walls of this hall seem to undulate and change colors in a swirling
+pattern, making you quite dizzy.  You suddenly find yourself groping about 
+for your small bag.
+~
+56 8 0
+D2
+You see a beaded curtain hanging in front of your nose.
+~
+~
+0 -1 5648
+D3
+The funky fluid hall contiunues west.
+~
+~
+0 -1 5650
+S
+#5652
+Behind the Altar~
+You are in a small dusty room that apparently hasn't been used in a very long
+time.  The stone walls are crumbling away from the merciless force of time,
+and the air you are breathing is probably several hundred years old.
+~
+56 9 0
+D2
+These stones form the back of a large altar.
+~
+stone~
+2 5634 5660
+S
+#5653
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth. Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D0
+~
+~
+0 -1 5656
+D3
+~
+~
+0 -1 5654
+D5
+You can make out a trapdoor.
+~
+trapdoor~
+1 5634 5642
+S
+#5654
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D0
+~
+~
+0 -1 5657
+D1
+~
+~
+0 -1 5653
+D3
+~
+~
+0 -1 5657
+S
+#5655
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D0
+~
+~
+0 -1 5658
+D1
+~
+~
+0 -1 5654
+S
+#5656
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D2
+~
+~
+0 -1 5653
+D3
+~
+~
+0 -1 5657
+S
+#5657
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D0
+~
+~
+0 -1 5656
+D1
+~
+~
+0 -1 5656
+D2
+~
+~
+0 -1 5654
+D3
+~
+~
+0 -1 5658
+S
+#5658
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D0
+~
+~
+0 -1 5661
+D1
+~
+~
+0 -1 5657
+D2
+~
+~
+0 -1 5655
+S
+#5659
+Dead-end corridor~
+You are in a dead end corridor leading out of the marble hall.  There is a
+painting on the wall that depicts a pick-pocket cutting off the hands of
+the Prince-Governor.
+~
+56 8 0
+D3
+You see the marble hall.
+~
+~
+0 -1 5660
+D4
+You can see a trapdoor in the ceiling.
+~
+trapdoor~
+2 5634 5662
+S
+#5660
+The Altar~
+Here stands a tremendous onyx altar to Shalpa, the Patron god of thieves.
+Incense burns from within it, filling the hall with its sweet smoke, adding 
+to the haze of magic.
+~
+56 8 0
+D0
+~
+altar~
+2 5634 5652
+D1
+You see a corridor.
+~
+~
+0 -1 5659
+D2
+~
+~
+0 -1 5657
+D3
+~
+~
+0 -1 5653
+E
+altar~
+Shalpa the Swift, formless as ever, with only the shape of a shadow, towers
+above you.  The burning incense combined with the magic filling this place
+may play tricks on you, but you would swear that you can hear his whisper-
+of-shadow voice.  At the base of the altar something has been scrawled:
+Merf was here.
+~
+S
+#5661
+Marble hall~
+You are in a huge marble hall that shimmers with the light of magic.  The
+walls are bare of any decorations, as is the floor.  The floor hums beneath 
+your feet, rattling your teeth.  Any attempt to see very far in any direction
+is either obstructed by the many pillars throughout the hall or simply
+blocked by the magical haze.
+~
+56 8 0
+D1
+You see a great altar.
+~
+~
+0 -1 5660
+D2
+~
+~
+0 -1 5658
+S
+#5662
+Onyx corridor~
+This is the eastern end of a dark, torchlit corridor leading westwards.  A
+moment ago there was a trapdoor in the floor here, but it seems someone has
+wished it right out of existence.
+~
+56 8 0
+D3
+The corridor continues west.
+~
+~
+0 -1 5663
+S
+#5663
+Onyx corridor~
+Two magnificent tapestries hang from opposite walls here.  One shows a bloody
+demon devouring a heavenly being, the other, a knight riding his mount over
+the steaming corpse of a black dragon.
+~
+56 8 0
+D1
+The corridor continues east.
+~
+~
+0 -1 5662
+D3
+The corridor continues west.
+~
+~
+0 -1 5664
+E
+knight~
+Looking closely at the knight, you recognize him to be Skylar, one of the
+legendary knights of the Circle of Light.
+~
+E
+demon~
+The more you look at this demon, the more it seems to be a rather dreadful
+representation of the infamous thief, Roland, of the Dark Side.
+~
+S
+#5664
+Onyx corridor~
+You are at a corner in this long dark hall.  One way leads east, one leads
+south.  Both ways look equally devious as the faint torchlight flickers off
+the smooth stone walls.  On the northern wall is a tapestry of a young thief,
+and on the western wall, one of a blood-covered warrior.
+~
+56 8 0
+D1
+The corridor continues east.
+~
+~
+0 -1 5663
+D2
+The corridor continues south.
+~
+~
+0 -1 5665
+E
+thief~
+The tapestry is somber: shades of black and red depict a blood-red setting
+sun, and standing before it, fist clenched, thrust into the air, a young 
+thief.  You recognize him instantly - the rotting teeth exposed by his wicked
+grin give him away - Pestilence, loved by some, feared by all.
+~
+E
+warrior~
+This could only be the one known of old as Grund, elofian knight who in his
+later years travelled far and wide in search of glory and the thrill of
+battle.  His armor shines with magic, and with the blood of his foes.
+~
+S
+#5665
+Onyx corridor~
+You are at a dead end in the onyx corridor.  Out of the southern wall is
+carved an inscription, limned in faerie fire.
+~
+56 8 0
+D0
+The corridor continues north.
+~
+~
+0 -1 5664
+D1
+Studying the wall painstakingly, you notice there is a sliding panel in this
+gleaming onyx wall.  Doesn't look like its going to slide anywhere without a
+key, though.
+~
+panel~
+2 5634 5666
+E
+inscription~
+ 
+  
+                 Screaming, wet blood sticking,
+              Flowing freely, escaping, glistening
+                       Shadow cat above,
+                       Cold stone below
+                     Cross the DarkFriends
+                       And down you go.
+                        +>>>{========-
+ 
+~
+S
+#5666
+Onyx chamber~
+You are in a massive onyx chamber filled with statues, pieces of art, weapons,
+magical artifacts, and most bothersome, illusions of wild beasts that fade
+in and out of sight as they roam the room.
+~
+56 8 0
+D1
+~
+~
+0 -1 5667
+D3
+~
+panel~
+2 5634 5665
+S
+#5667
+Onyx chamber~
+You are in a massive onyx chamber filled with statues, pieces of art, weapons,
+magical artifacts, and most bothersome, illusions of wild beasts that fade 
+in and out of sight as they roam the room.
+~
+56 8 0
+D2
+~
+~
+0 -1 5668
+D3
+~
+~
+0 -1 5666
+S
+#5668
+Onyx chamber~
+You are in a massive onyx chamber filled with statues, pieces of art, weapons,
+magical artifacts, and most bothersome, illusions of wild beasts that fade 
+in and out of sight as they roam the room.
+~
+56 8 0
+D0
+~
+~
+0 -1 5667
+D3
+~
+~
+0 -1 5669
+S
+#5669
+Grandmaster's Bedchamber~
+This section of the Onyx chamber is almost entirely taken up by a huge canopy
+bed in the center of the room.  It is covered with various animal furs and
+pillows no doubt filled with the finest down.  Definitely the private rooms 
+of someone very powerful and very rich.  
+~
+56 8 0
+D1
+~
+~
+0 -1 5668
+D3
+~
+~
+0 -1 5670
+S
+#5670
+Onyx chamber~
+You are in a massive onyx chamber filled with statues, pieces of art, weapons,
+magical artifacts, and most bothersome, illusions of wild beasts that fade in
+and out of sight as they roam the room.
+~
+56 8 0
+D1
+~
+~
+0 -1 5669
+D5
+A not very well hidden escape hatch~
+~
+0 -1 13488
+S
+#5699
+Kelvik's Korner~
+_________________________________________________
+        __  __            __  __                |\                  
+        | |/ /            | |/ /                | \
+        |   / E L V I K'S |   / O R N E R       |  \
+        |   \             |   \                 |   \
+        |_|\_\            |_|\_\                |    \
+________________________________________________|
+                                                 \
+                                                  \
+                                                   \
+                                                    \
+ 
+ 
+~
+56 524 0
+S
+#0
+
+
+
+#RESETS
+*
+D 0 5601 0 2          Stone to Entrance
+D 0 5601 1 2          Gate to Secret Yard
+D 0 5601 2 1          Door to Lounge
+*
+D 0 5602 0 1          Door to Secret passage
+D 0 5603 1 1          Door to Meeting room
+D 0 5604 3 1          Door from Meeting room
+*
+M 0 5600 12 5602      Pilferer
+E 1 5601 12 16         wields bone knife
+M 0 5600 12 5602      Pilferer
+M 0 5600 12 5603      Pilferer
+M 0 5600 12 5603      Pilferer
+M 0 5600 12 5605      Pilferer
+M 0 5600 12 5608      Pilferer
+E 1 5601 12 16         wields bone knife
+M 0 5600 12 5609      Pilferer
+M 0 5600 12 5610      Pilferer
+M 0 5600 12 5610      Pilferer
+M 0 5600 12 5610      Pilferer
+E 1 5601 12 16         wields bone knife
+*
+M 0 5626 4 5608       Crumb-snatcher
+*
+M 0 5628 1 5609       Wench
+E 1 5648 15 15         wears wristband
+*
+D 0 5613 3 1          Chute to dump
+*
+M 0 5601 1 5611       Chef
+*
+D 0 5610 2 1          Door to training room
+D 0 5614 3 1          Stone out of Training room
+*
+O 0 5626 1 5614       Cabinet
+P 0 5627 1 5626       Epee in cabinet
+P 0 5614 1 5626       Neckchain in Cabinet
+*
+M 0 5602 1 5614       Trainer
+*
+D 0 5607 2 2          Statue to Den of Thieves
+*
+M 0 5603 8 5615       Sneak
+M 0 5603 8 5616       Sneak
+M 0 5603 8 5617       Snek
+M 0 5603 8 5618       Sneak
+E 1 5602 8 16          wields bone dagger
+M 0 5603 8 5619       Sneak
+M 0 5603 8 5621       Sneak
+E 1 5602 8 16          wields bone dagger
+M 0 5603 8 5622       Sneak
+*
+M 0 5604 5 5622       Juggler
+E 1 5636 5 6           wears liripipe
+M 0 5604 5 5619       Juggler
+E 1 5636 5 6           wears liripipe
+M 0 5604 5 5624       Juggler
+E 1 5636 5 6           wears liripipe
+M 0 5604 5 5623       Juggler
+E 1 5636 5 6           wears liripipe
+*
+M 0 5627 1 5620       Rowdy
+*
+D 0 5623 0 2          Door to Office
+D 0 5626 2 2          Door from Office
+*
+M 0 5606 1 5626       Clerk
+E 1 5631 6 17          holds belt pouch
+P 1 5632 6 5631        coins in pouch
+*
+D 0 5624 1 1          Door to Weight room
+D 0 5625 3 1          Door from Weight room
+*
+M 0 5607 2 5625       Legbreaker
+E 1 5637 6 16          wields club
+M 0 5607 2 5625       Legbreaker
+E 1 5637 6 16          wields club
+*
+O 0 5629 1 5620       Grappling iron
+O 0 5628 1 5620       Climbing spikes
+O 0 5630 1 5620       Housebreaker harness
+*
+M 0 5610 10 5628      Rogue
+E 1 5603 10 16         wields jeweled dagger
+M 0 5610 10 5630      Rogue
+E 1 5603 10 16         wields jeweled dagger
+M 0 5610 10 5631      Rogue
+M 0 5610 10 5632      Rogue
+E 1 5603 10 16         wields jeweled dagger
+M 0 5610 10 5632      Rogue
+M 0 5610 10 5635      Rogue
+E 1 5603 10 16         wields jeweled dagger
+M 0 5610 10 5635      Rogue
+*
+M 0 5611 1 5630       Vastin
+*
+M 0 5612 1 5629       Shady Character
+E 1 5633 1 17          holds dark metal key
+E 1 5604 4 16          wields ranseur dagger
+*
+M 0 5613 1 5630       Lieutenant Cityguard
+*
+D 0 5633 1 2          Door to Red and Blue hall
+D 0 5634 3 2          Door from Red and Blue hall
+*
+M 0 5614 6 5634       Burglar
+E 1 5645 4 7           wears leggings
+M 0 5614 6 5637       Burglar
+E 1 5646 4 10          wears sleeves
+M 0 5614 6 5636       Burglar
+M 0 5614 6 5634       Burglar
+M 0 5614 6 5637       Burglar
+*
+M 0 5615 1 5643       Merc
+E 1 5644 6 10          wears sleeves
+E 1 5605 4 9           wears cesti
+E 1 5642 3 1           wears ring
+*
+D 0 5640 1 1          Door to Beardog pen
+D 0 5641 3 1          Door to Skull room
+*
+M 0 5616 5 5651       Smuggler
+E 1 5647 2 3           wears necklace
+M 0 5616 5 5647       Smuggler
+M 0 5616 5 5648       Smuggler
+M 0 5616 5 5646       Smuggler
+M 0 5616 5 5648       Smuggler
+*
+D 0 5650 3 1          Door to Back room
+D 0 5649 1 1          Door from Back room
+*
+M 0 5617 1 5649       Fence
+E 1 5633 1 17          holds dark metal key
+*
+D 0 5644 0 1          Door to Smugglers' Den
+D 0 5647 2 1          Door to Beardog Pen
+*
+M 0 5618 4 5641       Beardog
+M 0 5618 4 5644       Beardog
+M 0 5618 4 5644       Beardog
+*
+D 0 5645 0 1          Portcullis to Smugglers' den
+D 0 5648 2 1          Portcullis to Dark Chamber
+*
+M 0 5619 5 5657       Knifer
+E 1 5606 3 3           wears fiery red cloak
+M 0 5619 5 5653       Knifer
+M 0 5619 5 5658       Knifer
+E 1 5606 3 3           wears fiery red cloak
+M 0 5619 5 5656       Knifer
+*
+M 0 5620 3 5661       Killer
+E 1 5607 3 8           wears soft buskins
+M 0 5620 3 5659       Killer
+E 1 5607 3 8           wears soft buskins
+M 0 5620 3 5655       Killer
+*
+D 0 5660 0 2          Altar to Behind the Altar
+D 0 5652 2 2          Behind to Altar
+*
+M 0 5621 1 5660       Assassin
+E 1 5634 1 17          holds onyx key
+E 1 5608 4 9           wears gauntlets
+E 1 5609 1 16          wields spetum dagger
+O 1 5641 1 5652        the coins
+*
+D 0 5659 4 2          Trapdoor to Onyx hall
+*D 0 5662 5 2          Trapdoor from Onyx hall
+*
+M 0 5622 5 5662       Bodyguard
+M 0 5622 5 5664       Bodyguard
+M 0 5622 5 5666       Bodyguard
+E 1 5610 1 13          wears sash
+M 0 5622 5 5670       Bodyguard
+E 1 5611 1 9           wears gloves
+E 1 5613 1 16          wields mace
+M 0 5622 5 5667       Bodyguard
+E 1 5612 1 3           wears cloak
+*
+D 0 5665 1 2          Door to Onyx Chamber
+D 0 5666 3 2          Door to Onyx Hall
+*
+M 0 5623 4 5663       Assassin
+E 1 5615 1 16          wields dagger
+M 0 5623 4 5664       Assassin
+E 1 5617 1 6           wears hood
+M 0 5623 4 5668       Assassin
+E 1 5616 1 8           wears boots
+M 0 5623 4 5669       Assassin
+E 1 5618 1 14          wears bracelet
+E 1 5618 1 15          wears bracelet
+*
+O 0 5635 1 5669       Bed
+P 1 5638 1 5635        band light
+P 1 5639 1 5635        band shadow
+P 1 5640 1 5635        figurine
+*
+M 0 5624 1 5669       Grandmaster
+E 1 5620 1 16          wields knife
+E 1 5621 1 12          wears cape
+E 1 5622 1 5           wears armor
+E 1 5623 1 10          wears bracers
+E 1 5624 1 7           wears greaves
+E 1 5625 1 11          wears shield
+*
+M 0 5625 1 5669       Panther
+E 1 5619 1 3           wears neckchain
+S
+
+
+
+#SPECIALS
+O 5620 spec_poison_weapon
+S
+
+
+#$

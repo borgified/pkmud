@@ -1,0 +1,1814 @@
+#AREA Copper~
+Archmage's Tower~
+0 80
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#15000
+wizard mage archmage~
+The Archmage of the Tower~
+The Archmage of the Tower is here, casting a long spell.
+~
+  This wise old man is the brother of the Grandmage of Anapest, but after
+a fight with his sister came to claim the tower. He has obviously been the
+master of the tower for many years, and probably will be for years to come.
+~
+10 10 -1000 P
+7 1
+#15001
+spectre demon fiend~
+The fiendish looking spectre~
+A fiendish looking spectre is floating here.
+~
+  The spectre is transparent, and sems to be griining about something. He looks
+quite deviate for some reason.
+~
+2|64|128 10 -1000 P
+4 0
+#15002
+warrior~
+The large warrior~
+A large warrior is standing here, training his recruits.
+~
+  His muscles are very, very big, and quite bulky...He must on steriods.
+~
+10 10 -1000 P
+4 1
+#15003
+black mage~
+The black mage~
+A black mage is standing here, casting a simple spell.
+~
+  He looks like an advanced apprentice to the archmage, but is very young. He
+looks devoted to his class and his race, Elvish.
+~
+10 10 -1000 P
+4 1
+#15004
+cleric~
+The cleric~
+The tower's cleric is standing here, etching a scroll.
+~
+  She looks beautiful, too beautiful for a place like this. Her golden hair
+contrasts with the dark surroundings of her room.
+~
+10 10 -1000 P
+4 2
+#15005
+guard patrol~
+The patroling guard~
+A guard on patrol is standing watch here.
+~
+   He looks like one tough dude, so you may not want to mess with him, but he
+will probably start the fighting himself.
+~
+4|32 8 -1000 P
+3 1
+#15006
+barrack guard~
+The barrack guard~
+A barrack guard is standing here, grining.
+~
+   He has a large, bulky chest and very big arms. He look like someone that
+wouldn't be good to mess with.
+~
+10 8 -1000 P
+3 1
+#15007
+chief guard~
+The Chief Guard~
+The Chief of the Barracks is standing here, thinking of more plans.
+~
+   He says "Don't bother me or I will lynch you....!" He smiles happily, then
+continues on about his business.
+~
+10 8 -1000 P
+5 1
+#15008
+guardian mage~
+The Tower Guardian~
+The Tower Guardian is here, guarding that gates of the Tower.
+~
+   A very old, but still potent, Magic User/Warrior, he is here because he was
+destined to guard the gates for all time.
+~
+10 8 -1000 P
+5 1
+#15009
+priest~
+The high priest~
+The tower's high priest is here, conducting some sort of ritual.
+~
+   A very wise man, devoted to his god for all eternity. He looks vibrant for
+his old age, and performs the rituals with great ease.
+~
+10 8 -1000 P
+4 1
+#15010
+disciple~
+A disciple~
+A devoted disciple is here, pray to his god.
+~
+   He is young, but following in the footsteps of the tower's high priest, he
+prays every chance he can get.
+~
+4|128 8 -1000 P
+3 1
+#15011
+golden warrior~
+The golden warrior~
+The golden warrior stands here, firmly guarding the prison.
+~
+   His skin is of golden and his hair is dark brown. He reigns over you with is
+6 foot 5 inch height, and large muscular arms.
+~
+10 8 -1000 P
+5 1
+#15012
+imp satan~
+An imp~
+An imp is standing here, looking fiendish.
+~
+   He says "I am Satan, Yes I Am, Now DIE!!"
+~
+32 8 -1000 P
+4 0
+#15013
+thing~
+A thing~
+A thing is lying here, drooling all over.
+~
+  Its a thing..It's definity something....
+~
+32 8 -1000 P
+4 0
+#15014
+iron golem~
+An iron golem~
+A large iron golem is standing here.
+~
+   A magically formed animation of several armors, it mumbles strange sounds
+over and over.
+~
+2|32 8 -1000 P
+4 0
+#15015
+flesh golem~
+A flesh golem~
+A flesh golem is here, making a puddle of drool on the floor.
+~
+   It smells strongly of rotten flesh.
+~
+8 8 -1000 P
+3 0
+#15016
+rogue~
+A rogue~
+A rogue is standing here, ignoring you.
+~
+   He looks like a seasoned adventurer, with his many battle scars. He is very
+skillful, so don't under estimate his power.
+~
+2|8|128 8 -1000 P
+5 1
+#15017
+silver dragon~
+A silver dragon~
+A silver dragon is here, chained to the wall.
+~
+   He says "Kill me and you will be rewarded greatly..." He looks weak from his
+bond to the wall, but is still ready to battle.
+~
+2|8 8 1000 P
+4 1
+#15018
+demon archdemon~
+An Archdemon~
+The Archdemon is standing here.
+~
+   It says "DIE!"
+~
+2|8|32 8 -1000 P
+5 0
+#15019
+sentry~
+A sentry~
+A sentry is here, keeping watch.
+~
+  He looks quite wimpy, like most rookies do.
+~
+8|128 8 -1000 P
+3 1
+#15020
+mage apprentice~
+An apprentice mage~
+An apprentice mage is here, practicing his spells.
+~
+   He says "Wow, I just learned Fireball!" He grins evilly.
+~
+8|128 8 -1000 P
+3 1
+#15021
+worker shopkeeper cashier smedgewack~
+Smedgewack~
+Smedgewack is here, waiting for your order.
+~
+  He looks lonely.
+~
+2|8 8 0 P
+40 1
+#0
+
+
+#OBJECTS
+#15000
+key tower sorcerer's~
+a Sorcerer's Key~
+A Sorcerer's Key has been left here.~
+~
+18 65 16585
+1 0 0 0
+1 100 100
+#15001
+golden key~
+a Golden Key~
+A Golden Key has been carelessly discarded here.~
+~
+18 2 16385
+1 0 0 0
+1 100 100
+#15002
+staff wizard's light~
+a wizard's staff~
+A wizard's staff has been left here unattended.~
+~
+1 65 16897
+0 0 -1 0
+2 100 30
+A
+3 4
+A
+24 -4
+#15003
+dagger silver jewel~
+a jewel-studded silver dagger~
+A jewel-studded silver dagger is lying here.~
+~
+5 579 8193
+0 8 2 11
+1 100 30
+A
+18 -2
+A
+19 2
+#15004
+bracelet wizard's~
+a wizard's bracelet~
+A wizard's bracelet is here, collecting dust.~
+~
+9 65 4097
+0 0 0 0
+2 100 35
+A
+3 1
+#15005
+black robe~
+a black robe~
+A black robe is lying here in a heap.~
+~
+15 2625 1025
+300 1 -1 0
+5 50 70
+A
+17 -2
+A
+24 -4
+#15006
+wand ornate~
+an ornate wand~
+An ornate wand has been left here.~
+~
+3 1 16385
+15 1 1 26
+7 100 1
+#15007
+eyes charming~
+the eyes of charming~
+The eyes of charming are lying here.~
+~
+2 65 16385
+25 7 -1 -1
+3 200 35
+#15008
+silken cloak~
+a silken cloak~
+A silken cloak is lying here.~
+~
+9 1 5
+0 0 0 0
+3 250 35
+A
+17 -10
+A
+19 1
+#15009
+bracelet platinum~
+a platinum bracelet~
+A tarnished platinum bracelet is lying here.~
+~
+9 3 4097
+0 0 0 0
+3 250 35
+A
+19 1
+#15010
+sword warrior's~
+a warrior's sword~
+A warrior's sword has been discarded here.~
+~
+5 65 8193
+0 6 3 3
+20 100 50
+A
+18 3
+A
+19 1
+#15011
+warrior's platemail mail plate~
+A warrior's platemail~
+A warrior's platemail is lying here against the wall.~
+~
+9 65 9
+8 135 0 0
+65 350 20
+A
+17 -6
+A
+1 2
+#15012
+staff absorption~
+a staff of absorption~
+A staff of absorption is lying here.~
+~
+4 67 16385
+30 1 1 25
+5 100 20
+#15013
+brown potion~
+a brown potion~
+A brown potion has been left here.~
+~
+10 64 1
+22 1 -1 -1
+3 50 60
+#15014
+elixer~
+an elixer~
+An elixer is lying here.~
+~
+10 64 1
+20 28 43 35
+4 100 20
+#15015
+blood vial~
+a strange vial of blood~
+A vial of blood is lying here.~
+~
+10 64 1
+18 36 28 33
+4 100 20
+#15016
+dagger mage's~
+a mage's dagger~
+A mage's dagger is lying here.~
+~
+5 577 8193
+0 2 8 11
+2 100 50
+A
+18 1
+A
+19 2
+#15017
+mace disruption~
+a mace of disruption~
+A mace of disruption lies heavily on the floor.~
+~
+5 579 8193
+0 3 6 7
+14 100 50
+A
+18 3
+A
+19 1
+#15018
+scroll strange~
+a strange scroll~
+A strange scroll has been dropped here.~
+~
+2 64 1
+24 12 12 12
+3 100 30
+#15019
+runed cloak~
+a runed cloak~
+A runed cloak is lying in the corner.~
+~
+9 65 1537
+0 30 0 0
+5 50 60
+A
+17 -8
+A
+24 4
+#15020
+longsword sword guard's~
+a guard's longsword~
+A guard's longsword has been dropped here.~
+~
+5 64 8193
+0 2 8 3
+15 150 45
+A
+18 1
+A
+19 2
+#15021
+guard's platemail mail plate~
+a guard's platemail~
+A guard's platemail lies here.~
+~
+9 65 9
+7 80 0 0
+13 300 20
+A
+1 1
+A
+2 -1
+#15022
+heavy platemail suit mail plate~
+a heavy suit of guard's mail~
+A heavy suit of guard's mail is lying here.~
+~
+9 65 9
+8 100 0 0
+17 100 15 
+A
+1 2
+A
+2 -2
+#15023
+fine longsword sword~
+a fine longsword~
+A fine longsword is lying here.~
+~
+5 577 8193
+0 8 2 3
+21 100 50
+A
+18 2
+A
+19 -2
+#15024
+fine shield~
+a fine shield~
+A fine shield is resting against the wall.~
+~
+9 576 513
+2 0 0 0
+9 100 20
+A
+17 -10
+A
+1 1
+#15025
+amulet satanic~
+a satanic amulet~
+A satanic amulet is lying on the floor.~
+~
+9 65 16389
+0 0 0 0
+5 100 60
+A
+17 -10
+#15026
+heavy boots iron~
+a pair of heavy plated iron boots~
+A pair of boots are lying here.~
+~
+9 64 65
+7 -20 0 0
+12 100 15
+A
+1 3
+A
+2 -2
+#15027
+gauntlets strange~
+a pair of strange gauntlets~
+A pair of odd-looking gauntlets are on the ground.~
+~
+9 65 129
+5 20 0 0
+7 100 20
+A
+18 1
+A
+19 -1
+#15028
+rogue's dagger~
+a rogue's dagger~
+A rogue's dagger is lying here.~
+~
+5 577 8193
+0 8 2 11
+8 100 40
+A
+2 2
+A
+23 2
+#15029
+dragonslayer sword~
+the dragonslayer~
+The Dragonslayer is lying here.~
+~
+5 1089 8193
+0 8 2 3
+18 100 35
+A
+19 2
+#15030
+silver egg~
+a silver dragon egg~
+A silver dragon is lying on the ground.~
+~
+9 1089 16385
+0 0 0 0
+8 100 55
+A
+13 15
+A
+17 -5
+#15031
+bracelet satanic~
+a satanic bracelet~
+A satanic bracelet is lying here, glowing bright red.~
+~
+9 65 4097
+0 0 0 0
+6 100 60
+A
+13 5
+A
+17 -10
+#15032
+longsword sword magic~
+a magic longsword~
+A magic longsword is lying here.~
+~
+5 65 8193|16384
+0 1 10 3
+12 300 5
+A
+18 1
+A
+19 2
+#15033
+quarterstaff staff~
+a quarterstaff~
+A quarterstaff has been left here.~
+~
+5 65 8193
+0 1 14 7
+8 100 60
+A
+18 1
+A
+19 2
+#15034
+golden sword longsword~
+a golden longsword~
+A golden longsword is lying here.~
+~
+5 67 8193
+0 8 2 3
+22 100 60
+A
+18 3
+A
+19 1
+#15035
+golden boots~
+a pair of shiny golden boots~
+A pair of golden boots are lying here.~
+~
+9 67 65
+8 -20 0 0
+10 100 10
+A
+1 2
+A
+18 1
+#15036
+smedgeburger burger~
+a Smedgeburger~
+A Smedgeburger is here, lying on the ground.~
+~
+19 0 1
+15 0 0 0
+1 50 60
+#15037
+fries smedgefries~
+some Smedgefries~
+A carton of Smedgefries are lying here.~
+~
+19 0 1
+5 0 0 0
+1 25 45
+#15038
+can~
+a can~
+A can is sitting here.~
+~
+17 0 1
+1 1 15 0
+1 450 15 
+#15039
+barrel~
+a barrel~
+A barrel is lying here.~
+~
+17 0 1
+5 5 2 0
+1 500 15
+#15040
+tobacco chew~
+a chew of tobacco~
+A chew of tobacco, wrapped in plastic, is lying here.~
+~
+19 0 1
+10 1 1 1
+1 20 40
+#15041
+beef side large~
+a large side of beef~
+A large side of beef is here, hanging from a meat hook.~
+~
+19 0 1
+30 0 0 0
+10 100 100
+#15042
+catmeat~
+a piece of catmeat~
+A large piece of catmeat is here on the floor.~
+~
+19 0 1
+15 0 0 0
+5 100 100
+#15043
+frozen food~
+some frozen food~
+Some unknown frozen food is lying here.~
+~
+19 0 1
+15 0 0 0
+2 100 100
+#0
+
+
+#ROOMS
+#15000
+The Top of the Tower~
+   The room is quite large with many candles lighting the walls. Many shelves
+are on the wall which hold many potions and scrolls. Through the window lies a
+vast wilderness beyond. A workbench lies directly in the middle of the room, and
+on it are strange evil runes. A large wooden staircase leads to the lower levels
+of the tower.
+~
+150 8 0
+D5
+The lower levels of the tower.
+~
+~
+0 -1 15001
+S
+#15001
+Staircase - 2nd Level~
+  The wooden stairs lead from the main floor to then laboratory at the top of
+the tower. Four exits lead in all directions to various quarters of the Tower's
+residents.
+~
+150 8 0
+D0
+~
+~
+0 -1 15002
+D1
+~
+~
+0 -1 15008
+D2
+~
+~
+0 -1 15006
+D3
+~
+~
+0 -1 15004
+D4
+The large room at the top of the tower.
+~
+~
+0 -1 15000
+D5
+The first level of the tower.
+~
+~
+0 -1 15010
+S
+#15002
+A very small room~
+  This room is more like a crawlspace to an old room of the Tower. The light
+from the stairway peers through the southern exit. An exit to the west leads
+into darkness.
+~
+150 8 0
+D2
+A stairway.
+~
+~
+0 -1 15001
+D3
+~
+~
+0 -1 15003
+S
+#15003
+A musty room~
+  This damp, musty room looks like it hasn't been touched in years. The walls
+are covered with dust and cobwebs. The floor is covered with a thick coating of
+dust. The only exit is the crawlspace in the east wall.
+~
+150 8 0
+D1
+~
+~
+0 -1 15002
+S
+#15004
+A small living area~
+   The room has a drop-ceiling and dark paneling. A warm radiance fills the
+room, which seems to me coming from a glowing door in the south wall. Some
+furniture lays about the room in a disorderly fashion, but the way is clear
+enough to walk.
+~
+150 8 0
+D1
+ A stairway.
+~
+~
+0 -1 15001
+D2
+ A glowing door.
+~
+door~
+1 -1 15005
+S
+#15005
+A black mage's laboratory~
+  The laboratory is cramped for space, many magical items are locked in cabinets
+here. A small table in the corner appears to contain the mage's work. The
+magical force here is greater than in the room before.
+~
+150 8 0
+D0
+~
+door~
+1 -1 15004
+S
+#15006
+A peaceful room~
+  This room feels safe enough to rest in, A magical force seems to block all
+evil. A large sign here says "NO GUARDS WELCOME!"
+~
+150 12 0
+D0
+~
+~
+0 -1 15001
+D1
+~
+~
+0 -1 15007
+S
+#15007
+A cleric's bedroom~
+   The room is in great disarray the contents have been scattered all over the
+floor. A small brass bed is in the corner with small table beside it. On the
+table, strange markings can be seen.
+~
+150 8 0
+D3
+~
+~
+0 -1 15006
+S
+#15008
+A warriors practice room~
+  The room smells of great body odor; the locker room can be seen through a
+opening in the north wall. The strength of the warriors in this room is
+tremedous, but look more like Rookies to fighting.
+~
+150 8 0
+D0
+A resting room~
+~
+0 -1 15009
+D3
+A the stairway.
+~
+~
+0 -1 15001
+S
+#15009
+A damp locker room~
+   The room smells of sweat and blood, many suits of equipment are in lockers
+on the north wall. The noise of sparring fighters can be imagined from beyond
+door in the south wall. A sign reads, "HARD WORK PAYS OFF, IN DEAD ENEMIES."
+~
+150 8 0
+D2
+~
+~
+0 -1 15008
+S
+#15010
+Staircase - 1st Level~
+    This is the main floor of the guards; an archway to the north leads into the
+barracks. The stairs go up and down from here.
+~
+150 8 0
+D0
+~
+~
+0 -1 15011
+D4
+~
+~
+0 -1 15001
+D5
+~
+~
+0 -1 15019
+S
+#15011
+Entrance to the Tower Guardians Barracks~
+   The barrack guards seem much calmer than those on patrol, they smile and go
+about their business around the room. The barrack continue on through an opening
+in the north wall. The Tower's stairway lies though an archway to the south.
+~
+150 8 0
+D0
+~
+~
+0 -1 15014
+D1
+~
+~
+0 -1 15013
+D2
+~
+~
+0 -1 15010
+D3
+~
+~
+0 -1 15012
+S
+#15012
+The south-western corner of the barracks~
+  The barracks continue north and east. A small door is closed in the
+southern wall. Many bunks line the walls, with their owner's belongings laid out
+all over.
+~
+150 8 0
+D0
+~
+~
+0 -1 15015
+D1
+~
+~
+0 -1 15011
+D2
+~
+door~
+1 -1 15017
+S
+#15013
+The south-eastern corner on the barracks~
+   More bunks are here against the wall. The barracks storeroom is to the south,
+while the barracks continue north and west.
+~
+150 8 0
+D0
+~
+~
+0 -1 15016
+D2
+~
+~
+0 -1 15018
+D3
+~
+~
+0 -1 15011
+S
+#15014
+Northern end of the barracks~
+   Many guards are here talking and minding their own business, they pass by
+without a word. A desk is here, which is the desk of the barrack's Chief.
+~
+150 8 0
+D1
+~
+~
+0 -1 15016
+D2
+~
+~
+0 -1 15011
+D3
+~
+~
+0 -1 15015
+S
+#15015
+The north-western corner of the barracks~
+   More bunks are mounted on the wall here, the barracks continue to the east
+and south.
+~
+150 8 0
+D1
+~
+~
+0 -1 15014
+D2
+~
+~
+0 -1 15012
+S
+#15016
+The north-eastern corner of the barracks~
+    This room is dark with a great musty smell, A little light pours through a
+small window in the north wall. The barracks continue south and west.
+~
+150 8 0
+D2
+~
+~
+0 -1 15013
+D3
+~
+~
+0 -1 15014
+S
+#15017
+A small closet~
+   Many items are scattered throughout the room, many look quite valuable, but
+are out of reach in the rafters. The room is very dim, so its hard seeing what
+some of the items are.
+~
+150 9 0
+D0
+~
+door~
+1 -1 15012
+S
+#15018
+The Barrack's Armoury~
+  This is the armor storage facility of the Tower Guardians, other old armours
+lie in a pile to be melted down, but something new may be able to be salvaged.
+~
+150 8 0
+D0
+~
+~
+0 -1 15013
+S
+#15019
+The Bottom of the Grand Staircase~
+   The Tower's Grand Staircase is gleeming here. Its made of a shiny marble-like
+stone, and looks beautiful is its surroundings. The stairs lead up to the upper
+levels of the Tower, and the Entry Hall is through an archway to the south.
+~
+150 8 0
+D2
+ The entry hall.
+~
+~
+0 -1 15026
+D4
+ The first level of the tower.
+~
+~
+0 -1 15010
+S
+#15020
+A large hallway~
+  This is the dark back hallway of the Tower, the entrance to the tower's
+temple is to the north. The back hallway continues to the south.
+~
+150 8 0
+D0
+  The Tower's Temple.
+~
+~
+0 -1 15021
+D2
+  The back hallway continue south into darkness.
+~
+~
+0 -1 15027
+S
+#15021
+Entrance to the Temple~
+   This is the foyer of the Temple, its walls are made of shiny marble. The
+altar is to the west of here, and the tower's back hallway leads south.
+~
+150 8 0
+D2
+~
+~
+0 -1 15020
+D3
+~
+~
+0 -1 15022
+S
+#15022
+The Temple~
+   The large altar bears symbols of the many great gods, people are praying here
+all around. The altar radiates evil energy, and wards on the wall protect the
+temple from good influences.
+~
+150 8 0
+D1
+ The temple entryway.
+~
+~
+0 -1 15021
+S
+#15023
+Northern end of the hall~
+   This is the end of the western hall, the hall continues south. A large
+stairway leading down to the lower levels, which smell of dirt and must.
+~
+150 8 0
+D2
+ The western hallway leading south.
+~
+~
+0 -1 15024
+D5
+Darkness.
+~
+~
+0 -1 15036
+S
+#15024
+The Western Hallway~
+  Many pictures on the wall are of the many past occupants of the Tower, the
+line the east and west walls. The end of this hallway is to the north and a
+T-Intersection is to the south.
+~
+150 8 0
+D0
+ The northern end of the hallway.
+~
+~
+0 -1 15023
+D2
+ The T-Intersection is to the south.
+~
+~
+0 -1 15025
+S
+#15025
+The T-Intersection~
+   This is an intersection of the western hall of the Tower and the entry hall,
+a door leads to a small closet in the south wall. The tower's western hallway
+extends north of here, and the entry hall is  to the east.
+~
+150 8 0
+D0
+ The western hallway.
+~
+~
+0 -1 15024
+D1
+ The Entry Hallway.
+~
+~
+0 -1 15026
+D2
+~
+door~
+1 -1 15028
+S
+#15026
+The Entry Hallway~
+  This is the grand entry hallway of the Tower. An archway to the north
+leads to the grand stairs of the Tower. The great doors to the tower are to the
+south, and to the west is an intersection.
+~
+150 8 0
+D0
+ The great staircase of the Tower.
+~
+~
+0 -1 15019
+D2
+ The great doors of the Tower.
+~
+~
+0 -1 15029
+D3
+ A T-Intersection.
+~
+~
+0 -1 15025
+S
+#15027
+The eastern hallway~
+   The hallway leads north and south, to the north lies the Tower's Temple. To
+the south a turn in the back corridor.
+~
+150 8 0
+D0
+ A large hallway.
+~
+~
+0 -1 15020
+D2
+ A turn in the hall lies south
+~
+~
+0 -1 15030
+S
+#15028
+A small closet~
+  This is the main level's musty storage closet, the only exit is a door to the
+north.
+~
+150 9 0
+D0
+ A T-Intersection.
+~
+door~
+1 -1 15025
+S
+#15029
+Inside the Tower of High Sorcery~
+   This is the inside of the Tower of High Sorcery. The great doors of the of
+the tower are south, and the entry hall and stairway are to the north. A long
+hallway leads east.
+~
+150 8 0
+D0
+ The entry hallway.
+~
+~
+0 -1 15026
+D1
+ A bend in the corridor.
+~
+~
+0 -1 15030
+D2
+ The path outside the tower.
+~
+door gate~
+1 15000 15031
+S
+#15030
+A bend in the corridor~
+   This is the entrance to the musty back corridor of the tower. The hallway
+continues to the north, and the doors of the tower are to the west.
+~
+150 8 0
+D0
+ The eastern hallway.
+~
+~
+0 -1 15027
+D3
+ The great doors of the Tower.
+~
+~
+0 -1 15029
+S
+#15031
+Outside the Tower of High Sorcery~
+   Here stands the great doors of the Tower, a magical aura surrounds the
+exterior walls. Lighting repeated strikes to top of the Tower. The doors are to
+the north, and the dark path is to the south.
+~
+150 0 2
+D0
+  The Tower.
+~
+door gate~
+1 15000 15029
+D2
+ The dark path to the city.
+~
+~
+0 -1 15032
+S
+#15032
+The Dark Path~
+  The path leads north to the Tower of High Sorcery, and the dark path
+continues to the west.
+~
+150 1 2
+D0
+  The large Tower of High Sorcery.
+~
+~
+0 -1 15031
+D3
+ The Dark Path Continues.
+~
+~
+0 -1 15033
+S
+#15033
+The Dark Path~
+   The path continues to the east and south, and to the north-east lies a large,
+black tower.
+~
+150 1 2
+D1
+ The Dark Path.
+~
+~
+0 -1 15032
+D2
+ The Dark Path.
+~
+~
+0 -1 15034
+S
+#15034
+The entrance to a dark forest path~
+   The forest gets thicker here, a path continues through the thick underbrush
+to the north.
+~
+150 1 2
+D0
+ The Dark Path.
+~
+~
+0 -1 15033
+D2
+~
+~
+0 -1 6130
+S
+#15036
+The lower stairway~
+   The air is musty and damp, the smell almost unbearable. The stairway
+continues up and down. An archway lead west to the store rooms of the Tower.
+~
+150 9 0
+D3
+  The storerooms of the keep are visible.
+~
+~
+0 -1 15037
+D4
+  The northern hallway.
+~
+~
+0 -1 15023
+D5
+  The prison of the Tower is on the level below.
+~
+~
+0 -1 15045
+S
+#15037
+Southern Hallway~
+   The hallway is lined with storage rooms for various items in the keep. The
+hallway continues north, the stairs are east, and a closet is in the west wall.
+~
+150 9 0
+D0
+ The hallway continues.
+~
+~
+0 -1 15040
+D1
+ The lower stairway.
+~
+~
+0 -1 15036
+D3
+ A large oak door.
+~
+door oak~
+1 -1 15038
+S
+#15038
+A meat locker~
+   Its rather cold in here. Many hooks are on tracks which are nailed to the
+rafters above. A large oak door is in the east wall.
+~
+150 9 0
+D1
+ A large oak door.
+~
+door oak~
+1 -1 15037
+S
+#15039
+A refrigerated room~
+  This room is quite cramped because of its small size. A door is in the west
+wall which leads back to the hallway.
+~
+150 8201 0
+D3
+  A door.
+~
+door~
+1 -1 15040
+S
+#15040
+A hallway~
+  A large maple door leads to a storage room in the east wall, while a large
+pine door leads to a room to the west, and the hallway continues north and
+south. The floor here is slippery so take notice.
+~
+150 9 0
+D0
+ The hallway.
+~
+~
+0 -1 15043
+D1
+ A maple door.
+~
+maple door~
+1 -1 15039
+D2
+ The southern hallway.
+~
+~
+0 -1 15037
+D3
+ A pine door.
+~
+pine door~
+1 -1 15041
+S
+#15041
+A small, dark storage closet~
+   Various goods were stored here, so look around, Something that had been left
+behind maybe lying here. A great stench of tabacco fills the air.
+~
+150 8201 0
+D1
+ A door.
+~
+door~
+1 -1 15040
+S
+#15042
+A slaughter house~
+  Blood lays all over the floor, with the skins of many animals. A table in the
+corner in stained heavily with blood.
+~
+150 9 0
+D3
+ A door.
+~
+door~
+1 -1 15043
+S
+#15043
+Northern Hallway~
+   The hall continues south, and a huge iron door leads east. A large purple
+door is in the west wall.
+~
+150 9 0
+D1
+ A huge iron door.
+~
+iron door~
+1 -1 15042
+D2
+ A hallway.
+~
+~
+0 -1 15040
+D3
+ A large purple door.
+~
+purple door~
+1 -1 15044
+S
+#15044
+A storeroom~
+  This storeroom looks like a wine cellar, with many shelves mounted on each
+wall. The floor here is damp from some sort of liquid, maybe a leek from a
+shelf.
+~
+150 9 0
+D1
+ A door
+~
+door~
+1 -1 15043
+S
+#15045
+The bottom of the stairs~
+   This is the prison level of the tower. The many vile creations of the
+Archmage are imprisoned here. The only exit is an opening to the west, and light
+pours down from up the stairs.
+~
+150 9 0
+D3
+  A small room.
+~
+~
+0 -1 15046
+D4
+ Up the stairs light rains down.
+~
+~
+0 -1 15036
+S
+#15046
+A rough, cavernous room~
+   Entering this cavern the surroundings are no longer smooth like the steps
+from the tower to this cavern. An archway leads north to the prison. A large
+cave opens up to the west, and a faint sound can be heard from the cave.
+~
+150 9 0
+D0
+ The prison.
+~
+~
+0 -1 15049
+D1
+ The stairs.
+~
+~
+0 -1 15045
+D3
+ A large cave.
+~
+~
+0 -1 15047
+S
+#15047
+The Large Cave~
+   The stone walls of the cave are damp and slick with mud. A large cavern is to
+the east, it radiates a soft glowing light. The cave continues on to the west.
+~
+150 9 0
+D1
+ A cavern.
+~
+~
+0 -1 15046
+D3
+ A cave.
+~
+~
+0 -1 15054
+S
+#15048
+The Prison Cell~
+   The cell continues north. The walls here are think and solid with monster
+excrement on the walls and floor.
+~
+150 9 0
+D0
+ The Cell.
+~
+~
+0 -1 15051
+S
+#15049
+The Entrance to the Prison~
+   The walls here are of solid stone. A locked golden door is in the northern
+wall. To the south an archway leads back to the cavern.
+~
+150 9 0
+D0
+ A locked golden door.
+~
+golden door~
+1 15001 15052
+D2
+ A large cavern.
+~
+~
+0 -1 15046
+S
+#15050
+The Prison Cell~
+   The cell continues north. The walls here are think and solid with monster
+excrement on the walls and floor.
+~
+150 9 0
+D0
+ The Cell.
+~
+~
+0 -1 15053
+S
+#15051
+A Prison Cell~
+  The cell continues south and east. The walls look in great disarray, with claw
+marks all over them.
+~
+150 9 0
+D1
+ A cell.
+~
+~
+0 -1 15052
+D2
+ A cell.
+~
+~
+0 -1 15048
+S
+#15052
+Inside the Prison~
+   The prison cells continue east and west, and the way out is to the south. The
+monsters here are drooling, and looking for dinner.... A large sign here reads
+"I HOPE YOU HAVE YOUR SANCTUARY ON...*GRIN*".
+~
+150 9 0
+D1
+ A cell.
+~
+~
+0 -1 15053
+D2
+ A golden door.
+~
+golden door~
+1 15001 15049
+D3
+ A cell.
+~
+~
+0 -1 15051
+S
+#15053
+A Prison Cell~
+  The cell continues south and east. The walls look in great disarray, with claw
+marks all over them.
+~
+150 9 0
+D2
+ A cell.
+~
+~
+0 -1 15050
+D3
+ A cell.
+~
+~
+0 -1 15052
+S
+#15054
+A cave~
+  The large cave continues east and south from here, the sounds become
+louder near the southern exit.
+~
+150 9 0
+D1
+ A cave.
+~
+~
+0 -1 15047
+D2
+ A slick tunnel.
+~
+~
+0 -1 15055
+S
+#15055
+A sticky tunnel~
+   A foreign substance seems to be sticking to the walls here though,
+but is out of reach. The cave continues north and west.
+~
+150 9 0
+D0
+ A large cave.
+~
+~
+0 -1 15054
+D3
+ An entrance to a lair.
+~
+~
+0 -1 15056
+S
+#15056
+Entrance to the Lair~
+  The room lies outside a lair that lies to the south. The tunnel lies to the
+east.
+~
+150 9 0
+D1
+ A tunnel.
+~
+~
+0 -1 15055
+D2
+ A lair.
+~
+~
+0 -1 15057
+S
+#15057
+A Silver Dragon's Lair~
+   The room is magically warm, and quite large. A large fire in the middle of
+the room provides light.
+~
+150 9 0
+D0
+ The lair entrance.
+~
+~
+0 -1 15056
+S
+#0
+
+
+#RESETS
+*
+*D 0 15029 2 2     * Doors, Lots of Doors *
+D 0 15031 0 2
+D 0 15052 2 2
+D 0 15049 0 2
+D 0 15012 2 1
+D 0 15017 0 1
+D 0 15004 2 1
+D 0 15005 0 1
+D 0 15025 2 1
+D 0 15028 0 1
+D 0 15037 3 1
+D 0 15038 1 1
+D 0 15040 3 1
+D 0 15041 1 1
+D 0 15039 3 1
+D 0 15040 1 1
+D 0 15043 3 1
+D 0 15044 1 1
+D 0 15042 3 1
+D 0 15043 1 1
+*
+M 0 15000 1 15000      * Archmage *
+E 1 15002 1 0
+E 1 15003 1 16
+E 1 15004 1 14
+E 1 15005 1 12
+E 1 15006 1 17
+*
+M 0 15001 1 15003      * Spectre *
+E 1 15007 1 17
+E 1 15008 1 3
+*
+M 0 15002 1 15009      * Warrior *
+E 1 15009 2 14
+E 1 15010 1 16
+E 1 15011 1 5
+*
+M 0 15003 1 15005      * Mage *
+E 1 15012 1 17
+E 1 15005 1 12
+G 1 15013 1
+G 1 15014 1
+G 1 15018 1
+E 1 15016 10 16
+*
+M 0 15004 1 15007      * Cleric *
+G 1 15013 1
+G 1 15014 1
+G 1 15015 1
+E 1 15017 1 16
+G 1 15018 1
+E 1 15019 1 12
+*
+M 0 15005 10 15001      * Patrol Guards, Alot of them *
+E 1 15020 6 16
+E 1 15021 6 5
+M 0 15005 10 15010
+E 1 15020 6 16
+E 1 15021 6 5
+M 0 15005 10 15019
+E 1 15020 6 16
+E 1 15021 6 5
+M 0 15005 10 15036
+E 1 15020 6 16
+E 1 15021 6 5
+M 0 15005 10 15045
+E 1 15020 6 16
+E 1 15021 6 5
+*
+M 0 15006 10 15011      * Barrack Guards *
+M 0 15006 10 15012
+M 0 15006 10 15013
+M 0 15006 10 15014
+E 1 15020 7 16
+E 1 15022 6 5
+M 0 15006 10 15014
+M 0 15007 1 15014
+E 1 15022 6 5
+E 1 15023 6 16
+E 1 15024 6 11
+M 0 15006 10 15015
+M 0 15006 10 15016
+M 0 15006 10 15018
+*
+O 0 15025 1 15017     * Satanic Amulet In Closet *
+*
+M 0 15008 1 15031     * Tower Guardian *
+E 1 15009 2 14
+E 1 15000 2 17
+E 1 15020 7 16
+E 1 15021 6 5
+*
+M 0 15009 1 15022    * Priest and Deciples *
+M 0 15010 3 15022
+M 0 15010 3 15021
+M 0 15010 3 15020
+*
+M 0 15019 5 15024     * Sentrys *
+E 1 15032 5 16
+M 0 15019 5 15031
+E 1 15032 5 16
+M 0 15019 5 15033
+E 1 15032 5 16
+*
+M 0 15020 5 15025    * Apprentice Mages *
+E 1 15033 5 16
+M 0 15020 5 15026
+E 1 15033 5 16
+M 0 15020 5 15030
+E 1 15033 5 16
+M 0 15020 5 15034
+E 1 15033 5 16
+*
+M 0 15014 1 15028   * Golems *
+E 1 15026 1 8
+M 0 15015 3 15024
+M 0 15015 3 15026
+M 0 15015 3 15020
+E 1 15027 1 9
+*
+M 0 15016 1 15019  * Rogue *
+E 1 15028 1 16
+*
+*O 0 15039 5 15044  * Storerooms *
+O 0 15040 5 15041
+O 0 15041 5 15038
+O 0 15042 5 15042
+O 0 15043 5 15039
+*
+M 0 15011 1 15049  * Golden Warrior *
+E 1 15034 1 16
+E 1 15035 1 8
+E 1 15001 1 17
+*
+M 0 15012 2 15048  * Prisoners *
+M 0 15012 2 15051
+M 0 15013 2 15052
+M 0 15013 2 15053
+M 0 15018 1 15050
+E 1 15031 1 14
+*
+M 0 15017 1 15057 * Dragon *
+E 1 15029 1 16
+E 1 15030 1 17
+S
+
+
+#SPECIALS
+M 15001 spec_thief
+O 15029 spec_dragon_slayer
+S
+
+#$

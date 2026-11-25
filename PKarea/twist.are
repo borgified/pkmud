@@ -1,0 +1,2687 @@
+#AREA	Twist~
+Hell (Miko's Castle)~
+0 80
+
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#9000
+trapper~
+The trapper~
+A trapper mimics the wall, waiting to snare its next meal.
+~
+This monster can mimic any part of a dungeon corridor, acting on instinct 
+alone it seeks out it's prey to survive. 
+~
+16418 65576 100 P
+1 0
+#9001
+blue dragon~
+The shining blue dragon~
+A large elder wyrm blue dragon rises up to tower above you.
+~
+This dragon is one of the largest of its kind. Residing here for centuries it 
+is not at all pleased with your intrusion on its home.
+~
+16419 524840 -900 P
+3 0
+#9002
+shade~
+The shade~
+The dark figure that seems to part of the shadow.
+~
+The shade seems to draw his power from the surrounding shadows of the room. He
+is wielding a black blade created from the substance of shadow.
+~
+16419 66088 -1000 P
+3 1
+#9003
+sorceress~
+The sorceress~
+An evil sorceress with an insane glint in her eye.
+~
+She has fire red hair and emerald green eyes, and is as beautiful as she is 
+mad.
+~
+16419 520 -500 P
+3 2
+#9004
+skulk~
+The skulk~
+An evil skulk is lurking here.~
+It blends in with its surroundings almost to the point where you can't see it.
+It is nothing but a coward, seeking to kill its prey while they sleep.
+~
+240 65548 -850 P
+1 1
+#9005
+ochre jelly~
+The ochre jelly~
+A large almost transparent slick is crawling along the floor.
+~
+It looks like a giant amoeba, looking around for bits of flesh and cellulose 
+to consume. 
+~
+37 0 -300 P
+1 0
+#9006
+mobat~
+The mobat~
+The vicious mobat swoops up from below to attack!
+~
+A giant cave bat with red eyes swoops up from the blackness below in search 
+of its next meal. 
+~
+35 524808 -300 P
+1 0
+#9008
+amber golem figure~
+The amber golem~
+A tall figure stands here barring your passage.
+~
+Staring at you with unthinking eyes, this creature is over 14 feet tall and
+made out of solid amber.
+~
+20514 520 -350 P
+1 0
+#9009
+spectre lord~
+The spectre lord~
+A misty figure of pure evil begins to form.
+~
+Created from the souls of the evil dead in this crypt, this spectre looks to
+be one of the most powerful of his kind. You can feel the life energy being
+drawn from you just from being in the same room.
+~
+20515 680 -1000 P
+3 1
+#9010
+fiend~
+The pit fiend~
+A tall dark figure with the look of death in his eyes.
+~
+This is a large hulking beast with bat wings and talon-like fangs, who doesn't
+look all to happy to be here or to see you.
+~
+16419 524928 -1000 P
+3 0
+#9011
+miko~
+Miko~
+Miko, princess of this castle, is about to make you a permanent resident.
+~
+Dressed in bloodied robes, she stares at you with a sinister smirk and an evil
+glint in her eye. Boy are you in trouble!
+~
+16419 552 -1000 P
+11 2
+#9012
+styx devil~
+The styx devil~
+A styx devil flies in ready to defend itself.
+~
+It as large wings and an elongated forehead, it's so horrid looking you retch 
+by just by looking at it.
+~
+16417 5248081 -1000 P
+1 0
+#9013
+ghoul~
+The ghoul~
+A ghoul is scavenging around looking for some flesh to feast upon.
+~
+Digging through the graves of the recently buried the ghoul is feasting on
+the decaying flesh of the dead.
+~
+16417 512 -1000 P
+1 0
+#9014
+ghast~
+The ghast~
+A ghast is mulling about among the graves.
+~
+It looks almost exactly like a ghoul, except for the horrid stench that it
+emits you'd never know the difference.
+~
+16417 512 -1000 P
+2 0
+#9015
+wraith~
+The wraith~
+A misty wraith is drifting around here.
+~
+Made up of the pure negative energy the wraith feasts upon the life energy of 
+all living creatures. 
+~
+16417 512 -1000 P
+2 0
+#9016
+skeletal warrior~
+The skeletal warrior~
+A skeletal warrior stands guard here.
+~
+Larger than a regular skeleton and certainly more power, this skeleton looks 
+as if it has been standing guard here for centuries. 
+~
+16419 520 -1000 P
+4 0
+#9017
+death knight~
+The death knight~
+The death knight is here praying at his unholy altar.
+~
+This is a fallen knight paladin, whom during his life broke his vows and is 
+now cursed for his evil actions in life. He is armored in obsidian platemail,
+and stands before an altar covered in dried blood and defecation. His eyes
+glow with an erie reddish light and he seems to be drawing his power from the
+altar itself.
+~
+20515 552 -1000 P
+7 1
+#9018
+gargoyle~
+The gargoyle~
+A gargoyle guards the entrance to the castle.
+~
+Made of stone the gargoyle looks just like any of the stone statues you would
+find adorning the guilds of midgaard. The only difference is this one is
+alive.
+~
+16418 552 -1000 P
+1 0
+#9019
+charon~
+Charon~
+Charon the boat man of the river styx is here, selling his boats.
+~
+A tall dark figure dressed in robes that cover all of his features. He holds a 
+black staff in one hand and a is prepared to sell safe transportation for a
+*slight* fee to anyone who is in need.
+~
+20483 552 -1000 P
+3 1
+#9020
+ice devil~
+The ice devil~
+An ice devil stands here with an unfeeling look on his face.
+~
+A figure not much taller than your average hill giant, it has eyes of azure 
+and a powdery blue colored complextion. It is somewhat beautiful in a twisted
+sense.
+~
+16417 520 -1000 P
+1 0
+#9021
+bone devil~
+The bone devil~
+A bone devil hisses at you in defiance.
+~
+This monster is one of the lesser devils of this plane. He stands nearly nine
+feet tall and has a tail with a poisonous barbed stinger on the end.
+~
+16417 520 -1000 P
+1 0
+#9022
+manes demon~
+The manes demon~
+A manes demon is staring you with an insane bloodlust.
+~
+A man sized figured with long taloned hands. It has been summoned here by a
+greater power to serve without question.
+~
+16419 520 -1000 P
+1 0
+#9023
+dying man paladin~
+The dying man~
+A weak and dying man looks at you with pleading eyes.
+~
+This is one of Redfernes mighty paladins. He has been beaten and tortured, to
+near death. He speaks to you in a voice so week you have to get right next to
+him to hear. He says 'the death knight draws his power from the altar, beware
+the evil that lies below...' Then he passes out.
+~
+16386 0 1000 P
+1 1
+#9024
+succubus demon~
+The succubus demon~
+A beautiful humanoid female looks at you with an alluring stare.
+~
+She looks almost human except for the wings and the fangs. She's strangely
+alluring even as she is coming at your throat.
+~
+16419 262152 -1000 P
+2 2
+#9025
+enchantress~
+The enchantress~
+An evil enchantress is here, preparing to cast a spell.
+~
+Dressed in exquisite robes with flowing red hair and blue eyes. She smiles
+in your direction as she begins to entone some strange words.
+~
+16419 16777736 -800 P
+4 2
+#9026
+priest patriarch~
+The evil patriarch~
+The high patriarch has been resting here, waiting for you to arrive.
+~
+Dressed in a flowing green robe, he stares at you with extreme loathing in his
+eyes. He's doesn't seem pleased with your presence, however he doesn't look all
+too suprised with it.
+~
+16417 520 -1000 P
+3 1
+#9027
+baalzebul devil~
+Baalzebul~
+The arch-devil Baalzebul is here, laughing at you.
+~
+With the head of a fly, he stares at you with extreme contempt. Wondering 
+what possessed you to seek him out and loose your feeble life.
+~
+20515 552 -1000 P
+4 1
+#9028
+dispater devil~
+Dispater~
+The arch-devil Dispater is floating here, peering at you quizzically.
+~
+He is evilly handsome, and only his small horns, tail and cloven left hoof 
+distinguish him from humanity. He wields a rod and staff which emanate pure 
+power.
+~
+20515 552 -1000 P
+4 1
+#9030
+moloch devil~
+Moloch~
+The arch-devil Moloch looks upon you with disgust.
+~
+He is a great square bodied creature with red-orange skin, short thick arms
+and legs, and huge square hands. His feet and head are horned. His head is huge
+with slanting eyes and a gaping mouth.
+~
+20515 552 -1000 P
+4 1
+#9031
+bael devil~
+Bael~
+Bael, the duke of hell stands here hating everything.
+~
+He is a well formed humanoid with golden skin. His head is rather long and
+has small, forward curling bull horns. His features are rather bovine with
+large, round eyes, a long and board nose, and protruding ears.
+~
+20515 552 -1000 P
+4 1
+#9032
+dretch demon~
+The dretch demon~
+A dretch demon patrols the castle.
+~
+It has a round, rubbery body and thin spindly arms and legs. Its mouth is
+slack and slobbering with many small fangs.
+~
+16417 520 -1000 P
+2 0
+#9033
+ultrodaemon daemon~
+The ultrodaemon~
+An Ultrodaemon is sneaking around on patrol.
+~
+It is a shadowy creature with a featureless face and large round eyes that 
+resemble fire opals.
+~
+16417 32776 -1000 P
+2 0
+#9034
+rutterkin demon~
+The rutterkin~
+A rutterkin demon lurks about here.
+~
+Humanoid in shape, it resembles an ugly human. Completely hairless, misshapen
+limbs and large features.
+~
+16417 32768 -1000 P
+3 0
+#9035
+nabassu demon~
+The nabassu~
+A nabassu demon stands here gating in more of its kind.
+~
+A tall, than scaly form. It has a long head with small horns and bat-like
+features, and small hands with long digits of razor sharpness.
+~
+16417 32768 -1000 P
+3 0
+#9036
+priestess~
+The priestess of Twist~
+A priestess of the great god Twist is standing here smiling at you.
+~
+Dressed in nothing but a long white gown, she has emerald green eyes and long
+flowing red hair. Her features are perfect, you are so awed by her beauty you
+couldn't bring yourself to harm a single hair on her head.
+~
+16403 8200 1000 P
+4 2
+#9037
+winged darken beast~
+The darken beast~
+A winged skeletal creature swoops in to attack.
+~
+A large winged bat-like creature, it looks like a cross between a wyvern and a
+pterodactyl. It has black, reptilian hide, fangs, razor sharp claws and dimly
+lit glowing red eyes.
+~
+16416 524808 -1000 P
+1 0
+#9038
+hell hound dog~
+The hell hound~
+A very large black dog surrounded by a firey aura.
+~
+It has rusty red fur and deep red glowing eyes. It's eyes, teeth and markings
+are soot black and it has the distinct oder of smoke and sulfer.
+~
+33 520 -1000 P
+3 0
+#0
+
+
+
+#OBJECTS
+#9001
+emerald key~
+an emerald key~
+A small key made of solid emerald.~
+~
+18 0 1
+0 0 0 0
+0 7000 2000
+#9002
+bone key~
+a bone key~
+A large bone key.~
+~
+18 0 1
+0 0 0 0
+0 300 300
+#9003
+silver key~
+a silver key~
+An intricately carved silver key.~
+~
+18 0 1
+0 0 0 0
+0 2300 8000
+#9004
+tower key~
+the tower key~
+A solid gold latch key.~
+~
+18 0 1
+0 0 0 0
+0 10000 10000000
+E
+tower key~
+This is the master key to the castle towers.
+~
+#9005
+small skiff~
+a small skiff~
+A small weightless skiff.~
+~
+22 64 1
+0 0 0 0
+0 1000 1500
+E
+skiff~
+This is a small one person skiff. Oddly enough it has no weight at all.
+~
+#9006
+spectral mace~
+a spectral mace~
+A large sinister looking mace is lying here.~
+~
+5 2627 8193
+1 4 5 6
+13 200 50
+E
+mace~
+This mace is almost intangible and has very little weight. It does look very
+powerful however.
+~
+A
+18 -1
+A
+19 3
+#9007
+diamond tiara~
+a diamond tiara~
+A beauiful diamond tiara has been dropped here.~
+~
+9 259 17
+6 0 0 0
+5 220 50
+E
+tiara~
+This beautiful piece of jewelery radiates a strong magic aura.
+~
+A
+12 20
+A
+1 -1
+#9008
+shadow knife~
+a shadow knife~
+A long dark knife has been dropped here.~
+~
+5 2 8193
+0 5 3 11
+17 300 50
+E
+shadow knife~
+The blade of this knife is as black as soot, and it seems to be very heavy.
+~
+A
+18 2
+A
+19 3
+#9009
+chalky potion~
+a chalky potion~
+A chalky potion has been dropped here.~
+~
+10 64 1
+20 19 20 44
+1 700 25
+#9010
+crystal potion~
+a crystal potion~
+A crystal potion has been placed here.~
+~
+10 64 1
+18 15 43 -1
+1 1000 25
+#9011
+azure potion~
+an azure potion~
+A azure potion has been placed here.~
+~
+10 64 1
+18 1 -1 -1
+1 1000 25
+#9012
+crimson potion~
+a crimson potion~
+A crimson potion has been placed here.~
+~
+10 64 1
+20 17 18 25
+1 1500 25
+#9013
+scarlet potion~
+a scarlet potion~
+A scarlet potion has been placed here.~
+~
+10 64 1
+23 27 -1 -1
+1 1500 25
+#9014
+grey potion~
+a grey potion~
+A grey potion has been placed here.~
+~
+10 64 1
+18 1 25 36
+1 900 25
+#9015
+vellum scroll~
+a vellum scroll~
+A vellum scroll has been dropped here.~
+~
+2 64 1
+26 -1 -1 -1
+1 150 85
+#9016
+parchment scroll~
+a parchment scroll~
+A parchment scroll is lying in the dirt.~
+~
+2 64 1
+17 17 -1 -1
+1 170 25
+#9017
+ebony wand~
+an ebony wand~
+An ebony wand has been left here.~
+~
+3 64 16385
+15 4 4 22
+2 500 75
+#9018
+ivory wand~
+an ivory wand~
+An ivory wand leaps up to attack!~
+~
+3 64 16385
+10 5 5 4
+2 6000 35
+#9019
+glass wand~
+a glass wand~
+A glass wand has been left here.~
+~
+3 1 16385
+17 1 1 26
+7 1000 10
+#9020
+runed staff~
+a runed staff~
+A runed staff is resting in the corner of the room.~
+~
+4 64 16385
+18 3 3 36
+7 150 15
+E
+staff~
+This weapon is covered in magical runes of protection and warding. It glows
+with a very power arua.
+~
+A
+30 5
+A
+31 5
+A
+32 5
+A
+34 5
+A
+35 5
+#9021
+bejewelled rod~
+a bejewelled rod~
+A bejewelled rod lies here.~
+~
+1 320 16385
+0 0 -1 0
+6 900 50
+A
+1 1
+A
+24 2
+#9022
+oak rack~
+an oak rack~
+A small oak rack is mounted on the wall here.~
+~
+15 0 0
+70 0 -1 0
+5 0 100
+#9023
+treasure coins~
+a gigantic pile of coins~
+A gigantic pile of coins is piled in one corner.~
+~
+20 0 1
+1832 0 0 0
+0 0 20
+#9024
+treasure coins~
+a big pile of coins~
+A big pile of coins is strewn about.~
+~
+20 0 1
+700 0 0 0
+0 0 20
+#9025
+blood crucible~
+a small crucible~
+A small metal crucible has been placed on the altar.~
+~
+17 0 1
+2 1 13 20
+1 0 5
+#9026
+flesh food~
+human flesh~
+Some bits of human flesh are rotting on the floor here.~
+~
+19 0 1
+3 0 0 0
+1 0 0
+#9027
+cloak displacement~
+a cloak of displacement~
+A black cloak is lying two feet from where it actually is.~
+~
+9 65 5
+9 0 0 0
+12 300 50
+E
+cloak~
+This cloak shimmers with a strange misleading aura.
+~
+A
+3 1
+#9028
+boots suede~
+grey suede boots~
+A pair of grey suede boots are here.~
+~
+9 66 65
+5 0 0 0
+5 270 75
+A
+2 2
+#9029
+ivory bracelet~
+an ivory bracelet~
+A ivory bracelet is lying in the dust.~
+~
+9 64 4097
+3 0 0 0
+3 300 50
+A
+13 7
+#9030
+ring titanium~
+a titanium ring~
+A titanium ring is lying in the dust.~
+~
+9 64 3
+0 0 0 0
+2 200 20
+A
+13 20
+A
+12 -30
+#9031
+fecal food~
+some fecal matter~
+A pile of fecal matter is stinking up the place.~
+~
+19 0 1
+5 0 0 -1
+1 0 0
+#9032
+bracers~
+bracers of defense~
+A pair of leather bracers.~
+~
+9 64 257
+7 0 0 0
+3 700 50
+#9033
+plate armor~
+a suit of full platemail~
+A suit of full platemail.~
+~
+9 1048576 9
+8 0 0 0
+90 200 65
+E
+platemail~
+This is a very large and bulky breast plate, it looks like awfully good
+protection but I doubt if you could move very fast while wearing it.
+~
+A
+2 -2
+A
+17 -4
+#9034
+scalemail sleeves~
+scalemail sleeves~
+A pair of scalemail sleeves.~
+~
+9 0 257
+7 0 0 0
+10 200 50
+#9035
+scalemail leggings~
+scalemail leggings~
+A pair of scalemail leggings.~
+~
+9 0 33
+7 0 0 0
+10 200 50
+#9036
+chain coif~
+a chain coif~
+A rusty chain coif.~
+~
+9 704 17
+9 0 0 0
+10 200 50
+A
+5 -5
+A
+18 -6
+#9037
+obsidian leg plates~
+a pair of obsidian leg plates~
+Some black leg plates.~
+~
+9 64 33
+8 0 0 0
+30 200 30
+#9038
+obsidian arm plates~
+a pair of obsidian arm plates~
+Some black arm plates.~
+~
+9 64 257
+8 0 0 0
+30 200 30
+A
+19 1
+#9039
+obsidian helmet~
+an obsidian helmet~
+A shiny obsidian helmet.~
+~
+9 64 17
+8 0 0 0
+25 200 20
+#9040
+obsidian chest plate~
+an obsidian chest plate~
+An obsidian chest plate has been left here.~
+~
+9 64 9
+8 0 0 0
+90 200 20
+A
+19 1
+#9041
+obsidian boots~
+a pair of obsidian boots~
+A pair of obsidian boots is resting here.~
+~
+9 64 65
+8 0 0 0
+40 200 30
+A
+19 1
+#9042
+obsidian gauntlets~
+a pair of obsidian gauntlets~
+A set of obsidian gauntlets is lying here.~
+~
+9 64 129
+3 0 0 0
+30 100 30
+A
+18 1
+A
+19 1
+#9043
+shield black rose~
+the shield of the black rose~
+The shield of the black rose is resting up against the wall.~
+~
+9 64 513
+10 0 0 0
+40 300 20
+A
+17 -10
+#9044
+obsidian belt~
+an obsidian belt~
+A black belt lies on the floor.~
+~
+9 64 2049
+6 0 0 0
+20 100 30
+#9045
+talisman~
+the talisman~
+A runed necklace is lying in the dirt.~
+~
+30 2 9
+0 0 0 0
+4 100 15
+A
+18 -2
+A
+19 3
+#9046
+brooch protection~
+a brooch of protection~
+A clover shaped charm.~
+~
+30 65 9
+0 0 0 0
+3 100 50
+A
+24 -5
+A
+21 -5
+#9047
+ceremonial dagger~
+a ceremonial dagger~
+A flame-shaped dagger is stuck in the wall.~
+~
+5 256 8193
+0 3 4 11
+2 400 125
+#9048
+javelin piercing~
+a javelin of piercing~
+A very sharp steal javelin is stuck in the ground.~
+~
+5 0 8193
+0 2 7 11
+15 400 90
+A
+19 2
+#9049
+lance wooden~
+a lance~
+A battered footman's lance.~
+~
+5 0 8193
+1 2 5 11
+18 400 75
+E
+lance~
+This is a very old and wornout footman's lance. It doesn't look like it would
+be very effective against anything anymore.
+~
+A
+18 -1
+A
+19 2
+#9050
+sword avenger unholy bastard~
+the unholy avenger~
+A two handed bastard sword.~
+~
+5 64 8193
+1 3 8 3
+24 500 45
+A
+18 -1
+A
+19 2
+#9051
+whip flaming fire~
+a flaming whip~
+A whip with nine flaming tails.~
+~
+5 64 8193
+0 4 5 2
+14 550 40
+E
+whip~
+The nine tails of this whip are actually tounge of flame that seem almost
+alive.
+~
+A
+1 1
+A
+18 1
+#9052
+stone granite mace~
+a granite mace~
+A large granite mace is resting on the floor.~
+~
+5 0 8193
+1 6 3 6
+20 100 55
+E
+mace~
+A large awkward looking mace.
+~
+A
+18 -2
+A
+19 2
+#9053
+crysknife knife~
+a crysknife~
+A tooth shaped knife.~
+~
+5 0 8193
+0 6 2 11
+9 100 75
+A
+18 1
+A
+19 3
+#9054
+orb~
+the orb of annihilation~
+A small black hole floats here.~
+~
+5 66 8193
+0 4 5 6
+30 200 70
+E
+orb~
+In reality it is an actual hole in the prime material plane. It looks like it
+would do a lot of damage to anything struck by it.
+~
+A
+18 1
+A
+19 1
+#9055
+trident ice~
+an ice trident~
+A trident of solid ice rests heavily on the ground.~
+~
+5 65 8193
+0 3 5 3
+16 200 75
+A
+1 -1
+A
+19 2
+#9056
+bone sword~
+a bone sword~
+A two handed bone sword is lying on the ground.~
+~
+5 0 8193
+1 2 6 3
+17 60 95
+A
+19 2
+#9057
+ebony staff~
+ancient ebony staff~
+Charon's mighty staff is lying here.~
+~
+5 64 8193
+1 4 6 6
+18 300 50
+E
+staff~
+Used by Charon for an eternity to push his way along to the river styx, this
+staff seems to have no weight at all. Yet it seems to be harder than solid
+steel.
+~
+A
+18 1
+A
+19 1
+#9058
+belt~
+a belt of many pouches~
+A large leather belt with many pouches.~
+~
+15 64 2049
+30 0 0 0
+20 150 80
+E
+belt~
+This belt glows with an faint magical radiance and is lined with many small
+pouches.
+~
+A
+17 -8
+#9059
+pearl black~
+a black pearl~
+A large black pearl.~
+~
+8 64 16385
+0 0 0 0
+8 540 85
+A
+13 3
+#9060
+staff demon~
+the demon staff~
+A blackened staff lies on the ground.~
+~
+5 2624 8193
+0 3 7 7
+18 100 85
+E
+staff~
+Forged in the lower depths of hell this staff looks extreamly powerful and
+somewhat heavy.
+~
+A
+19 2
+#9061
+mace barbed~
+a barbed mace~
+A horrid barbed mace is resting here.~
+~
+5 64 8193
+0 4 4 7
+22 100 70
+E
+mace~
+This looks like an extreamly nasty and heavy weapon.
+~
+A
+18 2
+#9062
+cross black~
+a black cross~
+Twist's unholy cross.~
+~
+4 67 16385
+30 5 5 27
+8 0 50
+#9063
+cross white~
+a white cross~
+Twist's holy cross.~
+~
+4 67 16385
+30 5 5 28
+8 0 50
+#9064
+ring golden wedding~
+a golden ring of twisted ivy leaves~
+A golden wedding ring is lying here (divorce?)~
+~
+11 0 3
+0 0 0 0
+0 0 50
+#9065
+ring diamond wedding~
+a silver wedding ring with a heart shaped diamond~
+A diamond wedding ring is lying here (divorce?)~
+~
+11 0 3
+0 0 0 0
+0 0 50
+#9066
+ring gold wedding~
+a rose gold wedding ring~
+A rose gold wedding ring is lying here (divorce?)~
+~
+11 0 3
+0 0 0 0
+0 0 50
+#9067
+ring emerald~
+an emerald ring~
+A beautiful emerald ring.~
+~
+9 64 3
+0 0 0 0
+2 2000 50
+A
+3 1
+A
+4 1
+#9068
+bag holding~
+A bag of holding~
+A small black leather bag.~
+~
+15 64 16385
+600 0 0 0
+25 100 100
+E
+bag~
+This bag looks no bigger than one you might buy in town. Yet it seems to have
+virtually no bottom, and no matter how much you put in it, it doesn't seem to
+increase in weight.
+~
+#9069
+saltwater decanter~
+a decanter of saltwater~
+A large metal decanter is on the table.~
+~
+17 0 1
+20 1 14 -1
+5 0 5
+E
+decanter~
+This jug is full of unholy water.
+~
+#9070
+smore~
+a smore~
+A delicious looking smore.~
+~
+19 0 1
+24 0 0 0
+0 0 0
+#9071
+milk bottle~
+a bottle of milk~
+A ice cold bottle of milk.~
+~
+17 0 1
+200 1 10 0
+0 0 5
+#0
+
+
+
+#ROOMS
+#9000
+Entrance to a large cave~
+   You stand before the entrance to a very large cave. The river runs back
+east, or you may enter a large cave to the west.
+~
+90 8 0
+D1
+~
+~
+0 -1 3200
+D3
+~
+~
+0 -1 9001
+S
+#9001
+Cave opening~
+   You are standing inside the entrance to a large cave that has a slow
+downward grade to it. You feel an intense evil radiating from within. You get
+the feeling if you continue in further you may not come out alive. 
+~
+90 8 0
+D1
+~
+~
+0 -1 9000
+D3
+~
+~
+0 -1 9002
+S
+#9002
+The entrance to something evil~
+   The evil now pentrates pentrates your very essence. You're starting to wonder
+if this is such a good idea. There are steps hewn out of the stone leading
+down.
+~
+90 13 0
+D1
+~
+~
+0 -1 9001
+D5
+~
+~
+0 -1 9003
+S
+#9003
+Deep within the cave~
+   You are standing deep within the cave, every instinct you have is telling
+you to run back as fast as you can but the thought of turning your back to do
+so scares you even more. The cave goes off in every direction but east.
+~
+90 9 0
+D0
+~
+~
+0 -1 9004
+D2
+~
+~
+0 -1 9011
+D3
+~
+~
+0 -1 9014
+D4
+~
+~
+0 -1 9002
+S
+#9004
+In a damp hallway~
+   Inside a damp hallway, stalagmites and stalactites adorn the ceiling and
+ground. The cave continues north.
+~
+90 9 0
+D0
+~
+~
+0 -1 9005
+D2
+~
+~
+0 -1 9003
+S
+#9005
+In a damp hallway~
+   Inside a damp hallway, stalagmites and stalactites adorn the ceiling and
+ground. The only obvious exits are north and south.
+~
+90 9 0
+D0
+~
+~
+0 -1 9006
+D2
+~
+~
+0 -1 9004
+S
+#9006
+At a T Intersection~
+  You stand at turn that runs east and west. You see a faint light off to the
+east.
+~
+90 9 0
+D1
+~
+~
+0 -1 9008
+D2
+~
+~
+0 -1 9005
+D3
+~
+~
+0 -1 9007
+S
+#9007
+A dead end~
+   You stand in a very dark and dreary dead end; something about this room
+doesn't feel quite right.  As you look around, the walls appear to be alive!
+~
+90 9 0
+D1
+~
+~
+0 -1 9006
+S
+#9008
+An intersection~
+   This part of the cave splits north or continues on east. There is a light
+coming from the north that seems almost hypnotic.
+~
+90 9 0
+D0
+A strange corridor.
+~
+~
+0 -1 9009
+D1
+Blackness.
+~
+~
+0 -1 9010
+D3
+~
+~
+0 -1 9006
+S
+#9009
+A strange corridor~
+   This section of the cave looks like it has been magically enchanted. The
+walls glow with an strange redish light. To the north the walls seem smoother
+than in the rest of the cave.
+~
+90 9 0
+D0
+~
+~
+0 -1 9018
+D2
+~
+~
+0 -1 9008
+S
+#9010
+A very dark room~
+   This room is very dark, so dark that your light barely pentrates into the
+blackness. The blackness feeds on your very soul as if it were almost alive,
+and perhaps it is...
+~
+90 9 0
+D3
+~
+~
+0 -1 9008
+S
+#9011
+An eastwardly turn~
+   The cave turns east here and seems to get larger in size as it continues.
+~
+90 9 0
+D0
+~
+~
+0 -1 9003
+D1
+~
+~
+0 -1 9012
+S
+#9012
+A VERY large cave~
+   You suddenly realize the hairs on your body are standing up and it's not
+just from fear. The cave is gigantic at this point; you can't see the entrance
+you just came from. You notice bones of every race imaginable on the cavern
+floor. Further to the east you hear a deep, heavy breath breathing and you have
+the urge to run like hell.
+~
+90 9 4
+D1
+The lair.
+~
+~
+0 -1 9013
+D3
+~
+~
+0 -1 9011
+S
+#9013
+The lair of the blue dragon~
+   The first thing you notice is the immense amount of gold and treasure that's
+all over the place. However, your eyes immediately turn to the huge form in the
+middle of the room that rises up to greet you. I think you are in BIG trouble.
+The only exit is back west, which you will probably not reach in time.
+~
+90 9 4
+D3
+~
+~
+0 -1 9012
+S
+#9014
+A dark hallway~
+   The hallway continues to the west or back east.
+~
+90 9 0
+D1
+~
+~
+0 -1 9003
+D3
+~
+~
+0 -1 9015
+S
+#9015
+End of Cavern~
+   The cave turns south here, and you notice the sides seem to be smoother 
+than those of the other passages.
+~
+90 9 0
+D1
+~
+~
+0 -1 9014
+D2
+~
+~
+0 -1 9016
+S
+#9016
+The end of the cave~
+   You stand at the end of a cave. There is a wooden ladder leading further
+down into the darkness or you can go back north.
+~
+90 13 0
+D0
+~
+~
+0 -1 9015
+D5
+~
+~
+0 -1 9017
+S
+#9017
+On a ladder~
+   You are climbing down a ladder into darkness. You feel the intense evil
+emanating from below grabbing at your very soul.
+~
+90 9 4
+D4
+~
+~
+0 -1 9016
+D5
+~
+~
+0 -1 9021
+S
+#9018
+A glowing passage~
+   You are walking along a long glowing passage. The light gets brigter to the
+north.  The only other exit is back south.
+~
+90 9 4
+D0
+~
+~
+0 -1 9019
+D2
+~
+~
+0 -1 9009
+S
+#9019
+Sorceress's work room~
+   There is a sorceress dressed in black robes standing behind a table with
+what looks to be an large alchemical setup. She snarls at you when you enter
+the room and starts to utter some arcane words. There is a large steel door
+to the east.
+~
+90 9 0
+D1
+Large Steel Door~
+door steel~
+2 9001 9020
+D2
+~
+~
+0 -1 9018
+S
+#9020
+The store room~
+   This is the mage's storeroom.  The walls are lined with racks of potions, and
+a few wands and junk are scattered here and there. It seems she wasn't the
+tidiest of mages.
+~
+90 9 0
+D3
+Large Steel Door~
+door steel~
+2 9001 9019
+S
+#9021
+Ambushed on the ladder~
+   As you continue your descent on the ladder, mobats fly up from below and
+attack! The ladder continues down into the blackness.
+~
+90 9 4
+D4
+~
+~
+0 -1 9017
+D5
+~
+~
+0 -1 9022
+S
+#9022
+End of a long descent~
+   You finally come to the end of this very long ladder and see that the only
+direction to go is north.
+~
+90 9 0
+D0
+~
+~
+0 -1 9023
+D4
+~
+~
+0 -1 9021
+S
+#9023
+A quiet passageway~
+  You're walking along a very quiet passageway. On the wall there is sign.
+~
+90 9 0
+D0
+~
+~
+0 -1 9024
+D2
+~
+~
+0 -1 9022
+E
+blood sign~
+Written in dried blood is:
+
+        Beware the evil dea....
+                                  The rest of it has faded away.
+~
+S
+#9024
+Further along the passage~
+   Further along the passageway you feel a cold chill, yet there is no wind
+down here. You wonder what kind of person or monster makes its home so far
+inside the earth where it's perpetual night...uhoh
+~
+90 9 0
+D0
+~
+~
+0 -1 9025
+D2
+~
+~
+0 -1 9023
+S
+#9025
+A four way intersection~
+   You stand at a crossing of four paths; however, blocking you from going
+anywhere at the present moment stands a thirteen-foot-tall amber figure who says
+nothing as he begins to attack.
+~
+90 9 0
+D0
+~
+~
+0 -1 9026
+D1
+~
+~
+0 -1 9027
+D2
+~
+~
+0 -1 9024
+D3
+~
+~
+0 -1 9028
+S
+#9026
+Gallery hall~
+   This hallway has portraits of many men and women adorning its walls. The
+eyes seem to be staring at you as you pass by, sending shivers down your spine.
+The only exits are north and south.
+~
+90 9 0
+D0
+~
+~
+0 -1 9029
+D2
+~
+~
+0 -1 9025
+S
+#9027
+At a door~
+   Before you is a door of solid obsidian covered in magical wards and runes.
+It doesn't appear to be locked, but obviously it's keeping something
+from leaving. Do you really want to find out what?
+~
+90 9 0
+D1
+Runed Obsidian Door~
+door obsidian~
+1 -1 9030
+D3
+~
+~
+0 -1 9025
+S
+#9028
+Dirty corridor~
+   This corridor is filled with rubble and dirt. It's probably a natural
+formation in the rock that's not part of the rest, or perhaps not...
+Uncleared rubble blocks passage to the west.
+~
+90 13 0
+D1
+~
+~
+0 -1 9025
+D3
+~
+~
+0 -1 9031
+S
+#9029
+Double doors~
+  At the northern end of this room is a grand set of double doors. But SURPRISE
+SURPRISE, there happens to be two, very large, skeletal warriors guarding it,
+who don't seem at all pleased with your intrudence.
+~
+90 9 0
+D0
+Large Double Doors~
+door double~
+2 9002 9032
+D2
+~
+~
+0 -1 9026
+S
+#9030
+Magical Prison~
+   You enter this place and realize too late your mistake. For trapped inside
+this room, is a very annoyed-looking pit fiend. You don't know how it
+got here, or even have the time to ask why, as it attacks you on site in hopes
+of escaping. There is only one exit, back the way you came, if you survive.
+~
+90 9 0
+D3
+Runed Obsidian Door~
+door obsidian~
+1 -1 9027
+S
+#9031
+Underground graveyard~
+  As you enter this room you realize you are standing inside a large
+underground graveyard. As you suspected, it's not natural at all; undead are
+swarming around like flies. It continues to the north, west or back east.
+~
+90 9 0
+D0
+~
+~
+0 -1 9033
+D1
+~
+~
+0 -1 9028
+D3
+~
+~
+0 -1 9080
+S
+#9032
+Entrance room~
+   You stand in an entrance to what appears to be a large underground temple of
+sorts. Your curiosity is peaked, you're wondering who or what would reside in
+such a place, and then you wonder if you really want to find out.
+~
+90 9 0
+D0
+~
+~
+0 -1 9035
+D2
+Large Double Doors~
+door double~
+2 9002 9029
+S
+#9033
+Underground graveyard~
+   You are walking around inside a large graveyard. Undead crawl toward you,
+ready to tear into your flesh. It continues to the north, south, and west.
+~
+90 9 0
+D0
+~
+~
+0 -1 9077
+D2
+~
+~
+0 -1 9031
+D3
+~
+~
+0 -1 9079
+S
+#9034
+Inside the crypt~
+   You are within the walls of an old crypt. From the writings on the walls, you
+recognize the dead of many of the realms' tyrants and evil priests. Rising up
+before you is a spectre formed from the evil of all their souls.
+~
+90 9 0
+D1
+~
+gate door~
+1 -1 9078
+S
+#9035
+An intersection inside the temple~
+   The hallway continues north and east here.
+~
+90 9 0
+D0
+~
+~
+0 -1 9039
+D1
+~
+~
+0 -1 9036
+D2
+~
+~
+0 -1 9032
+S
+#9036
+Another passage~
+   This is another passage within this temple of evil. You can hear the cries
+of agony to the north and hear crying to the south. The only other exit is back
+to the west.
+~
+90 9 0
+D0
+~
+~
+0 -1 9038
+D2
+~
+~
+0 -1 9037
+D3
+~
+~
+0 -1 9035
+S
+#9037
+The slave chamber~
+   No evil fortress would be complete without a slave chamber. The only
+difference here is this one is filled with a harem of succubi! You've walked 
+into yet again another trap. They hiss at you, 'The master is not pleased with
+your intrusion on his home!'
+~
+90 9 0
+D0
+~
+~
+0 -1 9036
+S
+#9038
+The torture room~
+   The first thing you notice is the body of a dead, mangled brownie chained
+to the far wall of the room. Then your eyes turn to the demonic figures
+standing over a tortured and bloodied soul. They turn to look up at you with
+grins so evil it makes your skin crawl.
+~
+90 9 0
+D2
+~
+~
+0 -1 9036
+S
+#9039
+Deeper passage~
+   This passage runs deeper within the temple. You're not sure you want to
+explore any further, but being the brave crusader of good, you feel compelled
+to.  To the west is a door of solid silver; the only other exit is north.
+~
+90 9 0
+D0
+~
+~
+0 -1 9041
+D2
+~
+~
+0 -1 9035
+D3
+~
+silver door~
+2 9003 9040
+S
+#9040
+Treasure Vault~
+   Lo and behold, you have come across the first sight for your greedy eyes in
+quite sometime. This room is filled with scattered equipment obviously taken
+from the corpses of less fortunate, previous adventurers. With luck you may be
+able to get out alive to enjoy it.
+~
+90 9 0
+D1
+~
+silver door~
+2 9003 9039
+S
+#9041
+Chamber before the Altar~
+   Up to the north you can see an large black altar; the aura of evil is so
+intense here you vomit instantly. To the east and west are the are the rooms of
+the high ones who serve this power.
+~
+90 9 0
+D0
+~
+~
+0 -1 9044
+D1
+~
+~
+0 -1 9042
+D2
+~
+~
+0 -1 9039
+D3
+~
+~
+0 -1 9043
+S
+#9042
+Evil Sanctum~
+   This room is adorned with evil runes, symbols and decanters of unholy water.
+An evil patriarch is resting here waiting to greet you. Don't you wish you had
+stayed in bed today?
+~
+90 9 0
+D3
+~
+~
+0 -1 9041
+S
+#9043
+The Enchantress's Chamber~
+   This room is covered from ceiling to floor in arcane symbols. Sitting at the
+far end of the room is a beautiful red-haired woman, mulling over an ancient
+tome.
+~
+90 9 0
+D1
+~
+~
+0 -1 9041
+S
+#9044
+The Unholy Altar~
+  You stand at the top of a circular dais; in the middle of this room is a
+black altar that radiates an unholy aura. The temple's master also stands here,
+unblinking and seemingly vexed.
+~
+90 13 0
+D2
+~
+~
+0 -1 9041
+D5
+A spiral staircase.
+~
+altar~
+1 -1 9045
+S
+#9045
+On a spiral staircase~
+   You are on a spiral staircase; the only exits are up and down.
+~
+90 9 5
+D4
+~
+~
+0 -1 9044
+D5
+~
+~
+0 -1 9046
+S
+#9046
+On a spiral staircase~
+   You are continuing down a spiral staircase.
+~
+90 9 0
+D4
+~
+~
+0 -1 9045
+D5
+A hazy rift
+~
+~
+0 -1 9047
+S
+#9047
+On a spiral staircase~
+   As you continue downwards you pass through a hazy rift. The air seems much
+lighter now and you can no longer see the staircase above you.
+~
+90 9 5
+D5
+~
+~
+0 -1 9048
+S
+#9048
+On a spiral staircase~
+    Wow! this thing goes down far!
+~
+90 9 5
+D4
+~
+~
+0 -1 9047
+D5
+~
+~
+0 -1 9049
+S
+#9049
+At the bottom of a spiral staircase~
+    You finally reached the bottom of the staircase. The air is very thin, and
+the only visible exit is to the south.
+~
+90 9 0
+D2
+~
+~
+0 -1 9050
+D4
+~
+~
+0 -1 9048
+S
+#9050
+At the foot of a river~
+  A river runs east from here, and its water is as black as night. The silence
+can almost be heard. Mountains lie off to the south.  The only thing here is a
+skeletal figure selling boats.
+~
+90 73 0
+D0
+~
+~
+0 -1 9049
+D1
+~
+~
+0 -1 9051
+D2
+~
+~
+0 -1 6023
+S
+#9051
+On the river Styx~
+   You're travelling on the river Styx. You can't hear the water ripple, and
+lose yourself in a forgetful trance as you gaze at the black water around you.
+~
+90 9 7
+D1
+~
+~
+0 -1 9052
+D3
+~
+~
+0 -1 9050
+S
+#9052
+On the river Styx~
+   You're travelling on the river Styx. You can't hear the water ripple, and
+lose yourself in a forgetful trance as you gaze at the black water around you.
+~
+90 9 7
+D1
+~
+~
+0 -1 9053
+D3
+~
+~
+0 -1 9051
+S
+#9053
+On the river Styx~
+   You're travelling on the river Styx. You can't hear the water ripple, and
+lose yourself in a forgetful trance as you gaze at the black water around you.
+~
+90 9 7
+D1
+~
+~
+0 -1 9054
+D3
+~
+~
+0 -1 9052
+S
+#9054
+On the river Styx~
+   You're travelling on the river Styx. You can't hear the water ripple, and
+lose yourself in a forgetful trance as you gaze at the black water around you.
+~
+90 9 7
+D1
+~
+~
+0 -1 9055
+D3
+~
+~
+0 -1 9053
+S
+#9055
+The river ends~
+   The river ends here, and you can vaguely see a huge castle further to the
+north.
+~
+90 9 7
+D0
+~
+~
+0 -1 9056
+D3
+~
+~
+0 -1 9054
+S
+#9056
+Wall of the damned~
+   You pass through an arched opening of a wall that surrounds the perimeter of
+the castle. It is made up of the damned souls of the realms. Their cries make
+you wish you'd never gone down those stairs.
+~
+90 9 4
+D0
+~
+~
+0 -1 9057
+D2
+~
+~
+0 -1 9055
+S
+#9057
+Pathway of bone~
+   You are walking along a pathway lined with the bones of a thousand souls of
+every race imaginable. You can see the castle further up ahead to the north.
+~
+90 9 4
+D0
+~
+~
+0 -1 9058
+D2
+~
+~
+0 -1 9056
+S
+#9058
+Entrance to the Castle Hades~
+  This is the entrance to the castle Hades itself. Within lie terrors unknown
+to most men and women of the realms. There is a sign posted here; you'd better
+read it.
+~
+90 9 0
+D0
+~
+~
+0 -1 9059
+D2
+~
+~
+0 -1 9057
+E
+sign~
+The sign has been posted by Twist:
+
+       WARNING: You will find the treasure and experience inside this castle
+oustanding. However the dangers are also very great. If you are not prepared,
+yawl might wanna leave now.
+~
+S
+#9059
+Foyer~
+   You are inside the first level of the castle. Here to greet you are a couple
+of the inhabitants. Exits lie in all directions.
+~
+90 9 0
+D0
+~
+~
+0 -1 9063
+D1
+~
+~
+0 -1 9060
+D2
+~
+~
+0 -1 9058
+D3
+~
+~
+0 -1 9061
+S
+#9060
+Inside the castle~
+   You are deep within the castle. Demons and devils of all sorts flock around
+you like flies. The only exits lie north, west and up.
+~
+90 9 0
+D0
+~
+~
+0 -1 9064
+D3
+~
+~
+0 -1 9059
+D4
+A hatch.
+~
+hatch door~
+2 9004 9070
+S
+#9061
+Inside the castle~
+   You are deep within the castle. Devils seem to crawl out from the very
+walls. The only exits lie north, east and up.
+~
+90 9 0
+D0
+~
+~
+0 -1 9062
+D1
+~
+~
+0 -1 9059
+D4
+A hatch.
+~
+hatch door~
+2 9004 9073
+S
+#9062
+Deeper within the castle~
+   As you travel deeper within the castle the evil twists your soul like a
+fever run wild through the brain. Exits lie north, south and east.
+~
+90 9 0
+D0
+~
+~
+0 -1 9065
+D1
+~
+~
+0 -1 9063
+D2
+~
+~
+0 -1 9061
+S
+#9063
+At the center of the castle~
+   You stand in the center of the castle.  Demons and devils summon more of
+their kind to defend the castle. Exits lie in all directions.
+~
+90 9 0
+D0
+~
+~
+0 -1 9066
+D1
+~
+~
+0 -1 9064
+D2
+~
+~
+0 -1 9059
+D3
+~
+~
+0 -1 9062
+S
+#9064
+Deeper within the castle~
+   As you travel deeper within the castle the evil twists your soul like a
+fever run wild through the brain. Exits lie north, south and west.
+~
+90 9 0
+D0
+~
+~
+0 -1 9067
+D1
+~
+~
+0 -1 9060
+D2
+~
+~
+0 -1 9063
+S
+#9065
+Deep within the castle~
+   You are deep within the castle. Demons can be heard flying toward you
+on all sides. The only exits are south, east and up.
+~
+90 9 0
+D1
+~
+~
+0 -1 9066
+D2
+~
+~
+0 -1 9062
+D4
+A hatch.
+~
+hatch door~
+2 9004 9072
+S
+#9066
+Deep within the castle~
+   You are deep within the castle. The screams of the damned and horrid cries
+from all around will live with you long after you leave this place, if you
+get out alive. Exits lie in all directions.
+~
+90 9 0
+D0
+~
+~
+0 -1 9068
+D1
+~
+~
+0 -1 9067
+D2
+~
+~
+0 -1 9063
+D3
+~
+~
+0 -1 9065
+S
+#9067
+Deep within the castle~
+   You are deep within the castle. Wails can be heard from all around, the
+screams pierce your soul and echo in your head. The only exits are south, west
+and up.
+~
+90 9 0
+D2
+~
+~
+0 -1 9064
+D3
+~
+~
+0 -1 9066
+D4
+A hatch.
+~
+hatch door~
+2 9004 9071
+S
+#9068
+Staircase~
+  You stand before a large staircase. It is not, as you suspected, unguarded.
+~
+90 9 0
+D2
+~
+~
+0 -1 9066
+D4
+~
+~
+0 -1 9069
+S
+#9069
+Ascending a long staricase~
+   You are climbing up a large staircase when realize you're walking on
+the souls of the false and faithless shaped to form a stairlike structure, much
+like the wall you saw outside.
+~
+90 9 0
+D4
+~
+~
+0 -1 9074
+D5
+~
+~
+0 -1 9068
+S
+#9070
+Castle Tower~
+   In this tower is an archdevil who looks VERY unhappy to see you.
+The only exit is down; I suggest you use it.
+~
+90 9 0
+D5
+~
+hatch door~
+2 9004 9060
+S
+#9071
+Castle Tower~
+   In this tower is an archdevil who looks VERY unhappy to see you.
+The only exit is down; I suggest you use it.
+~
+90 9 0
+D5
+~
+hatch door~
+2 9004 9067
+S
+#9072
+Castle Tower~
+   In this tower is an archdevil who looks VERY unhappy to see you.
+The only exit is down; I suggest you use it.
+~
+90 9 0
+D5
+~
+hatch door~
+2 9004 9065
+S
+#9073
+Castle Tower~
+   In this tower is an archdevil who looks VERY unhappy to see you.
+The only exit is down; I suggest you use it.
+~
+90 9 0
+D5
+~
+hatch door~
+2 9004 9061
+S
+#9074
+Top of the stairs~
+   At the top of the stairs is the second level. The only exits lie south and 
+back down.
+~
+90 9 0
+D2
+~
+~
+0 -1 9075
+D5
+~
+~
+0 -1 9069
+S
+#9075
+Entry Foyer~
+   You stand in grand hallway of this castle. Demons still scatter around you. 
+To the south you can see the throne room of this castle. There is also a sign
+posted here.
+~
+90 13 0
+D0
+~
+~
+0 -1 9074
+D2
+~
+~
+0 -1 9076
+E
+sign~
+Another sign posted by Twist:
+
+        Well if you made it this far you're very good :) So, I made this room
+monster free. South of you now lies the princess, she is  VERY hard, and will
+probably kill you, but if you're going to try anyway, good luck. If you kill
+her, you have my congratulations; if you don't, DO NOT come tell me I made it 
+too hard. This is supposed to be hell after all.
+~
+S
+#9076
+Throne Room of Castle Hades~
+   You are standing in the throne room. It is adorned with corpses, blood and
+the stench of death. The princess rises to great you, however I don't think
+you're going to like her form of welcome. The only exit is north.
+~
+90 9 0
+D0
+~
+~
+0 -1 9075
+S
+#9077
+Underground graveyard~
+  You are walking inside a large underground graveyard. Undead crawl up from
+the their graves to attack. Paths continue east and south.
+~
+90 9 0
+D2
+~
+~
+0 -1 9033
+D3
+~
+~
+0 -1 9078
+S
+#9078
+Outside the crypt~
+   This room is just east of a crypt that seems to be hewn directly from the
+stone wall. You sense a great evil coming from within that radiates outward
+and awakens some more undead. Exits lead south, east or west into the crypt.
+~
+90 9 0
+D1
+~
+~
+0 -1 9077
+D2
+~
+~
+0 -1 9079
+D3
+An old stone crypt.
+~
+gate door~
+1 -1 9034
+S
+#9079
+Underground graveyard~
+   You are walking through the graveyard. Undead can been seen scurrying from
+behind every gravestone. You may continues north, south or east.
+~
+90 9 0
+D0
+~
+~
+0 -1 9078
+D1
+~
+~
+0 -1 9033
+D2
+~
+~
+0 -1 9080
+S
+#9080
+Underground graveyard~
+   The evil here is unimaginable, large clouds of black mist drift twoards you.
+You can feel their coldness numbing your very soul. You can travel north or
+east.
+~
+90 9 0
+D0
+~
+~
+0 -1 9079
+D1
+~
+~
+0 -1 9031
+S
+#0
+
+
+
+#RESETS
+M 0 9000 1 9007
+M 0 9006 4 9005
+M 0 9006 4 9011
+M 0 9006 4 9011
+M 0 9005 5 9007
+M 0 9005 5 9008
+M 0 9005 5 9010
+M 0 9005 5 9012
+M 0 9002 1 9010
+E 1 9008 20 16
+M 0 9003 1 9019
+E 1 9007 3 6
+E 1 9047 50 16
+G 1 9001 -1
+*E 1 6515 20 8
+O 0 9022 -1 9020
+P 1 9009 100 9022
+P 1 9010 100 9022
+P 1 9011 100 9022
+P 1 9014 100 9022
+O 0 9016 100 9020
+O 0 9017 100 9020
+M 0 9001 1 9013
+G 1 9024 200
+M 0 9006 3 9017
+M 0 9006 3 9017
+M 0 9006 3 9017
+M 0 9008 1 9025
+M 0 9010 1 9030
+M 0 9009 1 9034
+E 1 9006 30 16
+*E 1 3072 250 8
+M 0 9013 6 9031
+M 0 9013 6 9079
+M 0 9013 6 9077
+M 0 9013 6 9077
+M 0 9013 6 9080
+M 0 9014 6 9078
+M 0 9014 6 9077
+M 0 9014 6 9079
+M 0 9014 6 9079
+M 0 9015 5 9031
+M 0 9015 5 9033
+M 0 9015 5 9078
+M 0 9016 3 9029
+E 1 9056 200 16
+M 0 9016 3 9029
+E 1 9056 200 16
+G 1 9002 -1
+M 0 9037 4 9035
+M 0 9037 4 9039
+M 0 9037 4 9037
+M 0 9038 3 9036
+M 0 9038 3 9041
+M 0 9024 4 9037
+M 0 9024 4 9037
+M 0 9024 4 9037
+M 0 9024 4 9037
+M 0 9023 1 9038
+M 0 9022 3 9038
+M 0 9022 3 9038
+M 0 9022 3 9038
+O 0 9031 2 9038
+O 0 9023 400 9040
+O 0 9029 20 9040
+O 0 9033 20 9040
+O 0 9036 500 9040
+O 0 9045 20 9040
+O 0 9048 500 9040
+O 0 9049 500 9040
+M 0 9026 1 9042
+E 1 9034 50 10
+E 1 9035 50 7
+E 1 9052 40 16
+G 1 9013 80
+O 0 9069 100 9042
+M 0 9025 1 9043
+E 1 9027 10 3
+E 1 9032 50 10
+E 1 9053 30 16
+E 1 9068 10 18
+G 1 9015 100
+G 1 9019 100
+G 1 9012 100
+O 0 9025 200 9044
+O 0 9026 200 9044
+M 0 9017 1 9044
+E 1 9037 30 7
+E 1 9038 30 10
+E 1 9039 30 6
+E 1 9040 30 5
+E 1 9041 30 8
+E 1 9042 30 9
+E 1 9043 30 11
+E 1 9044 30 13
+E 1 9050 30 16
+G 1 9003 -1
+M 0 9019 1 9050
+E 1 9057 10 16
+G 1 9005 -1
+M 0 9012 3 9056
+M 0 9012 3 9059
+M 0 9018 5 9058
+M 0 9018 5 9058
+M 0 9018 5 9058
+M 0 9020 7 9065
+E 1 9055 50 16
+M 0 9020 7 9066
+E 1 9055 50 16
+M 0 9020 7 9067
+E 1 9055 50 16
+M 0 9020 7 9063
+E 1 9055 50 16
+M 0 9021 6 9060
+M 0 9021 6 9069
+M 0 9021 6 9061
+M 0 9032 3 9062
+M 0 9032 3 9064
+M 0 9032 3 9063
+M 0 9033 3 9065
+M 0 9033 3 9067
+M 0 9033 3 9074
+M 0 9034 3 9074
+M 0 9034 3 9069
+M 0 9034 3 9068
+M 0 9035 2 9060
+M 0 9035 2 9063
+M 0 9011 1 9076
+G 1 9004 -1
+E 1 9028 30 8
+E 1 9054 10 16
+E 1 9020 100 18
+E 1 9030 20 1
+M 0 9027 1 9070
+E 1 9067 25 1
+E 1 9059 40 18
+M 0 9028 1 9071
+E 1 9060 50 16
+E 1 9021 20 0
+M 0 9030 1 9072
+E 1 9051 30 16
+E 1 9058 30 13
+M 0 9031 1 9073
+E 1 9046 15 3
+E 1 9061 20 16
+D 0 9019 1 2
+D 0 9020 3 2
+D 0 9027 1 1
+D 0 9029 0 2
+D 0 9030 3 1
+D 0 9032 2 2
+D 0 9034 1 1
+D 0 9039 3 2
+D 0 9040 1 2
+D 0 9044 5 1
+D 0 9060 4 2
+D 0 9061 4 2
+D 0 9065 4 2
+D 0 9067 4 2
+D 0 9070 5 2
+D 0 9071 5 2
+D 0 9072 5 2
+D 0 9073 5 2
+D 0 9078 3 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#SPECIALS
+O 9055 spec_frost_blade
+S
+
+
+
+#$

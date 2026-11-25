@@ -1,0 +1,37 @@
+[13067] Teppi: "The war is over, reboot is eminent."?  not "imminent"?
+[ 6532] Redshirt: sleep slip
+[ 7420] Echo: in the lair end, 'skeletons are siting' siting should be sitting
+[13045] Pyreus: plain
+[13067] Elrick: On help THEIF, occasionals?
+[ 2236] Shredirt: bride/bridge
+[13067] Foghat: the uh, storry needs help.. (:
+[ 2469] Buggy: xxxxx change to kerofk
+[ 7025] Harlequin: can i suggest changing the mob code so it says <mob>missES you etc rather than <mob> MISS you etc..yeah its piddly shit..but im a perfectionist :)
+[ 3109] Ash: 1 Tick(s) till war breaks out-sorry had to say it.
+[    2] Kahmel: in the story, 2nd line war should be was:)
+[ 5126] Soleil: A spy is hiding here looking for INVISBLE mages?
+[ 5665] Godot: limned should be lined
+[13503] Noggie: celric's sanctum??
+[12624] Fear: A more comfortable and beaten down trail leads south...no way to move south from this room
+[ 7434] Swifty: in the stair room it says You can fell darkness is ruling the place.
+[ 9970] MoI: tapestries
+[ 9969] MoI: liqueur
+[ 5039] Fonias: A small oasis invites you to dive in has no return line, so I see my status in the same line.
+[13000] Randig: collarshake say buy instead of by
+[13023] Harley: least should be leads
+[ 2536] Evermore: In 'help changeclass' cview is spelled civew at one point.
+[15003] Crow: the spectre that loads in this room has grinning mispelled in its desc
+[13431] Evermore: Sultans guard description - You see a trained fighter, readt to defend the city.
+[ 5665] Cheater: limned = lined
+[ 3014] And: Grobb goes 'OUCH!' as his steps right into a caltrop!
+[ 5201] Stratio: help story says war instead of was
+[13063] Serenity: seaguls
+[    2] Zero: object 1525 defense is spelled wrong
+[15013] Grog: memory
+[ 9044] Icestryke: the message when you enter the war is spelled 'Icestryke has enterred the war'
+[13650] Quark: When you type practice, the third spell is on the second line
+[13650] Quark: PLEASE DISREGUARD PREVIOUS...Client has bug not typo for spell
+[ 3045] Crackle: object 13094 has misspelled short desc
+[ 3053] Defiance: use staffs should be use staves
+[ 6399] Locutus: hi
+[ 6157] Pumse: punctuation! small,cozy should be small, cozy! phlzhhzzzzzz

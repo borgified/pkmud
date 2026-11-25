@@ -1,0 +1,1827 @@
+#AREA Anon~
+Great Eastern Desert~
+1 100
+
+
+#HELPS
+0 $~
+
+
+#MOBILES
+#5000
+dervish raggity~
+The dervish~
+The raggity dervish walks on aimlessly.
+~
+Dressed in loose fitting rags, this man looks like he could use
+some rest.
+~
+196 32768 900 P
+2 1
+#5001
+dervish large~
+The dervish~
+The large dervish watches for signs of trouble.
+~
+Dressed in loose fitting rags, this man looks like he could use
+LOTS of rest.
+~
+96 32768 650 P
+3 1
+#5002
+snake coral~
+The coral snake~
+A brightly colored snake slithers along the sands.
+~
+This relatively harmless snake has bright alternating bands of red, yellow
+and black.
+~
+64 0 -10 P
+1 0
+#5003
+scorpion small~
+The small scorpion~
+A small, red scorpion scuttles away at your approach.
+~
+The little tail is mighty dangerous for such a small creature.
+~
+64 0 -50 P
+1 0
+#5004
+worm giant~
+The giant, purple sand worm~
+A giant, purple sand worm thrusts up out of the sand and attacks!
+~
+He's big, mean, and purple. Watch out!
+~
+2|32 0 -100 P
+4 0
+#5005
+dragon brass~
+The brass dragon~
+A very large brass dragon steps out of the darkess and says "Hello".
+Then adds to it, "Prepare to die, have a nice day!"
+~
+~
+2|32 10 450 P
+5 2
+#5006
+nomad leader~
+The nomad leader~
+The nomad leader sits silently in prayer.
+~
+He is clad in silk robes lined with gold thread. At his side
+is a large, engraved cutlass. He has an especially haughty air
+about him.
+~
+2|128 0 950 P
+4 1
+#5007
+nomad commander~
+The nomad commander~
+The nomad commander stands here staring suspiciously at you.
+~
+This is the nomad leader's second in command. His clothes are richly
+woven of silk and gold thread. A nasty cutlass hangs at his side.
+~
+2 0 900 P
+4 1
+#5008
+nomad warrior~
+The nomad warrior~
+A proud nomad warrior stands here.
+~
+~
+2 0 700 P
+3 1
+#5009
+slave young~
+The slave~
+A young slave sits here staring at you with pleading eyes.
+~
+~
+130 0 1000 P
+1 2
+#5010
+dracolich lich~
+The dracolich~
+A pile of bones rises up to form a skeletal dracolich.
+~
+The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+~
+2|32 10 -1000 P
+7 0
+#5011
+drider drow~
+The drider~
+The drider looks at you viciously while it draws it's sword.
+~
+This half-spider, half-drow creature is a formidable opponent.
+~
+96 8 -1000 P
+3 2
+#5012
+duergar dwarf~
+The dark dwarf~
+A duergar is here mining precious stones with his pick.
+~
+The duergar could crush your head as easily as it does those rocks.
+~
+32|64 8 -850 P
+2 1
+#5013
+myconoid fungusman~
+The myconoid~
+A myconoid lumbers along peacefully.
+~
+The myconoid looks something like a giant mushroom (and probably
+has the same effect).
+~
+192 8 850 P
+2 1
+#5014
+myconoid shaman~
+The myconoid shaman~
+A rather large myconoid stands here chanting in a strange tongue.
+~
+The shaman shoots spores into the air.
+~
+130 10 850 P
+3 1
+#5015
+dustdigger~
+The dustdigger~
+A small oasis invites you to dive in.~
+~
+38 32768 -200 P
+2 0
+#5017
+camel rabid~
+The rabid camel~
+A very dangerous rabid camel snorts at you.
+~
+Don't mess with this animal.
+~
+34 0 -351 P
+2 0
+#0
+
+
+#OBJECTS
+#5001 
+banded mail~
+A glowing suit of banded mail~
+A glowing suit of banded mail lies on the ground.~
+~
+9 65 9
+7 0 0 0
+0 250 50
+A
+2 2
+A
+17 -4
+#5002
+halberd~
+the halberd~
+A mighty halberd lies against the wall.~
+slash~
+5 320 8193
+0 3 7 3
+16 220 20
+A
+18 2
+A
+19 2
+#5003
+amulet mushroom~
+the amulet~
+A mushroom shaped amulet lies on the ground.~
+~
+9 64 5
+3 0 0 0
+2 150 0
+A
+5 2
+#5006
+cactus~
+a small cactus cup~
+A small cactus cup lies on the ground.~
+~
+17 0 1
+5 5 0 0
+6 2500 5
+#5007
+basket~
+a small wicker basket~
+A small wicker basket sits on the ground.~
+~
+15 0 1
+100 5 -1 0
+50 500 200
+#5015
+coins~
+a great pile of treasure~
+A great, gleaming pile of treasure lies at your feet.~
+~
+20 0 1 
+262 0 0 0
+0 0 10
+#5017
+scimitar mage slaying~
+a curved scimitar of mage-slaying~
+A curved scimitar lies at your feet.~
+slash~
+5 64|4096 8193
+0 3 7 3
+6 60 15
+A
+1 1
+A
+2 2
+A
+3 -15
+A
+4 -10
+A
+5 1
+A
+18 4
+A
+12 -100
+A
+13 20
+A
+24 -5
+A
+25 20
+A
+26 -100
+#5019
+potion pink~
+a pink potion~
+A pink potion stands here.~
+~
+10 0 1
+25 33 17 -1
+6 600 10
+#5020
+wand platinum~
+a platinum wand~
+A platinum wand lies here.~
+~
+3 2 16385
+30 1 1 32
+8 190 50
+#5021
+bow energy~
+a strange bow~
+A strange golden bow lies here.~
+blast~
+5 323|1048576 8193
+48 4 6 7
+10 450 30
+#5022
+scroll encrypted~
+An encrypted scroll~
+An encrypted scroll lies at your feet.~
+~
+2 0 1
+22 14 35 43
+7 150 54
+#5023
+chest~
+an iron bound chest~
+An iron bound chest with a shiny lock sits here.~
+~
+15 0 0
+200 13 5024 0
+200 1000 200
+#5024
+key golden~
+a golden key~
+A shiny golden key lies here.~
+~
+18 0 1 
+10 0 0 0
+1 150 200
+#5025
+bracelet copper~
+a copper bracelet~
+A tarnished copper bracelet lies at your feet.~
+~
+9 192 4097
+-5 0 0 0
+10 230 25
+A
+13 10
+A
+19 -4
+#5026
+gem ruby~
+A large ruby~
+A large ruby lies on the ground collecting dust.~
+~
+8 192 1
+20 0 0 0
+9 100 15
+#5027
+gem diamond~
+A glittering diamond~
+A glittering diamond lies at your feet.~
+~
+8 64 1
+21 0 0 0
+10 150 32
+#5028
+gem sapphire~
+A brilliant sapphire~
+A brilliant sapphire lies here twinkling.~
+~
+8 64 1
+22 0 0 0
+7 150 11
+#5029
+gem lapis~
+a deep blue lapis lazuli~
+A deep blue lapis lazuli gem lies here.~
+~
+8 64 1
+24 0 0 0
+11 150 24
+#5030
+jewel tiger~
+the Tiger Jewel~
+The Tiger Jewel lies here blazing.~
+~
+8 256 16385
+0 0 0 0
+23 130 45
+A
+2 1
+#5031
+jewel red-eyed~
+the red-eyed jewel~
+The red-eyed jewel glares at you greedily.~
+~
+8 128 16385
+0 0 0 0
+30 150 26
+#5032
+gem emerald~
+a fiery green emerald~
+A fiery green emerald sits here.~
+~
+8 64 1
+23 0 0 0
+7 150 15
+#0
+
+
+#ROOMS
+#5001
+A long tunnel~
+    You encounter some rapids as you enter this tunnel cut out of
+the mountains by the river.
+~
+50 9 7
+D1
+~
+~
+0 0 5002
+D3
+~
+~
+0 0 3205
+S
+#5002
+An long tunnel~
+     The tunnel branches off north.
+~
+50 9 7
+D0
+~
+~
+0 0 5008
+D1
+~
+~
+0 0 5003
+D3
+~
+~
+0 0 5001
+S
+#5003
+A long tunnel~
+    The tunnel branches off south.
+~
+50 9 7
+D1
+~
+~
+0 0 5004
+D2
+~
+~
+0 0 5017
+D3
+~
+~
+0 0 5002
+S
+#5004
+A long tunnel~
+    The tunnel branches off to the south.
+~
+50 9 7
+D1
+~
+~
+0 0 5005
+D2
+~
+~
+0 0 5018
+D3
+~
+~
+0 0 5003
+S
+#5005
+An underground lake~
+    You are floating on a jet-black underground lake fed by dripping
+water and lime from above. The tunnel continues to the east and the river
+leads back west. To the north is a roughly-hewn hallway.
+~
+50 9 7
+D0
+~
+~
+0 0 5016
+D1
+~
+~
+0 0 5006
+D2
+~
+~
+0 0 5023
+D3
+~
+~
+0 0 5004
+S
+#5006
+A long narrow tunnel~
+     The tunnel rises sharply to the east.
+~
+50 9 5
+D1
+~
+~
+0 0 5007
+D3
+~
+~
+0 0 5005
+S
+#5007
+A bend in the tunnel~
+    The tunnel continues north and west. To the east there is a hole in the
+tunnel leading to a large amount of sand.
+~
+50 9 5
+D0
+~
+~
+0 0 13643
+D1
+~
+~
+0 0 5026
+D3
+~
+~
+0 0 5006
+S
+#5008
+Cave-in~
+   You stand at the edge of a large pile of rubble created from the last
+rockslide.
+~
+50 9 5
+D2
+~
+~
+0 0 5002
+D5
+You can easily slide down the rocks without getting hurt.~
+~
+0 0 5009
+S
+#5009
+At the foot of the rubble~
+    You are at the bottom of a large pile of rubble. A tunnel branches
+off to the north and east.
+~
+50 9 5
+D0
+~
+~
+0 0 5010
+D1
+~
+~
+0 0 5012
+D4
+~
+~
+0 0 5008
+S
+#5010
+Cave entrance~
+     You stand in the middle of a large and beautiful cave. A path leads
+deeper into the darkness.
+~
+50 9 5
+D2
+~
+~
+0 0 5009
+D5
+You look down into the cave. Bones are strwen about everywhere.~
+~
+0 0 5011
+S
+#5011
+Giant cave~
+    This cavern overwhelms you. The walls and ceiling seem miles away.
+Bones of previous adventurers lie strewn on the cavern floor.
+~
+50 9 5
+D4
+~
+~
+0 0 5010
+D5
+~
+door~
+1 -1 5100
+S
+#5012
+Narrow bend~
+    The tunnel turns to the south and west.
+~
+50 9 5
+D2
+~
+~
+0 0 5013
+D3
+~
+~
+0 0 5009
+S
+#5013
+Large cave~
+    You are standing in a large cave. Many furs are spread out on the floor.
+~
+50 9 5
+D0
+~
+~
+0 0 5012
+D1
+~
+~
+0 0 5014
+S
+#5014
+Damp hallway~
+    The walls here are extremely damp, as well as the floor.
+~
+50 9 5
+D1
+You hear drops of water.~
+~
+0 0 5015
+D3
+~
+~
+0 0 5013
+S
+#5015
+Underground pool~
+    You are wading in a knee deep pool of lime-water.
+~
+50 9 6
+D2
+~
+~
+0 0 5016
+D3
+~
+~
+0 0 5014
+S
+#5016
+Damp hallway~
+   The walls of the tunnel are extremely damp here. You hear the faint 
+sound of running water to the south.
+~
+50 9 5
+D0
+You hear drops of water.~
+~
+0 0 5015
+D2
+~
+~
+0 0 5005
+S
+#5017
+Narrow crawlway~
+    This crawlway is just big enough for a human to crawl through or a
+halfling to walk through.
+~
+50 9 5
+D0
+~
+~
+0 0 5003
+D1
+~
+~
+0 0 5018
+D2
+You smell the fragrent odor of fungus.~
+~
+0 0 5019
+S
+#5018
+Large cavern~
+    You have entered a very large cavern. The rock formations would amaze
+almost any dwarf.
+~
+50 9 5
+D0
+~
+~
+0 0 5004
+D3
+~
+~
+0 0 5017
+S
+#5019
+Fungus patch~
+    As you walk through the fungus patch, you are shot at by many millions of
+spores. You can hardly breathe.
+~
+50 9 5
+D0
+~
+~
+0 0 5017
+D1
+The fragrant smell of fungus spores continues to the east~
+~
+0 0 5020
+S
+#5020
+Fungus path~
+    As you walk along the path, millions of spores are shot at you. You can
+hardly breathe.
+~
+50 9 5
+D2
+A giant mushroom temple stands to the south.~
+~
+0 0 5021
+D3
+The fragrant smell of spores continues to the west.~
+~
+0 0 5019
+S
+#5021
+Fungus temple~
+   You find yourself standing inside of a giant mushroom. The inside
+is decorated in the fashion of a temple.
+~
+50 9 5
+D0
+~
+~
+0 0 5020
+D1
+~
+~
+0 0 5022
+S
+#5022
+Sloping passage~
+    You follow a path sloping down from the fungus temple.
+~
+50 9 5
+D2
+~
+~
+0 0 5021
+D5
+~
+~
+0 0 5023
+S
+#5023
+Sloping passage~
+   You are on a path that gently slops up from the underground pool.
+~
+50 9 5
+D0
+You hear sounds of trickling water.~
+~
+0 0 5005
+D4
+~
+~
+0 0 5022
+S
+#5024
+The Great Eastern Desert~
+     A vast desert stretches for miles, the sand constantly shifting around
+you. A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5030
+D1
+Sand as far as the eye can see.~
+~
+0 0 5034
+D2
+Sand as far as the eye can see.~
+~
+0 0 5025
+S
+#5025
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the 
+west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5024
+D1
+Sand as far as the eye can see.~
+~
+0 0 5031
+D2
+Sand as far as the eye can see.~
+~
+0 0 5026
+S
+#5026
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the
+west. The hole which you tumbled out of is too high for you to reach.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5025
+D1
+Sand as far as the eye can see.~
+~
+0 0 5036
+D2
+Sand as far as the eye can see.~
+~
+0 0 5027
+S
+#5027
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east and a snow-capped mountain range to the
+west.
+~
+50 0 2
+D0 
+Sand as far as the eye can see.~
+~
+0 0 5026
+D1
+Sand as far as the eye can see.~
+~
+0 0 5033
+D2
+Sand as far as the eye can see.~
+~
+0 0 5028
+S
+#5028
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5027
+D1
+Sand as far as the eye can see.~
+~
+0 0 5033
+D2
+Sand as far as the eye can see.~
+~
+0 0 5029
+S
+#5029
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5028
+D1
+Sand as far as the eye can see.~
+~
+0 0 5037
+D2
+Sand as far as the eye can see.~
+~
+0 0 5044
+S
+#5030
+A small oasis~
+    You stand beside a small pool of crystal-blue water bathed in the
+shade of a few scarse palm trees. To the north you see a small
+encampment stopped for the day.
+~
+50 0 2
+D0
+You see three tents and some camels hitched to a stake. Shadows moving 
+across the tents suggest activity.~
+~
+0 0 5056
+D1
+Sand as far as the eye can see.~
+~
+0 0 5036
+D2
+Sand as far as the eye can see.~
+~
+0 0 5032
+D3
+Sand as far as the eye can see.~
+~
+0 0 5025
+S
+#5031
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5031
+D1
+Sand as far as the eye can see.~
+~
+0 0 5031
+D2
+Sand as far as the eye can see.~
+~
+0 0 5032
+D3
+Sand as far as the eye can see.~
+~
+0 0 5024
+S
+#5032
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5035
+D1
+Sand as far as the eye can see.~
+~
+0 0 5036
+D2
+Sand as far as the eye can see.~
+~
+0 0 5033
+D3
+Sand as far as the eye can see.~
+~
+0 0 5032
+S
+#5033
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5037
+D1
+Sand as far as the eye can see.~
+~
+0 0 5037
+D2
+Sand as far as the eye can see.~
+~
+0 0 5043
+D3
+Sand as far as the eye can see.~
+~
+0 0 5028
+S
+#5034
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5038
+D1
+Sand as far as the eye can see.~
+~
+0 0 5071
+D2
+Sand as far as the eye can see.~
+~
+0 0 5034
+D3
+Sand as far as the eye can see.~
+~
+0 0 5035
+S
+#5035
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the east, although it doesn't seem to be resting
+on the ground.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5039
+D1
+The pyramid seems to be floating about 100 meters in the air. Even from here,
+you can sense a great evil residing within.~
+~
+0 0 5040
+D2
+Sand as far as the eye can see.~
+~
+0 0 5032
+D3
+Sand as far as the eye can see.~
+~
+0 0 5034
+S
+#5036
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5035
+D1
+Sand as far as the eye can see.~
+~
+0 0 5041
+D2
+Sand as far as the eye can see.~
+~
+0 0 5032
+D3
+Sand as far as the eye can see.~
+~
+0 0 5030
+S
+#5037
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5048
+D1
+Sand as far as the eye can see.~
+~
+0 0 5033
+D2
+Sand as far as the eye can see.~
+~
+0 0 5042
+D3
+Sand as far as the eye can see.~
+~
+0 0 5033
+S
+#5038
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5046
+D1
+Sand as far as the eye can see.~
+~
+0 0 5045
+D2
+Sand as far as the eye can see.~
+~
+0 0 5040
+D3
+Sand as far as the eye can see.~
+~
+0 0 5034
+S
+#5039
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 13411
+D1
+Sand as far as the eye can see.~
+~
+0 0 5039
+D2
+Sand as far as the eye can see.~
+~
+0 0 5048
+D3
+Sand as far as the eye can see.~
+~
+0 0 5039
+S
+#5040
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. You are standing below a gigantic pyramid floating about 100 meters
+above the ground. To your left hangs a rope which leads straight up to
+the massive structure. From here you can sense the great evil which resides 
+within.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5036
+D1
+Sand as far as the eye can see.~
+~
+0 0 5049
+D2
+Sand as far as the eye can see.~
+~ 
+0 0 5041
+D3
+Sand as far as the eye can see.~
+~
+0 0 5043
+D4
+The magic rope leads up to a hole in the base of the pyramid.~
+~
+0 0 5040
+S
+#5041
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+~
+50 0 2
+D0
+The pyramid seems to be floating about 100 meters above the desert. Even from
+here you can sense the great evil within.~
+~
+0 0 5040
+D1
+Sand as far as the eye can see.~
+~
+0 0 5048
+D2
+Sand as far as the eye can see.~
+~
+0 0 5041
+D3
+Sand as far as the eye can see.~
+~
+0 0 5037
+S
+#5042
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5049
+D1
+Sand as far as the eye can see.~
+~
+0 0 5055
+D2
+Sand as far as the eye can see.~
+~
+0 0 5043
+D3
+Sand as far as the eye can see.~
+~
+0 0 5041
+S
+#5043
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5042
+D1
+Sand as far as the eye can see.~
+~
+0 0 5055
+D2
+Sand as far as the eye can see.~
+~
+0 0 5044
+D3
+Sand as far as the eye can see.~
+~
+0 0 5033
+S
+#5044
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north and a ruined city to the west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5050
+D1
+Sand as far as the eye can see.~
+~
+0 0 5055
+D2
+Sand as far as the eye can see.~
+~
+0 0 5029
+D3
+Sand as far as the eye can see.~
+~
+0 0 5200
+S
+#5045
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5045
+D1
+Sand as far as the eye can see.~
+~
+0 0 5052
+D2
+Sand as far as the eye can see.~
+~
+0 0 5045
+D3
+Sand as far as the eye can see.~
+~
+0 0 5038
+S
+#5046
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5038
+D1
+Sand as far as the eye can see.~
+~
+0 0 5047
+D2
+Sand as far as the eye can see.~
+~
+0 0 5047
+D3
+Sand as far as the eye can see.~
+~
+0 0 5039
+S
+#5047
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5046
+D1
+Sand as far as the eye can see.~
+~
+0 0 5051
+D2
+Sand as far as the eye can see.~
+~
+0 0 5053
+D3
+The pyramid seems to be floating about 100 meters above the desert. Even from
+here you can sense an evil presence within.~
+~
+0 0 5040
+S
+#5048
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5039
+D1
+Sand as far as the eye can see.~
+~
+0 0 5048
+D2
+Sand as far as the eye can see.~
+~
+0 0 5053
+D3
+Sand as far as the eye can see.~
+~
+0 0 5041
+S
+#5049
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-west.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5053
+D1
+Sand as far as the eye can see.~
+~
+0 0 5054
+D2
+Sand as far as the eye can see.~
+~
+0 0 5050
+D3
+Sand as far as the eye can see.~
+~
+0 0 5042
+S
+#5050
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5050
+D1
+Sand as far as the eye can see.~
+~
+0 0 5054
+D2
+Sand as far as the eye can see.~
+~
+0 0 5044
+D3
+Sand as far as the eye can see.~
+~
+0 0 5042
+S
+#5051
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west and a deep canyon to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5051
+D2
+Sand as far as the eye can see.~
+~
+0 0 5052
+D3
+Sand as far as the eye can see.~
+~
+0 0 5047
+S
+#5052
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the south-west and a deep canyon to the east. Just
+below you can make out a tiny ledge.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5051
+D2
+Sand as far as the eye can see.~
+~
+0 0 5053
+D3
+Sand as far as the eye can see.~
+~
+0 0 5045
+D5
+~
+~
+0 0 5063
+S
+#5053
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west and a deep canyon to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5052
+D1
+A rickety rope bridge stretches across the canyon...it doesn't look too safe.~
+~
+0 0 5062
+D2
+Sand as far as the eye can see.~
+~
+0 0 5054
+D3
+Sand as far as the eye can see.~
+~
+0 0 5049
+S
+#5054
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the west and a deep canyon to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5053
+D2
+Sand as far as the eye can see.~
+~
+0 0 5055
+D3
+Sand as far as the eye can see.~
+~
+0 0 5050
+S
+#5055
+The Great Eastern Desert~
+    A vast desert stretches for miles, the sands constantly shifting around  
+you. A pyramid lies to the north-west and a deep canyon to the east.
+~
+50 0 2
+D0
+Sand as far as the eye can see.~
+~
+0 0 5054
+D2
+Sand as far as the eye can see.~
+~
+0 0 5055
+D3
+Sand as far as the eye can see.~
+~
+0 0 5043
+S
+#5056
+A nomad camp~
+    This small group of desert nomads has stopped for the day to rest
+and refresh themselves beside this beautiful oasis. Three tents and some
+camels make up the party. From within two of the tents you hear muffled
+voices, obviously surprised at your visit.
+~
+50 128 2
+D0
+Some camels are tied up to a mass of stakes plugged into the ground.~
+~
+0 0 5058
+D1
+You see inside one of the tents a huddled mass of people, probably slaves.~
+~
+0 0 5057
+D2
+Sand as far as the eye can see.~
+~
+0 0 5030
+D3
+Sand as far as the eye can see.~
+~
+0 0 5025
+S
+#5057
+Inside a small tent~
+    This is a small and simple tent with few possessions in sight. Lying
+here and there are young-looking men and women, possibly slaves to the
+leader of this band.
+~
+50 128 2
+D3
+You see the center of the nomad camp.~
+~
+0 0 5056
+S
+#5058
+Beside the camels~
+    Here stand about ten camels, all hitched to some stakes plugged into 
+the ground. To the east you see a small tent while to the north you see a 
+larger, fancier tent.
+~
+50 128 2
+D0
+This tent seems to be the temporary abode of the nomad leader. You make a
+mental note to visit it before you leave.~
+~
+0 0 5060
+D1
+In this tent there are very large men, all carrying weapons.~
+~
+0 0 5059
+D2
+You see the center of the nomad camp.~
+~
+0 0 5056
+D3
+Sand as far as the eye can see.~
+~
+0 0 5024
+S
+#5059
+The warrior's tent.~
+     This tent has a few furnishings, but mainly it holds the band's 
+protectors. They all stare at you coldly as you enter.
+~
+50 128 2
+D3
+Outside you see some peaceful camels.~
+~
+0 0 5058
+S
+#5060
+The main tent~
+     This tent is as lavishly decorated on the inside as it is on the
+outside. A fancy carpet lies on the sand and numerous baskets line the
+walls.
+~
+50 128 2
+D1
+~
+~
+0 0 5061
+D2
+You see some peaceful camels.~
+~
+0 0 5058
+S
+#5061
+The main tent~
+     This is where the leader of this band of nomads resides. He is 
+definitely rich as you inspect the tapestries, baskets, and a few
+paintings as well.
+~
+50 128 2
+D3
+You see the entrance to this tent.~
+~
+0 0 5060
+S
+#5062
+The rickety rope bridge.~
+     You carefully begin to walk across the bridge, but suddenly the rope
+breaks and you fall...
+                     ...and fall
+                           and fall
+                              and fall
+                                    ...to your death on the rocks below.
+
+But luckily, you are saved by the gods..
+~
+50 0 5
+D3
+~
+~
+0 0 5053
+S
+#5063
+The wind-swept ledge~
+    Being very careful not to lose your balance, you look around and
+find that this canyon is about a half a kilometer deep. To the west is
+a dark cave leading under the desert sands and above you a rope bridge
+spans the gap.
+~
+50 0 5
+D3
+~
+~
+0 0 5064
+D4
+The desert sands blow down in your face.~
+~
+0 0 5052
+S
+#5064
+The cavemouth~
+   The air in here is MUCH cooler than outside. From the west you hear 
+strange sounds, but can see nothing. The cave slopes down into the 
+darkness.
+~
+50 9 5
+D1
+Outside is lighter and very windy.~
+~
+0 0 5063
+D3
+~
+~
+0 0 5065
+S
+#5065
+The mysterious lair.~
+    You have stumbled upon the home of something. From the treasure
+haphazardly strewn about and the rotting carcases, you would guess that
+this is a dragon's lair. As to what type, you can't really say. The cave
+narrows out into a tunnel to the west.
+~
+50 137 5
+D1
+~
+~
+0 0 5064
+D3
+~
+~
+0 0 5066
+S
+#5066
+A wide tunnel~
+    This tunnel seems to go on forever into the darkness. You carefully
+feel your way along the walls.
+~
+50 9 5
+D1
+~
+~
+0 0 5065
+D3
+~
+~
+0 0 5067
+S
+#5067
+A narrower tunnel~
+    The tunnel becomes very narrow and you fight to squeeze your way through.
+The floor seems to level off a little.
+~
+50 9 5
+D1
+~
+~
+0 0 5066
+D2
+~
+~
+0 0 5068
+S
+#5068
+A narrow crack~
+     This part of the tunnel is the hardest to move through as the walls
+move in to meet you.
+~
+50 9 5
+D0
+~
+~
+0 0 5067
+D3
+~
+~
+0 0 5069
+S
+#5069
+A small cavern.~
+     It is dark and damp and bats hang from the ceiling. A narrow crack is
+in the east wall. The floor now slopes upwards.
+~
+50 9 5
+D0
+~
+~
+0 0 5070
+D1
+~
+~
+0 0 5068
+S
+#5070
+A small shaft~
+     From within this shaft you can see a narrow hole in the roof just
+large enough for one person. Back east is the cavern.
+~
+50 9 5
+D2
+~
+~
+0 0 5068
+D4
+~
+~
+0 0 5009
+S
+#5071
+The Great Eastern Desert~
+     A vast desert stretches for miles, the sands constantly shifting around 
+you. You are standing below a gigantic pyramid floating about 100 meters
+above the ground. To your left hangs a rope which leads straight up to
+the massive structure. From here you can sense the great evil which resides
+within.
+~
+50 0 5
+D0
+Sand as far as the eye can see.~
+~
+0 0 5036
+D1
+Sand as far as the eye can see.~
+~
+0 0 5049
+D2
+Sand as far as the eye can see.~
+~
+0 0 5048
+D3
+Sand as far as the eye can see.~
+~
+0 0 5032
+D4
+The rope leads up to a hole in the pyramid. A shadowy figure hovers over
+the rope looking down at you.~
+~
+0 0 5072
+S
+#5072
+Hanging on the rope~
+    About half way up the rope you feel it begin to shake and shudder.
+You desperately try to shimmy back down the rope, but it unravels and...
+
+                               SNAP!!!!!
+
+As you plummit to the ground, you look up to see a shadowy figure in the
+pyramid grinning an evil grin and brandishing a shiny dagger.
+~
+50 2 5
+D5
+A looooong way down.~
+~
+0 0 5071
+S
+#0
+
+
+#RESETS
+*
+M 0 5015 3 5039          Dustdigger
+M 0 5015 3 5033          Dustdigger
+M 0 5015 3 5049          Dustdigger
+M 0 5017 1 5058          Rabid Camel
+*
+M 0 5000 5 5047          Dervish
+M 0 5000 5 5033          Dervish
+M 0 5001 8 5040          Large Dervish
+*
+M 0 5002 5 5031          Snake, coral
+M 0 5003 5 5050          Scorpion, small
+*
+M 0 5004 1 5036          Purple Worm 
+G 1 5019 10                (pink potion) 
+G 1 5020 5                 (platinum wand)
+G 1 5021 1                 (energy bow)
+*
+M 0 5005 1 5065          Brass Dragon 
+G 1 5024 1                 (golden key)
+G 1 5022 10                (encrypted scroll)
+*
+O 0 5023 1 5070          iron chest
+P 1 5025 3 5023            (bracelet)
+P 1 5026 3 5023            (ruby)
+P 1 5027 3 5023            (diamond)
+P 1 5028 3 5023            (sapphire)
+P 1 5029 3 5023            (lapis)
+P 1 5030 1 5023            (Tiger Jewel)
+P 1 5031 1 5023            (Red-eyed jewel)
+P 1 5032 3 5023            (emerald)
+*
+O 0 5015 1 5070          $$$
+*
+M 0 5006 1 5061          Nomad leader
+M 0 5007 1 5060          Nomad Comm. 
+E 1 5017 15 16             (scimitar)
+M 0 5008 5 5059          Nomad Warriors 
+M 0 5009 10 5057         Slaves
+*
+M 0 5010 1 5011          Dracolich 
+E 1 5001 1 5                (Bandedmail)
+E 1 5002 1 16               (Halberd)
+* 
+M 0 5011 3 5009          Driders
+M 0 5012 3 5014          Druegars 
+* 
+M 0 5013 4 5021          myconoids
+M 0 5014 1 5021          Shaman, myc.
+E 1 5003 1 3
+*
+O 0 5006 1 5049          cactus cup
+O 0 5006 1 5031          cactus cup
+O 0 5006 1 5044          cactus cup
+O 0 5007 1 5060          basket in commanders tent
+*
+S
+
+
+#SPECIALS
+ O 5017  spec_energy_drain
+S
+
+#$

@@ -1,0 +1,1638 @@
+#AREA  Mercutio~
+Ancalagor~
+0 90
+
+
+#HELPS
+0 $~
+
+
+
+#MOBILES
+#1801
+zombie putrid~
+The putrid zombie~
+A putrid zombie is here.
+~
+It is a prime example of the undead:  sickly green skin, sunken eyes with a 
+yellowish tinge, and sharp, dirt-encrusted claws.
+~
+2 0 -255 P
+2 0
+#1802
+asp snake~
+The Deadly Asp~
+A poisonous asp slithers here.
+~
+~
+32 0 0 P
+2 0
+#1803
+morticia guildhead~
+Morticia~
+Morticia, Guildhead of the Living Dead, is here.
+~
+Her long, raven black hair drapes those stunning curves of hers.  How
+did such a sweet thing become the leader of this cult?  As a bard once
+wrote, 'You could tell she was practiced at the art of deception/ by
+her bloodstained hands.'
+~
+6 8|128 -1000 P
+4 2
+#1804
+lazarus assassin physician~
+Lazarus~
+Lazarus, Assassin and Guild Physician, is here.
+~
+This master herbalist was found too valuable to the Guild as a maker
+of both soothing balms and poisons.  Even death could not release
+him...the necromancers just reanimate him.
+
+~
+2 128 -900 P
+4 1
+#1805
+beetle undead~
+The undead riding beetle~
+An undead riding beetle is parked here.
+~
+A fine example of Necromancy, this giant beast can travel for miles
+with no need for food nor water.  A most economical mount--and sporty
+too!
+~
+2 0 -300 P
+2 1
+#1806
+wraith knight~
+The wraith knight~
+A wraith knight stands a silent watch here.
+~
+This was probably some poor adventurer, like you, before the
+Necromancers got their hold on him.  Now he just awaits, blade drawn,
+like some ethereal beefeater.
+~
+34 0 -800 P
+2 1
+#1807
+keeper~
+The Crypt Keeper~
+The Crypt Keeper, grinning at you maliciously, is here.
+~
+The dessicated little fellow cackles with mad glee as he approaches
+you.  He twitches from excitement so much that his scraggly hair
+jostles as he flashes his dull yellow teeth.
+~
+34 8 -1000 P
+2 1
+#1808
+hermit~
+The hermit~
+A Hermit, starved for company, is here.
+~
+Although raving mad, the hermit has come out of his isolation since he
+has not spoken with anyone for ages.  The shaggy hermit draws you over
+and tells you a tale:
+
+	Some 600 years ago, when I was but a lad, a great dragon
+	ruled the land.  His name was Ancalador.  Many heroes came
+	to do battle with him, but all failed and died, horribly,
+	I imagine.  But one wizard challenged the Drake to a magic
+	duel.  He too died, like the others, but with his last
+	breath, the wizard turned the mighty Ancalador to stone!
+	Many believed the dragon's evil reign ended, but after the
+	dancing and drinking were over, and life returned to its
+	quiet pace, the people began to notice that the Dragon's
+	presence could still be felt.  Ancalador did, in fact,
+	continue to rule from his petrified prison through the 
+	manipulation of the minds of men.  Indeed, he has done so
+	to this day.  Many believe he is plotting the day he can
+	return in the flesh, so to speak...
+
+With that the Hermit begins to cackle madly, tears running down his
+leathery face.  You can get no more out of him.
+~
+2 0 500 P
+3 0
+#1809
+slime blob~
+The Green Slime~
+A blob of Green Slime drops upon you!
+~
+It looks like animated mucous, dissolving and eating all it touches.
+~
+34 0 0 P
+2 0
+#1810
+dweller flame~
+The Flame Dweller~
+A Flame Dweller is basking in fire here.
+~
+It's shape changes like the flame it lives in.  One moment it may
+resemble a serpent, the next, a man.  It seems to be thoroughly
+enjoying itself.
+~
+2 0 -50 P
+3 0
+#1811
+spider green~
+The green crystal spider~
+A Green Crystal Spider is roaming here.
+~
+The fantastic beast seems to be made of a crystalline substance which
+is giving off a green light.  It clicks it's crystal mandibles in
+irritation with you.
+~
+128 0 -400 P
+2 0
+#1812
+spider yellow~
+The yellow crystal spider~
+A Yellow Crystal Spider is clicking its mandibles here.
+~
+Slightly smaller than it's green cousin, this creature also appears to
+be made of living crystalline substance which glows yellow.
+~
+32 0 -350 P
+3 0
+#1813
+warden~
+The Petrified Warden~
+A Petrified Warden guards the way.
+~
+He wears the sneer of cold command upon his stony visage.
+~
+2 0 -700 P
+3 1
+#1814
+hulk umber~
+The umber hulk~
+A lumbering Umber Hulk is here.
+~
+This great beast has huge mandibles and a mammals mouth, angry animal
+eyes set between unreadable insect eyes.  The effect is
+confusing.
+~
+32 0 -750 P
+2 0
+#1815
+jello ochre~
+An Ochre Jello~
+A hideous Ochre Jello approaches.
+~
+As it oozes slowly at you, you can make out items undigested within
+it.  From past unfortunates, you presume.
+~
+32 0 -700 P
+2 0
+#1899
+necromancer necro~
+The Necromancer~
+A Necromancer of the Bloodstone, creating zombies, is here.
+~
+Evil reeks from his dark robes.  His hands are adorned with the long,
+wicked nails which are stained with the ichor of embalmers and
+malignant salves.
+~
+2|32 0 -900 P
+3 1
+#0
+
+
+
+#OBJECTS
+#1801
+falchion sword~
+A falchion~
+A falchion lies discarded here.~
+It is a short sword of the hacking variety, it seems a bit worn.
+~
+5 0 8193
+0 3 6 3
+5 90 60
+#1802
+chalice cup~
+A chalice~
+A blood-stained chalice has been set down here.~
+~
+17 16 16385
+3 3 13 5
+1 2200 5
+#1803
+coffer~
+The copper coffer~
+An ornate copper coffer is set against the far wall.~
+~
+15 0 0
+200 13 0 0
+500 500 500
+#1804
+tonic potion comfrey~
+A tonic of comfrey root~
+A tonic of comfrey root has been discarded here.~
+~
+10 64 1
+15 39 0 33
+1 25 40
+E
+tonic potion comfrey~
+What doesn't kill you makes you stronger, right?
+~
+#1805
+elixir potion~
+An elixir of Adder's Tongue~
+An elixir of Adder's Tongue lies here.~
+~
+10 64 1
+15 44 21 -1
+1 25 40
+#1806
+key skeleton~
+A skeleton key~
+An old skeleton key lies on the floor.~
+~
+18 16 16385
+15 0 0 0 
+2 500 200
+E
+key skeleton~
+It is made of bone.  What did you expect, in this place of death?
+~
+A
+100 95
+#1807
+blowgun~
+A blowgun~
+A long, bamboo blowgun rest on the ground.~
+~
+5 0 8193
+0 9 2 5
+5 160 30
+A
+18 1
+#1808
+pool~
+The pool~
+You stand in a pool of blood~
+~
+17 0 0
+5 5 13 5
+500 500 0
+#1809
+bloodstone stone~
+The Bloodstone~
+A large, dull red stone awaits, invitingly, to be picked up.~
+~
+4 2|12|64|512 16385
+13 1 1 25
+8 300 15
+E
+bloodstone stone~
+It glows malignantly with its own ruddy light.  You peer within the
+stone only to see the vague impression of some misshaped soul
+trapped within.
+~
+#1810
+heartseeker stiletto~
+The heartseeker~
+A nasty looking stiletto with a shiny black blade lies amid the dust.~
+~
+5 2|16|64 8193
+0 4 4 11
+3 1000 35
+A
+18 3
+A
+13 -5
+#1811
+shield scarab~
+A scarab shield~
+A shield with a large, dead scarab mounted in the center lies here.~
+~
+9 16|64 513
+6 0 0 0
+17 90 20
+#1812
+mace fred~
+The Mace of Undead Fred~
+A skull-headed mace has been left here.~
+~
+5 2|64 8193
+0 3 6 7 
+14 120 40
+A
+19 3
+E
+mace fred~
+The stout leather-wrapped shaft is topped with the animated skull of Fred 
+himself.  Though the jawbone is missing, you can hear him scream obscenities
+in the midst of a fray.  A vague light stirs within his eyesockets as he
+says, 'What are you looking at, maggot breath!'
+~
+#1813
+buckler arsenal~
+An arsenal buckler~
+A spiked buckler with a circle of knives set in it, has been left here.~
+~
+15 0 513
+3 0 -1 0
+7 24 70
+A
+17 -5
+A
+19 2
+E
+buckler arsenal~
+The buckler has a circle of throwing knives set around its center spike.
+~
+#1814
+knife~
+A throwing knife~
+A well balanced throwing knife lies on the ground.~
+~
+5 0 16385
+0 1 4 0 
+1 10 1
+#1815
+pile debris~
+The pile~
+A pile of debris has been stacked on a small plateau, away from the acid.~
+~
+15 0 0
+1000 0 -1 0
+1000 1000 100
+E
+pile debris~
+It contains all manner of rusty items and beaten equipment garnered by
+the fastidious denizens of this place.
+~
+#1816
+guisarme polearm~
+A guisarme~
+A long, sharp polearm has been left here.~
+~
+5 65536 8193
+0 2 8 3
+16 50 50
+A
+18 -2
+A
+19 1
+#1817
+glove minstrels minstrel~
+A minstrels glove~
+A single, white minstrel's glove has been discarded here.~
+~
+9 65 129
+6 0 0 0
+8 45 20
+A
+18 2
+#1818
+mail shabby~
+Some shabby mail~
+A worn and shabby suit of ring mail has been cast away here.~
+~
+9 64 5
+9 0 0 0
+20 70 40
+E
+mail shabby~
+It seems about ready to fall apart!
+~
+#1819 
+granite key~
+A granite key~
+A key fashioned of stone has been left here.~
+~
+18 0 16385
+13 0 0 0
+2 150 200
+#1820
+flesh~
+the enbalmed flesh~
+A large pile of presumably human flesh has been enbalmed and stored here.~
+~
+12 0 0
+0 0 0 0
+100 600 200
+#1899
+flail beater grave~
+A grave beater~
+A rusty grave beater flail has been dropped here.~
+~
+5 524288 8193
+0 2 7 7
+12 50 50 
+A
+19 1
+E
+flail beater grave~
+This flail seems only to have been used to keep the dead in their place.
+~
+#0
+
+
+#ROOMS
+#1801
+Wild Valley~
+   You move slowly through the green vines and thick undergrowth that
+cover the valley floor.  It would appear that not many have come here
+in ages.  To the west, the land rises to leave the valley.  To the
+east the vegetation clears to give way to a strange uprising of stone.
+~
+18 0 4
+D1
+The uprising looks like some huge beast set to pounce.
+~
+~
+0 0 1802
+D3
+~
+~
+0 0 6009
+E
+uprising stone~
+The uprising looks like some huge beast set to pounce.
+~
+S
+#1802
+Before the Dragon~
+   You stand before the Dragon Ancalador.  You can still make out its
+petrified form despite the earth that has filled in the crevices
+between its limbs and the huge oaks, dwarfed by the dragon itself,
+which have grown there.  A vague evil emanates from the once-alive
+stone that terrorized nations long ago.
+~
+18 0 4
+D1
+The huge maw lies frozen in midsnarl.  You could find enough purchase
+to scale the tongue and enter inside, should you want to.
+~
+~
+0 0 1803
+D3
+~
+~
+0 0 1801
+S
+#1803
+In the Dragon's Mouth~
+   Rows of stone teeth as large as trolls line the walls here.  A
+tongue of pitted stone leads east, behind stone molars as large as
+iron shields.
+~
+18 8  0
+D1
+~
+~
+0 0 1804
+D3
+~
+~
+0 0 1802
+S
+#1804
+By Stone Tonsils~
+   You are in the back of the dragon's mouth.  The throat continues
+down and something oozes from petrified sinuses above.
+~
+18 1|8 0
+D3
+~
+~
+0 0 1803
+D5
+~
+~
+0 0 1805
+S
+#1805
+Throat of Stone~
+   The floor is uneven -- the middle of the passage being lower than
+the sides, which rise up to the walls.  The whole passage is slightly
+graded, moving east and downward.
+~
+18 1|8 0
+D4
+~
+~
+0 0 1804
+D5
+~
+~
+0 0 1806
+S
+#1806
+Further Down the Dragon's Throat~
+   The tunnel begins to lose its steepness and merely runs eastward
+now.  The shapes of what might be petrified muscles line the walls.
+~
+18 1|8 0
+D1
+~
+~
+0 0 1807
+D4
+~
+~
+0 0 1805
+S
+#1807
+Junction~
+
+   You are in a four way junction.  The dragon's throat continues east
+and west, but by squeezing under some stone flaps you can make out
+tunnels leading north and south.
+
+~
+18 1|8 0
+D0
+You peer under the petrified flap and see a faint light amid darkness.
+~
+~
+0 0 1808
+D1
+~
+~
+0 0 1860
+D2
+You peer under the petrified flap and see a faint light amid darkness.
+~
+~
+0 0 1811
+D3
+~
+~
+0 0 1806
+E
+flaps flap~
+Who can say which part of draconian anatomy this might be?
+~
+S
+#1808
+Stone Tunnel~
+   This circular passage of stone gradually curves up to a place of
+great light and heat.
+~
+18 1|8 0
+D2
+~
+~
+0 0 1807
+D4
+All you can see upwards in a great glare followed by gusts of hot wind.
+~
+~
+0 0 1809
+S
+#1809
+Dragon Lung~
+   Ancient fires burns here, awaiting the rebirth of their master.
+~
+18 8  0
+D5
+~
+~
+0 0 1808
+S
+#1810
+Heart of the Dragon~
+   Runes which glow with a blue light are carved into the stone walls
+of Ancalagor's heart chamber here.  Their magical purity counters his
+evil and makes for a holy balance that is Neutrality.  It seems some
+music lover has set up residence here, judging by all the instruments
+and sheet music floating here.
+~
+18 8|512 0
+D0
+You see the chamber wall dilate open for you, leading to the tunnel beyond.
+~
+~
+0 0 1860
+D5
+A disc of sparking energy opens to the bazaar of Ys.
+~
+~
+0 0 13067
+S
+#1811
+Stone Tunnel~
+   This stone passage is lit by a great light and fierce heat from its
+far end, which lies above.
+~
+18 1|8 0
+D0
+~
+~
+0 0 1807
+D4
+You must cover your eyes rather than peer into the sun-like brightness.
+~
+~
+0 0 1812
+S
+#1812
+Dragon Lung~
+   The nuclear fires that empowered the dragon with its frightful
+breath are here, and though they have been smoldered for so very
+long, they scorch you and make you rue the choice wearing of metal
+armor.
+~
+18 8  0
+D5
+~
+~
+0 0 1811
+S
+#1813
+Ancalagor's Stomach~
+   The dragon's throat ends, revealing a huge cavern lit from below by
+eerie and diffuse lights of yellow and green.  Even more amazingly, a
+wooden bridge spans the the stalactite-roofed cavern!  A steep grade
+leads down to the cavern floor safely enough and the bridge leads
+east.
+~
+18 4|8 0
+D1
+~
+~
+0 0 1814
+D3
+~
+~
+0 0 1860
+D5
+Though steep, the climb down seems arduous, but not overly hazardous.
+~
+~
+0 0 1821
+S
+#1814
+Wooden Bridge~
+   You cannot imagine who would want to build a bridge in this
+fantastic cavern.  Large stalagmites sit and rise up while the eerie
+lights seem to move in the mists below.  The bridge continues to the
+east.
+~
+18 8  0
+D1
+~
+~
+0 0 1815
+D3
+You see the entrance ledge to the stomach chamber.
+~
+~
+0 0 1813
+D5
+The stalagmites look up menacingly at you.
+~
+~
+0 0 1817
+S
+#1815
+Wooden Bridge~
+   You are in the middle of the wooden bridge. Large stalagmites rise
+around you and the eerie lights continue to dance in the mists below.
+The bridge continues to the east and west.
+~
+18 8  0
+D1
+~
+~
+0 0 1816
+D3
+~
+~
+0 0 1814
+D5
+The stalagmites look up menacingly at you.
+~
+~
+0 0 1817
+S
+#1816
+Wooden Bridge~
+   The wood here is old and acid eaten, similar to the rest of the
+bridge. The deadly stalagmites jut up from below and more of the green
+and yellow light can be seen to move in the mists below.  The bridge
+ends at a small plateau to the east.
+~
+18 8  0
+D1
+You see the bridge meet the end of the cavern.
+~
+~
+0 0 1827
+D3
+~
+~
+0 0 1815
+D5
+The stalagmites look up menacingly at you.
+~
+~
+0 0 1817
+S
+#1817
+Stalagmite~
+   You take the plunge and find yourself impaled upon a rainbow hued
+stalagmite.  THAT REALLY HURT!  Your lifeblood seeps from you as you
+thrash your limbs ineffectually to pry your self off.  Things become
+dark...
+~
+18 8 0
+D0
+~
+~
+0 0 1816
+D1
+~
+~
+0 0 1815
+D2
+~
+~
+0 0 1814
+S
+#1818
+Acid Forest~
+   Sharp stalagmites reach up wards, created by the mineral ichors
+dripping off stalactites far above.  Pools of acid fill every crevice
+on the craggy cavern floor.  The cavern continues to the south and
+east.
+~
+18 8 4
+D1
+~
+~
+0 0 1819
+D2
+~
+~
+0 0 1821
+S
+#1819
+Acid Forest~
+   The stalagmites here are large and rainbow-hued, like giants in
+jester's garb.  Puddles of weak stomach acid are pooled on the floor.
+The cavern stretches in all directions but north.
+~
+18 8 4
+D1
+~
+~
+0 0 1820
+D2
+~
+~
+0 0 1822
+D3
+~
+~
+0 0 1818
+S
+#1820
+Acid Forest~
+   Sharp stalagmites reach upwards, created by the mineral ichors
+dripping off stalactites far above.  Pools of acid fill every crevice
+on the craggy cavern floor.
+~
+18 8 4
+D2
+~
+~
+0 0 1823
+D3
+~
+~
+0 0 1819
+S
+#1821
+Acid Forest~
+   You stand before an amazing sight.  Wrapped within the mists here
+on the cavern floor is a forest of oddly shaped stalagmites surrounded
+everywhere by puddles of what must be the remnants of the dragons
+stomach acid.
+~
+18 8 4
+D0
+~
+~
+0 0 1818
+D1
+~
+~
+0 0 1822
+D2
+~
+~
+0 0 1824
+D4
+You see the ledge at the entrance to the stomach cavern.
+~
+~
+0 0 1813
+S
+#1822
+Acid Forest~
+   You are in the center of the dragons stomach cavern.  A wooden
+bridge passes far overhead.  Sharp stalagmites poise here to meet
+those who would drop from it.
+~
+18 8 4
+D0
+~
+~
+0 0 1819
+D1
+~
+~
+0 0 1823
+D2
+~
+~
+0 0 1825
+D3
+~
+~
+0 0 1821
+S
+#1823
+Acid Forest~
+   The stalagmites here are large and rainbow-hued, like giants in
+jester's garb.  Puddles of weak stomach acid are pooled on the floor.
+A steep climb up leads to a large plateau at the end of the cavern.
+~
+18 8 4
+D0
+~
+~
+0 0 1820
+D2
+~
+~
+0 0 1826
+D3
+~
+~
+0 0 1822
+D4
+Apparently it is too steep a climb to go back up.
+~
+~
+0 0 -1
+S
+#1824
+Acid Forest~
+   Mists swirl around strange crystal egg shells here.  The cavern
+continues to the north and to the east.
+~
+18 8 4
+D0
+~
+~
+0 0 1821
+D1
+~
+~
+0 0 1825
+S
+#1825
+Acid Forest~
+   Sharp stalagmites reach upwards, created by the mineral ichors
+dripping off stalactites far above.  Pools of acid fill every crevice
+on the craggy cavern floor.
+~
+18 8 4
+D0
+~
+~
+0 0 1822
+D1
+~
+~
+0 0 1826
+D3
+~
+~
+0 0 1824
+S
+#1826
+Acid Forest~
+   The stalagmites here are large and rainbow-hued, like giants in
+jester's garb.  Puddles of weak stomach acid are pooled on the floor.
+The cavern stretches to the north and west.
+~
+18 8 4
+D0
+~
+~
+0 0 1823
+D3
+~
+~
+0 0 1825
+S
+#1827
+End of the Stomach~
+   The wooden bridge ends here, on a large plateau above the cavern
+floor. The plateau overlooks the entire forest of acid and stone
+below.  A tunnel set in the cavern wall to the east has been shored up
+with a wall of plaster and bones.  Two very large skull-knobbed doors
+have been set in it.
+~
+18 1|8 0
+D1
+You see a huge set of doors fashioned from bones.
+~
+door doors skull~
+1 1819 1861
+D3
+You see the wooden bridge.
+~
+~
+0 0 1816
+D5
+You see a steep climb down to the cavern floor.
+~
+~
+0 0 1823
+S
+#1828
+The Dragons Pancreas~
+   You are in an oddly shaped chamber, what might have been some foul
+organ of Ancalador.  A yellowish light fills the room from nowhere, as
+if only by the dragon's will alone.  The feeling of malignant evil is
+great here, which is only compounded by the large sign overhead which
+reads, 'Memento Mori', or in the common tongue, 'Remember to Die.'
+The chamber has exits worked into it, to the east and down.
+~
+18 8  0
+D0
+You see a fissure in the organ wall.
+~
+fissure~
+1 0 1861
+D1
+~
+~
+0 0 1850
+D5
+~
+~
+0 0 1854
+S
+#1829
+Small Intestine~
+   You enter a featureless tunnel of what must be the beginning of the
+dragon's small intestine.  Small piles of human bones and armor bits
+have been left here.  The tunnel continues north and to the west a
+rougher tunnel can be seen.
+~
+18 1|8 0
+D0
+~
+~
+0 0 1830
+D3
+~
+~
+0 0 1861
+S
+#1830
+Small Intestine~
+   The tunnel twists to the south and to the east.
+~
+18 1|8 0
+D1
+~
+~
+0 0 1831
+D2
+~
+~
+0 0 1829
+S
+#1831
+Small Intestine~
+   The smooth tunnel curves to the west and to the south.
+~
+18 1|8 0
+D2
+~
+~
+0 0 1832
+D3
+~
+~
+0 0 1830
+S
+#1832
+Small Intestine~
+   The blank walls of the tunnel run north and south.
+~
+18 1|8 0
+D0
+~
+~
+0 0 1831
+D2
+~
+~
+0 0 1833
+S
+#1833
+Small Intestine~
+   The tunnel comes from the north and dips sharply downward here.
+~
+18 9 0
+D0
+~
+~
+0 0 1832
+D5
+~
+~
+0 0 1834
+S
+#1834
+Small Intestine~
+   The featureless tunnel leads up and north.  Echo bounce off the
+blank walls, whether from near or far, you cannot tell.
+~
+18 9 0
+D0
+~
+~
+0 0 1835
+D4
+~
+~
+0 0 1833
+S
+#1835
+Small Intestine~
+   Bits of broken equipment from long dead adventurers have been
+collected here.  The tunnel runs north and south.
+~
+18 9 0
+D0
+~
+~
+0 0 1836
+D2
+~
+~
+0 0 1834
+S
+#1836
+Small Intestine~
+   The tunnel bends from the south to the east.  You imagine the
+remains of many a brave warrior who dared the dragon passed here, torn
+and unmourned.
+~
+18 9 0
+D1
+~
+~
+0 0 1837
+D2
+~
+~
+0 0 1835
+S
+#1837
+Small Intestine~
+   The blank walls of the tunnel lead west and south.
+~
+18 9 0
+D2
+~
+~
+0 0 1838
+D3
+~
+~
+0 0 1836
+S
+#1838
+Small Intestine~
+   The smooth tunnel contracts to the south of here into a new tunnel.
+~
+18 9 0
+D1
+~
+~
+0 0 1837
+D2
+The new tunnel seems composed of different textures.
+~
+~
+0 0 1841
+S
+#1841
+Large Intestine~
+   Unlike the the small intestine, the walls here have a nook and
+cranny quality about them.  They are quite rough and dust fills many
+of the spaces.
+~
+18 9 0
+D0
+~
+~
+0 0 1838
+D1
+~
+~
+0 0 1842
+S
+#1842
+Large Intestine~
+   The smell of dust is thick in this section of the tunnel that runs
+to the west and to the north.
+~
+18 9 0
+D0
+~
+~
+0 0 1843
+D3
+~
+~
+0 0 1841
+S
+#1843
+Large Intestine~
+   The rough walls of the tunnel scrape your armor and cuts your
+exposed skin as you travel north or south.
+~
+18 9 0
+D0
+~
+~
+0 0 1844
+D2
+~
+~
+0 0 1842
+S
+#1844
+Large Intestine~
+   The tunnel drops to the east but you find many handholds among the
+nooks and crannies.
+~
+18 9 0
+D1
+~
+~
+0 0 1845
+D2
+~
+~
+0 0 1843
+S
+#1845
+Large Intestine~
+   The roughly hewn tunnel constricts to the south.
+~
+18 9 0
+D2
+~
+~
+0 0 1846
+D3
+~
+~
+0 0 1844
+S
+#1846
+Stony Sphincter~
+   You are in a narrow tunnel, barely able to walk upright without
+knocking your head.  A breeze from the south swirls the dust here and
+you begin to believe that safety is not far off.
+~
+18 1|8|16|64 0
+D0
+~
+~
+0 0 1845
+D1
+~
+~
+0 0 1847
+S
+#1847
+Dragon's Tail~
+   You have never been so happy to see the light of day!  You are by
+the dragon's stone tail, which is covered with green, growing vines
+and small, violet flowers.  The birds sing and you can make out a
+faint path to the west, leading back around the dragon-hill.  A
+skull-topped signpost flanks an unused road to the north.
+~
+18 4 3
+D0
+You see nothing (yet).
+~
+~
+0 0 -1
+D3
+You see a path leading around the dragon, back to it's toothy maw.
+~
+~
+0 0 1802
+E 
+sign signpost~
+The Penultimate Tower of Wizardry was rumored to exist, once, just
+down this road...who knows if this is true?  For though many have went
+on to see, none have returned to claim it true...
+
+--Mercutio the Bard of the Realm
+~
+S
+#1850
+Undead Garden~
+   Shaking shrubberies and quivering palms surround a few skeletal
+trees that make up this gruesome garden.  The shriveled plantlife, set
+in niches within the deformed chamber walls, seem to have all died and
+come back from the afterlife somehow.  Openings in the petrified organ
+wall lead west and down.
+~
+18 8  0
+D3
+~
+~
+0 0 1828
+D5
+~
+~
+0 0 1855
+S
+#1851
+Private Chambers~
+   This small room seems to have been carved by hand from the pancreas
+of Ancalador.  It has some amenities, like a soft bed and a small
+alchemist's workbench, but if the dragon is ever freed from his stone
+prison, he will surely be quite unhappy about this situation. The only
+exit is west.
+~
+18 8  0
+D3
+Outside is the ampitheatre chamber.
+~
+door coffin~
+1 0 1852
+S
+#1852
+Macabre Ampitheather~
+   You are in on a wide, circular ledge overlooking a large slab of
+stone in the chamber below.  Crude seats are fashioned here from the
+surrounding porous rock and the walls are decorated with various
+bonesaws and a quote in blood, 'That fell arrest without bail.'  A
+coffin lid door is set in the east wall, while steps cut into the rock
+lead down and west.
+~
+18 8  0
+D1
+You see a doorway made from a coffin's lid.
+~
+door coffin~
+1 0 1851
+D3
+~
+~
+0 0 1853
+D5
+~
+~
+0 0 1856
+S
+#1853
+Temple to Death~
+   You are in a small shrine in honor of the 'Pale Priest of the Mute
+People.'  Here, Hell's Grim Tyrant is sought as a source of
+inspiration and wisdom by the Guildmembers.  The chamber walls open to
+exits heading down and east.
+~
+18 8  0
+D1
+~
+~
+0 0 1852
+D5
+~
+~
+0 0 1857
+S
+#1854
+Cold Storage~
+   The stink of this storage chamber make you balk at once.  Through
+your nausea you make out cadavers kept cool in niches in the stone
+walls.  Barrels of dust and decanters of blood fill the room.  On the
+wall, in some dark ink, is scrawled, 'That dreamless sleep.'  The
+chamber exits south and up.
+~
+18 8  0
+D2
+~
+~
+0 0 1857
+D4
+~
+~
+0 0 1828
+S
+#1855
+Kennel of the Demised~
+   This chamber of hard stone is empty save for a sturdy iron ring set
+in the floor.  A large, heavy chain with collar at one end is attached
+to the ring.  Small print on the collar reads, 'Quietus.'
+~
+18 8 0
+D2
+~
+~
+0 0 1856
+D4
+~
+~
+0 0 1850
+S
+#1856
+Operating Room~
+   This circular chamber is dominated by a large stone slab in the
+center which bears the stains of countless horrible experiments.  The
+cruel work that goes on here is generally viewed from the ampitheatre
+above by the guild apprentices and patrons.
+~
+18 8  0
+D0
+~
+~
+0 0 1855
+D4
+~
+~
+0 0 1852
+S
+#1857
+Guildhall~
+   This is the largest chamber cut from Ancalagor's pancreas.  A long
+feasting table made of coffins lashed together fills the length of the
+room.  On the wall, in the dried ichor that passes for blood in
+demons, is written, 'A debt we must all pay.'  A set of double
+coffin-lid doors is to the west, and other exits are to the north and
+up.
+~
+18 8  0
+D0
+~
+~
+0 0 1854
+D3
+~
+door doors coffin~
+1 0 1858
+D4
+~
+~
+0 0 1853
+S
+#1858
+The Altar of Annihilation~
+   You stand before the horrific Altar of Annihilation where the magic
+and power of extinguishment and dissolution are full explored.  You
+feel the countless ceremonies of extinction performed here, like a
+gloom that pervades the altar, which looks like a huge rib cage
+centered with a demon's skull.  Before the altar is a black iron
+grating covering a dark pit where the ebb of life is glorified in
+sacrifice.
+~
+18 8 0
+D1
+~
+door doors coffin~
+1 0 1857
+D5
+You can't see much, but you don't like the little you do see.
+~
+grating grate~
+2 1806 1859
+S
+#1859
+The Darken Pit~
+   The very evil of this place seeks to extinguish your light as if
+the gloom had a nefarious soul of its own.  You know true fear as
+something moves in the darkness...toward you.
+~
+18 9 0
+D4
+You see a black iron grating above you.~
+grating grate~
+2 1806 1858
+S
+#1860
+Stone Tunnel~
+   The dragon's throat continues east and west on a path which neither
+rises nor falls.  On the south wall, to the dragon's left, a warmth
+can be felt, followed by a feeling of pure evil.
+~
+18 9 0
+D1
+You see the tunnel open up to a great cavern beyond.
+~
+~
+0 0 1813
+D3
+~
+~
+0 0 1807
+S
+#1861
+Stone Corridor~
+   You are in a circular tunnel of stone.  The walls are irregular and
+pockmarked.  The tunnel continues east and west.
+~
+18 1|4|8 0
+D1
+You see the beginning of a new, smoother tunnel.
+~
+~
+0 0 1829
+D2
+It seems you might be able to pry the fissure open.
+~
+fissure~
+1 0 1828
+D3
+You see the bone doorway leading towards the stomach cavern.
+~
+door doors bone~
+1 1819 1827
+E 
+walls~
+A small fissure appears to be set in the south wall.
+~
+S
+#1862
+Muddy Riverbank~
+   You are on the south bank of a rushing river.  An old, mossy and
+huge stone slab hangs over the riverbank, allowing you to cross
+towards a great forest.  A verdant valley stretches before you to the
+east, while the terrain to the west and south quickly become
+mountainous, and impassible.
+~
+18 0 5
+D0
+You see the forest of Haon-Dor across a roiling river with bits of
+junk floating by occasionally from Hell, to the northeast.
+~
+~
+0 0 6121
+D1
+~
+~
+0 0 1801
+S
+#0
+
+
+
+#RESETS
+M 0 1808 1 1801			hermit
+*
+M 0 1809 2 1804			green slime
+M 0 1809 2 1804			green slime
+*
+M 0 1810 2 1809			flame dweller
+M 0 1810 2 1812			flame dweller
+*
+M 0 1811 5 1818			green spider
+M 0 1811 5 1820			green spider
+E 1 1817 5 9			  (minstrels glove)
+M 0 1811 5 1822			green spider
+M 0 1811 5 1824			green spider
+E 1 1813 7 11			  (arsenal shield)
+P 1 1814 49 1813		  (throwing knives)
+P 1 1814 49 1813
+P 1 1814 49 1813
+P 1 1814 49 1813
+P 1 1814 49 1813
+P 1 1814 49 1813
+P 1 1814 49 1813
+M 0 1811 5 1826			green spider
+*
+M 0 1812 5 1819			yellow spider
+M 0 1812 5 1821			yellow spider
+M 0 1812 5 1823			yellow spider
+M 0 1812 5 1825			yellow spider
+M 0 1812 5 1824			yellow spider
+*
+O 0 1815 1 1824 		pile of midgaard stuff
+*P 1 3021 1 1815			  small sword
+*P 1 3045 1 1815			  scale mail jacket			  
+*P 1 5241 1 1815			  lamia stone (so no 'get all pile')
+*P 1 3076 1 1815			  lth cap
+*P 1 3020 1 1815			  dagger
+*P 1 3075 1 1815			  bronze helm
+*P 1 3030 1 1815			  torch
+*
+M 0 1813 1 1827			warden
+E 1 1816 16 16			  (guisarme)
+G 1 1819 2 			  (granite key)
+D 0 1827 1 2			skull door
+D 0 1861 3 2
+*
+D 0 1828 0 1			fissure
+D 0 1861 2 1
+*
+M 0 1814 8 1830			Umber hulks
+M 0 1814 8 1834
+M 0 1814 8 1837
+M 0 1814 8 1841
+M 0 1814 8 1843
+M 0 1814 8 1844
+*
+M 0 1815 8 1831			Ochre Jellos
+*G 1 3020 99 1815		  (midgaard dag)
+M 0 1815 8 1835
+*G 1 6111 20 1815		  (large shield)
+M 0 1815 8 1838
+*G 1 3051 99			  (yellow potion)
+M 0 1815 8 1841
+*G 1 3065 99 1815		  (leather sleeves)
+M 0 1815 8 1844
+*G 1 5230 3			  (lamia stone)
+M 0 1815 8 1844
+G 1 1818 1 			  (shabby mail)
+*
+M 0 1899 3 1853			Necro
+E 1 1899 15 16			  (grave beater)
+G 1 1802 5 			  (chalice)
+M 0 1806 5 1853			Wraith knight
+E 1 1801 50 16			  (falchion)
+M 0 1806 5 1853			Wraith knight
+E 1 1801 50 16			  (falchion)
+*
+M 0 1899 3 1856			Necro
+E 1 1899 15 16			  (grave beater)
+G 1 1806 1			  (skeleton key)
+M 0 1801 3 1856			Zombie (x2)
+M 0 1801 3 1856
+O 0 1808 1 1856			Pool o' blood
+*
+M 0 1801 3 1828			Zombie
+*
+M 0 1899 3 1857			Necro
+E 1 1899 15 16			  (grave beater)
+G 1 1820 1			  (flesh)
+M 0 1801 3 1857			Zombie
+D 0 1857 3 1			Door to alter
+D 0 1858 1 1
+*
+M 0 1806 5 1854			Wraith knight
+E 1 1801 50 16			  (falchion)
+*
+M 0 1805 2 1850			Undead beetle
+*
+M 0 1804 1 1851			Laz
+E 1 1807 10 16			  (blowgun)
+O 0 1803 1 1851			Coffer
+P 1 1804 20 1803		  (tonic)
+P 1 1805 20 1803		  (elixir)
+*
+D 0 1851 3 1			Door to Laz
+D 0 1852 1 1	
+*
+M 0 1803 1 1858			Morticia
+E 1 1810 20 16 			  (heartseeker)
+E 1 1811 20 11			  (scarab shield)
+M 0 1806 5 1858			Wraith knight
+E 1 1801 50 16			  (falchion)
+M 0 1806 5 1858			Wraith knight
+E 1 1801 50 16			  (falchion)
+M 0 1806 5 1858			Wraith knight
+E 1 1801 50 16			  (falchion)
+D 0 1859 4 2	 		Grating
+D 0 1858 5 2			  (lock from both sides!?)
+*
+M 0 1807 1 1859			Crypt Keeper
+E 1 1812 5 16			  (mace of fred)
+E 1 1809 1 17			  (bloodstone)
+M 0 1802 3 1859			Asps
+M 0 1802 3 1859
+M 0 1802 3 1859
+*
+S
+
+
+#SHOPS
+0
+
+
+#SPECIALS
+M 1806 spec_cast_undead
+S
+
+
+#$

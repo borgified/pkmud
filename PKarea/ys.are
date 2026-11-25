@@ -1,0 +1,4216 @@
+#AREA  Mercutio~
+Ys~
+1 100
+
+
+#MOBILES
+#13001
+watchman guard~
+A Watchman~
+A guard of the Watch of Ys is here, overseeing the peace.
+~
+You see a strong, bored guardsman, looking to forward to the end of his 
+shift, and none too happy with any who would make it any longer.
+~
+64 0 500 P
+3 1
+#13002
+watchman guard~
+A Watchman~
+A guard of the Watch of Ys is here, on sentry duty.
+~
+You see a strong, bored guardsman, looking to forward to the end of his 
+shift, and none too happy with any who would make it any longer.
+~
+2|64 0 500 P
+3 1
+#13003
+captain~
+The Captain of the Watch~
+The Captain of the Watch is here.
+~
+You see large, heavyset man, with dark bread and black curly hair.  His chain
+of office hangs upon his armor which is mostly cuirboulini.  At his side he
+carried his trusted weapon of choice, one which has rarely failed him, by
+the looks of it.
+~
+2|64 8 800 P
+7 1
+#13004
+lady margot sithe~
+Lady Margot Sithe~
+The Lady Margot, the nominal head of the City of Ys is here, overseeing all.
+~
+You see a middle aged woman before you, red hair gone thin and brittle with
+age and rough bleaching.  Her face too, shows the passage of time and the
+worries of government as you note the fine field of crowsfeet wrinkles
+around her eyes.  But, those hard eyes, however, still seem quite young.
+~
+2|128 8 600 P
+5 2
+#13005
+underlord roland~
+The Underlord~
+The Bretton Underlord is here, doing his king's will.
+~
+An imperiously tall man, with a grim pockmarked visage, stands before you.
+As an appointee to oversee this upstart provice of Brettony, one cannot imagine
+he is too happy with his position as chief observer for the crown, but he seems
+to be doing quite well at it, judging from his fine apparel.
+~
+2|4|128 0 -800 P
+5 1
+#13006
+chamberlain~
+The Chamberlain~
+The Head Chamberlain of Government House is here, minding the beaurocracy.
+~
+He seems too busy to notice you.
+~
+130 0 0 P
+7 1
+#13007
+official~
+A petty official~
+A petty official is here, idly flipping the appointments scroll.
+~
+A short, fat man with an apathetic look etched in his face looks upon you.
+~
+130 0 -500 P
+3 1
+#13008
+douglass nobleman~
+Sir Douglass~
+A young nobleman is here, an imperious look upon his proud face.
+~
+You see a young man with bright red hair, sporting a thin, rakishly cut
+beard.  Surely, this must be Sir Douglass, the talk of the town, who's wild
+escapades go unhindered for he is the son of Lady Margot.
+~
+4 0 -600 P
+5 1
+#13009
+pirate advisor man ruffus~
+The swarthy advisor~
+A strong, swarthy man is here, dressed is fine, though bright clothes.
+~
+You see before you Ruffus the famed pirate of the seas, now retired to Ys to
+serve as Her Lady's advisor.  Though a bit on in the years, you doubt that
+age and fine living have soften his skill with a rapier.
+~
+2|4|32|128 0 -50 P
+5 1
+#13010
+nobleman~
+The nobleman~
+A wealthy nobleman is here, his patrician nose turned upwards.
+~
+You see a man with the pale, sharp features of the aristocracy of Ys.
+~
+128 0 0 P
+3 1
+#13011
+tutor~
+The old tutor~
+An old tutor is here, mumbling incoherently.
+~
+You see a haggard old fellow before you.  His features aren't native to Ys, 
+however.  Much too fair of skin and light of frame...perhaps he has some
+farie blood in him?
+~
+2|128 0 200 P
+5 1
+#13012
+son boy~
+The young, pampered boy~
+An aristocrat's young son is here, yawning vividly.
+~
+You see an insolent little brat, raised on the sweat and work of others.
+~
+134 0 -200 P
+1 1
+#13013
+lady~
+M'lady~
+A fine lady of great wealth is here, pointedly ignoring you.
+~
+~
+128 0 0 P
+5 2
+#13014
+poet bard~
+The poet bard~
+A Welsh man is here, reciting poetry and verse with great flourish.
+~
+A travelling bard, a poet, come for a while to impress the gentry and leave
+with some tidy earnings before moving on to the next city or state.
+~
+2|32|128 0 0 P
+5 1
+#13015
+innkeeper~
+The innkeeper~
+The innkeeper, a barrel of a man, is here.
+~
+Big, burly arms rest upon of the inn's bar, meaty hands upon them wiping 
+absently at tankards of quaffed ale, but all the while the innkeeper keeps
+a watch for any of his sloshed patrons about to lose their lunches.
+~
+2 0 0 P
+40 1
+#13016
+wife~
+The innkeeper's wife~
+A wide woman, the innkeeper's wife, is here, handling registrations.
+~
+~
+2|128 0 0 P
+5 2
+#13017
+patron~
+The patron~
+A mead pounding patron is here, quite sloshed by now.
+~
+~
+2 0 0 P
+2 1
+#13018
+vendor~
+The fruit vendor~
+A fruit vendor stands here, by his cart of assorted fruits and vegatables.
+~
+~
+2|128 0 0 P
+40 1
+#13019
+sailor~
+The sailor~
+A weathered sailor is here, going about his business.
+~
+You see a weathered man dressed in durable sack cloth pants tied with a bright,
+gaudy sash.  With rum on his breath and red swollen eyes, this fellow still
+manages to put in a hard days work.
+~
+0 0 0 P
+5 1
+#13020
+worker~
+The dock worker~
+A strong backed dock worker is here, lugging cargo around.
+~
+~
+132 0 0 P
+2 1
+#13021
+wainwright shipmaker~
+The wainwright~
+The wainwright stands here, methodically inspecting planks for woodrot.
+~
+You see an old man of the sea.  His hands and face are both weathered by
+time and the ocean.  Upon his sparsely haired head, he wears a white sailor's
+cap, bleached even whiter by its use in the sun.
+~
+130 0 0 P
+5 1
+#13022
+prisoner impressee~
+The impressee~
+An impressee is here, surrying about with a club.
+~
+You see a man in shackles glummily hopping about.  Between muttered curses
+and the rattling of his chains, the death squeal of a bashed rat can sometimes
+be hear near him.  He seems to be taking his anger for the guards into his 
+work.
+~
+166 0 -300 P
+2 1
+#13023
+rat large~
+The large rat~
+A large, insolent rat is here, gnawing on hemp rope.
+~
+The ever present passager on every sea going vessel.
+~
+128 0 0 P
+1 0
+#13024
+hawker~
+The street hawker~
+A street hawker blares of his fabulous wares for sale here.
+~
+This stubble faced character shouts above the din of his marvelous items for
+sale, like his Ginzoo blade, a rare item from a distant land which comes with
+something called a 'gharontee'?
+~
+196 0 -75 P
+40 1
+#13025
+thief man~
+The lean, surly man~
+A lean, surly looking man is here, glaring straight ahead as he walks by.
+~
+You see a man with dark, dirty blonde hair.  Sinewy muscles cord his lean
+limbs which protrude from dark, course clothing that hides anything beneath.
+~
+0 0 -175 P
+2 1
+#13026
+dockmaster~
+The dockmaster~
+The dockmaster of Ys is here, collecting tithes from those disembarking.
+~
+A shock of salt and pepper hair and a greying beard top this rum bellied man.
+At his side always are a bag for collecting his tithes and a stout club to
+beat sense into newly disembarked junior officers into acting in their 
+captain's 'best interests'.
+~
+2 0 0 P
+5 1
+#13027
+healer~
+The greying healer~
+A greying, blood stained man is here, practicing his art of healing.
+~
+You see an old man with hardened, but wise eyes.  His hands are soft, with
+blood over most of them, but gentle still.  He seems strangely at peace, as
+if he had heard the screams of pain all too often, before.
+~
+66 0 0 P
+5 1
+#13028
+apocrathy~
+The apocrathy~
+The apocrathy, a swarthy Azirian man, is here mixing herbs and spices.
+~
+You see a short, stout man with dark, bronze skin and strikingly light hazel
+eyes.  His manner with people seems crude to even your sensiblities, but his
+knowledge of potions and alchemy is fair, compared to the recalitrant potion
+smiths inside the mysterious Acadamie d'Sorcerie of Ys.
+~
+67 0 0 P
+40 1
+#13029
+mellow bartender~
+The mellow bartenter~
+The mellow looking bartender is here behind the bar.
+~
+This fellow constantly slurs, "Relax, lad, and have another," as he pushes
+another drink along the bartop to his sedate clientele.
+~
+66 0 0 P
+40 1
+#13030
+courtisan prostitute~
+The lovely courtisan~
+The lovely courtisan is here, awaiting a client demurely.
+~
+Older than you would expect, but no less beautiful, the courtisan serves only
+the rich and powerful.  Judging from her display of jewelry, the one she
+truly serves, is herself.  Her accent marks her from Rennes, or possibly
+Paris, but your outlander's ears cannot tell which.
+~
+192 0 0 P
+2 2
+#13031
+metalworker~
+The metalworker~
+The sweaty, soot stained face of the metalworker shines in the light here.
+~
+~
+66 0 0 P
+40 1
+#13032
+leatherworker~
+The leatherworker~
+The patient, quiet leatherworker is here, curing hides.
+~
+~
+66 0 0 P
+40 1
+#13033
+merchant veteran~
+The jaded arms merchant~
+A jaded veteran of many wars is here, now an arms merchant.
+~
+You see the greatest collect of scars this side of Egypt.  But this fellow has
+no time to recount his old war stories, its all about money nowadays.
+~
+66 0 0 P
+40 1
+#13034
+beastmaster~
+The ugly beastmaster~
+The beastmaster, an ugly, horsefaced man, is here training dogs.
+~
+You see a man who looks at home with feral creatures, even a bit feral
+himself.  He wipes drool off his wide, stubbed chin as he rummages for
+his whip.
+~
+66 0 0 P
+10 1
+#13035
+mcgregor~
+Ms. McGregor~
+An aging woman scurries about here, collecting plates and tankards from tables.
+~
+This aging spinster is as tough as the food she serves.  No wonder she never
+found a man brave enough to marry her.  
+~
+66 0 0 P
+40 2
+#13036
+banker merchant~
+The obese banker~
+An obese money merchant is here, counting coins.
+~
+You see tiny, beady eyes inbedded in a fleshy, almost sow-like, face.  The
+many rings upon his fingers flash as he transfers coins from one pile to the
+next. 
+~
+66 0 0 P
+5 1
+#13037
+hanse~
+The Hanse~
+The Hanse is here behind his desk, working dutifully.
+~
+~
+66 0 0 P
+40 1
+#13038
+beggar~
+The diseased beggar~
+A thin, unhealthy looking beggar is here, looking for mercy.
+~
+The beggars eyes are glazed over and his skin is splotchy.  He doesn't have
+long on this world.
+~
+194 0 0 P
+1 1
+#13039
+waif~
+The young waif~
+A small, young waif dressed in rags is here singing softly.
+~
+With a ragged cap atop her head and great sorrowful eyes she sings on in a 
+language of flowing, rounded sylables.
+~
+192 0 0 P
+1 2
+#13040
+prostitute barefoot~
+The barefoot prostitute~
+A barefoot prostitute is here, showing her wares.
+~
+You see slim woman, poor by the looks of it, with quite a few hickies on her
+neck.  Though not beautiful in the strickest sense of the word, she might
+be...passable.
+~
+192 0 0 P
+1 2
+#13041
+thug~
+The thug~
+A thug parades around here, looking like the brute that he is.
+~
+~
+64 0 0 P
+2 1
+#13042
+bully~
+The bully~
+A roughneck bully is here, on his way to enforce some business.
+~
+You see thick necked clod itching to break some bones.  Small, beady eyes
+scan about as he roughly wades through people and debris alike, as if
+searching for some unlucky target.
+~
+6 0 0 P
+3 1
+#13043
+racketeer~
+The Racketeer~
+A shady character is here, with an air of authority about him.
+~
+You see a minor lord the slums.  What fleets and watchmen are on Government
+Hill, grift and bullies are to the Threadbare Quarter.  And this baritoned
+Racketeer rules it with an iron fist, literally.
+~
+163 0 0 P
+4 1
+#13044
+bookmaker~
+The bookmaker~
+A bookmaker is here, desperately trying to forget any scruples he might have.
+~
+This little, dirty man is intent only on collecting wagers.  The bets are on
+which holyman will next displease the religion hungry crowds and be carted off
+down the hill, thus losing his treasured station along Idol Street.  There
+seem to be almost as many wagerers as there are worshipers.
+~
+131 0 0 P
+4 1
+#13045
+drab scullion~
+The drab scullion~
+A drab scullion is here, shopping for salvation, and looking a good deal.
+~
+~
+134 0 0 P
+2 2
+#13046
+prophet~
+The prophet of doom~
+A furious prophet is here, loudly preaching the end of the world.
+~
+"REPENT," cries the prophet with bloodshot eyes, "for the hour of
+doom is upon the world!"  As he grows hoarse from repeating this and
+similar apocyliptic tidings, the crowds lose interest and move
+elsewhere.
+~
+66 0 0 P
+4 1
+#13047
+acolyte~
+The acolyte~
+A humble acolyte is here.
+~
+~
+196 0 0 P
+3 1
+#13048
+holyman~
+The bearded holyman~
+A fervent holyman is drooling spittle upon his beard here, in mid-sermon.
+~
+You see a devoutee of Miratha, an unpopular god here in the north.
+His sermon of Miratha's birth in a small cave, of his rise to glory and
+wisdom, and of his returning from the dead fall upon deaf ears.
+~
+2 0 0 P
+4 1
+#13049
+cleric~
+The mad cleric~
+A mad cleric here, raving of impossible things, to uninterested passer-bys.
+~
+You see a wild eyed man garbed in strange clothes desperately trying to
+recount his visions of horseless chariots and giant iron clad eagles
+who carry men through the sky.  No one pays him any heed.
+~
+2 0 0 P
+4 1
+#13050
+aristocrat~
+The aristocrat~
+An aristocrat is here, slumming.
+~
+~
+192 0 0 P
+3 1
+#13051
+mercenary~
+The lean, mean mercenary~
+A lean, mean looking mercenary is here, waiting for easy work.
+~
+You see a burly, breaded man who would rather beat a man with a sword,
+than the earth with a plowshare.
+~
+68 0 0 P
+3 1
+#13052
+philosopher~
+The shaven philosopher~
+A philosopher with a shaven pate is here, scoffing.
+~
+You see soft, weak man with the characteristically shaved head of a 
+philosopher and  bearing a philosophers small black baton.  He seems to be
+scoffing at everything in a nearby sermon, calling it metaphysical drooling.
+~
+2|128 0 0 P
+4 1
+#13053
+dog fido~
+The mangy dog~
+A mangy dog is here, baring teeth while slinking away.
+~
+You see a wretched, shaggy haired canine somewhat hungrier than the other
+inhabitants of this place.
+~
+64 0 0 P
+1 0
+#13054
+priest~
+The hedonistic priest~
+A smiling priest, proclaiming salvation through pleasure, is here.
+~
+He proclaims loudly that only through sex and drink and loud, racious music 
+can one know true happiness.  He seems to be attracting a large crowd.
+~
+66 0 0 P
+4 1
+#13055
+believer~
+The true believer~
+A true believer is here, nodding guilelessly to the preacher of her choice.
+~
+~
+146 0 0 P
+2 2
+#13056
+laborer~
+The laborer~
+A tired and spent laborer is here, looking to ease his hard life.
+~
+You see a broad shouldered man with a decent belly nonetheless. Dull, 
+hopeless eyes stare out of a grimy, creased face as if by force of 
+habit alone.
+~
+6 0 0 P
+2 1
+#13057
+archpriest~
+The Archpriest of Taranis~
+The Archpriest of Taranis is here, looking formal and solemn.
+~
+You see a middle aged man with redish brown hair in sober robes.  He
+seems wise and serene, more so than one would expect from a cleric
+of the tempest god.
+~
+2|64|1024 0 0 P
+4 1
+#13058
+smuggler drunk~
+The drunken smuggler~
+A drunken smuggler is here, cackling at dirty jokes in between draughts.
+~
+You see a filthy and malodorous seaman, with scars along his face and a
+few teeth missing.  He looks like he would smuggle anything and anyone,
+for a price.
+~
+166 0 0 P
+3 1
+#13059
+greasy bartender~
+The greasy bartender~
+The greasy bartender serves watered down drinks here, one hand under the bar.
+~
+You see a large and fat bartender.  His wide, round head is shaven leaving
+only a stubbed sheen over a tense brow, knotted no doubt by your presence
+here.
+~
+66 0 0 P
+40 1
+#13060
+guildmaster rogue~
+The one-eyed guildmaster~
+A one-eyed rogue, guildmaster of the Freehold is here, fingering his blade.
+~
+You see the self proclaimed master thief of the Rogue's Freehold.  Many
+a heist and much booty has he seen, but these days he is content to allow
+others to do his work for him.  The word has it he even instructs aspiring
+filchers, for a share of any loot of course.
+~
+2|64|1024 0 0 P
+12 1
+#13061
+bodyguard~
+The bodyguard~
+A foul smelling bodyguard stands poised here.
+~
+You see large keltic man before you, who scratches himself as he gazes about
+with disinterest.
+~
+2 0 0 P
+4 1
+#13062
+sleek catburglar~
+The sleek catburglar~
+A sleek, slender woman with feline features is here, inspecting her nails.
+~
+Despite short hair and men's clothing, both pitch black, you notice this is 
+not any ordinary burglar, but a sleek, supple, yet dangerous beauty.
+~
+192 0 0 P
+3 2
+#13063
+assassin man~
+The impassive man~
+A silent man is here, watching impassively as if a golem.
+~
+This plain looking fellow has no expression on his face.  The thought of
+provoking this emotionless, stolid fellow chills you somehow.
+~
+66 0 0 P
+3 1
+#13064
+sewerslug~
+The sewerslug~
+A mildly loathesome looking sewerslug is here, smelling very loathesomely.
+~
+~
+0 0 0 P
+1 0
+#13065
+beast~
+The cave beast~
+An olive furred bear-sized beast snaps its beak at you hungrily.
+~
+This hulking brute stares at you with dim, little eyes and considers if
+you are food or not.  It is probably a scavanger, feeding on cast off refuse
+or the little it can find in the barren countryside, but its wide clawing
+paws and serrated beak can still be dangerous, unless it's hunger is 
+appeased.
+~
+7 0 0 P
+5 0
+#13066
+dog~
+The hunting dog~
+A hunting dog is here sniffing eagerly.
+~
+You see a lean hunting hound filled with boundless energy.
+~
+2 0 0 P
+2 1
+#13067
+hawk~
+The hawk~
+A bird of prey is here, wearing a cute little helmet.
+~
+~
+2 8 0 P
+1 1
+#13068
+horse~
+The riding horse~
+A light riding horse is here.
+~
+~
+2 0 0 P
+2 1
+#13069
+shrew~
+The shrew~
+A barely tamed shrew is here gnawing at its leash.
+~
+You see a ferocious little creature who wasn't really domesticated.
+~
+2 0 0 P
+3 1
+#13070
+healer~
+The healer of Ys~
+An ancient cleric is here helping out adventurerers.
+~
+He looks fairly nasty although old and retired, better not mess with him.
+~
+2|64 8|128 1000 P
+40 1
+#0
+
+
+
+#OBJECTS
+#13001
+key~
+A key~
+A silver key with the seal of Ys in the handle lies here.~
+~
+18 0 16385
+0 0 0 0
+1 1 200
+#13002
+key~
+A key~
+A black iron key with the seal of Ys in the handle lies here.~
+~
+18 0 16385
+0 0 0 0
+1 1 200
+#13003
+beer keg brew~
+a portly keg~
+A portly keg of brew has been left here.~
+~
+17 0 1
+50 50 1 0
+65 2334 10
+#13004
+beer brew bottle~
+a bottle~
+A bottle of brew has been left here.~
+~
+17 0 1
+8 8 1 0
+10 160 8
+#13005
+ale bottle dark~
+a bottle~
+A dark bottle of ale has been left here.~
+~
+17 0 1
+1 1 3 0
+10 1500 3
+#13006
+brandy bottle square~
+a square bottle~
+A bottle of fine Hybernian brandy has been left here.~
+~
+17 0 1
+1 1 7 0
+10 400 17
+#13007
+rotgut bottle~
+a bottle~
+A dark bottle of the local rotgut has been left here.~
+~
+17 0 1
+8 8 8 0
+10 1040 7
+#13010
+bread rye~
+a rye bread~
+A loaf of rye bread has been left here.~
+~
+19 0 1
+12 0 0 0
+1 10 10
+#13011
+carrot fruit~
+a carrot~
+A dirt encrusted carrot has been placed here.~
+~
+19 0 1
+5 0 0 0
+1 5 5
+#13012
+meatpie~
+a meatpie~
+A tasteless looking meatpie has been dropped here.~
+~
+19 0 1
+15 0 0 0
+1 15 15
+#13013
+mutton~
+a hunk of mutton~
+A hunk of mutton has been set here.~
+~
+19 0 1
+10 0 0 0
+1 10 10
+#13014
+rutabaga~
+a rutabaga~
+A tasty rutabaga have been left here.~
+~
+19 0 1
+5 0 0 0
+1 5 5
+#13015
+potato~
+a potato~
+A baked potato is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10
+#13020
+knife~
+a knife~
+A long knife with a dirty blade is here.~
+pierce~
+5 0 8193
+0 2 4 11
+1 10 10
+#13021
+sabre~
+an elegant sabre~
+A noble's dueling sabre lies here.~
+slash~
+5 0 8193
+0 1 6 11
+3 60 10
+#13022
+sword broad~
+a broad sword~
+A grim looking broad sword has been left here.~
+slash~
+5 0 8193
+0 1 8 3
+8 600 10
+#13023
+club stout~
+a stout club~
+A wieghty club is here looking like it will fit your grip nicely.~
+pound~
+5 0 8193
+0 1 3 7
+3 12 10
+#13024
+mallet~
+a large mallet~
+A large mallet is here, cast upon the ground.~
+pound~
+5 0 8193
+0 1 5 7
+6 50 10
+#13025
+blackjack~
+a blackjack~
+A mean looking blackjack has been forgotten here.~
+pound~
+5 0 8193
+0 2 4 7
+6 625 10
+#13026
+cane~
+a wooden cane~
+A wooden cane with a gnarled knobby handle has been left here.~
+pound~
+5 0 8193
+0 1 3 7
+3 12 10
+#13027
+rapier~
+a rapier~
+A thin rapier with a large guard lies here upon the ground.~
+slash~
+5 0 8193
+0 2 5 3
+3 60 10
+A
+17 -5
+#13028
+whip~
+a black whip~
+A whip of black leather is coiled upon the ground here.~
+strike~
+5 0 8193
+0 1 8 2
+3 50 10
+#13030
+torch~
+a torch~
+An oil soaked rag set upon a shaft of wood lies here.~
+~
+1 0 16385
+0 0 24 0
+1 10 10
+#13031
+lamp~
+a small lamp~
+A small brass oil lamp has been left here.~
+~
+1 0 16385
+0 0 96 0
+1 50 10
+#13032
+sack bag~
+a sack~
+A rude sack is here.~
+~
+15 0 16385
+50 0 0 0
+2 20 10
+#13033
+case~
+a case~
+A small wooden case with metal fittings is here.~
+~
+15 0 16385
+10 0 0 0
+5 50 10
+#13034
+desk~
+the fine desk~
+The banker's fine oaken desk imposes upon half the room here.~
+~
+12 0 1
+0 0 0 0
+5000 100 100 
+E
+desk oaken fine~
+It's large with a black finish that shines like greed.
+~
+#13035
+fountain water~
+the public fountain~
+The large public fountain here gathers a crowd of gulls and people.~
+Seagulls wheel overhead while buyers and sellers stop their haggling for
+a moment to take a sip from this large fountain, carved of rough grey stone.
+A statue of a buxom mermaid sits in the center of the mossy fountain.
+~
+25 64 0
+999999 999999 15 0
+9999 0 0
+#13041
+chain mail coat~
+a chain mail coat~
+A chain mail coat is lying on the ground, in good repair.~
+~
+9 0 9
+5 0 0 0
+60 250 50
+#13042
+shield round~
+a small round shield~
+A small round shield is lying on the ground.~
+~
+9 0 513
+2 0 0 0
+3 100 10
+#13043
+jerkin soft leather~
+a leather jerkin~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9
+2 0 0 0
+10 200 10
+#13044
+vest leather~
+a cuir bouilli vest~
+A stiff boiled-leather vest is lying on the ground.~
+~
+9 0 9
+3 0 0 0
+20 500 10
+#13045
+jacket studded~
+a studded leather jacket~
+A long, metal-studded cuir bouilli jacket is lying on the ground.~
+~
+9 0 9
+4 0 0 0
+40 100 10
+#13046
+dented breast plate~
+a dented breast plate~
+A well worn breast plate has been discarded here.~
+~
+9 0 9
+4 0 0 0
+80 700 100
+#13051
+elixir foxglove potion~
+an elixir of foxglove~
+An elixir with a faint scent of foxglove has carelessly been left here.~
+~
+10 64 16385
+12 19 -1 -1
+1 2000 10
+#13052
+tonic peppermint potion~
+a tonic of peppermint~
+A small vial of peppermint tonic has been left here.~
+~
+10 64 16385
+12 -1 -1 -1
+1 100 10
+#13055
+cloak dark~
+a dark cloak~
+A dark cloak has been cast away here.~
+~
+9 0 1025
+2 0 0 0
+5 15 5
+#13056
+cloak sable~
+a sable trimmed cloak~
+A fashionable cloak trimmed in sable fur lies here.~
+~
+9 0 1025
+1 0 0 0
+5 190 5
+#13057
+cloak red ermine~
+a red ermine trimmed cloak~
+An ermine trimmed cloak in royal red has been left here.~
+~
+9 0 1025
+3 0 0 0
+5 500 5
+#13060
+galleon ship~
+a large galleon~
+A large galleon with strong stern and forecastles sails here.~
+~
+22 0 0
+0 0 0 0
+999 40000 10
+E
+galleon ship~
+The galleon is a three masted ship used for ocean sailing.
+~
+#13061
+caravel ship~
+a small caravel ~
+A light caravel is here, ready to plow the seas.~
+~
+22 0 0
+0 0 0 0
+32 100 100
+E
+caravel ship~
+The caravel is fairly light vessel used for sea work.
+~
+#13063
+skull~
+a skull~
+A human skull is strewn upon the floor here.~
+~
+12 0 81921
+0 0 0 0
+1 1 1
+#13064
+coronet~
+a silver coronet~
+An enscribed coronet fashioned from pure silver is here.~
+~
+9 64 17
+7 0 0 0
+1 900 15
+#13065
+ring~
+a silver ring~
+A plain silver ring has been dropped here.~
+~
+30 0 3
+0 0 0 0
+1 80 25
+#13066
+ring~
+a jeweled ring~
+A lost jeweled ring is here upon the ground.~
+~
+30 0 3
+0 0 0 0
+1 400 25
+#13067
+sandals~
+the jeweled sandals~
+A pair of jeweled sandals lies strewn here.~
+~
+30 0 65
+0 0 0 0
+1 150 50
+#13068
+baton wand~
+a black baton~
+A philosopher's black wand has been dropped here.~
+~
+12 0 81921
+0 0 0 0
+1 25 1
+#13069
+tiara elegant~
+an elegant tiara~
+An elegant tiara has been dropped here.~
+~
+9 0 17
+1 0 0 0
+1 250 75
+#13070
+gauntlets iron~
+a pair of iron gauntlets~
+A pair of iron gauntlets is lying on the ground.~
+~
+9 0 129
+6 0 0 0
+8 175 100
+#13071
+gloves leather~
+a pair of sturdy gloves~
+A pair of sturdy leather gloves is lying on the ground.~
+~
+9 0 129
+13 0 0 0
+3 75 10
+#13075
+helmet bronze~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17
+6 0 0 0
+8 350 100
+#13076
+skullcap leather~
+a leather skullcap~
+A harden leather skullcap is lying on the ground.~
+~
+9 0 17
+13 0 0 0
+3 150 10
+#13077
+sign~
+a sign~
+Type LOOK for a map of PKmud.~
+~
+12 0 0
+0 0 0 0
+0 0 100
+#13078
+sign~
+a sign~
+Type HELP MAILING LIST for how to get on our game scheduling list.~
+~
+12 0 0
+0 0 0 0
+0 0 100
+#13080
+chainmail skirt~
+a chainmail skirt~
+A heap of chainmail is lying on the ground.~
+~
+9 0 33
+4 0 0 0
+8 350 100
+#13081
+leggings leather~
+some cuir bouilli leggings~
+A pair of cuir bouilli leggings are lying on the ground.~
+~
+9 0 64
+13 0 0 0
+8 150 10
+#13082
+frock~
+a thin frock~
+A think frock has been cast aside here.~
+~
+9 0 9
+1 0 0 0
+8 3 1
+#13083
+pants sackcloth~
+some sackcloth pants~
+A pair of course sackcloth pants has been discarded here.~
+~
+9 0 33
+2 0 0 0
+8 3 1
+#13084
+trousers blue~
+some deep blue trousers~
+A pair of deep blue trousers have been left here.~
+~
+9 0 33
+1 0 0 0
+8 3 1
+#13085
+sleeves studded~
+a pair of studded sleeves~
+A pair of cuir bouilli sleeves bearing metal studs are lying on the ground.~
+~
+9 0 257
+4 0 0 0
+8 175 100
+#13086
+sleeves leather~
+a pair of doeskin sleeves~
+A pair of doeskin sleeves are lying on the ground.~
+~
+9 0 257
+2 0 0 0
+4 75 10
+#13087
+shirt white~
+a billowing white shirt~
+A fine white shirt is lying on the ground.~
+~
+9 0 9
+1 0 0 0
+4 20 3
+#13088
+coat tails~
+a coat with tails~
+A deep blue coat with tails is lying on the ground.~
+~
+9 0 9
+2 0 0 0
+4 26 5
+#13089
+owl~
+a grey owl~
+A placid owl has sits here, unmoving.~
+~
+15 0 81921
+2 0 0 0
+1 1 1
+E
+owl~
+Upon closer examination, it appears to be stuffed.
+~
+#13090
+sash tartan~
+a tartan sash~
+A red and green tartan sash has been dropped here.~
+~
+9 0 2049
+1 0 0 0
+4 3 1
+#13091
+jug water~
+a large jug~
+A large redden jug has been left upon the ground here.~
+~
+17 0 16385
+15 15 0 0
+16 700 1
+#13092
+scroll of recall~
+a scroll of recall~
+A scroll flutters in the breeze.~
+~
+2 0 16385
+30 42 0 0
+5 667 10
+#13093
+scroll of identify~
+a scroll of identify~
+A scroll flutters in the breeze.~
+~
+2 64 16385
+30 -1 0 0
+5 10 10
+#13094
+scroll of improved identify~
+a scroll of improved ientify~
+A scroll flutters in the breeze.~
+~
+2 64 16385
+30 -1 0 0
+5 200 10
+#13095
+clear red potion~
+a clear red potion~
+a clear red potion has been dropped here.~
+~
+10 64 16385
+30 42 0 0
+5 750 10
+#13096
+board unkempt bulletin~
+an unkempt bulletin board~
+A bulletin board, composed of notices pinned to the wall by daggers, is here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+#13097
+board frozen bulletin~
+a frozen bulletin board~
+A large bulletin board is here, carved from a block of ice.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+#13098
+board holy bulletin~
+a holy bulletin board~
+A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+~
+13 0 0
+0 0 0 0 
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+#13099
+board bulletin~
+a bulletin board~
+A large bulletin board is mounted on a wall here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+#0
+
+#ROOMS
+#13000
+The Ys Map Room~
+.
+                                Map of PKmud        +---------+
+                                ````````````        |    N    |
+                                 by Stryfe          |  W-+-E  |
+       To harpy-land           ``````````````       |    S    |
+               \                                    +---------+
+                Sea Of-------------Ys
+                Jawan               |
+                |                   +----+------Kerofk------+---New Thalos
+                |                   |                       |        |
+             Keep of                |      Dragon Tower   Anapest    |
+            Mahn-Tor                |      |                       Desert
+                             Shire  |      Mor           Old Thalos--+
+   High   Mage                 |    | Enfan|
+   Tower  Tower   +--Forest----+--HELL-----#-
+     |       |____|           Miko's__|    |
+      \_____/                Castle   Elemental
+           |                           Canyon
+         Swamp
+
+
+	**Notes:  - Sewers can be reached by going down in either Hell
+		    or Ys.
+		  - DarkFriends Guild is in New Thalos... quite possibly
+		    near the thieves' guild there.
+		  - # means that you have to go down to get to Dwarf Kingdom.
+		  - Keep on the look-out for water-ways between Hell and
+		    New Thalos
+~
+13 0 1
+D5
+~
+~
+0 -1 13067
+S
+#13001
+Inn of the Drinking Whale~
+  Your first recollections concerning the costal city of Ys will always be of
+the many groggy awakenings here at the Inn of the Drinking Whale, named not so
+much as for any sea faring behemoth, as for it's patrons, who seemingly drink
+like whales.  Picking your throbbing head off the table, you force your eyes
+to focus upon what looks like a MAP carved on it's wooden surface.  The stout
+door to the south leads to the bazaar and there is a small side door in the
+east wall leading to the wharf.  You can go up to rent a room for the night,
+or stay here and order another round...
+~
+13 0 1
+D2
+Through the grimy port-hole windows of the door your glimpse a wide open area.
+~
+~
+0 -1 13063
+D3
+The tang of saltspary wafts in through this seedy getaway door.
+~
+~
+0 -1 13057
+D4
+~
+~
+0 -1 13124
+E
+map~
+.		              CITY of YS
+.		              ----------
+.
+.		Lantlan Ocean
+.		            \       Pub   Merchant's
+.		           Wharf   &Inn    Quarter
+.		            /         \   /
+.		     Acadamie        Bazaar
+ .		   d'Sorcerie        |  | \
+.		             Threadbare |  Government Hill
+ .		              Quarter   |
+.		                 /      Rosemead Blvd
+ .              		Idol          |
+.		              Street        Southgate
+.
+.		 (to find one's guild, use help guild)
+~
+S
+#13002
+High Street on Merchant's Hill~
+   This avenue in the Merchant's Quarter leads west and south.  As you walk
+along, you note the shops are in good repair, their owners being not in great
+want (for merchants, anyway).  Stairs cut in the hill lead to a wider street 
+below.
+~
+13 0 1
+D2
+~
+~
+0 -1 13004
+D3
+~
+~
+0 -1 13112
+D5
+~
+~
+0 -1 13024
+S
+#13003
+First Bank of Ys~
+   Invisible bonds tie the powerful trading empire within Ys together, and 
+here is their nexus.  The shuffle and and bustle of the city outside is kept
+away from here, where stiff clerks count the coins of the city's elite. 
+ ~
+13 0 1
+D1
+~
+~
+0 -1 13004
+D2
+~
+~
+0 -1 13006
+S
+#13004
+High Street~
+   You are a street which winds near the top of Merchant's Hill.  Bronze
+plated doors open westward to the Bank of Ys.  The street continues north
+and a small walkway to the south leads to another hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13002
+D2
+Fine stonework makes the narrow walkway, though pitted with age.~
+~
+0 0 13106
+D3
+~
+~
+0 -1 13003
+S
+#13005
+High Street~
+   A thin street with the customary lack of side walks or sanitation leads 
+east, although it seems cleaner than the rest of Ys.  Steps lead down to a 
+larger, though no less busier street below.
+~
+13 0 1
+D1
+~
+~
+0 -1 13006
+D5
+~
+~
+0 -1 13032
+S
+#13006
+High Street~
+   High priced doxies and vendors hawk their wares along this cobbled avenue.
+To the west the avenue continues, to the east the stately doors of the Bank
+of Ys open for business.  The rabble press and pull you constantly, like a 
+leaf in the stream of industry.
+~
+13 0 1
+D0
+~
+~
+0 -1 13003
+D3
+~
+~
+0 -1 13005
+S
+#13007
+Knife's Office~
+  You are in the seat of the government of Ys.  Offical parchments and edicts 
+are strewn about the wide tables that line the back wall.  Atop a short dias
+is a massive wooden chair with a high back and a red finish.  Obviously, audiences, if granted, are also held here.
+~
+13 0 1
+D2
+~
+double doors~
+2 -1 13010
+S
+#13008
+The Arborium~
+   Among the flora of the city's finest arborium are small shrines to the
+gods of Ys.  Taranis, of course, is chiefly represented, but so too are Loth
+the Silver Handed, and Belenos, the warrior.  A narrow bridge crosses the
+plaza from here, to another hilltop.
+~
+13 0 1
+D0
+The bridge is made of fine stonework, narrow but solid.~
+~
+0 0 13104
+D2
+A black metal gate, tinged green with time, leads to a great cathedral.
+~
+gate~
+1 0 13011
+S
+#13009
+Government House~
+   The summit, if such a round hill can be said to have one, is dominated by
+the grey and white marble of Government House, seat of authority in Ys granted
+by the King of Brettony, for Ys is still under Bretton's flag, if only in name.
+Steps down lead outside, the central hall is to the east.
+~
+13 0 1
+D1
+~
+~
+0 -1 13010
+D5
+~
+~
+0 -1 13047
+S
+#13010
+Government House~
+   You are in a large intersection of carpeted hallways.  Though impressive and
+grand in design, the house of Ysan government has been worn by the passage of
+many decades and the boots of many lawmakers.  The enterance lies to the west,
+while the hallways also extend to chambers south and north of here.
+~
+13 0 1
+D0
+Large double doors head north, framed by shields bearing the seal Ys.
+~
+double doors~
+2 13001 13007
+D2
+The hallway ends shortly at another set of double doors.
+~
+double doors~
+1 -1 13012
+D3
+~
+~
+0 -1 13009
+S
+#13011
+The Cathedral~
+   Shining like a city on a hill itself, is the grand cathedral of Ys.  As
+you enter the main hall, the shouts and prayers of the crowds below drift
+away, as if you'd been transported to some marbled den of peace.  The hall
+extends it's pillars to the north and south.
+~
+13 0 1
+D0
+At the end of the pillars, a black metal gate opens into a green, open area.
+~
+gate~
+1 0 13008
+D2
+~
+~
+0 -1 13014
+D5
+~
+~
+0 -1 13049
+S
+#13012
+The Underlord's Office~
+   The nominal advisor from Brettony resides here in this plush office.  Fine
+wooden desks and tables take up but a small fraction of the room, the rest
+being left spaciously carpeted.  Though holding no real power, the underlord
+must surely command influence in the affairs of state, judging by this place.
+~
+13 0 1
+D0
+~
+double doors~
+1 -1 13010
+S
+#13013
+The Altar~
+   You stand before the shining altar of Taranis, the Keltic counterpart of
+the Roman Jupiter.  Odes to his great deeds as the head of the Keltic 
+pananthelon are scribed upon the marble walls of this great place.  
+~
+13 0 1
+D1
+~
+~
+0 -1 13014
+S
+#13014
+Cloisture~
+  The great hall to the north terminates here and arched entryways offer
+access to a large marbled chamber to the west.  The walls here are hung with
+depictions of the gods and goddesses of Ys.  Among them is Loth the Many
+Skilled, who in his role as sea god, is prayed to in the blessing of the
+fleet and for protection from the flooding of the seagates.
+~
+13 0 1
+D0
+~
+~
+0 -1 13011
+D3
+~
+~
+0 -1 13013
+S
+#13015
+The Apocrathy's Shop~
+   Strange spells eminate from the multitude of flasks and beakers which line
+the shelves of this small square store.  Tentacles and newt eyes seemed to be
+stockpiled inside the containers, as well as swirling concoctions of who
+knows what else.
+~
+13 0 1
+D1
+~
+~
+0 -1 13016
+S
+#13016
+Low Road~
+   You travel along the low road of Merchant's Hill.  A single storied tower
+is to the west, preceded by a sign reading 'Apocrathy for Hire.'  The busy
+road hugs the hill as it moves from south to east.
+~
+13 0 1
+D1
+~
+~
+0 -1 13017
+D2
+~
+~
+0 -1 13022
+D3
+~
+~
+0 -1 13015
+S
+#13017
+Sea Scape on the Low Road~
+   As you stroll through the sea of elbows and shoves, you pause to gaze down
+from your vantage point on the hill, over the black-grey citywall, to a 
+beautiful site.  Be it day or night, the waters of the Avillion Channel seem
+to shimmer in the straylight.  Too bad the denizens of Ys are too immersed
+in their own schemes to notice.
+~
+13 0 1
+D1
+~
+~
+0 -1 13018
+D3
+~
+~
+0 -1 13016
+S
+#13018
+Low Road~
+   You walk upon the trampled cobblestones of Merchant's Hill.  A bright red
+and green sign proclaim the stout building to the east to be the drinking hall
+of the The Stagger Inn, a local favorite.  The low road continues west and
+south.
+~
+13 0 1
+D1
+~
+~
+0 -1 13019
+D2
+~
+~
+0 -1 13024
+D3
+~
+~
+0 -1 13017
+S
+#13019
+Stagger Inn~
+   Long tables take up most the room of this hall.  Busty serving wenches make
+their way between them, hauling huge tankards of ale and stronger stuff.  The
+light inside is dim and murky, which suits the patrons just fine.
+~
+13 0 1
+D3
+~
+~
+0 -1 13018
+S
+#13020
+The Kennels~
+   Barks and howls, mewls and chirps explode before you, as you stand in the
+ground floor chamber of this small stone building.  It's dark stone floor is
+marred with bird rime and fouled rags.  Amid the tangle of noisy cages and
+scratched at boxes sits a small, low desk.
+~
+13 4096 1
+D3
+~
+~
+0 0 13025
+S
+#13021
+Lazloth's Office~
+   You are squeezed inside an uncomfortable cage, ready to be sold.  Other
+animals surround you, awaiting a similar fate: to be sold.
+~
+13 0 1
+S
+#13022
+Low Road~
+   You are on a the low road in the Merchant's Quarter.  It winds around shops
+and stalls through haphazardly in the way, though it runs roughly north and
+south.  From the east comes the strong odor of the Leatherworker's Shop.
+~
+13 0 1
+D0
+~
+~
+0 -1 13016
+D1
+~
+~
+0 -1 13023
+D2
+~
+~
+0 -1 13027
+S
+#13023
+Ye Olde Leather & Hide Shoppe~
+   You smell the distict odor of dead cow all around you.  This shop has
+many dried and cured hides hanging about on hooks.  Some are raw in form,
+some fashioned into armors, a few of the metal studded variety.  Whips and
+straps are also evident, for the liberal minded.  A low door to the west
+least out.
+~
+13 0 1
+D3
+~
+~
+0 -1 13022
+S
+#13024
+Low Road~
+   The hillside winds steeply here, the low road almost keeping up with it.
+Another path leads up the hill, though, to another street.  The low road
+continues north and east.  The buildings here are squat and stone affairs.
+~
+13 0 1
+D0
+~
+~
+0 -1 13018
+D1
+~
+~
+0 -1 13025
+D4
+~
+~
+0 -1 13002
+S
+#13025
+Low Road~
+   Wafts of fresh bread and sour wine float out from the shops of the hill.
+What floats out of the gutters surrounding them, and --look out-- being
+dumped from the second story windows, is much less pleasant smelling.  A 
+great deal of barking and howling can be heard from the unmarked building to
+the east,  the road leads south and west.
+~
+13 0 1
+D1
+~
+~
+0 0 13020
+D2
+~
+~
+0 -1 13030
+D3
+~
+~
+0 -1 13024
+S
+#13026
+Merchant's Hill~
+   You are on the hill which holds most of the Merchant's Quarter of Ys.  The
+whole hill is laced with roadwork, which is travelled heavily.  To the east
+is one such road running north-south.  Down from this hill you see the teeming
+masses gathered at the Bazzar.
+~
+13 0 1
+D1
+~
+~
+0 -1 13027
+D5
+~
+~
+0 -1 13064
+S
+#13027
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.  An edifice to the west is labled Ms. McGregor's House of Fine Cuisine.
+The street continues north and south, with a short walk to the base of the 
+hill to the west.
+~
+13 0 1
+D0
+~
+~
+0 -1 13022
+D1
+~
+~
+0 -1 13028
+D2
+~
+~
+0 -1 13032
+D3
+~
+~
+0 -1 13026
+S
+#13028
+Ms. McGregor's House of Fine Cuisine~
+   Swill is more like it.  But, being one of the few dining establishments in
+Ys, visitors and citizenry alike settle for its fare.  The foods only redeeming
+quality is that is hot, brown, and there's plenty of it.  The wooden eating 
+hall opens out to a cobbled street to the west.
+~
+13 0 1
+D3
+~
+~
+0 -1 13027
+S
+#13029
+The Metalworker's Guild~
+   The clang of hammer on iron is deafing.  It is a wonder any business is
+conducted in the shop of the guild, what with all the clamor.  Despite the
+noise though, you note the metalworker's have turned a nice profit, as the
+jeweled rings shine in the light of the main furnace here.
+~
+13 0 1
+D1
+~
+~
+0 -1 13030
+S
+#13030
+Low Road~
+   You are on the low road in the Merchant's Quarter.  The road runs south and 
+north along the hillside.  Through the din of the crowds nearby, you see a 
+light grey stone building in good repair to the west.  From it's doorframe
+hangs an iron breast plate.  Obviously the Metalworker's Guild.
+~
+13 0 1
+D0
+~
+~
+0 -1 13025
+D2
+~
+~
+0 -1 13035
+D3
+~
+~
+0 -1 13029
+S
+#13031
+The Healer's House~
+   This is definitely the place for a good, healthy bloodletting.  Various
+bonesaws, with dried blood staining them, adorn the walls.  A thick wooden 
+table with deep gouges and more blood stains fills most of the chamber. 
+Beside the table is a small baskets, its bottom stained black, by the blood
+draining out of the extracted limbs within it.
+~
+13 0 1
+D3
+~
+~
+0 0 13035
+S
+#13032
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13027
+D1
+~
+~
+0 -1 13033
+D4
+~
+~
+0 -1 13005
+S
+#13033
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.
+~
+13 0 1
+D1
+~
+~
+0 -1 13034
+D2
+~
+~
+0 -1 13036
+D3
+~
+~
+0 -1 13032
+S
+#13034
+The Hanse~
+   This small branch of the Hanseatic League appears to be little more than
+a one room trading establishment.  Teutonic dislike being what it is here,
+it seems that even this modest outpost was fait accompli for the master
+merchants of the Hanse.  Shelves and tables, packed and stacked, provide
+little walkway between them, but shrewd customers plow through somehow, 
+despite it all.
+~
+13 0 1
+D3
+~
+~
+0 -1 13033
+S
+#13035
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13030
+D1
+~
+~
+0 0 13031
+D2
+~
+~
+0 -1 13038
+S
+#13036
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13033
+D1
+~
+~
+0 -1 13037
+S
+#13037
+Low Road~
+   You are on a busy street of commerce. Like almost all streets in Ys, it 
+lacks a sidewalk, so pedestrians fend for themselves against horses and 
+carriages.  It does, though, have a gutter cut into it which leads down the
+hill.
+~
+13 0 1
+D1
+~
+~
+0 -1 13038
+D2
+~
+~
+0 -1 13044
+D3
+~
+~
+0 -1 13036
+S
+#13038
+Low Road~
+   Push and shove seems to be the local custom.  With a casual invasion of
+body space these surly natives elbow their way through the crowds.  The street
+winds on to the east and north, but a narrow walkway to the south soars 
+overhead the city, toward another hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13035
+D2
+A small bridge capers over the city, to another hill, ripe with stonework.
+~
+~
+0 0 13107
+D3
+~
+~
+0 -1 13037
+S
+#13039
+Idol Street~
+   You are on the worn cobbles of the Street of Idols.  The Cathedral sits atop
+the hill to the northeast, but its beauty only serves as bitter fruit to the
+denizens of this block.  For the holymen and would-be clerics who fill street
+here are on their last leg on their trip down Idol Street.  Their careers are
+all but over, hasbeens, and soon their godlings or statuettes will go unworshiped.
+~
+13 0 1
+D1
+~
+~
+0 -1 13040
+D5
+~
+~
+0 -1 13075
+S
+#13040
+Idol Street~
+   Prophets of doom and hedonistic priests pray and sell their gods and saints
+here.  But for all their trouble, and elbow jostling of their fellow clerics,
+all they get are crusty pieces of bread and, very rarely, a coin or two.  The
+cobblestones lead west and south.
+~
+13 0 1
+D2
+~
+~
+0 -1 13045
+D3
+~
+~
+0 -1 13039
+S
+#13041
+Govenment Hill~
+   Small green lawns highlight the grey-white marble buildings around you.
+The architecture is cold and aloof, but imperiously elegant all the same, much
+like the patrician featured aristocrats picture themselves.  To the south is 
+a large round building, with a dome.  To the east is more manicured leafwork
+and steps lead to the bazzar below.
+~
+13 0 1
+D1
+~
+~
+0 -1 13042
+D2
+~
+~
+0 -1 13046
+D5
+~
+~
+0 -1 13078
+S
+#13042
+Hedged Row~
+   You walk upon a well kept row of hedges which separate the cobbled street
+from large, stately houses.  The path heads upwards to the south, and follows
+down the hill to the west.  To the east is a large domicle.  
+~
+13 0 1
+D0
+Hidden behind artfully, if not stiffly, manicured bushes is a small bridge.
+~
+~
+0 0 13108
+D1
+To the east is a fine house of great wealth, closed to you buy ornate doors.
+~
+ornate doors~
+1 -1 13043
+D2
+~
+~
+0 -1 13047
+D3
+~
+~
+0 -1 13041
+S
+#13043
+Aristocrat's Manor~
+   This must be the home of a wealth landowner, judging by the size and expensive decor of the place.  Proud of his Hiberian heritage, too, for a 
+family coat of arms is set over a huge fireplace upon a plaid banner.  There 
+is a smaller chamber to the south, the orate doors west lead outside.
+~
+13 0 1
+D2
+~
+~
+0 -1 13048
+D3
+~
+ornate doors~
+1 -1 13042
+S
+#13044
+The Arsenel~
+   Blades and spiked clubs are hung upon the far wall, behind the long
+counter in front of you.  A few of the weapons seem to be imports, even,
+judging from the better craftsmanship.  The counter is thick and heavy,
+fashioned from imported oaks.  It shows a few chops in it, from customers
+trying out the wares no doubt.  
+~
+13 0 1
+D0
+~
+~
+0 -1 13037
+S
+#13045
+Idol Street~
+   Apostles on beds of nails or walking on coals line this block of Idol
+Street.  The crowds seem of a higher caliber here (well, richer at least),
+than they those to the south, so the mutilation does not go unrewarded.  
+The street runs roughly north to south, dodging sermon tents and larger than
+average statuettes of mishappen saints.
+~
+13 0 1
+D0
+~
+~
+0 -1 13040
+D2
+~
+~
+0 -1 13049
+S
+#13046
+Theatre~
+   Grand lords and ladies gather here to enrich themselves with the fruits of
+only the most talented wordsmiths in Ys, which are few indeed considering the
+city's brutal undertones.  At any rate, the tapastries adorning the walls and
+the woodwork in the stage depict unlikely scenes of Fairies and Goblins in
+frollic together.
+~
+13 0 1
+D0
+~
+~
+0 -1 13041
+S
+#13047
+Plaza~
+   The opulence of the hedgework to the north is not spoiled here.  Grand
+stone steps, abutted by a pair of griffon statues, lead upwards to a lofty
+white building lined with pillars.  Here, in the marbled plaza below the 
+crowds are thin, mostly rich noblemen and their entourages, and of course,
+guards.
+~
+13 0 1
+D0
+~
+~
+0 -1 13042
+D4
+~
+~
+0 -1 13009
+S
+#13048
+Antechamber~
+   This room serves a school for the owner's aristocratic offspring, no doubt.
+Tomes and musical insruments fill the room, providing enough lessons to keep
+children bored well into puberty.  One set of maps on the wall though, seems
+quite unusual.
+~
+13 0 1
+D0
+~
+~
+0 -1 13043
+E
+map wall~
+  The large wallmap show various cartographer's depictions of the world as a 
+sphere, with curious gaps or holes at the polar ends.  Along side these is an
+even stranger depiction of the inside of the world sphere--complete with a 
+star burning in it's hollow heart!  Curiouser and curiouser.
+~
+S
+#13049
+Idol Street~
+   It doesn't get much better than this!  Crowds of aristocrats and rich noblemen pack the most illustrious temples and shrines here, day or night. 
+Every holyman hopes one day to rent space in this block of Idol Street, but all
+envy the mighty Cathedral above, at the top of the hill. 
+~
+13 0 1
+D0
+~
+~
+0 -1 13045
+D1
+~
+~
+0 -1 13050
+D4
+~
+~
+0 -1 13011
+S
+#13050
+Idol Street~
+   You shove past holymen and their gawkers as they crowd the cobbled Street
+of Idols.  Weather night or day, this block of shrines and altars are always
+filled, being so close to the Cathedral to the west.  Idol street continues
+to the south, worse for the wear it seems.
+~
+13 0 1
+D2
+~
+~
+0 -1 13051
+D3
+~
+~
+0 -1 13049
+S
+#13051
+Idol Street~
+   The dregs of humanity surround you, as do those who would peddle their
+saints and godlets upon them.  This is clearly the poorest block on the
+Street of Idols, but even here newly arrived clerics struggle to move up
+from the citygates, to the north, where the Cathedral shines atop the hill
+like a beacon to the faithful.
+~
+13 0 1
+D0
+~
+~
+0 -1 13050
+D5
+~
+~
+0 -1 13087
+S
+#13052
+Entrance to The Harbor of Ys~
+  Great sea gates protect the calm harbor, where many masted ships take refuge
+at any time of the year, bring trade goods in from as far as Egypt and remote 
+as Vargaard.  The open seas of the Atlantil Ocean lie to the west, while the harbor is south of here.
+~
+13 0 1
+D2
+~
+~
+0 -1 13055
+D3
+A weatherbeaten dock.~
+door~
+1 -1 11001
+S
+#13053
+Wainwright's Shop~
+  Salt crusts the various wooden planks which compose this large shack.  The
+hulls of wainwright's watercraft though are clean and polished.  Other than
+his inventory and some old hemp ropes, there is not much else here.  The only
+exit is to the south, to the wharf.
+~
+13 0 1
+D2
+~
+~
+0 -1 13057
+S
+#13054
+City Wall~
+   The city wall begins here, with a tower which serves as a lighthouse.  The
+wall, a cracked and blacken thing, stretches on to the south.  The wharf
+and waters of the sea lie to the east.  To the southwest, rising above the
+twenty foot wall, the mysterious towers of the Acadamie d'Sorcerie can be
+glimpsed.
+~
+13 0 1
+D1
+~
+~
+0 -1 13055
+D2
+~
+~
+0 -1 13059
+S
+#13055
+The Wharf~
+   Droves of batton wielding impressees lazily attempt to club defiant rats
+in a vain attempt to keep them from infesting the ship-bound cargo crates.
+Bored watchmen oversee all this, with little interest in the rats, less in
+the furloughed prisoners, and none in you.
+~
+13 0 1
+D0
+~
+~
+0 -1 13052
+D1
+~
+~
+0 -1 13056
+D2
+~
+~
+0 -1 13060
+D3
+~
+~
+0 -1 13054
+S
+#13056
+The Wharf~
+   The open spaces of the wharf of Ys are brimming with activity.  Sailors
+dressed in gaudy sashes of many colors lug cargo aboard ship, sit and splice
+hemp ropes or sew sails, and try to sneak swills of their rum rations all the
+while.  Merchants, caravan masters, and navy officers mill about them, haggling
+with each other, or shouting orders to the porters.
+~
+13 0 1
+D0
+The harbor of Ys extends northward, the safest port outside Atlantis.
+~
+~
+0 0 13052
+D1
+~
+~
+0 -1 13057
+D2
+~
+~
+0 -1 13061
+D3
+~
+~
+0 -1 13055
+S
+#13057
+The Wharf~
+   Though not what one would call a cosmopolitan city, such as Venice, Ys
+does traffic in a hefty amount of trade.  Barrels and crates of Hybernian
+rum, Atlantan cloths, and even a some Oriental spices make their way through
+here.  Exports are few, mostly finished metalwork, this being hauled west by
+burly dock workers toward awaiting ships.
+~
+13 0 1
+D0
+The harbor of Ys extends northward, the safest port outside Atlantis.
+~
+~
+0 -1 13053
+D1
+~
+~
+0 -1 13001
+D2
+~
+~
+0 -1 13062
+D3
+~
+~
+0 -1 13056
+S
+#13058
+UnterYs~
+  You continue to slosh through the rancid knee-deep water of the city sewers.
+You head south for about eighty feet, ignoring small tunnels which spill more
+filth into this main line, until you reach a dead end, a drain covered by a 
+grate that holds fast.  The only exit, then, is north.
+~
+13 1 0
+D0
+~
+~
+0 0 13100
+S
+#13059
+By the Citywall~
+  You in a dark alley created by the thick citywall on your west and the
+press of warehouses which service the wharf, to your east.  To your south
+you can see a clearing of buildings and a pair of towers set in the citywall
+which stand guard over a large gate set in the western facing wall.  The
+alley also heads north, where the citywall can be seen to end in a large 
+tower.
+~
+13 0 1
+D0
+~
+~
+0 -1 13054
+D2
+You see a disembodied scalp ahead yelling, 'Go away! Work in progress!'
+~
+~
+0 0 -1
+S
+#13060
+Wharehous District~
+   Dark alleys abound here, but basically cut north and south through this
+jumble of wooden buildings set upon high stone foundations.  The spray of the
+sea comes from the north, the stench of a less hygenic part of town comes from
+the shadows to the south.
+~
+13 0 1
+D0
+~
+~
+0 -1 13055
+D2
+~
+~
+0 -1 13065
+S
+#13061
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The salty smell of ocean waters wafts in from the north.
+The bazaar plaza continues south and east.
+~
+13 0 1
+D0
+~
+~
+0 -1 13056
+D1
+~
+~
+0 -1 13062
+D2
+~
+~
+0 -1 13066
+S
+#13062
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The bazaar extends in all directions but north, where you
+see the masts of great ships tower over a busy wharf.
+~
+13 0 1
+D0
+~
+~
+0 -1 13057
+D1
+~
+~
+0 -1 13063
+D2
+~
+~
+0 -1 13067
+D3
+~
+~
+0 -1 13061
+S
+#13063
+The Bazaar~
+  Seaguls fly overhead and trying to pelt someone, a simple task considering
+the crowds that have flocked down from their hillside homes to press into
+this ongoing bazaar.  To the north is a large wooden building, where men can
+be seen drinking inside.  The wagonstands and blanks of wares continue to
+the west and south.
+~
+13 0 1
+D0
+~
+~
+0 -1 13001
+D2
+~
+~
+0 -1 13068
+D3
+~
+~
+0 -1 13062
+S
+#13064
+Base of a Cobbled Hill~
+   You are in a cramped throughfare sandwiched in between the collection of
+shacks which circle Merchant's Hill.  To the west lies the open air bazaar of
+Ys, climbing up the hill takes to to the Merchant's Quarter.
+~
+13 0 1
+D3
+The din and crowd of merchants, buyers, and wagonstands is to the west.
+~
+~
+0 -1 13068
+D4
+~
+~
+0 -1 13026
+S
+#13065
+The Threadbare Quarter~
+   You stand amid the cracked and weathered black stone buildings of the
+Threadbare Quarter.  The opulence of the Bazaar to the west seems long gone,
+for the Warehouses to the north and slums to the south testify to the poverty
+of the lower class who dwells here.
+~
+13 0 1
+D0
+~
+~
+0 -1 13060
+D1
+~
+~
+0 -1 13066
+D2
+~
+~
+0 -1 13070
+S
+#13066
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The bazaar ends abruptly to the west, where people seem to
+be shying from.
+~
+13 0 1
+D0
+~
+~
+0 -1 13061
+D1
+~
+~
+0 -1 13067
+D2
+~
+~
+0 -1 13071
+D3
+~
+~
+0 -1 13065
+S
+#13067
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The crowds press and pull you through the bazaar which 
+extends in all directions.
+~
+13 0 1
+D0
+~
+~
+0 -1 13062
+D1
+~
+~
+0 -1 13068
+D2
+~
+~
+0 -1 13072
+D3
+~
+~
+0 -1 13066
+D4
+~
+~
+0 -1 13000
+D5
+~
+~
+0 -1 13125
+S
+#13068
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The marketplace opens to a path heading east, toward a
+crowded hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13063
+D1
+The marketplace opens to a path heading east, toward a crowded hill.
+~
+~
+0 0 13064
+D2
+~
+~
+0 -1 13073
+D3
+~
+~
+0 -1 13067
+S
+#13069
+By the Citywall~
+   You in an alley running between the ancient dark stone citywall and the
+row of warehouses which merge into the slums to the south.  To the north
+you can see a small clearing amid the buildings, affording space for a large
+gate in the citywall.
+~
+13 0 1
+D0
+You see a disembodied scalp ahead yelling, 'Go away! Work in progress!'
+~
+~
+0 0 -1
+D2
+~
+~
+0 -1 13074
+S
+#13070
+Dark Alley~
+   Lines hung overhead from decaying building to building are hung with odd
+clothes, sacks, and drying herbs.  Admist the garbage and filth on the 
+ground however, the alley continues north and south.
+~
+13 0 1
+D0
+~
+~
+0 -1 13065
+D2
+~
+~
+0 -1 13075
+S
+#13071
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  The marketplace continues north and east, while less
+affluent enviorns can be seen to the south.
+~
+13 0 1
+D0
+~
+~
+0 -1 13066
+D1
+~
+~
+0 -1 13072
+D2
+~
+~
+0 -1 13076
+S
+#13072
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  To the south a wide boulevard opens carrying off some
+of the exess mob, only to bring fresh faces into the merchant's melee.
+~
+13 0 1
+D0
+~
+~
+0 -1 13067
+D1
+~
+~
+0 -1 13073
+D2
+~
+~
+0 -1 13077
+D3
+~
+~
+0 -1 13071
+S
+#13073
+The Bazaar~
+   The lilt of the Keltic tongue surrounds you as the crowds push and
+pull you this way and that.  It is hard to watch your purse strings with such
+a mellodious background, but you quickly remember that the people of Ys are a
+mean type indeed.  A cobbled way, flanked by merchant's tents and wagons, 
+leads south, toward a hill filled with beautiful white buildings.
+~
+13 0 1
+D0
+~
+~
+0 -1 13068
+D2
+~
+~
+0 -1 13078
+D3
+~
+~
+0 -1 13072
+S
+#13074
+Alley~
+   Known to its miserable denizens as Dog Alley for the number of hounds kept
+barking behind thin walls.  Meant as insurance against theft, surely, but 
+when their owners can barely feed themselves the hungry hounds tend to be on
+the vicous side.
+~
+13 0 1
+D0
+~
+~
+0 -1 13069
+D1
+~
+~
+0 -1 13075
+D2
+~
+~
+0 -1 13079
+S
+#13075
+The Threadbare Quarter~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.
+~
+13 0 1
+D0
+~
+~
+0 -1 13070
+D1
+~
+~
+0 -1 13076
+D3
+~
+~
+0 -1 13074
+D4
+~
+~
+0 -1 13039
+S
+#13076
+The Threadbare Quarter~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.
+~
+13 0 1
+D0
+~
+~
+0 -1 13071
+D2
+~
+~
+0 -1 13081
+D3
+~
+~
+0 -1 13075
+S
+#13077
+Rosemead Boulevard~
+   Known as Rosemead Boulevard due to the rosebushes which line this wide
+road and for the practice of students of the mysterious Academie who sometimes
+come here at the whiching hour to pick petals for their strange brews.  The
+road leads north and south, framed by bright roses, imported from the far
+away lands of Near Azir.
+~
+13 0 1
+D0
+~
+~
+0 -1 13072
+D2
+~
+~
+0 -1 13082
+S
+#13078
+The Base of Verdant Hill~
+   The shouts of the hawkers selling their wares in the bazaar is still
+heard to the north, but here, the atmosphere becomes more serious.  Steps
+lead upwards to coldly beautiful estates, the homes of the rich nobles.
+~
+13 0 1
+D0
+~
+~
+0 -1 13073
+D4
+~
+~
+0 -1 13041
+S
+#13079
+The Slums~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.
+~
+13 0 1
+D0
+~
+~
+0 -1 13074
+D1
+~
+~
+0 -1 13080
+D3
+~
+door~
+1 0 13115
+S
+#13080
+The Slums~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.
+~
+13 0 1
+D1
+~
+~
+0 0 13116
+D2
+~
+~
+0 -1 13085
+D3
+~
+~
+0 -1 13079
+S
+#13081
+The Threadbare Quarter~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.  Among
+the scuffle you barely notice a black grate, set in the worn cobbles.
+~
+13 0 1
+D0
+~
+~
+0 -1 13076
+D1
+~
+~
+0 -1 13082
+D5
+Little to see past the darkness of the grate, but you hear running water.
+~
+grate~
+1 -1 13098
+S
+#13082
+Rosemead Boulevard~
+   Priceless rose bushes line the wide street, each one struggling to grow
+in the continually wet weather so close to the Channel of Avilion.  The
+road continues north and west.  Dirty buildings can be seen along the small
+alley which leads west.
+~
+13 0 1
+D0
+~
+~
+0 -1 13077
+D1
+~
+~
+0 -1 13083
+D3
+~
+~
+0 -1 13081
+S
+#13083
+Rosemead Boulevard~
+   Known as Rosemead Boulevard due to the rosebushes which line this wide
+road.  Although a druidically minded noble might pay a comfortable sum for
+one, the standing order among the Watch is a quick death to any foolish 
+enough to filch even a petal of these fragrant buds...other than those
+strange folk of the Acadamie d'Sorcerie, of course.  The road leads west
+and south.
+~
+13 0 1
+D2
+~
+~
+0 -1 13088
+D3
+~
+~
+0 -1 13082
+S
+#13084
+A Plain Room~
+   You are in a windowless room, the thick walls painted a dull grey.  It
+is stranglely quiet here, as if it had been insulated from noise.
+~
+13 0 1
+D2
+~
+~
+0 -1 13090
+D5
+You see a trapdoor set in the floor, with slot for barring it shut.
+~
+trapdoor~
+1 -1 13099
+S
+#13085
+Avenue~
+   This stretch of the Threadbare Quarter is aptly named Firetrap Avenue.  
+Scorched stone at the base of newer wooden buildings are evident.  But even
+these newer constructs have rotten dry with age, ripe from age and neglect
+for arson and accident.
+~
+13 0 1
+D0
+~
+~
+0 -1 13080
+D1
+~
+~
+0 -1 13086
+D2
+~
+door~
+1 0 13113
+S
+#13086
+Crumbling Intersection~
+   Even the cobblestone have erroded here from neglect.  Huge potholes that
+would disable any wagon pock mark the street.  The sorry street twists south
+toward a foul smell, and west too.
+~
+13 0 1
+D0
+~
+~
+0 0 13114
+D2
+~
+~
+0 -1 13092
+D3
+~
+~
+0 -1 13085
+S
+#13087
+Intersection~
+   The cobblestones of this intersection crumble at times underfoot, leaving
+growing potholes for wagons to break wheels upon.  Cluttered paths lead south
+and west, while climbing up steps cut from the foot of a hill lead up to a 
+busy looking street.
+~
+13 0 1
+D1
+~
+~
+0 -1 13088
+D2
+~
+~
+0 -1 13093
+D4
+~
+~
+0 0 13051
+S
+#13088
+Rosemead Boulevard~
+   Known as Rosemead Boulevard due to the rosebushes which line this wide
+road and for the practice of students of the mysterious Acadamie who sometimes
+come here at the whiching hour to pick petals for their strange brews.  The 
+road leads north and east, and a smaller way framed by barren bushes leads
+east, along the base of a hill.
+~
+13 0 1
+D0
+~
+~
+0 -1 13083
+D1
+~
+~
+0 -1 13089
+D3
+~
+~
+0 -1 13087
+S
+#13089
+Rosemead Boulevard~
+   Known as Rosemead Boulevard due to the rosebushes which line this wide
+road and for the practice of students of the mysterious Acadamie who sometimes
+come here at the whiching hour to pick petals for their strange brews. The 
+road leads west and south, where you can see the a pair of towers surrounding
+a large gate.
+~
+13 0 1
+D2
+~
+~
+0 -1 13095
+D3
+~
+~
+0 -1 13088
+S
+#13090
+The Bar~
+   Whoops and hollars fill the place, from one end of the bar to the other.
+The patrons drink and smoke questionable substances while doing questionable
+business.  Through the smoke and dim lighting you see doors to the north and
+east, both guarded by burly thugs.
+~
+13 0 1
+D0
+~
+~
+0 -1 13084
+D1
+~
+door~
+1 -1 13091
+S
+#13091
+Rogue's Freehold~
+   Smoke from tabacco and other herbs fill the dingy room.  Every window in
+this place had been boarded up, and then covered with black cloth.  Crates
+of loot and less wholesome things line the walls, but a rare green felt table
+fills the center of the room.  Upon this gambler's relic is a thick wax
+candle, some dice, a few coins, and the assorted knives, blades and clubs of
+the occupants.  The howls are from the bar to the west.
+~
+13 0 1
+D3
+~
+door~
+1 -1 13090
+S
+#13092
+The Dump~
+   This small plaza provides a break in the monotony of the threadbare
+buildings.  But in the center is a stone orifice much like a well, though
+with the wickedly bad smells wafting from within no drinking water is likely
+to be draw there.  Hunched over people toss buckets of excrement and rotted
+foodstuffs inside, and even, ocassionally, a body.
+~
+13 0 1
+D0
+~
+~
+0 -1 13086
+D1
+~
+~
+0 -1 13093
+D5
+~
+~
+0 -1 13101
+S
+#13093
+Intersection~
+   You are definitely on the other side of the horse's tracks now.  The 
+affluence evident in other quarters is totally absent, here in the worn and
+abused Threadbare Quarter.  The stink of the dump comes past the old stone
+buildings from the west.  The cobblestones here, a street in disrepair, head
+north and east.
+~
+13 0 1
+D0
+~
+~
+0 -1 13087
+D1
+~
+~
+0 -1 13094
+D3
+~
+~
+16 -1 13092
+S
+#13094
+Dead End~
+   The disused buildings close upon themselves, leaving only one exit.
+~
+13 0 1
+D3
+~
+~
+0 -1 13093
+S
+#13095
+Southgate~
+  You stand before the great citygate of Ys, carved from ancient black stone
+and pitted from many a cast spear and arrow.  Though battered, they still hold
+strong, rising above the squalor that is southern Ys.  Exits lead out in all directions, but a stench to the west heralds the city's dump.
+~
+13 0 1
+D0
+~
+~
+0 -1 13089
+D1
+~
+~
+0 -1 13096
+D2
+The citygate is to the south, leading to the barren countryside without.
+~
+citygate gate~
+1 0 13109
+S
+#13096
+City Wall~
+   You stand by the weathered city wall.  It's a good twenty feet high and
+carved of black stone.  The main gate of Ys, Southgate, is a short walk to the
+west, while rounded cobbles lead east to the base of a tower wall.~
+13 0 1
+D1
+~
+~
+0 0 13120
+D3
+~
+~
+0 -1 13095
+S
+#13097
+UnterYs~
+   Many small pipelines, usuable only by rats, spill into this, the main 
+sewer line.  In the darkness you can barely make it out to run south and 
+east.  You hear squishing noises nearby.
+~
+3 1 1
+D1
+~
+~
+0 -1 13098
+D2
+~
+~
+0 -1 13100
+S
+#13098
+UnterYs~
+   The sewers.  Your natural sewer crawling ambitions scream to finally be
+fullfilled. The sounds and lights of the city above dim as you gravitate
+toward the grimey, filthy recesses to the west.
+~
+3 1 1
+D3
+~
+~
+0 -1 13097
+D4
+Rungs in the damp stonework lead up, to the street, from the sound of it.
+~
+grate~
+1 -1 13081
+D5
+~
+~
+1 -1 7030
+S
+#13099
+Dead End~
+   The sewer follows in from the east into a black iron grate set into the 
+west wall.  You strain to peer past it, but it probably just spills out into
+the ocean. Oh yeah, there are some rings set into the stonework, leading up
+here too.
+~
+3 1 1
+D1
+~
+~
+0 -1 13100
+D4
+You can make out light seeping through cracks of what must be a trapdoor.
+~
+trapdoor~
+1 -1 13084
+S
+#13100
+UnterYs~
+   The darkness is absolutely thick here in the dank sewers.  The little
+of your surroundings you do see is mostly slippery moss and slime, growing
+in the cracks of the stonework.  The sewer runs from the north, the flow then
+splitting west and south.
+~
+3 1 1
+D0
+~
+~
+0 -1 13097
+D2
+~
+~
+0 0 13058
+D3
+~
+~
+0 -1 13099
+S
+#13101
+Beneath the Dump~
+   The stench is INCREDIBLE.  You wade through piles of gelatinous compost
+which turns your stomache to think about. Through a broken grate to the
+south, a drainage tunnel leads out.  As you look up to the hole in the 
+ceiling of this chamber, someone invariably comes along and pours a bucket
+of waste in.
+~
+13 0 1
+D2
+~
+~
+0 -1 13102
+D4
+~
+~
+0 -1 13092
+S
+#13102
+The Cave Mouth~
+   You are inside the mouth of a comfortably large cave, set into the hill, 
+just below the citywall of Ys.  You figure this would make nice shelter for
+rogues, although the stench of the dump to the north, and a weaker though
+more menacing smell from the east, make this bit of real estate unappealing.
+To the south you see the barren, rocky countryside of the Bretton Peninsula.
+~
+3 1 1
+D0
+~
+~
+0 -1 13101
+D1
+Deep gashes line the roughly hewn walls to the east, though you can see 
+nothing farther than a few feet, in the darkness ahead.
+~
+~
+0 -1 13103
+D2
+You can make out rocky ground, under an open sky.
+~
+~
+0 0 13110
+S
+#13103
+The Lair~
+   You are obviously in the den of some hulking beast, judging from the nest
+of broken bones (some human) that lies in the corner.  The stench, too, would
+give it away.  Dim light filters through from the west and behind the nest
+a large crevice opens downward toward the darker realms of the subterranian.
+~
+3 1 1
+D3
+~
+~
+0 -1 13102
+D5
+The sunless world of the shallowshadow awaits you.
+You see a disembodied scalp ahead yelling, 'Go away! Work in progress!'
+~
+~
+0 0 -1
+S
+#13104
+A Narrow Bridge~
+  You stand upon a narrow stone bridge, high above the city.  The heads of 
+the people below look like a swarm of ants.  Before vertigo can claim another
+victim, you resolutely focus upon the stone tiles of the bridge, which leads
+south and east.
+~
+13 0 0
+D1
+~
+~
+0 0 13105
+D2
+The bridge ends in sturdy stone arches, which open to a verdant hilltop.
+~
+~
+0 0 13008
+S
+#13105
+A Narrow Bridge~
+  You stand upon a narrow stone bridge, high above the city.  The heads of 
+the people below look like a swarm of ants.  You would really hate to fall from here.  Before vertigo can claim another victim, you resolutely focus upon the stone tiles of the bridge, which leads west and east.
+~
+13 0 0
+D1
+~
+~
+0 0 13106
+D3
+~
+~
+0 0 13104
+S
+#13106
+A Narrow Bridge~
+  You stand upon a narrow stone bridge, high above the city.  The heads of 
+the people below look like a swarm of ants.  Before vertigo can claim another
+victim, you resolutely focus upon the stone tiles of the bridge, which leads
+nouth and west.
+~
+13 0 0
+D0
+~
+~
+0 0 13004
+D3
+~
+~
+0 0 13105
+S
+#13107
+Narrow Bridge~
+  You are standing on a narrow bridge which links two hills of this city. Deep
+valleys of alleyways and high peeks of arched buildings make the most of the
+precious land within the city walls.  You see other bridges above and below connecting this uneven geography with architechure.
+~
+13 0 0
+D0
+~
+~
+0 0 13038
+D2
+~
+~
+0 0 13108
+S
+#13108
+Narrow Bridge~
+  You are standing on a narrow bridge which links two hills of this city. Deep
+valleys of alleyways and high peeks of arched buildings make the most of the
+precious land within the city walls.  You see other bridges above and below connecting this uneven geography with architechure.
+~
+13 0 0
+D0
+~
+~
+0 0 13107
+D2
+~
+~
+0 0 13042
+S
+#13109
+Outside the Southgate~
+  The barren countryside that composes the small penninsula upon which the
+city of Ys is built, stretches off before you, generally southeast.  The great
+walls of Ys surround the pennisula's northwestern end, with its main gate 
+to your north.  The long, dusty road to Rennes begins here and heads south.
+~
+13 0 0
+D0
+~
+citygate gate~
+1 0 13095
+D2
+~
+~
+0 0 13203
+D3
+A faint trail leads through the brush living on the rocky base of the citywall.
+~
+~
+0 0 13110
+S
+#13110
+On Craggy Ground~
+  You are standing upon the craggy ground on the outside of a great, dark,
+and pitted citywall.  The spray of surf can be heard over the cliff to the
+west.  To the east you spy a large gate set in the south of the citywall, and
+a road leading away from it, heading south.  Amid the rubble to your north,
+you see a cave open, just beneath the heavy towered wall.
+~
+13 0 0
+D0
+~
+~
+0 0 13102
+D1
+~
+~
+0 0 13109
+S
+#13111
+Courtisans Manor~
+   A favorite of the city, the courtisan is no cheap trollop, but a jewel
+to be treasured, as the fine decor shows.  Upstairs you imagine wood and
+marble fireplace warming a nearby veiled bed nicely--satin sheets no less.
+~
+13 0 1
+D1
+~
+~
+0 -1 13112
+S
+#13112
+Cobbled Street ~
+   You are on a cobbled street set high upon Merchant's Hill.  From here 
+you have a nice view over the citywall of the shimmering sea. Unlike most of
+the city, this throughfare is clean and well lit by brass lanterns hung
+upon posts.  Wealth hath is privilages.  The street continues back east and
+ends in a nice cul de sac serves as entry to a small manor to the west
+.~
+13 0 1
+D1
+~
+~
+0 -1 13002
+D3
+~
+~
+0 -1 13111
+S
+#13113
+Abandoned Building~
+   You are in a worn down building.  Impoverished squatters camp here, with
+little money to pay rent with, and even less hope.
+~
+13 0 1
+D0
+~
+door~
+1 0 13085
+S
+#13114
+The Slums~
+   The dark stonework of the prehistoric city upon which Ys is built is
+evident here, more so because thats the only thing left standing in places.
+Disrepair and decay is the order of the day, even in the newer wharehouses
+and buildings, being barely centuries old.  Like their landscape, the sorry
+souls who inhabit here share the same hungry and deafeated spirit.
+~
+13 0 0
+D0
+~
+~
+0 0 13117
+D1
+~
+door~
+1 0 13119
+D2
+~
+~
+0 0 13086
+D3
+~
+~
+0 0 13118
+S
+#13115
+Abandoned Building~
+   You are in a worn down building.  Impoverished squatters camp here, with
+little money to pay rent with, and even less hope.
+~
+13 0 1
+D1
+~
+door~
+1 0 13079
+S
+#13116
+Dead End~
+   The disused buildings close upon themselves, leaving only one exit.
+~
+13 0 1
+D3
+~
+~
+0 -1 13080
+S
+#13117
+Dead End~
+   The disused buildings close upon themselves, leaving only one exit.
+~
+13 0 1
+D2
+~
+~
+0 0 13114
+S
+#13118
+Dead End~
+   The disused buildings close upon themselves, leaving only one exit.
+~
+13 0 1
+D1
+~
+~
+0 0 13114
+S
+#13119
+Abandoned Building~
+   You are in a worn down building.  Impoverished squatters camp here, with
+little money to pay rent with, and even less hope.
+~
+13 0 1
+D3
+~
+door~
+1 0 13114
+S
+#13120
+City Wall~
+  You stand by the ancient city wall.  It's a good twenty feet high and
+carved of black stone.  One of the thirteen towers of the citywall opens
+here, to the south.  A hill with monolithic buildings abutts the citywall
+to the northwest, barring your passage that way.
+~
+13 0 1
+D2
+A stout wooden door secures the tower.  It has dried fruit stains upon it.
+~
+door~
+1 -1 13121
+D3
+~
+~
+0 -1 13095
+S
+#13121
+Garrison Headquarters~
+  You are on the ground floor of a squat round tower made of ancient blacken
+stone, now pitted with age, though still strong.  Wooden desks and chairs line
+the walls with parchments bearing lists of names.  Shackes, chains and irons
+rest upon pegs in the walls.  A staircase curving along the south wall leads
+up and a wooden trapdoor, grated for ventilation, is set into the floor.
+~
+13 0 0
+D0
+~
+door~
+1 -1 13120
+D4
+~
+~
+0 0 13122
+D5
+~
+trapdoor~
+2 13002 3123
+S
+#13122
+Barracks~
+  You are in a dark stone tower with various arrow slits to the north and
+south.  Footlockers rest at the base of straw filled cots.  These must be
+for siege times, since the beds look unused and the guards probably go home
+after their shifts.
+~
+13 1 0
+D5
+~
+~
+0 0 13121
+S
+#13123
+The Dungeon~
+  The dungeon is a dank and dark circular chamber with little headroom. 
+Light seeps in from the grating in the trapdoor, overhead.  Amid the straw
+strewn on the cold floor are iron rings set into the stone to chain prisoners
+down.
+~
+13 1 0
+D4
+~
+trapdoor~
+2 13002 3121
+S
+#13124
+Inn at the Drinking Whale~
+  Racous snores and even some stooges whistles pour out into this dark chamber, from doors lining a short hallway.  A desk with an open registry book catches
+you eye, most of the names in it are either large scrawled X's or Smiths or
+some sort or another.
+~
+13 0 1
+D5
+~
+~
+0 -1 13001
+S
+#13125
+Howler's World~
+.
+                       ______________
+                      | here you die |
+                       --------------
+                              |            
+                              |
+ ______________        _______|______       ______________
+| here you die |------|-you are here |-----| here you die |
+ --------------        --------------       --------------
+                              |
+                              |    
+                       _______|______
+                      | here you die |
+                       --------------
+~
+13 0 1
+D4
+~
+~
+0 -1 13067
+S
+#0
+
+
+#RESETS
+*
+*  The City of Ys
+*
+*M 0 13070 1 13067   healer
+O 0 13077 99 13000 look sign
+O 0 13078 99 13000 mailing list sign
+M 0 21 1 13072 chorus
+D 0 13109 0 1
+M 0 13057 1 13013
+E 1 13076 99 1
+E 1 13067 99 6
+G 1 13010 99
+M 0 13047 2 13013
+E 1 13091 99 17
+M 0 13052 2 13049
+E 1 13068 99 17
+M 0 13054 2 13049
+E 1 13056 99 12
+M 0 13055 2 13049
+M 0 13029 1 13019
+E 1 13087 99 5
+G 1 13003 99
+G 1 13005 99
+G 1 13006 99
+M 0 13017 13 13019
+E 1 13004 99 17
+E 1 13055 99 12
+M 0 13056 5 13019
+E 1 13083 99 7
+M 0 13034 1 13020
+E 1 13028 99 14
+E 1 13085 99 10
+E 1 13071 99 9
+M 0 13031 1 13029
+E 1 13024 99 16
+E 1 13066 99 1
+E 1 13083 99 7
+G 1 13075 99
+G 1 13031 99
+G 1 13070 99
+G 1 13045 99
+M 0 13002 11 13029
+E 1 13022 99 16
+E 1 13045 99 5
+E 1 13042 99 11
+M 0 13027 1 13031
+E 1 13020 99 16
+M 0 13033 1 13044
+E 1 13022 99 16
+E 1 13044 99 5
+E 1 13081 99 7
+E 1 13071 99 9
+E 1 13085 99 10
+E 1 13042 99 11
+G 1 13022 99
+G 1 13023 99
+G 1 13024 99
+G 1 13020 99
+M 0 13037 1 13034
+E 1 13043 99 5
+E 1 13084 99 7
+G 1 13086 99
+G 1 13033 99
+G 1 13065 99
+G 1 13091 99
+G 1 13032 99
+G 1 13042 99
+M 0 13035 1 13028
+G 1 13013 99
+G 1 13005 99
+G 1 13012 99
+G 1 13015 99
+G 1 13010 99
+M 0 13019 2 13028
+E 1 13083 99 7
+G 1 13012 99
+M 0 13032 1 13023
+E 1 13044 99 5
+E 1 13020 99 16
+G 1 13044 99
+G 1 13043 99
+G 1 13071 99
+G 1 13076 99
+G 1 13081 99
+M 0 13028 1 13015
+E 1 13043 99 5
+E 1 13023 99 16
+G 1 13051 99
+G 1 13052 99
+G 1 13092 99
+G 1 13093 99
+G 1 13094 99
+G 1 13095 99
+M 0 13036 1 13003
+E 1 13066 99 1
+G 1 13012 99
+M 0 13002 11 13003
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13002 11 13003
+E 1 13022 99 16
+E 1 13045 99 5
+G 1 13011 99
+M 0 13016 1 13124
+M 0 13021 1 13053
+E 1 13087 99 5
+M 0 13026 1 13055
+E 1 13044 99 5
+E 1 13085 99 10
+E 1 13023 99 16
+E 1 13071 99 9
+M 0 13002 11 13055
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13022 2 13055
+E 1 13023 99 16
+M 0 13022 2 13055
+E 1 13023 99 16
+G 1 13011 99
+M 0 13020 2 13056
+E 1 13043 99 5
+M 0 13019 2 13056
+E 1 13023 99 16
+E 1 13083 99 7
+G 1 13015 99
+M 0 13020 2 13057
+E 1 13083 99 7
+M 0 13001 11 13054
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13014 1 13046
+E 1 13063 99 17
+E 1 13083 99 7
+E 1 13020 99 16
+M 0 13013 2 13046
+E 1 13066 99 1
+E 1 13056 99 12
+M 0 13008 1 13046
+E 1 13021 99 16
+E 1 13084 99 7
+E 1 13066 99 1
+M 0 13010 2 13042
+E 1 13090 99 14
+E 1 13021 99 16
+M 0 13010 2 13047
+E 1 13021 99 16
+E 1 13084 99 7
+M 0 13013 2 13047
+E 1 13069 99 6
+E 1 13056 99 12
+M 0 13011 1 13048
+E 1 13026 99 16
+E 1 13089 99 17
+M 0 13012 2 13048
+E 1 13065 99 1
+M 0 13012 2 13048
+M 0 13001 11 13041
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13001 11 13009
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13002 14 13009
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13007 1 13009
+E 1 13084 99 7
+E 1 13076 99 6
+M 0 13004 1 13007
+E 1 13064 99 6
+E 1 13066 99 1
+E 1 13057 99 12
+M 0 13009 1 13007
+E 1 13090 99 12
+E 1 13083 99 7
+E 1 13027 99 16
+E 1 13087 99 5
+M 0 13001 11 13007
+E 1 13022 99 16
+E 1 13045 99 5
+D 0 13007 2 1
+M 0 13006 1 13010
+E 1 13088 99 5
+E 1 13084 99 7
+G 1 13001 99
+D 0 13010 0 2
+D 0 13010 2 1
+M 0 13005 1 13012
+E 1 13021 99 16
+E 1 13041 99 5
+E 1 13084 99 7
+M 0 13001 11 13012
+E 1 13022 99 16
+E 1 13045 99 5
+D 0 13012 0 1
+M 0 13002 11 13095
+E 1 13022 99 16
+E 1 13045 99 5
+E 1 13042 99 11
+G 1 13012 99
+M 0 13002 11 13095
+E 1 13022 99 16
+E 1 13045 99 5
+D 0 13095 2 1
+D 0 13008 2 2
+M 0 13002 11 13011
+D 0 13011 0 2
+M 0 13001 11 13037
+E 1 13022 99 16
+E 1 13045 99 5
+D 0 13098 4 1
+M 0 13039 2 13081
+E 1 13082 99 5
+D 0 13081 5 1
+M 0 13063 1 13084
+E 1 13020 99 16
+E 1 13044 99 5
+E 1 13085 99 10
+E 1 13071 99 9
+E 1 13080 99 7
+M 0 13061 5 13084
+E 1 13023 99 16
+E 1 13076 99 6
+E 1 13083 99 7
+M 0 13061 5 13084
+E 1 13023 99 16
+E 1 13081 99 7
+D 0 13084 5 1
+M 0 13060 1 13091
+E 1 13020 99 16
+E 1 13085 99 10
+E 1 13075 99 6
+M 0 13062 1 13091
+E 1 13025 99 16
+E 1 13055 99 12
+M 0 13061 5 13091
+E 1 13023 99 16
+E 1 13081 99 7
+E 1 13076 99 6
+M 0 13025 5 13091
+E 1 13055 99 12
+E 1 13020 99 16
+M 0 13059 1 13090
+*E 1 13022 99 16
+G 1 13007 99
+G 1 13004 99
+G 1 13005 99
+M 0 13058 2 13090
+E 1 13007 99 17
+G 1 13007 99
+M 0 13058 2 13090
+E 1 13005 99 17
+M 0 13061 5 13090
+E 1 13023 99 16
+E 1 13086 99 10
+E 1 13083 99 7
+M 0 13015 1 13001
+G 1 13003 99
+G 1 13005 99
+G 1 13004 99
+M 0 13017 13 13001
+E 1 13004 99 17
+M 0 13003 1 13001
+E 1 13022 99 16
+E 1 13041 99 5
+E 1 13080 99 7
+E 1 13002 99 17
+M 0 13064 5 13058
+M 0 13024 5 13061
+G 1 13030 99 
+G 1 13055 99
+G 1 13083 99
+M 0 13018 5 13071
+G 1 13014 99
+G 1 13011 99
+M 0 13025 5 13071
+E 1 13020 99 16
+M 0 13018 5 13073
+G 1 13015 99
+G 1 13011 99
+M 0 13024 5 13067
+E 1 13055 99 12
+G 1 13030 99
+G 1 13082 99
+G 1 13055 99
+M 0 13001 11 13067
+E 1 13022 99 16
+E 1 13045 99 5
+O 0 13035 99 13067
+M 0 13038 2 13075
+M 0 13053 5 13074
+M 0 13053 5 13074
+D 0 13113 0 1
+D 0 13085 2 1
+M 0 13040 2 13086
+E 1 13082 99 5
+G 1 13010 99
+M 0 13040 2 13086
+G 1 13030 99
+M 0 13038 2 13080
+M 0 13041 2 13080
+E 1 13021 99 16
+E 1 13041 99 5
+M 0 13053 5 13094
+D 0 13079 3 1
+D 0 13119 3 1
+M 0 13043 1 13118
+E 1 13070 99 9
+E 1 13044 99 5
+E 1 13056 99 12
+E 1 13020 99 16
+M 0 13042 5 13118
+E 1 13023 99 16
+E 1 13043 99 5
+G 1 13032 99
+M 0 13042 5 13118
+E 1 13023 99 16
+E 1 13081 99 7
+G 1 13013 99
+M 0 13041 2 13087
+E 1 13023 99 16
+E 1 13083 99 7
+M 0 13047 2 13051
+M 0 13055 2 13051
+E 1 13087 99 5
+M 0 13050 2 13051
+E 1 13067 99 8
+M 0 13049 2 13051
+M 0 13045 2 13050
+E 1 13082 99 5
+E 1 13091 99 17
+M 0 13048 2 13050
+E 1 13055 99 12
+M 0 13056 5 13050
+E 1 13071 99 9
+E 1 13083 99 7
+M 0 13042 5 13050
+E 1 13023 99 16
+E 1 13043 99 5
+M 0 13046 2 13045
+E 1 13055 99 12
+M 0 13025 5 13045
+E 1 13020 99 16
+E 1 13055 99 12
+M 0 13055 2 13045
+E 1 13082 99 5
+M 0 13050 2 13045
+E 1 13067 99 8
+G 1 13011 99
+M 0 13044 1 13040
+E 1 13065 99 1
+E 1 13084 99 7
+M 0 13047 2 13040
+G 1 13014 99
+G 1 13013 99
+M 0 13056 5 13040
+E 1 13083 99 7
+M 0 13046 2 13040
+M 0 13045 2 13039
+E 1 13082 99 5
+G 1 13010 99
+M 0 13052 2 13039
+E 1 13068 99 17
+E 1 13086 99 10
+M 0 13049 2 13039
+E 1 13083 99 7
+M 0 13038 2 13093
+M 0 13002 11 13064
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13001 11 13027
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13018 5 13063
+G 1 13011 99
+G 1 13015 99
+G 1 13014 99
+M 0 13024 5 13063
+G 1 13030 99
+G 1 13065 99
+G 1 13020 99
+M 0 13002 11 13078
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13001 11 13024
+E 1 13022 99 16
+E 1 13045 99 5
+M 0 13030 1 13111
+E 1 13069 99 6
+E 1 13056 99 12
+E 1 13067 99 8
+M 0 13051 2 13035
+E 1 13022 99 16
+E 1 13043 99 5
+E 1 13081 99 7
+E 1 13042 99 11
+M 0 13025 5 13004
+E 1 13055 99 12
+E 1 13023 99 16
+M 0 13024 5 13006
+E 1 13055 99 12
+G 1 13020 99
+G 1 13030 99
+G 1 13032 99
+M 0 13065 1 13103
+O 0 13063 99 13103
+D 0 13120 2 1
+M 0 13002 11 13121
+E 1 13022 99 16
+E 1 13045 99 5
+G 1 13002 99
+D 0 13121 0 1
+D 0 13121 5 2
+D 0 13123 4 2
+D 0 13043 3 1
+D 0 13042 1 1
+M 0 13001 11 13122
+E 1 13022 99 16
+E 1 13045 99 5 
+O 0 13033 99 13122
+O 0 13061 99 13052
+O 0 13060 99 13052
+O 0 13060 99 13052
+M 0 13023 3 13055
+O 0 13034 1 13003
+M 0 13066 1 13021
+M 0 13067 1 13021
+M 0 13068 1 13021
+M 0 13069 1 13021
+O 0 13096 1 13090
+O 0 13099 1 13019
+D 0 13099 4 1
+S
+
+
+
+#SHOPS
+
+13015  0 0 0 0 0  150 50    0 23 ;  The Innkeeper
+13029  0 0 0 0 0  150 50    0 23 ;  The mellow bartender  
+13059  5 8 17 0 0 150 70     0 23 ;  The greasy bartender
+13037  1 8 9 15 0 150 50     0 23 ;  The hanse
+13031  5 9 0 0 0 150 50      0 23 ;  metalworker
+13033  5 0 0 0 0 150 50      0 23 ;  weapons merchant
+13034  0 0 0 0 0 100 100     0 23 ;  pet shop (hows this work?)
+13032  9 0 0 0 0 150 50      0 23 ;  leatherworker
+13028  2 3 4 10 0 150 50      0 23 ;  apocrathy
+13018  0 0 0 0 0 150 50      0 23 ;  vendor
+13024  30 18 8 0 0  150 50     0 23 ;  hawker
+13035  0 0 0 0 0  150 50     0 23 ;  ms. mcgregor (all vnum's wrong)
+0
+
+#SPECIALS
+M 13001 spec_guard
+M 13002 spec_guard
+M 13004 spec_cast_mage
+M 13023 spec_fido
+M 13025 spec_thief
+M 13027 spec_cast_cleric
+M 13028 spec_cast_mage
+M 13057 spec_cast_cleric
+M 13062 spec_thief
+S
+
+#$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

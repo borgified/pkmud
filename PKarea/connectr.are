@@ -1,0 +1,114 @@
+#AREA	Diku/Rip~
+Connectors~
+1|16 100
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#3500
+The Plains~
+   You are standing on the plains. This is a vast desolate place where the
+wind can howl undisturbed since nothing but you bars its way. However you
+are not the first to wander here. Before you somebody has left a small path.
+The path looks rather bewildered and is not the kind of path to lead to
+anywhere significant or important but it seems to have made up its mind to
+enter the hills far away north.
+~
+30 0 1
+D0
+~
+~
+0 0 4000
+D2
+~
+~
+0 0 3501
+S
+#3501
+The Lane~
+   You are strolling along a pleasant, shady lane. The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity. You can follow the road north or south.
+~
+30 0 1
+D0
+~
+~
+0 0 3500
+D2
+~
+~
+0 0 3502
+S
+#3502
+The Turning Point~
+The roads cross here.  Hell is to the west.  To the east, you see the
+stately oaks and poplars of the holy grove.  A wide path leads south through
+the dwarven forest, and another path leads down.  To the north is a very
+missing trail.
+~
+30 0 1
+D0
+~
+~
+0 0 3501
+D2
+~
+~
+0 0 9201
+D3
+~
+~
+0 0 3503
+D5
+~
+~
+0 0 4700
+S
+#3503
+City Entrance~
+   You stand on the outskirts of a large city - Hell; the capital of this
+land. The road leads east into the peace and quiet - and dangers - of the
+forest; and to the west it becomes the main street of the town; surrounded by
+a confusion of shops, bars, and market places.  Another path wanders off to
+the south.
+~
+30 4 1
+D0
+~
+~
+0 0 21001
+D1
+~
+~
+0 0 3502
+D3
+~
+~
+0 0 3053
+S
+#0
+
+
+
+#RESETS
+S
+
+
+
+#SPECIALS
+S
+
+
+
+#$

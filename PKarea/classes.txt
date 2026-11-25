@@ -1,0 +1,1372 @@
+Class 'magic-user' 0
+Abbreviation 'mag'
+Hits 200
+Mana 300
+Thac0 14
+Armor 100
+Strength 12
+Intelligence 17
+Wisdom 14
+Dexterity 14
+Constitution 13
+HitRegen 9
+ManaRegen 30
+Rating 0
+ClassRating 938
+ClassRating11 950
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 1
+Skill 'blackmantle' 95 30 12
+Skill 'blindness' 95 20 12
+Skill 'chill touch' 95 25 10
+Skill 'colour spray' 95 33 0
+Skill 'continual light' 95 7 0
+Skill 'control weather' 95 25 0
+Skill 'curse' 95 20 12
+Skill 'death spray' 96 40 12
+Skill 'detect invis' 95 5 0
+Skill 'detect magic' 95 5 0
+Skill 'dispel magic' 95 33 12
+Skill 'enchant weapon' 95 30 0
+Skill 'faerie fire' 95 5 0
+Skill 'faerie fog' 95 12 0
+Skill 'farsee' 95 33 0
+Skill 'fireball' 95 15 12
+Skill 'fireshield' 95 200 12
+Skill 'fly' 95 10 0
+Skill 'infravision' 95 5 0
+Skill 'invis' 95 25 0
+Skill 'lightning bolt' 95 15 10
+Skill 'locate object' 50 50 0
+Skill 'magic missile' 95 5 1
+Skill 'pass door' 95 15 4
+Skill 'remove curse' 95 5 0
+Skill 'shield' 95 12 0
+Skill 'shocking grasp' 95 15 9
+Skill 'sleep' 75 75 12
+Skill 'stone skin' 95 15 4
+Skill 'strength' 95 30 12
+Skill 'teleport' 95 100 36
+Skill 'vampiric touch' 95 50 12
+Skill 'weaken' 95 30 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'cleric' 1
+Abbreviation 'cle'
+Hits 225
+Mana 250
+Thac0 8
+Armor 100
+Strength 16
+Intelligence 17
+Wisdom 18
+Dexterity 14
+Constitution 13
+HitRegen 11
+ManaRegen 25
+Rating 0
+ClassRating 1018
+ClassRating11 1061
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 0
+Skill 'bless' 95 5 0
+Skill 'blindness' 95 50 12
+Skill 'call lightning' 95 50 12
+Skill 'cause critical' 95 27 12
+Skill 'cause light' 95 15 0
+Skill 'cause serious' 95 17 0
+Skill 'control weather' 95 50 12
+Skill 'create food' 95 5 0
+Skill 'cure blindness' 95 5 12
+Skill 'cure critical' 95 20 0
+Skill 'cure light' 95 10 0
+Skill 'cure poison' 95 5 12
+Skill 'cure serious' 95 15 0
+Skill 'curse' 95 20 12
+Skill 'detect evil' 95 5 0
+Skill 'detect hidden' 95 5 0
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 5 0
+Skill 'detect poison' 95 5 0
+Skill 'dispel evil' 95 10 0
+Skill 'dispel good' 95 10 0
+Skill 'earthquake' 95 50 0
+Skill 'faerie fire' 95 5 0
+Skill 'faerie fog' 95 12 0
+Skill 'flamestrike' 95 60 12
+Skill 'harm' 95 50 0
+Skill 'heal' 95 30 12
+Skill 'invulnerability' 95 25 24
+Skill 'know alignment' 95 9 0
+Skill 'no summon' 95 50 0
+Skill 'poison' 95 50 12
+Skill 'protection' 95 5 0
+Skill 'remove curse' 95 5 12
+Skill 'sanctuary' 95 75 0
+Skill 'silence' 95 25 12
+Skill 'slow' 95 30 12
+Skill 'summon' 95 30 36
+Skill 'word of recall' 95 125 24
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'thief' 2
+Abbreviation 'thi'
+Hits 240
+Mana 0
+Thac0 6
+Armor 100
+Strength 16
+Intelligence 14
+Wisdom 14
+Dexterity 18
+Constitution 14
+HitRegen 14
+ManaRegen 1
+Rating 0
+ClassRating 999
+ClassRating11 996
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'backstab' 85 0 0
+Skill 'disarm' 85 0 0
+Skill 'dodge' 50 0 0
+Skill 'hide' 85 0 0
+Skill 'peek' 95 0 0
+Skill 'pick lock' 95 0 8
+Skill 'second attack' 35 0 0
+Skill 'sneak' 90 0 0
+Skill 'steal' 85 0 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 50 0 0
+Skill 'use wands' 50 0 0
+Skill 'disarm traps' 60 0 36
+Skill 'set traps' 60 0 36
+Skill 'find traps' 50 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'warrior' 3
+Abbreviation 'war'
+Hits 400
+Mana 0
+Thac0 0
+Armor 100
+Strength 17
+Intelligence 12
+Wisdom 14
+Dexterity 14
+Constitution 16
+HitRegen 20
+ManaRegen 1
+Rating 0
+ClassRating 995
+ClassRating11 958
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'balance' 15 0 0
+Skill 'bash' 55 0 0
+Skill 'disarm' 80 0 0
+Skill 'kick' 75 0 24
+Skill 'parry' 80 0 0
+Skill 'pick lock' 5 0 12
+Skill 'rescue' 80 0 0
+Skill 'second attack' 80 0 0
+Skill 'swim' 5 0 12
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'ranger' 4
+Abbreviation 'ran'
+Hits 350
+Mana 100
+Thac0 2
+Armor 100
+Strength 16
+Intelligence 15
+Wisdom 15
+Dexterity 16
+Constitution 16
+HitRegen 17
+ManaRegen 10
+Rating 0
+ClassRating 1058
+ClassRating11 1028
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 85 5 0
+Skill 'bless' 85 5 0
+Skill 'cure light' 85 10 0
+Skill 'cure poison' 85 8 0
+Skill 'cure serious' 85 15 0
+Skill 'detect poison' 85 5 0
+Skill 'disarm' 85 0 0
+Skill 'dodge' 85 0 0
+Skill 'follow' 90 0 0
+Skill 'hide' 85 0 0
+Skill 'kick' 60 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 50 0 0
+Skill 'snare' 100 33 0
+Skill 'sneak' 85 0 0
+Skill 'swim' 5 0 12
+Skill 'track' 90 0 0
+Skill 'free wheres' 33 0 0
+Endclass
+Class 'invoker' 5
+Abbreviation 'inv'
+Hits 120
+Mana 1000
+Thac0 20
+Armor 100
+Strength 14
+Intelligence 18
+Wisdom 14
+Dexterity 14
+Constitution 16
+HitRegen 6
+ManaRegen 100
+Rating 0
+ClassRating 1077
+ClassRating11 937
+Random 20
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'burning hands' 95 15 9
+Skill 'chill touch' 95 50 12
+Skill 'continual light' 95 7 12
+Skill 'control weather' 95 25 12
+Skill 'death spray' 95 60 0
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 5 12
+Skill 'faerie fog' 95 12 12
+Skill 'farsee' 95 33 12
+Skill 'fireball' 95 15 0
+Skill 'fireshield' 95 350 12
+Skill 'flamestrike' 95 10 0
+Skill 'fly' 95 10 12
+Skill 'ice storm' 95 12 12
+Skill 'infravision' 95 5 12
+Skill 'invis' 95 33 12
+Skill 'lightning bolt' 95 15 0
+Skill 'locate object' 50 500 12
+Skill 'magic missile' 95 15 12
+Skill 'remove curse' 95 5 12
+Skill 'shield' 95 12 0
+Skill 'shocking grasp' 95 15 9
+Skill 'strength' 95 10 12
+Skill 'teleport' 95 333 12
+Skill 'vampiric touch' 95 100 24
+Skill 'ventriloquate' 95 5 12
+Skill 'balance' 25 0 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'abjurer' 6
+Abbreviation 'abj'
+Hits 160
+Mana 1000
+Thac0 14
+Armor 100
+Strength 14
+Intelligence 18
+Wisdom 18
+Dexterity 16
+Constitution 11
+HitRegen 5
+ManaRegen 100
+Rating 0
+ClassRating 988
+ClassRating11 980
+Random 30
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 10
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'banish item' 95 333 12
+Skill 'chill touch' 95 50 12
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 5 12
+Skill 'dispel magic' 95 15 0
+Skill 'enchant weapon' 95 30 12
+Skill 'faerie fire' 95 5 12
+Skill 'faerie fog' 95 12 0
+Skill 'feeblemind' 95 100 12
+Skill 'fireball' 95 50 12
+Skill 'invulnerability' 95 100 12
+Skill 'lightning bolt' 95 50 12
+Skill 'locate object' 95 250 12
+Skill 'magic missile' 95 15 12
+Skill 'reflect' 95 200 12
+Skill 'remove curse' 95 5 12
+Skill 'shield' 95 10 12
+Skill 'teleport' 95 600 12
+Skill 'vampiric touch' 95 200 12
+Skill 'void aura' 95 100 12
+Skill 'weaken' 95 30 12
+Skill 'weapon immunity' 95 800 12
+Skill 'peek' 50 0 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'alterer' 7
+Abbreviation 'alt'
+Hits 120
+Mana 1000
+Thac0 20
+Armor 100
+Strength 14
+Intelligence 18
+Wisdom 14
+Dexterity 14
+Constitution 11
+HitRegen 7
+ManaRegen 100
+Rating 1001
+ClassRating 987
+ClassRating11 975
+Random 20
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'burning hands' 95 15 9
+Skill 'call lightning' 95 50 0
+Skill 'change sex' 95 15 0
+Skill 'colour spray' 95 15 0
+Skill 'continual light' 95 7 0
+Skill 'control weather' 95 25 0
+Skill 'curse' 95 20 12
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 5 12
+Skill 'enchant weapon' 95 30 12
+Skill 'faerie fire' 95 5 12
+Skill 'farsee' 95 33 0
+Skill 'fireball' 95 15 12
+Skill 'fireshield' 95 500 12
+Skill 'fly' 95 10 0
+Skill 'gate' 95 500 24
+Skill 'infravision' 95 5 0
+Skill 'invis' 95 35 12
+Skill 'lightning bolt' 95 15 12
+Skill 'locate object' 50 500 12
+Skill 'magic missile' 95 15 12
+Skill 'no summon' 95 50 0
+Skill 'pass door' 95 10 0
+Skill 'shield' 95 12 12
+Skill 'shocking grasp' 95 15 0
+Skill 'stone skin' 95 12 0
+Skill 'strength' 95 10 0
+Skill 'teleport' 95 333 12
+Skill 'ventriloquate' 95 5 12
+Skill 'weaken' 95 10 12
+Skill 'wizard eye' 95 10 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'scout' 8
+Abbreviation 'sco'
+Hits 200
+Mana 100
+Thac0 2
+Armor 100
+Strength 16
+Intelligence 14
+Wisdom 14
+Dexterity 17
+Constitution 14
+HitRegen 10
+ManaRegen 10
+Rating 0
+ClassRating 1025
+ClassRating11 971
+Random 60
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'detect hidden' 80 10 12
+Skill 'detect invis' 80 10 12
+Skill 'backstab' 80 0 36
+Skill 'dodge' 85 0 0
+Skill 'follow' 60 0 0
+Skill 'hide' 95 0 0
+Skill 'peek' 85 0 0
+Skill 'pick lock' 50 0 0
+Skill 'second attack' 50 0 0
+Skill 'snare' 100 20 0
+Skill 'sneak' 90 0 0
+Skill 'swim' 5 0 12
+Skill 'track' 90 0 0
+Skill 'free wheres' 50 0 12
+Endclass
+Class 'diviner' 9
+Abbreviation 'div'
+Hits 145
+Mana 1000
+Thac0 10
+Armor 100
+Strength 16
+Intelligence 18
+Wisdom 14
+Dexterity 16
+Constitution 11
+HitRegen 8
+ManaRegen 100
+Rating 0
+ClassRating 973
+ClassRating11 957
+Random 30
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'brilliance' 95 500 12
+Skill 'burning hands' 95 15 12
+Skill 'chill touch' 95 50 12
+Skill 'continual light' 95 7 12
+Skill 'control weather' 95 25 12
+Skill 'detect evil' 95 5 0
+Skill 'detect hidden' 95 5 0
+Skill 'detect invis' 95 5 0
+Skill 'detect magic' 95 5 0
+Skill 'detect poison' 95 5 0
+Skill 'enchant weapon' 95 30 12
+Skill 'faerie fire' 95 5 12
+Skill 'faerie fog' 95 12 12
+Skill 'farsee' 95 10 12
+Skill 'fireball' 95 15 12
+Skill 'fly' 95 10 12
+Skill 'infravision' 95 5 12
+Skill 'invis' 95 35 12
+Skill 'lightning bolt' 95 15 12
+Skill 'locate object' 95 20 12
+Skill 'magic missile' 95 15 12
+Skill 'remove curse' 95 5 12
+Skill 'shield' 95 12 12
+Skill 'shocking grasp' 95 15 12
+Skill 'strength' 95 10 12
+Skill 'teleport' 95 333 12
+Skill 'vampiric touch' 95 100 12
+Skill 'ventriloquate' 95 5 12
+Skill 'weaken' 95 30 12
+Skill 'wizard eye' 95 10 12
+Skill 'pick lock' 15 0 12
+Skill 'sixth sense' 30 0 0
+Skill 'swim' 5 0 12
+Skill 'track' 95 0 0
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 100 0 0
+Endclass
+Class 'enchanter' 10
+Abbreviation 'enc'
+Hits 200
+Mana 1000
+Thac0 8
+Armor 100
+Strength 16
+Intelligence 18
+Wisdom 18
+Dexterity 16
+Constitution 14
+HitRegen 5
+ManaRegen 100
+Rating 0
+ClassRating 1024
+ClassRating11 985
+Random 30
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'blackmantle' 95 500 12
+Skill 'blindness' 95 250 12
+Skill 'burning hands' 95 15 12
+Skill 'charm person' 95 25 6
+Skill 'confusion' 95 20 12
+Skill 'continual light' 95 7 2
+Skill 'control weather' 95 25 12
+Skill 'curse' 95 20 12
+Skill 'dancing sword' 95 50 12
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 5 12
+Skill 'dispel magic' 95 10 12
+Skill 'enchant weapon' 95 30 0
+Skill 'entangle' 95 300 12
+Skill 'faerie fire' 95 5 0
+Skill 'faerie fog' 95 12 12
+Skill 'farsee' 95 33 12
+Skill 'feeblemind' 95 100 12
+Skill 'fly' 95 10 12
+Skill 'infravision' 95 5 12
+Skill 'locate object' 95 250 12
+Skill 'mesmerize' 95 100 12
+Skill 'pass door' 95 50 12
+Skill 'remove curse' 95 5 12
+Skill 'shield' 95 10 12
+Skill 'shocking grasp' 95 15 12
+Skill 'silence' 95 10 12
+Skill 'sleep' 95 40 0
+Skill 'slow' 95 10 12
+Skill 'stone skin' 95 15 12
+Skill 'strength' 95 10 12
+Skill 'teleport' 95 333 12
+Skill 'tower of id' 95 100 12
+Skill 'weaken' 95 30 0
+Skill 'steal enchantment' 95 200 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'necromancer' 11
+Abbreviation 'nec'
+Hits 120
+Mana 450
+Thac0 20
+Armor 100
+Strength 14
+Intelligence 18
+Wisdom 16
+Dexterity 14
+Constitution 11
+HitRegen 6
+ManaRegen 45
+Rating 0
+ClassRating 1014
+ClassRating11 1013
+Random 20
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 10
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'blackmantle' 95 50 12
+Skill 'burning hands' 95 15 12
+Skill 'cause critical' 95 20 0
+Skill 'cause light' 95 15 0
+Skill 'cause serious' 95 17 0
+Skill 'chill touch' 95 50 0
+Skill 'continual light' 95 7 12
+Skill 'control weather' 95 20 12
+Skill 'cure critical' 95 20 12
+Skill 'cure light' 95 10 0
+Skill 'cure poison' 95 5 12
+Skill 'cure serious' 95 15 0
+Skill 'curse' 95 20 12
+Skill 'detect invis' 95 10 0
+Skill 'energy drain' 95 50 12
+Skill 'enchant weapon' 95 30 12
+Skill 'faerie fire' 95 33 12
+Skill 'faerie fog' 95 12 12
+Skill 'farsee' 95 33 12
+Skill 'fireball' 95 15 12
+Skill 'fly' 95 10 12
+Skill 'infravision' 95 5 12
+Skill 'invis' 95 15 12
+Skill 'lightning bolt' 95 15 12
+Skill 'magic missile' 95 15 12
+Skill 'poison' 95 40 12
+Skill 'remove curse' 95 5 12
+Skill 'shield' 95 12 12
+Skill 'shocking grasp' 95 15 12
+Skill 'strength' 95 30 12
+Skill 'teleport' 95 150 12
+Skill 'vampiric touch' 95 30 12
+Skill 'weaken' 95 33 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'illusionist' 12
+Abbreviation 'ill'
+Hits 160
+Mana 370
+Thac0 20
+Armor 100
+Strength 14
+Intelligence 18
+Wisdom 16
+Dexterity 15
+Constitution 11
+HitRegen 8
+ManaRegen 40
+Rating 1001
+ClassRating 986
+ClassRating11 1001
+Random 10
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'blindness' 95 5 0
+Skill 'burning hands' 95 15 9
+Skill 'colour spray' 95 15 8
+Skill 'confusion' 95 15 12
+Skill 'continual light' 95 7 12
+Skill 'control weather' 95 25 12
+Skill 'create illusory blood' 95 10 12
+Skill 'curse' 95 20 12
+Skill 'detect invis' 95 5 12
+Skill 'detect magic' 95 33 12
+Skill 'dispel magic' 95 33 12
+Skill 'enchant weapon' 95 30 12
+Skill 'faerie fire' 95 5 12
+Skill 'faerie fog' 95 15 12
+Skill 'farsee' 95 15 12
+Skill 'fireball' 95 15 12
+Skill 'fly' 95 33 12
+Skill 'illusory appearance' 95 20 12
+Skill 'illusory auras' 95 20 12
+Skill 'improved invis' 95 150 12
+Skill 'infravision' 95 33 12
+Skill 'invis' 95 25 6
+Skill 'locate object' 50 180 12
+Skill 'mass invis' 95 20 0
+Skill 'pass door' 95 25 12
+Skill 'personal illusion' 95 50 12
+Skill 'phantasmal weaponry' 95 5 12
+Skill 'shield' 95 25 12
+Skill 'shocking grasp' 95 15 12
+Skill 'stone skin' 95 25 12
+Skill 'strength' 95 33 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'defiler' 13
+Abbreviation 'def'
+Hits 80
+Mana 500
+Thac0 20
+Armor 100
+Strength 14
+Intelligence 20
+Wisdom 14
+Dexterity 14
+Constitution 11
+HitRegen 3
+ManaRegen 0
+Rating 1001
+ClassRating 969
+ClassRating11 868
+Random 10
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 0
+Skill 'bless' 95 5 0
+Skill 'blindness' 95 5 0
+Skill 'brilliance' 95 250 12
+Skill 'call lightning' 95 50 0
+Skill 'charm person' 95 5 0
+Skill 'chill touch' 95 50 0
+Skill 'colour spray' 95 15 0
+Skill 'control weather' 95 25 0
+Skill 'cure blindness' 95 33 0
+Skill 'cure critical' 95 20 0
+Skill 'cure light' 95 10 0
+Skill 'cure poison' 95 5 0
+Skill 'cure serious' 95 15 0
+Skill 'curse' 95 20 0
+Skill 'death spray' 95 60 0
+Skill 'detect hidden' 95 5 0
+Skill 'detect invis' 95 5 0
+Skill 'detect magic' 95 5 0
+Skill 'detect poison' 95 5 0
+Skill 'dispel magic' 95 15 0
+Skill 'earthquake' 95 50 0
+Skill 'enchant weapon' 95 30 0
+Skill 'entangle' 95 25 12
+Skill 'faerie fire' 95 5 0
+Skill 'farsee' 95 33 0
+Skill 'fireball' 95 15 0
+Skill 'fireshield' 95 500 12
+Skill 'flamestrike' 95 35 0
+Skill 'fly' 95 10 0
+Skill 'heal' 50 50 0
+Skill 'ice storm' 95 33 18
+Skill 'infravision' 95 5 0
+Skill 'invis' 95 35 0
+Skill 'invulnerability' 95 100 24
+Skill 'lightning bolt' 95 15 0
+Skill 'locate object' 95 50 0
+Skill 'magic missile' 95 15 0
+Skill 'no summon' 95 50 0
+Skill 'pass door' 95 10 0
+Skill 'poison' 95 30 0
+Skill 'protection' 95 5 0
+Skill 'remove curse' 95 5 0
+Skill 'sanctuary' 95 75 0
+Skill 'shield' 95 12 0
+Skill 'shocking grasp' 95 15 0
+Skill 'sleep' 95 15 0
+Skill 'stone skin' 95 12 0
+Skill 'strength' 95 10 0
+Skill 'teleport' 95 35 0
+Skill 'vampiric touch' 95 50 0
+Skill 'ventriloquate' 95 5 0
+Skill 'weaken' 95 30 0
+Skill 'word of recall' 95 50 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 0
+Skill 'use wands' 95 0 0
+Skill 'use staffs' 95 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'paladin' 14
+Abbreviation 'pal'
+Hits 325
+Mana 100
+Thac0 2
+Armor 100
+Strength 16
+Intelligence 14
+Wisdom 16
+Dexterity 14
+Constitution 14
+HitRegen 18
+ManaRegen 10
+Rating 0
+ClassRating 969
+ClassRating11 960
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 80 5 0
+Skill 'bless' 80 5 0
+Skill 'cure blindness' 80 15 6
+Skill 'cure critical' 80 20 12
+Skill 'cure light' 80 10 12
+Skill 'cure poison' 80 5 0
+Skill 'cure serious' 80 15 0
+Skill 'detect evil' 80 5 0
+Skill 'detect hidden' 80 5 0
+Skill 'detect invis' 80 20 0
+Skill 'detect poison' 80 5 0
+Skill 'dispel evil' 80 10 0
+Skill 'heal' 80 40 12
+Skill 'know alignment' 80 9 0
+Skill 'no summon' 80 50 0
+Skill 'protection' 80 10 0
+Skill 'word of recall' 80 50 12
+Skill 'kick' 80 0 0
+Skill 'parry' 70 0 0
+Skill 'rescue' 80 0 0
+Skill 'second attack' 50 0 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 50 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'anti-paladin' 15
+Abbreviation 'ant'
+Hits 350
+Mana 100
+Thac0 4
+Armor 100
+Strength 16
+Intelligence 13
+Wisdom 16
+Dexterity 15
+Constitution 14
+HitRegen 18
+ManaRegen 10
+Rating 0
+ClassRating 1057
+ClassRating11 1049
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'blindness' 85 20 12
+Skill 'curse' 85 20 12
+Skill 'harm' 85 50 0
+Skill 'poison' 85 40 12
+Skill 'weaken' 85 30 12
+Skill 'backstab' 75 0 0
+Skill 'disarm' 85 0 0
+Skill 'dodge' 35 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 50 0 0
+Skill 'swim' 5 0 12
+Skill 'read magic' 85 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'archer' 16
+Abbreviation 'arc'
+Hits 160
+Mana 0
+Thac0 12
+Armor 100
+Strength 16
+Intelligence 13
+Wisdom 14
+Dexterity 15
+Constitution 14
+HitRegen 10
+ManaRegen 6
+Rating 0
+ClassRating 998
+ClassRating11 1087
+Random 0
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'archery' 95 0 4
+Skill 'pick lock' 25 0 12
+Skill 'second attack' 40 0 0
+Skill 'swim' 5 0 12
+Skill 'track' 90 0 0
+Skill 'free wheres' 95 0 0
+Endclass
+Class 'barbarian' 17
+Abbreviation 'bar'
+Hits 400
+Mana 0
+Thac0 0
+Armor 100
+Strength 20
+Intelligence 10
+Wisdom 10
+Dexterity 13
+Constitution 18
+HitRegen 50
+ManaRegen 0
+Rating 0
+ClassRating 1043
+ClassRating11 1085
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 1
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'balance' 20 0 0
+Skill 'bash' 55 0 0
+Skill 'disarm' 50 0 0
+Skill 'dodge' 50 0 0
+Skill 'kick' 50 0 0
+Skill 'parry' 50 0 0
+Skill 'pick lock' 5 0 24
+Skill 'second attack' 80 0 0
+Skill 'swim' 5 0 12
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'monk' 18
+Abbreviation 'mon'
+Hits 300
+Mana 100
+Thac0 2
+Armor -50
+Strength 16
+Intelligence 14
+Wisdom 15
+Dexterity 17
+Constitution 20
+HitRegen 30
+ManaRegen 10
+Rating 0
+ClassRating 965
+ClassRating11 926
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'cure critical' 95 25 12
+Skill 'invulnerability' 95 30 12
+Skill 'balance' 10 0 0
+Skill 'disarm' 50 0 46
+Skill 'dodge' 75 0 0
+Skill 'hide' 90 0 0
+Skill 'ki release' 90 55 15
+Skill 'kick' 75 0 36
+Skill 'parry' 75 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 70 0 0
+Skill 'sixth sense' 30 0 0
+Skill 'sneak' 90 0 0
+Skill 'swim' 25 0 12
+Skill 'third attack' 15 0 0
+Skill 'free wheres' 50 0 12
+Endclass
+Class 'assassin' 19
+Abbreviation 'ass'
+Hits 140
+Mana 30
+Thac0 3
+Armor 100
+Strength 15
+Intelligence 12
+Wisdom 15
+Dexterity 18
+Constitution 15
+HitRegen 6
+ManaRegen 5
+Rating 0
+ClassRating 945
+ClassRating11 874
+Random 50
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'poison' 95 25 12
+Skill 'backstab' 95 0 24
+Skill 'dodge' 80 0 0
+Skill 'enhanced damage' 60 0 100
+Skill 'follow' 90 0 0
+Skill 'hide' 85 0 0
+Skill 'pick lock' 5 0 12
+Skill 'sneak' 85 0 0
+Skill 'swim' 5 0 12
+Skill 'set traps' 65 0 36
+Skill 'find traps' 50 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'bard' 20
+Abbreviation 'brd'
+Hits 300
+Mana 100
+Thac0 10
+Armor 100
+Strength 15
+Intelligence 16
+Wisdom 15
+Dexterity 15
+Constitution 14
+HitRegen 15
+ManaRegen 10
+Rating 0
+ClassRating 950
+ClassRating11 931
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 85 5 0
+Skill 'blindness' 85 15 12
+Skill 'charm person' 85 25 12
+Skill 'chill touch' 85 50 0
+Skill 'colour spray' 85 25 12
+Skill 'confusion' 85 10 12
+Skill 'continual light' 85 33 0
+Skill 'control weather' 85 33 0
+Skill 'curse' 85 15 12
+Skill 'detect invis' 85 5 12
+Skill 'detect magic' 85 33 0
+Skill 'enchant weapon' 85 33 0
+Skill 'faerie fire' 85 10 10
+Skill 'faerie fog' 85 33 0
+Skill 'farsee' 85 33 0
+Skill 'fireball' 95 30 12
+Skill 'fly' 85 5 5
+Skill 'infravision' 85 33 0
+Skill 'invis' 85 10 5
+Skill 'lightning bolt' 95 25 12
+Skill 'locate object' 55 50 4
+Skill 'magic missile' 85 20 12
+Skill 'shield' 85 10 5
+Skill 'shocking grasp' 85 20 8
+Skill 'sleep' 85 25 12
+Skill 'strength' 85 45 12
+Skill 'teleport' 85 60 36
+Skill 'ventriloquate' 85 5 0
+Skill 'weaken' 85 25 12
+Skill 'dodge' 85 0 0
+Skill 'hide' 60 0 0
+Skill 'peek' 85 0 0
+Skill 'pick lock' 60 0 0
+Skill 'second attack' 33 0 0
+Skill 'sneak' 50 0 0
+Skill 'steal' 60 0 36
+Skill 'swim' 5 0 12
+Skill 'read magic' 85 0 0
+Skill 'use wands' 85 0 0
+Skill 'use staffs' 85 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'dragon' 21
+Abbreviation 'dra'
+Hits 230
+Mana 100
+Thac0 1
+Armor 100
+Strength 18
+Intelligence 15
+Wisdom 14
+Dexterity 14
+Constitution 16
+HitRegen 12
+ManaRegen 10
+Rating 0
+ClassRating 1037
+ClassRating11 1113
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'blindness' 1 10 3
+Skill 'burning hands' 1 10 12
+Skill 'call lightning' 1 25 12
+Skill 'chill touch' 1 25 12
+Skill 'colour spray' 1 15 12
+Skill 'death spray' 1 25 12
+Skill 'faerie fog' 1 5 3
+Skill 'fireball' 1 20 15
+Skill 'flamestrike' 1 30 12
+Skill 'fly' 1 10 12
+Skill 'ice storm' 1 50 24
+Skill 'lightning bolt' 1 15 12
+Skill 'poison' 1 10 3
+Skill 'shocking grasp' 1 10 12
+Skill 'vampiric touch' 1 25 20
+Skill 'acid breath' 1 5 6
+Skill 'fire breath' 1 5 6
+Skill 'frost breath' 1 5 6
+Skill 'gas breath' 1 5 9
+Skill 'lightning breath' 1 5 6
+Skill 'dodge' 75 0 0
+Skill 'parry' 25 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 70 0 0
+Skill 'swim' 5 0 12
+Skill 'third attack' 35 0 0
+Skill 'dragon power' 100 1 1
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'ninja' 22
+Abbreviation 'nin'
+Hits 230
+Mana 100
+Thac0 6
+Armor 100
+Strength 15
+Intelligence 14
+Wisdom 14
+Dexterity 18
+Constitution 15
+HitRegen 12
+ManaRegen 10
+Rating 0
+ClassRating 1075
+ClassRating11 1131
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'colour spray' 80 35 24
+Skill 'cure serious' 85 25 12
+Skill 'detect invis' 80 10 12
+Skill 'invulnerability' 90 25 12
+Skill 'backstab' 80 0 0
+Skill 'dodge' 85 0 0
+Skill 'enhanced damage' 20 0 100
+Skill 'hide' 90 0 12
+Skill 'pick lock' 100 0 0
+Skill 'sneak' 90 0 0
+Skill 'swim' 5 0 12
+Skill 'track' 75 0 0
+Skill 'smoke bomb' 90 30 24
+Skill 'caltrops' 90 0 4
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'psionicist' 23
+Abbreviation 'psi'
+Hits 200
+Mana 200
+Thac0 10
+Armor 100
+Strength 14
+Intelligence 17
+Wisdom 14
+Dexterity 14
+Constitution 13
+HitRegen 20
+ManaRegen 20
+Rating 0
+ClassRating 925
+ClassRating11 978
+Random 100
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'confusion' 90 20 12
+Skill 'detect hidden' 85 10 5
+Skill 'detect invis' 85 10 5
+Skill 'ego whip' 95 15 12
+Skill 'faerie fire' 90 5 5
+Skill 'faerie fog' 90 10 12
+Skill 'fly' 85 15 12
+Skill 'invis' 85 25 14
+Skill 'invulnerability' 85 20 12
+Skill 'pass door' 85 20 12
+Skill 'psionic blast' 95 25 24
+Skill 'shield' 85 12 12
+Skill 'strength' 85 25 12
+Skill 'teleport' 95 100 20
+Skill 'tower of id' 95 20 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 51 0 0
+Skill 'use wands' 51 0 0
+Skill 'free wheres' 10 0 0
+Endclass
+Class 'samurai' 24
+Abbreviation 'sam'
+Hits 350
+Mana 100
+Thac0 2
+Armor 100
+Strength 16
+Intelligence 13
+Wisdom 14
+Dexterity 15
+Constitution 15
+HitRegen 24
+ManaRegen 7
+Rating 0
+ClassRating 1003
+ClassRating11 1066
+Random 70
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'cure serious' 95 25 12
+Skill 'invulnerability' 95 50 12
+Skill 'disarm' 65 0 24
+Skill 'dodge' 25 0 0
+Skill 'ki release' 90 75 15
+Skill 'kick' 75 0 24
+Skill 'parry' 77 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 75 0 0
+Skill 'sixth sense' 15 0 0
+Skill 'swim' 5 0 12
+Skill 'third attack' 10 0 0
+Skill 'free wheres' 10 0 12
+Endclass
+Class 'druid' 25
+Abbreviation 'dru'
+Hits 250
+Mana 200
+Thac0 4
+Armor 100
+Strength 15
+Intelligence 16
+Wisdom 17
+Dexterity 16
+Constitution 14
+HitRegen 11
+ManaRegen 20
+Rating 0
+ClassRating 1012
+ClassRating11 1067
+Random 100
+ResistFire 20
+ResistCold 20
+ResistLightning 20
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 5 12
+Skill 'call lightning' 95 33 12
+Skill 'control weather' 95 10 12
+Skill 'cure critical' 95 20 12
+Skill 'cure poison' 95 10 12
+Skill 'detect hidden' 95 10 12
+Skill 'detect invis' 95 10 12
+Skill 'earthquake' 95 33 12
+Skill 'entangle' 95 50 12
+Skill 'flamestrike' 95 15 12
+Skill 'fly' 95 15 12
+Skill 'heal' 95 50 12
+Skill 'invis' 95 50 12
+Skill 'pass door' 95 50 12
+Skill 'stone skin' 95 25 12
+Skill 'strength' 95 50 12
+Skill 'whirling wind' 95 15 12
+Skill 'parry' 25 0 0
+Skill 'pick lock' 5 0 12
+Skill 'second attack' 50 0 0
+Skill 'snare' 100 50 12
+Skill 'swim' 5 0 12
+Skill 'track' 75 0 12
+Skill 'free wheres' 10 0 12
+Endclass
+Class 'spellfilcher' 26
+Abbreviation 'spf'
+Hits 230
+Mana 100
+Thac0 5
+Armor 100
+Strength 16
+Intelligence 15
+Wisdom 15
+Dexterity 17
+Constitution 14
+HitRegen 12
+ManaRegen 5
+Rating 0
+ClassRating 970
+ClassRating11 1053
+Random 50
+ResistFire 0
+ResistCold 0
+ResistLightning 0
+ResistPhysical 0
+ResistMagic 0
+ResistDrain 0
+ENABLED
+Skill 'armor' 95 10 12
+Skill 'detect invis' 95 10 12
+Skill 'enchant weapon' 95 50 12
+Skill 'faerie fire' 95 25 12
+Skill 'fireball' 95 60 12
+Skill 'fly' 95 50 12
+Skill 'invis' 95 20 12
+Skill 'shield' 95 25 12
+Skill 'strength' 95 55 12
+Skill 'vampiric touch' 95 50 12
+Skill 'wizard eye' 95 5 12
+Skill 'backstab' 85 0 0
+Skill 'hide' 90 0 0
+Skill 'peek' 95 0 0
+Skill 'pick lock' 95 0 12
+Skill 'sneak' 90 0 0
+Skill 'steal' 70 0 36
+Skill 'steal enchantment' 95 10 12
+Skill 'swim' 5 0 12
+Skill 'read magic' 95 0 12
+Skill 'use wands' 95 0 12
+Skill 'use staffs' 95 0 12
+Endclass
+Endfile

@@ -1,0 +1,799 @@
+#AREA Merlin~
+The Necromancer's Lair~
+8 50
+
+#MOBILES
+#1500
+necro necromancer mage~
+Evil Necromancer~
+An evil looking man is staring at you.
+~
+The evil necromancer stares at you with a piercing gaze as if you are a
+specimen to be dissected.  He looks mean.  He looks tough.  He looks like
+he wants to kick your ass.
+~
+32|64 8|128|16777216 -1000 P
+2 1
+#1501
+skeleton~
+A Skeleton~
+A Skeleton charges at you!
+~
+Its a skeleton.  Its bony.  Its probably hitting you.
+~
+4|32|64 0 -333 P
+1 0
+#1502
+zombie~
+A Rotting Zombie~
+A Zombie lumbers towards you, arms outstretched.
+~
+BRRRRRRRRRAAAAAAAAAAIIIIIIINNNNNNNNNNNNNNNNNNNSSS...
+~
+32|64|128|512 0 0 P
+1 0
+#1503
+bone golem~
+A Bone Golem~
+A pile of bones seems to be moving.
+~
+The ankle bone is connected to the leg bone.  The leg bone is connected to
+the hip bone.  The hip bone is connected to the...
+~
+32|64 8|64 0 P
+1 0
+#1504
+undead thief~
+An Undead Thief~
+A cloaked figure is leaning against the wall.
+~
+This guy appears to be dead.  Dead for quite some time at that.
+~
+4|64 32768|65536 0 P
+1 1
+#1505
+undead warrior~
+An Undead Warrior~
+A stalwart figure is standing here.
+~
+This guy appears to be dead.  Dead for quite some time at that.
+~
+4|64 0 0 P
+1 1
+#1506
+undead cleric~
+An Undead Cleric~
+A humble looking figure is sitting here, meditating.
+~
+This guy appears to be dead.  Dead for quite some time at that.
+~
+64 128 0 P
+1 1
+#1507
+undead mage~
+An Undead Mage~
+A wizened figure is standing here, muttering something under his breath.
+~
+This guy appears to be dead.  Dead for quite some time at that.
+~
+64|128 2 0 P
+1 1
+#1508
+paladin~
+The Shining Paladin~
+A Paladin is here fighting the forces of evil.
+~
+He is a paladin.  He has shiny armor.  A big sword.  Wants to do good
+things.  Rid the world of evil.  A real pain in the ass.  Kill him.
+~
+64 128|8192 1000 P
+1 1
+#1509
+dracolich lich dragon~
+A Dracolich~
+The skeletal remains of a dragon are here, amazingly still intact.
+~
+Its a dracolich.  It looks hungry.  Do they even eat?  Do you really wanna
+stick around to find out?
+~
+32|64 8 -1000 P
+1 0
+#1510
+invisible stalker~
+An Invisible Stalker~
+Something materializes out of thin air.
+~
+A barely coalesced form.  Nearly transparent.  No clue what it is.
+~
+32|64 2|32768 0 P
+1 0
+#0
+
+#OBJECTS
+#1500
+stilletto~
+Stilletto~
+A sharp thin blade is here.~
+~
+5 128 1|8192
+0 3 6 11
+1 350 40
+A
+13 15
+#1501
+hooded cloak~
+a Hooded Cloak~
+A pile of cloth is here.~
+~
+9 64|128 1|1024
+10 0 0 0
+3 450 35
+A
+2 1
+A
+25 20
+#1502
+jeweled bracelet~
+a Jeweled Bracelet~
+A begemmed bracelet is here.~
+~
+9 64|128 1|4096
+2 0 0 0
+1 100 15
+A
+1 1
+A
+19 1
+#1503
+steel broadsword broad sword~
+a Steel Broadsword~
+A steel sword is here.~
+~
+5 0 1|8192
+0 6 5 3
+18 550 20
+A
+18 -4
+#1504
+spiked shield~
+a Spiked Shield~
+A shield is here.~
+~
+9 64 1|512
+6 0 0 0
+10 400 30
+A
+18 -1
+A
+19 1
+#1505
+gold golden sceptre~
+a Golden Sceptre~
+A gold rod is here.~
+~
+1 64 1|16384
+0 0 -1 0
+4 350 40
+A
+19 1
+#1506
+ivory mace~
+an Ivory Mace~
+A mace of ivory is here.~
+~
+5 64|524288 1|8192
+0 4 4 8
+12 400 30
+A
+1 1
+A
+26 8
+#1507
+vial holy water~
+a Vial of Holy Water~
+A small vial is here.~
+~
+10 1|64 1
+30 28 0 3
+1 250 10
+#1508
+holy symbol amulet~
+a Holy Symbol~
+An amulet is here.~
+~
+9 1|64|256 1|4
+2 0 0 0
+2 300 20
+A
+12 15
+A
+26 8
+#1509
+ring magius~
+the Ring of Magius~
+A ring is here.~
+~
+30 64 1|2
+0 0 0 0
+1 500 20
+A
+13 15
+A
+26 8
+#1510
+robe magius~
+the Robe of Magius~
+A pile of cloth is here.~
+~
+9 64 1|1024
+3 0 0 0
+5 500 20
+A
+12 20
+A
+26 8
+#1511
+staff magius~
+the Staff of Magius~
+A staff is here.~
+~
+1 64 1|16384
+0 0 -1 0
+4 500 20
+A
+12 10
+A
+13 10
+A
+26 8
+#1512
+bone helmet~
+a Bone Helmet~
+A white helmet is here.~
+~
+9 16|64|128|4096 1|16
+7 0 0 0
+6 250 35
+A
+2 1
+#1513
+bone breast plate breastplate~
+a Bone Breastplate~
+A white breastplate is here.~
+~
+9 16|64|128|4096 1|8
+9 0 0 0 
+12 300 30
+A
+1 1
+#1514
+bone shield~
+a Bone Shield~
+A white shield is here.~
+~
+9 16|64|128|4096 1|512
+8 0 0 0
+8 250 25
+A
+24 -1
+#1515
+bone greaves~
+Bone Greaves~
+Some white greaves are here.~
+~
+9 16|64|128|4096 1|32
+8 0 0 0
+8 250 35
+A
+1 1
+#1516
+bone vambraces~
+Bone Vambraces~
+Some white vambraces are here.~
+~
+9 16|64|128|4096 1|256
+8 0 0 0
+9 250 35
+A
+13 10
+#1517
+bone boots~
+Bone Boots~
+A pair of white boots is here.~
+~
+9 16|64|128|4096 1|64
+7 0 0 0
+6 250 25
+#1518
+mist dagger~
+the Dagger of Mist~
+A small blade made of mist is here.~
+~
+5 32|64 1|8192
+0 5 3 11
+1 400 25
+A
+17 6
+A
+18 3
+A
+19 3
+#1519
+mist boots~
+the Boots of Mist~
+A pair of boots made of mist are here.~
+~
+9 32|64 1|64
+5 0 0 0
+1 600 20
+A
+24 -2
+#1520
+holy sword holiness~
+the Sword of Holiness~
+A BIG sword is here.~
+~
+5 1|64|256|1024 1|8192
+0 6 4 3
+25 500 25
+A
+17 -25
+#1521
+engraved breast plate breastplate~
+an Engraved Breastplate~
+An engraved breastplate is here.~
+~
+9 1|64 1|8
+2 0 0 0
+100 350 25
+A
+19 1
+A
+25 20
+#1522
+girdle titans~
+the Girdle of the Titans~
+A girdle is here.~
+~
+9 64 1|2048
+0 0 0 0
+20 400 20
+A
+1 2
+#1523
+cup~
+a Cup~
+A cup is here.~
+~
+17 64 1
+4 4 0 0
+2 1500 25
+#1524
+cup~
+a Cup~
+A cup is here.~
+~
+17 0 1
+4 4 21 0
+2 1500 50
+#1525
+defence potion~
+a Potion of Defence~
+A potion is here.~
+~
+10 64 1
+20 0 311 0
+1 650 15
+#1526
+scroll weaken weakening~
+a Scroll of Weakening~
+A scroll is here.~
+~
+2 64 1
+15 68 68 68
+8 400 5
+#1527
+skeleton key~
+a Skeleton Key~
+A key made of bone is here.~
+~
+1 64 1|16384
+0 0 0 0
+5 1500 30
+A
+100 95
+#0
+
+#ROOMS
+#1500
+Entry Way~
+The smell of rot and decay emanating from the north burns your nostrils.
+~
+15 1|4|8|8192 0
+D0
+North is the necromancers lair.
+~
+~
+0 -1 1502
+D4
+~
+~
+0 -1 5250
+S
+#1501
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|4|8|8192 0
+D2
+You are disoriented.
+~
+~
+0 -1 1500
+D3
+You are disoriented.
+~
+~
+0 -1 1502
+S
+#1502
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1503
+D1
+You are disoriented.
+~
+~
+0 -1 1501
+S
+#1503
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1507
+D1
+You are disoriented.
+~
+~
+0 -1 1504
+S
+#1504
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1508
+D1
+You are disoriented.
+~
+~
+0 -1 1505
+D3
+You are disoriented.
+~
+~
+0 -1 1503
+S
+#1505
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+~
+~
+0 -1 1509
+D1
+You are disoriented.
+~
+~
+0 -1 1506
+D2
+You are disoriented.
+~
+~
+0 -1 1515
+D3
+~
+~
+0 -1 1504
+S
+#1506
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1510
+D3
+You are disoriented.
+~
+~
+0 -1 1505
+S
+#1507
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1511
+D1
+You are disoriented.
+~
+~
+0 -1 1508
+D2
+You are disoriented.
+~
+~
+0 -1 1503
+S
+#1508
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1512
+D1
+You are disoriented.
+~
+~
+0 -1 1509
+D2
+You are disoriented.
+~
+~
+0 -1 1504
+D3
+You are disoriented.
+~
+~
+0 -1 1507
+S
+#1509
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1513
+D1
+You are disoriented.
+~
+~
+0 -1 1510
+D2
+You are disoriented.
+~
+~
+0 -1 1505
+D3
+You are disoriented.
+~
+~
+0 -1 1508
+S
+#1510
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1514
+D2
+You are disoriented.
+~
+~
+0 -1 1506
+D3
+You are disoriented.
+~
+~
+0 -1 1509
+S
+#1511
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D1
+You are disoriented.
+~
+~
+0 -1 1512
+D2
+You are disoriented.
+~
+~
+0 -1 1507
+S
+#1512
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D1
+You are disoriented.
+~
+~
+0 -1 1513
+D2
+You are disoriented.
+~
+~
+0 -1 1508
+D3
+~
+~
+0 -1 1511
+S
+#1513
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D1
+You are disoriented.
+~
+~
+0 -1 1514
+D2
+You are disoriented.
+~
+~
+0 -1 1509
+D3
+~
+~
+0 -1 1512
+S
+#1514
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D2
+You are disoriented.
+~
+~
+0 -1 1510
+D3
+You are disoriented.
+~
+~
+0 -1 1513
+S
+#1515
+The Necromancer's Lair~
+This room looks like every other room in the lair.  You feel very
+disoriented and lose your sense of direction.
+~
+15 1|8|8192 0
+D0
+You are disoriented.
+~
+~
+0 -1 1505
+D3
+You are disoriented.
+~
+~
+0 -1 1501
+S
+#0
+
+#RESETS
+M 0 1508 1 1500		Paladin
+E 1 1520 1 16		Sword
+E 1 1521 1 5		Breastplate
+E 1 1522 1 13 		Girdle
+M 0 1500 1 1514		Necromancer
+G 1 1523 1 		Water
+G 1 1524 1		Drano
+G 1 1525 1		Potion
+G 1 1526 1		Scroll
+M 0 1510 2 1504		Invisible Stalker
+E 1 1518 2 16		Dagger
+E 1 1519 2 8		Boots
+M 0 1510 2 1506         Invisible Stalker
+E 1 1518 2 16           Dagger
+E 1 1519 2 8            Boots
+M 0 1501 15 1501	Skeletons
+M 0 1501 15 1503        Skeletons   
+M 0 1501 15 1505        Skeletons   
+M 0 1501 15 1507        Skeletons   
+M 0 1501 15 1509        Skeletons 
+M 0 1501 15 1511        Skeletons 
+M 0 1501 15 1513        Skeletons 
+M 0 1501 15 1515        Skeletons 
+M 0 1502 15 1502        Zombies 
+M 0 1502 15 1504        Zombies 
+M 0 1502 15 1506        Zombies 
+M 0 1502 15 1508        Zombies 
+M 0 1502 15 1510        Zombies 
+M 0 1502 15 1512        Zombies 
+M 0 1502 15 1514        Zombies 
+M 0 1503 1 1505		Golem
+E 1 1512 1 6		Helmet
+E 1 1513 1 5		Plate
+E 1 1514 1 11		Shield
+E 1 1515 1 7		Greaves
+E 1 1516 1 10		Vambraces
+E 1 1517 1 8		Boots
+M 1 1509 1 1508		Dracolich
+G 1 1527 1		Skeleton Key
+M 1 1504 1 1511		Thief
+E 1 1500 1 16		Stilletto
+E 1 1501 1 12		Cloak
+E 1 1502 1 14		Bracelet
+M 1 1505 1 1511         Warrior 
+E 1 1503 1 16		Sword
+E 1 1504 1 11		Shield
+E 1 1505 1 0		Sceptre
+M 1 1506 1 1511         Cleric  
+E 1 1506 1 16		Mace
+G 1 1507 1 		Holy Water
+E 1 1508 1 3		Holy Symbol
+M 1 1507 1 1511         Mage
+E 1 1509 1 1		Ring
+E 1 1510 1 12		Robe
+E 1 1511 1 0		Staff
+S
+
+#SPECIALS
+M 1500 spec_cast_mage		Necromancer
+M 1502 spec_poison		Zombies
+M 1504 spec_thief		Thief
+M 1506 spec_cast_cleric 	Cleric
+M 1507 spec_cast_mage 		Mage
+M 1508 spec_cast_cleric 	Paladin
+M 1509 spec_cast_undead		Dracolich
+S
+
+#$

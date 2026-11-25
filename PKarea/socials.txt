@@ -1,0 +1,694 @@
+NAME   ~
+~
+~
+~
+~
+~
+
+NAME   crash~
+You crash the mud!~
+Connection closed by foreign host.~
+You crash the mud!~
+Connection closed by foreign host.~
+Connection closed by foreign host.~
+
+NAME   aaaaa~
+$n a~
+$n a~
+$N! $N a!~
+$N $N $n $N $N $N a!~
+$N $N $N $n A~
+
+NAME   imsnooping~
+You inform the world that you are snooping someone.~
+$n is snooping someone right now.  Talk later.~
+You tell $N that you are snooping someone.~
+Guess what?  $n is snooping someone right now.  Talk later.~
+$n tells $N 'I'm snooping someone.  Talk later'.~
+
+NAME   levias~
+You type: cast 'gate' <newbie>~
+$n tries to gate to a newbie.~
+You fireshield and gate to $N.~
+$n fireshields and gates to you.~
+$n fireshields and gates to $N.~
+
+NAME   wyrd~
+null~
+null~
+null~
+null~
+null~
+
+NAME   nodnod~
+You nodnod at no one in particular.~
+$n nodnods.~
+You nodnod at $N.~
+$n nodnods in your face.~
+$n suddenly does a double-nod in $N's direction.~
+
+NAME   FLAP~
+You wave your arms up and down yelling 'FLAP, FLAP!'.~
+$n yells 'LOOK AT ME, I'M A FUCKING LAME ASS PLAYER!'.~
+You point out that fact that $N is a freaking clueless flap.~
+Uh Oh!  Looks like $n realized you were a dumbass flap too!~
+$n wants to tatoo FLAP onto $N's head.~
+
+NAME   gambit~
+You begin calling everyone immature names.~
+$n jumps about, calling you immature names.~
+$N is a dumb fool who does undecent acts to $S mother!~
+$n calls you a cheater, there's no other way you can type that fast!~
+$n whines about $N's cheating, calling him names at the same time.~
+
+NAME   cow2~
+You make noise like a giant bovine.  MooooOOOooooOOoooo....~
+$n flaps $s giant udder in your face.~
+You decide to point out the fact that $N looks like a big fat cow.~
+$n announces to the room that you are A Big F A T Cow.~
+$n shows everyone that $N has certain anatomy that proves $E is a cow.~
+
+NAME   cow~
+You make noise like a giant bovine.  MooooOOOooooOOoooo....~
+$n flaps $s giant udder in your face.~
+You decide to point out the fact that $N looks like a big fat cow.~
+$n announces to the room that you are A Big F A T Cow.~
+$n shows everyone that $N has certain anatomy that shows $E is a cow.~
+
+NAME   gay~
+You look around for someone to be gay with.~
+$n starts acting gay.  You take a step back.~
+You and $N are now the ambiguously gay duo.~
+You and $n are now the ambiguously gay duo.  Congratulations.~
+$n and $N are the ambiguously gay duo.~
+
+NAME   bafk~
+You proudly pronounce that you are back at your keyboard.~
+$n is back from afk.  Did you miss $m?~
+You politely let $N know you are back at your keyboard.~
+$n wants you to know $e's back at $s keyboard.  Lucky you.~
+$n is back from afk.  ~
+
+NAME   doink~
+Who did you want to doink?~
+$n tries to figure out something, but just didn't quite make it.~
+You doink $N right upside the head!~
+$n just doinked you upside the head, OUCH!~
+$n doinks $N upside the head.  That must smart.~
+
+NAME   bslap~
+You need to find the bitch first, stupid.~
+$n can't find any bitches.~
+You bitch-slap $N like a red-headed step child.~
+ARGH!  $n bitch-slapped you!~
+$n just bitch-slapped $N!  Big meanie.~
+
+NAME   kickass~
+Need to find the ass first, buddy.~
+$n looks around for an ass to kick.~
+You boot $N right in the ass.~
+$n shoves his foot halfway up your ass.~
+$n kicks $N right in the ass while you watch gleefully.~
+
+NAME   narf~
+You Narf loudly so the whole world will know.~
+With a wild look in $s eye, $n goes, "NARF!!"~
+You turn to $N and Narf like you've never Narfed before!~
+With a wild look in $s eye, $n turns to you and goes, "NARF!!"~
+With a wild look in $s eye, $n turns to $N and goes, "NARF!!"~
+
+NAME   kissass~
+You pucker up your lips and get ready for some serious ass kissing!~
+$n puckers up and prepares to do some serious ass kissing!~
+You accuse $N of being a first class ass kisser!~
+$n wipes the brown off your nose.  Ass kisser!~
+$n wipes the brown off $N's nose.  Ass kisser!~
+
+NAME   ddance~
+You dirty dance with an imaginary Patrick Swayze.~
+$n grinds and gyrates $s hips against the air.~
+You wraps your arms around $N's waist and dirty dance with $M.~
+$n cranks up the music and grins $s hips against yours.~
+$n cranks up the music and dirty dances with $N.~
+
+NAME   rose~
+Roses are red, violets are blue, choose a victim, you big gazoo~
+$n stops to smell the roses.~
+You give $N a rose.~
+$n smiles and hands you a rose.  --`--,--<@~
+$n gives $N a rose.~
+
+NAME   gobi~
+You flop around like a fish.  >-(,>~
+$n flops around like a fish out of water.  ~
+You point at $N and shout, "FISH!:~
+$n points at you and shouts, "FISH!"~
+$n declares that $N is a fish.~
+
+NAME   type~
+You throw your hands up in disgust at your typing skills!~
+$n can't type!~
+You politely inform $N that $E can't type for shit.~
+$n laughs at your pathetic typing skills.~
+$n laughs at $N's pathetic typing skills.~
+
+NAME   patass~
+Who's ass?~
+$n glances around with a fiendish grin.~
+You pat $N on $S ass.~
+$n pats you on the ass.~
+$N gets $S ass patted by $n.~
+
+NAME   weep~
+You weep.~
+A single tear traces down $n's cheeks as $e begins to weep.~
+You turn your face from $N so $E doesn't see you weep.~
+$n turns $s face from you, hoping you won't see $m weep.~
+A single tear traces down $n's cheek as $e begins to weep.~
+
+NAME   zip~
+*ZIP*~
+$n unzips $s fly.. run for the hills!~
+You grin at $N and slowly unzip your fly.~
+$n grins at you and slowly unzips $s fly.~
+$n adjusts $mself.~
+
+NAME   bird~
+**Tweet**~
+$n flips everyone the bird!  ooo!~
+You flip $N the bird.~
+$n flips you the bird!~
+$n flips $N the bird.~
+
+NAME   whine~
+WHINE! I can't believe they did that! What a cheater!~
+$n WHINES! You cheated! You didn't miss a bash!~
+You whine at $N.~
+$n whine at you!~
+$n whines at $N.~
+
+NAME   talkhand~
+Your raise your hand and say, "talk to the hand baby, to the hand".~
+$n raises $s hand and says, "talk to the hand baby, to the hand".~
+You raise your hand to $N and say, "talk to the hand".~
+$n raises $s hand to you and says "talk to the hand".~
+$n raises $s hand to $N and says, "talk to the hand".~
+
+NAME   sheep~
+You grin sheepishly.~
+$n grins sheepishly.~
+You grin sheepishly at $N.~
+$n grins sheepishly at you.~
+$n grins sheepishly at $N.~
+
+NAME   arm~
+You throw your arms up in exasperation.~
+$n throws $s arms up in exasperation.~
+You throw your arms up in exasperation over $N.~
+$n throws $s arms up in exasperation over you.~
+$n throws $s arms up in exasperation over $N.~
+
+NAME   flash~
+You flash the room.  ~
+$n whips open $s raincoat and flashes the room!~
+You flash $N.~
+$n whips open $s raincoat and flashes you.  Mama Mia!~
+$n flashes $N.~
+
+NAME   whimper~
+You whimper.~
+$n whimpers.~
+You whimper at $N.~
+$n whimpers at you.~
+$n whimpers.~
+
+NAME   apeshit~
+You go completely apeshit!~
+$n goes completely apeshit!~
+You go completely apeshit on $N!~
+$n goes completely apeshit on you!~
+$n goes completely apeshit on $N!~
+
+NAME   hissy~
+You throw a hissy fit!  Do you really think that will help?~
+$n throws a hissy fit!  What a pain.~
+Do you really think that will persuade $M?~
+$n screams and throws a hissy fit over you!~
+$n screams ans throws a hissy fit over $N!~
+
+NAME   shuffle~
+You shuffle your feet.~
+$n shuffles $s feet.~
+You lower your eyes from $N's and shuffle your feet.~
+$n lowers $s eyes from yours and shuffles $s feet.~
+$n lowers $s eyes from $N's and shuffles $s feet.~
+
+NAME   mercy~
+You beg and scream for mercy.~
+$n begs and screams for mercy.~
+You beg and scream to $N for mercy.~
+$n begs and screams to you for mercy.~
+$n begs and screams to $N for mercy.~
+
+NAME   never~
+You scream, 'Never!  Never!  Never!'~
+$n screams, 'Never!  Never!  Never!'~
+You hold $N, never wanting to let $M go.~
+$n holds you, never wanting to let you go.~
+$n holds $N, never wanting to let #M go.~
+
+NAME   feather~
+You wave a feather around menacingly.~
+$n waves a feather around threatening everyone.~
+You torture $N by tickling $M with a feather.~
+$n tortures you by tickling you with a feather.~
+$n tortures $N by tickling $M with a feather.~
+
+NAME   dream~
+You dream a little dream.~
+$n dreams a little dream.~
+You dream sweet dreams about $N.~
+$n dreams sweet dreams about you.~
+$n dreams sweet dreams about $N.~
+
+NAME   tease~
+You taunt the gods.~
+$n taunts the gods.~
+You tease $N to the point of bursting...then stop.~
+$n teases you to the point just before supreme ecstasy...then stops.~
+$n taunts $N sadistically.~
+
+NAME   beg2~
+You beg for what you so desperately need.~
+$n begs for what $e so desperately needs.~
+You beg $N for what you so desperately need.~
+$n begs you for what $e so desperately needs.~
+$n begs $N for what $e so desperately needs.~
+
+NAME   hiss~
+Hssssssssssssssss!~
+$n hisses.~
+Hssssssssssssssss!~
+$n hisses at you.~
+$n hisses at $N.~
+
+NAME   tut~
+You yell 'TUT!' at everyone.~
+$n yells 'TUT!' at everyone.~
+You go 'TUT!' at $M.~
+$n goes 'TUT!' at you.~
+$n goes 'TUT!' at $N.~
+
+NAME   eyepoke~
+You poke yourself in the eye.. Ouch.~
+$n pokes $mself in the eye.. ouch!~
+You poke $N in the eye.. ouch!~
+$n pokes you in the eye.. ouch!~
+$n pokes $N in the eye.. ouch!~
+
+NAME   boo~
+You wave your arms yelling 'Booooo! Booooo!'~
+$n waves $s arms yelling 'Boooo! Boooo!'~
+You yell 'Booo! Hisss!' at $M.~
+$n yells 'Booo! Hisss!' at you.~
+$n yells 'Boooo! Hisss!' at $N.~
+
+NAME   shakeno~
+You shake your head no.~
+$n shakes $s head no.~
+You shake your head no at $M.~
+$n shakes $s head no at you.~
+$n shakes $s head no at $N.~
+
+NAME   cross~
+You cross your fingers.~
+$n crosses $s fingers.~
+You make the sign of the cross at $N.. back demon! back!~
+$n makes the sign of the cross towards you.. back demon!~
+$n makes the sign of the cross towards $N.. back demon!~
+
+NAME   honk~
+You honk.  !HONK!~
+$n runs around the room, honking $s horn madly. HONK! HONK!~
+You honk at $N.  HONK!~
+$n honks at you.  HONK!~
+$n honks at $N. HONK!~
+
+NAME   dip~
+You say, "You know, all these chips really need is a good dip."~
+$n says, "You know, all these chips really need is a good dip."~
+You dip $N low to the ground, kissing $M deeply.~
+$n dips you low to the ground and kisses you deeply.~
+$n dips $N low to the ground, kissing $M deeply.~
+
+NAME   hankerchief~
+You wave your arms around wildly looking for a hankerchief!~
+$n is looking for a hankerchief, $e is gonna blow!~
+You hand $M a hankerchief and say 'bless you'.~
+$n hands you a hankerchief and says 'bless you.'.~
+$n hands $N a hankerchief and says 'bless you.'.~
+
+NAME   wish~
+You wish upon a star.~
+$n wishes for something $e won't get.~
+You wish that $N was here right now.~
+$n wishes that $e was there right now.~
+$n wishes $e was with $N.~
+
+NAME   moon~
+You whip your pants down and moon the room!~
+$n whips $s pants down and moons the room!~
+You whip your pants down and show $N your assets!~
+$n whips $s pants down and shows you $s assets!~
+$n moons $N!~
+
+NAME   rub~
+You rub your hands together gleefully.~
+$n rubs $s hands together gleefully.~
+You rub $N's belly.~
+$n rubs your belly.~
+$n rubs $N's belly.~
+
+NAME   pant~
+You pant lustily.~
+$n pants lustily.~
+You pant lustily at $N, eyes glazed with lust.~
+$n pants lustily at you, $s eyes glazed with lust.~
+$n pants lustily at $N.~
+
+NAME   lapdance~
+You offer a lapdance to anyone interested.~
+$n offers a lapdance to anyone.. interested?~
+You climb on $S lap and grind your hips down on $M.~
+$n climbs on your lap and grinds her hips against you.~
+$n bounces on $N's lap.~
+
+NAME   tie~
+You toy with a pair of handcuffs suggestively.~
+$n toys with a pair of handcuffs suggestively.~
+You grab $N and tie $M to the bedposts.~
+$n grabs you and ties you to the bedposts.. hmmmmm.~
+NULL~
+
+NAME   shriek~
+AAAAIIIIIEEEEEE!!~
+$n shrieks loudly!~
+You shriek at $N!  AAIIIEEE!!~
+$n shrieks loudly at you!  AAIIIEEEE!~
+$n shrieks loudly at $N!~
+
+NAME   toss~
+You toss your head smuggly.~
+$n tosses $s head smuggly.~
+You pick $N up and toss $M like a ragdoll.~
+$n picks you up and tosses you like a ragdoll.~
+$n picks $N up and tosses $M lick a ragdoll.~
+
+NAME   ring~
+You run your tongue ring across your lip.~
+$n runs $s tongue ring across $s lips.~
+You go down and run your tongue ring up $S inner thigh.~
+$n goes down and runs $s tongue ring up your inner thigh.~
+$n sticks $s tongue out at $N, showing off $s tongue ring.~
+
+NAME   zerbert~
+Who?~
+NULL~
+You lift $N's shirt up and blow air into $S navel.~
+$n pulls your shirt up and blows into your navel!~
+$n pulls $N's shirt up and blows into $S navel.~
+
+NAME   halo~
+You take a halo out of your pocket and polish it with your sleeve.~
+$n takes a halo out of $s pocket and polishes it with $s sleeve.~
+You reach up and straighten $N's halo.~
+$n reaches up and straightens your halo.~
+$n reaches up and straightens $N's halo.~
+
+NAME   shh~
+You put your finger to your lips and say very quietly, 'shhhh'~
+$n puts $s finger to $s lips and says very quietly, 'shhhh'~
+You look at $M, put your finger to your lip and say sternly, 'Shhh!'~
+$n looks at you, puts $s finger to $s lip and says sternly, 'Shhh!'~
+$n looks at $N, puts $s finger to $s lip and says sternly, 'Shhh!'~
+
+NAME   collarshake~
+Who?~
+NULL~
+You take $N by $S collars and shake $M violently.~
+$n takes you buy your collars and shakes you violently.~
+$n takes $N by $S collars and shakes $M violently.~
+
+NAME   hmph~
+You fold your arms and exclaim, 'Hmph!'~
+$n folds $s arms and exclaims, 'Hmph!'~
+You direct a 'Hmph!' toward $M.~
+$n directs a 'Hmph!' toward you.~
+$n directs a 'Hmph!' toward $N.~
+
+NAME   duck~
+You duck.~
+$n ducks.~
+You duck behind $N, your human shield.~
+$n ducks behind you, using you as a shield.~
+$n ducks behind $N, using $M as a shield.~
+
+NAME   clench~
+You clench your teeth in anxiety.~
+$n clenches $s teeth in anxiety.~
+You clench your teeth $N, what did $E do?~
+$n clenches $s teeth at you, what did you do?~
+$n clenches $s teeth at $N, what did $E do?~
+
+NAME   warm~
+You rub your arms, trying to warm yourself.~
+$n rubs $s arms, trying to warm $mself.~
+You press your body against $S, trying to warm $M.~
+$n presses $s body against yours, trying to warm you.~
+$n presses $s body against $N's, trying to warm $M.~
+
+NAME   tsk~
+You wave your finger and go, 'tsk tsk tsk!'~
+$n waves his finger and goes, 'tsk tsk tsk!'~
+You tsk at $M.~
+$n tsks at you.~
+$n tsks at $N.~
+
+NAME   fan~
+You fan yourself.  What's with this heat?~
+$n fans $mself, complaining about the heat.~
+You fan $M with a piece of paper, trying to cool $M off.~
+$n fans you with a piece of paper, trying to cool you off.~
+$n fans $N with a piece of paper, trying to cool $M off.~
+
+NAME   pace~
+You pace nervously around the room.~
+$n paces nervously around the room.~
+You pace nervously over concern for $M.~
+$n paces nervously over concern for you.~
+$n paces nervously over concern for $N.~
+
+NAME   melt~
+You melt into a sticky pile of goo.~
+$n melts into a sticky pile of goo.~
+You melt into $S arms.~
+$n melts into your arms.~
+$n melts into $N's arms.~
+
+NAME   toast~
+You hold up your glass and ding it with a fork, asking for attention.~
+$n holds up $s glass and dings it with a fork, asking for attention.~
+You clink your glass with $M.~
+$n clinks $s glass with yours.~
+$n clinks $s glass with $N.~
+
+NAME   sound~
+You close your eyes and listen to the beautiful sound of music.~
+$n closes $s eyes and listens to the beautiful sound of music.~
+You invite $M to listen to some music with you.~
+$n invites you to listen to some music with $m.~
+$n invites $N to listen to some music with $m.~
+
+NAME   music~
+You close your eyes and listen to the music.~
+$n closes $s eyes and listens to the music.~
+You invite $M to listen to some music with you.~
+$n invites you to listen to some music with $m.~
+$n invites $N to listen to some music with $m.~
+
+NAME   listen~
+You listen intently to the conversation.~
+$n listens intently to the conversation.~
+You listen intently too $M.~
+$n listens intently to you.~
+$n listens intently to $N.~
+
+NAME   greet~
+You make a grand gesture with your arms and shout "GREETINGS ALL!"~
+$n makes a grand gesture with $s arms and shouts, "GREETINGS ALL!"~
+You say, "hello $N," and kiss $M on both cheeks.~
+$n says, "hello $N," and kisses you on both cheeks.~
+$n says, "hello $N," and kisses $M on both cheeks.~
+
+NAME   tender~
+Who?~
+NULL~
+You give $M a soft, tender kiss.~
+$n gives you a soft, tender kiss.~
+$n kisses $N tenderly.~
+
+NAME   cheek~
+who?~
+NULL~
+You caress your hand softly down $S cheek.~
+$n caresses $s hand softly down your cheek.~
+$n caresses $s hand down $N's cheek.~
+
+NAME   pinch~
+Pinch who?~
+NULL~
+You pinch $S cheeks.. $E's sooooo cute, isn't $E?~
+$n pinches your cheeks because you're so darn cute.~
+$n pinches $N's cheeks.~
+
+NAME   afs~
+You will be going away from session now.~
+$n is going away from $s session for now.~
+You notify $M that you are going away from your session for now.~
+$n notifies you that $e is going away from $s session for now.~
+$n notifies $N that $e is going away from $s session for now.~
+
+NAME   spin~
+You get the spins.~
+$n gets the spins.~
+You spin $M around and around.~
+$n spins you around and around until you're dizzy.~
+$n spins $N around until $E is dizzy.~
+
+NAME   beam~
+You beam complete happy radiance.~
+$n beams complete happy radiance.~
+You beam complete happy radiance at $M.~
+$n beams complete happy radiance at you.~
+$n beams complete happy radiance at $N.~
+
+NAME   bite~
+You chomp your teeth together, biting the air.~
+$n chomps $s teeth together, biting at the air.~
+You bite $N's neck, tasting $S blood on your tongue.~
+$n bites your neck, making your knees go weak.~
+$n bites $N's neck.~
+
+NAME   doh~
+You slap your head and yell, 'DOH!'~
+$n slaps $s head and yell, 'DOH!'~
+You slap your head and yell, 'DOH' at $M!~
+$n slaps $s head and yell, 'DOH!' at you!~
+$n slaps $s head and yell, 'DOH!' at $N!~
+
+NAME   nestle~
+Nestle whom?~
+$n needs some affection.~
+You nestle with $M.~
+$n nestles with you.~
+$n and $N nestle.~
+
+NAME   holdd~
+Hold who?~
+$n gropes for someone to hold.~
+You hold $M close.~
+$n holds you close.~
+$n holds $N close.~
+
+NAME   lust~
+You lust for someone to love.~
+$n lusts for someone to love.~
+You lust for $M.~
+$n lusts for you.~
+$n lusts for $N.~
+
+NAME   stretch~
+You strrrrrretch and relax your muscles.~
+$n strrrrrrecthes and relaxes $s muscles.~
+You grab $N by both arms and strrrrrrretch $M.~
+$n grabs you by both arms and strrrrrrretches you.~
+$n grabs $N by the arms and strrrrrrretches $M.~
+
+NAME   tip~
+You tip your hat to everyone.~
+$n tips $s hat to you.~
+You tip your hat to $M.~
+$n tips $s hat to you.~
+$n tips $s hat to $N.~
+
+NAME   seduce~
+You lick your lips seductively.~
+$n licks $s lips seductively.~
+You whisper to $N, "I'm going to seduce you now."~
+$n whispers to you, "I'm going to seduce you now.".~
+$n whispers something to $N.~
+
+NAME   calm~
+You try to calm down...~
+$n tries to calm down...~
+You try to calm $M down...~
+$n tries to calm you down...~
+$n tries to calm $N down...~
+
+NAME   heh~
+You go 'Heh Heh Heh'~
+$n goes 'Heh Heh Heh'~
+You look at $M and go 'Heh Heh Heh'~
+$n looks at you and goes 'Heh Heh Heh'~
+$n looks at $N and goes 'Heh Heh Heh'~
+
+NAME   woo~
+You go 'Woo! Woo!'~
+$n goes 'Woo! Woo!'~
+You go 'Woo! Woo!' at $M!~
+$n goes 'Woo! Woo!' at you!~
+$n goes 'Woo! Woo!' at $N!~
+
+NAME   nog~
+You nog.~
+$n nogs.~
+You nog at $M.~
+$n nogs at you.~
+$n nogs at $N.~
+
+NAME   bearhug~
+You put on a frown and look for a hug.~
+$n looks like $e needs a big hug.~
+You give $M a great big bearhug.~
+$n gives you a great big bearhug.~
+$n gives $N a great big bearhug.~
+
+NAME   lips~
+You pucker up your lips.~
+$n puckers up $s lips.~
+You softly trace the outline of $S lips with your tongue.~
+$n softly traces the outline of your lips with $s tongue.~
+$n gives $N a kiss on the nose.~
+
+NAME   beep~
+You act like the roadrunner and go 'Beep! Beep!'~
+$n acts like the roadrunner and goes 'Beep! Beep!'~
+You beep $M nose.~
+$n beeps your nose.~
+$n beeps $N.~
+
+NAME   smooch~
+Smooch who?~
+$n is looking around for someone to smooch.~
+You smooch $M.~
+$n smooches you.~
+$n smooches $N.~
+
+NAME   violin~
+You play a beautiful melody on the violin.~
+$n plays a beautiful melody on the violin.~
+You play a beautiful melody for $M on the violin.~
+$n plays a beautiful melody for you on the violin.~
+$n plays a beautiful melody for $N on the violin.~
+
+ENDFILE

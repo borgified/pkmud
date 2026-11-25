@@ -1,0 +1,39 @@
+
+# Set limits.
+nohup
+
+limit stack 1024k
+
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 1000
+    while ( 1 )
+	set logfile = ../PKlog/$index.log
+#	if ( ! -e $logfile ) break
+# change to following to check for zipped files
+	if ( ! -e $logfile.gz ) break
+	@ index++
+    end
+
+    # Run merc.
+    ./PKAnnounce >&! $logfile
+
+# compress old log
+    gzip $logfile
+# delete old log
+#    rm -f $logfile.gz
+
+    # Delete this out if no adb.
+#    if ( -e core ) then
+#	    echo '$c' | adb ../src/merc
+#    endif
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+    #sleep 15
+end

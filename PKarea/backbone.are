@@ -1,0 +1,1574 @@
+#AREA	none~
+World Backbone~
+1|16 100
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#16001
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 3052
+D2
+~
+~
+0 -1 16002
+S
+#16002
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16001
+D2
+~
+~
+0 -1 16003
+S
+#16003
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16002
+D2
+~
+~
+0 -1 16004
+S
+#16004
+Granite Bridge~
+Your on a granite bridge, a river flows underneath
+~
+11 0 1 
+D0
+~
+~
+0 -1 16003
+D2
+~
+~
+0 -1 16005
+S
+#16005
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16004
+D2
+~
+~
+0 -1 16006
+S
+#16006
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16005
+D2
+~
+~
+0 -1 16007
+S
+#16007
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16006
+D2
+~
+~
+0 -1 16008
+S
+#16008
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16007
+D2
+~
+~
+0 -1 16009
+S
+#16009
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16008
+D2
+~
+~
+0 -1 16010
+S
+#16010
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16009
+D2
+~
+~
+0 -1 16011
+S
+#16011
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16010
+D2
+~
+~
+0 -1 16012
+S
+#16012
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16011
+D2
+~
+~
+0 -1 16013
+S
+#16013
+South Road~
+Your on a long dusty road leading south..duh.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16012
+D2
+~
+~
+0 -1 16014
+S
+#16014
+Edge of Forest~
+A thick green forest starts here.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16013
+D2
+~
+~
+0 -1 16015
+S
+#16015
+Forest~
+Your in a forest.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16014
+D2
+~
+~
+0 -1 16016
+S
+#16016
+Edge of Forest~
+To the north a forest begins, to the south ya
+get hills.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16015
+D2
+~
+~
+0 -1 16017
+S
+#16017
+Hills.~
+The forest ends and hills start.
+~
+11 0 4 
+D0
+~
+~
+0 -1 16016
+D1
+~
+~
+0 -1 16018
+S
+#16018
+Hills~
+Lots of hills..hills hills hillls.
+~
+11 0 4 
+D2
+~
+~
+0 -1 16019
+D3
+~
+~
+0 -1 16017
+S
+#16019
+Hills~
+You see hills..lots and lots of hills.
+~
+11 0 4 
+D0
+~
+~
+0 -1 16018
+D2
+~
+~
+0 -1 16020
+S
+#16020
+Hills~
+You see hills..lots and lots of hills.
+~
+11 0 4 
+D0
+~
+~
+0 -1 16019
+D1
+~
+~
+0 -1 16021
+S
+#16021
+Hills~
+You see hills..lots and lots of hills.
+~
+11 0 4 
+D1
+~
+~
+0 -1 16022
+D3
+~
+~
+0 -1 16020
+S
+#16022
+Big Hills~
+You see big hills..lots and lots of  big hills.
+~
+11 0 4 
+D2
+~
+~
+0 -1 16023
+D3
+~
+~
+0 -1 16021
+S
+#16023
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16022
+D1
+~
+~
+0 -1 16024
+S
+#16024
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16025
+D3
+~
+~
+0 -1 16023
+S
+#16025
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16026
+D1
+~
+~
+0 -1 16028
+D3
+~
+~
+0 -1 16024
+S
+#16026
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16027
+D2
+~
+~
+0 -1 16025
+S
+#16027
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains.  Man these mountains sure are big.
+~
+11 0 5
+D0
+~
+~
+0 -1 4700
+D2
+~
+~
+0 -1 16026
+S
+#16028
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16029
+D3
+~
+~
+0 -1 16025
+S
+#16029
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16030
+D3
+~
+~
+0 -1 16028
+S
+#16030
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16031
+D3
+~
+~
+0 -1 16029
+S
+#16031
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16032
+D3
+~
+~
+0 -1 16030
+S
+#16032
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16033
+D1
+~
+~
+0 -1 16034
+D2
+~
+~
+0 -1 16031
+S
+#16033
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D2
+~
+~
+0 -1 16032
+S
+#16034
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16035
+D3
+~
+~
+0 -1 16032
+S
+#16035
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16036
+D3
+~
+~
+0 -1 16034
+S
+#16036
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16037
+D3
+~
+~
+0 -1 16035
+S
+#16037
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16038
+D2
+~
+~
+0 -1 16036
+S
+#16038
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16039
+D3
+~
+~
+0 -1 16037
+S
+#16039
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16040
+D2
+~
+~
+0 -1 16038
+S
+#16040
+The Grey Mountains~
+You see big mountains..lots and lots of big
+grey mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16041
+D3
+~
+~
+0 -1 16039
+S
+#16041
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16067
+D1
+~
+~
+0 -1 16042
+D3
+~
+~
+0 -1 16040
+S
+#16042
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16043
+D3
+~
+~
+0 -1 16041
+S
+#16043
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D2
+~
+~
+0 -1 16044
+D3
+~
+~
+0 -1 16042
+S
+#16044
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16043
+D1
+~
+~
+0 -1 16045
+S
+#16045
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16046
+D3
+~
+~
+0 -1 16044
+S
+#16046
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16047
+D3
+~
+~
+0 -1 16045
+S
+#16047
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16048
+D3
+~
+~
+0 -1 16046
+S
+#16048
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16049
+D2
+~
+~
+0 -1 16047
+S
+#16049
+The Valley~
+Mountains to the north of you, mountains to the
+south of you, and this valley right in the middle.
+~
+11 4 4 
+D0
+~
+~
+0 -1 16050
+D1
+~
+~
+0 -1 16104
+D2
+~
+~
+0 -1 16048
+S
+#16050
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16051
+D2
+~
+~
+0 -1 16049
+S
+#16051
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D2
+~
+~
+0 -1 16050
+D3
+~
+~
+0 -1 16052
+S
+#16052
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16053
+D1
+~
+~
+0 -1 16051
+S
+#16053
+Hills~
+Here be hills, south is mountains, north is
+not mountains.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16054
+D2
+~
+~
+0 -1 16052
+S
+#16054
+Crossroads~
+Your at the crossroads just like the room
+name says, to the north there is some north
+shit, to the south is mountains, to the east
+is some east shit.
+~
+11 0 4 
+D0
+~
+~
+0 -1 3501
+D2
+~
+~
+0 -1 16053
+D3
+~
+~
+0 -1 16055
+S
+#16055
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16054
+D3
+~
+~
+0 -1 16056
+S
+#16056
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16055
+D3
+~
+~
+0 -1 16057
+S
+#16057
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16056
+D3
+~
+~
+0 -1 16058
+S
+#16058
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16059
+D1
+~
+~
+0 -1 16057
+S
+#16059
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D2
+~
+~
+0 -1 16058
+D3
+~
+~
+0 -1 16060
+S
+#16060
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16059
+D3
+~
+~
+0 -1 16068
+S
+#16061
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16068
+D2
+~
+~
+0 -1 16062
+S
+#16062
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16061
+D2
+~
+~
+0 -1 16063
+S
+#16063
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16062
+D1
+~
+~
+0 -1 16064
+S
+#16064
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D1
+~
+~
+0 -1 16065
+D3
+~
+~
+0 -1 16063
+S
+#16065
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D2
+~
+~
+0 -1 16066
+D3
+~
+~
+0 -1 16064
+S
+#16066
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16065
+D2
+~
+~
+0 -1 16067
+S
+#16067
+Mountains~
+You see big mountains..lots and lots of big
+mountains. Man these mountains sure are big.
+~
+11 0 5 
+D0
+~
+~
+0 -1 16066
+D2
+~
+~
+0 -1 16041
+S
+#16068
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16073
+D1
+~
+~
+0 -1 16060
+D2
+~
+~
+0 -1 16061
+D3
+~
+~
+0 -1 16069
+S
+#16069
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16068
+D3
+~
+~
+0 -1 16070
+S
+#16070
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16069
+D2
+~
+~
+0 -1 16071
+S
+#16071
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16070
+D3
+~
+~
+0 -1 16072
+S
+#16072
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16071
+S
+#16073
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16074
+D2
+~
+~
+0 -1 16068
+S
+#16074
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D2
+~
+~
+0 -1 16073
+D3
+~
+~
+0 -1 16075
+S
+#16075
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D1
+~
+~
+0 -1 16074
+D3
+~
+~
+0 -1 16076
+S
+#16076
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16077
+D1
+~
+~
+0 -1 16075
+S
+#16077
+Plains~
+Your in some rolling plains..kinda boring, just
+like this room description
+~
+11 0 2 
+D0
+~
+~
+0 -1 16078
+D2
+~
+~
+0 -1 16076
+S
+#16078
+Edge of Woods~
+To the north is woods, to the south is not.
+~
+11 0 2 
+D0
+~
+~
+0 -1 16079
+D2
+~
+~
+0 -1 16077
+S
+#16079
+Woods~
+Trees. Made from wood..so i called it Woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16080
+D2
+~
+~
+0 -1 16078
+D3
+~
+~
+0 -1 16085
+S
+#16080
+Grey Hills~
+Hills. Hills with rocks. Grey rocks. Lots and
+lots of grey rocks. So like if you squint your
+eyes and stuff, hills look grey.
+~
+11 0 4 
+D1
+~
+~
+0 -1 16081
+D3
+~
+~
+0 -1 16079
+S
+#16081
+Grey Hills~
+Go one west if you want to see the description,
+I ain't typing it again.
+~
+11 0 4 
+D1
+~
+~
+0 -1 16082
+D3
+~
+~
+0 -1 16080
+S
+#16082
+Grey Hills~
+Grey hills, just like the room name ya dolt.
+~
+11 0 4 
+D0
+~
+~
+0 -1 16083
+D3
+~
+~
+0 -1 16081
+S
+#16083
+Grey Hills~
+Grey hills, just like the room name ya dolt.
+~
+11 0 4 
+D1
+~
+~
+0 -1 16084
+D2
+~
+~
+0 -1 16082
+S
+#16084
+Grey Hills~
+Grey hills, just like the room name ya dolt.
+~
+11 0 4 
+D3
+~
+~
+0 -1 16083
+S
+#16085
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16079
+D3
+~
+~
+0 -1 16086
+S
+#16086
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16085
+D3
+~
+~
+0 -1 16087
+S
+#16087
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16086
+D3
+~
+~
+0 -1 16088
+S
+#16088
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16092
+D1
+~
+~
+0 -1 16087
+D3
+~
+~
+0 -1 16089
+S
+#16089
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16088
+D2
+~
+~
+0 -1 16090
+S
+#16090
+Woods near River~
+Same woods, river to the west.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16089
+D3
+~
+~
+0 -1 16091
+S
+#16091
+Clearing on River~
+Your at a clearing and *suprise*..there's
+a river to the west.
+~
+11 4 2 
+D1
+~
+~
+0 -1 16090
+S
+#16092
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16093
+D2
+~
+~
+0 -1 16088
+S
+#16093
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16094
+D2
+~
+~
+0 -1 16092
+S
+#16094
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D2
+~
+~
+0 -1 16093
+D3
+~
+~
+0 -1 16095
+S
+#16095
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16094
+D3
+~
+~
+0 -1 16096
+S
+#16096
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16095
+D3
+~
+~
+0 -1 16097
+S
+#16097
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16098
+D1
+~
+~
+0 -1 16096
+S
+#16098
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16099
+D2
+~
+~
+0 -1 16097
+S
+#16099
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D2
+~
+~
+0 -1 16098
+D3
+~
+~
+0 -1 16100
+S
+#16100
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16099
+D3
+~
+~
+0 -1 16101
+S
+#16101
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D1
+~
+~
+0 -1 16100
+D3
+~
+~
+0 -1 16102
+S
+#16102
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 16103
+D1
+~
+~
+0 -1 16101
+D2
+~
+~
+0 -1 9201
+S
+#16103
+Woods~
+Trees. Made from wood, So i called it woods.
+~
+11 0 3 
+D0
+~
+~
+0 -1 3502
+D2
+~
+~
+0 -1 16102
+S
+#16104
+The Valley~
+Mountains to the north of you, mountains to the
+south of you, and this valley right in the middle.
+Some human shit city to the east where there's supposed
+to be half orcs.
+~
+11 0 3
+D3
+~
+~
+0 -1 16049
+S
+#0
+
+#RESETS
+S
+
+
+
+#SPECIALS
+S
+
+
+
+#$
+
+
+

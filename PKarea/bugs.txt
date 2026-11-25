@@ -1,0 +1,39 @@
+[  603] Levias: rofl, whoops. ok this is a bug Rip! Memnoch releases all his qi and sends Levias reeling. seeing how I am Levias ;) should say you.
+[ 9044] Icestryke: when you try to kill the guard in the entrence to the Cleric's guild in New Thalos you can't type k guard you have to type k cleric
+[ 7434] Blickage: despite what the room says, there is, in fact, no down exit.  Not a case of an area down from here not being loaded, there is just, simply, no down exit.
+[ 3054] Blickage: vampiric touch boosts your hp past your max untill someone casts a heal spell on you or you tick
+[13109] Knife: casting enchant on runed dagger will zap the dagger with no msg and runed doesn't have magic flag
+[ 3906] Stab: private war shouldnt have a one-time teleport option
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Damage: 1015: more than 1000 points!
+[*****] BUG: Load_char_obj: # not found.
+[*****] BUG: Load_char_obj: # not found.
+[*****] BUG: Load_char_obj: # not found.
+[*****] BUG: Load_char_obj: # not found.
+[ 6399] Locutus: hi
+[*****] BUG: Act: null vch with TO_VICT.
+[*****] BUG: Act: null vch with TO_VICT.
+[*****] BUG: Unequip_char: already unequipped.
+[13000] Pumse: there arent' enough players to start a war and I can't kill myself. it sucks
+[*****] BUG: Act: null vch with TO_VICT.
+[*****] BUG: Aggr_update: null victim.
+[*****] BUG: Aggr_update: null victim.
+[*****] BUG: Aggr_update: null victim.
+[*****] BUG: Aggr_update: null victim.
+[*****] BUG: Unequip_char: already unequipped.
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[*****] BUG: Set_fighting: already fighting
+[ 5061] Aaronblack: I can't die.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 33912 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 69512 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.
+[*****] BUG: Alloc_mem: size 64000 too large.

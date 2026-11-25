@@ -1,0 +1,3545 @@
+#AREA	Terror~
+The Rogue's Guild~
+8 75
+
+
+#MOBILES
+#9900
+thief rogue nasty~
+the nasty rogue~
+A vile disgusting little rogue lurks about in the shadows.
+~
+This is perhaps the most nasty disgusting little wretch you have ever seen.  He
+ is an soutcast from society, forced to survive by whatever means necessary.
+ His eyes gleam as he guesses how much gold he can get for your armor.
+~
+4|32|64 8|32|512|32768|65536 0 P
+3 1
+#9901
+warg malignant~
+the malignant warg~
+A malignant warg is here chained to the wall.
+~
+This is the largest warg you have ever seen.  It seems to have been bread from
+ the wargs of the forest, however only there strongest and nastiest qualities
+ have survived.  Its huge claws and teeth glisten in the dim light.  Its
+ gleaming eyes pierce through the darkness in search of its next meal.
+~
+2|32|64 8|32|512 0 P
+3 1
+#9902
+bastard child~
+a bastard child~
+A bastard child stands here covered in filth.
+~
+This is the most pittiful child you have ever seen.  His body is covered in dirt
+ and his clothing is in tatters.  He has the look of someone who survives only
+ by rooting through the gutters.
+~
+4|64 8|32|512 0 P
+1 1
+#9903
+assassin killer man~
+the assassin~
+A finely dressed citizen stands here watching you pass.
+~
+This man is arrayed in nice clothing.  He walks with the normal step of a man on
+ the way to see his grocer.  He looks completely ordinary and it seems that he
+ would blend unseen into any crowd.
+~
+100 32768|524296 0 P
+3 1
+#9904
+whore slut~
+the nasty whore~
+A filthy looking slut stands here beconing you.
+~
+This is one of the nastier looking whores you have seen in any of the worst
+ brothels.  She is quite fat and has very large breasts.  It appears that she
+ hasn't bathed in weeks, yet the overpowering smell is cheap perfume.
+~
+2|4|64|128 8|32|512 0 P
+1 2
+#9905
+shopkeeper armorer~
+the guild armorer~
+The guild armorer stands here selling to the residents.
+~
+He looks like a villian who has been accustomed to dealing with the worst scum
+ and thieves around for many years.  It would be unwise to try any thieving or
+ scams in his presence.  He looks like a man who has seen them all.
+~
+2 512 900 P
+40 1
+#9906
+weaponsmaster master~
+the guild weaponsmaster~
+The weaponsmaster stands here sharpening a dagger.
+~
+This large man shows the signs of much combat.  He appears to be the type to cut
+ your throat before you have a chance to draw any weapon against him.
+~
+2 512 900 P
+40 1
+#9907
+herbalist shopkeeper~
+the herbalist~
+The herbalist stands here stirring a large pot.
+~
+This rather large man looks very crude and rough.  His clothes are poor and look
+ as if they have seen rough treatment as he scours the countryside looking for
+ ingredients.
+~
+2 512 900 P
+40 1
+#9908
+grath master~
+the master rogue~
+Grath, the master rogue stands here fingering a dirk.
+~
+You see a tall lean man dressed in fine clothing.  Dark eyes glare at you from
+ under his hood.  A long slender dirk encrusted with jewels hangs from his belt.
+~
+2|32|64 8|32|512|32768 0 P
+3 1
+#9909
+fence shopkeeper~
+the guild fence~
+A greedy looking man stands behind the counter.
+~
+You see a rather large and grotesque looking man standing behind a long wooden
+ counter.  He is smiling as he jingles the coins in his pouch.
+~
+2 512 900 P
+40 1
+#9910
+bartender ~
+the bartender~
+A disgustly fat man stands here tending the bar.
+~
+You see a disgustingly fat old man.  He appears not to have bathed in quite some
+ time.  He smells of sweat and cheap liquor.
+~
+2 512 900 P
+40 1
+#9911
+guard captain~
+the guard captain~
+The captain of the guild guard stands here snarling.
+~
+You see a large man dressed in leather armor.  A large sheathe hangs from his
+ belt.  Obviously for the large sword in his hand.
+~
+32|64 8|32|512 0 P
+3 1
+#9912
+guard~
+the guild guard~
+A guild guard stands here eyeing you.
+~
+You see a large burly man dressed in leather armor.  He paces back and fourth
+ and watches you every move.
+~
+32|64 8|32|512 0 P
+3 1
+#9913
+shopkeeper grocer~
+the dirty grocer~
+A filthy grocer stands here to sell you food.
+~
+You see a small filty man wearing a large white apron.  He watches you out of
+ the corner of his eye as he puts goods on the shelves.
+~
+2 512 900 P
+40 1
+#9914
+guard torturer~
+a guild guard~
+A guild guard stand here preparing to torture a prisoner.
+~
+You see a rather large burly man.  He has an evil glint in his eye.  The man
+ appears to be sharpening a rather large hooked knife.
+~
+2|32|64 8|32|512 0 P
+2 1
+#9915
+cook~
+the cook~
+The cook stands here stirring a large pot.
+~
+You see a large man in a white apron.  At least you think the apron is white, it
+ is hard to tell with all the stains and crusted food sticking to it.  He
+ appears to be unarmed, except for the cleaver sitting beside him.
+~
+2|32|64 8|32|512 0 P
+1 1
+#9916
+accountant~
+the guild accountant~
+The guild accountant stands here looking over some figures.
+~
+You see a rather small mean looking little man.  Deep set eyes and a pointed
+ looking little head pronounce the small spectacles hanging from his nose.
+~
+2|32|64 8|32|512 0 P
+3 1
+#9917
+counselor~
+the masters counselor~
+The masters counselor stands here looking important.
+~
+You see a tall muscular man.  His hair is dark and hangs about his shoulders.
+ He looks at you with an evil grin as he draws his knife.
+~
+2|32|64 8|32|512 0 P
+3 1
+#9918
+maggot disgusting fuckmedicino~
+a disgusting and vicious maggot~
+A disgusting maggot is here.
+~
+It's just a maggot, a hungry one.
+~
+2|32|64 8|32|512 0 P
+3 1
+#9919
+doctor~
+the guild doctor~
+The guild doctor stands here in a filthy gown.
+~
+You see a very overworked and tired man. He is large and fat wearing a filthy
+ white gown over his clothes.  You see various instruments protruding from his
+ gown pocket.
+~
+2|64 8|32|512 0 P
+1 1
+#9920
+whore slut~
+a pretty little whore~
+A pretty little whore is laying back against a pillow.
+~
+You see a pretty little whore laying invitingly back against a large pillow.
+ She has long blond hair and slender, yet well rounded body.
+~
+2|64 8|32|512 0 P
+1 1
+#9921
+wife~
+the master's wife~
+The master's wife stands here smirking at you.
+~
+You see an immensely fat woman dressed in fine clothes.  She is smirking
+ mirthlessly at your intrusion.  It is obvious why the master has vested his
+ interests elsewhere.
+~
+2|32|64 8|32|512 0 P
+3 2
+#9922
+thief~
+a young thief~
+A young thief stands here practicing his trade.
+~
+You see a young man in shabby clothing.  He is tall and slender and looks very
+ dirty.  You have no doubt that he is up to no good.
+~
+4|64 8|32|512 0 P
+1 1
+#0
+
+
+#OBJECTS
+#9900
+potion swirling~
+a swirling potion~
+A potion of swirling colors lies here.~
+~
+10 1 1|16384
+29 74 -1 -1
+1 125 100
+#9901
+potion dark vial~
+a dark vial~
+A dark vial rests here.~
+~
+10 0 1|16384
+30 66 1 -1
+1 950 100
+#9902
+potion green deep~
+a deep green potion~
+A deep green potion lies here.~
+~
+10 0 1|8192
+30 43 61 -1
+1 3000 100
+#9903
+potion murky black~
+a murky black potion~
+A murky black potion rests here.~
+~
+10 0 1|16384
+30 19 44 -1
+1 550 100
+#9904
+gold coins heap~
+a large heap of gold~
+A large heap of gold lies here.~
+~
+20 0 1
+54 1 6 11
+1 54 20
+#9905
+small iron key~
+a small iron key~
+A small iron key lies here.~
+~
+18 0 1
+0 0 0 0
+1 5 200
+#9906
+chest large~
+a large chest~
+A large iron bound chest.~
+~
+15 0 0
+50 15 9905 0
+50 500 200
+#9907
+twisted dagger~
+a twisted dagger~
+A long slender piece of twisted metal lies here.~
+~
+5 128 1|8192|16384
+0 4 2 11
+3 75 15
+A
+2 1
+A
+19 1
+#9908
+dirk jewelled encrusted~
+a long slender dirk~
+A long slender dirk encrusted with jewels lies here.~
+~
+5 1|2 1|8192
+0 5 3 11
+5 300 20
+A
+1 1
+A
+18 3
+#9909
+dark hood black~
+a dark hood~
+A dark hood lies here radiating evil.~
+~
+15 1|2 1|16
+0 1 6 11
+5 300 15
+A
+24 0
+A
+17 -12
+#9910
+bottle dark~
+a dark bottle of clear liquid~
+A dark bottle of clear liquid lies here.~
+~
+17 0 1
+2 2 21 0
+2 500 100
+#9911
+flask leather~
+a large leather flask~
+A large leather flask lies here.~
+~
+17 0 1
+5 5 2 0
+1 500 100
+#9912
+bottle beer~
+a bottle of beer~
+A dark colored bottle of beer.~
+~
+17 0 1|8192
+5 5 1 0
+1 500 100
+#9913
+whisky~
+a whisky shot~
+A shotglass full of whisky.~
+~
+17 0 1
+1 1 5 0
+5 1000 100
+#9914
+bottle grimy~
+a grimy bottle~
+A grimy bottle lies here.~
+~
+17 0 1|8192
+1 1 21 1
+5 5 100
+#9915
+bastard sword~
+a notched bastard sword~
+A large bastard sword with a notched blade lies here.~
+~
+5 2 1|8192
+0 5 4 3
+5 500 20
+A
+19 3
+A
+18 3
+A
+1 1
+#9916
+club wooden~
+a large wooden club~
+A large wooden club lies here.~
+~
+5 0 1|8192
+0 3 5 7
+5 50 100
+A
+19 2
+#9917
+large pouch~
+a large pouch~
+A large pouch lies here.~
+~
+15 0 1|2048
+20 1 6 11
+3 200 30
+A
+24 3
+#9918
+dagger slender~
+a long slender dagger~
+A long slender dagger rests here.~
+~
+5 0 1|8192
+0 4 3 11
+2 75 80
+#9919
+cloak ~
+a long dark cloak~
+A long dark cloak lies here.~
+~
+9 0 1|1024
+9 1 6 11
+4 100 20
+#9920
+shield banded wooden~
+a small wooden shield~
+A small wooden shield banded with iron lies here.~
+~
+9 0 1|512
+10 1 6 11
+5 150 20
+A
+1 1
+A
+13 10
+A
+19 1
+#9921
+lamp reading~
+a small reading lamp~
+A small reading lamp lies here.~
+~
+1 0 1
+0 1 100 11
+2 100 50
+A
+23 5
+A
+12 20
+#9922
+leggings skin warg~
+a pair of warg skin leggings~
+A pair of warg skin leggings lies here.~
+~
+9 0 1|32
+9 1 6 11
+3 100 20
+A
+13 10
+A
+1 1
+#9923
+armbands leather~
+a pair of leather armbands~
+A pair of leather armbands lies here.~
+~
+9 0 1|256
+6 1 6 11
+4 135 25
+A
+19 1
+A
+2 1
+#9924
+boots leather~
+a pair of sleak leather boots~
+A pair of sleek leather boots lies here.~
+~
+9 0 1|64
+6 1 6 11
+4 100 45
+A
+2 1
+A
+1 1
+#9925
+bracelet bone~
+a bracelet made of bone~
+A bracelet made of bone and teeth lies here.~
+~
+9 0 1|4096
+0 1 6 11
+1 75 10
+A
+18 -2
+A
+19 2
+#9926
+knife hooked~
+a wicked looking hooked knife~
+A wicked looking hooked knife lies here.~
+~
+5 0 1|8192
+0 4 5 5
+4 50 20
+A
+19 0
+#9927
+shimmering cloak~
+a shimmering cloak~
+A shimmering cloak that blends into the settings lies here.~
+~
+9 0 1|4
+5 1 6 11
+3 200 35
+A
+24 -2
+A
+1 1
+A
+17 -5
+#9928
+desk~
+a huge oaken desk~
+A huge oaken desk stands here overpowering the room.~
+~
+15 0 0
+500 1 6 11
+500 1000 200
+#9929
+small sword~
+a small sword~
+A small sharp little sword lies here.~
+~
+5 0 1|8192
+0 1 6 11
+5 50 100
+#9930
+bag~
+a small bag~
+A small bag lies here.~
+~
+15 0 1
+20 1 6 11
+5 50 100
+#9931
+bread~
+a dark loaf of bread~
+A dark loaf of bread lies here.~
+~
+19 0 1
+10 1 6 11
+5 20 100
+#9932
+cheese~
+a small wheel of cheese~
+A small wheel of cheese lies here.~
+~
+19 0 1
+5 1 6 11
+5 50 100
+#9933
+dried meat~
+a slender piece of dried meat~
+A slender piece of dried meat lies here.~
+~
+19 0 1
+5 1 6 11
+5 50 100
+#9934
+chair leather pit~
+a huge leather chair~
+A huge leather chair with tall comfortable back sits here.~
+~
+12 0 1
+0 1 6 11
+1000 10000 200
+#9935
+large steel key~
+a large steel key~
+A large steel key lies here.~
+~
+18 0 1
+0 0 0 0
+1 150 200
+#9936
+standard bracer~
+a standard issue bracer~
+A standard issue bracer worn by the cityguards lies here.~
+~
+9 0 1|4096
+9 9 0 0
+1 75 0
+A
+12 50
+#9937
+crack~
+a crack in the wall~
+~
+~
+15 0 0
+500 13 0 0
+500 1000 0
+#0
+
+
+#ROOMS
+#9901
+A damp hallway.~
+You are standing in a circular hallway cut through the hillside.
+Water drips from the ceiling soaking everything you have.  The only
+light comes from the south.  To the north is utter darkness.
+~
+0 1|8|8192 0
+D0
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9902
+D2
+You see a bright tunnel leading to the forest.
+~
+~
+0 -1 6121
+S
+#9902
+A damp hallway.~
+You are standing in a circular hallway cut through the hillside.
+Water drips from the ceiling soaking everything you have.  The darkness
+and stench of the rotten earth overwhelms your senses.
+~
+0 1|8|8192 0
+D0
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9903
+D2
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9901
+S
+#9903
+A damp hallway.~
+You are standing in a circular hallway cut through the hillside.  Water
+drips from the ceiling soaking everything you have.  The darkness and
+stench of the rotten earth overwhelms your senses.
+~
+0 1|8|8192 0
+D0
+You see a dark hallway blocked by a rushing stream.
+~
+~
+0 -1 9904
+D2
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9902
+S
+#9904
+The flooded passage.~
+Your path is blocked by a rancid stream fed by once clean waters that
+have seeped through the forest floor.  Nothing wholesome could survive
+in water such as this.  Dark tunnels cut through the earth lead both
+north and south.
+~
+0 1|8|8192 7
+D0
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9905
+D2
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9903
+S
+#9905
+A damp hallway.~
+You are standing in a circular hallway cut through the hillside.  Water
+drips from the ceiling soaking everything you have.  The darkness and
+stench of the rotten earth overwhelms your senses.
+~
+0 1|8|8192 0
+D0
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9906
+D2
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9904
+S
+#9906
+The hall crossing.~
+You are standing in what seems to be a much used crossing.  The floor and
+walls have become more firm and are lined with stone.  A dim light comes
+from the west tunnel.  To the east is only darkness.
+~
+0 1|8|8192 0
+D1
+You see a rough cut stone corridor.
+~
+~
+0 -1 9907
+D2
+You see a dark hallway cut through the earth.
+~
+~
+0 -1 9905
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9915
+S
+#9907
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and west.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9908
+D3
+You see a rough cut stone corridor.
+~
+~
+0 -1 9906
+S
+#9908
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9909
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9907
+S
+#9909
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9910
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9908
+S
+#9910
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9911
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9909
+S
+#9911
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9912
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9910
+S
+#9912
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9913
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9911
+S
+#9913
+A rough stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is lined with loose stones fallen from the crumbling
+walls.  Small trickles of water drip down from the ceiling.  Darkness
+entends both north and south.
+~
+0 1|8|8192 0
+D0
+You see a rough cut stone corridor.
+~
+~
+0 -1 9914
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9912
+S
+#9914
+A narrow stone corridor.~
+You stand in a rough tunnel cut through the limestone deep under the
+forest.  The floor is completely covered with stones and dirt from a
+collapse long ago.  A narrow passage has been cleared through the
+rubble.  The tunnel coninues to the south, but is narly blocked by
+fallen rock to the north.
+~
+0 1|4|8|512|8192 0
+D0
+You see a collapsed stone corridor.  It is very small.
+~
+~
+0 -1 9948
+D2
+You see a rough cut stone corridor.
+~
+~
+0 -1 9913
+S
+#9915
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  You see dim outline
+of a tunnel crossing to the east.  The lighted hallway leads on to the
+west.
+~
+0 8|8192 0
+D1
+You see a rough cut stone corridor.
+~
+~
+0 -1 9906
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9916
+S
+#9916
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9915
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9917
+S
+#9917
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9916
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9918
+S
+#9918
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9917
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9919
+S
+#9919
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9918
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9920
+S
+#9920
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9919
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9921
+S
+#9921
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9920
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9922
+S
+#9922
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9921
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9923
+S
+#9923
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads on to the east.  A rough stairway leads farther down through the
+stone.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9922
+D5
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9924
+S
+#9924
+A lighted stairway.~
+Rough steps lead on through the stone walls.  They are broken and well
+worn.  Crude torches flicker out from crevaces in the crumbling walls.
+The crubling stairway continues both up and down.
+~
+0 8|8192 0
+D4
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9923
+D5
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9925
+S
+#9925
+A lighted stairway.~
+Rough steps lead on through the stone walls.  They are broken and well
+worn.  Crude torches flicker out from crevaces in the crumbling walls.
+The crubling stairway continues up and down.
+~
+0 8|8192 0
+D4
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9924
+D5
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9926
+S
+#9926
+A lighted stairway.~
+Rough steps lead on through the stone walls.  They are broken and well
+worn.  Crude torches flicker out from crevaces in the crumbling walls.
+The crubling stairway continues down.  To the west extends a well lit
+hallway.
+~
+0 8|8192 0
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9927
+D4
+You see a crumbling stairway lit by torches.
+~
+~
+0 -1 9925
+S
+#9927
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads on to the east and west.  A dim crevace opens in stone to the north.
+~
+0 8|8192 0
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9931
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9926
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9928
+S
+#9928
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.  A dim crevace through the stone opens to the
+south.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9927
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9939
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9929
+S
+#9929
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9952
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9928
+D3
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9930
+S
+#9930
+A torch lit hallway.~
+You are standing in a hallway cut through solid stone.  Crude torches
+have been stuck in crevaces in the crumbling walls.  The lighted hallway
+leads both east and west.
+~
+0 8|8192 0
+D1
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9929
+S
+#9931
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The only light comes from
+the hallway to the south.  The passage leads on to the north.
+~
+0 1|8|8192 0
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9932
+D2
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9927
+S
+#9932
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+north and south.
+~
+0 1|8|8192 0
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9933
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9931
+S
+#9933
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+north and south.
+~
+0 1|8|8192 0
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9934
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9932
+S
+#9934
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and south.
+~
+0 1|8|8192 0
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9935
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9933
+S
+#9935
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and west.
+~
+0 1|8|8192 0
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9936
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9934
+S
+#9936
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and west.
+~
+0 1|8|8192 0
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9937
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9935
+S
+#9937
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and west.
+~
+0 1|8|8192 0
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9938
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9936
+S
+#9938
+A darkened room.~
+The room around you opens up into a larger cavern.  It has been intentionally
+darkened by black cloths covering the only exits.  You hear singing and a
+great commotion above you.  The only exits appear to be up through a trap
+door or back down the passage.
+~
+0 1|8|8192 0
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9937
+D4
+Peeking through the trapdoor, you see a tavern.
+~
+~
+0 -1 3048
+S
+#9939
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  Dim light trickles in from
+the hallway to the north.  The passage leads on to the south.
+~
+0 1|8|8192 1
+D0
+You see a rough stone hallway lit by torches.
+~
+~
+0 -1 9928
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9940
+S
+#9940
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+north and east.
+~
+0 1|8|8192 1
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9939
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9941
+S
+#9941
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+east and west.
+~
+0 1|8|8192 1
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9942
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9940
+S
+#9942
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+east and west.
+~
+0 1|8|8192 1
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9943
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9941
+S
+#9943
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+east and west.
+~
+0 1|8|8192 1
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9944
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9942
+S
+#9944
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+east and west.
+~
+0 1|8|8192 1
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9945
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9943
+S
+#9945
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the west and north.
+~
+0 1|8|8192 1
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9946
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9944
+S
+#9946
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+south and east.
+~
+0 1|8|8192 1
+D1
+You see only darkness.
+~
+~
+0 -1 9947
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9945
+D4
+You see a grassy hillside.
+~
+~
+0 -1 1130
+S
+#9947
+A darkened room.~
+The room around you opens up into a larger cavern.  It has been intentionally
+darkened by black cloths covering the only exits.  You hear shuffling
+noises and clucking above you.  The only exits appear to be up through a
+trap door or back down the passage.
+~
+0 1|8|8192 1
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9946
+D4
+You see a filthy chicken coop.
+~
+~
+0 -1 619
+S
+#9948
+The crawlway.~
+This part of the tunnel appears to be in a state of constant collapse.
+There is barely enough room to squeeze between the rocks.  There is
+only room for one.  You are completely safe from anyone that might want
+to get at you, but that wouldn't be much consolation if you are buried
+alive.  You hear a wicked snarling noise to the north.
+~
+0 8|8192 0
+D0
+You see a narrow collapsed walkway.
+~
+~
+0 -1 9949
+D2
+You see a narrow stone corridor.
+~
+~
+0 -1 9914
+S
+#9949
+The chamber of the guardian.~
+This chamber opens up somewhat allowing you to breath again.  A narrow
+path has been cleared through all the fallen stones and rubble.  Bones
+and discarded armor line the floor.  It looks as if quite a feast has
+taken place here in days past.  A narrow crawlway is to the south, and
+to the north is a tunnel crossing.
+~
+0 8|8192 0
+D0
+You see a crossing of narrow stone tunnels.
+~
+~
+1 -1 9950
+D2
+You see a tiny crawlway.
+~
+~
+0 -1 9948
+S
+#9950
+The crossing.~
+You stand in the crossing of two narrow stone tunnels.  The area
+appears to be well maintained.  The stone walls have been lined with
+fallen stones.  Timbers cut from the forest support the ceiling.
+Narrow stone tunnels lead east, west, and north.  A narrow collapsed
+walkway leads to the south.
+~
+0 1|8|8192 2
+D0
+You see a narrow stone tunnel.
+~
+~
+0 -1 9959
+D1
+You see a narrow stone tunnel.
+~
+~
+0 -1 9951
+D2
+You see a narrow collapsed walkway.
+~
+~
+1 -1 9949
+S
+#9951
+A narrow stone tunnel.~
+You stand in a narrow stone tunnel.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.  Narrow stone tunnels lead
+both east and west.
+~
+0 1|8|8192 2
+D1
+~
+~
+0 -1 9978
+D3
+You see a crossing of narrow stone tunnels.
+~
+~
+0 -1 9950
+S
+#9952
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The only light trickles
+in from the hallway to the south.  The passage leads on to the north.
+~
+0 1|8|8192 2
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9953
+D2
+You see a rough cut stone hallway lit by torches.
+~
+~
+0 -1 9929
+S
+#9953
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and south.
+~
+0 1|8|8192 2
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9954
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9952
+D4
+You see a filthy sewer.
+~
+~
+0 -1 7030
+S
+#9954
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+north and west.
+~
+0 1|8|8192 2
+D0
+You see a dark corridor through the stone.
+~
+~
+0 -1 9955
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9953
+S
+#9955
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on both
+south and east.
+~
+0 1|8|8192 2
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9956
+D2
+You see a dark corridor through the stone.
+~
+~
+0 -1 9954
+S
+#9956
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the west with a small rough staircase leading up.
+~
+0 1|8|8192 2
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9955
+D4
+You see a dark corridor through the stone.
+~
+~
+0 -1 9957
+S
+#9957
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads on to
+the east and a small rough stairway leads down into the darkness.
+~
+0 1|8|8192 2
+D1
+You see a dark corridor through the stone.
+~
+~
+0 -1 9958
+D5
+You see a dark corridor through the stone.
+~
+~
+0 -1 9956
+S
+#9958
+A dim hallway.~
+You stand in a dimly lit rough cut hallway.  The passage is crude and
+small but looks as if it has had much traffic.  The passage leads
+only back to the west.
+~
+0 1|8|8192 2
+D3
+You see a dark corridor through the stone.
+~
+~
+0 -1 9957
+D4
+You see a dark tunnel leading through the mist.
+~
+~
+0 -1 13479
+S
+#9959
+A narrow stone hallway.~
+You stand in a narrow stone tunnel.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.  Narrow stone tunnels lead
+both east and west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9960
+D2
+~
+~
+0 -1 9950
+S
+#9960
+A narrow stone hallway.~
+You stand in a narrow stone tunnel.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.  Narrow stone tunnels lead
+both east and west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9961
+D2
+~
+~
+0 -1 9959
+S
+#9961
+A narrow stone hallway.~
+You stand in a narrow stone tunnel.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.  Narrow stone tunnels lead
+both east and west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9962
+D2
+~
+~
+0 -1 9960
+S
+#9962
+The central crossing.~
+You stand in a heavily used stone crossing.  The walls and
+ceiling are supported by timbers cut from the forest above.
+Wide stone corridors lead north, east, and west.  A narrow
+stone tunnel leads to the south.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9963
+D1
+~
+~
+0 -1 9971
+D2
+~
+~
+0 -1 9961
+D3
+~
+~
+0 -1 9967
+S
+#9963
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9964
+D2
+~
+~
+0 -1 9962
+S
+#9964
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9965
+D2
+~
+~
+0 -1 9963
+D3
+~
+~
+0 -1 9966
+S
+#9965
+The guild weaponry.~
+You stand in a small stone room.  Racks of various weapons line
+the rear wall.  They appear to be mostly small nasty looking
+daggers, a few bows, and some cheap looking swords.  A long
+counter seperates the customers from anything of value.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 9964
+S
+#9966
+The herbalist.~
+You stand in a small stone room.  Shelves lined with vials and
+small jars line the rear wall.  A small pot stand bubbling in the
+corner.  Herbs and roots dry dangling from the ceiling.  A counter
+seperates the customers from the shelves.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9964
+S
+#9967
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9962
+D3
+~
+~
+0 -1 9968
+S
+#9968
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9969
+D1
+~
+~
+0 -1 9967
+D2
+~
+~
+0 -1 9970
+S
+#9969
+The bar.~
+You stand in a large stone room.  Small torches dot the walls.
+Rough tables and hard chairs are placed about the room.  A long
+wooden bar lines the south wall.  Smoke hangs thick in the air
+covering the stench of cheap liquer and human sweat.  The only
+exit is to the south.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 9968
+S
+#9970
+The brothel.~
+You stand in a large stone room.  Mats and pillows line the
+floor.  Cheap tapestrys cover the hard stone walls.  The room
+is very dim.  A faint smell of cheap perfume almost overpowers
+the sweaty odor which fills the room.  The only exit is to the
+north.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9968
+S
+#9971
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9977
+D1
+~
+~
+0 -1 9972
+D2
+~
+~
+0 -1 9976
+D3
+~
+~
+0 -1 9962
+S
+#9972
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9973
+D3
+~
+~
+0 -1 9971
+S
+#9973
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor continues on to the east and
+west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9974
+D2
+~
+~
+1 -1 9975
+D3
+~
+~
+0 -1 9972
+S
+#9974
+The guild fence.~
+You stand in a small well lit room.  A large table to examine
+goods on stands in the center of the room.  A large sturdy
+cabinet fastened with a large lock stands against the far
+wall.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 9973
+S
+#9975
+Guild storage.~
+You stand in a small stone room lit only by a single torch.
+Small sturdy chests fastened by huge locks appear to be bolted
+in rows along all four walls.
+~
+0 1|8|8192 1
+D0
+~
+~
+1 -1 9973
+S
+#9976
+The guild armorer.~
+You stand in a small square room that appears to be as much
+a workshop as a store.  The work area is seperated from the
+rest of the room by a long table that stretches from wall to
+wall.  Armors, mostly leather, hang from pegs along the rear
+wall.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9971
+S
+#9977
+The guild dry goods shop.~
+You stand in a long narrow room.  The goods are seperated
+from the customers by a long counter that restricts access
+to the rear half of the room.  Large shelves lined with
+crockery and pouches of food cover the entire area behind the
+counter.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 9971
+S
+#9978
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  The corridor becomes much more narrow to
+the west and continues on to the east.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9979
+D3
+~
+~
+0 -1 9951
+S
+#9979
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 0 1
+D1
+~
+~
+0 -1 9980
+D3
+~
+~
+0 -1 9978
+S
+#9980
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 0 1
+D1
+~
+~
+0 -1 9981
+D3
+~
+~
+0 -1 9979
+S
+#9981
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+wide stone corridor continues on to the east and west, while
+more narrow corridors lead north and south.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9992
+D2
+~
+~
+0 -1 9982
+D3
+~
+~
+0 -1 9980
+S
+#9982
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9981
+D1
+~
+~
+0 -1 9990
+D2
+~
+~
+0 -1 9983
+D3
+~
+~
+0 -1 9991
+S
+#9983
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9982
+D1
+~
+~
+0 -1 9988
+D2
+~
+~
+0 -1 9984
+D3
+~
+~
+0 -1 9989
+S
+#9984
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9983
+D1
+~
+~
+0 -1 9986
+D2
+~
+~
+0 -1 9985
+D3
+~
+~
+0 -1 9987
+S
+#9985
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9984
+S
+#9986
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 9984
+S
+#9987
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9984
+S
+#9988
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 9983
+S
+#9989
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9983
+S
+#9990
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 9982
+S
+#9991
+A guard's barracks.~
+You stand in a large stone bedroom.  Small shelves littered with
+trinkets and personal items dot the walls.  Clothing hangs from
+small pegs drove into the stone.  A large cot sits in the corner.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9982
+S
+#9992
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 9993
+D3
+~
+~
+0 -1 9981
+S
+#9993
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+wide stone corridor continues on to the east and west, while
+narrow corridors lead north and south.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9994
+D1
+~
+~
+0 -1 10002
+D2
+~
+~
+0 -1 9997
+D3
+~
+~
+0 -1 9992
+S
+#9994
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9995
+D2
+~
+~
+0 -1 9993
+S
+#9995
+The dining hall.~
+You stand in a large stone room.  Torch light illuminates the
+areas close to the walls.  Long wooden tables which show no hint
+of ever being cleaned are extended in long rows.  The smell of
+food drifts in through a doorway in the rear wall.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9996
+D2
+~
+~
+0 -1 9994
+S
+#9996
+The kitchen.~
+You stand in a small stone room.  Pots dangle over large tables
+placed about the room.  Shelves filled with food line the walls.
+Pots sit bubbling over small wood burning stoves.  The exit south
+leads back into the dining hall.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 9995
+S
+#9997
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9993
+D2
+~
+~
+0 -1 9998
+S
+#9998
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 9997
+D1
+~
+~
+0 -1 9999
+S
+#9999
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 9998
+D5
+~
+~
+0 -1 10000
+S
+#10000
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.  A foul stench drifts
+in from the south.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 10001
+D4
+~
+~
+0 -1 9999
+S
+#10001
+The hall of refuse.~
+You stand in a large stone pit.  The floor is covered with all
+the waste and human filth produced by a small city.  The stench
+of it is over powering.  The tunnel leads back out to the north.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10000
+S
+#10002
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10003
+D3
+~
+~
+0 -1 9993
+S
+#10003
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+wide stone corridor continues on to the east and west, while
+narrow corridors lead north and south.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10004
+D1
+~
+~
+0 -1 10015
+D2
+~
+~
+0 -1 10013
+D3
+~
+~
+0 -1 10002
+S
+#10004
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10005
+D2
+~
+~
+0 -1 10003
+S
+#10005
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10006
+D2
+~
+~
+0 -1 10004
+S
+#10006
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10007
+D2
+~
+~
+0 -1 10005
+S
+#10007
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10008
+D2
+~
+~
+0 -1 10006
+S
+#10008
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10009
+D2
+~
+~
+0 -1 10007
+S
+#10009
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10012
+D1
+~
+~
+0 -1 10010
+D2
+~
+~
+0 -1 10008
+D3
+~
+~
+0 -1 10011
+S
+#10010
+A small bedroom.~
+You stand in a small bedroom.  The room is decorated with
+finerys collected from all around the know world.  Rich
+tapestrys line the walls.  A very large bed rests along the
+rear wall.  Perfumes and powders line a small table facing
+a mirror.  The exit east leads back into the tunnel.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 10009
+S
+#10011
+The hall of concubines.~
+You stand in a lush room covered in tapestrys.  The cold stone
+walls are not to be seen.  Lush carpets line the floor.  Pillows
+and mats lay strewn about the room.  A large bed sits in the
+center of the room.  The smell of rich perfume permeates you
+nostrils.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10009
+S
+#10012
+Grath's Bedroom.~
+You stand in a small but luxurious room.  A single lantern
+sits beside a large bed.  A large basin sits atop an open
+cabinet filled with strong liquers.  Tapestries line the walls,
+and rugs stretch across the stone floor.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 10009
+S
+#10013
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10003
+D2
+~
+~
+0 -1 10014
+S
+#10014
+The guild doctor.~
+You stand in a long stone room.  Small cots line the walls.
+A large wooden table covered with dark stains stands in the
+rear of the room surrounded by small trays of filthy looking
+instruments.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10013
+S
+#10015
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10016
+D3
+~
+~
+0 -1 10003
+S
+#10016
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west, while a dark
+entranceway appears to the south.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10026
+D2
+~
+~
+0 -1 10017
+D3
+~
+~
+0 -1 10015
+S
+#10017
+The dark corridor.~
+You stand in a dark stone corridor.  Timbers cut from the forest
+above support the sagging ceiling and walls.  Water drips through
+cracks above you.  The whole corridor appears to be dark, dank,
+filthy in general.  A wide corridor opens to the north.  The south
+leads only to more blackness.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10016
+D2
+~
+~
+0 -1 10018
+S
+#10018
+The dark corridor.~
+You stand in a dark stone corridor.  Timbers cut from the forest
+above support the sagging ceiling and walls.  Water drips through
+cracks above you.  The whole corridor appears to be dark, dank,
+filthy in general.  Small grunts and moanings float in from the
+south.  Both north and south lead only to more blackness.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10017
+D2
+~
+~
+0 -1 10019
+S
+#10019
+The lockholes.~
+You stand in a small dark corridor.  Closed iron gates cover
+the east and west walls.  You hear whimpering coming from behind
+them.  A louder moaning comes from the south.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10018
+D1
+~
+~
+0 -1 10020
+D2
+~
+~
+0 -1 10022
+D3
+~
+~
+0 -1 10021
+S
+#10020
+A small cell.~
+You stand in a small dark cell.  The walls are totally bare
+except for the random scrawling of some condemned soul.  The
+foul stench of human filth assails your nostrils.  The room
+is entirely empty of any comfort.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 10019
+S
+#10021
+A small cell.~
+You stand in a small dark cell.  The walls are totally bare
+except for the random scrawling of some condemned soul.  The
+foul stench of human filth assails your nostrils.  The room
+is entirely empty of any comfort.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10019
+S
+#10022
+The lockholes.~
+You stand in a small dark corridor.  Closed iron gates cover
+the east and west walls.  A small whimpering sound comes from
+behind them.  A loud moaning comes from the south.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10019
+D1
+~
+~
+0 -1 10023
+D2
+~
+~
+0 -1 10025
+D3
+~
+~
+0 -1 10024
+S
+#10023
+A small cell.~
+You stand in a small dark cell.  The walls are totally bare
+except for the random scrawling of some condemned soul.  The
+foul stench of human filth assails your nostrils.  The room
+is entirely empty of any comfort.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 10022
+S
+#10024
+A small cell.~
+You stand in a small dark cell.  The walls are totally bare
+except for the random scrawling of some condemned soul.  The
+foul stench of human filth assails your nostrils.  The room
+is entirely empty of any comfort.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10022
+S
+#10025
+The chamber of affliction.~
+You stand in a dark chamber.  The whole room smells of death.
+Chains and spikes dangle from the walls.  A rack filled with
+whips, brutally curved knives, and many other torture devices
+stands in the corner.  The only exit is back through the
+lockholes to the north.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10022
+S
+#10026
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  The
+corridor continues on to the east and west.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10027
+D3
+~
+~
+0 -1 10016
+S
+#10027
+A wide stone corridor.~
+You stand in a wide stone corridor cut through the heart of the
+earth.  The walls are smooth and supported by huge timbers cut
+from the forest above.  Lighted torches line the walls.  Narrow
+corridors lead north and south.  The wide stone corridor continues
+west.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10028
+D2
+~
+~
+0 -1 10034
+D3
+~
+~
+0 -1 10026
+S
+#10028
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10029
+D2
+~
+~
+0 -1 10027
+S
+#10029
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10031
+D1
+~
+~
+0 -1 10030
+D2
+~
+~
+0 -1 10028
+S
+#10030
+The bookkeeper's quarters.~
+You stand in a small stone room which appears to serve as both
+sleeping quarters and office for the guild bookkeeper.  A small
+cot sits in the corner beside a large rough desk scattered with
+papers.  Handwriten ledgers line small shelves about the room.
+The only exit is to the west.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 10029
+S
+#10031
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10033
+D1
+~
+~
+0 -1 10032
+D2
+~
+~
+0 -1 10029
+S
+#10032
+The councillor's quarters.~
+You stand in a large stone room.  Fine tapestrys line the walls.
+Rugs cover the floor.  A large bed sits against the east wall.
+Trinkets and other more expensive items sit about the room.
+clothing hangs from pegs on the walls.  The only exit appears to
+be to the west.
+~
+0 1|8|8192 1
+D3
+~
+~
+0 -1 10031
+S
+#10033
+Grath's office.~
+You stand in a large office.  The walls are covered by rich tapestries.  A large
+ desk sits in the center of the room.  Toward the back of the office a small
+ stairway leads down.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 10031
+D5
+~
+~
+0 -1 10042
+S
+#10034
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10027
+D2
+~
+~
+0 -1 10035
+S
+#10035
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10034
+D2
+~
+~
+0 -1 10036
+S
+#10036
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10035
+D1
+~
+~
+0 -1 10037
+S
+#10037
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10038
+D3
+~
+~
+0 -1 10036
+S
+#10038
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D1
+~
+~
+0 -1 10039
+D3
+~
+~
+0 -1 10037
+S
+#10039
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D2
+~
+~
+0 -1 10040
+D3
+~
+~
+0 -1 10038
+S
+#10040
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10039
+D2
+~
+~
+0 -1 10041
+S
+#10041
+A narrow stone corridor.~
+You stand in a narrow stone corridor.  It appears to be fairly well
+maintained.  The walls have been lined with fallen stones.  Timbers
+cut from the forest support the ceiling.
+~
+0 1|8|8192 1
+D0
+~
+~
+0 -1 10040
+D4
+~
+~
+1 -1 6022
+S
+#10042
+The guilds keep.~
+You stand in a small dark room.  The only exit appears to be back the way you
+ came. You notice a large chest bolted to the floor in the corner.
+~
+0 1|8|8192 1
+D4
+~
+~
+0 -1 10033
+S
+#10043
+The pit of anguish.~
+You stand in a dark room.  Chains and shackles hang from the walls.  A rack of
+ various tools of torture leans against the far wall.  A large desk sits in the
+ center of the room.
+~
+0 8|8192 0
+D5
+~
+~
+1 9935 10044
+S
+#10044
+Thrown to the maggots.~
+Well, it appears you are shit out of luck.
+~
+0 1|8|8192 1
+D4
+~
+~
+1 9935 10043
+S
+#0
+
+
+#RESETS
+*
+D 1 10044 4 2
+D 1 10043 5 2
+M 1 9904 5 9970			the nasty whore to The brothel.
+M 1 9904 5 9970
+M 1 9904 5 9970
+M 1 9904 5 9970
+M 1 9904 5 9970
+*
+M 1 9906 1 9965			the guild weaponsmaster to The guild weaponry.
+*
+M 1 9905 1 9976			the guild armorer to The guild armorer.
+*
+M 1 9907 1 9966			the herbalist to The herbalist.
+G 1 9900 100
+G 1 9901 100
+G 1 9902 100
+G 1 9903 100
+G 1 9914 100
+*
+M 1 9909 1 9974			the guild fence to The guild fence.
+G 1 9907 100
+*
+M 1 9908 1 10033			the master rogue to Grash's office.
+E 1 9909 100 6
+E 1 9908 100 16
+E 1 9919 100 12
+E 1 9925 100 14
+E 1 9925 100 15
+*
+M 1 9910 1 9969			the bartender to The bar.
+G 1 9913 100
+G 1 9912 100
+G 1 9911 100
+G 1 9910 100
+*
+M 1 9911 1 9962			the guard captain to The central crossing.
+E 1 9915 100 16
+E 1 9919 100 12
+E 1 9920 100 11
+E 1 9917 100 13
+*
+M 1 9912 30 9960			the guild guard to A narrow stone hallway.
+E 1 9916 100 16
+*
+M 1 9912 30 9985			the guild guard to A guard's barracks.
+E 1 9916 100 16
+*
+M 1 9912 30 9990			the guild guard to A guard's barracks.
+E 1 9916 100 16
+M 1 9912 30 9990			the guild guard to A guard's barracks.
+E 1 9916 100 16
+*
+M 1 9912 30 10004			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 9962			the guild guard to The central crossing.
+E 1 9916 100 16
+*
+M 1 9912 30 10029			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9913 1 9977			the dirty grocer to The guild dry goods shop.
+G 1 9930 100
+G 1 9931 100
+G 1 9932 100
+G 1 9933 100
+*
+M 1 9914 1 10025			a guild guard to The chamber of affliction.
+E 1 9925 100 14
+E 1 9925 100 15
+E 1 9926 100 16
+*
+M 1 9915 1 9996			the cook to The kitchen.
+*
+M 1 9916 1 10030			the guild accountant to The bookkeeper's quarters.
+E 1 9921 100 0
+*
+M 1 9917 1 10032			the masters counselor to The councillor's quarters.
+E 1 9922 100 7
+E 1 9923 100 10
+E 1 9919 100 12
+E 1 9926 100 16
+E 1 9927 100 3
+E 1 9927 100 4
+*
+M 1 9912 30 9930			the guild guard to A torch lit hallway.
+E 1 9916 100 16
+*
+M 1 9912 30 9964			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+M 1 9912 30 9964			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 9972			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 9998			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 10006			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 10018			the guild guard to The dark corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 10038			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+M 1 9912 30 10038			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9900 30 9908			the nasty rogue to A rough stone corridor.
+E 1 9907 100 16
+E 1 9917 100 13
+M 1 9900 30 9908			the nasty rogue to A rough stone corridor.
+E 1 9907 100 16
+E 1 9917 100 13
+*
+M 1 9900 30 9934			the nasty rogue to A dim hallway.
+E 1 9907 100 16
+*
+M 1 9900 30 9919			the nasty rogue to A torch lit hallway.
+E 1 9907 100 16
+M 1 9900 30 9919			the nasty rogue to A torch lit hallway.
+E 1 9907 100 16
+*
+M 1 9900 30 9928			the nasty rogue to A torch lit hallway.
+E 1 9907 100 16
+E 1 9917 100 13
+*
+M 1 9900 30 9928			the nasty rogue to A torch lit hallway.
+E 1 9907 100 16
+E 1 9917 100 13
+M 1 9900 30 9928			the nasty rogue to A torch lit hallway.
+E 1 9907 100 16
+E 1 9917 100 13
+*
+M 1 9900 30 9925			the nasty rogue to A lighted stairway.
+E 1 9907 100 16
+*
+M 1 9900 30 9935			the nasty rogue to A dim hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9919			the nasty rogue to A torch lit hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+M 1 9900 30 9919			the nasty rogue to A torch lit hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9929			the nasty rogue to A torch lit hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9954			the nasty rogue to A dim hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9967			the nasty rogue to A wide stone corridor.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9976			the nasty rogue to The guild armorer.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9968			the nasty rogue to A wide stone corridor.
+E 1 9917 100 13
+E 1 9907 100 16
+M 1 9900 30 9968			the nasty rogue to A wide stone corridor.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9900 30 9968			the nasty rogue to A wide stone corridor.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9903 30 9919			the assassin to A torch lit hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9903 30 9925			the assassin to A lighted stairway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9903 30 9942			the assassin to A dim hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9903 30 9956			the assassin to A dim hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+O 1 9906 100 10042			a large chest to The guilds keep.
+O 1 9928 100 10033			a huge oaken desk to Grath's office.
+P 1 9905 1 9928
+O 1 9928 100 10043			a huge oaken desk to The pit of anguish.
+P 1 9935 1 9928
+P 1 9904 -1 9906
+*
+M 1 9918 50 10044			a disgusting and vicious maggot to Thrown to the maggots.
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+M 1 9918 50 10044
+*
+M 1 9919 1 10014			the guild doctor to The guild doctor.
+E 1 9924 100 10
+*
+M 1 9921 1 10010			the master's wife to A small bedroom.
+*
+M 1 9920 10 10011			a pretty little whore to The hall of concubines.
+M 1 9920 10 10011
+M 1 9920 10 10011
+M 1 9920 10 10011
+M 1 9920 10 10011
+*
+M 1 9900 30 9901			the nasty rogue to A damp hallway.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9903 30 9903			the assassin to A damp hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+M 1 9903 30 9903			the assassin to A damp hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9900 30 9906			the nasty rogue to The hall crossing.
+E 1 9917 100 13
+E 1 9907 100 16
+M 1 9900 30 9906			the nasty rogue to The hall crossing.
+E 1 9917 100 13
+E 1 9907 100 16
+*
+M 1 9903 30 9916			the assassin to A torch lit hallway.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9912 30 9923			the guild guard to A torch lit hallway.
+E 1 9916 100 16
+*
+*
+M 1 9922 30 9927			a young thief to A torch lit hallway.
+M 1 9922 30 9927			a young thief to A torch lit hallway.
+*
+M 1 9922 30 9924			a young thief to A lighted stairway.
+*
+M 1 9922 30 9920			a young thief to A torch lit hallway.
+*
+M 1 9903 30 9909			the assassin to A rough stone corridor.
+E 1 9919 100 12
+E 1 9918 100 16
+*
+M 1 9900 30 9911			the nasty rogue to A rough stone corridor.
+E 1 9907 100 16
+*
+M 1 9901 2 9949			the malignant warg to The chamber of the guardian.
+*
+M 1 9902 30 9967			a bastard child to A wide stone corridor.
+M 1 9922 30 9927			a young thief to A torch lit hallway.
+*
+M 1 9922 30 9963			a young thief to A wide stone corridor.
+*
+M 1 9922 30 9965			a young thief to The guild weaponry.
+*
+M 1 9903 30 9971			the assassin to A wide stone corridor.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9922 30 9977			a young thief to The guild dry goods shop.
+*
+M 1 9902 30 9975			a bastard child to Guild storage.
+M 1 9902 30 9975			a bastard child to Guild storage.
+*
+M 1 9903 30 9951			the assassin to A narrow stone tunnel.
+*
+M 1 9912 30 9979			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+*
+M 1 9903 30 9981			the assassin to A wide stone corridor.
+E 1 9919 100 12
+E 1 9917 100 13
+E 1 9918 100 16
+*
+M 1 9912 30 9982			the guild guard to A narrow stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 9993			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+M 1 9912 30 9993			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+*
+M 1 9912 30 9995			the guild guard to The dining hall.
+E 1 9916 100 16
+*
+M 1 9922 30 9995			a young thief to The dining hall.
+M 1 9922 30 9995			a young thief to The dining hall.
+*
+M 1 9900 30 9995			the nasty rogue to The dining hall.
+*
+M 1 9902 30 9994			a bastard child to A narrow stone corridor.
+M 1 9902 30 9994			a bastard child to A narrow stone corridor.
+*
+M 1 9918 50 10001			a disgusting and vicious maggot to The hall of refuse.
+M 1 9918 50 10001
+M 1 9918 50 10001
+M 1 9918 50 10001
+M 1 9918 50 10001
+*
+*
+M 1 9912 30 10016			the guild guard to A wide stone corridor.
+E 1 9916 100 16
+*
+M 1 9903 30 10027			the assassin to A wide stone corridor.
+E 1 9919 100 12
+E 1 9918 100 16
+M 1 9903 30 10027			the assassin to A wide stone corridor.
+E 1 9919 100 12
+E 1 9918 100 16
+*
+M 1 9901 2 10042			the malignant warg to The guilds keep.
+*
+M 1 9900 30 10036			the nasty rogue to A narrow stone corridor.
+E 1 9907 100 16
+*
+M 1 9903 30 10041			the assassin to A narrow stone corridor.
+E 1 9919 100 12
+E 1 9918 100 16
+O 1 9934 100 10043			a huge leather chair to The pit of anguish.
+O 1 9937 100 9901                       a crack in the wall
+P 1 9936 -1 9937
+P 1 9936 -1 9937
+S
+
+
+#SHOPS
+9905 9 6 6 6 6 100 100 0 23			
+9906 5 6 6 6 6 100 100 0 23			
+9907 2 3 17 10 23 100 100 0 23			
+9909 5 9 8 3 4 100 100 0 23			
+9910 17 0 0 0 0 100 100 0 23			
+9913 19 15 17 6 6 100 100 0 23			
+0
+
+
+#SPECIALS
+M  9900 spec_thief			the nasty rogue
+M  9901 spec_poison			the malignant warg
+M  9902 spec_thief			a bastard child
+M  9904 spec_thief			the nasty whore
+M  9907 spec_cast_mage			the herbalist
+M  9908 spec_thief			the master rogue
+M  9909 spec_cast_mage			the guild fence
+M  9910 spec_cast_mage			the bartender
+M  9911 spec_guard			the guard captain
+M  9912 spec_guard			the guild guard
+M  9913 spec_cast_mage			the dirty grocer
+M  9922 spec_thief			a young thief
+S
+
+
+#$

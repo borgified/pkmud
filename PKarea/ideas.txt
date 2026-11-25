@@ -1,0 +1,26 @@
+[ 2452] Wyrd: where <mob> limited to mobs in area
+[13000] Schmuck: help staff
+[13558] Schmuck: add to help list: 'read magic' 
+[13558] Schmuck: add to help list: set traps
+[13558] Schmuck: add to help list: find traps
+[13558] Schmuck: add to help list: 'pick lock' 
+[13558] Schmuck: add to help list: disarm traps
+[13558] Schmuck: add to help list: use wands
+[ 5617] Stratio: let finger show what class the user prefers
+[13081] Stratio: how about help for potential DR ?
+[13021] Zyzal: being able to snoop invis characters in the war, can't currently
+[13570] Blickage: ghosts should maybe be able to see in the dark(ie if yer dead etc it'd be nice ot be able to explore dark areas)
+[    4] Terwox: on finger, the amount of kills they have with each class..
+[ 7044] Terwox: ghosts have infravision always
+[13000] Icestryke: This sucks, where did everyone go.
+[13000] Icestryke: this really sucks, you need to find some way to get more ppl on rip
+[13000] Quick: give invokers something good like at least pass door or 100% locate
+[13000] Quick: make rated players go random
+[13067] Spike: Let people post notes...:(
+[13000] Bogus: where is port 40000
+[ 6399] Locutus: hi
+[13000] Pumse: make more players play pkmud!
+[13000] Pumse: hey rip why don't you play mortal? You're always on anyways?
+[13000] Pumse: RIP COME PLAY
+[ 5207] Pumse: implement pirate class!
+[13000] Pumse: change cmd 'users' to 'user'. 
