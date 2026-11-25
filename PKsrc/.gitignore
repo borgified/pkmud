@@ -1,0 +1,4 @@
+*.o
+PKexecutable
+nohup.out
+data
